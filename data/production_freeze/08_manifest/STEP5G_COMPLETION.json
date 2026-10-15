@@ -1,0 +1,9 @@
+{
+  "generated_utc": "2026-09-06T16:36:55+00:00",
+  "decision": "READY FOR STEP5H-A",
+  "items_pass": 57,
+  "items_total": 57,
+  "blocking_reasons": [],
+  "scope": "STEP5G only; no Ni descriptor, prediction, CALPHAD, target or recovery execution",
+  "manifest_policy": "Final artifacts included. Index/sidecar excluded to avoid self-reference; active logs excluded and separately archived after process completion."
+}

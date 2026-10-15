@@ -1,0 +1,361 @@
+{
+  "generated_utc": "2026-09-05T20:36:01+00:00",
+  "status": "PASS",
+  "preregistration_sha256": "817333decbfd3f51551814e1e50db4545514e4f805dbd29bdc5011bea996aa77",
+  "descriptor_provenance_sha256": "ac6220b9cb54f7d5ed38fba2de806832337ac346a16d1f1f47abf0d358ce2104",
+  "recommended_zero_shot_pipeline": "Z1_MLP_DIRECT",
+  "candidate_summary": [
+    {
+      "candidate": "Z0_TREE_DIRECT",
+      "mean_tvd": 0.8504979259389537,
+      "median_tvd": 0.9283484873073369,
+      "p95_tvd": 0.9683156896558168,
+      "topology_accuracy": 0.07510822510822508,
+      "topology_macro_f1": 0.03437003573306061,
+      "folds_beat_trivial": 1
+    },
+    {
+      "candidate": "Z1_MLP_DIRECT",
+      "mean_tvd": 0.752644092873945,
+      "median_tvd": 0.8367947494739103,
+      "p95_tvd": 0.9123341754070413,
+      "topology_accuracy": 0.19352669552669552,
+      "topology_macro_f1": 0.06292882861723877,
+      "folds_beat_trivial": 2
+    },
+    {
+      "candidate": "Z2_AFFINITY_XGB",
+      "mean_tvd": 0.8681625508062983,
+      "median_tvd": 0.9388025349743896,
+      "p95_tvd": 0.9745731194468615,
+      "topology_accuracy": 0.07446464646464644,
+      "topology_macro_f1": 0.03421246176248228,
+      "folds_beat_trivial": 1
+    },
+    {
+      "candidate": "Z3_TOPOLOGY_FIRST",
+      "mean_tvd": 0.8841337296658903,
+      "median_tvd": 0.9687791381371381,
+      "p95_tvd": 0.9868469068608933,
+      "topology_accuracy": 0.07553535353535352,
+      "topology_macro_f1": 0.03497330357091317,
+      "folds_beat_trivial": 0
+    },
+    {
+      "candidate": "Z4_AFFINITY_TOPOLOGY_FIRST",
+      "mean_tvd": 0.88346411727595,
+      "median_tvd": 0.9687723624093314,
+      "p95_tvd": 0.9870455611332233,
+      "topology_accuracy": 0.08301010101010099,
+      "topology_macro_f1": 0.035002733225494284,
+      "folds_beat_trivial": 0
+    },
+    {
+      "candidate": "Z5_AFFINITY_MLP",
+      "mean_tvd": 0.8263782430458936,
+      "median_tvd": 0.915411171330347,
+      "p95_tvd": 0.9827885537057622,
+      "topology_accuracy": 0.13078499278499275,
+      "topology_macro_f1": 0.05021234588782658,
+      "folds_beat_trivial": 1
+    }
+  ],
+  "zero_shot_improvement_vs_Z0": 0.11505475801951859,
+  "internal_success_criteria": {
+    "practical": false,
+    "strong": false
+  },
+  "oracle_diagnostic_mean_tvd": 0.3528401003198625,
+  "effect_decomposition_means": {
+    "descriptor_effect_Z2_minus_Z0": 0.017664624867344682,
+    "topology_effect_Z3_minus_Z0": 0.03363580372693672,
+    "combined_effect_Z4_minus_Z0": 0.0329661913369964,
+    "smooth_descriptor_effect_Z5_minus_Z1": 0.07373415017194868,
+    "interaction_Z4_minus_Z2_minus_Z3_plus_Z0": -0.018334237257284967,
+    "oracle_topology_TVD": 0.3528401003198625,
+    "oracle_gap_Z4_minus_ORACLE": 0.5306240169560875,
+    "fewshot_F1_32shot_TVD": 0.021832678317249096,
+    "fewshot_effect_32shot_minus_Z4": -0.861631438958701
+  },
+  "per_element_remedy": [
+    {
+      "heldout": "ZR",
+      "best_zero_shot_candidate": "Z0_TREE_DIRECT",
+      "best_zero_shot_mean_tvd": 0.6398134767813602,
+      "zero_shot_improvement_vs_Z0": 0.0,
+      "zero_shot_relative_improvement_vs_Z0": 0.0,
+      "B_skill_random": 1,
+      "B_skill_targeted": 1,
+      "B_topo50_targeted": 1,
+      "tvd_32shot_targeted": 0.0376583301203418,
+      "trivial_tvd": 0.6789419830988763
+    },
+    {
+      "heldout": "TI",
+      "best_zero_shot_candidate": "Z1_MLP_DIRECT",
+      "best_zero_shot_mean_tvd": 0.7461502633376605,
+      "zero_shot_improvement_vs_Z0": 0.0800751026777402,
+      "zero_shot_relative_improvement_vs_Z0": 0.0969167807857495,
+      "B_skill_random": 1,
+      "B_skill_targeted": 1,
+      "B_topo50_targeted": 2,
+      "tvd_32shot_targeted": 0.0158425737289017,
+      "trivial_tvd": 0.6683901705677772
+    },
+    {
+      "heldout": "CO",
+      "best_zero_shot_candidate": "Z1_MLP_DIRECT",
+      "best_zero_shot_mean_tvd": 0.7021727706227773,
+      "zero_shot_improvement_vs_Z0": 0.1300585841915513,
+      "zero_shot_relative_improvement_vs_Z0": 0.1562769576502768,
+      "B_skill_random": 1,
+      "B_skill_targeted": 1,
+      "B_topo50_targeted": 1,
+      "tvd_32shot_targeted": 0.0167274560800634,
+      "trivial_tvd": 0.6872586482819223
+    },
+    {
+      "heldout": "SI",
+      "best_zero_shot_candidate": "Z1_MLP_DIRECT",
+      "best_zero_shot_mean_tvd": 0.6450398780624266,
+      "zero_shot_improvement_vs_Z0": 0.2582164164231282,
+      "zero_shot_relative_improvement_vs_Z0": 0.2858728115149135,
+      "B_skill_random": 1,
+      "B_skill_targeted": 1,
+      "B_topo50_targeted": 1,
+      "tvd_32shot_targeted": 0.0606933653964051,
+      "trivial_tvd": 0.8718056318195195
+    },
+    {
+      "heldout": "AG",
+      "best_zero_shot_candidate": "Z1_MLP_DIRECT",
+      "best_zero_shot_mean_tvd": 0.6411943340575984,
+      "zero_shot_improvement_vs_Z0": 0.2731822720451033,
+      "zero_shot_relative_improvement_vs_Z0": 0.2987634091050004,
+      "B_skill_random": 1,
+      "B_skill_targeted": 1,
+      "B_topo50_targeted": 1,
+      "tvd_32shot_targeted": 0.0031680720190628,
+      "trivial_tvd": 0.729596520590807
+    },
+    {
+      "heldout": "MO",
+      "best_zero_shot_candidate": "Z5_AFFINITY_MLP",
+      "best_zero_shot_mean_tvd": 0.9829588732101444,
+      "zero_shot_improvement_vs_Z0": 0.0041255842242311,
+      "zero_shot_relative_improvement_vs_Z0": 0.0041795655814035,
+      "B_skill_random": 1,
+      "B_skill_targeted": 1,
+      "B_topo50_targeted": 1,
+      "tvd_32shot_targeted": 0.0046774161580663,
+      "trivial_tvd": 0.9653918386053204
+    }
+  ],
+  "few_shot_B_skill": [
+    {
+      "heldout": "ZR",
+      "architecture": "F1_AFFINITY_TOPOLOGY_FIRST",
+      "B_skill_random": 1,
+      "B_skill_targeted": 1,
+      "B_topo50_random": 1,
+      "B_topo50_targeted": 1,
+      "area_random": 0.0600244824252163,
+      "area_targeted": 0.1156271709119239,
+      "tvd_32shot_random_mean": 0.0307900016429958,
+      "tvd_32shot_targeted": 0.0266650174535506
+    },
+    {
+      "heldout": "TI",
+      "architecture": "F1_AFFINITY_TOPOLOGY_FIRST",
+      "B_skill_random": 1,
+      "B_skill_targeted": 1,
+      "B_topo50_random": 1,
+      "B_topo50_targeted": 1,
+      "area_random": 0.0868899896930518,
+      "area_targeted": 0.1141571177037923,
+      "tvd_32shot_random_mean": 0.022525663003196,
+      "tvd_32shot_targeted": 0.0198320198912694
+    },
+    {
+      "heldout": "CO",
+      "architecture": "F1_AFFINITY_TOPOLOGY_FIRST",
+      "B_skill_random": 1,
+      "B_skill_targeted": 1,
+      "B_topo50_random": 1,
+      "B_topo50_targeted": 1,
+      "area_random": 0.0542262746614796,
+      "area_targeted": 0.0552945303339178,
+      "tvd_32shot_random_mean": 0.0208748808526101,
+      "tvd_32shot_targeted": 0.0187022535089687
+    },
+    {
+      "heldout": "SI",
+      "architecture": "F1_AFFINITY_TOPOLOGY_FIRST",
+      "B_skill_random": 1,
+      "B_skill_targeted": 1,
+      "B_topo50_random": 1,
+      "B_topo50_targeted": 2,
+      "area_random": 0.1369620661812715,
+      "area_targeted": 0.1944560283446811,
+      "tvd_32shot_random_mean": 0.0506913778632283,
+      "tvd_32shot_targeted": 0.0469090257267358
+    },
+    {
+      "heldout": "AG",
+      "architecture": "F1_AFFINITY_TOPOLOGY_FIRST",
+      "B_skill_random": 1,
+      "B_skill_targeted": 1,
+      "B_topo50_random": 1,
+      "B_topo50_targeted": 1,
+      "area_random": 0.0261704229882457,
+      "area_targeted": 0.0230273904815006,
+      "tvd_32shot_random_mean": 0.0048670245787337,
+      "tvd_32shot_targeted": 0.0024403930459524
+    },
+    {
+      "heldout": "MO",
+      "architecture": "F1_AFFINITY_TOPOLOGY_FIRST",
+      "B_skill_random": 1,
+      "B_skill_targeted": 1,
+      "B_topo50_random": 2,
+      "B_topo50_targeted": 2,
+      "area_random": 0.1979631491851224,
+      "area_targeted": 0.1568774978147342,
+      "tvd_32shot_random_mean": 0.0057354077617626,
+      "tvd_32shot_targeted": 0.0029825028799226
+    }
+  ],
+  "random_vs_targeted_by_budget": {
+    "1": 0.06907768185053921,
+    "2": 0.04042498381887364,
+    "4": 0.020133371585080134,
+    "8": 0.0037883500850779336,
+    "16": -0.004029467827320892,
+    "32": -0.0022789377115924
+  },
+  "integrity_audit": [
+    {
+      "n": 1,
+      "check": "STEP5C primary artifacts unchanged",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "n": 2,
+      "check": "STEP5D artifacts unchanged",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "n": 3,
+      "check": "no new CALPHAD (0 Thermo-Calc calls)",
+      "status": "PASS",
+      "detail": "STEP5E contains no solver invocation; all experiments reuse frozen data"
+    },
+    {
+      "n": 4,
+      "check": "Ni descriptor = 0",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "n": 5,
+      "check": "Ni target = 0",
+      "status": "PASS",
+      "detail": "X-partition targets only for the six development elements"
+    },
+    {
+      "n": 6,
+      "check": "Ni prediction = 0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "n": 7,
+      "check": "ANCHOR = 0",
+      "status": "PASS",
+      "detail": "no ANCHOR composition is loaded anywhere in STEP5E"
+    },
+    {
+      "n": 8,
+      "check": "Domain B tuning = 0",
+      "status": "PASS",
+      "detail": "fold roles come from the STEP5C Domain-A manifest; Domain B never read"
+    },
+    {
+      "n": 9,
+      "check": "zero-shot held-out target in training = 0",
+      "status": "PASS",
+      "detail": "fit sets are FOLD_TRAIN rows only (manifest loeo_role); held-out rows exist in memory but never enter any fit/selection call"
+    },
+    {
+      "n": 10,
+      "check": "zero-shot held-out target in validation = 0",
+      "status": "PASS",
+      "detail": "validation = FOLD_VALIDATION role only"
+    },
+    {
+      "n": 11,
+      "check": "affinity descriptor source uniform",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "n": 12,
+      "check": "no unsourced affinity values",
+      "status": "PASS",
+      "detail": "18 sourced pairs"
+    },
+    {
+      "n": 13,
+      "check": "few-shot labels only from calibration pool",
+      "status": "PASS",
+      "detail": "66_step5e_fewshot asserts chosen subset of CALIBRATION_POOL for every budget"
+    },
+    {
+      "n": 14,
+      "check": "RECOVERY_EVAL labels never enter training",
+      "status": "PASS",
+      "detail": "cal and eval ids are disjoint by construction; training frame = FOLD_TRAIN + calib"
+    },
+    {
+      "n": 15,
+      "check": "random and targeted budgets nested",
+      "status": "PASS",
+      "detail": "prefixes of one frozen 32-length sequence per replicate (spec 49)"
+    },
+    {
+      "n": 16,
+      "check": "targeted selection target-free",
+      "status": "PASS",
+      "detail": "Stage-C maximin used only input feature geometry with FOLD_TRAIN scaler"
+    },
+    {
+      "n": 17,
+      "check": "few-shot no hyperparameter retuning",
+      "status": "PASS",
+      "detail": "refits reuse the zero-shot frozen hyperparameters and classifier grid (spec 56)"
+    },
+    {
+      "n": 18,
+      "check": "no result-driven branch deletion",
+      "status": "PASS",
+      "detail": "all six zero-shot branches and both few-shot architectures are reported"
+    },
+    {
+      "n": 19,
+      "check": "zero-shot final model selected before few-shot/Ni",
+      "status": "PASS",
+      "detail": "recommendation Z1_MLP_DIRECT issued at Stage H; few-shot curves exist: True; Ni never run"
+    },
+    {
+      "n": 20,
+      "check": "STEP5F / Ni not started",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "ni_seal": "sealed - 0 descriptors, 0 targets, 0 predictions",
+  "anchor_seal": "sealed",
+  "next_step_decision": "spec 87 logic - see report Q39"
+}

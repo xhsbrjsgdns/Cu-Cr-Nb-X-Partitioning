@@ -1,0 +1,14 @@
+id,check,status,detail
+N01,exactly 2000 compositions,PASS,2000
+N02,composition_id unique and formatted NI_BLIND_000001..,PASS,NI_BLIND_000001 .. NI_BLIND_002000
+N03,"no duplicate (Cr, Nb, X) key at 4 decimals",PASS,0
+N04,S_CrNb within the frozen Domain-A range,PASS,"[0.6005, 1.9993]"
+N05,R_CrNb_atomic_actual within the frozen range,PASS,"[2.0017, 6.4992]"
+N06,"Ni wt.% within 0.02-0.20, identical to every added identity",PASS,"[0.0201, 0.2000]"
+N07,Cu is the balance and the four weights close to 100,PASS,max |sum-100| = 0.00e+00
+N08,R_actual reproduces R_target after 4-decimal rounding,PASS,max |R_actual - R_target| = 0.0023
+N09,"no elemental descriptor, property or feature column is present",PASS,"columns: 22, all compositional/bookkeeping"
+N10,Ni token appears ONLY as the symbolic X identity,PASS,family/X_element = NI; no Ni-named column
+N11,"few-shot split fixed at composition level, 600 / 1400",PASS,"{'RECOVERY_EVALUATION': 1400, 'FEWSHOT_CALIBRATION': 600}"
+N12,formal state count = compositions x 11 temperatures,PASS,22000
+N13,no composition collides with an existing project composition id,PASS,prefix NI_BLIND_ is unused elsewhere

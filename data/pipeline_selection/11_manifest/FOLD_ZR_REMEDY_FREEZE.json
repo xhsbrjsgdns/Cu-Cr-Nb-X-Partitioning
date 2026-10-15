@@ -1,0 +1,173 @@
+{
+  "fold": "FOLD_ZR",
+  "heldout_element": "ZR",
+  "seed": 20260908,
+  "xgb_hyperparameters": {
+    "n_estimators": 700,
+    "max_depth": 12,
+    "learning_rate": 0.035053118211708666,
+    "subsample": 0.9985877793659953,
+    "colsample_bytree": 0.6750758713868313,
+    "min_child_weight": 6,
+    "reg_lambda": 0.5831189534503387
+  },
+  "n_train_rows": 201323,
+  "n_val_rows": 43134,
+  "features_original": [
+    "Temperature_C",
+    "Cr_wt_pct",
+    "Nb_wt_pct",
+    "X_wt_pct",
+    "R_CrNb_atomic_actual",
+    "has_X",
+    "delta_r",
+    "r_bar",
+    "Zbar",
+    "CovalentR_bar",
+    "density_bar",
+    "AtomicVol_bar",
+    "X_AtomicNumber",
+    "X_VEC",
+    "X_MeltingT",
+    "Delta_AtomicNumber_X_Cu",
+    "Delta_MetallicRadius_X_Cu",
+    "Delta_Electronegativity_X_Cu",
+    "Delta_VEC_X_Cu",
+    "Delta_VEC_X_Cr",
+    "Delta_MeltingT_X_Cu",
+    "Delta_MeltingT_X_Cr",
+    "Delta_FirstIonizationEnergy_X_Cu",
+    "Delta_FirstIonizationEnergy_X_Cr",
+    "magpie_mean_GSbandgap",
+    "magpie_mean_GSmagmom",
+    "magpie_mean_NsUnfilled",
+    "magpie_mean_Row",
+    "magpie_mean_SpaceGroupNumber",
+    "magpie_minimum_AtomicWeight",
+    "magpie_minimum_Column",
+    "magpie_minimum_GSvolume_pa",
+    "magpie_minimum_MeltingT",
+    "magpie_minimum_NsUnfilled",
+    "magpie_minimum_SpaceGroupNumber",
+    "magpie_maximum_Electronegativity",
+    "magpie_range_AtomicWeight",
+    "magpie_range_MeltingT",
+    "magpie_avg_dev_SpaceGroupNumber"
+  ],
+  "affinity_columns": [
+    "A1_H_XCu",
+    "A2_H_XCr",
+    "A3_H_XNb",
+    "A4_H_XCr_minus_H_XCu",
+    "A5_H_XNb_minus_H_XCu",
+    "A6_H_XNb_minus_H_XCr",
+    "A7_min",
+    "A8_max",
+    "A9_range"
+  ],
+  "branches": {
+    "Z2": {
+      "val_mean_tvd": 0.0014821375236646003
+    },
+    "GLOBAL_DIRECT_fallback": {
+      "val_mean_tvd": 0.0014950345051070106
+    },
+    "Z3": {
+      "val_mean_tvd": 0.0014769698807476908,
+      "val_topo_accuracy": 0.9984467009783465,
+      "clf_grid": {
+        "n_estimators": 600,
+        "max_depth": 8,
+        "learning_rate": 0.1
+      },
+      "clf_val_macro_f1": 0.9983416743183562,
+      "route_counts": {
+        "0": 17879,
+        "1": 8820,
+        "2": 7707,
+        "3": 8728,
+        "4": 0
+      },
+      "experts": {
+        "FCC": {
+          "n_comps": 10552,
+          "n_states": 83408,
+          "expert": true
+        },
+        "BCC": {
+          "n_comps": 4214,
+          "n_states": 41469,
+          "expert": true
+        },
+        "C15": {
+          "n_comps": 3675,
+          "n_states": 35839,
+          "expert": true
+        },
+        "OTHER_SOLID": {
+          "n_comps": 6020,
+          "n_states": 40607,
+          "expert": true
+        },
+        "LIQUID": {
+          "n_comps": 0,
+          "n_states": 0,
+          "expert": false,
+          "fallback": "global direct"
+        }
+      }
+    },
+    "Z4": {
+      "val_mean_tvd": 0.0014634101282744866,
+      "val_topo_accuracy": 0.9984003338433718,
+      "clf_grid": {
+        "n_estimators": 600,
+        "max_depth": 6,
+        "learning_rate": 0.1
+      },
+      "clf_val_macro_f1": 0.9983009241060347,
+      "route_counts": {
+        "0": 17876,
+        "1": 8821,
+        "2": 7708,
+        "3": 8729,
+        "4": 0
+      },
+      "experts": {
+        "FCC": {
+          "n_comps": 10552,
+          "n_states": 83408,
+          "expert": true
+        },
+        "BCC": {
+          "n_comps": 4214,
+          "n_states": 41469,
+          "expert": true
+        },
+        "C15": {
+          "n_comps": 3675,
+          "n_states": 35839,
+          "expert": true
+        },
+        "OTHER_SOLID": {
+          "n_comps": 6020,
+          "n_states": 40607,
+          "expert": true
+        },
+        "LIQUID": {
+          "n_comps": 0,
+          "n_states": 0,
+          "expert": false,
+          "fallback": "global direct"
+        }
+      }
+    },
+    "Z5": {
+      "val_mean_tvd": 0.004400856074709945,
+      "chosen_lr": 0.001
+    }
+  },
+  "frozen_utc": "2026-09-05T16:03:33+00:00",
+  "artifact_sha256": "f927ebfadc8d53d51875a8d49e7a7920299b30b238580cbd840b1b9b48437e09",
+  "artifact_path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5E_XPART_REMEDY_V1\\04_zero_shot\\FOLD_ZR_REMEDY_ARTIFACTS.pkl"
+}

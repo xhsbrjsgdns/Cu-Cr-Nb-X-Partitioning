@@ -1,0 +1,12 @@
+{
+  "generated_utc": "2026-09-06T16:30:09+00:00",
+  "patch_id": "STEP5F_REPORT_PATCH_01",
+  "scope": "report prose only; no data, model, metric or conclusion changed",
+  "file": "E:\\Cu_CALPHAD_ML\\06_AUGMENTATION\\STEP5F_FULL_V1\\STEP5F_FULL_REPORT.md",
+  "sha256_before": "ec52dad00f84b1a850b405709dfb08ce05d22c19980f41ba8607a474bff4cfda",
+  "sha256_after": "bc1ab0c7b1ea377b754699dd378d65391e8c7d1127663aec54a208c93ce137b9",
+  "line_changed": 21,
+  "old_text": "the 4,950 pilot states were reused, not recomputed",
+  "new_text": "the 2,750 pilot states were reused, not recomputed",
+  "pre_patch_copy": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\01_pipeline_freeze\\STEP5F_FULL_REPORT.pre_patch01.md"
+}

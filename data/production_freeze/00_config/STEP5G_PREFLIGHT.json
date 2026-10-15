@@ -1,0 +1,145 @@
+{
+  "generated_utc": "2026-09-06T16:26:59+00:00",
+  "verdict": "GO",
+  "feature_schema_sha256": "f4ddf4a2587e33a7d441656110c589208d9d860095198dd4b276df64f8a2fb0c",
+  "n_features": 43,
+  "features": [
+    "Temperature_C",
+    "Cr_wt_pct",
+    "Nb_wt_pct",
+    "X_wt_pct",
+    "R_CrNb_atomic_actual",
+    "has_X",
+    "delta_r",
+    "delta_chi",
+    "r_bar",
+    "Zbar",
+    "density_bar",
+    "AtomicVol_bar",
+    "X_AtomicNumber",
+    "X_VEC",
+    "X_MeltingT",
+    "Delta_AtomicNumber_X_Cu",
+    "Delta_Electronegativity_X_Cu",
+    "Delta_VEC_X_Cu",
+    "Delta_VEC_X_Cr",
+    "Delta_MeltingT_X_Cu",
+    "Delta_MeltingT_X_Cr",
+    "Delta_Density_X_Cu",
+    "Delta_FirstIonizationEnergy_X_Cu",
+    "Delta_FirstIonizationEnergy_X_Cr",
+    "magpie_mean_GSbandgap",
+    "magpie_mean_GSmagmom",
+    "magpie_mean_NsUnfilled",
+    "magpie_mean_Row",
+    "magpie_mean_SpaceGroupNumber",
+    "magpie_minimum_AtomicWeight",
+    "magpie_minimum_Electronegativity",
+    "magpie_minimum_GSvolume_pa",
+    "magpie_minimum_MeltingT",
+    "magpie_minimum_NValence",
+    "magpie_minimum_NsUnfilled",
+    "magpie_minimum_SpaceGroupNumber",
+    "magpie_maximum_Electronegativity",
+    "magpie_maximum_GSvolume_pa",
+    "magpie_range_AtomicWeight",
+    "magpie_range_CovalentRadius",
+    "magpie_range_Electronegativity",
+    "magpie_range_MeltingT",
+    "magpie_avg_dev_SpaceGroupNumber"
+  ],
+  "primary_train_rows": 241748,
+  "primary_train_compositions": 22050,
+  "primary_validation_rows": 51802,
+  "primary_validation_compositions": 4725,
+  "secondary_added_rows": 110000,
+  "secondary_added_identities": [
+    "BE",
+    "LA",
+    "MN",
+    "P",
+    "SN"
+  ],
+  "secondary_train_rows": 351748,
+  "sealed_leakage": {
+    "IID_TEST rows": 0,
+    "Domain B rows": 0,
+    "ANCHOR rows": 0,
+    "BASELINE rows": 0
+  },
+  "ni_scan_hits": [],
+  "library_versions": {
+    "torch": "2.12.0+cu132",
+    "sklearn": "1.8.0",
+    "pyarrow": "25.0.1",
+    "joblib": "1.5.3",
+    "scipy": "1.17.1",
+    "cuda": "True"
+  },
+  "inputs": {
+    "SELECTED_FEATURES_F1_F2_F3_F4.txt": "f4ddf4a2587e33a7d441656110c589208d9d860095198dd4b276df64f8a2fb0c",
+    "DEVELOPMENT_FREEZE_V1.json": "6057e980c4c9ed930b01e7cd2c11299aa2443cf91bc11de60b133dbb7480c6fb"
+  },
+  "checks": [
+    {
+      "id": "P01",
+      "check": "STEP5A 43-feature schema present and hash-identical to DEVELOPMENT_FREEZE_V1",
+      "result": "PASS",
+      "detail": "file sha256 f4ddf4a2587e33a7 | freeze sha256 f4ddf4a2587e33a7 | expected f4ddf4a2587e33a7 | n=43"
+    },
+    {
+      "id": "P02",
+      "check": "all 43 production features exist in the ORIGINAL-SIX table",
+      "result": "PASS",
+      "detail": "missing from DOMAIN_A_DEV6_DIAGNOSTIC_DATA.parquet: none"
+    },
+    {
+      "id": "P03",
+      "check": "all 43 production features exist in the NEW-ELEMENT table",
+      "result": "PASS",
+      "detail": "missing from STEP5F_NEW_ELEMENT_CANDIDATE_FEATURES.parquet: none"
+    },
+    {
+      "id": "P04",
+      "check": "PRIMARY rows reconcile with the frozen STEP5A x_partition counts",
+      "result": "PASS",
+      "detail": "train 241748 (frozen 241748) over 22050 compositions (frozen 22050) | validation 51802 (frozen 51802)"
+    },
+    {
+      "id": "P05",
+      "check": "SECONDARY augmentation rows available for exactly BE SN MN LA P",
+      "result": "PASS",
+      "detail": "identities ['BE', 'LA', 'MN', 'P', 'SN'] | usable rows 110000 (expected 110000) | SECONDARY train would be 351748 rows"
+    },
+    {
+      "id": "P06",
+      "check": "no IID_TEST / Domain B / ANCHOR / BASELINE row reaches production",
+      "result": "PASS",
+      "detail": "{'IID_TEST rows': 0, 'Domain B rows': 0, 'ANCHOR rows': 0, 'BASELINE rows': 0}"
+    },
+    {
+      "id": "P07",
+      "check": "X-partition targets are finite, non-negative, sum to 1",
+      "result": "PASS",
+      "detail": "all three production frames clean"
+    },
+    {
+      "id": "P08",
+      "check": "element-token Ni scan over every STEP5G input = 0 hits",
+      "result": "PASS",
+      "detail": "0 hits across 4 inputs"
+    },
+    {
+      "id": "P09",
+      "check": "STEP5F report patch target present exactly once (or already applied)",
+      "result": "PASS",
+      "detail": "target occurrences 1 | corrected occurrences 0"
+    },
+    {
+      "id": "P10",
+      "check": "libraries required by stages 82-85 are importable",
+      "result": "PASS",
+      "detail": "{'torch': '2.12.0+cu132', 'sklearn': '1.8.0', 'pyarrow': '25.0.1', 'joblib': '1.5.3', 'scipy': '1.17.1', 'cuda': 'True'}"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "recommended_zero_shot_pipeline": "Z1_MLP_DIRECT",
+  "rule": "lowest 6-fold mean TVD; guardrail >=3/6 folds beat fold-train trivial AND mean topology accuracy >= Z0 (spec 42); fixed before any held-out metric",
+  "candidate_summary": [
+    {
+      "candidate": "Z0_TREE_DIRECT",
+      "mean_tvd": 0.8504979259389537,
+      "mean_topo_accuracy": 0.07510822510822511,
+      "folds_beat_trivial": 1
+    },
+    {
+      "candidate": "Z1_MLP_DIRECT",
+      "mean_tvd": 0.752644092873945,
+      "mean_topo_accuracy": 0.19352669552669552,
+      "folds_beat_trivial": 2
+    },
+    {
+      "candidate": "Z2_AFFINITY_XGB",
+      "mean_tvd": 0.8681625508062983,
+      "mean_topo_accuracy": 0.07446464646464647,
+      "folds_beat_trivial": 1
+    },
+    {
+      "candidate": "Z3_TOPOLOGY_FIRST",
+      "mean_tvd": 0.8841337296658903,
+      "mean_topo_accuracy": 0.07553535353535352,
+      "folds_beat_trivial": 0
+    },
+    {
+      "candidate": "Z4_AFFINITY_TOPOLOGY_FIRST",
+      "mean_tvd": 0.88346411727595,
+      "mean_topo_accuracy": 0.08301010101010102,
+      "folds_beat_trivial": 0
+    },
+    {
+      "candidate": "Z5_AFFINITY_MLP",
+      "mean_tvd": 0.8263782430458936,
+      "mean_topo_accuracy": 0.13078499278499278,
+      "folds_beat_trivial": 1
+    }
+  ],
+  "guardrail_satisfied_by_winner": false,
+  "selected_utc": "2026-09-05T16:37:50+00:00",
+  "note": "defines the FUTURE Ni zero-shot pipeline; Ni itself remains sealed; few-shot results are generated after this selection and cannot change it (spec 43)"
+}

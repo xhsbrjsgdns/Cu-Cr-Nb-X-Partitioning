@@ -1,0 +1,263 @@
+{
+  "stage": "STEP5E Stage A",
+  "generated_utc": "2026-09-05T15:47:05+00:00",
+  "status": "PASS",
+  "n_checks": 45,
+  "failures": [],
+  "artifact_hashes": {
+    "STEP5C_6X_LOEO_V1/02_fold_manifests/LOEO_MASTER_FOLD_MANIFEST.csv": "8f969c5c263a378266c2b9becd65c48095daf9fcbc5cfcc6eefe3dc801f2df3d",
+    "STEP5C_6X_LOEO_V1/11_manifest/STEP5C_SCORING_GATE.json": "4764491578f1380e54c638a10d71e6e10084c0440ba459ea02e1ab9696fa83b4",
+    "STEP5C_6X_LOEO_V1/06_metrics/LOEO_ALL_FOLDS_METRICS.csv": "9e087d7ba627401381b9baae6f99152e417cdff6ce6095301046abcd744e6a3f",
+    "STEP5C_6X_LOEO_V1/06_metrics/LOEO_PER_TARGET_METRICS.csv": "fa16cce20ff42dfe638eef0f8ba8eb94392c963e94e80a1775dde585d9c08bc7",
+    "STEP5C_6X_LOEO_V1/11_manifest/FOLD_ZR_FREEZE.json": "7436a06e53aa7786b1a49fce31895f3926d6aad8761d9a53454fdf46f97937b1",
+    "STEP5C_6X_LOEO_V1/11_manifest/FOLD_TI_FREEZE.json": "690eb7fb932d06258c7476bfe58d6b6478aeacbe0a81c8a65c7f4ed66ff106dc",
+    "STEP5C_6X_LOEO_V1/11_manifest/FOLD_CO_FREEZE.json": "a79756d7895c13508d41dfce1856ac3b3e256ebecd087170b5c64165a266d09e",
+    "STEP5C_6X_LOEO_V1/11_manifest/FOLD_SI_FREEZE.json": "ef5797650bff04fee6d45ba4ef1445e710baeaf01f344f987c5d23d967283493",
+    "STEP5C_6X_LOEO_V1/11_manifest/FOLD_AG_FREEZE.json": "a0f4e519a1b51df63168709229860f8ae64e692a3d2147b9b93b755791505a68",
+    "STEP5C_6X_LOEO_V1/11_manifest/FOLD_MO_FREEZE.json": "81f8c0e0c0be428df54d1614f85ad5b9711306105991fcee15cc9bbf31bb25d6",
+    "STEP5C_6X_LOEO_V1/05_predictions/FOLD_ZR_HELDOUT_PREDICTIONS.parquet": "14c8058a50a0330eb537ebc6855077b4c8a92695b56a218419a792a0722b7dfc",
+    "STEP5C_6X_LOEO_V1/05_predictions/FOLD_TI_HELDOUT_PREDICTIONS.parquet": "d617ae56c9ccd30daeb24cf511dce955d1ed96346655224914987858263422ce",
+    "STEP5C_6X_LOEO_V1/05_predictions/FOLD_CO_HELDOUT_PREDICTIONS.parquet": "13a9ef009b576e646050312c03fd44f157264560a3b82595cc38d57ae1468d71",
+    "STEP5C_6X_LOEO_V1/05_predictions/FOLD_SI_HELDOUT_PREDICTIONS.parquet": "de310727c8c9bf5176a4d6e05f4ecdfd937752e2e6da678acd50181332d012ad",
+    "STEP5C_6X_LOEO_V1/05_predictions/FOLD_AG_HELDOUT_PREDICTIONS.parquet": "176d4753ec58abcb984dddcb8c4abd992d3a1c11b74adf0173ed18d2046b9fd6",
+    "STEP5C_6X_LOEO_V1/05_predictions/FOLD_MO_HELDOUT_PREDICTIONS.parquet": "f5c08848bed1221ce56674993bcaa920332cc370c834b207d82d7d48de978fa1",
+    "STEP5D_FAILURE_DIAGNOSIS_V1/03_variance_decomposition/TASK_ELEMENT_VARIANCE_DECOMPOSITION.csv": "bb44bdba4e5355d17dbf1021f805784bba8dc071dd6dabf81c814f83fc2decbd",
+    "STEP5D_FAILURE_DIAGNOSIS_V1/05_topology_analysis/X_PARTITION_ERROR_BY_TOPOLOGY_CORRECTNESS.csv": "2b87c0a407019c9efb7d73b647c3e964aafdc58ae4c27915d45abfbb243ba409",
+    "STEP5D_FAILURE_DIAGNOSIS_V1/05_topology_analysis/X_PARTITION_TOPOLOGY_COLLAPSE.csv": "ead86b4a79d2a5fc8847d6831d6328135a9ff44606900597086d2396b649008d",
+    "STEP5D_FAILURE_DIAGNOSIS_V1/07_model_bias_diagnostic/X_DIAGNOSTIC_MODEL_COMPARISON.csv": "9f7ff9f70f1cc98a1ce1640d9fa040db522f5dd839fa0ce62bc7f9608496e028",
+    "STEP5D_FAILURE_DIAGNOSIS_V1/STEP5D_FAILURE_DIAGNOSIS_SUMMARY.json": "d7b4e52a4089874011bde95cc6f27efcf8c92033eb44669c249dafa55dc43f6d",
+    "STEP5D_FAILURE_DIAGNOSIS_V1/07_model_bias_diagnostic/FOLD_ZR/DIAGNOSTIC_HELDOUT_PREDICTIONS.parquet": "1d3a43cb42f34499957f75f4ade383c5fb82b0d93e3062ab3ce652d7f37c87f5",
+    "STEP5D_FAILURE_DIAGNOSIS_V1/07_model_bias_diagnostic/FOLD_TI/DIAGNOSTIC_HELDOUT_PREDICTIONS.parquet": "c70bfa8147e69087ed5703888fa6475e6a26607585479287fbc6a1f5a659fca0",
+    "STEP5D_FAILURE_DIAGNOSIS_V1/07_model_bias_diagnostic/FOLD_CO/DIAGNOSTIC_HELDOUT_PREDICTIONS.parquet": "9cc78839624df38e931716af4e7f66ea5636dc4412c1aff864c576300796c661",
+    "STEP5D_FAILURE_DIAGNOSIS_V1/07_model_bias_diagnostic/FOLD_SI/DIAGNOSTIC_HELDOUT_PREDICTIONS.parquet": "97627c3d4e6fd6cb803819d097b591d0892f04a7f134bf44d09a3176b7eaec48",
+    "STEP5D_FAILURE_DIAGNOSIS_V1/07_model_bias_diagnostic/FOLD_AG/DIAGNOSTIC_HELDOUT_PREDICTIONS.parquet": "f0d1cb3fa096c39decf8ec64f43642903d2a6f061417fd946481f2472d66fe77",
+    "STEP5D_FAILURE_DIAGNOSIS_V1/07_model_bias_diagnostic/FOLD_MO/DIAGNOSTIC_HELDOUT_PREDICTIONS.parquet": "919b94dc6e15b995e0a383169f5418b87296ada2c3fe7085852122ed49ce93d4"
+  },
+  "checks": [
+    {
+      "check": "exists 02_fold_manifests/LOEO_MASTER_FOLD_MANIFEST.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exists 11_manifest/STEP5C_SCORING_GATE.json",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exists 06_metrics/LOEO_ALL_FOLDS_METRICS.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exists 06_metrics/LOEO_PER_TARGET_METRICS.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exists 11_manifest/FOLD_ZR_FREEZE.json",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exists 11_manifest/FOLD_TI_FREEZE.json",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exists 11_manifest/FOLD_CO_FREEZE.json",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exists 11_manifest/FOLD_SI_FREEZE.json",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exists 11_manifest/FOLD_AG_FREEZE.json",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exists 11_manifest/FOLD_MO_FREEZE.json",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exists 05_predictions/FOLD_ZR_HELDOUT_PREDICTIONS.parquet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exists 05_predictions/FOLD_TI_HELDOUT_PREDICTIONS.parquet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exists 05_predictions/FOLD_CO_HELDOUT_PREDICTIONS.parquet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exists 05_predictions/FOLD_SI_HELDOUT_PREDICTIONS.parquet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exists 05_predictions/FOLD_AG_HELDOUT_PREDICTIONS.parquet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exists 05_predictions/FOLD_MO_HELDOUT_PREDICTIONS.parquet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exists 03_variance_decomposition/TASK_ELEMENT_VARIANCE_DECOMPOSITION.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exists 05_topology_analysis/X_PARTITION_ERROR_BY_TOPOLOGY_CORRECTNESS.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exists 05_topology_analysis/X_PARTITION_TOPOLOGY_COLLAPSE.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exists 07_model_bias_diagnostic/X_DIAGNOSTIC_MODEL_COMPARISON.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exists STEP5D_FAILURE_DIAGNOSIS_SUMMARY.json",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exists 07_model_bias_diagnostic/FOLD_ZR/DIAGNOSTIC_HELDOUT_PREDICTIONS.parquet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exists 07_model_bias_diagnostic/FOLD_TI/DIAGNOSTIC_HELDOUT_PREDICTIONS.parquet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exists 07_model_bias_diagnostic/FOLD_CO/DIAGNOSTIC_HELDOUT_PREDICTIONS.parquet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exists 07_model_bias_diagnostic/FOLD_SI/DIAGNOSTIC_HELDOUT_PREDICTIONS.parquet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exists 07_model_bias_diagnostic/FOLD_AG/DIAGNOSTIC_HELDOUT_PREDICTIONS.parquet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exists 07_model_bias_diagnostic/FOLD_MO/DIAGNOSTIC_HELDOUT_PREDICTIONS.parquet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "STEP5C gate still AUTHORIZED",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "STEP5C fold freeze hash intact (ZR sample)",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "eta2_element WHOLE_VECTOR fraction == 0.077461",
+      "status": "PASS",
+      "detail": "actual 0.077461"
+    },
+    {
+      "check": "eta2_element WHOLE_VECTOR cr_partition == 0.204647",
+      "status": "PASS",
+      "detail": "actual 0.204647"
+    },
+    {
+      "check": "eta2_element WHOLE_VECTOR nb_partition == 0.041723",
+      "status": "PASS",
+      "detail": "actual 0.041723"
+    },
+    {
+      "check": "eta2_element WHOLE_VECTOR x_partition == 0.885455",
+      "status": "PASS",
+      "detail": "actual 0.885455"
+    },
+    {
+      "check": "topology-wrong share of summed X-partition TVD == 96.696%",
+      "status": "PASS",
+      "detail": "actual 0.966965"
+    },
+    {
+      "check": "Tree 6-fold mean TVD == 0.850498",
+      "status": "PASS",
+      "detail": "actual 0.850498"
+    },
+    {
+      "check": "MLP 6-fold mean TVD == 0.752644",
+      "status": "PASS",
+      "detail": "actual 0.752644"
+    },
+    {
+      "check": "Ridge 6-fold mean TVD == 0.842478",
+      "status": "PASS",
+      "detail": "actual 0.842478"
+    },
+    {
+      "check": "Nearest-element analog 6-fold mean TVD == 0.865868",
+      "status": "PASS",
+      "detail": "actual 0.865868"
+    },
+    {
+      "check": "Ridge rescues AG (TVD 0.428753, topo acc 0.980017)",
+      "status": "PASS",
+      "detail": "actual 0.428753 / 0.980017"
+    },
+    {
+      "check": "FOLD_ZR: 5 unique training X identities, 18375 X-bearing compositions",
+      "status": "PASS",
+      "detail": "['AG', 'CO', 'MO', 'SI', 'TI']"
+    },
+    {
+      "check": "FOLD_TI: 5 unique training X identities, 18375 X-bearing compositions",
+      "status": "PASS",
+      "detail": "['AG', 'CO', 'MO', 'SI', 'ZR']"
+    },
+    {
+      "check": "FOLD_CO: 5 unique training X identities, 18375 X-bearing compositions",
+      "status": "PASS",
+      "detail": "['AG', 'MO', 'SI', 'TI', 'ZR']"
+    },
+    {
+      "check": "FOLD_SI: 5 unique training X identities, 18375 X-bearing compositions",
+      "status": "PASS",
+      "detail": "['AG', 'CO', 'MO', 'TI', 'ZR']"
+    },
+    {
+      "check": "FOLD_AG: 5 unique training X identities, 18375 X-bearing compositions",
+      "status": "PASS",
+      "detail": "['CO', 'MO', 'SI', 'TI', 'ZR']"
+    },
+    {
+      "check": "FOLD_MO: 5 unique training X identities, 18375 X-bearing compositions",
+      "status": "PASS",
+      "detail": "['AG', 'CO', 'SI', 'TI', 'ZR']"
+    }
+  ]
+}

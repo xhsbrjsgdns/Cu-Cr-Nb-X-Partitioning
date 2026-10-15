@@ -1,0 +1,319 @@
+{
+  "freeze_id": "STEP5G_FINAL_PIPELINE_FREEZE_V1",
+  "generated_utc": "2026-09-06T16:31:18+00:00",
+  "primary_role": "ORIGINAL6_DIRECT_MLP",
+  "secondary_role": "FULL11_DIRECT_MLP",
+  "primary_selection_rule": "ORIGINAL6 remains PRIMARY because every preregistered STEP5F switching gate failed; this is protocol-following, not preference.",
+  "step5f_gates": {
+    "primary_tvd": {
+      "required_max": 0.602115,
+      "observed": 0.710332,
+      "result": "FAIL"
+    },
+    "topology": {
+      "required_min": 0.35,
+      "observed": 0.3323,
+      "result": "FAIL"
+    },
+    "cross_element_skill": {
+      "required_min_folds": 4,
+      "observed_folds": 3,
+      "of": 6,
+      "result": "FAIL"
+    },
+    "strong": {
+      "required": "mean TVD <= 0.50 AND >= 5/6 folds beat trivial",
+      "result": "FAIL"
+    }
+  },
+  "forbidden_production_models": [
+    "BASE_PLUS_MN",
+    "FULL5_MINUS_BE",
+    "FULL5_MINUS_LA",
+    "FULL5_MINUS_SN",
+    "FULL5_MINUS_P"
+  ],
+  "feature_schema": {
+    "n": 43,
+    "sha256": "f4ddf4a2587e33a7d441656110c589208d9d860095198dd4b276df64f8a2fb0c",
+    "features": [
+      "Temperature_C",
+      "Cr_wt_pct",
+      "Nb_wt_pct",
+      "X_wt_pct",
+      "R_CrNb_atomic_actual",
+      "has_X",
+      "delta_r",
+      "delta_chi",
+      "r_bar",
+      "Zbar",
+      "density_bar",
+      "AtomicVol_bar",
+      "X_AtomicNumber",
+      "X_VEC",
+      "X_MeltingT",
+      "Delta_AtomicNumber_X_Cu",
+      "Delta_Electronegativity_X_Cu",
+      "Delta_VEC_X_Cu",
+      "Delta_VEC_X_Cr",
+      "Delta_MeltingT_X_Cu",
+      "Delta_MeltingT_X_Cr",
+      "Delta_Density_X_Cu",
+      "Delta_FirstIonizationEnergy_X_Cu",
+      "Delta_FirstIonizationEnergy_X_Cr",
+      "magpie_mean_GSbandgap",
+      "magpie_mean_GSmagmom",
+      "magpie_mean_NsUnfilled",
+      "magpie_mean_Row",
+      "magpie_mean_SpaceGroupNumber",
+      "magpie_minimum_AtomicWeight",
+      "magpie_minimum_Electronegativity",
+      "magpie_minimum_GSvolume_pa",
+      "magpie_minimum_MeltingT",
+      "magpie_minimum_NValence",
+      "magpie_minimum_NsUnfilled",
+      "magpie_minimum_SpaceGroupNumber",
+      "magpie_maximum_Electronegativity",
+      "magpie_maximum_GSvolume_pa",
+      "magpie_range_AtomicWeight",
+      "magpie_range_CovalentRadius",
+      "magpie_range_Electronegativity",
+      "magpie_range_MeltingT",
+      "magpie_avg_dev_SpaceGroupNumber"
+    ],
+    "reselection_performed": false,
+    "csv_sha256": "faebd4de9423b6087e5ae2bb7242dade2538299eb294b3318538d62c3ca86126"
+  },
+  "protocol": {
+    "architecture": "Linear(n,128)-ReLU-Linear(128,64)-ReLU-Linear(64,5)",
+    "loss": "raw-component MSE",
+    "optimizer": "Adam",
+    "batch_size": 1024,
+    "max_epochs": 200,
+    "patience": 15,
+    "learning_rates": [
+      0.0001,
+      0.0003,
+      0.001
+    ],
+    "lr_selection": "lowest projected validation TVD",
+    "projection": "clip at 0, renormalize; zero-sum -> train mean simplex",
+    "row_weighting": "natural (spec 21)",
+    "master_seed": 20260911,
+    "source": "STEP5D preregistration, unchanged"
+  },
+  "library_versions": {
+    "python": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+    "OS": "Windows-11-10.0.26200-SP0",
+    "executable": "C:\\Program Files\\Python314\\python.exe",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.8.0",
+    "torch": "2.12.0+cu132",
+    "pyarrow": "25.0.1",
+    "scipy": "1.17.1",
+    "joblib": "1.5.3",
+    "CUDA": "13.2",
+    "device": "NVIDIA GeForce RTX 5060 Ti",
+    "matminer_mendeleev": "not imported in STEP5G"
+  },
+  "models": {
+    "ORIGINAL6_DIRECT_MLP": {
+      "train_ids": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\02_primary_model\\STEP5G_PRIMARY_TRAIN_IDS.csv",
+      "train_ids_sha256": "d957591c98f82379a28fb6a8ef7784c0531b98f7e905ad14d2c6754b0ed43c4b",
+      "validation_ids": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\02_primary_model\\STEP5G_PRIMARY_VALIDATION_IDS.csv",
+      "validation_ids_sha256": "4965262be92e68472a889e761ed12269233f38267b888e8212b543d7c25fe4e5",
+      "best_epoch": 156,
+      "epochs_trained": 171,
+      "tag": "PRIMARY",
+      "model_id": "STEP5G_PRIMARY",
+      "train_identities": [
+        "AG",
+        "CO",
+        "MO",
+        "SI",
+        "TI",
+        "ZR"
+      ],
+      "n_train_rows": 241748,
+      "n_train_compositions": 22050,
+      "validation_identities": [
+        "AG",
+        "CO",
+        "MO",
+        "SI",
+        "TI",
+        "ZR"
+      ],
+      "n_validation_rows": 51802,
+      "n_validation_compositions": 4725,
+      "added_identity_rows": 0,
+      "seed": 2266358626,
+      "chosen_learning_rate": 0.0003,
+      "fallback_row": [
+        0.3924063060849874,
+        0.17997911835521582,
+        0.2687588732102482,
+        0.1582142342482923,
+        0.0006414681012562028
+      ],
+      "in_domain_validation_metrics": {
+        "mean_tvd": 0.0037975906136572517,
+        "median_tvd": 0.002639556654126963,
+        "p95_tvd": 0.010401112372134345,
+        "topology_accuracy": 0.9988031350140921,
+        "topology_macro_f1": 0.7990428724810509,
+        "trivial_tvd": 0.6494082537950455,
+        "simplex_fallbacks": 0,
+        "skill_vs_trivial": 0.6456106631813883
+      },
+      "checkpoint": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\02_primary_model\\STEP5G_PRIMARY_MODEL_CHECKPOINT.pt",
+      "checkpoint_sha256": "f89e4ddc2f367a572a16a29062faa3c3d580fc8aae73a8e6bfaa28a8bcd86d0f",
+      "scaler": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\02_primary_model\\STEP5G_PRIMARY_SCALER.joblib",
+      "scaler_sha256": "c2619e4aed54304a9ed895b98164b0205421310f613f50346c249de41d7e3475",
+      "immutable_from_utc": "2026-09-06T16:33:20+00:00"
+    },
+    "FULL11_DIRECT_MLP": {
+      "train_ids": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\03_secondary_model\\STEP5G_SECONDARY_TRAIN_IDS.csv",
+      "train_ids_sha256": "f81210f9fde647491284d295577ee5775f18c81d7e5eccc5137beb5e54657ee7",
+      "validation_ids": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\03_secondary_model\\STEP5G_SECONDARY_VALIDATION_IDS.csv",
+      "validation_ids_sha256": "4965262be92e68472a889e761ed12269233f38267b888e8212b543d7c25fe4e5",
+      "best_epoch": 90,
+      "epochs_trained": 105,
+      "tag": "SECONDARY",
+      "model_id": "STEP5G_SECONDARY",
+      "train_identities": [
+        "AG",
+        "BE",
+        "CO",
+        "LA",
+        "MN",
+        "MO",
+        "P",
+        "SI",
+        "SN",
+        "TI",
+        "ZR"
+      ],
+      "n_train_rows": 351748,
+      "n_train_compositions": 32050,
+      "validation_identities": [
+        "AG",
+        "CO",
+        "MO",
+        "SI",
+        "TI",
+        "ZR"
+      ],
+      "n_validation_rows": 51802,
+      "n_validation_compositions": 4725,
+      "added_identity_rows": 110000,
+      "seed": 3131606731,
+      "chosen_learning_rate": 0.001,
+      "fallback_row": [
+        0.45812328163558386,
+        0.1240658371930271,
+        0.18471172806626412,
+        0.21560165117755808,
+        0.01749750192756682
+      ],
+      "in_domain_validation_metrics": {
+        "mean_tvd": 0.0038697667628807917,
+        "median_tvd": 0.0024776535236847494,
+        "p95_tvd": 0.011755712308715582,
+        "topology_accuracy": 0.9986293965483958,
+        "topology_macro_f1": 0.7988650690801528,
+        "trivial_tvd": 0.6502087942206093,
+        "simplex_fallbacks": 0,
+        "skill_vs_trivial": 0.6463390274577285
+      },
+      "checkpoint": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\03_secondary_model\\STEP5G_SECONDARY_MODEL_CHECKPOINT.pt",
+      "checkpoint_sha256": "a685b2138f114f3274f3b789753b28971484b797ca7d375a9354021242d55719",
+      "scaler": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\03_secondary_model\\STEP5G_SECONDARY_SCALER.joblib",
+      "scaler_sha256": "b247fdae442c475d58a052427a4744a62a88114d266b865e7e0f4116245d43d4",
+      "immutable_from_utc": "2026-09-06T16:36:09+00:00"
+    }
+  },
+  "trails": [
+    {
+      "role": "ORIGINAL6_DIRECT_MLP",
+      "learning_rate": 0.0001,
+      "validation_tvd": 0.004210404607421098,
+      "best_validation_mse": 1.595141293364577e-05,
+      "best_epoch": 197,
+      "epochs_run": 200,
+      "simplex_fallbacks": 0,
+      "elapsed_seconds": 53.1
+    },
+    {
+      "role": "ORIGINAL6_DIRECT_MLP",
+      "learning_rate": 0.0003,
+      "validation_tvd": 0.0037975906136572517,
+      "best_validation_mse": 1.221040656673722e-05,
+      "best_epoch": 156,
+      "epochs_run": 171,
+      "simplex_fallbacks": 0,
+      "elapsed_seconds": 44.5
+    },
+    {
+      "role": "ORIGINAL6_DIRECT_MLP",
+      "learning_rate": 0.001,
+      "validation_tvd": 0.004567964227152202,
+      "best_validation_mse": 1.6582294847466983e-05,
+      "best_epoch": 78,
+      "epochs_run": 93,
+      "simplex_fallbacks": 0,
+      "elapsed_seconds": 22.8
+    },
+    {
+      "role": "FULL11_DIRECT_MLP",
+      "learning_rate": 0.0001,
+      "validation_tvd": 0.005260215422941165,
+      "best_validation_mse": 2.4720140572753735e-05,
+      "best_epoch": 197,
+      "epochs_run": 200,
+      "simplex_fallbacks": 0,
+      "elapsed_seconds": 74.9
+    },
+    {
+      "role": "FULL11_DIRECT_MLP",
+      "learning_rate": 0.0003,
+      "validation_tvd": 0.004420011482045955,
+      "best_validation_mse": 1.548810541862622e-05,
+      "best_epoch": 134,
+      "epochs_run": 149,
+      "simplex_fallbacks": 0,
+      "elapsed_seconds": 54.3
+    },
+    {
+      "role": "FULL11_DIRECT_MLP",
+      "learning_rate": 0.001,
+      "validation_tvd": 0.0038697667628807917,
+      "best_validation_mse": 1.5143114069360308e-05,
+      "best_epoch": 90,
+      "epochs_run": 105,
+      "simplex_fallbacks": 0,
+      "elapsed_seconds": 38.1
+    }
+  ],
+  "source_hashes": {
+    "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5D_FAILURE_DIAGNOSIS_V1\\02_frozen_inputs\\DOMAIN_A_DEV6_DIAGNOSTIC_DATA.parquet": "b48dd3c43972d15db709f4a6492528a963597fbfed5ef803fe898bff49ae20d3",
+    "E:\\Cu_CALPHAD_ML\\06_AUGMENTATION\\STEP5F_FULL_V1\\03_processed\\STEP5F_NEW_ELEMENT_CANDIDATE_FEATURES.parquet": "c9a7cd74886a0395c82945971f2002ecdefca42c54686f317e9fa72284c08c42",
+    "E:\\Cu_CALPHAD_ML\\06_AUGMENTATION\\STEP5F_FULL_V1\\03_processed\\STEP5F_FULL_NEW_ELEMENT_DATA.parquet": "804270f41db3f181052b36857015a8d95348584025f09a6aed81be62c165b5a6",
+    "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\03_splits\\COMPOSITION_SPLIT_MASTER_V1.csv": "040988ed78b4dccb39061ed2f908dae624835913039e3dd8ad6f78158c4609c4"
+  },
+  "code_snapshot_hashes": {
+    "80_g_preflight.py": "12727ce75eb44d8a88e442ed99bc758e586e119c1b20089878d851cc4b27997d",
+    "81_g_patch.py": "f50bd270f8964834debbe3812799e1aef3b3a119a7ce2859bfeef010854631b3",
+    "82_g_train.py": "dd0a11b8197f18bcec58b98a19d5134a5dae22b77711a0e01c04651d0532ad02",
+    "83_g_ni_prereg.py": "91cb1d51303f881642053c42cb951078bf00cc12460004df4d8902077f6e2cf3",
+    "84_g_metric_prereg.py": "83274375e5b943fd5519a2328168384301bb69e8d6cb9f45e0fa8a830389bb61",
+    "85_g_audit_report.py": "64df4177dcee8a441ff8ab78d273cb13789b8f32e00114f6070826e108621119",
+    "86_g_finalize.py": "3d2f35311da88328e85219133fa656185c0751fa6d7cd79b90cedc12d4c14fa5",
+    "g_audit.py": "889d9b773a685cbccee94e61e978fc9e1d2cd15b19044cce950aa5da6c29b7b1",
+    "g_common.py": "d8187a3c8d57098f1875042f4bad7e4cf3ab6dece71b7efd65f7ff1c2f004971",
+    "g_contract.py": "23ef1c716cb39b4380cc81fe131a502e66c0958bcc751ebb5ef62381fb4492ee",
+    "g_prereg.py": "219f1ad1b3a18036719a099191ab0f92bc776c0e5af07ab312c9f7dad23b991e"
+  },
+  "recovery_exception": "Sections 68-69 authorize separate post-blind recovery refits only; frozen zero-shot artifacts and roles remain immutable."
+}

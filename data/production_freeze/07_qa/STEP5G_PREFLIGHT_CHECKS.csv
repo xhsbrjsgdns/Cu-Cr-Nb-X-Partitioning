@@ -1,0 +1,11 @@
+id,check,result,detail
+P01,STEP5A 43-feature schema present and hash-identical to DEVELOPMENT_FREEZE_V1,PASS,file sha256 f4ddf4a2587e33a7 | freeze sha256 f4ddf4a2587e33a7 | expected f4ddf4a2587e33a7 | n=43
+P02,all 43 production features exist in the ORIGINAL-SIX table,PASS,missing from DOMAIN_A_DEV6_DIAGNOSTIC_DATA.parquet: none
+P03,all 43 production features exist in the NEW-ELEMENT table,PASS,missing from STEP5F_NEW_ELEMENT_CANDIDATE_FEATURES.parquet: none
+P04,PRIMARY rows reconcile with the frozen STEP5A x_partition counts,PASS,train 241748 (frozen 241748) over 22050 compositions (frozen 22050) | validation 51802 (frozen 51802)
+P05,SECONDARY augmentation rows available for exactly BE SN MN LA P,PASS,"identities ['BE', 'LA', 'MN', 'P', 'SN'] | usable rows 110000 (expected 110000) | SECONDARY train would be 351748 rows"
+P06,no IID_TEST / Domain B / ANCHOR / BASELINE row reaches production,PASS,"{'IID_TEST rows': 0, 'Domain B rows': 0, 'ANCHOR rows': 0, 'BASELINE rows': 0}"
+P07,"X-partition targets are finite, non-negative, sum to 1",PASS,all three production frames clean
+P08,element-token Ni scan over every STEP5G input = 0 hits,PASS,0 hits across 4 inputs
+P09,STEP5F report patch target present exactly once (or already applied),PASS,target occurrences 1 | corrected occurrences 0
+P10,libraries required by stages 82-85 are importable,PASS,"{'torch': '2.12.0+cu132', 'sklearn': '1.8.0', 'pyarrow': '25.0.1', 'joblib': '1.5.3', 'scipy': '1.17.1', 'cuda': 'True'}"

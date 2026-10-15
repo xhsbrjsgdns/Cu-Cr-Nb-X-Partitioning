@@ -1,0 +1,78 @@
+{
+  "manifest": "CODE_SNAPSHOT_MANIFEST_STEP5E",
+  "generated_utc": "2026-09-05T16:37:10+00:00",
+  "note": "frozen before the first held-out evaluation of the zero-shot remedy branches; later changes require STEP5E_PATCH_XX (spec 83)",
+  "n_files": 10,
+  "files": [
+    {
+      "filename": "60_step5e_audit.py",
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5E_XPART_REMEDY_V1\\code_snapshot\\60_step5e_audit.py",
+      "bytes": 4865,
+      "mtime_utc": "2026-09-05T15:46:51+00:00",
+      "sha256": "0fabd8e9fc328ae9ec2676421f5914f3ce55a160dad9bb7bfbccb93a3c30ef13"
+    },
+    {
+      "filename": "61_step5e_preregister.py",
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5E_XPART_REMEDY_V1\\code_snapshot\\61_step5e_preregister.py",
+      "bytes": 15301,
+      "mtime_utc": "2026-09-05T15:58:26+00:00",
+      "sha256": "9992017f0778e826a57a5317600138ccd19f5dc9ffe0ae2cbda3c68e2e8c9a65"
+    },
+    {
+      "filename": "62_step5e_affinity.py",
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5E_XPART_REMEDY_V1\\code_snapshot\\62_step5e_affinity.py",
+      "bytes": 4561,
+      "mtime_utc": "2026-09-05T15:44:38+00:00",
+      "sha256": "b15af31190b3d7f0c07d1b6324405a107bfebd1bcf7622032ee016a61b79c106"
+    },
+    {
+      "filename": "63_step5e_zeroshot.py",
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5E_XPART_REMEDY_V1\\code_snapshot\\63_step5e_zeroshot.py",
+      "bytes": 11082,
+      "mtime_utc": "2026-09-05T15:58:26+00:00",
+      "sha256": "fe35d5d08b5dc7e69a1e71c8e426946f947db8942c8913ec861d71cf9e108655"
+    },
+    {
+      "filename": "64_step5e_code_manifest.py",
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5E_XPART_REMEDY_V1\\code_snapshot\\64_step5e_code_manifest.py",
+      "bytes": 1346,
+      "mtime_utc": "2026-09-05T15:53:26+00:00",
+      "sha256": "182d3081157672e75b7dae796f13de4916ebce0eb8fd22815e891f3d22ad8a2a"
+    },
+    {
+      "filename": "65_step5e_zeroshot_eval.py",
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5E_XPART_REMEDY_V1\\code_snapshot\\65_step5e_zeroshot_eval.py",
+      "bytes": 8393,
+      "mtime_utc": "2026-09-05T15:58:26+00:00",
+      "sha256": "a241b619263ea758bf5683abca6c3971f017070aed6d17ae30cbc4370bb71246"
+    },
+    {
+      "filename": "66_step5e_fewshot.py",
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5E_XPART_REMEDY_V1\\code_snapshot\\66_step5e_fewshot.py",
+      "bytes": 8459,
+      "mtime_utc": "2026-09-05T16:03:31+00:00",
+      "sha256": "6f3de0913207ba01a3956a727c02081471eb65e7acb415cb4a30f4ac05b9e08e"
+    },
+    {
+      "filename": "67_step5e_analysis.py",
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5E_XPART_REMEDY_V1\\code_snapshot\\67_step5e_analysis.py",
+      "bytes": 7495,
+      "mtime_utc": "2026-09-05T16:09:11+00:00",
+      "sha256": "8271586242e9a3ba978d33af8aef12cd531c8fadbe304881ef30cac3fcbc7b67"
+    },
+    {
+      "filename": "68_step5e_final.py",
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5E_XPART_REMEDY_V1\\code_snapshot\\68_step5e_final.py",
+      "bytes": 24289,
+      "mtime_utc": "2026-09-05T16:11:43+00:00",
+      "sha256": "bd55624faf27d5ba4ac3d3eabf2d05f965ad754b88f35ee2e09d09b910d981f7"
+    },
+    {
+      "filename": "step5e_common.py",
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5E_XPART_REMEDY_V1\\code_snapshot\\step5e_common.py",
+      "bytes": 15665,
+      "mtime_utc": "2026-09-05T16:37:10+00:00",
+      "sha256": "02712ee203caed8e56024c58623e4bad3d213d783187bb98005b6cf572a2291c"
+    }
+  ]
+}

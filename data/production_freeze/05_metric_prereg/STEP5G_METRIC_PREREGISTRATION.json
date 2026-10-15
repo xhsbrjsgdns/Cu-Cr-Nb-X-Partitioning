@@ -1,0 +1,78 @@
+{
+  "generated_utc": "2026-09-06T16:36:48+00:00",
+  "pipeline_freeze_sha256": "15efe35e2ad4f5372323067feccb989079d9fd5666153298a8c2d9f45d3b1788",
+  "ni_blind_preregistration_sha256": "28e8929a61a2d237a6b849cfa095d852b2755302fd95defa823bd06f03699970",
+  "composition_sha256": "7680b5a1ba5a2409f2b23900d770dd4939df0cf76bd2f1d9c1a2c2c5cce0030b",
+  "execution_order": [
+    "STEP5H-A_INPUTS_AND_PREDICTION_HASHES",
+    "STOP",
+    "STEP5H-B_CALPHAD_REVEAL",
+    "PRIMARY_SCORE_AND_HASH",
+    "SECONDARY_SCORE_AND_HASH",
+    "POST_BLIND_RECOVERY_ONLY"
+  ],
+  "preregistration_id": "STEP5G_METRIC_V2",
+  "primary_endpoint": {
+    "name": "mean_tvd",
+    "decision_model": "ORIGINAL6_DIRECT_MLP",
+    "definition": "0.5 * sum(abs(pred-true)), mean over converged states"
+  },
+  "family_order": [
+    "FCC",
+    "BCC",
+    "C15",
+    "OTHER_SOLID",
+    "LIQUID"
+  ],
+  "secondary_endpoints": [
+    "median_tvd",
+    "p95_tvd",
+    "macro_mae",
+    "topology_accuracy",
+    "topology_macro_f1",
+    "per_temperature_mean_tvd",
+    "per_temperature_topology_accuracy",
+    "per_family_mae",
+    "skill_vs_primary_trivial",
+    "simplex_fallback_count"
+  ],
+  "definitions": {
+    "topology": "argmax family; ties resolved by frozen family order",
+    "macro_f1": "all five labels, zero_division=0",
+    "p95": "numpy quantile 0.95, linear",
+    "macro_mae": "mean absolute error over all five components and converged states",
+    "skill": "PRIMARY frozen train-mean TVD minus model TVD; positive is better",
+    "fallback": "count rows whose sum AFTER negative clipping equals zero"
+  },
+  "baselines": {
+    "ORIGINAL6_DIRECT_MLP": [
+      0.3924063060849874,
+      0.17997911835521582,
+      0.2687588732102482,
+      0.1582142342482923,
+      0.0006414681012562028
+    ],
+    "FULL11_DIRECT_MLP": [
+      0.45812328163558386,
+      0.1240658371930271,
+      0.18471172806626412,
+      0.21560165117755808,
+      0.01749750192756682
+    ]
+  },
+  "uncertainty": {
+    "method": "composition-level cluster bootstrap",
+    "replicates": 1000,
+    "seed": 20260911,
+    "resample_unit": "composition_id",
+    "interval": "95% percentile",
+    "temperatures_grouped": true,
+    "applied_to": [
+      "PRIMARY mean TVD"
+    ]
+  },
+  "failure_policy": "Retain every formal row; failed target=NaN; no interpolation, imputation, fabrication or silent deletion. Report formal/converged/failed counts and failures by temperature and composition region.",
+  "success_threshold": null,
+  "roles_immutable": true,
+  "scoring_order": "PRIMARY score+hash, SECONDARY score+hash, only then post-blind recovery"
+}

@@ -1,0 +1,171 @@
+{
+  "fold": "FOLD_MO",
+  "heldout_element": "MO",
+  "seed": 20260908,
+  "xgb_hyperparameters": {
+    "n_estimators": 400,
+    "max_depth": 11,
+    "learning_rate": 0.051860382806529964,
+    "subsample": 0.7756489989496843,
+    "colsample_bytree": 0.8440606511491573,
+    "min_child_weight": 7,
+    "reg_lambda": 0.12222341727953254
+  },
+  "n_train_rows": 202125,
+  "n_val_rows": 43318,
+  "features_original": [
+    "Temperature_C",
+    "Cr_wt_pct",
+    "Nb_wt_pct",
+    "X_wt_pct",
+    "R_CrNb_atomic_actual",
+    "has_X",
+    "delta_r",
+    "delta_chi",
+    "r_bar",
+    "Zbar",
+    "density_bar",
+    "AtomicVol_bar",
+    "X_AtomicNumber",
+    "X_VEC",
+    "X_MeltingT",
+    "Delta_AtomicNumber_X_Cu",
+    "Delta_Electronegativity_X_Cu",
+    "Delta_VEC_X_Cu",
+    "Delta_VEC_X_Cr",
+    "Delta_MeltingT_X_Cu",
+    "Delta_MeltingT_X_Cr",
+    "Delta_Density_X_Cu",
+    "Delta_FirstIonizationEnergy_X_Cr",
+    "magpie_mean_GSbandgap",
+    "magpie_mean_GSmagmom",
+    "magpie_mean_NsUnfilled",
+    "magpie_mean_Row",
+    "magpie_mean_SpaceGroupNumber",
+    "magpie_minimum_AtomicWeight",
+    "magpie_minimum_GSvolume_pa",
+    "magpie_minimum_MeltingT",
+    "magpie_minimum_NsUnfilled",
+    "magpie_minimum_SpaceGroupNumber",
+    "magpie_maximum_GSvolume_pa",
+    "magpie_range_AtomicWeight",
+    "magpie_range_CovalentRadius",
+    "magpie_avg_dev_SpaceGroupNumber"
+  ],
+  "affinity_columns": [
+    "A1_H_XCu",
+    "A2_H_XCr",
+    "A3_H_XNb",
+    "A4_H_XCr_minus_H_XCu",
+    "A5_H_XNb_minus_H_XCu",
+    "A6_H_XNb_minus_H_XCr",
+    "A7_min",
+    "A8_max",
+    "A9_range"
+  ],
+  "branches": {
+    "Z2": {
+      "val_mean_tvd": 0.002015045566952716
+    },
+    "GLOBAL_DIRECT_fallback": {
+      "val_mean_tvd": 0.0020005031064823584
+    },
+    "Z3": {
+      "val_mean_tvd": 0.0018942718872758447,
+      "val_topo_accuracy": 0.997645320651923,
+      "clf_grid": {
+        "n_estimators": 600,
+        "max_depth": 6,
+        "learning_rate": 0.1
+      },
+      "clf_val_macro_f1": 0.9845936480545865,
+      "route_counts": {
+        "0": 19608,
+        "1": 332,
+        "2": 14508,
+        "3": 8870,
+        "4": 0
+      },
+      "experts": {
+        "FCC": {
+          "n_comps": 14226,
+          "n_states": 91442,
+          "expert": true
+        },
+        "BCC": {
+          "n_comps": 539,
+          "n_states": 1846,
+          "expert": true
+        },
+        "C15": {
+          "n_comps": 7342,
+          "n_states": 67635,
+          "expert": true
+        },
+        "OTHER_SOLID": {
+          "n_comps": 6149,
+          "n_states": 41202,
+          "expert": true
+        },
+        "LIQUID": {
+          "n_comps": 0,
+          "n_states": 0,
+          "expert": false,
+          "fallback": "global direct"
+        }
+      }
+    },
+    "Z4": {
+      "val_mean_tvd": 0.001901201470878621,
+      "val_topo_accuracy": 0.9976684057435709,
+      "clf_grid": {
+        "n_estimators": 600,
+        "max_depth": 8,
+        "learning_rate": 0.05
+      },
+      "clf_val_macro_f1": 0.9847101904002938,
+      "route_counts": {
+        "0": 19607,
+        "1": 336,
+        "2": 14506,
+        "3": 8869,
+        "4": 0
+      },
+      "experts": {
+        "FCC": {
+          "n_comps": 14226,
+          "n_states": 91442,
+          "expert": true
+        },
+        "BCC": {
+          "n_comps": 539,
+          "n_states": 1846,
+          "expert": true
+        },
+        "C15": {
+          "n_comps": 7342,
+          "n_states": 67635,
+          "expert": true
+        },
+        "OTHER_SOLID": {
+          "n_comps": 6149,
+          "n_states": 41202,
+          "expert": true
+        },
+        "LIQUID": {
+          "n_comps": 0,
+          "n_states": 0,
+          "expert": false,
+          "fallback": "global direct"
+        }
+      }
+    },
+    "Z5": {
+      "val_mean_tvd": 0.006031359593845727,
+      "chosen_lr": 0.001
+    }
+  },
+  "frozen_utc": "2026-09-05T16:25:19+00:00",
+  "artifact_sha256": "561ef21e911b213a3dd31ad17512443f3cc762910e6d8e273ee1c8b2bee40dee",
+  "artifact_path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5E_XPART_REMEDY_V1\\04_zero_shot\\FOLD_MO_REMEDY_ARTIFACTS.pkl"
+}
