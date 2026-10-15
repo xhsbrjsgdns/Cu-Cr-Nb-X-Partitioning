@@ -1,0 +1,11 @@
+{
+  "generated_utc": "2026-09-05T13:57:00+00:00",
+  "layers": {
+    "STEP5A": "IID (Domain A, all six X elements seen)",
+    "STEP5B": "composition-domain OOD (Domain B shell)",
+    "STEP5C": "element-domain OOD (one X element held out)"
+  },
+  "step5a_source": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\05_results\\BASELINE_IID_TEST_METRICS.csv",
+  "step5b_source": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5B_DOMAIN_B_OOD_V1\\04_metrics\\DOMAIN_B_OOD_METRICS.csv",
+  "reporting_rule": "per-element values are reported alongside mean/median/min/max; the six-fold average is never reported alone (spec 61)"
+}

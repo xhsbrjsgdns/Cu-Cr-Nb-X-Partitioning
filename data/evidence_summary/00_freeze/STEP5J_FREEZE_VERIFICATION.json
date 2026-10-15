@@ -1,0 +1,61 @@
+{
+  "generated_utc": "2026-09-07T07:13:10+00:00",
+  "verdict": "VERIFIED",
+  "n_sources": 55,
+  "n_constant_checked": 11,
+  "n_recorded_only": 44,
+  "n_step5i_checkpoints": 24,
+  "n_step5i_sealed_files": 136,
+  "authoritative_step5i_index": "STEP5I_FINAL_SEAL_HASHES.csv",
+  "superseded_step5i_index": "STEP5I_FILE_HASHES.csv (written mid-run; a log and the completion record were hashed before they were finished - see the STEP5I review addendum)",
+  "checks": [
+    {
+      "id": "F01",
+      "check": "all 11 constant-checked frozen artifacts hash as published",
+      "result": "PASS",
+      "detail": "STEP5G x3, STEP5H-A x3, STEP5H-B x1, sequences x2, feature list x1"
+    },
+    {
+      "id": "F02",
+      "check": "STEP5H-B PRIMARY score is bound to the frozen prediction and target hashes",
+      "result": "PASS",
+      "detail": "prediction 100b40ed67c396cb | target 3e1f4ba2cf6e4712"
+    },
+    {
+      "id": "F03",
+      "check": "STEP5H-B PRIMARY and SECONDARY blind scores are present and immutable",
+      "result": "PASS",
+      "detail": "PRIMARY 0.8643856187 | SECONDARY 0.7234409098506132"
+    },
+    {
+      "id": "F04",
+      "check": "all 24 STEP5I recovery checkpoints hash as recorded",
+      "result": "PASS",
+      "detail": "24 checkpoints verified"
+    },
+    {
+      "id": "F05",
+      "check": "all 24 STEP5I recovery prediction files hash as recorded",
+      "result": "PASS",
+      "detail": "24 prediction files verified"
+    },
+    {
+      "id": "F06",
+      "check": "STEP5I final seal index verifies (136 files)",
+      "result": "PASS",
+      "detail": "136 files unchanged"
+    },
+    {
+      "id": "F07",
+      "check": "every STEP5I metric file STEP5J reads is in the seal index and unchanged",
+      "result": "PASS",
+      "detail": "13 metric files"
+    },
+    {
+      "id": "F08",
+      "check": "no model checkpoint or CALPHAD artifact exists under the STEP5J root",
+      "result": "PASS",
+      "detail": "STEP5J writes no model and no thermodynamic state"
+    }
+  ]
+}

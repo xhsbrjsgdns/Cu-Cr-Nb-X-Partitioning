@@ -1,0 +1,50 @@
+{
+  "generated_utc": "2026-09-07T07:17:05+00:00",
+  "stage": "STEP5J FINAL EVIDENCE FREEZE",
+  "new_calphad_states": 0,
+  "new_models_trained": 0,
+  "frozen_artifacts_modified": 0,
+  "frozen_sources_verified": 55,
+  "level_1_primary_mean_tvd": 0.8643856186628641,
+  "level_1_topology_accuracy": 0.07859090909090909,
+  "level_2_secondary_mean_tvd": 0.7234409098506132,
+  "level_3_recovery_subset_zero_shot": 0.8632602865207863,
+  "level_3_B_skill": 1,
+  "level_3_B_recovery25": 1,
+  "level_3_learning_curve": {
+    "1": 0.2481623700601974,
+    "2": 0.1656707300894517,
+    "4": 0.1235011338779779,
+    "8": 0.0507380675070274,
+    "16": 0.0358137551897369,
+    "32": 0.0271879847928119
+  },
+  "level_3_recovery_fraction": {
+    "1": 0.7125289163244486,
+    "2": 0.8080871636558685,
+    "4": 0.856936388935802,
+    "8": 0.9412250646771695,
+    "16": 0.9585133756887187,
+    "32": 0.9685054609631261
+  },
+  "first_budget_below_R2": 4,
+  "first_budget_below_R0": 8,
+  "claims_frozen": 8,
+  "claims_weakened": [
+    "CLAIM_6",
+    "CLAIM_8"
+  ],
+  "tables": 8,
+  "figures_exported": 12,
+  "integrity_pass": 23,
+  "integrity_total": 23,
+  "not_available": [
+    "dft_or_first_principles_descriptors",
+    "experimental_validation",
+    "kinetics",
+    "low_order_binary_ni_anchors",
+    "second_prospective_unseen_element"
+  ],
+  "decision": "FINAL EVIDENCE PACKAGE READY",
+  "blocking_reasons": []
+}

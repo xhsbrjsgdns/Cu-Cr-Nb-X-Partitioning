@@ -1,0 +1,16 @@
+item,specification
+feature schema,"43 features (F1 composition, F2 mixing, F3 X-property contrasts, F4 Magpie statistics), frozen at STEP5A and never re-selected"
+feature list sha256,f4ddf4a2587e33a7d441656110c589208d9d860095198dd4b276df64f8a2fb0c
+production architecture,"Linear(43,128)-ReLU-Linear(128,64)-ReLU-Linear(64,5)"
+loss / optimizer,raw-component MSE / Adam
+"batch, epochs, patience","1024, <=200, 15 on raw validation MSE"
+learning-rate grid,"1e-4, 3e-4, 1e-3, selected on projected validation TVD (PRIMARY chose 3e-4)"
+projection,"clip at 0, renormalize; zero-sum row -> training-mean simplex"
+x_partition training rows / compositions,241748 / 22050
+validation rows,51802
+split rule,composition-level; a composition never appears in two splits
+master seed,20260904
+bootstrap,"composition-level cluster bootstrap, 1000 replicates, seed 20260904"
+PRIMARY production model,ORIGINAL6_DIRECT_MLP - six identities; kept as PRIMARY because every preregistered augmentation switching gate failed
+SECONDARY production model,FULL11_DIRECT_MLP - eleven identities; declared secondary before the reveal and not promotable by it
+post-blind recovery protocol,"same architecture, frozen PRIMARY scaler never refit, fixed LR 3e-4, natural row weighting, early stopping on original-six validation only"

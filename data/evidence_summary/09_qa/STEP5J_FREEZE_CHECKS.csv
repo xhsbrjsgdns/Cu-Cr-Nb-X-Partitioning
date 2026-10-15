@@ -1,0 +1,9 @@
+id,check,result,detail
+F01,all 11 constant-checked frozen artifacts hash as published,PASS,"STEP5G x3, STEP5H-A x3, STEP5H-B x1, sequences x2, feature list x1"
+F02,STEP5H-B PRIMARY score is bound to the frozen prediction and target hashes,PASS,prediction 100b40ed67c396cb | target 3e1f4ba2cf6e4712
+F03,STEP5H-B PRIMARY and SECONDARY blind scores are present and immutable,PASS,PRIMARY 0.8643856187 | SECONDARY 0.7234409098506132
+F04,all 24 STEP5I recovery checkpoints hash as recorded,PASS,24 checkpoints verified
+F05,all 24 STEP5I recovery prediction files hash as recorded,PASS,24 prediction files verified
+F06,STEP5I final seal index verifies (136 files),PASS,136 files unchanged
+F07,every STEP5I metric file STEP5J reads is in the seal index and unchanged,PASS,13 metric files
+F08,no model checkpoint or CALPHAD artifact exists under the STEP5J root,PASS,STEP5J writes no model and no thermodynamic state

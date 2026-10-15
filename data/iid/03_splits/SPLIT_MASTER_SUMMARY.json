@@ -1,0 +1,161 @@
+{
+  "stage": "STEP5A Stage D + E",
+  "generated_utc": "2026-09-04T12:53:09+00:00",
+  "master_seed": 20260904,
+  "status": "PASS",
+  "counts": {
+    "DEV_TRAIN": 24500,
+    "SEALED_DOMAIN_B": 10000,
+    "DEV_VALIDATION": 5250,
+    "IID_TEST": 5250,
+    "SEALED_ANCHOR": 5000
+  },
+  "family_allocation_compositions": {
+    "DEV_TRAIN": {
+      "AG": 3675,
+      "BASELINE": 2450,
+      "CO": 3675,
+      "MO": 3675,
+      "SI": 3675,
+      "TI": 3675,
+      "ZR": 3675
+    },
+    "DEV_VALIDATION": {
+      "AG": 788,
+      "BASELINE": 525,
+      "CO": 788,
+      "MO": 787,
+      "SI": 787,
+      "TI": 787,
+      "ZR": 788
+    },
+    "IID_TEST": {
+      "AG": 787,
+      "BASELINE": 525,
+      "CO": 787,
+      "MO": 788,
+      "SI": 788,
+      "TI": 788,
+      "ZR": 787
+    }
+  },
+  "development_state_rows": {
+    "DEV_TRAIN": 268698,
+    "DEV_VALIDATION": 57577,
+    "IID_TEST": 57571
+  },
+  "master_csv_sha256": "040988ed78b4dccb39061ed2f908dae624835913039e3dd8ad6f78158c4609c4",
+  "checks": [
+    {
+      "check": "compositions == 50000",
+      "status": "PASS",
+      "detail": "50000"
+    },
+    {
+      "check": "composition_id unique",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "split_role totals exact",
+      "status": "PASS",
+      "detail": "{'DEV_TRAIN': 24500, 'SEALED_DOMAIN_B': 10000, 'DEV_VALIDATION': 5250, 'IID_TEST': 5250, 'SEALED_ANCHOR': 5000}"
+    },
+    {
+      "check": "every development composition is Domain A",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "development covers all 35000 Domain A compositions",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Train ∩ Val == 0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Train ∩ IID Test == 0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Val ∩ IID Test == 0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "development ∩ Domain B == 0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "development ∩ Anchor == 0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "each composition appears exactly once",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "BASELINE 2450/525/525",
+      "status": "PASS",
+      "detail": "{'DEV_TRAIN': 2450, 'DEV_VALIDATION': 525, 'IID_TEST': 525}"
+    },
+    {
+      "check": "X families 3675 train + fixed val/test schedule",
+      "status": "PASS",
+      "detail": "{'DEV_TRAIN': {'AG': 3675, 'BASELINE': 2450, 'CO': 3675, 'MO': 3675, 'SI': 3675, 'TI': 3675, 'ZR': 3675}, 'DEV_VALIDATION': {'AG': 788, 'BASELINE': 525, 'CO': 788, 'MO': 787, 'SI': 787, 'TI': 787, 'ZR': 788}, 'IID_TEST': {'AG': 787, 'BASELINE': 525, 'CO': 787, 'MO': 788, 'SI': 788, 'TI': 788, 'ZR': 787}}"
+    },
+    {
+      "check": "Domain B family counts BASELINE=1000, each X=1500",
+      "status": "PASS",
+      "detail": "{'ZR': 1500, 'TI': 1500, 'CO': 1500, 'SI': 1500, 'AG': 1500, 'MO': 1500, 'BASELINE': 1000}"
+    },
+    {
+      "check": "ANCHOR family counts BASELINE=500, each X=750",
+      "status": "PASS",
+      "detail": "{'ZR': 750, 'TI': 750, 'CO': 750, 'SI': 750, 'AG': 750, 'MO': 750, 'BASELINE': 500}"
+    },
+    {
+      "check": "Domain B IDs all contain _B_ marker",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "ANCHOR IDs all contain _ANCHOR_ marker",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Domain A dev IDs all contain _A_ marker",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "every ML_READY state inherits a split_role",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "each composition's states share exactly one split_role",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "no Domain B state tagged as development",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "no ANCHOR state tagged as development",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "failures": []
+}

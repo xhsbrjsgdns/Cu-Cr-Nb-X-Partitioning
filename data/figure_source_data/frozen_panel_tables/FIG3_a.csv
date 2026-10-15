@@ -1,0 +1,6 @@
+stage,task,model,exact_match,macro_f1,micro_f1,hamming_loss,exact_match_default0.5,macro_f1_default0.5,trivial_macro_f1,trivial_exact_match,mean_tvd,median_tvd,p95_tvd,macro_mae,macro_rmse,raw_sum_violation_mean,proj_sum_violation_max,simplex_fallbacks,trivial_mean_tvd,trivial_macro_mae,n_rows,thresholds,raw_sum_violation_max,raw_negative_mean,raw_gt1_frac,granularity,target,support,precision,recall,f1,roc_auc,pr_auc,mae_raw,mae_proj,rmse_raw,rmse_proj,r2_raw,r2_proj,true_mean,true_std,metric,point_estimate,bootstrap_mean,ci95_low,ci95_high,n_replicates
+test,presence,XGBoost,,,,,,,,,,,,,,,,,,,,,,,,per_label,FCC,57571.0,1.0,1.0,1.0,,,,,,,,,,,,,,,,
+test,presence,XGBoost,,,,,,,,,,,,,,,,,,,,,,,,per_label,BCC,52686.0,0.9935401004873258,0.9983676878108037,0.9959480440792214,0.9993169629644914,0.9999364642467878,,,,,,,,,,,,,,
+test,presence,XGBoost,,,,,,,,,,,,,,,,,,,,,,,,per_label,C15,57400.0,0.9995297969419388,0.9999128919860628,0.9997213077633206,0.9999473276687654,0.9999998431291884,,,,,,,,,,,,,,
+test,presence,XGBoost,,,,,,,,,,,,,,,,,,,,,,,,per_label,OTHER_SOLID,10335.0,0.9963285024154588,0.9977745524915336,0.9970510031423736,0.9999937789857376,0.999971684754928,,,,,,,,,,,,,,
+test,presence,XGBoost,,,,,,,,,,,,,,,,,,,,,,,,per_label,LIQUID,201.0,0.985,0.9800995024875622,0.9825436408977556,0.9999956640017622,0.9987931390706246,,,,,,,,,,,,,,

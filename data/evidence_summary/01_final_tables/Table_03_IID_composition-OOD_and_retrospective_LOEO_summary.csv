@@ -1,0 +1,14 @@
+task,metric,STEP5A_IID,STEP5B_composition_domain_OOD,STEP5C_retrospective_LOEO_mean,STEP5C_LOEO_min,STEP5C_LOEO_max,LOEO_worst_element,block
+presence,macro_f1,0.9950527991765344,0.9297262522412464,0.6110365193578579,0.5813048371206069,0.6951725632568838,SI,"A. retrospective ladder (context, not primary evidence)"
+fraction,mean_tvd,8.029021538066818e-05,0.0129951795216213,0.0026807467647054,0.0017178442503635,0.0036998179381709,SI,"A. retrospective ladder (context, not primary evidence)"
+cr_partition,mean_tvd,0.0028750618612073,0.0573521536595539,0.1365223333185594,0.0434925960233336,0.2829271350892122,SI,"A. retrospective ladder (context, not primary evidence)"
+nb_partition,mean_tvd,0.0019600967315355,0.0772337478804284,0.0455178634835454,0.0198181722593462,0.091957652752063,SI,"A. retrospective ladder (context, not primary evidence)"
+x_partition,mean_tvd,0.0016401332247829,0.0697231664611315,0.8504979259389538,0.6398134767813602,0.9870844574343756,MO,"A. retrospective ladder (context, not primary evidence)"
+x_partition,mean_tvd (per held-out element),,,0.6398134767813602,,,ZR,B. per-element LOEO (the six-fold average is never reported alone)
+x_partition,mean_tvd (per held-out element),,,0.8262253660154008,,,TI,B. per-element LOEO (the six-fold average is never reported alone)
+x_partition,mean_tvd (per held-out element),,,0.8322313548143286,,,CO,B. per-element LOEO (the six-fold average is never reported alone)
+x_partition,mean_tvd (per held-out element),,,0.9032562944855548,,,SI,B. per-element LOEO (the six-fold average is never reported alone)
+x_partition,mean_tvd (per held-out element),,,0.9143766061027018,,,AG,B. per-element LOEO (the six-fold average is never reported alone)
+x_partition,mean_tvd (per held-out element),,,0.9870844574343756,,,MO,B. per-element LOEO (the six-fold average is never reported alone)
+x_partition,mean_tvd,,,0.752644,,,Z1_MLP_DIRECT (selected pipeline family),C. selected-family retrospective LOEO
+x_partition,mean_tvd,,,0.710332,,,FULL5-augmented family,C. selected-family retrospective LOEO

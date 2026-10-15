@@ -1,0 +1,6 @@
+Temperature_C
+Cr_wt_pct
+Nb_wt_pct
+X_wt_pct
+R_CrNb_atomic_actual
+has_X

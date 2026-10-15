@@ -1,0 +1,72 @@
+{
+  "generated_utc": "2026-09-07T07:15:54+00:00",
+  "rule": "evidence levels are never mixed inside a single statement",
+  "levels": {
+    "1": "PROSPECTIVE PRIMARY EVIDENCE (STEP5H-B PRIMARY zero-shot only)",
+    "2": "PROSPECTIVE SECONDARY SENSITIVITY (STEP5H-B FULL11 SECONDARY only)",
+    "3": "POST-BLIND PREREGISTERED RECOVERY (STEP5I random few-shot, maximin, R0/R1/R2)",
+    "4": "POST-BLIND DESCRIPTIVE MECHANISM (NBNI3, topology, temperature, coverage)"
+  },
+  "level_membership": {
+    "LEVEL_1": [
+      "STEP5H-B PRIMARY zero-shot mean TVD, CI, topology accuracy, per-family MAE, true and predicted topology distributions"
+    ],
+    "LEVEL_2": [
+      "STEP5H-B FULL11 SECONDARY zero-shot metrics"
+    ],
+    "LEVEL_3": [
+      "STEP5I random few-shot learning curve",
+      "maximin comparison",
+      "R0 / R1 / R2 anchor-only controls",
+      "B_skill",
+      "B_recovery25"
+    ],
+    "LEVEL_4": [
+      "NBNI3 stratification",
+      "true-topology stratification",
+      "temperature-regime stratification",
+      "anchor coverage correlations",
+      "topology-inheritance observation",
+      "paired bootstrap intervals"
+    ],
+    "CONTEXT_NOT_EVIDENCE": [
+      "STEP5A IID",
+      "STEP5B composition-domain OOD",
+      "STEP5C / STEP5E / STEP5F retrospective LOEO (model-family context, not scores of the frozen production checkpoints)"
+    ]
+  },
+  "claims_tested": {
+    "CLAIM_1": true,
+    "CLAIM_2": true,
+    "CLAIM_3": true,
+    "CLAIM_4": true,
+    "CLAIM_5": true,
+    "CLAIM_6": true,
+    "CLAIM_7": true,
+    "CLAIM_8": false
+  },
+  "claims_weakened": [
+    "CLAIM_6",
+    "CLAIM_8"
+  ],
+  "forbidden_claims": [
+    "accurate zero-shot unseen-element model",
+    "universal ood generalization",
+    "universal ood generalisation",
+    "full11 solves chemical ood",
+    "distance predicts failure",
+    "nbni3 causes all error",
+    "solves chemical ood",
+    "successful zero-shot",
+    "zero-shot success",
+    "predicted strongest alloy",
+    "strongest alloy",
+    "kinetic precipitation driving force",
+    "jmst success threshold",
+    "prospective blind validation"
+  ],
+  "conditional_phrase": {
+    "phrase": "one point / one composition is sufficient",
+    "allowed_only_with": "an explicit statement that one composition is 11 CALPHAD temperature states"
+  }
+}

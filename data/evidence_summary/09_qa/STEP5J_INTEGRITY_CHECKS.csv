@@ -1,0 +1,24 @@
+n,item,result,detail
+1,every frozen source still hashes as verified in stage 0,PASS,"55 sources, 11 against published hashes"
+2,no frozen artifact was modified by STEP5J,PASS,every source lives outside the STEP5J root
+3,no new CALPHAD state and no new model exists under STEP5J,PASS,"0 checkpoints, 0 solver artifacts"
+4,PRIMARY prospective result is carried unchanged,PASS,0.8643856186628641
+5,SECONDARY prospective result is carried unchanged,PASS,0.7234409098506132
+6,"every manuscript-facing number carries a source file, hash and metric definition",PASS,"61 value records, 0 without a source+hash+definition or a declared reason: []"
+7,"recovery-subset zero-shot is used for the recovery comparisons, not the 22,000-state value",PASS,recovery subset 0.8632602865 vs full blind 0.8643856187
+8,recovery fractions in the table match the frozen numbers exactly,PASS,"b1 71.2529%, b2 80.8087%, b4 85.6936%, b8 94.1225%, b16 95.8513%, b32 96.8505%"
+9,"crossover budgets are derived, not asserted",PASS,"first below R2 at 4, below R0 at 8"
+10,"all three random replicates are retained, never only their mean",PASS,Table 5 carries every replicate
+11,maximin is labelled secondary and is not promoted,PASS,maximin wins 2 of 6 budgets and is reported as a comparison only
+12,retrospective LOEO is labelled model-family context everywhere,PASS,caveat present in the numbers file and in Table 3
+13,"evidence levels are recorded on every table, figure and claim",PASS,"8 tables, 12 figures, 8 claims"
+14,"claims whose evidence is weaker than the nominated wording were weakened, not published as nominated",PASS,"weakened: ['CLAIM_6', 'CLAIM_8']"
+15,the NBNI3 coverage-recovery correlation is reported with its budget confound,PASS,"rho(budget, anchor compositions containing NBNI3) = 0.9999999999999998"
+16,the 'one composition' clarification accompanies every data-efficiency statement,PASS,one composition = 11 CALPHAD temperature states
+17,"every exported figure has PNG, PDF, SVG and a source CSV",PASS,12 figures exported in 4 formats
+18,"figure text is vector, not rasterized",PASS,pdf.fonttype 42 and svg.fonttype none; SVG contains <text> elements
+19,"unavailable quantities are declared, not silently computed",PASS,dft_or_first_principles_descriptors; experimental_validation; kinetics; low_order_binary_ni_anchors; second_prospective_unseen_element
+20,recomputed values agree with the brief at its own quoted precision,PASS,0 of 33 quoted values disagree
+21,every claim points at files that exist and hash as recorded,PASS,"8 claims, 55 frozen sources"
+22,"the provenance map covers every table, figure, claim and number",PASS,84 provenance rows
+23,no forbidden claim appears outside an explicit disclaimer block,PASS,14 prohibited phrasings checked in every markdown file

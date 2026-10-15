@@ -1,0 +1,14 @@
+quantity,value
+thermodynamic engine,Thermo-Calc 2025b / TC-Python 2025.2.30 / TCCU6 (Cu-Alloys v6.2)
+conditions,"1 bar, 1 mol, wt.%, Cu = balance"
+temperature grid,11 points: 300 350 400 450 500 600 700 800 900 950 1000 degC
+composition sampling,"Sobol(d=3, scramble); S_CrNb and R_CrNb_atomic sampled then inverted, so Cr and Nb are never sampled independently"
+Domain A (development),35000 compositions / 385000 states
+Domain B (composition-domain OOD shell),"10000 compositions / 110000 states, 109716 converged, 284 failed"
+prospective Ni blind set,"2000 compositions / 22000 states, 22000 converged, 0 failed"
+X identities in development,"ZR, TI, CO, SI, AG, MO"
+X identities added in augmentation,"BE, SN, MN, LA, P"
+prospectively held-out identity,Ni
+five-family mapping,"FCC_L12*->FCC, BCC_B2*->BCC, C15_LAVES*->C15, LIQUID*->LIQUID, every other stable solid->OTHER_SOLID; presence threshold 1e-4"
+partition definition,n_X^a = phase_moles_a * X_X^a ; P_X^a = n_X^a / sum_b n_X^b (molar; volume-fraction partitioning forbidden)
+distinct raw phases across the project,"13, of which NBNI3 appeared only in the Ni blind set"

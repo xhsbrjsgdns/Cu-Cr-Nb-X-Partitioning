@@ -1,0 +1,36 @@
+{
+  "generated_utc": "2026-09-04T12:58:05+00:00",
+  "n_elements": 9,
+  "elements": [
+    "CU",
+    "CR",
+    "NB",
+    "ZR",
+    "TI",
+    "CO",
+    "SI",
+    "AG",
+    "MO"
+  ],
+  "n_properties": 13,
+  "properties": [
+    "AtomicNumber",
+    "AtomicWeight",
+    "CovalentRadius",
+    "Electronegativity",
+    "VEC",
+    "MeltingT",
+    "FirstIonizationEnergy",
+    "ElectronAffinity",
+    "AtomicVolume_GS",
+    "MetallicRadius",
+    "Density",
+    "MendeleevNumber",
+    "CohesiveEnergy"
+  ],
+  "dropped_properties": [],
+  "matminer": "0.10.1",
+  "mendeleev": "1.2.0",
+  "pymatgen": "2026.5.4",
+  "ni_scan_hits": 0
+}

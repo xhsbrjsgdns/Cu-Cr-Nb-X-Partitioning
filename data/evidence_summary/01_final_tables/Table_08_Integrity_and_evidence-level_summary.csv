@@ -1,0 +1,15 @@
+item,value
+frozen sources verified,"55 (11 against published hashes, 44 recorded by STEP5J)"
+STEP5I recovery checkpoints verified,24
+STEP5I sealed files verified,136
+new CALPHAD states computed in STEP5J,0
+new models trained in STEP5J,0
+frozen artifacts modified,0
+values recomputed and cross-checked against the brief,"33, of which 0 disagree beyond the brief's own quoted precision"
+claims audited,8
+claims weakened by their own evidence,2
+LEVEL 1,PROSPECTIVE PRIMARY EVIDENCE (STEP5H-B PRIMARY zero-shot only)
+LEVEL 2,PROSPECTIVE SECONDARY SENSITIVITY (STEP5H-B FULL11 SECONDARY only)
+LEVEL 3,"POST-BLIND PREREGISTERED RECOVERY (STEP5I random few-shot, maximin, R0/R1/R2)"
+LEVEL 4,"POST-BLIND DESCRIPTIVE MECHANISM (NBNI3, topology, temperature, coverage)"
+explicitly NOT available,dft_or_first_principles_descriptors; experimental_validation; kinetics; low_order_binary_ni_anchors; second_prospective_unseen_element

@@ -1,0 +1,14 @@
+metric,PRIMARY (LEVEL 1),SECONDARY (LEVEL 2)
+states scored,22000,22000
+mean TVD,0.8643856186628641,0.7234409098506132
+95% CI (composition cluster bootstrap),"[0.861931, 0.867030]","[0.720839, 0.726021]"
+median TVD,0.9111178623163201,0.8534921054609947
+p95 TVD,0.9993043464932985,0.944154954536072
+topology accuracy,0.07859090909090909,0.2406818181818182
+topology macro F1,0.039501941969385425,0.10050298946569232
+own trivial baseline TVD,0.5957669021263107,0.5258305150815665
+skill vs own trivial (negative = worse than the training mean),-0.26861871653655345,-0.19761039476904663
+"predicted dominant family share, C15",0.8730909090909091,0.7593181818181818
+"true dominant family share, C15",0.0,0.0
+"true dominant family share, FCC / OTHER_SOLID",0.717227 / 0.282773,same targets
+features extending the training range (frozen pre-reveal),0 of 43,same inputs

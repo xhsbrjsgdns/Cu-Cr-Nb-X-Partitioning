@@ -1,0 +1,45 @@
+{
+  "step": "STEP5A_JMST_ML_FOUNDATION_V2",
+  "project": "Cu-Cr-Nb-X CALPHAD + ML + Out-of-Domain Generalization (JMST)",
+  "master_seed": 20260904,
+  "full_v1_root": "E:/Cu_CALPHAD_ML/03_full_CALPHAD/FULL_V1",
+  "development_universe": "sampling_domain == A only (DEV_TRAIN / DEV_VALIDATION / IID_TEST)",
+  "sealed": ["SEALED_DOMAIN_B", "SEALED_ANCHOR", "NI (element)"],
+  "split": {
+    "level": "composition",
+    "train_fraction": 0.70,
+    "validation_fraction": 0.15,
+    "iid_test_fraction": 0.15,
+    "counts": {"DEV_TRAIN": 24500, "DEV_VALIDATION": 5250, "IID_TEST": 5250,
+               "SEALED_DOMAIN_B": 10000, "SEALED_ANCHOR": 5000},
+    "val_test_schedule_per_X_family": {"ZR": [788, 787], "TI": [787, 788], "CO": [788, 787],
+                                       "SI": [787, 788], "AG": [788, 787], "MO": [787, 788]},
+    "baseline_family_counts": {"train": 2450, "val": 525, "test": 525}
+  },
+  "core_families": ["FCC", "BCC", "C15", "OTHER_SOLID", "LIQUID"],
+  "presence_threshold_volfrac": 1e-4,
+  "partition_definition": "n_i_alpha = phase_moles_alpha * X_i_alpha ; P_i_alpha = n_i_alpha / sum_beta n_i_beta (molar; volume-fraction-based partitioning FORBIDDEN)",
+  "feature_policy": {
+    "pcc_threshold": 0.90,
+    "pcc_scope": "DEV_TRAIN only",
+    "forbidden_inputs": ["state_id", "composition_id", "family", "X_element", "sampling_domain",
+                          "solver metadata", "any target column", "any CALPHAD-derived descriptor",
+                          "X one-hot", "phase_count", "has_multiple_* flags"],
+    "derived_descriptors_policy": "FULL_V1_DERIVED_DESCRIPTORS is post-hoc/diagnostics only, never model input"
+  },
+  "modeling": {
+    "screening_subset": "20% family-stratified composition subset of DEV_TRAIN",
+    "tuning": "Optuna TPE, seed 20260904, 30 trials, top-2 families per task, DEV_VALIDATION objective",
+    "final_refit": "FULL DEV_TRAIN",
+    "presence_thresholds": "per-label F1-max on DEV_VALIDATION, tie -> closest to 0.5, frozen at DEVELOPMENT_FREEZE",
+    "simplex_projection": "clip at 0 then renormalize; sum==0 -> DEV_TRAIN mean simplex (counted); never uses val/test labels",
+    "class_weights": "train-only; no SMOTE, no synthetic labels",
+    "bootstrap": "composition-level cluster bootstrap, 1000 replicates, seed 20260904, 95% CI"
+  },
+  "test_policy": {
+    "iid_test_openings": 1,
+    "first_open_marker": "05_results/TEST_FIRST_OPEN.json",
+    "domain_b_metrics_in_step5a": "FORBIDDEN (STEP5B)",
+    "anchor_metrics": "FORBIDDEN"
+  }
+}

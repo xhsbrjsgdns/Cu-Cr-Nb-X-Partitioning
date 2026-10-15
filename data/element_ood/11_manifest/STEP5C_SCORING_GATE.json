@@ -1,0 +1,77 @@
+{
+  "stage": "STEP5C Stage I",
+  "generated_utc": "2026-09-05T13:42:44+00:00",
+  "status": "PASS",
+  "heldout_artifacts_predating_freeze": [],
+  "heldout_artifacts_after_freeze": [],
+  "latest_freeze_mtime_utc": "2026-09-05T13:42:43Z",
+  "statement": "all six folds were developed and frozen before any HELDOUT_ELEMENT_TEST set was scored; no held-out metric has influenced any fold's feature policy, model family, search bounds, trial count, metrics, thresholds, projection or distance definition",
+  "frozen_folds": [
+    "AG",
+    "CO",
+    "MO",
+    "SI",
+    "TI",
+    "ZR"
+  ],
+  "freeze_hashes": {
+    "ZR": "ad66326702f0e68cd167e4b20a0561934363c30cbe3551e149630b84f0e9f785",
+    "TI": "f88a929113ef08ae017ca32e26385e0fe01d5d51b6ae446a97a37d37369bb558",
+    "CO": "25b0f5866e4f58e278e8d7370b107b642422fba4a75237d97763315a23638cf1",
+    "SI": "e2084b440630c8029c454364c4e4669aadadbee5308d7aa6ca7f6299bd0e0b95",
+    "AG": "4516a3d5a7febd022c35f1823eaefac4573d36edbee0cd028ab693a338a6e349",
+    "MO": "40fc1174a3fa0f44c78d8650ba506b32ace3211db34db31b27ffca82526ad842"
+  },
+  "preregistration_sha256": "36e23238d502b03a16757f25149e9c62c0d8036a7012bbcd9350f139af8e609d",
+  "checks": [
+    {
+      "id": "I01",
+      "check": "all six FOLD_<X>_FREEZE.json exist",
+      "status": "PASS",
+      "detail": "6/6"
+    },
+    {
+      "id": "I02",
+      "check": "every fold was frozen against the SAME preregistration",
+      "status": "PASS",
+      "detail": "36e23238d502b03a"
+    },
+    {
+      "id": "I03",
+      "check": "every fold started from the SAME candidate feature schema",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "id": "I04",
+      "check": "every selected model family is inside the preregistered search space",
+      "status": "PASS",
+      "detail": "{'ZR': ['CatBoost', 'XGBoost'], 'TI': ['CatBoost', 'XGBoost'], 'CO': ['CatBoost', 'XGBoost'], 'SI': ['CatBoost', 'XGBoost'], 'AG': ['CatBoost', 'XGBoost'], 'MO': ['CatBoost', 'XGBoost']}"
+    },
+    {
+      "id": "I05",
+      "check": "no fold record claims a held-out metric was computed during development",
+      "status": "PASS",
+      "detail": "{'ZR': False, 'TI': False, 'CO': False, 'SI': False, 'AG': False, 'MO': False}"
+    },
+    {
+      "id": "I06",
+      "check": "held-out rows used in development == 0 for every fold",
+      "status": "PASS",
+      "detail": "{'ZR': 0, 'TI': 0, 'CO': 0, 'SI': 0, 'AG': 0, 'MO': 0}"
+    },
+    {
+      "id": "I07",
+      "check": "no held-out prediction or metric artifact PREDATES the six freezes",
+      "status": "PASS",
+      "detail": "0 artifacts"
+    },
+    {
+      "id": "I08",
+      "check": "identical tuning budget (15 trials) in every fold x task x family",
+      "status": "PASS",
+      "detail": "15"
+    }
+  ],
+  "scoring_authorized": true
+}

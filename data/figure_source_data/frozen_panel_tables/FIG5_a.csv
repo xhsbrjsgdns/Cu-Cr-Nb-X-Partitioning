@@ -1,0 +1,259 @@
+element,index,feature,category,low,high,outside,N
+ZR,F01,Temperature_C,Composition / temperature,300.0,1000.0,0.0,57750
+ZR,F02,Cr_wt_pct,Composition / temperature,0.3217,1.5672,0.00019047619047619048,57750
+ZR,F03,Nb_wt_pct,Composition / temperature,0.1302,0.936,0.0,57750
+ZR,F04,X_wt_pct,Composition / temperature,0.005,0.3,0.0,57750
+ZR,F05,R_CrNb_atomic_actual,Composition / temperature,2.000113,6.500815,0.0,57750
+ZR,F06,has_X,Composition / temperature,1.0,1.0,0.0,57750
+ZR,F07,delta_r,Atomic size,0.3562469519342812,1.0508413097320333,0.0,57750
+ZR,F08,r_bar,Atomic size,134.99490458234402,135.170852942053,0.0,57750
+ZR,F09,AtomicVol_bar,Atomic size,11.074651068980094,11.130522728976969,0.0005714285714285715,57750
+ZR,F10,magpie_minimum_GSvolume_pa,Atomic size,10.245,11.07,0.0,57750
+ZR,F11,magpie_maximum_GSvolume_pa,Atomic size,18.18,20.44,1.0,57750
+ZR,F12,magpie_range_CovalentRadius,Atomic size,32.0,53.0,0.0,57750
+ZR,F13,Zbar,Electronic,28.91526237264285,29.04037011051129,0.0,57750
+ZR,F14,X_AtomicNumber,Electronic,14.0,47.0,0.0,57750
+ZR,F15,X_VEC,Electronic,4.0,11.0,0.0,57750
+ZR,F16,Delta_AtomicNumber_X_Cu,Electronic,-15.0,18.0,0.0,57750
+ZR,F17,Delta_VEC_X_Cu,Electronic,-7.0,0.0,0.0,57750
+ZR,F18,Delta_VEC_X_Cr,Electronic,-2.0,5.0,0.0,57750
+ZR,F19,Delta_FirstIonizationEnergy_X_Cu,Electronic,-0.8982599999999996,0.4253000000000009,1.0,57750
+ZR,F20,Delta_FirstIonizationEnergy_X_Cr,Electronic,0.06160999999999994,1.3851700000000005,1.0,57750
+ZR,F21,magpie_mean_GSbandgap,Electronic,0.0,0.0013981973142352109,0.0,57750
+ZR,F22,magpie_mean_GSmagmom,Electronic,0.0,0.005005247449761835,0.0,57750
+ZR,F23,magpie_mean_NsUnfilled,Electronic,0.9967676199274731,1.0,0.0,57750
+ZR,F24,magpie_minimum_NValence,Electronic,4.0,5.0,0.0,57750
+ZR,F25,magpie_minimum_NsUnfilled,Electronic,0.0,1.0,0.0,57750
+ZR,F26,delta_chi,Electronegativity,0.01992832774295907,0.04063952548055584,0.018285714285714287,57750
+ZR,F27,Delta_Electronegativity_X_Cu,Electronegativity,-0.3599999999999999,0.26000000000000023,1.0,57750
+ZR,F28,magpie_minimum_Electronegativity,Electronegativity,1.54,1.6,1.0,57750
+ZR,F29,magpie_maximum_Electronegativity,Electronegativity,1.9,2.16,0.0,57750
+ZR,F30,magpie_range_Electronegativity,Electronegativity,0.2999999999999998,0.56,1.0,57750
+ZR,F31,density_bar,Thermochemical,8.913316571285462,8.954363457759328,0.0,57750
+ZR,F32,X_MeltingT,Thermochemical,1234.93,2896.0,0.0,57750
+ZR,F33,Delta_MeltingT_X_Cu,Thermochemical,-122.83999999999992,1538.23,0.0,57750
+ZR,F34,Delta_MeltingT_X_Cr,Thermochemical,-945.0699999999999,716.0,0.0,57750
+ZR,F35,Delta_Density_X_Cu,Thermochemical,-6.630400000000001,1.5399999999999991,0.0,57750
+ZR,F36,magpie_minimum_MeltingT,Thermochemical,1234.93,1357.77,0.0,57750
+ZR,F37,magpie_range_MeltingT,Thermochemical,1392.23,1538.23,0.0,57750
+ZR,F38,magpie_mean_Row,Structural / derived,3.999233534546221,4.007905379092734,0.0,57750
+ZR,F39,magpie_mean_SpaceGroupNumber,Structural / derived,224.92763501597904,225.0948580484643,0.0,57750
+ZR,F40,magpie_minimum_AtomicWeight,Structural / derived,28.0855,51.9961,0.0,57750
+ZR,F41,magpie_minimum_SpaceGroupNumber,Structural / derived,194.0,225.0,0.0,57750
+ZR,F42,magpie_range_AtomicWeight,Structural / derived,40.91028,64.82088,0.0,57750
+ZR,F43,magpie_avg_dev_SpaceGroupNumber,Structural / derived,0.046456589019621526,0.20010489763774209,0.0,57750
+TI,F01,Temperature_C,Composition / temperature,300.0,1000.0,0.0,57750
+TI,F02,Cr_wt_pct,Composition / temperature,0.32,1.5672,0.0,57750
+TI,F03,Nb_wt_pct,Composition / temperature,0.1302,0.936,0.0,57750
+TI,F04,X_wt_pct,Composition / temperature,0.005,0.3,0.0,57750
+TI,F05,R_CrNb_atomic_actual,Composition / temperature,2.000113,6.500815,0.0,57750
+TI,F06,has_X,Composition / temperature,1.0,1.0,0.0,57750
+TI,F07,delta_r,Atomic size,0.3562469519342812,1.0508413097320333,0.0,57750
+TI,F08,r_bar,Atomic size,134.99490458234402,135.170852942053,0.0,57750
+TI,F09,AtomicVol_bar,Atomic size,11.074651068980094,11.131854288953903,0.0,57750
+TI,F10,magpie_minimum_GSvolume_pa,Atomic size,10.245,11.07,0.0,57750
+TI,F11,magpie_maximum_GSvolume_pa,Atomic size,18.18,23.195,0.0,57750
+TI,F12,magpie_range_CovalentRadius,Atomic size,32.0,53.0,0.0,57750
+TI,F13,Zbar,Electronic,28.91526237264285,29.04037011051129,0.0,57750
+TI,F14,X_AtomicNumber,Electronic,14.0,47.0,0.0,57750
+TI,F15,X_VEC,Electronic,4.0,11.0,0.0,57750
+TI,F16,Delta_AtomicNumber_X_Cu,Electronic,-15.0,18.0,0.0,57750
+TI,F17,Delta_VEC_X_Cu,Electronic,-7.0,0.0,0.0,57750
+TI,F18,Delta_VEC_X_Cr,Electronic,-2.0,5.0,0.0,57750
+TI,F19,Delta_FirstIonizationEnergy_X_Cu,Electronic,-1.0924800000000001,0.4253000000000009,0.0,57750
+TI,F20,Delta_FirstIonizationEnergy_X_Cr,Electronic,-0.13261000000000056,1.3851700000000005,0.0,57750
+TI,F21,magpie_mean_GSbandgap,Electronic,0.0,0.0013981973142352109,0.0,57750
+TI,F22,magpie_mean_GSmagmom,Electronic,0.0,0.005005247449761835,0.0,57750
+TI,F23,magpie_mean_NsUnfilled,Electronic,0.9967676199274731,1.0,0.0,57750
+TI,F24,magpie_minimum_NValence,Electronic,4.0,5.0,0.0,57750
+TI,F25,magpie_minimum_NsUnfilled,Electronic,0.0,1.0,0.0,57750
+TI,F26,delta_chi,Electronegativity,0.01992832774295907,0.042112782042870424,0.0,57750
+TI,F27,Delta_Electronegativity_X_Cu,Electronegativity,-0.5699999999999998,0.26000000000000023,0.0,57750
+TI,F28,magpie_minimum_Electronegativity,Electronegativity,1.33,1.6,0.0,57750
+TI,F29,magpie_maximum_Electronegativity,Electronegativity,1.9,2.16,0.0,57750
+TI,F30,magpie_range_Electronegativity,Electronegativity,0.2999999999999998,0.5699999999999998,0.0,57750
+TI,F31,density_bar,Thermochemical,8.913352249458594,8.954363457759328,0.00019047619047619048,57750
+TI,F32,X_MeltingT,Thermochemical,1234.93,2896.0,0.0,57750
+TI,F33,Delta_MeltingT_X_Cu,Thermochemical,-122.83999999999992,1538.23,0.0,57750
+TI,F34,Delta_MeltingT_X_Cr,Thermochemical,-945.0699999999999,716.0,0.0,57750
+TI,F35,Delta_Density_X_Cu,Thermochemical,-6.630400000000001,1.5399999999999991,0.0,57750
+TI,F36,magpie_minimum_MeltingT,Thermochemical,1234.93,1357.77,0.0,57750
+TI,F37,magpie_range_MeltingT,Thermochemical,1392.23,1538.23,0.0,57750
+TI,F38,magpie_mean_Row,Structural / derived,3.999233534546221,4.007905379092734,0.0,57750
+TI,F39,magpie_mean_SpaceGroupNumber,Structural / derived,224.92763501597904,225.0948580484643,0.0,57750
+TI,F40,magpie_minimum_AtomicWeight,Structural / derived,28.0855,51.9961,0.0,57750
+TI,F41,magpie_minimum_SpaceGroupNumber,Structural / derived,194.0,225.0,0.0,57750
+TI,F42,magpie_range_AtomicWeight,Structural / derived,40.91028,64.82088,0.0,57750
+TI,F43,magpie_avg_dev_SpaceGroupNumber,Structural / derived,0.046456589019621526,0.20010489763774209,0.0,57750
+CO,F01,Temperature_C,Composition / temperature,300.0,1000.0,0.0,57750
+CO,F02,Cr_wt_pct,Composition / temperature,0.32,1.5672,0.0,57750
+CO,F03,Nb_wt_pct,Composition / temperature,0.131,0.9311,0.00038095238095238096,57750
+CO,F04,X_wt_pct,Composition / temperature,0.005,0.3,0.0,57750
+CO,F05,R_CrNb_atomic_actual,Composition / temperature,2.000113,6.500815,0.0,57750
+CO,F06,has_X,Composition / temperature,1.0,1.0,0.0,57750
+CO,F07,delta_r,Atomic size,0.3700708006277585,1.0508413097320333,0.009904761904761904,57750
+CO,F08,r_bar,Atomic size,134.99490458234402,135.170852942053,0.0,57750
+CO,F09,AtomicVol_bar,Atomic size,11.078552975600074,11.131854288953903,0.05904761904761905,57750
+CO,F10,magpie_minimum_GSvolume_pa,Atomic size,11.07,11.07,1.0,57750
+CO,F11,magpie_maximum_GSvolume_pa,Atomic size,18.18,23.195,0.0,57750
+CO,F12,magpie_range_CovalentRadius,Atomic size,32.0,53.0,0.0,57750
+CO,F13,Zbar,Electronic,28.91526237264285,29.04037011051129,0.0,57750
+CO,F14,X_AtomicNumber,Electronic,14.0,47.0,0.0,57750
+CO,F15,X_VEC,Electronic,4.0,11.0,0.0,57750
+CO,F16,Delta_AtomicNumber_X_Cu,Electronic,-15.0,18.0,0.0,57750
+CO,F17,Delta_VEC_X_Cu,Electronic,-7.0,0.0,0.0,57750
+CO,F18,Delta_VEC_X_Cr,Electronic,-2.0,5.0,0.0,57750
+CO,F19,Delta_FirstIonizationEnergy_X_Cu,Electronic,-1.0924800000000001,0.4253000000000009,0.0,57750
+CO,F20,Delta_FirstIonizationEnergy_X_Cr,Electronic,-0.13261000000000056,1.3851700000000005,0.0,57750
+CO,F21,magpie_mean_GSbandgap,Electronic,0.0,0.0013981973142352109,0.0,57750
+CO,F22,magpie_mean_GSmagmom,Electronic,0.0,5.976260751457947e-08,1.0,57750
+CO,F23,magpie_mean_NsUnfilled,Electronic,0.9973478132759763,1.0,0.1996190476190476,57750
+CO,F24,magpie_minimum_NValence,Electronic,4.0,5.0,0.0,57750
+CO,F25,magpie_minimum_NsUnfilled,Electronic,0.0,1.0,0.0,57750
+CO,F26,delta_chi,Electronegativity,0.01992832774295907,0.042112782042870424,0.0,57750
+CO,F27,Delta_Electronegativity_X_Cu,Electronegativity,-0.5699999999999998,0.26000000000000023,0.0,57750
+CO,F28,magpie_minimum_Electronegativity,Electronegativity,1.33,1.6,0.0,57750
+CO,F29,magpie_maximum_Electronegativity,Electronegativity,1.9,2.16,0.0,57750
+CO,F30,magpie_range_Electronegativity,Electronegativity,0.2999999999999998,0.5699999999999998,0.0,57750
+CO,F31,density_bar,Thermochemical,8.913316571285462,8.954363457759328,0.0,57750
+CO,F32,X_MeltingT,Thermochemical,1234.93,2896.0,0.0,57750
+CO,F33,Delta_MeltingT_X_Cu,Thermochemical,-122.83999999999992,1538.23,0.0,57750
+CO,F34,Delta_MeltingT_X_Cr,Thermochemical,-945.0699999999999,716.0,0.0,57750
+CO,F35,Delta_Density_X_Cu,Thermochemical,-6.630400000000001,1.5399999999999991,0.0,57750
+CO,F36,magpie_minimum_MeltingT,Thermochemical,1234.93,1357.77,0.0,57750
+CO,F37,magpie_range_MeltingT,Thermochemical,1392.23,1538.23,0.0,57750
+CO,F38,magpie_mean_Row,Structural / derived,3.999233534546221,4.007905379092734,0.0,57750
+CO,F39,magpie_mean_SpaceGroupNumber,Structural / derived,224.9423982269894,225.0948580484643,0.02838095238095238,57750
+CO,F40,magpie_minimum_AtomicWeight,Structural / derived,28.0855,51.9961,0.0,57750
+CO,F41,magpie_minimum_SpaceGroupNumber,Structural / derived,194.0,225.0,0.0,57750
+CO,F42,magpie_range_AtomicWeight,Structural / derived,40.91028,64.82088,0.0,57750
+CO,F43,magpie_avg_dev_SpaceGroupNumber,Structural / derived,0.046456589019621526,0.18521707224936268,0.08266666666666667,57750
+SI,F01,Temperature_C,Composition / temperature,300.0,1000.0,0.0,57750
+SI,F02,Cr_wt_pct,Composition / temperature,0.32,1.5672,0.0,57750
+SI,F03,Nb_wt_pct,Composition / temperature,0.1302,0.936,0.00019047619047619048,57750
+SI,F04,X_wt_pct,Composition / temperature,0.02,0.3,0.19942857142857143,57750
+SI,F05,R_CrNb_atomic_actual,Composition / temperature,2.000158,6.500675,0.00038095238095238096,57750
+SI,F06,has_X,Composition / temperature,1.0,1.0,0.0,57750
+SI,F07,delta_r,Atomic size,0.3562469519342812,1.042852210080175,0.0007619047619047619,57750
+SI,F08,r_bar,Atomic size,135.03767033264148,135.170852942053,0.2674285714285714,57750
+SI,F09,AtomicVol_bar,Atomic size,11.074651068980094,11.131854288953903,0.00019047619047619048,57750
+SI,F10,magpie_minimum_GSvolume_pa,Atomic size,10.245,11.07,0.0,57750
+SI,F11,magpie_maximum_GSvolume_pa,Atomic size,18.18,23.195,0.0,57750
+SI,F12,magpie_range_CovalentRadius,Atomic size,32.0,43.0,1.0,57750
+SI,F13,Zbar,Electronic,28.924265309038137,29.04037011051129,0.00780952380952381,57750
+SI,F14,X_AtomicNumber,Electronic,22.0,47.0,1.0,57750
+SI,F15,X_VEC,Electronic,4.0,11.0,0.0,57750
+SI,F16,Delta_AtomicNumber_X_Cu,Electronic,-7.0,18.0,1.0,57750
+SI,F17,Delta_VEC_X_Cu,Electronic,-7.0,0.0,0.0,57750
+SI,F18,Delta_VEC_X_Cr,Electronic,-2.0,5.0,0.0,57750
+SI,F19,Delta_FirstIonizationEnergy_X_Cu,Electronic,-1.0924800000000001,0.15463000000000005,1.0,57750
+SI,F20,Delta_FirstIonizationEnergy_X_Cr,Electronic,-0.13261000000000056,1.1144999999999996,1.0,57750
+SI,F21,magpie_mean_GSbandgap,Electronic,0.0,0.0,1.0,57750
+SI,F22,magpie_mean_GSmagmom,Electronic,0.0,0.005005247449761835,0.0,57750
+SI,F23,magpie_mean_NsUnfilled,Electronic,0.9967676199274731,1.0,0.0,57750
+SI,F24,magpie_minimum_NValence,Electronic,4.0,5.0,0.0,57750
+SI,F25,magpie_minimum_NsUnfilled,Electronic,0.0,1.0,0.0,57750
+SI,F26,delta_chi,Electronegativity,0.01992832774295907,0.042112782042870424,0.0,57750
+SI,F27,Delta_Electronegativity_X_Cu,Electronegativity,-0.5699999999999998,0.26000000000000023,0.0,57750
+SI,F28,magpie_minimum_Electronegativity,Electronegativity,1.33,1.6,0.0,57750
+SI,F29,magpie_maximum_Electronegativity,Electronegativity,1.9,2.16,0.0,57750
+SI,F30,magpie_range_Electronegativity,Electronegativity,0.2999999999999998,0.5699999999999998,0.0,57750
+SI,F31,density_bar,Thermochemical,8.913316571285462,8.954363457759328,0.00019047619047619048,57750
+SI,F32,X_MeltingT,Thermochemical,1234.93,2896.0,0.0,57750
+SI,F33,Delta_MeltingT_X_Cu,Thermochemical,-122.83999999999992,1538.23,0.0,57750
+SI,F34,Delta_MeltingT_X_Cr,Thermochemical,-945.0699999999999,716.0,0.0,57750
+SI,F35,Delta_Density_X_Cu,Thermochemical,-4.454000000000001,1.5399999999999991,1.0,57750
+SI,F36,magpie_minimum_MeltingT,Thermochemical,1234.93,1357.77,0.0,57750
+SI,F37,magpie_range_MeltingT,Thermochemical,1392.23,1538.23,0.0,57750
+SI,F38,magpie_mean_Row,Structural / derived,4.0008898682326555,4.007905379092734,0.23561904761904762,57750
+SI,F39,magpie_mean_SpaceGroupNumber,Structural / derived,224.92763501597904,225.0948580484643,0.0,57750
+SI,F40,magpie_minimum_AtomicWeight,Structural / derived,47.867,51.9961,1.0,57750
+SI,F41,magpie_minimum_SpaceGroupNumber,Structural / derived,194.0,225.0,0.0,57750
+SI,F42,magpie_range_AtomicWeight,Structural / derived,40.91028,55.8721,1.0,57750
+SI,F43,magpie_avg_dev_SpaceGroupNumber,Structural / derived,0.046456589019621526,0.20010489763774209,0.0,57750
+AG,F01,Temperature_C,Composition / temperature,300.0,1000.0,0.0,57750
+AG,F02,Cr_wt_pct,Composition / temperature,0.32,1.5672,0.0,57750
+AG,F03,Nb_wt_pct,Composition / temperature,0.1302,0.936,0.0,57750
+AG,F04,X_wt_pct,Composition / temperature,0.005,0.3,0.0,57750
+AG,F05,R_CrNb_atomic_actual,Composition / temperature,2.000113,6.500815,0.0,57750
+AG,F06,has_X,Composition / temperature,1.0,1.0,0.0,57750
+AG,F07,delta_r,Atomic size,0.3562469519342812,1.0508413097320333,0.0,57750
+AG,F08,r_bar,Atomic size,134.99490458234402,135.15339029107957,0.04304761904761905,57750
+AG,F09,AtomicVol_bar,Atomic size,11.074651068980094,11.131854288953903,0.0,57750
+AG,F10,magpie_minimum_GSvolume_pa,Atomic size,10.245,11.07,0.0,57750
+AG,F11,magpie_maximum_GSvolume_pa,Atomic size,18.18,23.195,0.0,57750
+AG,F12,magpie_range_CovalentRadius,Atomic size,32.0,53.0,0.0,57750
+AG,F13,Zbar,Electronic,28.91526237264285,29.035930246334935,0.003619047619047619,57750
+AG,F14,X_AtomicNumber,Electronic,14.0,42.0,1.0,57750
+AG,F15,X_VEC,Electronic,4.0,9.0,1.0,57750
+AG,F16,Delta_AtomicNumber_X_Cu,Electronic,-15.0,13.0,1.0,57750
+AG,F17,Delta_VEC_X_Cu,Electronic,-7.0,-2.0,1.0,57750
+AG,F18,Delta_VEC_X_Cr,Electronic,-2.0,3.0,1.0,57750
+AG,F19,Delta_FirstIonizationEnergy_X_Cu,Electronic,-1.0924800000000001,0.4253000000000009,0.0,57750
+AG,F20,Delta_FirstIonizationEnergy_X_Cr,Electronic,-0.13261000000000056,1.3851700000000005,0.0,57750
+AG,F21,magpie_mean_GSbandgap,Electronic,0.0,0.0013981973142352109,0.0,57750
+AG,F22,magpie_mean_GSmagmom,Electronic,0.0,0.005005247449761835,0.0,57750
+AG,F23,magpie_mean_NsUnfilled,Electronic,0.9967676199274731,1.0,0.0,57750
+AG,F24,magpie_minimum_NValence,Electronic,4.0,5.0,0.0,57750
+AG,F25,magpie_minimum_NsUnfilled,Electronic,0.0,1.0,0.0,57750
+AG,F26,delta_chi,Electronegativity,0.01994521865487501,0.042112782042870424,0.00019047619047619048,57750
+AG,F27,Delta_Electronegativity_X_Cu,Electronegativity,-0.5699999999999998,0.26000000000000023,0.0,57750
+AG,F28,magpie_minimum_Electronegativity,Electronegativity,1.33,1.6,0.0,57750
+AG,F29,magpie_maximum_Electronegativity,Electronegativity,1.9,2.16,0.0,57750
+AG,F30,magpie_range_Electronegativity,Electronegativity,0.2999999999999998,0.5699999999999998,0.0,57750
+AG,F31,density_bar,Thermochemical,8.913316571285462,8.954352059282831,0.00038095238095238096,57750
+AG,F32,X_MeltingT,Thermochemical,1687.0,2896.0,1.0,57750
+AG,F33,Delta_MeltingT_X_Cu,Thermochemical,329.23,1538.23,1.0,57750
+AG,F34,Delta_MeltingT_X_Cr,Thermochemical,-493.0,716.0,1.0,57750
+AG,F35,Delta_Density_X_Cu,Thermochemical,-6.630400000000001,1.2399999999999984,1.0,57750
+AG,F36,magpie_minimum_MeltingT,Thermochemical,1357.77,1357.77,1.0,57750
+AG,F37,magpie_range_MeltingT,Thermochemical,1392.23,1538.23,0.0,57750
+AG,F38,magpie_mean_Row,Structural / derived,3.999233534546221,4.007905379092734,0.0,57750
+AG,F39,magpie_mean_SpaceGroupNumber,Structural / derived,224.92763501597904,225.0948580484643,0.0,57750
+AG,F40,magpie_minimum_AtomicWeight,Structural / derived,28.0855,51.9961,0.0,57750
+AG,F41,magpie_minimum_SpaceGroupNumber,Structural / derived,194.0,225.0,0.0,57750
+AG,F42,magpie_range_AtomicWeight,Structural / derived,40.91028,64.82088,0.0,57750
+AG,F43,magpie_avg_dev_SpaceGroupNumber,Structural / derived,0.046777728983212634,0.20010489763774209,0.00019047619047619048,57750
+MO,F01,Temperature_C,Composition / temperature,300.0,1000.0,0.0,56596
+MO,F02,Cr_wt_pct,Composition / temperature,0.32,1.5631,0.00019436002544349424,56596
+MO,F03,Nb_wt_pct,Composition / temperature,0.1302,0.936,0.0,56596
+MO,F04,X_wt_pct,Composition / temperature,0.005,0.3,0.0,56596
+MO,F05,R_CrNb_atomic_actual,Composition / temperature,2.000113,6.500815,0.0,56596
+MO,F06,has_X,Composition / temperature,1.0,1.0,0.0,56596
+MO,F07,delta_r,Atomic size,0.3562469519342812,1.0508413097320333,0.0,56596
+MO,F08,r_bar,Atomic size,134.99490458234402,135.170852942053,0.0,56596
+MO,F09,AtomicVol_bar,Atomic size,11.074651068980094,11.131854288953903,0.0,56596
+MO,F10,magpie_minimum_GSvolume_pa,Atomic size,10.245,11.07,0.0,56596
+MO,F11,magpie_maximum_GSvolume_pa,Atomic size,18.18,23.195,0.0,56596
+MO,F12,magpie_range_CovalentRadius,Atomic size,32.0,53.0,0.0,56596
+MO,F13,Zbar,Electronic,28.91526237264285,29.04037011051129,0.0,56596
+MO,F14,X_AtomicNumber,Electronic,14.0,47.0,0.0,56596
+MO,F15,X_VEC,Electronic,4.0,11.0,0.0,56596
+MO,F16,Delta_AtomicNumber_X_Cu,Electronic,-15.0,18.0,0.0,56596
+MO,F17,Delta_VEC_X_Cu,Electronic,-7.0,0.0,0.0,56596
+MO,F18,Delta_VEC_X_Cr,Electronic,-2.0,5.0,0.0,56596
+MO,F19,Delta_FirstIonizationEnergy_X_Cu,Electronic,-1.0924800000000001,0.4253000000000009,0.0,56596
+MO,F20,Delta_FirstIonizationEnergy_X_Cr,Electronic,-0.13261000000000056,1.3851700000000005,0.0,56596
+MO,F21,magpie_mean_GSbandgap,Electronic,0.0,0.0013981973142352109,0.0,56596
+MO,F22,magpie_mean_GSmagmom,Electronic,0.0,0.005005247449761835,0.0,56596
+MO,F23,magpie_mean_NsUnfilled,Electronic,0.9967676199274731,1.0,0.0,56596
+MO,F24,magpie_minimum_NValence,Electronic,4.0,5.0,0.0,56596
+MO,F25,magpie_minimum_NsUnfilled,Electronic,0.0,1.0,0.0,56596
+MO,F26,delta_chi,Electronegativity,0.01992832774295907,0.042112782042870424,0.0,56596
+MO,F27,Delta_Electronegativity_X_Cu,Electronegativity,-0.5699999999999998,0.030000000000000027,1.0,56596
+MO,F28,magpie_minimum_Electronegativity,Electronegativity,1.33,1.6,0.0,56596
+MO,F29,magpie_maximum_Electronegativity,Electronegativity,1.9,1.93,1.0,56596
+MO,F30,magpie_range_Electronegativity,Electronegativity,0.2999999999999998,0.5699999999999998,0.0,56596
+MO,F31,density_bar,Thermochemical,8.913316571285462,8.954363457759328,0.0,56596
+MO,F32,X_MeltingT,Thermochemical,1234.93,2128.0,1.0,56596
+MO,F33,Delta_MeltingT_X_Cu,Thermochemical,-122.83999999999992,770.23,1.0,56596
+MO,F34,Delta_MeltingT_X_Cr,Thermochemical,-945.0699999999999,-52.0,1.0,56596
+MO,F35,Delta_Density_X_Cu,Thermochemical,-6.630400000000001,1.5399999999999991,0.0,56596
+MO,F36,magpie_minimum_MeltingT,Thermochemical,1234.93,1357.77,0.0,56596
+MO,F37,magpie_range_MeltingT,Thermochemical,1392.23,1515.07,1.0,56596
+MO,F38,magpie_mean_Row,Structural / derived,3.999233534546221,4.007724002915636,0.001554880203547954,56596
+MO,F39,magpie_mean_SpaceGroupNumber,Structural / derived,224.92763501597904,225.09004115105648,0.014771361933705563,56596
+MO,F40,magpie_minimum_AtomicWeight,Structural / derived,28.0855,51.9961,0.0,56596
+MO,F41,magpie_minimum_SpaceGroupNumber,Structural / derived,194.0,225.0,0.0,56596
+MO,F42,magpie_range_AtomicWeight,Structural / derived,40.91028,64.82088,0.0,56596
+MO,F43,magpie_avg_dev_SpaceGroupNumber,Structural / derived,0.046456589019621526,0.20010489763774209,0.0,56596

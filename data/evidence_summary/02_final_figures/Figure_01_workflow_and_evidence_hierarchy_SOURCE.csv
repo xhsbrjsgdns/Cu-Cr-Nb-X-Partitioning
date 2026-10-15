@@ -1,0 +1,11 @@
+stage,description
+FULL_V1,"550,000 CALPHAD states 6 X identities + baseline"
+STEP5A,43-feature schema IID models frozen
+STEP5B,composition-domain OOD (Domain B shell)
+STEP5C-E,"retrospective LOEO failure diagnosis, pipeline choice"
+STEP5F,chemical-identity augmentation (+5 identities)
+STEP5G,"production freeze Ni preregistered, still sealed"
+STEP5H-A,Ni features + predictions frozen BEFORE any Ni CALPHAD
+STEP5H-B,Ni CALPHAD reveal LEVEL 1 prospective result
+STEP5I,post-blind few-shot recovery LEVEL 3 + LEVEL 4
+STEP5J,evidence freeze claim audit

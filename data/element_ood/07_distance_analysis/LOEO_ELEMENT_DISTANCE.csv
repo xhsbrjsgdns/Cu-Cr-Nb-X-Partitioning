@@ -1,0 +1,7 @@
+heldout_element,nearest_element,nearest_element_distance,mean_distance_to_5,max_distance_to_5,centroid_distance,training_elements,per_element_distance,n_properties,scaler_scope
+ZR,TI,3.64847467797061,6.160531088873063,7.96775005640471,5.211439954281426,TI;CO;SI;AG;MO,"{""TI"": 3.648475, ""CO"": 7.004615, ""SI"": 7.96775, ""AG"": 6.69761, ""MO"": 5.484206}",13,remaining 5 X elements of this fold only
+TI,ZR,3.312042844264521,5.062089115330737,6.4958232292543325,3.7405688739246163,ZR;CO;SI;AG;MO,"{""ZR"": 3.312043, ""CO"": 4.442746, ""SI"": 6.199237, ""AG"": 6.495823, ""MO"": 4.860596}",13,remaining 5 X elements of this fold only
+CO,AG,4.172705904725783,5.0825432915973305,6.714771032915692,3.6955468426160323,ZR;TI;SI;AG;MO,"{""ZR"": 6.714771, ""TI"": 4.58436, ""SI"": 5.394001, ""AG"": 4.172706, ""MO"": 4.546878}",13,remaining 5 X elements of this fold only
+SI,CO,6.15970606212586,8.330167034303827,9.77435101814842,7.617175649057735,ZR;TI;CO;AG;MO,"{""ZR"": 9.774351, ""TI"": 7.700052, ""CO"": 6.159706, ""AG"": 9.140455, ""MO"": 8.876271}",13,remaining 5 X elements of this fold only
+AG,CO,4.512402502549692,6.607925141269954,7.7575806822584195,5.648358710023822,ZR;TI;CO;SI;MO,"{""ZR"": 7.027751, ""TI"": 7.161523, ""CO"": 4.512403, ""SI"": 7.757581, ""MO"": 6.580368}",13,remaining 5 X elements of this fold only
+MO,ZR,5.127131021653383,6.252357339496395,7.6348612627590215,5.20384843031745,ZR;TI;CO;SI;AG,"{""ZR"": 5.127131, ""TI"": 5.704949, ""CO"": 5.554471, ""SI"": 7.634861, ""AG"": 7.240375}",13,remaining 5 X elements of this fold only

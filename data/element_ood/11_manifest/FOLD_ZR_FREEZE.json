@@ -1,0 +1,644 @@
+{
+  "fold": "FOLD_ZR",
+  "heldout_element": "ZR",
+  "frozen_utc": "2026-09-05T08:13:46+00:00",
+  "elapsed_seconds": 2290.5,
+  "terminology": "retrospective leave-one-element-out; the held-out element's targets are excluded from THIS fold's development",
+  "preregistration_sha256": "36e23238d502b03a16757f25149e9c62c0d8036a7012bbcd9350f139af8e609d",
+  "candidate_schema_hash": "b3ed89bec1984197aa686f1b1a7b1fe21a9ad9ec534edb41909a3ece71943709",
+  "selected_features": [
+    "Temperature_C",
+    "Cr_wt_pct",
+    "Nb_wt_pct",
+    "X_wt_pct",
+    "R_CrNb_atomic_actual",
+    "has_X",
+    "delta_r",
+    "r_bar",
+    "Zbar",
+    "CovalentR_bar",
+    "density_bar",
+    "AtomicVol_bar",
+    "X_AtomicNumber",
+    "X_VEC",
+    "X_MeltingT",
+    "Delta_AtomicNumber_X_Cu",
+    "Delta_MetallicRadius_X_Cu",
+    "Delta_Electronegativity_X_Cu",
+    "Delta_VEC_X_Cu",
+    "Delta_VEC_X_Cr",
+    "Delta_MeltingT_X_Cu",
+    "Delta_MeltingT_X_Cr",
+    "Delta_FirstIonizationEnergy_X_Cu",
+    "Delta_FirstIonizationEnergy_X_Cr",
+    "magpie_mean_GSbandgap",
+    "magpie_mean_GSmagmom",
+    "magpie_mean_NsUnfilled",
+    "magpie_mean_Row",
+    "magpie_mean_SpaceGroupNumber",
+    "magpie_minimum_AtomicWeight",
+    "magpie_minimum_Column",
+    "magpie_minimum_GSvolume_pa",
+    "magpie_minimum_MeltingT",
+    "magpie_minimum_NsUnfilled",
+    "magpie_minimum_SpaceGroupNumber",
+    "magpie_maximum_Electronegativity",
+    "magpie_range_AtomicWeight",
+    "magpie_range_MeltingT",
+    "magpie_avg_dev_SpaceGroupNumber"
+  ],
+  "n_selected_features": 39,
+  "selected_features_sha256": "86bc3c98fd2f68020f3e5e5a50d358305b28b7143dc1bfe0f8c6361aa67d17cf",
+  "selected_features_file_sha256": "356640768b2caaf18fd1d15efa1f2334a7c75a752725cd5919592bf9dc13e932",
+  "pcc_log_sha256": "16dd634703d1d9de49c824f959dcea20b7ef188e48795435ccad0ca18e8eebb7",
+  "nzv_log_sha256": "9b20c2c14718f4087ad352a38a61e15e81868300a1dfb68e2e056137deddce1e",
+  "random_seed": 74843841,
+  "fold_train_compositions": 20825,
+  "fold_validation_compositions": 4462,
+  "fold_train_rows": 228273,
+  "fold_validation_rows": 48909,
+  "heldout_rows_used_in_development": 0,
+  "projection_rule": {
+    "rule": "clip negatives to 0, renormalize to sum 1",
+    "zero_sum_fallback": "that fold's FOLD_TRAIN mean simplex (spec 38)",
+    "heldout_mean_as_fallback": false
+  },
+  "threshold_rule": "per-label F1-max on FOLD_VALIDATION; tie -> closest to 0.5 (spec 33)",
+  "tasks": {
+    "presence": {
+      "model_family": "CatBoost",
+      "hyperparameters": {
+        "iterations": 500,
+        "depth": 7,
+        "learning_rate": 0.05832942288856607,
+        "l2_leaf_reg": 0.002703886578204105,
+        "random_strength": 3.7445331017682224
+      },
+      "tie_applied": true,
+      "validation_selection_metric": "macro_f1",
+      "validation_value_on_subset_tuning": 0.798289864106918,
+      "validation_value_after_full_refit": 0.7990400090694731,
+      "thresholds": [
+        0.5,
+        0.42,
+        0.57,
+        0.58,
+        0.5
+      ],
+      "trivial_baseline": [
+        1.0,
+        0.928887779106596,
+        0.9967582675130217,
+        0.20043106280637657,
+        0.0
+      ],
+      "simplex_fallback_row": null,
+      "n_train_rows": 228273,
+      "n_train_compositions": 20825,
+      "n_validation_rows": 48909,
+      "n_validation_compositions": 4462,
+      "model_artifact": "04_models/FOLD_ZR/presence/model_state.pkl",
+      "model_artifact_sha256": "9174070a64545df29c3ae03f5a8297140569dcb736f143bfefb2895ce4be878b",
+      "validation_metrics": {
+        "exact_match": 0.9932118832934633,
+        "hamming_loss": 0.0013617125682389745,
+        "micro_f1": 0.9989115761880326,
+        "macro_f1": 0.7990400090694731,
+        "per_label": {
+          "FCC": {
+            "support": 48909,
+            "n": 48909,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "degenerate_test_label": true,
+            "roc_auc": null,
+            "pr_auc": null,
+            "note": "DEGENERATE_TEST_LABEL: only one class present in the held-out test; F1 here is not evidence of generalization (spec 36)"
+          },
+          "BCC": {
+            "support": 45435,
+            "n": 48909,
+            "precision": 0.9966997425799212,
+            "recall": 0.9970507318146803,
+            "f1": 0.9968752063024008,
+            "degenerate_test_label": false,
+            "roc_auc": 0.9994763660866977,
+            "pr_auc": 0.999959893383163
+          },
+          "C15": {
+            "support": 48758,
+            "n": 48909,
+            "precision": 0.9997949054514131,
+            "recall": 0.9997949054514131,
+            "f1": 0.9997949054514131,
+            "degenerate_test_label": false,
+            "roc_auc": 0.9999278773474838,
+            "pr_auc": 0.9999997766801145
+          },
+          "OTHER_SOLID": {
+            "support": 9856,
+            "n": 48909,
+            "precision": 0.997771249113565,
+            "recall": 0.9992897727272727,
+            "f1": 0.998529933593552,
+            "degenerate_test_label": false,
+            "roc_auc": 0.9999976227984879,
+            "pr_auc": 0.9999905764992973
+          },
+          "LIQUID": {
+            "support": 0,
+            "n": 48909,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "degenerate_test_label": true,
+            "roc_auc": null,
+            "pr_auc": null,
+            "note": "DEGENERATE_TEST_LABEL: only one class present in the held-out test; F1 here is not evidence of generalization (spec 36)"
+          }
+        },
+        "degenerate_test_labels": [
+          "FCC",
+          "LIQUID"
+        ],
+        "n_non_degenerate_labels": 3,
+        "macro_f1_non_degenerate": 0.9984000151157887
+      }
+    },
+    "fraction": {
+      "model_family": "XGBoost",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 9,
+        "learning_rate": 0.026980083930864627,
+        "subsample": 0.65319875606035,
+        "colsample_bytree": 0.8240118223282,
+        "min_child_weight": 9,
+        "reg_lambda": 3.92207896891125
+      },
+      "tie_applied": true,
+      "validation_selection_metric": "mean_tvd",
+      "validation_value_on_subset_tuning": 0.0002069529210307103,
+      "validation_value_after_full_refit": 0.00011869810996868851,
+      "thresholds": null,
+      "trivial_baseline": [
+        0.985372547921922,
+        0.0049955979521379285,
+        0.008851171054267732,
+        0.0007806830716724065,
+        0.0
+      ],
+      "simplex_fallback_row": [
+        0.985372547921922,
+        0.0049955979521379285,
+        0.008851171054267732,
+        0.0007806830716724065,
+        0.0
+      ],
+      "n_train_rows": 228273,
+      "n_train_compositions": 20825,
+      "n_validation_rows": 48909,
+      "n_validation_compositions": 4462,
+      "model_artifact": "04_models/FOLD_ZR/fraction/model_state.pkl",
+      "model_artifact_sha256": "b1f9c37da5f27794c27f2b30397053ef5e67fa7f183ddbe15e748f616c86fb44",
+      "validation_metrics": {
+        "macro_mae": 4.74792439874754e-05,
+        "macro_rmse": 8.88286610442292e-05,
+        "simplex_fallbacks": 0,
+        "per_family": {
+          "FCC": {
+            "mae": 9.159193755954597e-05,
+            "rmse": 0.00012841580544952315,
+            "r2": 0.9994218486836459,
+            "true_mean": 0.9852689425089942,
+            "true_std": 0.005340694311371366
+          },
+          "BCC": {
+            "mae": 7.730956671406687e-05,
+            "rmse": 0.00010783724428839002,
+            "r2": 0.9989485901865303,
+            "true_mean": 0.004942664573902114,
+            "true_std": 0.0033256976847701597
+          },
+          "C15": {
+            "mae": 5.571024370406618e-05,
+            "rmse": 9.960785835604307e-05,
+            "r2": 0.9993961538329107,
+            "true_mean": 0.00901104869064405,
+            "true_std": 0.004053502503306523
+          },
+          "OTHER_SOLID": {
+            "mae": 1.2784471959698041e-05,
+            "rmse": 3.75691272631077e-05,
+            "r2": 0.9995916394780824,
+            "true_mean": 0.0007773442264596351,
+            "true_std": 0.0018591277414168226
+          },
+          "LIQUID": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "r2": null,
+            "true_mean": 0.0,
+            "true_std": 0.0
+          }
+        },
+        "mean_tvd": 0.00011869810996868851,
+        "median_tvd": 9.050265232543532e-05,
+        "p95_tvd": 0.00030873475151023784,
+        "mean_tvd_raw": 0.0001138045362237851,
+        "raw_sum_violation_mean": 0.00012015251468756106,
+        "raw_sum_violation_max": 0.0014950558543205261,
+        "projected_sum_violation_max": 2.220446049250313e-16
+      }
+    },
+    "cr_partition": {
+      "model_family": "CatBoost",
+      "hyperparameters": {
+        "iterations": 900,
+        "depth": 10,
+        "learning_rate": 0.10715332209213695,
+        "l2_leaf_reg": 2.7369951234321865,
+        "random_strength": 0.16383661109091222
+      },
+      "tie_applied": false,
+      "validation_selection_metric": "mean_tvd",
+      "validation_value_on_subset_tuning": 0.0043587516060782,
+      "validation_value_after_full_refit": 0.0026914468782834006,
+      "thresholds": null,
+      "trivial_baseline": [
+        0.09916187775001571,
+        0.4068024132858997,
+        0.44504084099598834,
+        0.04899486796809622,
+        0.0
+      ],
+      "simplex_fallback_row": [
+        0.09916187775001571,
+        0.4068024132858997,
+        0.44504084099598834,
+        0.04899486796809622,
+        0.0
+      ],
+      "n_train_rows": 228273,
+      "n_train_compositions": 20825,
+      "n_validation_rows": 48909,
+      "n_validation_compositions": 4462,
+      "model_artifact": "04_models/FOLD_ZR/cr_partition/model_state.pkl",
+      "model_artifact_sha256": "2a7b05ae317c757bcbf116f6dac50a271d613d7928ca93963c0eef0146ec08a8",
+      "validation_metrics": {
+        "macro_mae": 0.0010765787513133602,
+        "macro_rmse": 0.002689334208735148,
+        "simplex_fallbacks": 0,
+        "per_family": {
+          "FCC": {
+            "mae": 0.000645866208344175,
+            "rmse": 0.0015096802992133535,
+            "r2": 0.9999124994347675,
+            "true_mean": 0.09893012797782492,
+            "true_std": 0.16139109138707158
+          },
+          "BCC": {
+            "mae": 0.0020696529147491544,
+            "rmse": 0.003790309418900157,
+            "r2": 0.9997308587549661,
+            "true_mean": 0.40242461581090394,
+            "true_std": 0.23103859569082597
+          },
+          "C15": {
+            "mae": 0.0019742373284967205,
+            "rmse": 0.003470286700324164,
+            "r2": 0.9996776614521661,
+            "true_mean": 0.4520306020491795,
+            "true_std": 0.19328993201540864
+          },
+          "OTHER_SOLID": {
+            "mae": 0.0006931373049767511,
+            "rmse": 0.0027338841511817184,
+            "r2": 0.999529681962146,
+            "true_mean": 0.04661465416209165,
+            "true_std": 0.12606202805050876
+          },
+          "LIQUID": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "r2": null,
+            "true_mean": 0.0,
+            "true_std": 0.0
+          }
+        },
+        "mean_tvd": 0.0026914468782834006,
+        "median_tvd": 0.0015319612294732632,
+        "p95_tvd": 0.009077021062452874,
+        "mean_tvd_raw": 0.0031755762644622865,
+        "raw_sum_violation_mean": 0.0030439342715526067,
+        "raw_sum_violation_max": 0.06629739915243338,
+        "projected_sum_violation_max": 4.440892098500626e-16
+      }
+    },
+    "nb_partition": {
+      "model_family": "CatBoost",
+      "hyperparameters": {
+        "iterations": 900,
+        "depth": 10,
+        "learning_rate": 0.09728296566111046,
+        "l2_leaf_reg": 0.6225701775995044,
+        "random_strength": 0.24499236643883296
+      },
+      "tie_applied": false,
+      "validation_selection_metric": "mean_tvd",
+      "validation_value_on_subset_tuning": 0.003137550975685686,
+      "validation_value_after_full_refit": 0.0020997707230679535,
+      "thresholds": null,
+      "trivial_baseline": [
+        0.09731127143929053,
+        0.015198911921402119,
+        0.8874793642923707,
+        1.0452346936633235e-05,
+        0.0
+      ],
+      "simplex_fallback_row": [
+        0.09731127143929053,
+        0.015198911921402119,
+        0.8874793642923707,
+        1.0452346936633235e-05,
+        0.0
+      ],
+      "n_train_rows": 228273,
+      "n_train_compositions": 20825,
+      "n_validation_rows": 48909,
+      "n_validation_compositions": 4462,
+      "model_artifact": "04_models/FOLD_ZR/nb_partition/model_state.pkl",
+      "model_artifact_sha256": "3a1690eaf0cd837e1356f2e55526b83247d0052a828094e2981aa799f5a0f1f5",
+      "validation_metrics": {
+        "macro_mae": 0.0008399082892271816,
+        "macro_rmse": 0.0037905460660495726,
+        "simplex_fallbacks": 0,
+        "per_family": {
+          "FCC": {
+            "mae": 0.0014304784470354206,
+            "rmse": 0.0037974189253653493,
+            "r2": 0.9993944170137847,
+            "true_mean": 0.09537783033177478,
+            "true_std": 0.15431270274278167
+          },
+          "BCC": {
+            "mae": 0.0008819447266799067,
+            "rmse": 0.00481340914279359,
+            "r2": 0.9910884223084501,
+            "true_mean": 0.013831423330494995,
+            "true_std": 0.050988880843031555
+          },
+          "C15": {
+            "mae": 0.0018869072919280618,
+            "rmse": 0.00585251191701818,
+            "r2": 0.9987733846219841,
+            "true_mean": 0.8907802048144138,
+            "true_std": 0.16710448416831647
+          },
+          "OTHER_SOLID": {
+            "mae": 2.10980492518472e-07,
+            "rmse": 1.893337738012138e-06,
+            "r2": 0.999435074881759,
+            "true_mean": 1.0541523316364582e-05,
+            "true_std": 7.965859620940012e-05
+          },
+          "LIQUID": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "r2": null,
+            "true_mean": 0.0,
+            "true_std": 0.0
+          }
+        },
+        "mean_tvd": 0.0020997707230679535,
+        "median_tvd": 0.0006978822020546326,
+        "p95_tvd": 0.007739765558943968,
+        "mean_tvd_raw": 0.0024391948149387614,
+        "raw_sum_violation_mean": 0.002284977530033216,
+        "raw_sum_violation_max": 0.07517328091510611,
+        "projected_sum_violation_max": 3.3306690738754696e-16
+      }
+    },
+    "x_partition": {
+      "model_family": "XGBoost",
+      "hyperparameters": {
+        "n_estimators": 700,
+        "max_depth": 12,
+        "learning_rate": 0.035053118211708666,
+        "subsample": 0.9985877793659953,
+        "colsample_bytree": 0.6750758713868313,
+        "min_child_weight": 6,
+        "reg_lambda": 0.5831189534503387
+      },
+      "tie_applied": false,
+      "validation_selection_metric": "mean_tvd",
+      "validation_value_on_subset_tuning": 0.003184617279110857,
+      "validation_value_after_full_refit": 0.001482430927425109,
+      "thresholds": null,
+      "trivial_baseline": [
+        0.4322524397376803,
+        0.2161095916417756,
+        0.1656503416653435,
+        0.1859876269552006,
+        0.0
+      ],
+      "simplex_fallback_row": [
+        0.4322524397376803,
+        0.2161095916417756,
+        0.1656503416653435,
+        0.1859876269552006,
+        0.0
+      ],
+      "n_train_rows": 201323,
+      "n_train_compositions": 18375,
+      "n_validation_rows": 43134,
+      "n_validation_compositions": 3937,
+      "model_artifact": "04_models/FOLD_ZR/x_partition/model_state.pkl",
+      "model_artifact_sha256": "a40bdaf2152c6791a0f339364dd0e9fb7f610095841602293d8a6dc174850c23",
+      "validation_metrics": {
+        "macro_mae": 0.0005929723709700436,
+        "macro_rmse": 0.003135321427603343,
+        "simplex_fallbacks": 0,
+        "per_family": {
+          "FCC": {
+            "mae": 0.0008000742911351321,
+            "rmse": 0.0030994160649236335,
+            "r2": 0.9999534600033235,
+            "true_mean": 0.4318948240537503,
+            "true_std": 0.45432507377254583
+          },
+          "BCC": {
+            "mae": 0.0008779416484650755,
+            "rmse": 0.0037691163248000192,
+            "r2": 0.9999059588107022,
+            "true_mean": 0.21551527967258813,
+            "true_std": 0.3886695206418623
+          },
+          "C15": {
+            "mae": 0.00023764191466166837,
+            "rmse": 0.0013642197861796473,
+            "r2": 0.9999843727141989,
+            "true_mean": 0.16589732365396095,
+            "true_std": 0.34509809877517744
+          },
+          "OTHER_SOLID": {
+            "mae": 0.001049204000588342,
+            "rmse": 0.0048453574515776,
+            "r2": 0.9998208769216668,
+            "true_mean": 0.18669257261970074,
+            "true_std": 0.36203457561450914
+          },
+          "LIQUID": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "r2": null,
+            "true_mean": 0.0,
+            "true_std": 0.0
+          }
+        },
+        "mean_tvd": 0.001482430927425109,
+        "median_tvd": 0.000260039462437185,
+        "p95_tvd": 0.006408140069422357,
+        "mean_tvd_raw": 0.0016136436422521509,
+        "raw_sum_violation_mean": 0.0014358197928798786,
+        "raw_sum_violation_max": 0.10341683030128479,
+        "projected_sum_violation_max": 2.220446049250313e-16
+      }
+    }
+  },
+  "tuning_log": {
+    "presence": {
+      "XGBoost": {
+        "best_value": 0.7981037975377551,
+        "best_params": {
+          "n_estimators": 900,
+          "max_depth": 4,
+          "learning_rate": 0.28091038815888764,
+          "subsample": 0.968191150127724,
+          "colsample_bytree": 0.9952197043973776,
+          "min_child_weight": 4,
+          "reg_lambda": 8.651636505878328
+        },
+        "n_trials": 15
+      },
+      "CatBoost": {
+        "best_value": 0.798289864106918,
+        "best_params": {
+          "iterations": 500,
+          "depth": 7,
+          "learning_rate": 0.05832942288856607,
+          "l2_leaf_reg": 0.002703886578204105,
+          "random_strength": 3.7445331017682224
+        },
+        "n_trials": 15
+      }
+    },
+    "fraction": {
+      "XGBoost": {
+        "best_value": 0.0002069529210307103,
+        "best_params": {
+          "n_estimators": 400,
+          "max_depth": 9,
+          "learning_rate": 0.026980083930864627,
+          "subsample": 0.65319875606035,
+          "colsample_bytree": 0.8240118223282,
+          "min_child_weight": 9,
+          "reg_lambda": 3.92207896891125
+        },
+        "n_trials": 15
+      },
+      "CatBoost": {
+        "best_value": 0.00012351526465294538,
+        "best_params": {
+          "iterations": 700,
+          "depth": 7,
+          "learning_rate": 0.04694670843566331,
+          "l2_leaf_reg": 0.12363919974922899,
+          "random_strength": 2.0788862981796874
+        },
+        "n_trials": 15
+      }
+    },
+    "cr_partition": {
+      "XGBoost": {
+        "best_value": 0.006501244482642195,
+        "best_params": {
+          "n_estimators": 600,
+          "max_depth": 12,
+          "learning_rate": 0.025113192088691613,
+          "subsample": 0.968191150127724,
+          "colsample_bytree": 0.8767914007629857,
+          "min_child_weight": 6,
+          "reg_lambda": 1.1116700719547767
+        },
+        "n_trials": 15
+      },
+      "CatBoost": {
+        "best_value": 0.0043587516060782,
+        "best_params": {
+          "iterations": 900,
+          "depth": 10,
+          "learning_rate": 0.10715332209213695,
+          "l2_leaf_reg": 2.7369951234321865,
+          "random_strength": 0.16383661109091222
+        },
+        "n_trials": 15
+      }
+    },
+    "nb_partition": {
+      "XGBoost": {
+        "best_value": 0.003910261655654949,
+        "best_params": {
+          "n_estimators": 700,
+          "max_depth": 12,
+          "learning_rate": 0.035053118211708666,
+          "subsample": 0.9985877793659953,
+          "colsample_bytree": 0.6750758713868313,
+          "min_child_weight": 6,
+          "reg_lambda": 0.5831189534503387
+        },
+        "n_trials": 15
+      },
+      "CatBoost": {
+        "best_value": 0.003137550975685686,
+        "best_params": {
+          "iterations": 900,
+          "depth": 10,
+          "learning_rate": 0.09728296566111046,
+          "l2_leaf_reg": 0.6225701775995044,
+          "random_strength": 0.24499236643883296
+        },
+        "n_trials": 15
+      }
+    },
+    "x_partition": {
+      "XGBoost": {
+        "best_value": 0.003184617279110857,
+        "best_params": {
+          "n_estimators": 700,
+          "max_depth": 12,
+          "learning_rate": 0.035053118211708666,
+          "subsample": 0.9985877793659953,
+          "colsample_bytree": 0.6750758713868313,
+          "min_child_weight": 6,
+          "reg_lambda": 0.5831189534503387
+        },
+        "n_trials": 15
+      },
+      "CatBoost": {
+        "best_value": 0.0033840297752698446,
+        "best_params": {
+          "iterations": 600,
+          "depth": 9,
+          "learning_rate": 0.10065104756986823,
+          "l2_leaf_reg": 0.3645788194575877,
+          "random_strength": 0.0011779866022974858
+        },
+        "n_trials": 15
+      }
+    }
+  },
+  "heldout_metrics_computed": false,
+  "freeze_sha256": "ad66326702f0e68cd167e4b20a0561934363c30cbe3551e149630b84f0e9f785"
+}

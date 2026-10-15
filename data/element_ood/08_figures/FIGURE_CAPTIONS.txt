@@ -1,0 +1,30 @@
+Fig_S5C_01_LOEO_heatmap
+Held-out performance of all six retrospective LOEO folds across the five tasks. Cell text is the raw metric; colour is min-max normalised within each task so that darker always means worse.
+
+Fig_S5C_02_LOEO_presence_by_element
+Phase-presence Macro F1 for each held-out element with 95% composition-level cluster-bootstrap intervals. The non-degenerate variant excludes presence labels that carry only one class in that held-out test set.
+
+Fig_S5C_03_LOEO_fraction_TVD
+Phase-fraction mean total variation distance per held-out element, with the IID and composition-domain OOD reference levels.
+
+Fig_S5C_04_LOEO_partition_TVD
+Cr, Nb and X partition mean TVD per held-out element with cluster-bootstrap intervals and the fold-train trivial baseline.
+
+Fig_S5C_05_X_partition_topology_confusion
+Confusion matrices for the dominant X-partition family of each held-out element. Rows are the argmax of the true partition vector, columns the argmax of the projected prediction.
+
+Fig_S5C_06_element_descriptor_distance
+Left: standardised descriptor distance from each held-out element to the five training elements of its fold, scaler fitted on those five only. Right: X-partition error against that distance. With six points this is exploratory only and no statistical inference is drawn.
+
+Fig_S5C_07_error_vs_composition_distance
+Left: X-partition error by composition-distance quartile within each held-out element. Right: Spearman correlation between per-composition error and 1-NN distance to that fold's training compositions.
+
+Fig_S5C_08_IID_vs_B_OOD_vs_LOEO
+The three-layer comparison: IID (STEP5A), composition-domain OOD (STEP5B) and element-domain OOD (STEP5C, mean over six folds with the min-max range shown).
+
+Fig_S5C_09_feature_selection_frequency
+How often each candidate feature survived that fold's train-only filtering. Features selected in all six folds are stable descriptors; features selected in few folds are element-sensitive.
+
+Fig_S5C_10_LOEO_temperature_error
+Held-out error against the 11-point temperature grid for every fold. Dotted lines mark 300, 950 and 1000 C. For FOLD_MO the 950 C column contains only the MO states that converged; the CALPHAD failures are excluded from the metric, never imputed.
+

@@ -1,0 +1,24 @@
+{
+  "heldout_element": "TI",
+  "fold": "FOLD_TI",
+  "fold_freeze_hash": "f88a929113ef08ae017ca32e26385e0fe01d5d51b6ae446a97a37d37369bb558",
+  "evaluation_timestamp": "2026-09-05T13:47:17+00:00",
+  "test_compositions": 5250,
+  "formal_test_rows": 57750,
+  "converged_test_rows": 57750,
+  "failed_test_rows": 0,
+  "failure_policy": "CALPHAD-failed states are not interpolated, not imputed and not deleted; metrics are computed on converged rows only (spec 45)",
+  "feature_hash": "9e9712520a49f42a7ca49eae6a136fe402e275295bf171682a3d795f4d9cb10b",
+  "model_hashes": {
+    "presence": "db5574485c73a7d4076ccc97d9266f4dfc8ac0349dc4eb5591149dc12c769f52",
+    "fraction": "414928951b62f4a465543bf2f33e358c57784a17342f4e7b7e2bb56ba4cf1ff9",
+    "cr_partition": "bd9987bc49ba56d4ded7fbf3b459766715e6c10615aaaf88242d0ce8734bca47",
+    "nb_partition": "38bc9632686727401d0df926a787ead0dbe9f3bd38fcdfaccfaeaa3e3a2036f9",
+    "x_partition": "037b72f26b09a61a4c59ebfe022dd2e1be1c2152fa1f6f01a33fbecbbcd568ea"
+  },
+  "prediction_file": "05_predictions/FOLD_TI_HELDOUT_PREDICTIONS.parquet",
+  "prediction_sha256": "d617ae56c9ccd30daeb24cf511dce955d1ed96346655224914987858263422ce",
+  "statement": "held-out targets excluded from this fold's development (feature selection, PCC, NZV, scaler, tuning, thresholds, model selection and trivial baseline)",
+  "terminology_note": "retrospective leave-one-element-out evaluation; this is NOT a claim that these data were never historically accessed, and it is NOT a prospective blind validation (spec 0, 41)",
+  "elapsed_seconds": 97.1
+}

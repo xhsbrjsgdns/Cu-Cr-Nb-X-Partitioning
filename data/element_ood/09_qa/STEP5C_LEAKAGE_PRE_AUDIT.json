@@ -1,0 +1,158 @@
+{
+  "stage": "STEP5C Stage D/E",
+  "generated_utc": "2026-09-05T07:25:11+00:00",
+  "preregistration_sha256": "36e23238d502b03a16757f25149e9c62c0d8036a7012bbcd9350f139af8e609d",
+  "checks": [
+    {
+      "id": "D01",
+      "check": "STEP5C_LOEO_PREREGISTRATION.json written before any model fit",
+      "status": "PASS",
+      "detail": "sha256 36e23238d502b03a"
+    },
+    {
+      "id": "D02",
+      "check": "candidate schema frozen for all six folds",
+      "status": "PASS",
+      "detail": "193 features"
+    },
+    {
+      "id": "D03",
+      "check": "search space identical across folds",
+      "status": "PASS",
+      "detail": "XGBoost, CatBoost"
+    },
+    {
+      "id": "D04",
+      "check": "tuning budget preregistered",
+      "status": "PASS",
+      "detail": "15 trials per fold x task x family (max 20 without a new preregistration)"
+    },
+    {
+      "id": "D05",
+      "check": "tie rule fixed in advance (spec 32)",
+      "status": "PASS",
+      "detail": "smaller estimated fit cost (trees x depth); if still tied, XGBoost"
+    },
+    {
+      "id": "D06",
+      "check": "fold child seeds derived deterministically from master 20260906",
+      "status": "PASS",
+      "detail": "{'ZR': 74843841, 'TI': 2717556234, 'CO': 1462601100, 'SI': 342621049, 'AG': 590289172, 'MO': 3696356624}"
+    },
+    {
+      "id": "D07",
+      "check": "preregistration uses retrospective LOEO terminology (spec 0/41)",
+      "status": "PASS",
+      "detail": "forbidden phrases appear only inside the explicit forbidden_phrases list"
+    },
+    {
+      "id": "E01_ZR",
+      "check": "FOLD_ZR: held-out family in fold train == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "E02_ZR",
+      "check": "FOLD_ZR: held-out family in fold validation == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "E01_TI",
+      "check": "FOLD_TI: held-out family in fold train == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "E02_TI",
+      "check": "FOLD_TI: held-out family in fold validation == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "E01_CO",
+      "check": "FOLD_CO: held-out family in fold train == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "E02_CO",
+      "check": "FOLD_CO: held-out family in fold validation == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "E01_SI",
+      "check": "FOLD_SI: held-out family in fold train == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "E02_SI",
+      "check": "FOLD_SI: held-out family in fold validation == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "E01_AG",
+      "check": "FOLD_AG: held-out family in fold train == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "E02_AG",
+      "check": "FOLD_AG: held-out family in fold validation == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "E01_MO",
+      "check": "FOLD_MO: held-out family in fold train == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "E02_MO",
+      "check": "FOLD_MO: held-out family in fold validation == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "E10",
+      "check": "no target / CALPHAD-derived column in the candidate schema (spec 70.13)",
+      "status": "PASS",
+      "detail": "0 of 193"
+    },
+    {
+      "id": "E11",
+      "check": "no family / X_element one-hot / sampling_domain feature (spec 70.10-12)",
+      "status": "PASS",
+      "detail": "none"
+    },
+    {
+      "id": "E14",
+      "check": "Ni data == 0 in schema and manifests (spec 70.14)",
+      "status": "PASS",
+      "detail": "0 hits (element-token regex)"
+    },
+    {
+      "id": "E15",
+      "check": "ANCHOR prediction == 0 (no ANCHOR row is ever loaded)",
+      "status": "PASS",
+      "detail": "manifest holds Domain-A compositions only"
+    },
+    {
+      "id": "E16",
+      "check": "Domain B used in primary LOEO == 0 (spec 70.16)",
+      "status": "PASS",
+      "detail": "manifest compositions are Domain A only"
+    },
+    {
+      "id": "E17",
+      "check": "post-evaluation retuning == no (nothing has been evaluated yet)",
+      "status": "PASS",
+      "detail": "Stage E runs before any fit"
+    }
+  ],
+  "status": "PASS"
+}

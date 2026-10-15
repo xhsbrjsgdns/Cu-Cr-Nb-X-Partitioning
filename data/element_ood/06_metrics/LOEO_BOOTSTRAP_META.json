@@ -1,0 +1,14 @@
+{
+  "generated_utc": "2026-09-05T13:54:26+00:00",
+  "type": "composition-level cluster bootstrap",
+  "replicates": 1000,
+  "master_seed": 20260906,
+  "fold_child_seeds": {
+    "ZR": 74843841,
+    "TI": 2717556234,
+    "CO": 1462601100,
+    "SI": 342621049,
+    "AG": 590289172,
+    "MO": 3696356624
+  }
+}

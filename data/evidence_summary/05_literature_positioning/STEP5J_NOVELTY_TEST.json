@@ -1,0 +1,11 @@
+{
+  "generated_utc": "2026-09-07T07:17:05+00:00",
+  "nominated_statement": "Prospective blind evidence shows that chemical-identity out-of-distribution failure in a CALPHAD surrogate is governed by topology novelty rather than by marginal feature extrapolation, and that minimal same-element thermodynamic anchoring rapidly restores transfer.",
+  "clause_tests": {
+    "prospective blind evidence": true,
+    "topology novelty rather than marginal feature extrapolation": true,
+    "minimal same-element thermodynamic anchoring rapidly restores transfer": true
+  },
+  "clauses_not_supported": [],
+  "weakened": false
+}

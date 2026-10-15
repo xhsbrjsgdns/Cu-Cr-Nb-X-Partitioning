@@ -1,0 +1,9 @@
+{
+  "values_C": [
+    500.0,
+    800.0,
+    1300.0
+  ],
+  "unknown_temperature_count": 4,
+  "grey_definition": "Not selected in frozen 120-condition calculation budget"
+}

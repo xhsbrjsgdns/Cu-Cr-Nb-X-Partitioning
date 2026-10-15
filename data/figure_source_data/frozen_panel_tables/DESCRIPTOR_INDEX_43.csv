@@ -1,0 +1,44 @@
+index,feature,category
+F01,Temperature_C,Composition / temperature
+F02,Cr_wt_pct,Composition / temperature
+F03,Nb_wt_pct,Composition / temperature
+F04,X_wt_pct,Composition / temperature
+F05,R_CrNb_atomic_actual,Composition / temperature
+F06,has_X,Composition / temperature
+F07,delta_r,Atomic size
+F08,r_bar,Atomic size
+F09,AtomicVol_bar,Atomic size
+F10,magpie_minimum_GSvolume_pa,Atomic size
+F11,magpie_maximum_GSvolume_pa,Atomic size
+F12,magpie_range_CovalentRadius,Atomic size
+F13,Zbar,Electronic
+F14,X_AtomicNumber,Electronic
+F15,X_VEC,Electronic
+F16,Delta_AtomicNumber_X_Cu,Electronic
+F17,Delta_VEC_X_Cu,Electronic
+F18,Delta_VEC_X_Cr,Electronic
+F19,Delta_FirstIonizationEnergy_X_Cu,Electronic
+F20,Delta_FirstIonizationEnergy_X_Cr,Electronic
+F21,magpie_mean_GSbandgap,Electronic
+F22,magpie_mean_GSmagmom,Electronic
+F23,magpie_mean_NsUnfilled,Electronic
+F24,magpie_minimum_NValence,Electronic
+F25,magpie_minimum_NsUnfilled,Electronic
+F26,delta_chi,Electronegativity
+F27,Delta_Electronegativity_X_Cu,Electronegativity
+F28,magpie_minimum_Electronegativity,Electronegativity
+F29,magpie_maximum_Electronegativity,Electronegativity
+F30,magpie_range_Electronegativity,Electronegativity
+F31,density_bar,Thermochemical
+F32,X_MeltingT,Thermochemical
+F33,Delta_MeltingT_X_Cu,Thermochemical
+F34,Delta_MeltingT_X_Cr,Thermochemical
+F35,Delta_Density_X_Cu,Thermochemical
+F36,magpie_minimum_MeltingT,Thermochemical
+F37,magpie_range_MeltingT,Thermochemical
+F38,magpie_mean_Row,Structural / derived
+F39,magpie_mean_SpaceGroupNumber,Structural / derived
+F40,magpie_minimum_AtomicWeight,Structural / derived
+F41,magpie_minimum_SpaceGroupNumber,Structural / derived
+F42,magpie_range_AtomicWeight,Structural / derived
+F43,magpie_avg_dev_SpaceGroupNumber,Structural / derived

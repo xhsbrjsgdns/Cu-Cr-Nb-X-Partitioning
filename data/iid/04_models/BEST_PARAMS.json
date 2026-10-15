@@ -1,0 +1,88 @@
+{
+  "generated_utc": "2026-09-04T15:50:59+00:00",
+  "winners": {
+    "presence": {
+      "model": "XGBoost",
+      "value": 0.9881679913315834,
+      "params": {
+        "n_estimators": 300,
+        "max_depth": 10,
+        "learning_rate": 0.10166082378696865,
+        "subsample": 0.6591307598635731,
+        "colsample_bytree": 0.7891971881086737,
+        "min_child_weight": 2,
+        "reg_lambda": 0.2478860589846176
+      },
+      "user_attrs": {
+        "val_macro_f1": 0.9881679913315834,
+        "val_thresholds": [
+          0.5,
+          0.47,
+          0.69,
+          0.44,
+          0.38
+        ]
+      }
+    },
+    "fraction": {
+      "model": "CatBoost",
+      "value": 0.00011814901755117157,
+      "params": {
+        "iterations": 800,
+        "depth": 9,
+        "learning_rate": 0.09530381657481919,
+        "l2_leaf_reg": 0.93663009866977,
+        "random_strength": 0.5112597801502385
+      },
+      "user_attrs": {
+        "val_mean_tvd": 0.00011814901755117157
+      }
+    },
+    "cr_partition": {
+      "model": "CatBoost",
+      "value": 0.004499853751889354,
+      "params": {
+        "iterations": 800,
+        "depth": 10,
+        "learning_rate": 0.10773808488269368,
+        "l2_leaf_reg": 0.821464568303897,
+        "random_strength": 0.18037117601347105
+      },
+      "user_attrs": {
+        "val_mean_tvd": 0.004499853751889354
+      }
+    },
+    "nb_partition": {
+      "model": "XGBoost",
+      "value": 0.003373038403016685,
+      "params": {
+        "n_estimators": 900,
+        "max_depth": 10,
+        "learning_rate": 0.055887815979868444,
+        "subsample": 0.7136358572399193,
+        "colsample_bytree": 0.99283010286948,
+        "min_child_weight": 4,
+        "reg_lambda": 0.13086078059398523
+      },
+      "user_attrs": {
+        "val_mean_tvd": 0.003373038403016685
+      }
+    },
+    "x_partition": {
+      "model": "XGBoost",
+      "value": 0.0035662521053542616,
+      "params": {
+        "n_estimators": 700,
+        "max_depth": 11,
+        "learning_rate": 0.021009005980018196,
+        "subsample": 0.720468251086434,
+        "colsample_bytree": 0.9231681084702589,
+        "min_child_weight": 5,
+        "reg_lambda": 2.3072228470000042
+      },
+      "user_attrs": {
+        "val_mean_tvd": 0.0035662521053542616
+      }
+    }
+  }
+}

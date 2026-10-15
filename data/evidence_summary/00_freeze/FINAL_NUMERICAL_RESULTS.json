@@ -1,0 +1,967 @@
+{
+  "generated_utc": "2026-09-07T07:15:37+00:00",
+  "stage": "STEP5J FINAL EVIDENCE FREEZE",
+  "rule": "every value below is recomputed from a frozen file; none is transcribed from prose",
+  "evidence_levels": {
+    "1": "PROSPECTIVE PRIMARY EVIDENCE (STEP5H-B PRIMARY zero-shot only)",
+    "2": "PROSPECTIVE SECONDARY SENSITIVITY (STEP5H-B FULL11 SECONDARY only)",
+    "3": "POST-BLIND PREREGISTERED RECOVERY (STEP5I random few-shot, maximin, R0/R1/R2)",
+    "4": "POST-BLIND DESCRIPTIVE MECHANISM (NBNI3, topology, temperature, coverage)"
+  },
+  "level_1_prospective_primary": {
+    "n_states": {
+      "value": 22000,
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\06_primary_score\\STEP5H_B_PRIMARY_BLIND_METRICS.json",
+      "source_stage": "STEP5H-B",
+      "source_sha256": "e5cdb637274a674df27b64925dc6c39da4319b10e87efa32fdac9f1a2eed281c",
+      "metric_definition": "converged Ni blind states scored",
+      "evidence_level": 1
+    },
+    "mean_tvd": {
+      "value": 0.8643856186628641,
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\06_primary_score\\STEP5H_B_PRIMARY_BLIND_METRICS.json",
+      "source_stage": "STEP5H-B",
+      "source_sha256": "e5cdb637274a674df27b64925dc6c39da4319b10e87efa32fdac9f1a2eed281c",
+      "metric_definition": "0.5*sum|P_pred-P_true| over the 5-family Ni X-partition, mean over all converged blind states",
+      "evidence_level": 1
+    },
+    "ci95": {
+      "value": [
+        0.8619306652264774,
+        0.8670304548642613
+      ],
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\06_primary_score\\STEP5H_B_PRIMARY_SCORE_FREEZE.json",
+      "source_stage": "STEP5H-B",
+      "source_sha256": "11c3ddfebc288555c717811aa00088d9fc6ee4c2423fa326509ceddd6d100d30",
+      "metric_definition": "composition-level cluster bootstrap, 1000 replicates, seed 20260911",
+      "evidence_level": 1
+    },
+    "median_tvd": {
+      "value": 0.9111178623163201,
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\06_primary_score\\STEP5H_B_PRIMARY_BLIND_METRICS.json",
+      "source_stage": "STEP5H-B",
+      "source_sha256": "e5cdb637274a674df27b64925dc6c39da4319b10e87efa32fdac9f1a2eed281c",
+      "metric_definition": "median TVD",
+      "evidence_level": 1
+    },
+    "p95_tvd": {
+      "value": 0.9993043464932985,
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\06_primary_score\\STEP5H_B_PRIMARY_BLIND_METRICS.json",
+      "source_stage": "STEP5H-B",
+      "source_sha256": "e5cdb637274a674df27b64925dc6c39da4319b10e87efa32fdac9f1a2eed281c",
+      "metric_definition": "95th percentile TVD",
+      "evidence_level": 1
+    },
+    "topology_accuracy": {
+      "value": 0.07859090909090909,
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\06_primary_score\\STEP5H_B_PRIMARY_BLIND_METRICS.json",
+      "source_stage": "STEP5H-B",
+      "source_sha256": "e5cdb637274a674df27b64925dc6c39da4319b10e87efa32fdac9f1a2eed281c",
+      "metric_definition": "fraction of states whose argmax family is correct",
+      "evidence_level": 1
+    },
+    "topology_macro_f1": {
+      "value": 0.039501941969385425,
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\06_primary_score\\STEP5H_B_PRIMARY_BLIND_METRICS.json",
+      "source_stage": "STEP5H-B",
+      "source_sha256": "e5cdb637274a674df27b64925dc6c39da4319b10e87efa32fdac9f1a2eed281c",
+      "metric_definition": "macro F1 over 5 families, zero_division=0",
+      "evidence_level": 1
+    },
+    "trivial_tvd": {
+      "value": 0.5957669021263107,
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\06_primary_score\\STEP5H_B_PRIMARY_BLIND_METRICS.json",
+      "source_stage": "STEP5H-B",
+      "source_sha256": "e5cdb637274a674df27b64925dc6c39da4319b10e87efa32fdac9f1a2eed281c",
+      "metric_definition": "frozen PRIMARY training-mean simplex on the same states",
+      "evidence_level": 1
+    },
+    "skill_vs_trivial": {
+      "value": -0.26861871653655345,
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\06_primary_score\\STEP5H_B_PRIMARY_BLIND_METRICS.json",
+      "source_stage": "STEP5H-B",
+      "source_sha256": "e5cdb637274a674df27b64925dc6c39da4319b10e87efa32fdac9f1a2eed281c",
+      "metric_definition": "trivial TVD minus model TVD; negative = worse than predicting the training mean",
+      "evidence_level": 1
+    },
+    "per_family_mae": {
+      "value": {
+        "FCC": 0.614444624027953,
+        "BCC": 0.1402441307720359,
+        "C15": 0.6959406489144913,
+        "OTHER_SOLID": 0.2505249591957245,
+        "LIQUID": 0.027616874415523983
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\06_primary_score\\STEP5H_B_PRIMARY_BLIND_METRICS.json",
+      "source_stage": "STEP5H-B",
+      "source_sha256": "e5cdb637274a674df27b64925dc6c39da4319b10e87efa32fdac9f1a2eed281c",
+      "metric_definition": "mean absolute error per family",
+      "evidence_level": 1
+    },
+    "true_topology_distribution": {
+      "value": {
+        "FCC": 0.7172272727272727,
+        "OTHER_SOLID": 0.2827727272727273
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\06_primary_score\\STEP5H_B_PRIMARY_BLIND_METRICS.json",
+      "source_stage": "STEP5H-B",
+      "source_sha256": "e5cdb637274a674df27b64925dc6c39da4319b10e87efa32fdac9f1a2eed281c",
+      "metric_definition": "share of blind states by true argmax family",
+      "evidence_level": 1
+    },
+    "pred_topology_distribution": {
+      "value": {
+        "C15": 0.8730909090909091,
+        "FCC": 0.07859090909090909,
+        "BCC": 0.048318181818181816
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\06_primary_score\\STEP5H_B_PRIMARY_BLIND_METRICS.json",
+      "source_stage": "STEP5H-B",
+      "source_sha256": "e5cdb637274a674df27b64925dc6c39da4319b10e87efa32fdac9f1a2eed281c",
+      "metric_definition": "share of blind states by predicted argmax family",
+      "evidence_level": 1
+    }
+  },
+  "level_2_prospective_secondary": {
+    "mean_tvd": {
+      "value": 0.7234409098506132,
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\07_secondary_score\\STEP5H_B_SECONDARY_BLIND_METRICS.json",
+      "source_stage": "STEP5H-B",
+      "source_sha256": "6a3aad169662dead782986232de65cd166c40d73735d43b3ef73a70b7d7ffe06",
+      "metric_definition": "same metric, FULL11 SECONDARY model",
+      "evidence_level": 2
+    },
+    "topology_accuracy": {
+      "value": 0.2406818181818182,
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\07_secondary_score\\STEP5H_B_SECONDARY_BLIND_METRICS.json",
+      "source_stage": "STEP5H-B",
+      "source_sha256": "6a3aad169662dead782986232de65cd166c40d73735d43b3ef73a70b7d7ffe06",
+      "metric_definition": "same metric, FULL11 SECONDARY model",
+      "evidence_level": 2
+    },
+    "own_trivial_tvd": {
+      "value": 0.5258305150815665,
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\07_secondary_score\\STEP5H_B_SECONDARY_BLIND_METRICS.json",
+      "source_stage": "STEP5H-B",
+      "source_sha256": "6a3aad169662dead782986232de65cd166c40d73735d43b3ef73a70b7d7ffe06",
+      "metric_definition": "SECONDARY's own training-mean simplex on the same states",
+      "evidence_level": 2
+    },
+    "own_descriptive_skill": {
+      "value": -0.19761039476904663,
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\07_secondary_score\\STEP5H_B_SECONDARY_BLIND_METRICS.json",
+      "source_stage": "STEP5H-B",
+      "source_sha256": "6a3aad169662dead782986232de65cd166c40d73735d43b3ef73a70b7d7ffe06",
+      "metric_definition": "own trivial TVD minus model TVD; negative = worse than its own training mean",
+      "evidence_level": 2
+    },
+    "ci95": {
+      "value": {
+        "replicates": 1000,
+        "seed": 20260911,
+        "unit": "composition_id",
+        "ci95_low": 0.7208391486598595,
+        "ci95_high": 0.7260206323204347,
+        "boot_mean": 0.7234672984717478,
+        "boot_std": 0.0013164362892826766
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\07_secondary_score\\STEP5H_B_SECONDARY_BLIND_METRICS.json",
+      "source_stage": "STEP5H-B",
+      "source_sha256": "6a3aad169662dead782986232de65cd166c40d73735d43b3ef73a70b7d7ffe06",
+      "metric_definition": "composition-level cluster bootstrap, 1000 replicates",
+      "evidence_level": 2
+    },
+    "pred_topology_distribution": {
+      "value": {
+        "C15": 0.7593181818181818,
+        "FCC": 0.2406818181818182
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\07_secondary_score\\STEP5H_B_SECONDARY_BLIND_METRICS.json",
+      "source_stage": "STEP5H-B",
+      "source_sha256": "6a3aad169662dead782986232de65cd166c40d73735d43b3ef73a70b7d7ffe06",
+      "metric_definition": "share of blind states by predicted argmax family",
+      "evidence_level": 2
+    },
+    "relative_tvd_vs_primary": {
+      "value": -0.16305767445585362,
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\07_secondary_score\\STEP5H_B_SECONDARY_BLIND_METRICS.json",
+      "source_stage": "STEP5H-B",
+      "source_sha256": "6a3aad169662dead782986232de65cd166c40d73735d43b3ef73a70b7d7ffe06",
+      "metric_definition": "SECONDARY mean TVD relative to PRIMARY, same states",
+      "evidence_level": 2
+    }
+  },
+  "level_3_postblind_recovery": {
+    "recovery_subset": {
+      "value": {
+        "n_compositions": 1400,
+        "n_states": 15400
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_RECOVERY_BASELINES.json",
+      "source_stage": "STEP5I",
+      "source_sha256": "820dee69bcd7d957801d677f999b88544ed0ceed4118ec46c673c8df92c3ef15",
+      "metric_definition": "RECOVERY_EVALUATION split fixed before the reveal",
+      "evidence_level": 3
+    },
+    "zero_shot_tvd_same_subset": {
+      "value": 0.8632602865207863,
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_RECOVERY_BASELINES.json",
+      "source_stage": "STEP5I",
+      "source_sha256": "820dee69bcd7d957801d677f999b88544ed0ceed4118ec46c673c8df92c3ef15",
+      "metric_definition": "frozen PRIMARY zero-shot restricted to the 1400-composition recovery subset",
+      "evidence_level": 3
+    },
+    "zero_shot_topology_accuracy_same_subset": {
+      "value": 0.07967532467532468,
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_RECOVERY_BASELINES.json",
+      "source_stage": "STEP5I",
+      "source_sha256": "820dee69bcd7d957801d677f999b88544ed0ceed4118ec46c673c8df92c3ef15",
+      "metric_definition": "frozen PRIMARY zero-shot topology accuracy on the 15400-state recovery subset; not the 22000-state value",
+      "evidence_level": 3
+    },
+    "trivial_topology_accuracy_same_subset": {
+      "value": 0.7158441558441558,
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_RECOVERY_BASELINES.json",
+      "source_stage": "STEP5I",
+      "source_sha256": "820dee69bcd7d957801d677f999b88544ed0ceed4118ec46c673c8df92c3ef15",
+      "metric_definition": "the training-mean simplex is FCC-dominant, so it scores well on topology while scoring badly on TVD",
+      "evidence_level": 3
+    },
+    "trivial_tvd_same_subset": {
+      "value": 0.5960189306749455,
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_RECOVERY_BASELINES.json",
+      "source_stage": "STEP5I",
+      "source_sha256": "820dee69bcd7d957801d677f999b88544ed0ceed4118ec46c673c8df92c3ef15",
+      "metric_definition": "frozen PRIMARY training-mean simplex on the same 15400 states",
+      "evidence_level": 3
+    },
+    "random_M_REFIT_mean_tvd_by_budget": {
+      "value": {
+        "1": 0.2481623700601974,
+        "2": 0.1656707300894517,
+        "4": 0.1235011338779779,
+        "8": 0.0507380675070274,
+        "16": 0.0358137551897369,
+        "32": 0.0271879847928119
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_RANDOM_FEWSHOT_METRICS.csv",
+      "source_stage": "STEP5I",
+      "source_sha256": "205017f1be01a8efb306d86a35668ad6779b49a9f7ab2807318dbb37e6231919",
+      "metric_definition": "mean over 3 frozen random replicates",
+      "evidence_level": 3
+    },
+    "random_M_REFIT_sd_by_budget": {
+      "value": {
+        "1": 0.0256179969334684,
+        "2": 0.0168951842980632,
+        "4": 0.0249048646212206,
+        "8": 0.0039868777515685,
+        "16": 0.0033087205066398,
+        "32": 0.005792486545222
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_RANDOM_FEWSHOT_METRICS.csv",
+      "source_stage": "STEP5I",
+      "source_sha256": "205017f1be01a8efb306d86a35668ad6779b49a9f7ab2807318dbb37e6231919",
+      "metric_definition": "across-replicate SD; finite protocol variability, not a population estimate",
+      "evidence_level": 3
+    },
+    "random_topology_accuracy_by_budget": {
+      "value": {
+        "1": 0.7224458874458874,
+        "2": 0.9158441558441558,
+        "4": 0.9433116883116884,
+        "8": 0.9749783549783548,
+        "16": 0.9782467532467533,
+        "32": 0.9862770562770562
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_RANDOM_FEWSHOT_METRICS.csv",
+      "source_stage": "STEP5I",
+      "source_sha256": "205017f1be01a8efb306d86a35668ad6779b49a9f7ab2807318dbb37e6231919",
+      "metric_definition": "mean over 3 replicates",
+      "evidence_level": 3
+    },
+    "R0_by_budget": {
+      "value": {
+        "1": 0.1367162844676768,
+        "2": 0.1117968871794828,
+        "4": 0.0975040313600958,
+        "8": 0.0908066971237927,
+        "16": 0.0764951206640487,
+        "32": 0.0795312509726499
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_RANDOM_FEWSHOT_METRICS.csv",
+      "source_stage": "STEP5I",
+      "source_sha256": "205017f1be01a8efb306d86a35668ad6779b49a9f7ab2807318dbb37e6231919",
+      "metric_definition": "per-temperature anchor mean; the model is ignored entirely",
+      "evidence_level": 3
+    },
+    "R1_by_budget": {
+      "value": {
+        "1": 0.3288552201264634,
+        "2": 0.3311766342266494,
+        "4": 0.3439468479002712,
+        "8": 0.3526249283343081,
+        "16": 0.369336747969317,
+        "32": 0.3637845077456716
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_RANDOM_FEWSHOT_METRICS.csv",
+      "source_stage": "STEP5I",
+      "source_sha256": "205017f1be01a8efb306d86a35668ad6779b49a9f7ab2807318dbb37e6231919",
+      "metric_definition": "global mean-shift of the frozen raw output",
+      "evidence_level": 3
+    },
+    "R2_by_budget": {
+      "value": {
+        "1": 0.1913154848041996,
+        "2": 0.1522359217468841,
+        "4": 0.1443401403958257,
+        "8": 0.1394180741553712,
+        "16": 0.1306829569888241,
+        "32": 0.1309852109226985
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_RANDOM_FEWSHOT_METRICS.csv",
+      "source_stage": "STEP5I",
+      "source_sha256": "205017f1be01a8efb306d86a35668ad6779b49a9f7ab2807318dbb37e6231919",
+      "metric_definition": "per-temperature mean-shift of the frozen raw output",
+      "evidence_level": 3
+    },
+    "maximin_by_budget": {
+      "value": {
+        "1": 0.5712928684118109,
+        "2": 0.4527395636283647,
+        "4": 0.2891188042635012,
+        "8": 0.1415873860054949,
+        "16": 0.0336419705758001,
+        "32": 0.0234572169422126
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_MAXIMIN_FEWSHOT_METRICS.csv",
+      "source_stage": "STEP5I",
+      "source_sha256": "5c5f036e2818f6e88dfce5c6b975bae5f8ba17f12ad0fccc9cf2184049b74cfc",
+      "metric_definition": "SECONDARY comparison only; never promoted",
+      "evidence_level": 3
+    },
+    "maximin_budgets_better_than_random_mean": {
+      "value": 2,
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_MAXIMIN_FEWSHOT_METRICS.csv",
+      "source_stage": "STEP5I",
+      "source_sha256": "5c5f036e2818f6e88dfce5c6b975bae5f8ba17f12ad0fccc9cf2184049b74cfc",
+      "metric_definition": "count of budgets where maximin beats the random across-replicate mean",
+      "evidence_level": 3
+    },
+    "B_skill": {
+      "value": 1,
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_BUDGET_THRESHOLDS.json",
+      "source_stage": "STEP5I",
+      "source_sha256": "f11cbf029c53119df380dca2b2da3caa3cc6478dbeb867a5cd01ecd3ef5337ee",
+      "metric_definition": "smallest budget whose across-replicate mean M_REFIT TVD is below the frozen PRIMARY trivial TVD on the SAME recovery subset (spec 32)",
+      "evidence_level": 3
+    },
+    "B_recovery25": {
+      "value": 1,
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_BUDGET_THRESHOLDS.json",
+      "source_stage": "STEP5I",
+      "source_sha256": "f11cbf029c53119df380dca2b2da3caa3cc6478dbeb867a5cd01ecd3ef5337ee",
+      "metric_definition": "smallest budget whose across-replicate mean M_REFIT TVD is <= 0.75 x the frozen PRIMARY zero-shot TVD on the SAME recovery subset (spec 33, 34)",
+      "evidence_level": 3
+    },
+    "recovery_fraction_by_budget": {
+      "value": {
+        "1": 0.7125289163244486,
+        "2": 0.8080871636558685,
+        "4": 0.856936388935802,
+        "8": 0.9412250646771695,
+        "16": 0.9585133756887187,
+        "32": 0.9685054609631261
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_RANDOM_FEWSHOT_METRICS.csv",
+      "source_stage": "STEP5I",
+      "source_sha256": "205017f1be01a8efb306d86a35668ad6779b49a9f7ab2807318dbb37e6231919",
+      "metric_definition": "1 - mean TVD / zero-shot TVD, both on the same recovery subset",
+      "evidence_level": 3
+    },
+    "first_budget_M_REFIT_below_R2": {
+      "value": 4,
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_RANDOM_FEWSHOT_METRICS.csv",
+      "source_stage": "STEP5I",
+      "source_sha256": "205017f1be01a8efb306d86a35668ad6779b49a9f7ab2807318dbb37e6231919",
+      "metric_definition": "descriptive crossover, not a preregistered endpoint",
+      "evidence_level": 3
+    },
+    "first_budget_M_REFIT_below_R0": {
+      "value": 8,
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_RANDOM_FEWSHOT_METRICS.csv",
+      "source_stage": "STEP5I",
+      "source_sha256": "205017f1be01a8efb306d86a35668ad6779b49a9f7ab2807318dbb37e6231919",
+      "metric_definition": "descriptive crossover, not a preregistered endpoint",
+      "evidence_level": 3
+    },
+    "anchor_fraction_of_training_rows": {
+      "value": [
+        4.549985729590212e-05,
+        0.0014539446509706
+      ],
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_RANDOM_FEWSHOT_PER_REPLICATE.csv",
+      "source_stage": "STEP5I",
+      "source_sha256": "2473c4cc24cba8ce21992ce8876fd30e482052914af3833387b7a662285c15cf",
+      "metric_definition": "Ni anchor rows as a fraction of the refit training set; natural weighting, no oversampling",
+      "evidence_level": 3
+    }
+  },
+  "level_4_postblind_descriptive": {
+    "true_FCC": {
+      "value": {
+        "zero_shot": 0.8392907564243407,
+        "b32": 0.02562991660278033,
+        "n_states": 11024
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\06_topology_diagnostics\\STEP5I_TRUE_TOPOLOGY_STRATIFIED.csv",
+      "source_stage": "STEP5I",
+      "source_sha256": "7a82c97124160ffe922eaef4bdc0cbe7a28ffdaebc88b68da967057018f6353c",
+      "metric_definition": "mean TVD on states whose true argmax family is FCC",
+      "evidence_level": 4
+    },
+    "true_OTHER_SOLID": {
+      "value": {
+        "zero_shot": 0.923644221571796,
+        "b32": 0.031113063341008468,
+        "n_states": 4376
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\06_topology_diagnostics\\STEP5I_TRUE_TOPOLOGY_STRATIFIED.csv",
+      "source_stage": "STEP5I",
+      "source_sha256": "7a82c97124160ffe922eaef4bdc0cbe7a28ffdaebc88b68da967057018f6353c",
+      "metric_definition": "mean TVD on states whose true argmax family is OTHER_SOLID",
+      "evidence_level": 4
+    },
+    "NBNI3_present": {
+      "value": {
+        "zero_shot": 0.9220716411969478,
+        "b32": 0.0369337630778066,
+        "n_states": 6019
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\07_NBNI3_diagnostics\\STEP5I_NBNI3_STRATIFIED.csv",
+      "source_stage": "STEP5I",
+      "source_sha256": "decca27ff307234b9598fe522bec7003a160be80e0a0160546618e32b5afca5b",
+      "metric_definition": "mean TVD on recovery states whose frozen raw phase list contains NBNI3",
+      "evidence_level": 4
+    },
+    "NBNI3_absent": {
+      "value": {
+        "zero_shot": 0.8255259784730499,
+        "b32": 0.020934937196885762,
+        "n_states": 9381
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\07_NBNI3_diagnostics\\STEP5I_NBNI3_STRATIFIED.csv",
+      "source_stage": "STEP5I",
+      "source_sha256": "decca27ff307234b9598fe522bec7003a160be80e0a0160546618e32b5afca5b",
+      "metric_definition": "mean TVD on recovery states without NBNI3",
+      "evidence_level": 4
+    },
+    "LOW_T": {
+      "value": {
+        "zero_shot": 0.9243865581634956,
+        "b32": 0.0360261633594581,
+        "temperatures_C": [
+          300,
+          350,
+          400,
+          450,
+          500,
+          600
+        ]
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\06_topology_diagnostics\\STEP5I_TEMPERATURE_REGIME_METRICS.csv",
+      "source_stage": "STEP5I",
+      "source_sha256": "4708248b35949706ea5315dba74a2d359a344653b416d8d847c36437cff1ca06",
+      "metric_definition": "300-600 degC, the window in which NBNI3 appears",
+      "evidence_level": 4
+    },
+    "HIGH_T": {
+      "value": {
+        "zero_shot": 0.7899087605495354,
+        "b32": 0.016582170512836465,
+        "temperatures_C": [
+          700,
+          800,
+          900,
+          950,
+          1000
+        ]
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\06_topology_diagnostics\\STEP5I_TEMPERATURE_REGIME_METRICS.csv",
+      "source_stage": "STEP5I",
+      "source_sha256": "4708248b35949706ea5315dba74a2d359a344653b416d8d847c36437cff1ca06",
+      "metric_definition": "700-1000 degC",
+      "evidence_level": 4
+    },
+    "nbni3_phase": {
+      "value": {
+        "n_states_of_22000": 8579,
+        "temperature_range_C": [
+          300.0,
+          600.0
+        ],
+        "frozen_mapping": "OTHER_SOLID",
+        "previously_seen_in_project": false
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\04_phase_vocab\\STEP5H_B_PHASE_VOCABULARY.csv",
+      "source_stage": "STEP5H-B",
+      "source_sha256": "803c65469281fdf29bc75fab018b6e0484b083b1afc0d8a837a65334563f11e2",
+      "metric_definition": "a phase absent from every earlier stage, mapped by the frozen five-family default; no new phase family was introduced",
+      "evidence_level": 4
+    },
+    "anchor_coverage_confound": {
+      "value": {
+        "pooled_spearman_rho_coverage_vs_recovery": 0.7597253503312641,
+        "rho_between_budget_and_coverage": {
+          "fraction_anchor_states_NBNI3": {
+            "spearman_rho_with_budget": 0.7396825396825396,
+            "p_value": 0.00045039346184162353
+          },
+          "n_anchor_comps_with_any_NBNI3": {
+            "spearman_rho_with_budget": 0.9999999999999998,
+            "p_value": 2.970710870272553e-124
+          },
+          "fraction_anchor_states_true_OTHER_SOLID": {
+            "spearman_rho_with_budget": 0.8795554091493026,
+            "p_value": 1.5161846364564673e-06
+          }
+        },
+        "n_within_budget_correlations_defined": 5,
+        "n_cells_per_budget": 3
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\06_topology_diagnostics\\STEP5I_ANCHOR_TOPOLOGY_COVERAGE.csv",
+      "source_stage": "STEP5I",
+      "source_sha256": "7a1827efc3fccf7c90fbf66e09ddb3df8cf0327d365c6baf3a047d62c5ddb71b",
+      "metric_definition": "rank correlation between what the frozen anchors happened to contain and how much recovery followed. Every calibration composition contains at least one NBNI3 state, so n_anchor_comps_with_any_NBNI3 is exactly the budget; the pooled correlation is therefore confounded with budget size and cannot show that NBNI3 coverage per se drives recovery",
+      "evidence_level": 4
+    },
+    "topology_inheritance_observation": {
+      "value": {
+        "nearest_training_identity_in_descriptor_space": "CO",
+        "z_distance_to_nearest": 0.5985321750778009,
+        "z_distance_to_six_centroid": 2.644629452969318,
+        "C15_share_of_that_identity_domain_A": 0.8872900432900432,
+        "predicted_C15_share_for_Ni": 0.8730909090909091,
+        "true_C15_share_for_Ni": 0.0
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\03_full_CALPHAD\\FULL_V1\\04_qa\\FULL_V1_TOPOLOGY_STATS.csv",
+      "source_stage": "FULL_V1",
+      "source_sha256": "84e473d37991f442c7dacb60c4db98d2826f2fb5440e41021a8ff2cc0c036135",
+      "metric_definition": "descriptive association: the model's predicted Ni topology resembles the topology of the training identity nearest to Ni in descriptor space. The nearest-identity computation was frozen before the reveal; the comparison is post-reveal and is not a demonstrated mechanism",
+      "evidence_level": 4
+    }
+  },
+  "context_not_primary_evidence": {
+    "iid_x_partition_mean_tvd": {
+      "value": 0.0016401332247829,
+      "source_file": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5C_6X_LOEO_V1\\06_metrics\\IID_VS_COMPOSITION_OOD_VS_LOEO.csv",
+      "source_stage": "STEP5C",
+      "source_sha256": "fa15bea8dab164454374eabf6ee09b6999e163442a0ef2c46afb672b71650d61",
+      "metric_definition": "STEP5A IID test, x_partition",
+      "evidence_level": "context"
+    },
+    "composition_domain_ood_x_partition_mean_tvd": {
+      "value": 0.0697231664611315,
+      "source_file": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5C_6X_LOEO_V1\\06_metrics\\IID_VS_COMPOSITION_OOD_VS_LOEO.csv",
+      "source_stage": "STEP5C",
+      "source_sha256": "fa15bea8dab164454374eabf6ee09b6999e163442a0ef2c46afb672b71650d61",
+      "metric_definition": "STEP5B Domain-B shell, x_partition",
+      "evidence_level": "context"
+    },
+    "retrospective_loeo_tree_mean": {
+      "value": 0.8504979259389538,
+      "source_file": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5C_6X_LOEO_V1\\06_metrics\\IID_VS_COMPOSITION_OOD_VS_LOEO.csv",
+      "source_stage": "STEP5C",
+      "source_sha256": "fa15bea8dab164454374eabf6ee09b6999e163442a0ef2c46afb672b71650d61",
+      "metric_definition": "STEP5C six-fold mean, per-fold selected models",
+      "evidence_level": "context"
+    },
+    "retrospective_loeo_per_element": {
+      "value": {
+        "ZR": 0.6398134767813602,
+        "TI": 0.8262253660154008,
+        "CO": 0.8322313548143286,
+        "SI": 0.9032562944855548,
+        "AG": 0.9143766061027018,
+        "MO": 0.9870844574343756
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5C_6X_LOEO_V1\\06_metrics\\LOEO_PER_ELEMENT_HEADLINE.csv",
+      "source_stage": "STEP5C",
+      "source_sha256": "92d7e0cab50b09a09450d3bfbf6c2e5bd052dbac117c04ad42ec925535d20c15",
+      "metric_definition": "per-held-out-element x_partition mean TVD; the six-fold average is never reported alone",
+      "evidence_level": "context"
+    },
+    "step5e_pipeline_selection": {
+      "value": {
+        "Z0_TREE_DIRECT": 0.8504979259389537,
+        "Z1_MLP_DIRECT": 0.752644092873945,
+        "Z2_AFFINITY_XGB": 0.8681625508062983,
+        "Z3_TOPOLOGY_FIRST": 0.8841337296658903,
+        "Z4_AFFINITY_TOPOLOGY_FIRST": 0.88346411727595,
+        "Z5_AFFINITY_MLP": 0.8263782430458936
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5E_XPART_REMEDY_V1\\11_manifest\\STEP5E_RECOMMENDED_ZERO_SHOT_PIPELINE.json",
+      "source_stage": "STEP5E",
+      "source_sha256": "b01780dd794dc975ca9db49df1e35da15be1e86f829e0d9caf8a98fa64fec474",
+      "metric_definition": "retrospective LOEO mean TVD of the six candidate zero-shot pipelines; Z1_MLP_DIRECT was selected",
+      "evidence_level": "context"
+    },
+    "step5e_guardrail_satisfied_by_winner": {
+      "value": false,
+      "source_file": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5E_XPART_REMEDY_V1\\11_manifest\\STEP5E_RECOMMENDED_ZERO_SHOT_PIPELINE.json",
+      "source_stage": "STEP5E",
+      "source_sha256": "b01780dd794dc975ca9db49df1e35da15be1e86f829e0d9caf8a98fa64fec474",
+      "metric_definition": "whether the selected pipeline met its own preregistered guardrail",
+      "evidence_level": "context"
+    },
+    "step5f_augmented_loeo": {
+      "value": {
+        "mean_Z1_tvd": 0.752644092873945,
+        "mean_FULL5_tvd": 0.7103322147540917,
+        "relative_reduction": 0.05621764459518552,
+        "mean_topology_accuracy": 0.33230591630591627,
+        "folds_beating_trivial": 3
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\06_AUGMENTATION\\STEP5F_FULL_V1\\05_augmented_ML\\STEP5F_AUGMENTED_LOEO_SUMMARY.json",
+      "source_stage": "STEP5F",
+      "source_sha256": "1bd4095bda494b1bf87ae0ef87ac9407971275c846c497788fcab6771f49b6f5",
+      "metric_definition": "retrospective augmented LOEO",
+      "evidence_level": "context"
+    },
+    "loeo_caveat": "model-family retrospective leave-one-element-out context; NOT a score of the frozen STEP5G production checkpoints, which were trained on all six identities and never scored by LOEO",
+    "ni_feature_range": {
+      "value": {
+        "n_features_extending_train_range": 0,
+        "n_features_total": 43,
+        "frac_states_any_abs_z_gt3": 0.003,
+        "frac_states_any_abs_z_gt5": 0.0,
+        "max_abs_z_median": 1.9880154893400332,
+        "outside_six_identity_property_range_count": 0
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\03_ood_diagnostics\\STEP5H_A_OOD_DIAGNOSTICS_FREEZE.json",
+      "source_stage": "STEP5H-A",
+      "source_sha256": "cf261c573685e9816cadf5bcb6c69651c66a6ec9ab41739944bc83e1d79252cc",
+      "metric_definition": "frozen BEFORE any Ni CALPHAD state existed: how far the Ni inputs lie outside the training feature ranges",
+      "evidence_level": "context"
+    },
+    "dataset": {
+      "value": {
+        "domain_A": {
+          "compositions": 35000,
+          "states": 385000
+        },
+        "domain_B": {
+          "compositions": 10000,
+          "states": 110000,
+          "converged": 109716,
+          "failed": 284
+        },
+        "ni_blind": {
+          "compositions": 2000,
+          "states": 22000,
+          "converged": 22000,
+          "failed": 0
+        }
+      },
+      "source_file": "E:\\Cu_CALPHAD_ML\\03_full_CALPHAD\\FULL_V1\\04_qa\\FULL_V1_DOMAIN_SUMMARY.csv",
+      "source_stage": "FULL_V1",
+      "source_sha256": "f4c411381c14fd7efb60c0d2f119f3eb719def89ea2a28c011f35be569b48816",
+      "metric_definition": "CALPHAD design",
+      "evidence_level": "context"
+    }
+  },
+  "not_available": {
+    "experimental_validation": {
+      "value": "REQUIRES_NEW_EXPERIMENT",
+      "reason": "no experimental measurement exists in this project; CALPHAD equilibrium is the only ground truth",
+      "evidence_level": null
+    },
+    "kinetics": {
+      "value": "REQUIRES_NEW_EXPERIMENT",
+      "reason": "all labels are equilibrium; no kinetic calculation was performed",
+      "evidence_level": null
+    },
+    "second_prospective_unseen_element": {
+      "value": "REQUIRES_NEW_EXPERIMENT",
+      "reason": "only Ni was held out prospectively; a second blind element would be a new experiment",
+      "evidence_level": null
+    },
+    "low_order_binary_ni_anchors": {
+      "value": "REQUIRES_NEW_EXPERIMENT",
+      "reason": "Cu-Ni / Cr-Ni / Nb-Ni were never computed (STEP5I spec 47)",
+      "evidence_level": null
+    },
+    "dft_or_first_principles_descriptors": {
+      "value": "REQUIRES_NEW_EXPERIMENT",
+      "reason": "out of scope by design; CALPHAD plus classical elemental descriptors only",
+      "evidence_level": null
+    }
+  },
+  "drift_vs_brief": [
+    {
+      "quantity": "primary_blind_mean_tvd",
+      "brief_quoted": 0.8643856187,
+      "recomputed_from_frozen_files": 0.8643856186628641,
+      "abs_difference": 3.713584995068686e-11,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "primary_blind_topology_accuracy",
+      "brief_quoted": 0.0785909,
+      "recomputed_from_frozen_files": 0.07859090909090909,
+      "abs_difference": 9.09090908107757e-09,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "primary_blind_trivial_tvd",
+      "brief_quoted": 0.5957669021,
+      "recomputed_from_frozen_files": 0.5957669021263107,
+      "abs_difference": 2.6310620349079272e-11,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "primary_blind_skill",
+      "brief_quoted": -0.2686187165,
+      "recomputed_from_frozen_files": -0.26861871653655345,
+      "abs_difference": 3.6553426951968504e-11,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "secondary_blind_mean_tvd",
+      "brief_quoted": 0.7234409099,
+      "recomputed_from_frozen_files": 0.7234409098506132,
+      "abs_difference": 4.9386827960518076e-11,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "secondary_blind_topology_accuracy",
+      "brief_quoted": 0.2406818,
+      "recomputed_from_frozen_files": 0.2406818181818182,
+      "abs_difference": 1.8181818189910715e-08,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "recovery_subset_zero_shot_tvd",
+      "brief_quoted": 0.8632602865,
+      "recomputed_from_frozen_files": 0.8632602865207863,
+      "abs_difference": 2.0786372623149418e-11,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "recovery_subset_trivial_tvd",
+      "brief_quoted": 0.5960189307,
+      "recomputed_from_frozen_files": 0.5960189306749455,
+      "abs_difference": 2.505451401901837e-11,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "refit_b1",
+      "brief_quoted": 0.2481623701,
+      "recomputed_from_frozen_files": 0.2481623700601974,
+      "abs_difference": 3.980260565583649e-11,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "r0_b1",
+      "brief_quoted": 0.136716,
+      "recomputed_from_frozen_files": 0.1367162844676768,
+      "abs_difference": 2.8446767680323504e-07,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "r2_b1",
+      "brief_quoted": 0.191315,
+      "recomputed_from_frozen_files": 0.1913154848041996,
+      "abs_difference": 4.848041995908492e-07,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "topo_b1",
+      "brief_quoted": 0.722446,
+      "recomputed_from_frozen_files": 0.7224458874458874,
+      "abs_difference": 1.1255411258570547e-07,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "refit_b2",
+      "brief_quoted": 0.1656707301,
+      "recomputed_from_frozen_files": 0.1656707300894517,
+      "abs_difference": 1.0548284468114844e-11,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "r0_b2",
+      "brief_quoted": 0.111797,
+      "recomputed_from_frozen_files": 0.1117968871794828,
+      "abs_difference": 1.1282051719241348e-07,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "r2_b2",
+      "brief_quoted": 0.152236,
+      "recomputed_from_frozen_files": 0.1522359217468841,
+      "abs_difference": 7.825311590381467e-08,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "topo_b2",
+      "brief_quoted": 0.915844,
+      "recomputed_from_frozen_files": 0.9158441558441558,
+      "abs_difference": 1.558441558024981e-07,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "refit_b4",
+      "brief_quoted": 0.1235011339,
+      "recomputed_from_frozen_files": 0.1235011338779779,
+      "abs_difference": 2.202210636070845e-11,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "r0_b4",
+      "brief_quoted": 0.097504,
+      "recomputed_from_frozen_files": 0.0975040313600958,
+      "abs_difference": 3.136009581183874e-08,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "r2_b4",
+      "brief_quoted": 0.14434,
+      "recomputed_from_frozen_files": 0.1443401403958257,
+      "abs_difference": 1.4039582571512277e-07,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "topo_b4",
+      "brief_quoted": 0.943312,
+      "recomputed_from_frozen_files": 0.9433116883116884,
+      "abs_difference": 3.116883116049962e-07,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "refit_b8",
+      "brief_quoted": 0.0507380675,
+      "recomputed_from_frozen_files": 0.0507380675070274,
+      "abs_difference": 7.027399495651565e-12,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "r0_b8",
+      "brief_quoted": 0.090807,
+      "recomputed_from_frozen_files": 0.0908066971237927,
+      "abs_difference": 3.028762072948554e-07,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "r2_b8",
+      "brief_quoted": 0.139418,
+      "recomputed_from_frozen_files": 0.1394180741553712,
+      "abs_difference": 7.415537120469828e-08,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "topo_b8",
+      "brief_quoted": 0.974978,
+      "recomputed_from_frozen_files": 0.9749783549783548,
+      "abs_difference": 3.5497835482178886e-07,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "refit_b16",
+      "brief_quoted": 0.0358137552,
+      "recomputed_from_frozen_files": 0.0358137551897369,
+      "abs_difference": 1.0263095928664256e-11,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "r0_b16",
+      "brief_quoted": 0.076495,
+      "recomputed_from_frozen_files": 0.0764951206640487,
+      "abs_difference": 1.2066404871113878e-07,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "r2_b16",
+      "brief_quoted": 0.130683,
+      "recomputed_from_frozen_files": 0.1306829569888241,
+      "abs_difference": 4.301117589866621e-08,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "topo_b16",
+      "brief_quoted": 0.978247,
+      "recomputed_from_frozen_files": 0.9782467532467533,
+      "abs_difference": 2.467532467242961e-07,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "refit_b32",
+      "brief_quoted": 0.0271879848,
+      "recomputed_from_frozen_files": 0.0271879847928119,
+      "abs_difference": 7.1880973395721526e-12,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "r0_b32",
+      "brief_quoted": 0.079531,
+      "recomputed_from_frozen_files": 0.0795312509726499,
+      "abs_difference": 2.509726498983733e-07,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "r2_b32",
+      "brief_quoted": 0.130985,
+      "recomputed_from_frozen_files": 0.1309852109226985,
+      "abs_difference": 2.1092269850142564e-07,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "topo_b32",
+      "brief_quoted": 0.986277,
+      "recomputed_from_frozen_files": 0.9862770562770562,
+      "abs_difference": 5.627705623734158e-08,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    },
+    {
+      "quantity": "coverage_rho",
+      "brief_quoted": 0.7597,
+      "recomputed_from_frozen_files": 0.7597253503312641,
+      "abs_difference": 2.5350331264051285e-05,
+      "agrees_at_quoted_precision": true,
+      "status": "OK"
+    }
+  ],
+  "n_drift_flags": 0
+}

@@ -1,0 +1,8 @@
+budget,topology_accuracy,row
+0,0.07967532467532468,frozen zero-shot
+1,0.7224458874458874,mean of 3 replicates
+2,0.9158441558441558,mean of 3 replicates
+4,0.9433116883116884,mean of 3 replicates
+8,0.9749783549783548,mean of 3 replicates
+16,0.9782467532467533,mean of 3 replicates
+32,0.9862770562770562,mean of 3 replicates
