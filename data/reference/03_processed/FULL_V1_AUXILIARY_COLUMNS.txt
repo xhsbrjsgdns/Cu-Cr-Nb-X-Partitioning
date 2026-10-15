@@ -1,0 +1,17 @@
+# AUXILIARY / DIAGNOSTIC columns - NOT core 5-family targets.
+# Never sum these together with FCC/BCC/C15/OTHER_SOLID/LIQUID: ZRM5_C15B is
+# already counted inside OTHER_SOLID, so doing so would double-count it.
+C15_family_wide_volfrac_AUX
+CR_P_C15_family_wide_AUX
+NB_P_C15_family_wide_AUX
+P_AG_C15_family_wide_AUX
+P_CO_C15_family_wide_AUX
+P_CR_C15_family_wide_AUX
+P_MO_C15_family_wide_AUX
+P_NB_C15_family_wide_AUX
+P_SI_C15_family_wide_AUX
+P_TI_C15_family_wide_AUX
+P_ZR_C15_family_wide_AUX
+SIGMA_volfrac_AUX
+X_P_C15_family_wide_AUX
+ZRM5_C15B_volfrac_AUX
