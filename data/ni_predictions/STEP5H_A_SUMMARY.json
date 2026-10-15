@@ -1,0 +1,220 @@
+{
+  "stage": "STEP5H_A_PREDICTION_FREEZE_V1",
+  "generated_utc": "2026-09-06T17:16:31+00:00",
+  "status": "PASS",
+  "decision": "READY FOR STEP5H-B\nNi CALPHAD BLIND REVEAL",
+  "clarification_additive_only": true,
+  "first_ni_access_utc": "2026-09-06T17:07:49+00:00",
+  "ni_properties_extracted": {
+    "AtomicNumber": 28.0,
+    "AtomicWeight": 58.6934,
+    "CovalentRadius": 124.0,
+    "Electronegativity": 1.91,
+    "VEC": 10.0,
+    "MeltingT": 1728.0,
+    "FirstIonizationEnergy": 7.6398,
+    "AtomicVolume_GS": 10.32,
+    "MetallicRadius": 135.0,
+    "Density": 8.9
+  },
+  "ni_properties_not_extracted": [
+    "ElectronAffinity",
+    "MendeleevNumber",
+    "CohesiveEnergy"
+  ],
+  "source_consistency_test": {
+    "states": 18,
+    "max_abs_delta": 0.0,
+    "tolerance": 1e-10,
+    "bad": [],
+    "verdict": "PASS"
+  },
+  "n_states": 22000,
+  "n_features": 43,
+  "ood_diagnostics_frozen_pre_reveal": true,
+  "features_extending_train_range": 0,
+  "primary_prediction_sha256": "100b40ed67c396cb296d53db80e7fef7cb94c0c8223873f5a13c01af28f0f488",
+  "primary_fallbacks": 0,
+  "secondary_prediction_sha256": "a6c0fc4a98a05a4c53704d85b5caf91a5477577789a69d8dc24f6976f98a72ad",
+  "secondary_fallbacks": 0,
+  "disagreement_mean_tvd": 0.19859415294353075,
+  "topology_agreement_rate": 0.8371818181818181,
+  "maximin_sequence_sha256": "6704c7e9d71f64dc8395c55b0beed239f29f99f6e7e9bfa510ab8f4d64221fda",
+  "random_sequences_unchanged": true,
+  "ni_calphad_calls": 0,
+  "ni_target_rows_accessed": 0,
+  "model_retraining_events": 0,
+  "scaler_refit_events": 0,
+  "feature_selection_events": 0,
+  "fewshot_executed": false,
+  "b_skill_computed": false,
+  "b_recovery25_computed": false,
+  "predictions_immutable": true,
+  "audit": [
+    {
+      "n": 1,
+      "item": "STEP5G pipeline freeze hash unchanged",
+      "result": "PASS",
+      "detail": "15efe35e2ad4f537"
+    },
+    {
+      "n": 2,
+      "item": "PRIMARY checkpoint hash unchanged",
+      "result": "PASS",
+      "detail": "f89e4ddc2f367a57"
+    },
+    {
+      "n": 3,
+      "item": "SECONDARY checkpoint hash unchanged",
+      "result": "PASS",
+      "detail": "a685b2138f114f32"
+    },
+    {
+      "n": 4,
+      "item": "PRIMARY scaler hash unchanged",
+      "result": "PASS",
+      "detail": "c2619e4aed54304a"
+    },
+    {
+      "n": 5,
+      "item": "SECONDARY scaler hash unchanged",
+      "result": "PASS",
+      "detail": "b247fdae442c475d"
+    },
+    {
+      "n": 6,
+      "item": "feature schema hash unchanged",
+      "result": "PASS",
+      "detail": "faebd4de9423b608"
+    },
+    {
+      "n": 7,
+      "item": "Ni composition table hash unchanged",
+      "result": "PASS",
+      "detail": "7680b5a1ba5a2409"
+    },
+    {
+      "n": 8,
+      "item": "2000 compositions unchanged (QA recheck PASS)",
+      "result": "PASS",
+      "detail": "2000 rows, 9/9 QA PASS"
+    },
+    {
+      "n": 9,
+      "item": "22000 states in features and in both prediction files",
+      "result": "PASS",
+      "detail": "22000"
+    },
+    {
+      "n": 10,
+      "item": "same 43 features, exact frozen order, in the feature table",
+      "result": "PASS",
+      "detail": "43 features (Temperature_C is itself feature #1)"
+    },
+    {
+      "n": 11,
+      "item": "approved property sources only (matminer MagpieData / mendeleev)",
+      "result": "PASS",
+      "detail": "[\"matminer ElementProperty.from_preset('magpie') [aggregate access]\", 'matminer MagpieData (magpie.data.json)']"
+    },
+    {
+      "n": 12,
+      "item": "no manually entered Ni values",
+      "result": "PASS",
+      "detail": "ledger sources are package databases only"
+    },
+    {
+      "n": 13,
+      "item": "no web-derived Ni values",
+      "result": "PASS",
+      "detail": "no web source in the ledger"
+    },
+    {
+      "n": 14,
+      "item": "no Ni CALPHAD anywhere in STEP5H-A (files, imports, calls)",
+      "result": "PASS",
+      "detail": "0 CALPHAD artifacts"
+    },
+    {
+      "n": 15,
+      "item": "no Ni targets accessed (none exist)",
+      "result": "PASS",
+      "detail": "0 target rows"
+    },
+    {
+      "n": 16,
+      "item": "no target columns loaded into any prediction artifact",
+      "result": "PASS",
+      "detail": "guard clean on features + both prediction files"
+    },
+    {
+      "n": 17,
+      "item": "no model retraining (checkpoint hashes are the proof)",
+      "result": "PASS",
+      "detail": "hashes identical to STEP5G freeze"
+    },
+    {
+      "n": 18,
+      "item": "no scaler refit (scaler hashes are the proof)",
+      "result": "PASS",
+      "detail": "hashes identical to STEP5G freeze"
+    },
+    {
+      "n": 19,
+      "item": "no feature selection performed",
+      "result": "PASS",
+      "detail": "43-feature schema untouched"
+    },
+    {
+      "n": 20,
+      "item": "PRIMARY predicted first",
+      "result": "PASS",
+      "detail": "PRIMARY 2026-09-06T17:11:02+00:00 <= SECONDARY 2026-09-06T17:11:02+00:00"
+    },
+    {
+      "n": 21,
+      "item": "PRIMARY frozen before SECONDARY prediction",
+      "result": "PASS",
+      "detail": "freeze timestamps ordered"
+    },
+    {
+      "n": 22,
+      "item": "SECONDARY frozen (immutable)",
+      "result": "PASS",
+      "detail": "a6c0fc4a98a05a4c"
+    },
+    {
+      "n": 23,
+      "item": "prediction state IDs identical between PRIMARY and SECONDARY",
+      "result": "PASS",
+      "detail": "22000 identical IDs"
+    },
+    {
+      "n": 24,
+      "item": "random few-shot split and sequences unchanged",
+      "result": "PASS",
+      "detail": "600/1400 split + 3 sequences hash-verified, not regenerated"
+    },
+    {
+      "n": 25,
+      "item": "maximin selection is target-free",
+      "result": "PASS",
+      "detail": "473-dim input geometry only"
+    },
+    {
+      "n": 26,
+      "item": "maximin sequence frozen before any Ni CALPHAD exists",
+      "result": "PASS",
+      "detail": "6704c7e9d71f64dc"
+    },
+    {
+      "n": 27,
+      "item": "all output hashes recorded",
+      "result": "PASS",
+      "detail": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\09_manifest\\STEP5H_A_FILE_HASHES.csv"
+    }
+  ],
+  "audit_failures": 0,
+  "missing_required_outputs": [],
+  "next_stage": "STEP5H-B Ni CALPHAD blind reveal - ONLY after user review"
+}

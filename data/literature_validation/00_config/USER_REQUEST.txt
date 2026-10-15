@@ -1,0 +1,1878 @@
+继续当前项目：
+
+Cu–Cr–Nb–X CALPHAD
++ Machine Learning
++ Chemical OOD Generalization
+
+Target journal:
+
+Journal of Materials Science & Technology
+JMST
+
+============================================================
+TASK
+============================================================
+
+STEP5K-R3
+
+TARGETED EXPERIMENTAL CONSISTENCY VALIDATION
+
+using the six user-supplied full-text papers.
+
+This stage replaces further broad literature searching.
+
+Primary purpose:
+
+extract exact experimental phase-equilibrium conditions
+from the supplied papers,
+
+run source-specific exact-composition
+non-Ni Thermo-Calc calculations,
+
+and determine which experimentally observed
+phase-chemistry / topology trends
+are reproduced by the frozen thermodynamic framework.
+
+IMPORTANT:
+
+This is NOT a new ML-development stage.
+
+This is NOT a new training stage.
+
+This is NOT a new unseen-element experiment.
+
+============================================================
+SOURCE PACKAGE
+============================================================
+
+The following six PDFs have now been supplied by the user.
+
+Treat them as the authoritative R3 source package.
+
+------------------------------------------------------------
+SOURCE 1 — Ag
+------------------------------------------------------------
+
+The phase equilibria of the Cu–Cr–Ni and Cu–Cr–Ag systems:
+Experimental investigation and thermodynamic modeling
+
+Qiu et al.
+
+CALPHAD 68 (2020) 101734
+
+DOI:
+10.1016/j.calphad.2019.101734
+
+Use ONLY the Cu–Cr–Ag experimental portion.
+
+The paper contains experimental alloys at:
+
+500 C
+600 C
+650 C
+700 C
+
+with:
+
+XRD
+SEM/EDX
+
+and measured phase compositions.
+
+Do NOT use the Cu–Cr–Ni part,
+because Ni belongs to the protected prospective-blind chemistry.
+
+------------------------------------------------------------
+SOURCE 2 — Mo
+------------------------------------------------------------
+
+Experimental Investigation and Thermodynamic Calculation
+of the Phase Equilibria in the Cu–Cr–W and Cu–Cr–Mo Systems
+
+Wang et al.
+
+Journal of Phase Equilibria and Diffusion
+35 (2014) 314–325
+
+DOI:
+10.1007/s11669-014-0311-0
+
+Use ONLY:
+
+Cu–Cr–Mo.
+
+Experimental temperatures include:
+
+1100 C
+1200 C
+1300 C
+
+with:
+
+long annealing
+EPMA
+XRD
+metallography.
+
+Do NOT use Cu–Cr–W.
+
+------------------------------------------------------------
+SOURCE 3 — Nb baseline + Co
+------------------------------------------------------------
+
+Experimental determination and thermodynamic calculation
+of the phase equilibria in the Cu–Cr–Nb
+and Cu–Cr–Co systems
+
+Liu et al.
+
+Journal of Alloys and Compounds
+478 (2009) 287–296
+
+DOI:
+10.1016/j.jallcom.2008.11.162
+
+Use BOTH:
+
+Cu–Cr–Nb
+
+and
+
+Cu–Cr–Co.
+
+Cu–Cr–Nb is especially important because
+it provides experimental support for the
+BASELINE thermodynamic chemistry.
+
+Cu–Cr–Co provides adjacent-ternary
+chemical support for Co.
+
+The paper reports:
+
+XRD
+SEM/EDX
+metallography
+
+and experimental equilibrium phase compositions.
+
+------------------------------------------------------------
+SOURCE 4 — Si
+------------------------------------------------------------
+
+Experimental investigation and CALPHAD modeling
+of the Cu–Cr–Si ternary system
+
+Zhang et al.
+
+CALPHAD 74 (2021) 102324
+
+DOI:
+10.1016/j.calphad.2021.102324
+
+Experimental system:
+
+Cu–Cr–Si
+
+17 experimental ternary alloys
+
+700 C
+800 C
+
+XRD
+SEM/EDS
+
+with multiple Cu–Si and Cr–Si intermetallic phases.
+
+------------------------------------------------------------
+SOURCE 5 — Ti
+------------------------------------------------------------
+
+Experimental Investigation of Phase Equilibria
+in the Cu–Cr–Ti System
+
+Li et al.
+
+Journal of Phase Equilibria and Diffusion
+42 (2021) 389–402
+
+DOI:
+10.1007/s11669-021-00892-y
+
+Experimental methods include:
+
+diffusion triples
+
+equilibrated alloys
+
+EPMA
+
+XRD.
+
+Important temperatures:
+
+1073 K
+
+973 K.
+
+Equilibrated alloy annealing durations include:
+
+90 days at 1073 K
+
+120 days at 973 K.
+
+The paper reports:
+
+Cu4Ti
+
+Cu4Ti3
+
+Cu3Ti2 / (Cu,Cr)3Ti2
+
+CuTi
+
+TiCr2-related phases
+
+and ternary phase sigma1.
+
+------------------------------------------------------------
+SOURCE 6 — Cu–Cr–Nb qualitative support
+------------------------------------------------------------
+
+Precipitate Size in GRCop-42 and GRCop-84
+Cu-Cr-Nb Alloy Gas Atomized Powder
+and L-PBF Additive Manufactured Material
+
+Seltzman and Wukitch
+
+Fusion Science and Technology
+79 (2023) 503–516
+
+DOI:
+10.1080/15361055.2022.2147765
+
+This is NOT a strict equilibrium phase-diagram paper.
+
+Use as:
+
+QUALITATIVE MATERIALS SUPPORT ONLY.
+
+Relevant compositions:
+
+GRCop-84:
+8 at.% Cr
+4 at.% Nb
+balance Cu
+
+GRCop-42:
+4 at.% Cr
+2 at.% Nb
+balance Cu.
+
+Relevant experimental observation:
+
+Cr2Nb precipitates.
+
+DO NOT treat this paper as
+direct equilibrium validation.
+
+============================================================
+ABSOLUTE FROZEN BOUNDARY
+============================================================
+
+DO NOT:
+
+run any Ni CALPHAD
+
+extract or use the Cu–Cr–Ni experimental data
+from Source 1 for validation
+
+generate new Ni compositions
+
+regenerate Ni predictions
+
+change STEP5H-A
+
+change STEP5H-B
+
+change STEP5I
+
+change STEP5J
+
+retrain any ML model
+
+fine-tune any model
+
+refit production scalers
+
+change descriptors
+
+change feature selection
+
+change phase-family definition
+
+change partition definition
+
+change model architecture
+
+change hyperparameters
+
+add a new prospective unseen element
+
+run DFT
+
+change virtual-screening objectives
+
+change the five frozen global Zr finalists.
+
+============================================================
+PART A
+SOURCE IDENTITY FREEZE
+============================================================
+
+1. VERIFY ALL SIX PDFs INTERNALLY
+============================================================
+
+Do NOT rely on filenames.
+
+Open each PDF and verify from the actual document:
+
+title
+
+authors
+
+journal
+
+year
+
+DOI
+
+experimental systems.
+
+Create:
+
+STEP5K_R3_SOURCE_MANIFEST.csv
+
+Columns:
+
+source_id
+
+title
+
+authors
+
+journal
+
+year
+
+doi
+
+pdf_path
+
+sha256
+
+experimental_system
+
+source_role
+
+identity_verified.
+
+source_role:
+
+DIRECT_PHASE_EQUILIBRIUM
+
+or
+
+QUALITATIVE_CONTEXT.
+
+Expected:
+
+Sources 1–5:
+DIRECT_PHASE_EQUILIBRIUM
+
+Source 6:
+QUALITATIVE_CONTEXT.
+
+============================================================
+PART B
+EXTRACT EXPERIMENTAL CONDITIONS
+============================================================
+
+2. EXTRACT EXPERIMENTS, NOT AUTHORS' CALPHAD RESULTS
+============================================================
+
+This is extremely important.
+
+From Sources 1–5:
+
+extract only experimentally measured information.
+
+Do NOT treat the paper authors'
+CALPHAD calculated curves
+as experimental validation data.
+
+Allowed evidence:
+
+nominal composition
+
+composition basis
+
+annealing temperature
+
+annealing time
+
+quenching condition
+
+XRD phase identification
+
+SEM/EDS or EPMA phase compositions
+
+diffusion-triple measured tie-lines
+
+experimentally identified phase regions.
+
+============================================================
+3. BUILD MASTER CONDITION TABLE
+============================================================
+
+Create:
+
+STEP5K_R3_EXPERIMENTAL_CONDITIONS_MASTER.csv
+
+One row per independent
+experimental alloy-temperature condition.
+
+Columns:
+
+condition_id
+
+source_id
+
+system
+
+X_identity
+
+nominal_composition_original
+
+composition_basis
+
+Cu_original
+
+Cr_original
+
+Nb_original
+
+X_original
+
+temperature_original
+
+temperature_unit
+
+temperature_C
+
+temperature_K
+
+annealing_time
+
+equilibration_status
+
+cooling_condition
+
+characterization
+
+phase_1
+
+phase_2
+
+phase_3
+
+phase_4
+
+measured_phase_compositions_available
+
+page
+
+table
+
+figure
+
+source_evidence_note.
+
+============================================================
+4. EVIDENCE LOCATION IS MANDATORY
+============================================================
+
+Every admitted condition must include:
+
+page
+
+AND where possible:
+
+table
+
+or
+
+figure.
+
+Do not create a source row
+without traceable full-text evidence.
+
+============================================================
+PART C
+PRE-REGISTER CONDITION INCLUSION
+============================================================
+
+5. FREEZE INCLUSION RULE BEFORE CALPHAD
+============================================================
+
+Before running any R3 Thermo-Calc state,
+create:
+
+STEP5K_R3_CONDITION_INCLUSION_FREEZE.md
+
+Allowed DIRECT validation condition:
+
+A.
+primary experimental observation
+
+B.
+exact nominal composition available
+
+C.
+composition basis known
+
+D.
+experimental temperature known
+
+E.
+sample underwent long annealing /
+equilibration suitable for phase-equilibrium study
+
+F.
+experimental phases identified by
+XRD / EPMA / SEM-EDS / diffusion equilibrium.
+
+============================================================
+6. EXCLUSION RULE
+============================================================
+
+Exclude from DIRECT comparison:
+
+unknown composition
+
+unknown composition basis
+
+unreported temperature
+
+authors' CALPHAD predictions only
+
+schematic diagrams only
+
+rapid-solidification-only state
+
+L-PBF-only state
+
+gas-atomized-only state
+
+unresolved contradictory table entries
+
+kinetic precipitation state
+without equilibrium justification.
+
+Such conditions may remain:
+
+QUALITATIVE_CONTEXT.
+
+============================================================
+7. AVOID CHERRY PICKING
+============================================================
+
+Do NOT select conditions
+because they agree with TCCU6.
+
+Use ALL experimental conditions
+that satisfy the frozen inclusion rules,
+
+subject to the state-budget rule below.
+
+============================================================
+8. STATE BUDGET
+============================================================
+
+Target maximum:
+
+120 exact literature states.
+
+Expected workflow:
+
+one Thermo-Calc equilibrium calculation
+per admitted composition-temperature condition.
+
+If eligible conditions exceed 120:
+
+freeze a stratified sampling rule BEFORE calculations.
+
+Stratify by:
+
+source
+
+temperature
+
+experimental phase region.
+
+Do NOT select using calculated agreement.
+
+============================================================
+PART D
+COMPOSITION CONVERSION
+============================================================
+
+9. PRESERVE ORIGINAL BASIS
+============================================================
+
+Keep original experimental compositions
+exactly as printed.
+
+Never overwrite them.
+
+============================================================
+10. AT.% TO WT.% CONVERSION
+============================================================
+
+For experimental conditions reported in at.%:
+
+convert to wt.%
+using explicit atomic weights.
+
+Create:
+
+STEP5K_R3_COMPOSITION_CONVERSIONS.csv
+
+Columns:
+
+condition_id
+
+original_basis
+
+original_composition
+
+atomic_weight_Cu
+
+atomic_weight_Cr
+
+atomic_weight_Nb
+
+atomic_weight_X
+
+converted_wt_Cu
+
+converted_wt_Cr
+
+converted_wt_Nb
+
+converted_wt_X
+
+sum_wt
+
+conversion_formula
+
+conversion_check.
+
+Require:
+
+sum = 100 wt.%
+within floating tolerance.
+
+============================================================
+11. DO NOT ROUND EARLY
+============================================================
+
+Keep high-precision conversion internally.
+
+Only round for manuscript presentation.
+
+Thermo-Calc input should use
+the validated converted composition.
+
+============================================================
+PART E
+DOMAIN RELEVANCE
+============================================================
+
+12. SEPARATE DATABASE VALIDATION FROM ML-DOMAIN RELEVANCE
+============================================================
+
+For every literature condition classify:
+
+TARGET_DOMAIN_RELEVANCE:
+
+WITHIN_FULLV1_BOUNDS
+
+NEAR_FULLV1_BOUNDS
+
+OUTSIDE_FULLV1_BOUNDS.
+
+This classification is descriptive only.
+
+DO NOT use nearest-neighbor agreement
+as validation.
+
+============================================================
+13. SYSTEM RELATION CLASS
+============================================================
+
+Also classify:
+
+TARGET_QUATERNARY
+
+BASELINE_CuCrNb
+
+ADJACENT_TERNARY_CuCrX
+
+QUALITATIVE_PROCESSED_ALLOY.
+
+Expected:
+
+Cu–Cr–Nb:
+BASELINE_CuCrNb
+
+Cu–Cr–Ag / Mo / Co / Si / Ti:
+ADJACENT_TERNARY_CuCrX
+
+GRCop:
+QUALITATIVE_PROCESSED_ALLOY.
+
+This distinction MUST appear
+in the manuscript.
+
+============================================================
+PART F
+PHASE CROSSWALK
+============================================================
+
+14. DO NOT COMPARE ONLY FIVE FAMILIES
+============================================================
+
+Comparison must be done at TWO levels:
+
+LEVEL 1:
+raw phase-instance level
+
+LEVEL 2:
+frozen five-family level.
+
+============================================================
+15. WHY RAW INSTANCE LEVEL IS REQUIRED
+============================================================
+
+The frozen family aggregation may merge:
+
+multiple FCC phases
+
+or
+
+multiple BCC phases.
+
+This is especially important for:
+
+Ag:
+Cu-rich FCC + Ag-rich FCC separation
+
+Mo:
+Cr/Mo-rich BCC chemistry
+or multiple BCC solution phases.
+
+Therefore:
+
+preserve all raw Thermo-Calc phase instances
+before aggregation.
+
+============================================================
+16. BUILD PHASE CROSSWALK
+============================================================
+
+Create:
+
+STEP5K_R3_PHASE_CROSSWALK.csv
+
+Columns:
+
+literature_phase
+
+literature_structure
+
+literature_prototype
+
+TCCU_raw_phase_candidate
+
+frozen_family
+
+mapping_confidence
+
+mapping_basis
+
+source_reference
+
+notes.
+
+============================================================
+17. NO UNSUPPORTED STRUCTURE MAPPING
+============================================================
+
+Do NOT automatically map:
+
+Cr2Nb -> C15
+
+TiCr2 -> C15
+
+unless crystal structure /
+database phase identity supports it.
+
+For TiCr2 distinguish,
+where relevant:
+
+C15
+
+C36
+
+C14.
+
+For Cu–Ti and Cr–Si compounds:
+
+preserve the actual raw phase name
+and normally aggregate as OTHER_SOLID
+unless frozen mapping explicitly says otherwise.
+
+============================================================
+PART G
+CHEMISTRY-SPECIFIC VALIDATION QUESTIONS
+============================================================
+
+18. Ag
+============================================================
+
+Test whether exact experimental
+Cu–Cr–Ag conditions reproduce:
+
+Cu-rich FCC
+
+Ag-rich FCC
+
+Cr-rich BCC
+
+and phase multiplicity.
+
+Primary question:
+
+does TCCU6 recover FCC composition separation?
+
+Do NOT reduce this only to
+“FCC family present”.
+
+============================================================
+19. Mo
+============================================================
+
+Test:
+
+Cu-rich phase
+
+Cr/Mo-rich BCC chemistry
+
+liquid where experimentally relevant
+
+possible BCC composition separation.
+
+Do NOT claim spinodal decomposition
+unless directly demonstrated.
+
+Preferred wording:
+
+BCC composition separation /
+miscibility behavior.
+
+============================================================
+20. Cu–Cr–Nb BASELINE
+============================================================
+
+This is the most important
+baseline validation.
+
+Test exact experimental conditions for:
+
+fcc(Cu)
+
+bcc(Cr)
+
+bcc(Nb) where reported
+
+Cr2Nb/intermetallic phase
+
+liquid where appropriate.
+
+Explicitly determine whether
+the experimentally observed Cr2Nb phase
+corresponds to the raw TCCU6 phase
+used in the frozen C15 family.
+
+============================================================
+21. Co
+============================================================
+
+Use Cu–Cr–Co to validate
+adjacent Co phase chemistry only.
+
+Do NOT claim this ternary paper
+validates Co–Nb Laves topology.
+
+Report this limitation explicitly.
+
+============================================================
+22. Si
+============================================================
+
+Test experimental occurrence of:
+
+Cr3Si
+
+Cr5Si3
+
+CrSi
+
+CrSi2
+
+Cu–Si intermetallic phases
+
+and Cu/Cr solution phases.
+
+Only claim:
+
+Cr3Si competition
+
+for source conditions
+where Cr3Si is actually
+experimentally identified.
+
+============================================================
+23. Ti
+============================================================
+
+Use both:
+
+1073 K equilibrium conditions
+
+973 K equilibrium conditions.
+
+Important experimental chemistry includes:
+
+Cu4Ti
+
+Cu4Ti3
+
+Cu3Ti2 / (Cu,Cr)3Ti2
+
+CuTi
+
+TiCr2-related phases
+
+sigma1 ternary phase.
+
+Where possible,
+use the equilibrated alloy rows
+rather than only diffusion-zone inference.
+
+============================================================
+24. GRCop
+============================================================
+
+Do NOT include GRCop in
+direct equilibrium agreement metrics.
+
+Use only to support:
+
+real occurrence of Cr2Nb precipitates
+in engineering Cu–Cr–Nb alloys
+
+and the materials relevance
+of Cr2Nb-containing chemistry.
+
+============================================================
+PART H
+EXACT LITERATURE CALPHAD
+============================================================
+
+25. CALPHAD CONDITIONS
+============================================================
+
+Use exactly:
+
+Thermo-Calc 2025b
+
+TC-Python 2025.2.30
+
+TCCU6 Cu-Alloys v6.2
+
+1 bar
+
+1 mol
+
+wt.%
+
+Cu balance
+
+equilibrium only.
+
+Use the same phase-detection logic
+as the frozen project.
+
+============================================================
+26. ONLY NON-Ni SYSTEMS
+============================================================
+
+Allowed:
+
+Cu
+
+Cr
+
+Nb
+
+Ag
+
+Mo
+
+Co
+
+Si
+
+Ti.
+
+No Ni.
+
+Even though Source 1 contains Ni:
+
+IGNORE ALL Cu–Cr–Ni CONDITIONS.
+
+============================================================
+27. RUN EXACT SOURCE CONDITIONS
+============================================================
+
+Do NOT use nearest FULL_V1 composition.
+
+Run:
+
+exact literature composition
+
+at
+
+exact experimental temperature.
+
+These are:
+
+POST-FREEZE EXTERNAL-VALIDATION CALCULATIONS.
+
+They must NOT enter:
+
+training
+
+validation split
+
+test split
+
+scaler
+
+feature selection
+
+hyperparameter tuning
+
+Ni recovery
+
+virtual screening.
+
+============================================================
+28. RETRY POLICY
+============================================================
+
+For failed states:
+
+use deterministic
+predefined convergence escalation only.
+
+Maximum:
+
+Level 0–3.
+
+Record the exact Thermo-Calc error.
+
+Never:
+
+infer phase absence from failure
+
+interpolate phase output
+
+manually suppress phases
+to obtain agreement
+
+alter database settings
+to force agreement.
+
+============================================================
+29. OUTPUT CALPHAD TABLE
+============================================================
+
+Create:
+
+STEP5K_R3_EXTERNAL_CALPHAD.parquet
+
+STEP5K_R3_EXTERNAL_CALPHAD_RAW_PHASES.csv
+
+STEP5K_R3_EXTERNAL_CALPHAD_FAMILY.csv
+
+STEP5K_R3_EXTERNAL_CALPHAD_QA.md
+
+STEP5K_R3_EXTERNAL_CALPHAD_FREEZE.json.
+
+============================================================
+PART I
+CONDITION-LEVEL COMPARISON
+============================================================
+
+30. RAW PHASE-SET COMPARISON
+============================================================
+
+For each converged state calculate:
+
+experimental raw phase set
+
+calculated raw phase set
+
+normalized raw phase set
+
+exact raw-phase-set match
+
+raw-phase Jaccard similarity
+
+missing experimental phases
+
+extra calculated phases.
+
+============================================================
+31. FAMILY-LEVEL COMPARISON
+============================================================
+
+Also compare:
+
+FCC
+
+BCC
+
+C15
+
+OTHER_SOLID
+
+LIQUID.
+
+Report:
+
+family exact-set match
+
+family Jaccard similarity.
+
+============================================================
+32. PHASE MULTIPLICITY
+============================================================
+
+Separately record:
+
+number of FCC raw instances
+
+number of BCC raw instances.
+
+This is required for:
+
+Ag
+
+Mo
+
+and any other phase-separation condition.
+
+============================================================
+33. PHASE COMPOSITION COMPARISON
+============================================================
+
+Where experimental EPMA / EDS
+phase composition is reported:
+
+match experimental and calculated phases
+using structure + chemistry.
+
+Then calculate:
+
+element-wise absolute error
+
+phase-composition MAE
+
+dominant-enrichment direction.
+
+Do NOT force phase matching
+when phase identity is ambiguous.
+
+Create:
+
+STEP5K_R3_PHASE_COMPOSITION_COMPARISON.csv.
+
+============================================================
+34. PARTITION / TOPOLOGY SUPPORT
+============================================================
+
+For each valid state,
+classify whether experiment supports:
+
+FCC affinity
+
+BCC affinity
+
+C15/Laves affinity
+
+OTHER_SOLID affinity
+
+phase separation
+
+or
+
+no topology conclusion.
+
+Do NOT invent partition fractions
+from qualitative micrographs.
+
+============================================================
+PART J
+AGREEMENT VOCABULARY
+============================================================
+
+35. CONDITION VERDICTS
+============================================================
+
+Use:
+
+STRONGLY_CONSISTENT
+
+CONSISTENT
+
+PARTIALLY_CONSISTENT
+
+DISCREPANT
+
+NOT_COMPARABLE
+
+CALPHAD_FAILED.
+
+============================================================
+36. VERDICT DEFINITIONS
+============================================================
+
+STRONGLY_CONSISTENT:
+
+experimental major phase set
+and phase multiplicity reproduced,
+with phase chemistry compatible.
+
+CONSISTENT:
+
+major phase chemistry reproduced,
+minor differences only.
+
+PARTIALLY_CONSISTENT:
+
+some important phase/topology chemistry reproduced
+but one or more meaningful differences remain.
+
+DISCREPANT:
+
+successful calculation,
+verified experimental condition,
+but major phase chemistry conflicts.
+
+NOT_COMPARABLE:
+
+condition excluded by frozen rules
+or experimental evidence insufficient.
+
+CALPHAD_FAILED:
+
+valid experimental condition
+but no converged calculation.
+
+============================================================
+37. DO NOT HIDE DISCREPANCIES
+============================================================
+
+All successful discrepancies
+must remain in the final table.
+
+No post-hoc exclusion
+based on bad agreement.
+
+============================================================
+PART K
+NO MISLEADING GLOBAL ACCURACY
+============================================================
+
+38. DO NOT REPORT ONE GLOBAL “EXPERIMENTAL ACCURACY”
+============================================================
+
+These literature studies are heterogeneous.
+
+Do NOT collapse everything
+into one headline percentage.
+
+Instead report by:
+
+system
+
+source
+
+temperature
+
+comparison type.
+
+Allowed descriptive statistics:
+
+n conditions
+
+n converged
+
+n strongly consistent
+
+n consistent
+
+n partially consistent
+
+n discrepant
+
+phase-set Jaccard distribution.
+
+============================================================
+39. DATABASE-INDEPENDENCE CAVEAT
+============================================================
+
+Create:
+
+STEP5K_R3_DATABASE_INDEPENDENCE_NOTE.md
+
+Check whether there is evidence
+that any of these experimental papers
+may have contributed to TCCU6 assessments.
+
+Unless independence can be proven,
+state explicitly:
+
+these results are
+
+“source-grounded experimental consistency checks”
+
+or
+
+“materials-level plausibility checks”,
+
+NOT statistically independent
+validation of the TCCU6 database.
+
+This caveat is mandatory.
+
+============================================================
+PART L
+SYSTEM-LEVEL EVIDENCE STRENGTH
+============================================================
+
+40. CREATE EVIDENCE TABLE
+============================================================
+
+Create:
+
+STEP5K_R3_SYSTEM_EVIDENCE.csv
+
+Rows:
+
+Cu–Cr–Nb baseline
+
+Cu–Cr–Ag
+
+Cu–Cr–Mo
+
+Cu–Cr–Co
+
+Cu–Cr–Si
+
+Cu–Cr–Ti
+
+GRCop qualitative context.
+
+Columns:
+
+n_source_conditions
+
+n_directly_admitted
+
+n_calphad_converged
+
+n_strongly_consistent
+
+n_consistent
+
+n_partially_consistent
+
+n_discrepant
+
+raw_phase_support
+
+family_phase_support
+
+phase_composition_support
+
+topology_support
+
+ML_domain_relevance
+
+evidence_strength
+
+remaining_limitation.
+
+============================================================
+41. EVIDENCE STRENGTH
+============================================================
+
+Use:
+
+STRONG
+
+MODERATE
+
+LIMITED
+
+NONE.
+
+Do NOT classify automatically
+by agreement percentage only.
+
+Consider:
+
+source quality
+
+number of conditions
+
+temperature coverage
+
+phase-identity quality
+
+calculation convergence
+
+domain relevance
+
+database-independence limitation.
+
+============================================================
+PART M
+FIGURES
+============================================================
+
+42. GENERATE ONLY USEFUL VALIDATION FIGURES
+============================================================
+
+Recommended:
+
+Fig_R3_01
+experimental-vs-calculated phase-set matrix
+by alloy system
+
+Fig_R3_02
+condition-level agreement heatmap
+
+Fig_R3_03
+experimental vs calculated phase compositions
+ONLY if sufficient matched EPMA/EDS data exist
+
+Fig_R3_04
+evidence-strength summary
+for baseline / Ag / Mo / Co / Si / Ti.
+
+Every figure must have
+a source CSV.
+
+Do not create decorative figures.
+
+============================================================
+PART N
+MANUSCRIPT INTERPRETATION
+============================================================
+
+43. CORRECT CLAIM LEVEL
+============================================================
+
+If R3 performs well,
+preferred manuscript wording:
+
+“Source-grounded phase-equilibrium comparisons
+provide experimental consistency support for
+several CALPHAD-predicted phase-affinity
+and partition-topology trends.”
+
+NOT:
+
+“The ML model was experimentally validated.”
+
+NOT:
+
+“TCCU6 was independently experimentally validated.”
+
+============================================================
+44. SEPARATE THREE EVIDENCE LAYERS
+============================================================
+
+The manuscript must clearly separate:
+
+LAYER A:
+experimental phase-equilibrium consistency
+
+LAYER B:
+CALPHAD reference behavior
+
+LAYER C:
+ML surrogate / OOD behavior.
+
+Do not merge these layers.
+
+============================================================
+45. MAIN PAPER STORY REMAINS
+============================================================
+
+The central manuscript story remains:
+
+high IID accuracy
+
+→ severe chemical-identity OOD failure
+
+→ prospective Ni blind evidence
+
+→ topology-selection mismatch
+
+→ generic chemistry augmentation insufficient
+
+→ small same-element thermodynamic anchor
+rapidly restores transfer.
+
+R3 external evidence
+supports physical plausibility.
+
+It does NOT replace
+the prospective blind story.
+
+============================================================
+PART O
+JMST INSERTIONS
+============================================================
+
+46. CREATE
+============================================================
+
+STEP5K_R3_JMST_METHODS_INSERTIONS.md
+
+STEP5K_R3_JMST_RESULTS_INSERTIONS.md
+
+STEP5K_R3_JMST_DISCUSSION_INSERTIONS.md
+
+STEP5K_R3_JMST_SUPPLEMENTARY_INSERTIONS.md.
+
+These should replace
+the provisional R2 external-validation language.
+
+Do NOT rewrite unrelated manuscript sections.
+
+============================================================
+PART P
+INTEGRITY
+============================================================
+
+47. VERIFY
+============================================================
+
+new Ni calculations = 0
+
+new Ni predictions = 0
+
+Ni composition changes = 0
+
+model retraining = 0
+
+production scaler refit = 0
+
+feature reselection = 0
+
+hyperparameter search = 0
+
+new prospective unseen element = 0
+
+STEP5G hashes unchanged
+
+STEP5H-A unchanged
+
+STEP5H-B unchanged
+
+STEP5I unchanged
+
+STEP5J unchanged
+
+virtual-screening results unchanged
+
+five global Zr finalists unchanged.
+
+============================================================
+OUTPUT ROOT
+============================================================
+
+Create:
+
+E:\Cu_CALPHAD_ML\
+08_FINAL_MANUSCRIPT\
+STEP5K_R3_TARGETED_EXTERNAL_VALIDATION
+
+folders:
+
+00_config
+
+01_source_pdfs
+
+02_source_extraction
+
+03_inclusion_freeze
+
+04_composition_conversion
+
+05_phase_crosswalk
+
+06_calphad_requests
+
+07_calphad_raw
+
+08_calphad_processed
+
+09_condition_comparison
+
+10_phase_composition
+
+11_system_evidence
+
+12_figures
+
+13_manuscript_insertions
+
+14_qa
+
+15_manifest
+
+16_logs
+
+code_snapshot.
+
+============================================================
+REQUIRED OUTPUTS
+============================================================
+
+STEP5K_R3_REPORT.md
+
+STEP5K_R3_SUMMARY.json
+
+STEP5K_R3_SOURCE_MANIFEST.csv
+
+STEP5K_R3_EXPERIMENTAL_CONDITIONS_MASTER.csv
+
+STEP5K_R3_CONDITION_INCLUSION_FREEZE.md
+
+STEP5K_R3_COMPOSITION_CONVERSIONS.csv
+
+STEP5K_R3_DOMAIN_RELEVANCE.csv
+
+STEP5K_R3_PHASE_CROSSWALK.csv
+
+STEP5K_R3_CALPHAD_REQUESTS.csv
+
+STEP5K_R3_EXTERNAL_CALPHAD.parquet
+
+STEP5K_R3_EXTERNAL_CALPHAD_RAW_PHASES.csv
+
+STEP5K_R3_EXTERNAL_CALPHAD_FAMILY.csv
+
+STEP5K_R3_EXTERNAL_CALPHAD_QA.md
+
+STEP5K_R3_EXTERNAL_CALPHAD_FREEZE.json
+
+STEP5K_R3_CONDITION_COMPARISON.csv
+
+STEP5K_R3_PHASE_COMPOSITION_COMPARISON.csv
+
+STEP5K_R3_SYSTEM_EVIDENCE.csv
+
+STEP5K_R3_DATABASE_INDEPENDENCE_NOTE.md
+
+STEP5K_R3_JMST_METHODS_INSERTIONS.md
+
+STEP5K_R3_JMST_RESULTS_INSERTIONS.md
+
+STEP5K_R3_JMST_DISCUSSION_INSERTIONS.md
+
+STEP5K_R3_JMST_SUPPLEMENTARY_INSERTIONS.md
+
+STEP5K_R3_INTEGRITY_AUDIT.md
+
+STEP5K_R3_FILE_HASHES.csv
+
+all R3 figures
+
+all figure-source CSVs.
+
+============================================================
+FINAL REPORT MUST ANSWER
+============================================================
+
+1.
+Were all six supplied PDFs internally verified?
+
+2.
+How many experimental conditions
+were extracted?
+
+3.
+How many passed DIRECT inclusion rules?
+
+4.
+How many exact literature CALPHAD states
+were requested?
+
+5.
+How many converged?
+
+6.
+How many failed?
+
+7.
+What is the Cu–Cr–Nb baseline result?
+
+8.
+Does Cr2Nb map consistently
+to the relevant TCCU6 raw phase / C15 family?
+
+9.
+Does Cu–Cr–Ag reproduce
+Cu-rich / Ag-rich FCC separation?
+
+10.
+Does Cu–Cr–Mo reproduce
+refractory Cr/Mo BCC chemistry?
+
+11.
+What does Cu–Cr–Co genuinely validate,
+and what does it NOT validate?
+
+12.
+Which experimentally observed
+Cr–Si phases are reproduced?
+
+13.
+Which Cu–Cr–Ti phase regions
+are reproduced at 973 K?
+
+14.
+Which are reproduced at 1073 K?
+
+15.
+How many STRONGLY_CONSISTENT conditions?
+
+16.
+How many CONSISTENT?
+
+17.
+How many PARTIALLY_CONSISTENT?
+
+18.
+How many DISCREPANT?
+
+19.
+Which systems have STRONG evidence?
+
+20.
+MODERATE?
+
+21.
+LIMITED?
+
+22.
+Which experimental conditions lie
+inside the FULL_V1 chemistry bounds?
+
+23.
+Which are outside?
+
+24.
+Does any observed discrepancy threaten
+the main prospective Ni/OOD conclusion?
+
+Expected answer will usually be:
+
+NO,
+unless an actual logical dependency is identified.
+
+25.
+Can the paper now claim
+multi-system experimental consistency support?
+
+26.
+What exact wording is safe for JMST?
+
+27.
+Is the manuscript now ready
+for final assembly?
+
+============================================================
+STOP RULE
+============================================================
+
+After STEP5K-R3:
+
+STOP.
+
+Do NOT:
+
+run more Ni
+
+start another unseen element
+
+retrain models
+
+run DFT
+
+change screening
+
+change Pareto finalists
+
+start new optimization
+
+or search broadly for more literature
+unless R3 identifies one specific
+critical unresolved source gap.
+
+Wait for user review.
+
+============================================================
+FINAL TASK
+============================================================
+
+“Use the six newly supplied full-text papers to perform a
+source-grounded, exact-composition, exact-temperature,
+post-freeze experimental-consistency assessment of the
+Cu–Cr–Nb baseline and Cu–Cr–Ag/Mo/Co/Si/Ti thermodynamic
+chemistries. Preserve raw phase multiplicity before the
+five-family aggregation, compare experimental phase sets and
+measured phase compositions where available, distinguish
+adjacent ternary evidence from target-domain model evidence,
+retain all discrepancies and failed calculations, and update
+the JMST evidence package without changing any frozen Ni,
+ML, OOD, recovery or virtual-screening result.”

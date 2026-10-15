@@ -1,0 +1,3002 @@
+[
+  {
+    "condition_id": "R3_NB_001",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu49Cr49Nb2",
+    "nominal_composition_original": "Cu49Cr49Nb2 (wt.%)",
+    "composition": {
+      "CU": 49.0,
+      "CR": 49.0,
+      "NB": 2.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1073,
+    "temperature_unit": "K",
+    "temperature_C": 799.85,
+    "temperature_K": 1073,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "bcc (Cr)",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CR": 1.24,
+          "NB": 0.77
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Cr)",
+        "composition": {
+          "CR": 97.93,
+          "NB": 1.29
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 54.61,
+          "NB": 44.44
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_002",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu48Cr48Nb4",
+    "nominal_composition_original": "Cu48Cr48Nb4 (wt.%)",
+    "composition": {
+      "CU": 48.0,
+      "CR": 48.0,
+      "NB": 4.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1073,
+    "temperature_unit": "K",
+    "temperature_C": 799.85,
+    "temperature_K": 1073,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "bcc (Cr)",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CR": 2.57,
+          "NB": 0.38
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Cr)",
+        "composition": {
+          "CR": 97.63,
+          "NB": 1.53
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 53.94,
+          "NB": 44.57
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_003",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu47Cr47Nb6",
+    "nominal_composition_original": "Cu47Cr47Nb6 (wt.%)",
+    "composition": {
+      "CU": 47.0,
+      "CR": 47.0,
+      "NB": 6.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1073,
+    "temperature_unit": "K",
+    "temperature_C": 799.85,
+    "temperature_K": 1073,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "bcc (Cr)",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CR": 2.73,
+          "NB": 1.04
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Cr)",
+        "composition": {
+          "CR": 96.82,
+          "NB": 1.24
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 54.23,
+          "NB": 45.11
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_004",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu46Cr46Nb8",
+    "nominal_composition_original": "Cu46Cr46Nb8 (wt.%)",
+    "composition": {
+      "CU": 46.0,
+      "CR": 46.0,
+      "NB": 8.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1073,
+    "temperature_unit": "K",
+    "temperature_C": 799.85,
+    "temperature_K": 1073,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "bcc (Cr)",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CR": 2.42,
+          "NB": 0.67
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Cr)",
+        "composition": {
+          "CR": 96.6,
+          "NB": 2.11
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 53.64,
+          "NB": 45.21
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_005",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu49Cr49Nb2",
+    "nominal_composition_original": "Cu49Cr49Nb2 (wt.%)",
+    "composition": {
+      "CU": 49.0,
+      "CR": 49.0,
+      "NB": 2.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1173,
+    "temperature_unit": "K",
+    "temperature_C": 899.85,
+    "temperature_K": 1173,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "bcc (Cr)",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CR": 1.5,
+          "NB": 0.44
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Cr)",
+        "composition": {
+          "CR": 97.35,
+          "NB": 1.27
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 55.21,
+          "NB": 44.07
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_006",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu48Cr48Nb4",
+    "nominal_composition_original": "Cu48Cr48Nb4 (wt.%)",
+    "composition": {
+      "CU": 48.0,
+      "CR": 48.0,
+      "NB": 4.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1173,
+    "temperature_unit": "K",
+    "temperature_C": 899.85,
+    "temperature_K": 1173,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "bcc (Cr)",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CR": 2.2,
+          "NB": 0.61
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Cr)",
+        "composition": {
+          "CR": 97.18,
+          "NB": 1.6
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 54.62,
+          "NB": 44.93
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_007",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu47Cr47Nb6",
+    "nominal_composition_original": "Cu47Cr47Nb6 (wt.%)",
+    "composition": {
+      "CU": 47.0,
+      "CR": 47.0,
+      "NB": 6.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1173,
+    "temperature_unit": "K",
+    "temperature_C": 899.85,
+    "temperature_K": 1173,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "bcc (Cr)",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CR": 1.75,
+          "NB": 0.65
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Cr)",
+        "composition": {
+          "CR": 96.99,
+          "NB": 1.45
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 53.89,
+          "NB": 44.32
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_008",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu46Cr46Nb8",
+    "nominal_composition_original": "Cu46Cr46Nb8 (wt.%)",
+    "composition": {
+      "CU": 46.0,
+      "CR": 46.0,
+      "NB": 8.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1173,
+    "temperature_unit": "K",
+    "temperature_C": 899.85,
+    "temperature_K": 1173,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "bcc (Cr)",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CR": 1.16,
+          "NB": 0.22
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Cr)",
+        "composition": {
+          "CR": 96.42,
+          "NB": 1.96
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 53.59,
+          "NB": 44.93
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_009",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu49Cr49Nb2",
+    "nominal_composition_original": "Cu49Cr49Nb2 (wt.%)",
+    "composition": {
+      "CU": 49.0,
+      "CR": 49.0,
+      "NB": 2.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1273,
+    "temperature_unit": "K",
+    "temperature_C": 999.85,
+    "temperature_K": 1273,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "bcc (Cr)",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CR": 2.05,
+          "NB": 0.22
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Cr)",
+        "composition": {
+          "CR": 97.05,
+          "NB": 2.68
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 56.04,
+          "NB": 43.23
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_010",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu4Cr488Nb4",
+    "nominal_composition_original": "Cu4Cr488Nb4 (wt.%)",
+    "composition": {
+      "CU": 4.0,
+      "CR": 488.0,
+      "NB": 4.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1273,
+    "temperature_unit": "K",
+    "temperature_C": 999.85,
+    "temperature_K": 1273,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "bcc (Cr)",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CR": 1.67,
+          "NB": 0.78
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Cr)",
+        "composition": {
+          "CR": 97.2,
+          "NB": 2.22
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 55.33,
+          "NB": 43.06
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": false,
+    "exclusion_reason": "Visually verified invalid printed nominal composition Cu4Cr488Nb4; no silent correction permitted."
+  },
+  {
+    "condition_id": "R3_NB_011",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu47Cr47Nb6",
+    "nominal_composition_original": "Cu47Cr47Nb6 (wt.%)",
+    "composition": {
+      "CU": 47.0,
+      "CR": 47.0,
+      "NB": 6.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1273,
+    "temperature_unit": "K",
+    "temperature_C": 999.85,
+    "temperature_K": 1273,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "bcc (Cr)",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CR": 1.59,
+          "NB": 0.48
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Cr)",
+        "composition": {
+          "CR": 97.7,
+          "NB": 1.38
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 55.21,
+          "NB": 44.39
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_012",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu46Cr46Nb8",
+    "nominal_composition_original": "Cu46Cr46Nb8 (wt.%)",
+    "composition": {
+      "CU": 46.0,
+      "CR": 46.0,
+      "NB": 8.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1273,
+    "temperature_unit": "K",
+    "temperature_C": 999.85,
+    "temperature_K": 1273,
+    "annealing_time": "45 days (after 1373 K, 1 week homogenization)",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "bcc (Cr)",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CR": 1.21,
+          "NB": 0.33
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Cr)",
+        "composition": {
+          "CR": 96.2,
+          "NB": 2.54
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 54.47,
+          "NB": 43.64
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "1(b); 2(b)",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_013",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu49Cr49Nb2",
+    "nominal_composition_original": "Cu49Cr49Nb2 (wt.%)",
+    "composition": {
+      "CU": 49.0,
+      "CR": 49.0,
+      "NB": 2.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1373,
+    "temperature_unit": "K",
+    "temperature_C": 1099.85,
+    "temperature_K": 1373,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "Liquid",
+      "bcc (Cr)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CR": 1.2,
+          "NB": 0.15
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Cr)",
+        "composition": {
+          "CR": 99.27,
+          "NB": 0.51
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_014",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu48Cr48Nb4",
+    "nominal_composition_original": "Cu48Cr48Nb4 (wt.%)",
+    "composition": {
+      "CU": 48.0,
+      "CR": 48.0,
+      "NB": 4.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1373,
+    "temperature_unit": "K",
+    "temperature_C": 1099.85,
+    "temperature_K": 1373,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "Liquid",
+      "bcc (Cr)",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CR": 2.56,
+          "NB": 0.26
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Cr)",
+        "composition": {
+          "CR": 96.59,
+          "NB": 2.33
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 56.41,
+          "NB": 43.08
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_015",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu47Cr47Nb6",
+    "nominal_composition_original": "Cu47Cr47Nb6 (wt.%)",
+    "composition": {
+      "CU": 47.0,
+      "CR": 47.0,
+      "NB": 6.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1373,
+    "temperature_unit": "K",
+    "temperature_C": 1099.85,
+    "temperature_K": 1373,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "Liquid",
+      "bcc (Cr)",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CR": 2.62,
+          "NB": 0.18
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Cr)",
+        "composition": {
+          "CR": 97.03,
+          "NB": 2.52
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 54.97,
+          "NB": 43.56
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_016",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu46Cr46Nb8",
+    "nominal_composition_original": "Cu46Cr46Nb8 (wt.%)",
+    "composition": {
+      "CU": 46.0,
+      "CR": 46.0,
+      "NB": 8.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1373,
+    "temperature_unit": "K",
+    "temperature_C": 1099.85,
+    "temperature_K": 1373,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "Liquid",
+      "bcc (Cr)",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CR": 2.1,
+          "NB": 0.04
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Cr)",
+        "composition": {
+          "CR": 96.66,
+          "NB": 3.18
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 55.56,
+          "NB": 43.92
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_017",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu30Cr2Nb68",
+    "nominal_composition_original": "Cu30Cr2Nb68 (wt.%)",
+    "composition": {
+      "CU": 30.0,
+      "CR": 2.0,
+      "NB": 68.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1373,
+    "temperature_unit": "K",
+    "temperature_C": 1099.85,
+    "temperature_K": 1373,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "Liquid",
+      "bcc (Nb)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CR": 0.47,
+          "NB": 0.35
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Nb)",
+        "composition": {
+          "CR": 2.5,
+          "NB": 96.7
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_018",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu30Cr20Nb50",
+    "nominal_composition_original": "Cu30Cr20Nb50 (wt.%)",
+    "composition": {
+      "CU": 30.0,
+      "CR": 20.0,
+      "NB": 50.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1373,
+    "temperature_unit": "K",
+    "temperature_C": 1099.85,
+    "temperature_K": 1373,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "Liquid",
+      "bcc (Nb)",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CR": 1.48,
+          "NB": 0.34
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Nb)",
+        "composition": {
+          "CR": 4.47,
+          "NB": 94.52
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 51.97,
+          "NB": 46.69
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_019",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu30Cr30Nb40",
+    "nominal_composition_original": "Cu30Cr30Nb40 (wt.%)",
+    "composition": {
+      "CU": 30.0,
+      "CR": 30.0,
+      "NB": 40.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1373,
+    "temperature_unit": "K",
+    "temperature_C": 1099.85,
+    "temperature_K": 1373,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "Liquid",
+      "bcc (Nb)",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CR": 0.82,
+          "NB": 0.43
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Nb)",
+        "composition": {
+          "CR": 4.34,
+          "NB": 94.9
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 51.5,
+          "NB": 47.7
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_020",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu30Cr38Nb32",
+    "nominal_composition_original": "Cu30Cr38Nb32 (wt.%)",
+    "composition": {
+      "CU": 30.0,
+      "CR": 38.0,
+      "NB": 32.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1373,
+    "temperature_unit": "K",
+    "temperature_C": 1099.85,
+    "temperature_K": 1373,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "Liquid",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CR": 1.76,
+          "NB": 0.18
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 54.0,
+          "NB": 45.6
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_021",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu30Cr50Nb20",
+    "nominal_composition_original": "Cu30Cr50Nb20 (wt.%)",
+    "composition": {
+      "CU": 30.0,
+      "CR": 50.0,
+      "NB": 20.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1373,
+    "temperature_unit": "K",
+    "temperature_C": 1099.85,
+    "temperature_K": 1373,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "Liquid",
+      "bcc (Nb)",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CR": 2.19,
+          "NB": 0.1
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Nb)",
+        "composition": {
+          "CR": 97.4,
+          "NB": 2.31
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 55.1,
+          "NB": 43.8
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": false,
+    "exclusion_reason": "Unresolved printed phase identity conflict: bcc (Nb) label but phase 2 is Cr97.40 Nb2.31 wt.%; do not relabel silently."
+  },
+  {
+    "condition_id": "R3_NB_022",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu30Cr2Nb68",
+    "nominal_composition_original": "Cu30Cr2Nb68 (wt.%)",
+    "composition": {
+      "CU": 30.0,
+      "CR": 2.0,
+      "NB": 68.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1473,
+    "temperature_unit": "K",
+    "temperature_C": 1199.85,
+    "temperature_K": 1473,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "Liquid",
+      "bcc (Nb)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CR": 0.77,
+          "NB": 0.74
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Nb)",
+        "composition": {
+          "CR": 2.87,
+          "NB": 96.34
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_023",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu30Cr20Nb50",
+    "nominal_composition_original": "Cu30Cr20Nb50 (wt.%)",
+    "composition": {
+      "CU": 30.0,
+      "CR": 20.0,
+      "NB": 50.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1473,
+    "temperature_unit": "K",
+    "temperature_C": 1199.85,
+    "temperature_K": 1473,
+    "annealing_time": "5 days (after 1373 K, 1 week homogenization)",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "Liquid",
+      "bcc (Nb)",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CR": 1.54,
+          "NB": 1.06
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Nb)",
+        "composition": {
+          "CR": 5.74,
+          "NB": 93.2
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 51.1,
+          "NB": 48.3
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "1(a); 2(a)",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. Liquid transforms into Cu-rich solution on cooling; annealing phase Liquid retained, quenched XRD fcc(Cu) not treated as an extra equilibrium phase.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_024",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu30Cr30Nb40",
+    "nominal_composition_original": "Cu30Cr30Nb40 (wt.%)",
+    "composition": {
+      "CU": 30.0,
+      "CR": 30.0,
+      "NB": 40.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1473,
+    "temperature_unit": "K",
+    "temperature_C": 1199.85,
+    "temperature_K": 1473,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "Liquid",
+      "bcc (Nb)",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CR": 1.82,
+          "NB": 1.54
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Nb)",
+        "composition": {
+          "CR": 6.49,
+          "NB": 92.82
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 50.33,
+          "NB": 48.14
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_025",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu30Cr38Nb32",
+    "nominal_composition_original": "Cu30Cr38Nb32 (wt.%)",
+    "composition": {
+      "CU": 30.0,
+      "CR": 38.0,
+      "NB": 32.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1473,
+    "temperature_unit": "K",
+    "temperature_C": 1199.85,
+    "temperature_K": 1473,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "Liquid",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CR": 2.58,
+          "NB": 0.25
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 53.5,
+          "NB": 45.08
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_026",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu30Cr50Nb20",
+    "nominal_composition_original": "Cu30Cr50Nb20 (wt.%)",
+    "composition": {
+      "CU": 30.0,
+      "CR": 50.0,
+      "NB": 20.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1473,
+    "temperature_unit": "K",
+    "temperature_C": 1199.85,
+    "temperature_K": 1473,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "Liquid",
+      "bcc (Cr)",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CR": 3.89,
+          "NB": 0.25
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Cr)",
+        "composition": {
+          "CR": 95.33,
+          "NB": 3.84
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 56.64,
+          "NB": 42.23
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_027",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu30Cr2Nb68",
+    "nominal_composition_original": "Cu30Cr2Nb68 (wt.%)",
+    "composition": {
+      "CU": 30.0,
+      "CR": 2.0,
+      "NB": 68.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1573,
+    "temperature_unit": "K",
+    "temperature_C": 1299.85,
+    "temperature_K": 1573,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "Liquid",
+      "bcc (Nb)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CR": 1.11,
+          "NB": 1.41
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Nb)",
+        "composition": {
+          "CR": 2.81,
+          "NB": 95.8
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_028",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu30Cr20Nb50",
+    "nominal_composition_original": "Cu30Cr20Nb50 (wt.%)",
+    "composition": {
+      "CU": 30.0,
+      "CR": 20.0,
+      "NB": 50.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1573,
+    "temperature_unit": "K",
+    "temperature_C": 1299.85,
+    "temperature_K": 1573,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "Liquid",
+      "bcc (Nb)",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CR": 2.4,
+          "NB": 1.5
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Nb)",
+        "composition": {
+          "CR": 7.34,
+          "NB": 91.5
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 50.7,
+          "NB": 48.6
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_029",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu30Cr30Nb40",
+    "nominal_composition_original": "Cu30Cr30Nb40 (wt.%)",
+    "composition": {
+      "CU": 30.0,
+      "CR": 30.0,
+      "NB": 40.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1573,
+    "temperature_unit": "K",
+    "temperature_C": 1299.85,
+    "temperature_K": 1573,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "Liquid",
+      "bcc (Nb)",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CR": 1.91,
+          "NB": 1.09
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Nb)",
+        "composition": {
+          "CR": 8.13,
+          "NB": 90.61
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 50.96,
+          "NB": 48.12
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_030",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu30Cr38Nb32",
+    "nominal_composition_original": "Cu30Cr38Nb32 (wt.%)",
+    "composition": {
+      "CU": 30.0,
+      "CR": 38.0,
+      "NB": 32.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1573,
+    "temperature_unit": "K",
+    "temperature_C": 1299.85,
+    "temperature_K": 1573,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "Liquid",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CR": 3.0,
+          "NB": 1.1
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 52.7,
+          "NB": 46.7
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_NB_031",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "Cu30Cr50Nb20",
+    "nominal_composition_original": "Cu30Cr50Nb20 (wt.%)",
+    "composition": {
+      "CU": 30.0,
+      "CR": 50.0,
+      "NB": 20.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1573,
+    "temperature_unit": "K",
+    "temperature_C": 1299.85,
+    "temperature_K": 1573,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "Liquid",
+      "bcc (Cr)",
+      "Cr2Nb"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CR": 7.44,
+          "NB": 0.38
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "bcc (Cr)",
+        "composition": {
+          "CR": 93.89,
+          "NB": 4.99
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "Cr2Nb",
+        "composition": {
+          "CR": 57.44,
+          "NB": 41.61
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_CO_001",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Co",
+    "X_identity": "CO",
+    "alloy_id": "Cu49Cr2Co49",
+    "nominal_composition_original": "Cu49Cr2Co49 (wt.%)",
+    "composition": {
+      "CU": 49.0,
+      "CR": 2.0,
+      "CO": 49.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1073,
+    "temperature_unit": "K",
+    "temperature_C": 799.85,
+    "temperature_K": 1073,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "(αCo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CO": 3.44,
+          "CR": 0.15
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "(αCo)",
+        "composition": {
+          "CO": 92.24,
+          "CR": 4.18
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_CO_002",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Co",
+    "X_identity": "CO",
+    "alloy_id": "Cu48Cr4Co48",
+    "nominal_composition_original": "Cu48Cr4Co48 (wt.%)",
+    "composition": {
+      "CU": 48.0,
+      "CR": 4.0,
+      "CO": 48.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1073,
+    "temperature_unit": "K",
+    "temperature_C": 799.85,
+    "temperature_K": 1073,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "(αCo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CO": 3.33,
+          "CR": 0.09
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "(αCo)",
+        "composition": {
+          "CO": 88.04,
+          "CR": 8.55
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_CO_003",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Co",
+    "X_identity": "CO",
+    "alloy_id": "Cu47Cr6Co47",
+    "nominal_composition_original": "Cu47Cr6Co47 (wt.%)",
+    "composition": {
+      "CU": 47.0,
+      "CR": 6.0,
+      "CO": 47.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1073,
+    "temperature_unit": "K",
+    "temperature_C": 799.85,
+    "temperature_K": 1073,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "(αCo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CO": 3.24,
+          "CR": 0.08
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "(αCo)",
+        "composition": {
+          "CO": 85.55,
+          "CR": 11.33
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_CO_004",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Co",
+    "X_identity": "CO",
+    "alloy_id": "Cu46Cr8Co46",
+    "nominal_composition_original": "Cu46Cr8Co46 (wt.%)",
+    "composition": {
+      "CU": 46.0,
+      "CR": 8.0,
+      "CO": 46.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1073,
+    "temperature_unit": "K",
+    "temperature_C": 799.85,
+    "temperature_K": 1073,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "(αCo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CO": 2.7,
+          "CR": 0.08
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "(αCo)",
+        "composition": {
+          "CO": 82.09,
+          "CR": 15.07
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_CO_005",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Co",
+    "X_identity": "CO",
+    "alloy_id": "Cu49Cr2Co49",
+    "nominal_composition_original": "Cu49Cr2Co49 (wt.%)",
+    "composition": {
+      "CU": 49.0,
+      "CR": 2.0,
+      "CO": 49.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1173,
+    "temperature_unit": "K",
+    "temperature_C": 899.85,
+    "temperature_K": 1173,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "(αCo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CO": 4.88,
+          "CR": 0.04
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "(αCo)",
+        "composition": {
+          "CO": 90.7,
+          "CR": 3.51
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_CO_006",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Co",
+    "X_identity": "CO",
+    "alloy_id": "Cu48Cr4Co48",
+    "nominal_composition_original": "Cu48Cr4Co48 (wt.%)",
+    "composition": {
+      "CU": 48.0,
+      "CR": 4.0,
+      "CO": 48.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1173,
+    "temperature_unit": "K",
+    "temperature_C": 899.85,
+    "temperature_K": 1173,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "(αCo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CO": 4.16,
+          "CR": 0.07
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "(αCo)",
+        "composition": {
+          "CO": 87.1,
+          "CR": 7.89
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_CO_007",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Co",
+    "X_identity": "CO",
+    "alloy_id": "Cu47Cr6Co47",
+    "nominal_composition_original": "Cu47Cr6Co47 (wt.%)",
+    "composition": {
+      "CU": 47.0,
+      "CR": 6.0,
+      "CO": 47.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1173,
+    "temperature_unit": "K",
+    "temperature_C": 899.85,
+    "temperature_K": 1173,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "(αCo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CO": 4.0,
+          "CR": 0.03
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "(αCo)",
+        "composition": {
+          "CO": 84.02,
+          "CR": 10.61
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_CO_008",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Co",
+    "X_identity": "CO",
+    "alloy_id": "Cu46Cr8Co46",
+    "nominal_composition_original": "Cu46Cr8Co46 (wt.%)",
+    "composition": {
+      "CU": 46.0,
+      "CR": 8.0,
+      "CO": 46.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1173,
+    "temperature_unit": "K",
+    "temperature_C": 899.85,
+    "temperature_K": 1173,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "(αCo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CO": 3.69,
+          "CR": 0.02
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "(αCo)",
+        "composition": {
+          "CO": 80.8,
+          "CR": 15.22
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_CO_009",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Co",
+    "X_identity": "CO",
+    "alloy_id": "Cu49Cr2Co49",
+    "nominal_composition_original": "Cu49Cr2Co49 (wt.%)",
+    "composition": {
+      "CU": 49.0,
+      "CR": 2.0,
+      "CO": 49.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1273,
+    "temperature_unit": "K",
+    "temperature_C": 999.85,
+    "temperature_K": 1273,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "(αCo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CO": 6.59,
+          "CR": 0.1
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "(αCo)",
+        "composition": {
+          "CO": 88.58,
+          "CR": 3.72
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_CO_010",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Co",
+    "X_identity": "CO",
+    "alloy_id": "Cu48Cr4Co48",
+    "nominal_composition_original": "Cu48Cr4Co48 (wt.%)",
+    "composition": {
+      "CU": 48.0,
+      "CR": 4.0,
+      "CO": 48.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1273,
+    "temperature_unit": "K",
+    "temperature_C": 999.85,
+    "temperature_K": 1273,
+    "annealing_time": "55 days (after 1373 K, 1 week homogenization)",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "(αCo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CO": 5.87,
+          "CR": 0.18
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "(αCo)",
+        "composition": {
+          "CO": 86.11,
+          "CR": 7.34
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "2",
+    "figure": "1(c)",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_CO_011",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Co",
+    "X_identity": "CO",
+    "alloy_id": "Cu47Cr6Co47",
+    "nominal_composition_original": "Cu47Cr6Co47 (wt.%)",
+    "composition": {
+      "CU": 47.0,
+      "CR": 6.0,
+      "CO": 47.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1273,
+    "temperature_unit": "K",
+    "temperature_C": 999.85,
+    "temperature_K": 1273,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "(αCo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CO": 5.64,
+          "CR": 0.06
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "(αCo)",
+        "composition": {
+          "CO": 83.57,
+          "CR": 11.18
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_CO_012",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Co",
+    "X_identity": "CO",
+    "alloy_id": "Cu46Cr8Co46",
+    "nominal_composition_original": "Cu46Cr8Co46 (wt.%)",
+    "composition": {
+      "CU": 46.0,
+      "CR": 8.0,
+      "CO": 46.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1273,
+    "temperature_unit": "K",
+    "temperature_C": 999.85,
+    "temperature_K": 1273,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "(αCo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CO": 5.07,
+          "CR": 0.11
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "(αCo)",
+        "composition": {
+          "CO": 80.18,
+          "CR": 15.08
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_CO_013",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Co",
+    "X_identity": "CO",
+    "alloy_id": "Cu49Cr2Co49",
+    "nominal_composition_original": "Cu49Cr2Co49 (wt.%)",
+    "composition": {
+      "CU": 49.0,
+      "CR": 2.0,
+      "CO": 49.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1373,
+    "temperature_unit": "K",
+    "temperature_C": 1099.85,
+    "temperature_K": 1373,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "(αCo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CO": 7.68,
+          "CR": 0.06
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "(αCo)",
+        "composition": {
+          "CO": 85.3,
+          "CR": 3.98
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_CO_014",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Co",
+    "X_identity": "CO",
+    "alloy_id": "Cu48Cr4Co48",
+    "nominal_composition_original": "Cu48Cr4Co48 (wt.%)",
+    "composition": {
+      "CU": 48.0,
+      "CR": 4.0,
+      "CO": 48.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1373,
+    "temperature_unit": "K",
+    "temperature_C": 1099.85,
+    "temperature_K": 1373,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "(αCo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CO": 6.76,
+          "CR": 0.14
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "(αCo)",
+        "composition": {
+          "CO": 83.82,
+          "CR": 7.56
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_CO_015",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Co",
+    "X_identity": "CO",
+    "alloy_id": "Cu47Cr6Co47",
+    "nominal_composition_original": "Cu47Cr6Co47 (wt.%)",
+    "composition": {
+      "CU": 47.0,
+      "CR": 6.0,
+      "CO": 47.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1373,
+    "temperature_unit": "K",
+    "temperature_C": 1099.85,
+    "temperature_K": 1373,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "(αCo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CO": 5.39,
+          "CR": 0.6
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "(αCo)",
+        "composition": {
+          "CO": 80.89,
+          "CR": 10.97
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_CO_016",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Co",
+    "X_identity": "CO",
+    "alloy_id": "Cu46Cr8Co46",
+    "nominal_composition_original": "Cu46Cr8Co46 (wt.%)",
+    "composition": {
+      "CU": 46.0,
+      "CR": 8.0,
+      "CO": 46.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": 1373,
+    "temperature_unit": "K",
+    "temperature_C": 1099.85,
+    "temperature_K": 1373,
+    "annealing_time": "Sample-specific duration unreported; method: homogenized 1373 K for 1 week, then equilibrated at 1073–1573 K for several hours to 6 months.",
+    "equilibration_status": "Author-reported equilibrium treatment; row-specific duration only where independently printed",
+    "cooling_condition": "Quenched into iced water from vacuum-sealed quartz capsule",
+    "characterization": "Optical microscopy; SEM-EDX with standard calibration; XRD phase identification",
+    "phases": [
+      "fcc (Cu)",
+      "(αCo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc (Cu)",
+        "composition": {
+          "CO": 4.6,
+          "CR": 0.5
+        },
+        "basis": "wt.%",
+        "structure": "FCC",
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      },
+      {
+        "phase": "(αCo)",
+        "composition": {
+          "CO": 78.83,
+          "CR": 14.59
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_note": "Only tabulated solutes transcribed; Cu is the unprinted balance, not a measured numeric entry."
+      }
+    ],
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Entire table row transcribed and visually verified. Nominal and phase compositions both wt.%. ",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_GRCOP_42_POWDER",
+    "source_id": "S6_GRCOP",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "GRCop-42",
+    "nominal_composition_original": "4 at. % Cr, 2 at. % Nb, balance Cu",
+    "composition": {
+      "CU": 94,
+      "CR": 4,
+      "NB": 2
+    },
+    "composition_basis": "at.%",
+    "temperature_original": null,
+    "temperature_unit": "UNKNOWN",
+    "temperature_C": null,
+    "temperature_K": null,
+    "annealing_time": "None; gas atomized",
+    "equilibration_status": "QUALITATIVE_CONTEXT; kinetic precipitation/coarsening study without equilibrium justification",
+    "cooling_condition": "Rapid gas atomization; proprietary melt temperature and atomization parameters",
+    "characterization": "FIB sectioning; scanning electron microscopy; image-based precipitate size analysis",
+    "phases": [
+      "Cu matrix",
+      "Cr2Nb"
+    ],
+    "measured_phases": [],
+    "page": "503, 505–513 (PDF pp.2,4–12)",
+    "table": "I (nominal composition); III (precipitate statistics)",
+    "figure": "1–7",
+    "source_evidence_note": "GRCop-42 POWDER; three processing states shown in Table III; no quantitative equilibrium phase compositions measured. Gas powder particle diameter replicates are morphology samples, not independent composition-temperature equilibria.",
+    "direct_eligible": false,
+    "exclusion_reason": "GRCop is qualitative only by preregistration; rapid solidification state and no experimental equilibrium temperature"
+  },
+  {
+    "condition_id": "R3_GRCOP_42_AS_PRINTED",
+    "source_id": "S6_GRCOP",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "GRCop-42",
+    "nominal_composition_original": "4 at. % Cr, 2 at. % Nb, balance Cu",
+    "composition": {
+      "CU": 94,
+      "CR": 4,
+      "NB": 2
+    },
+    "composition_basis": "at.%",
+    "temperature_original": null,
+    "temperature_unit": "UNKNOWN",
+    "temperature_C": null,
+    "temperature_K": null,
+    "annealing_time": "None; as-printed L-PBF",
+    "equilibration_status": "QUALITATIVE_CONTEXT; kinetic precipitation/coarsening study without equilibrium justification",
+    "cooling_condition": "L-PBF rapid solidification; argon shield gas",
+    "characterization": "FIB sectioning; scanning electron microscopy; image-based precipitate size analysis",
+    "phases": [
+      "Cu matrix",
+      "Cr2Nb"
+    ],
+    "measured_phases": [],
+    "page": "503, 505–513 (PDF pp.2,4–12)",
+    "table": "I (nominal composition); III (precipitate statistics)",
+    "figure": "8–9",
+    "source_evidence_note": "GRCop-42 AS_PRINTED; three processing states shown in Table III; no quantitative equilibrium phase compositions measured. Gas powder particle diameter replicates are morphology samples, not independent composition-temperature equilibria.",
+    "direct_eligible": false,
+    "exclusion_reason": "GRCop is qualitative only by preregistration; rapid solidification state and no experimental equilibrium temperature"
+  },
+  {
+    "condition_id": "R3_GRCOP_42_HT900",
+    "source_id": "S6_GRCOP",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "GRCop-42",
+    "nominal_composition_original": "4 at. % Cr, 2 at. % Nb, balance Cu",
+    "composition": {
+      "CU": 94,
+      "CR": 4,
+      "NB": 2
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 900,
+    "temperature_unit": "C",
+    "temperature_C": 900,
+    "temperature_K": 1173.15,
+    "annealing_time": "5 h",
+    "equilibration_status": "QUALITATIVE_CONTEXT; kinetic precipitation/coarsening study without equilibrium justification",
+    "cooling_condition": "Post-heat-treatment cooling not specified",
+    "characterization": "FIB sectioning; scanning electron microscopy; image-based precipitate size analysis",
+    "phases": [
+      "Cu matrix",
+      "Cr2Nb"
+    ],
+    "measured_phases": [],
+    "page": "503, 505–513 (PDF pp.2,4–12)",
+    "table": "I (nominal composition); III (precipitate statistics)",
+    "figure": "8–9",
+    "source_evidence_note": "GRCop-42 HT900; three processing states shown in Table III; no quantitative equilibrium phase compositions measured. Gas powder particle diameter replicates are morphology samples, not independent composition-temperature equilibria.",
+    "direct_eligible": false,
+    "exclusion_reason": "GRCop is qualitative only by preregistration; kinetic heat treatment lacks equilibrium justification"
+  },
+  {
+    "condition_id": "R3_GRCOP_84_POWDER",
+    "source_id": "S6_GRCOP",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "GRCop-84",
+    "nominal_composition_original": "8 at. % Cr, 4 at. % Nb, balance Cu",
+    "composition": {
+      "CU": 88,
+      "CR": 8,
+      "NB": 4
+    },
+    "composition_basis": "at.%",
+    "temperature_original": null,
+    "temperature_unit": "UNKNOWN",
+    "temperature_C": null,
+    "temperature_K": null,
+    "annealing_time": "None; gas atomized",
+    "equilibration_status": "QUALITATIVE_CONTEXT; kinetic precipitation/coarsening study without equilibrium justification",
+    "cooling_condition": "Rapid gas atomization; proprietary melt temperature and atomization parameters",
+    "characterization": "FIB sectioning; scanning electron microscopy; image-based precipitate size analysis",
+    "phases": [
+      "Cu matrix",
+      "Cr2Nb"
+    ],
+    "measured_phases": [],
+    "page": "503, 505–513 (PDF pp.2,4–12)",
+    "table": "I (nominal composition); III (precipitate statistics)",
+    "figure": "1–7",
+    "source_evidence_note": "GRCop-84 POWDER; three processing states shown in Table III; no quantitative equilibrium phase compositions measured. GRCop-84 comparisons reuse prior study data, with reprocessed powder image statistics; this paper is not an independent new equilibrium source.",
+    "direct_eligible": false,
+    "exclusion_reason": "GRCop is qualitative only by preregistration; rapid solidification state and no experimental equilibrium temperature"
+  },
+  {
+    "condition_id": "R3_GRCOP_84_AS_PRINTED",
+    "source_id": "S6_GRCOP",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "GRCop-84",
+    "nominal_composition_original": "8 at. % Cr, 4 at. % Nb, balance Cu",
+    "composition": {
+      "CU": 88,
+      "CR": 8,
+      "NB": 4
+    },
+    "composition_basis": "at.%",
+    "temperature_original": null,
+    "temperature_unit": "UNKNOWN",
+    "temperature_C": null,
+    "temperature_K": null,
+    "annealing_time": "None; as-printed L-PBF",
+    "equilibration_status": "QUALITATIVE_CONTEXT; kinetic precipitation/coarsening study without equilibrium justification",
+    "cooling_condition": "L-PBF rapid solidification; argon shield gas",
+    "characterization": "FIB sectioning; scanning electron microscopy; image-based precipitate size analysis",
+    "phases": [
+      "Cu matrix",
+      "Cr2Nb"
+    ],
+    "measured_phases": [],
+    "page": "503, 505–513 (PDF pp.2,4–12)",
+    "table": "I (nominal composition); III (precipitate statistics)",
+    "figure": "8–9",
+    "source_evidence_note": "GRCop-84 AS_PRINTED; three processing states shown in Table III; no quantitative equilibrium phase compositions measured. GRCop-84 comparisons reuse prior study data, with reprocessed powder image statistics; this paper is not an independent new equilibrium source.",
+    "direct_eligible": false,
+    "exclusion_reason": "GRCop is qualitative only by preregistration; rapid solidification state and no experimental equilibrium temperature"
+  },
+  {
+    "condition_id": "R3_GRCOP_84_HT900",
+    "source_id": "S6_GRCOP",
+    "system": "Cu-Cr-Nb",
+    "X_identity": "NB_BASE",
+    "alloy_id": "GRCop-84",
+    "nominal_composition_original": "8 at. % Cr, 4 at. % Nb, balance Cu",
+    "composition": {
+      "CU": 88,
+      "CR": 8,
+      "NB": 4
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 900,
+    "temperature_unit": "C",
+    "temperature_C": 900,
+    "temperature_K": 1173.15,
+    "annealing_time": "5 h",
+    "equilibration_status": "QUALITATIVE_CONTEXT; kinetic precipitation/coarsening study without equilibrium justification",
+    "cooling_condition": "Post-heat-treatment cooling not specified",
+    "characterization": "FIB sectioning; scanning electron microscopy; image-based precipitate size analysis",
+    "phases": [
+      "Cu matrix",
+      "Cr2Nb"
+    ],
+    "measured_phases": [],
+    "page": "503, 505–513 (PDF pp.2,4–12)",
+    "table": "I (nominal composition); III (precipitate statistics)",
+    "figure": "8–9",
+    "source_evidence_note": "GRCop-84 HT900; three processing states shown in Table III; no quantitative equilibrium phase compositions measured. GRCop-84 comparisons reuse prior study data, with reprocessed powder image statistics; this paper is not an independent new equilibrium source.",
+    "direct_eligible": false,
+    "exclusion_reason": "GRCop is qualitative only by preregistration; kinetic heat treatment lacks equilibrium justification"
+  }
+]

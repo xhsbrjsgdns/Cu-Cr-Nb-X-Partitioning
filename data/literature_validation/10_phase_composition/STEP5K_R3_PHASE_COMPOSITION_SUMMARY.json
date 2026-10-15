@@ -1,0 +1,38 @@
+{
+  "generated_utc": "2026-09-12T02:39:34+00:00",
+  "n_experimental_phase_compositions": 346,
+  "n_matched": 248,
+  "match_status_counts": {
+    "MATCHED": 248,
+    "NOT_SELECTED": 42,
+    "PHASE_NOT_CALCULATED": 34,
+    "UNMAPPABLE_PHASE": 22
+  },
+  "tolerance_at_pct": 5.0,
+  "tolerance_declared_before_any_result": true,
+  "matching_rule": "structure via the resolved crosswalk, then the instance richest in the experimental phase's dominant element; never the instance that minimises the error",
+  "MAE_at_pct_overall": 2.137319191590377,
+  "MAE_at_pct_by_source": {
+    "S1_AG": 2.8021,
+    "S2_MO": 0.8086,
+    "S3_NB_CO": 1.8944,
+    "S4_SI": 2.119,
+    "S5_TI": 3.2164
+  },
+  "max_abs_error_at_pct_by_source": {
+    "S1_AG": 11.1288,
+    "S2_MO": 3.3608,
+    "S3_NB_CO": 88.0107,
+    "S4_SI": 11.7667,
+    "S5_TI": 17.879
+  },
+  "dominant_enrichment_agreement_by_source": {
+    "S1_AG": 1.0,
+    "S2_MO": 1.0,
+    "S3_NB_CO": 0.9821,
+    "S4_SI": 1.0,
+    "S5_TI": 0.9512
+  },
+  "n_conditions_downgraded_by_chemistry_gate": 14,
+  "gate_can_only_downgrade": true
+}

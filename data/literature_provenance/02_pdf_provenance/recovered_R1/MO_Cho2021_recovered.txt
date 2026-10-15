@@ -1,0 +1,501 @@
+
+PDF PAGE 1
+BY
+NC
+© 2021. The Author(s). This is an open-access article distributed under the terms of the Creative Commons Attribution-NonCom-
+mercial License (CC BY-NC 4.0, https://creativecommons.org/licenses/by-nc/4.0/deed.en which permits the use, redistribution of 
+the material in any medium or format, transforming and building upon the material, provided that the article is properly cited, the 
+use is noncommercial, and no modifications or adaptations are made.
+Arch. Metall. Mater. 66 (2021), 3, 683-687
+DOI: 10.24425/amm.2021.136361
+Yeong-Woo Cho
+1,2, Jae-Jin Sim
+1,2, Sung-Gue Heo
+1,3, Hyun-Chul Kim
+1,3,  
+Yong-Kwan Lee
+1,2, Jong-Soo Byeon
+1,2, Yong-Tak Lee
+1,2, Kee-Ahn Lee
+2,  
+Seok-Jun Seo
+1*, Kyoung-Tae Park
+1*
+Effects of ZrO2 and Al2O3 Addition on the Physical Properties of Cu-Mo-Cr Alloy  
+by Liquid Phase Sintering
+In this study, the effect of the addition of ZrO2 and Al2O3 ceramic powders to Cu-Mo-Cr alloy was studied by examining the 
+physical properties of the composite material. The ceramic additives were selected based on the thermodynamic stability calculation 
+of the Cu-Mo-Cr alloys. Elemental powders, in the ratio Cu:Mo:Cr = 60:30:10 (wt.%), and approximately 0-1.2 wt.% of ZrO2 and 
+Al2O3 were mixed, and a green compact was formed by pressing the mixture under 186 MPa pressure and sintering at 1250°C for 
+5 h. The raw powders were evenly dispersed in the mixed powder, as observed by scanning electron microscopy. After sintering, 
+the microstructures, densities, electrical conductivities, and hardness of the composites were evaluated. We found that the addition 
+of ZrO2 and Al2O3 increased the hardness and decreased the electrical conductivity and density of the composites.
+Keywords: Al2O3, ZrO2, Cu-Mo-Cr, sintering, powder metallurgy
+1. Introduction
+Contact materials based on copper-chromium (Cu-Cr), with 
+a chromium content between 15 and 50 wt.%, are widely used 
+in vacuum interrupters for medium-voltage applications [1]. 
+Several studies on Cu-Cr alloys have investigated the effect of 
+metastable agglomerated precipitates on the crystal structure, 
+friction performance, and mechanical properties [2-3]. In ad-
+dition to metal alloys, the dispersion of ceramic oxides in the 
+Cu matrix improves the mechanical properties of the Cu alloys, 
+even at high temperatures, during contact operation. However, 
+the research on contact materials for high-voltage vacuum inter-
+rupters is insufficient [4-5]. 
+Cr and Mo have high melting points and hence, they exhibit 
+excellent workability, even at high temperatures. Exceptionally 
+fine and uniform Cr-Mo solid solution structure in the Cu-matrix 
+interface can provide highly attractive properties, such as high 
+strength, fracture toughness, good ductility, and corrosion resist-
+ance. Moreover, Cr and Mo can be fabricated into stable alloys, 
+forming Cu-Cr-Mo system. This is because Cr and Mo form 
+homogeneous solid solutions with a BCC crystal structure, equal 
+number of valence electrons, and similar chemical properties. 
+Mixed in any ratio, Cr-Mo exists in a single phase, even at high 
+temperatures [6-7]. 
+Ceramic dispersion strengthening is a suitable method for 
+improving the mechanical properties of Cu matrix composites. 
+Various particulate ceramic materials, such as CeO2, WC, and 
+Al2O3, have been utilized to reinforce the Cu matrix, thereby 
+significantly enhancing the mechanical properties, as reported 
+previously [8-9]. Among the various ceramic materials, ZrO2 
+and Al2O3, characterized by high strength, hardness, and high 
+melting temperatures, can be suitable reinforcing materials for 
+Cr-Mo alloys.
+In this study, the physical properties of Cu-Mo-Cr compos-
+ites, before and after the addition of ZrO2 and Al2O3 ceramics, 
+were analyzed based on powder metallurgy. Each Cu-Cr-Mo-X 
+(X = ZrO2, Al2O3) raw material was mixed and pressed to pro-
+duce a green compact. The composites were then fabricated by 
+the Cu liquid sintering of the Cu-Mo-Cr-X green compact. The 
+microstructures of the composite materials and their important 
+mechanical properties, including electrical conductivity, hard-
+ness, and density, were examined.
+1	
+Korea Institute for Rare Metals, Korea Institute of Industrial Technology, 7-50 Songdo-dong Yeonsoo-gu, Incheon 21999, Korea
+2	
+Inha university, Department of advanced materials engineering, Incheon 22212, Korea
+3	
+Korea University, Department of Materials Science and Engineering, Seoul 02841, Korea
+*	 Corresponding authors: ktpark@kitech.re.kr; sjseo@kitech.re.kr 
+
+
+PDF PAGE 2
+684
+2. Experimental details
+Cu, Mo, Cr, ZrO2, and Al2O3 elemental powders (Avention 
+co. ltd., Korea) were used in the experiments; their purities, 
+particle sizes, and particle morphologies are summarized in 
+Table 1. All alloy compositions are expressed in wt.%, unless 
+stated otherwise. The composition ratio of the metal powders, 
+Cu:Mo:Cr, was 60:30:10 (wt.%), in which a small amount of 
+ceramic powder was added. A commercial planetary ball mill, 
+using WC balls (diameter 10 mm, 5 mm) at a ball-to-powder 
+weight ratio (BPR) of 5:1, was used for grinding the metal pow-
+ders. The speed of the ball mill was 200 rpm for 4 h, throughout 
+the milling. The ball-milled powder was loaded into a steel 
+mold and pressurized at 186 MPa for 3 min to produce a 93 mm 
+diameter green compact. This green compact was transferred 
+into an alumina crucible, heated at a rate of 10°C/min, and sub-
+sequently maintained at a temperature of 1250°C for 5 h under 
+Ar atmosphere. Fig. 1 illustrates the overall process sequence. 
+The microstructure of the mixed powder and composite, after 
+sintering, was observed via scanning electron microscopy/energy 
+dispersive X-ray spectroscopy (SEM/EDS, JEOL, JSM-7100F). 
+The actual density of the composites, produced by sintering, was 
+measured by using the Archimedes’ principle, and the relative 
+density, ρrelative, was calculated using Eq. (1) as: 
+ 
+
+
+%  
+ 
+100
+actual
+relative
+theoretical
+
+
+
+
+
+ 	
+(1)
+Here, ρactual and ρtheoretical are the measured and theoretical den-
+sities of a sample, respectively. The electrical conductivity was 
+analyzed by passing an eddy current across a cross-section using 
+an electrical conductivity meter (SIGMASCOPE, SMP350). The 
+electrical conductivity was calculated using the International An-
+nealed Copper Standard (IACS). The hardness was measured by 
+pressurizing the composites for 10 s with a test load of 0.1 kgf 
+using a Vickers hardness tester (Mitutoyo, HM210A).
+TABLE 1
+Elemental powders used in the mechanical alloying
+Elemental 
+powder
+Purity (wt.%)
+Particle size 
+(µm)
+Particle 
+morphology
+Cu
+99.9
+d(50) : 25.9
+mean : 28.2
+Dendritic
+Mo
+99.9
+d(50) : 25.2
+mean : 27.2
+Close to Spherical
+Cr
+99.9
+d(50) : 16.3
+mean : 19.7
+Flake
+ZrO2
+99.9
+d(50) : 39.5
+mean : 40.2
+Close to spherical
+Al2O3
+99
+d(50) : 98.3
+mean : 99.8.
+Close to spherical
+3. Results and discussion
+Fig. 2 shows the SEM image of the mixed raw material 
+after ball milling. Although most powders retained their particle 
+shapes, particles of some Cu powders changed from their initial 
+agglomerated dendritic morphology to a plate shape. The particle 
+size of ZrO2 decreased from approximately 40 μm to 20 μm. In 
+the case of Al2O3, some particles were not pulverized and re-
+mained 100 μm in size. As milling continued, the ZrO2 and Al2O3 
+hard particles either deformed further or retained their shapes, 
+and were gradually embedded into the soft Cu particles. After 
+ball milling, most of the metals mixed and mechanically com-
+bined. However, a portion of the ceramic particles retained their 
+shapes and were not alloyed. This indicated that sintering of the 
+green compact, produced after pressing the mixed powder, may 
+create voids owing to the ceramic particles that were deformed 
+or retained their shape, resulting in the formation of pores in the 
+composite [10-13]. The uniform distribution of additives in the 
+Cu base, which is the main conductivity channel, degrades the 
+electrical properties; however, it increases the hardness, thereby 
+improving the overall physical properties. As the Cu powder 
+exhibits low ductility and undergoes flaking during ball mill-
+ing, it is possible to obtain a more uniform additive dispersion 
+effect by evenly dispersing the additive on the flaked surface. 
+The mixed powder was molded at a pressure of 186 MPa to 
+produce a green compact, and then sintered as described earlier. 
+The specimen was then polished, and the microstructure of the 
+composite was observed.
+Fig. 3 shows the cross-sectional structure of each Cu-
+Mo-Cr-X composite, after pressing and sintering the mixed 
+powder. The microstructures of Cu, Mo, and Cr, before adding 
+the ceramics, were uniformly distributed. Some Cr phases were 
+Fig. 1. Schematic flowchart of the experiment
+
+
+PDF PAGE 3
+685
+agglomerated separately. Despite the homogeneous solid solution 
+(Mo, Cr), some differences were observed in the contrasts of the 
+backscattered electron/EDS images. ZrO2 was evenly dispersed 
+in the microstructure. The microstructure with a ZrO2 content 
+of 0.8 wt.% or less exhibited a compact and crack-free structure 
+with a uniform distribution of metal particles. Contrarily, an 
+increase in the Al2O3 content did not lead to partial dispersion 
+of the alumina particles, and consequently, the microstructure of 
+the composite material developed cracks, indicating increased 
+porosity of the composites [12-14]. The microstructure of the 
+composite, comprising only metallic materials without Al2O3 or 
+ZrO2, was more uniform.
+Fig. 2. SEM images of Cu-Mo-Cr-X powder mixed by ball milling. (a) Cu-Mo-Cr mixed powder, (b) Cu-Mo-Cr-ZrO2 mixed powder, and (c) 
+Cu-Mo-Cr-Al2O3 mixed powder
+Fig. 3. SEM-EDS images of Cu-Mo-Cr-X composite after sintering. (a) Cu-Mo-Cr composite, (b) Cu-Mo-Cr-ZrO2 (0.8 wt.%) composite, and 
+(c) Cu-Mo-Cr-Al2O3 (1.2 wt.%) composite
+
+
+PDF PAGE 4
+686
+Fig. 4 shows the physical characteristics of the Cu-Mo-
+Cr-X (X = ZrO2, Al2O3) composite. The theoretical density of 
+the composite material was calculated from the volume fraction 
+(vol.%), which is expressed by Eq. (2.1), and the elemental 
+density (g/cm3) of each material. The theoretical density of the 
+composite material is expressed by Eq. (2.2), in terms of the 
+volume fraction.
+ 
+
+
+%
+ 
+a
+a
+af
+a
+b
+c
+d
+a
+b
+c
+d
+W
+D
+V
+W
+W
+W
+W
+D
+D
+D
+D
+
+
+
+
+ 	
+(2.1)
+ 
+
+
+
+
+
+
+3
+g
+cm
+ , for 
+1
+theoretical
+a
+a
+b
+b
+c
+c
+d
+d
+a
+b
+c
+d
+V
+D
+V
+D
+V
+D
+V
+D
+V
+V
+V
+V
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+	 (2.2)
+The volume fraction (Waf) of each raw material is the per-
+centage of the raw material volume content in the total volume 
+calculated from the weight fraction (W) and elemental density 
+of the raw material powder. In the above equations, Va (~Vc) is 
+the volume fraction of the metal, Vd is the volume fraction of 
+the oxide, and D is the theoretical density of each material [15]. 
+Fig. 4(a) shows the variation of density and relative density with 
+increasing ZrO2 and Al2O3 contents. Before the addition of the 
+ceramic, the relative density was the highest, at 90 %, and when 
+1.2 wt.% ZrO2 was added, the relative density became the low-
+est, at 79.9 %. With the increasing ZrO2 and Al2O3 contents, the 
+density showed a decreasing trend, and when the ZrO2 content 
+was 1 wt.% or more, it decreased rapidly. This indicates that 
+as the ceramic content increased, the ceramic particles did not 
+disperse and the pores generated due to agglomeration resulted 
+in a lower density [10,14-16].
+Fig. 4(b) shows that the electrical conductivity decreased as 
+the ZrO2 and Al2O3 contents increased. Prior to the ceramic addi-
+tion, the electrical conductivity was the highest, at 40.5 %IACS, 
+and when 1.2 wt.% ZrO2 was added, it became the lowest, at 
+33.1 %IACS. The theoretical electrical conductivity, modeled by 
+the effective medium approximation (EMA) or effective medium 
+theory (EMT), was calculated using Eq. (3). This equation can 
+be used to successfully predict the electrical conductivities of 
+composites in which the conductivities of the matrix and additive 
+phases differ significantly (particularly when the conductivity 
+of one phase is nearly zero).
+ 
+2
+2
+2
+, for 
+1
+c
+eff
+c
+c
+f
+f
+f
+f
+f
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 	
+(3)
+where σeff is the theoretical electrical conductivity of the phase, 
+σ2 is the electrical conductivity of the Cu-Mo-Cr product, f2 is 
+the volume fraction of the conducting phase (CuMoCr), and fc is 
+the predicted critical volume fraction of the conducting phase. 
+The ceramic particles are assumed to be spherical single-phase 
+particles, and the EMT predicted critical volume fraction of 
+the conduction phase is fc = 1/3, in 3D [17-18]. As shown, the 
+composites, without the addition of ceramics, can achieve high 
+electrical conductivities. Because the conductivity of the Cu 
+region is the highest, current flows through the Cu region rather 
+than the ceramic additives, in the sintered body. Therefore, as 
+ZrO2 and Al2O3 are distributed in the Cu matrix, they negatively 
+affect the matrix conductivity by blocking the transfer of elec-
+trons in Cu. Furthermore, with increasing ceramic concentra-
+tion, the effect of pores or cracks in the vicinity of the interface 
+between the metal matrix and ceramic additive can be increased. 
+The presence of these voids or cracks can also contribute to 
+the difference between the theoretical and measured electrical 
+conductivities [19-20].
+Fig. 4(c) shows that the material hardness increases as the 
+ZrO2 and Al2O3 contents are increase. The highest hardness of 
+275 HV and 238 HV were obtained for 1.2 wt.% ZrO2 and Al2O3 
+addition, respectively. The hardness of a material is a physical 
+parameter that describes its ability to resist localized plastic 
+deformation. The high hardness of Al2O3 (theoretical hardness 
+is 1700 HV) and ZrO2 (theoretical hardness is 1200 HV) in-
+creased the hardness of the composite material. In addition, as 
+the contents of ZrO2 and Al2O3 increased, the ZrO2 and Al2O3 
+particles were embedded in the Cu-Mo-Cr matrix, preventing 
+the grain boundary slip of the Cu-Mo-Cr matrix. The dispersion 
+of particles in the Cu-Mo-Cr matrix hindered its dislocation 
+motion due to plastic deformation. The composite material with 
+Al2O3 exhibited a smaller increase in hardness than that with 
+ZrO2 because of the formation of cracks and pores by the large 
+Al2O3 particles, which were only partially crushed [16,20-21].
+Fig. 4. Physical properties of the Cu-Mo-Cr-X (X = ZrO2 and Al2O3) composite
+
+
+PDF PAGE 5
+687
+4. Conclusion
+In this study, the physical properties of the Cu-Mo-Cr-X 
+(X = ZrO2, Al2O3) composite were analyzed by SEM-EDS, 
+density and electrical conductivity measurements, and hardness 
+tests. The following conclusions were drawn:
+1.	
+As the Al2O3 content increased, the Al2O3 particles in the 
+composite material were not evenly dispersed, which led 
+to the formation of cracks. Therefore, pore formation or 
+segregation occurred.
+2.	
+Before the addition of ZrO2 and Al2O3, the material ex-
+hibited the highest relative density (90 %) and electrical 
+conductivity (40.5 %IACS); the highest hardness (275 HV) 
+was obtained when 1.2 wt.% of zirconia was added. 
+3.	
+Considering the overall electrical properties of the electrical 
+contact material, optimal properties were obtained when no 
+ceramic was added. However, to improve the mechanical 
+properties, it is necessary to introduce a small amount of 
+ceramic material.
+4.	
+For application in high-voltage vacuum interrupters, a small 
+amount of ceramic should be added into the electrical con-
+tact material to secure abrasion resistance without reducing 
+its density and electrical conductivity.
+Acknowledgment
+This study was supported by the Korea Institute of Energy Technology 
+Evaluation and Planning (KETEP), the Ministry of Trade, Industry & En-
+ergy (MOTIE) of the Republic of Korea (No. 20165010100870), the Korea 
+Technology and Information Promotion Agency for SMEs (TIPA), and the 
+Ministry of SMEs and Startups of the Republic of Korea (No. S2761733).
+References
+[1]	 W.P. Li, R.L. Thomas, R.K. Smith, IEEE Trans. Plasma Sci. 29 
+(5), 744-748 (2001).
+[2]	 X. Wei, J. Wang, Z. Yang, Z. Sun, D. Yu, X. Song, B. Ding, S. Yang, 
+J. Alloys Compd. 509, 7116-7120 (2011).
+[3]	 H. Fink, D. Gentsch, M. Heimbach, IEEE Trans. Plasma Sci. 31, 
+973-976 (2003).
+[4]	 K. Maiti, M. Zinzuwadia, J. Nemade, J. Adv. Mat. Res. 585, 250-
+254 (2012).
+[5]	 C. Zhang, Z. Yang, Y. Wang, J. Mater. Process. Technol. 178, 
+283-286 (2006).
+[6]	 C. Aguilar, D. Guzman, F. Castro, V. Martínez, F. de Las Cuevas, 
+S. Lascano, T. Muthiah, Mater. Chem. Phys. 146, ­493-502 (2014).
+[7]	 M. Venkatraman, J.P. Neumann, Bull. Alloy Phase Diagr. 8, 216-
+220 (1987).
+[8]	 X. Yang, S. Liang, X. Wang, P. Xiao, Z. Fan, Int. J. Refract. Met. 
+28, 305-311 (2010). 
+[9]	 S. Bera, I. Manna, Mater. Chem. Phys. 132, 109-118 (2012).
+[10]	 A. Kumar, S.K. Pradhan, K. Jayasankar, M. Debata, R.K. Sharma, 
+A. Mandal, J. Electron. Mater. 46, 1339-1347 (2017).
+[11]	 D. Shen, Y. Zhu, W. Tong, An investigation on morphology and 
+structure of Cu-Cr-Al2O3 powders prepared by mechanical milling, 
+in: M. Wang, X. Zhou (Eds.), Proceedings of the 5th International 
+Conference on Mechatronics, Materials, Chemistry and Computer 
+Engineering, Atlantis Press (2017).
+[12]	 C. Cui, Y. Gao, S. Wei, High Temp. Mater. Proc. 36, ­163-166 
+(2016). DOI: https://doi.org/10.1515/htmp-2015-0180
+[13]	 S. Bera, W. Lojkowsky, I. Manna, Metall. Mater. Trans. A. 40, 
+3276 (2009). DOI: https://doi.org/10.1007/s11661-009-0019-7
+[14]	 J. Zygmuntowicz, A. Łukasiak, P. Piotrkiewicz, W. Kaszuwara, 
+Compos. Theory Pract. 19, 43-49 (2019).
+[15]	 S.D. Salman, Z.B. Lemon, Natural Fibre Reinforced Vinyl Ester 
+and Vinyl Polymer Composites. 249-263 (2018). 
+	
+DOI: https://doi.org/10.1016/B978-0-08-102160-6.00013-5
+[16]	 M. Elmahdy, G. Abouelmagd, A.A. Elnaeem Mazen, J. Mat. Res. 
+21, 1 (2018). 
+[17]	 M. Wang, N. Pan. J. Mater. Sci. Eng. R Rep. 63, 1-30 (2008).
+[18]	 J. Kovác̆ ik, Scripta Mater. 39, 153-157 (1998). 
+	
+DOI: https://doi.org/10.1016/S1359-6462(98)00147-X
+[19]	 M. Orolinova, J. Ďurišin, K. Ďurišinová, Z. Danková, M. Besterci, 
+Kovove Mater. 53, 409-414 (2015). 
+	
+DOI: https://doi.org/10.4149/km_2015_6_409
+[20]	 Z.-Q. Wang, Y.-B. Zhong, X.-J. Rao, C. Wang, J. Wang, 
+­Z.-G. Zhang, W.-L. Ren, Z-M. Ren, Trans. Nonferrous Met. Soc. 
+China 22, 1106-1111 (2012).
+[21]	 J. Zygmuntowicz, J. Los, B. Kurowski, P. Piotrkiewicz, W. Kaszu-
+wara, Adv. Compos. Hybrid Mater. 1-11 (2020). 
+	
+DOI: https://doi.org/10.1007/s42114-020-00188-8

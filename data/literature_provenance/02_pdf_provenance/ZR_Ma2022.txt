@@ -1,0 +1,674 @@
+
+--- PDF PAGE 1 ---
+Article
+Influence Mechanism of Ageing Parameters of Cu-Cr-Zr Alloy
+on Its Structure and Properties
+
+
+Yuxia Ma 1,2, Huiqin Chen 1,2*, Hui Li 3 and Shue Dang 1,2*
+
+
+
+                                                    1  School of Materials Science and Engineering, Taiyuan University of Science and Technology,
+                                  Taiyuan 030024, China
+                                                    2  Heavy Castings and Forgings Engineering Technology Research Center of Shanxi Province,
+                                  Taiyuan 030024, China
+                                                    3  Taiyuan Jinxi Chunlei Copper Co., Ltd., Taiyuan 030003, China
+                                     *  Correspondence: chen_huiqin@126.com (H.C.); shuedang@163.com (S.D.)
+
+
+                                Abstract: The Cu-1.0% Cr-0.1% Zr alloy in a solid solution state was investigated by ageing treat-
+                           ments at different temperatures and holding times. The structure and performance were character-
+                               ized and tested by using X-ray diffraction (XRD), a transmission electron microscope (TEM), a uni-
+                                 versal material testing machine, and an eddy conductivity detector. The influence laws of ageing
+                             temperature and the holding time on the structures and properties of the Cu-Cr-Zr alloy were ana-
+                                lyzed. Results demonstrated that, with the increase in ageing temperature and holding time, the
+                              percentage and size of the Cr precipitated phase increased, and the dislocation density decreased.
+                          The tensile strength first increased to the peak value and then decreased. The electrical conductivity
+                               increased and the amplitude decreased. The tensile strength of the alloy reached the peak (359 ± 2
+                        MPa) after ageing at 450 °C for 60 min, and the electrical conductivity was 91.9 ± 0.7% IACS. In
+                                 addition, in the ageing precipitation process, the chromium precipitated phase had face-centered
+                               cubic structure (FCC) and body-centered cubic structure (BCC) structures, and the FCC Cr phase
+                             can be transformed into a BCC Cr phase. FCC Cr, BCC Cr, and Cu3Zr precipitation phases main-
+                               tained different orientation relationships with the Cu substrate.
+
+Citation: Ma, Y.; Chen, H.; Li, H.;
+Dang, S. Influence Mechanism of      Keywords: Cu-Cr-Zr alloy; precipitated phase; orientation relationship; tensile strength; electrical
+Ageing Parameters of Cu-Cr-Zr        conductivity
+
+Alloy on Its Structure and
+
+Properties. Materials 2022, 15, 7605.
+
+https://doi.org/10.3390/ma15217605
+
+Academic Editor: Pavel Novak         1. Introduction
+                           Copper (Cu) and copper alloys have been widely used in electrical connectors, re-
+Received: 22 September 2022
+Accepted: 26 October 2022           sistance welding rods, welding rod continuous casting mold liners, integrated circuit lead
+Published: 29 October 2022          frames, and other devices owing to their excellent electrical conductivity, thermal conduc-
+                                   tivity, and corrosion resistance [1–5]. The rapid development of technical industries, such
+Publisher’s Note: MDPI stays neu-    as the electrical engineering, aerospace, and electronics industries, has led to higher re-
+tral  with  regard  to  jurisdictional
+                          quirements in terms of the performance of Cu alloys, especially in their strength and elec-
+claims in published maps and institu-
+                                   trical conductivity. Therefore, elements with extremely low solubility are added to Cu
+tional affiliations.
+                       and Cu alloys to improve their strength and conductivity through precipitation strength-
+                             ening. The Cu-Cr-Zr alloy is a type of high-strength and high-conductivity Cu alloy that
+                          has received significant research attention. Adding Cr and Zr simultaneously to Cu alloys
+Copyright: © 2022 by the authors. Li-   can improve heat resistance, abrasive resistance, and strength, as well as increase the anti-
+censee MDPI,  Basel,  Switzerland.    softening temperature without a loss of electrical conductivity. Furthermore, Cr and Zr
+This article is an open access article    interact well; therefore, refining the Cr precipitated phases can further improve the
+distributed under the terms and con-    strength of the alloy [6–9].
+ditions of the Creative Commons At-       The high strength of the Cu-Cr-Zr alloy can mainly be attributed to precipitation
+tribution (CC BY) license (https://cre-    strengthening. High-density Cr nano-precipitated phases are produced in the alloy after
+ativecommons.org/licenses/by/4.0/).    ageing treatment, which improves its mechanical properties [8,10,11]. The high electrical
+
+
+
+
+
+Materials 2022, 15, 7605. https://doi.org/10.3390/ma15217605                                                www.mdpi.com/journal/materials
+
+--- PDF PAGE 2 ---
+Materials 2022, 15, 7605                                                                                                        2 of 12
+
+
+
+                            conductivity is mainly attributed to the decreased concentration in solute atoms in the
+                              solid solution of the Cu substrate during the ageing treatment [12–14]. The volume frac-
+                              tion of the precipitated phases determines the electrical conductivity of the alloy [15].
+                        Given the high volume fraction of the precipitated phase, there are fewer solute atoms in
+                            the substrate, a lower probability of electron scattering, and a higher electrical conductiv-
+                                 ity [16]. Therefore, the electrical conductivity and mechanical properties of the Cu-Cr-Zr
+                              alloy are determined according to their structures after thermal treatment.
+                           The crystal structures of the precipitated phase of the Cu-Cr-Zr alloy and its orienta-
+                              tion relationship with the Cu substrate have been studied since the 1970s. For example,
+                       Zeng et al. [17,18] studied and calculated the phase diagrams of the Cu-rich zone of the
+                         Cu-Cr-Zr alloy system, and found Cr, Cr2Zr, Cu5Zr, and Cu3Zr phases in the alloy. Addi-
+                                tionally, Kuznetsov et al. [19] systematically calculated the vertical section phase diagram
+                              of Cu-Cr-Zr alloys with 0.5%, 1.5%, and 5% Cr contents and the results showed that there
+                        were Cr, Cu3Zr, Cu51Zr14, Cu8Zr3, and Cu10Zr7 phases in the alloys. Cheng and Peng et al.
+                               [14,20] determined the precipitation order of Cr phases in the Cu substrate as follows:
+                           Supersaturated solid solution; Guinier–Preston (GP) zone; FCC Cr phase ordering; BCC
+                        Cr phase. Knight et al.[8] found that some metastable state FCC Cr phases were also pre-
+                                cipitated. In terms of the crystal structure of the Cr precipitated phases, some researchers
+                               [21] proposed that the precipitated phases were steady-state BCC Cr phases under over-
+                          ageing conditions. Fujii et al. [9] found that BCC Cr phases were transformed from FCC
+                        Cr phases. Chbihi et al. [22] also believed that there were two structures of Cr phases (BCC
+                       and FCC) in the Cu substrate and that BCC Cr phases were precipitated through the nu-
+                              cleation of FCC Cr phases. Peng et al. [23] believed that the precipitation order of Zr
+                          phases was as follows: Supersaturated solid solution; Zr atomic cluster; CuCrZr phases;
+                        Cu5Zr phases. Furthermore, many scholars [1,24–26] have shown that Zr atoms formed
+                        Cu5Zr phases in the Cu substrate during the ageing precipitation of the alloy. Su et al. [27]
+                           pointed out that there were transgranular ordered CrCu2 (Mg, Zr) (DO3) precipitated
+                          phases in the Cu-Cr-Zr-Mg alloy. Liu and Huang et al. [13,28] believed that the existing
+                          ordered phase at precipitation included metastable Heusler phases (CrCu2Zr phases),
+                        which were then decomposed into BCC Cr phases and Cu4Zr phases with an orthogonal
+                             structure through the follow-up ageing process. Furthermore, some researchers found
+                              that the Zr precipitated phase is the Cu51Zr14 phase [6].
+                                 Nevertheless, there still is no consensus regarding the precipitation order of Cr
+                          phases during ageing treatments, in addition to which types of Zr phases are obtained.
+                             Therefore, it is imperative to further study the crystallographic characteristics and orien-
+                              tation relationship with the substrate during the precipitation of the Cu-Cr-Zr alloy, which
+                          can facilitate the improvement of the performance of the alloy. Therefore, the structural
+                            evolution of alloys after ageing at different ageing temperatures and holding times was
+                           discussed in this study. Furthermore, their mechanical properties and electrical conduc-
+                                   tivities after ageing were also analyzed.
+
+                                   2. Materials and Experimental Methods
+
+                                Five millimeter thick Cu-1.0% Cr-0.1% Zr (Fe, 0.05% max; Si, 0.1% max; others, 0.2%
+                        max; wt%) alloy plates after solid-solution treatment at 950 °C for 2 h were used in this
+                            study. Then they were treated by ageing at different temperatures (300 °C, 350 °C, 400 °C,
+                          450 °C, and 500 °C) for different times (15 min, 30 min, 60 min, 90 min, and 120 min).
+                           The mechanical properties of the samples were tested using an AG-X100KN Shi-
+                     madzu electronic universal material testing machine (Shimadzu, Japan). Dog bone-
+                        shaped samples were used in the tensile test, the samples’ total size was 145 × 25 mm, the
+                               parallel part was 80 mm in length, and the width was15 mm. Measurements were carried
+                          out at the extension rate of 0.02 mm/min under the temperature of 25 ± 2 °C thrice and the
+                          average value was collected. The electrical conductivity was tested using the SMP10 eddy
+                                 electrical conductivity tester (Fischer, Germany) and the diameter of the probe was 14
+                   mm. Three measurements were performed at different positions of the same sample and
+
+--- PDF PAGE 3 ---
+Materials 2022, 15, 7605                                                                                                        3 of 12
+
+
+
+                            the average value was chosen. The lattice strain of the samples was determined by using
+                        an X-ray diffraction (XRD, DX2700B, Haoyuan Instrument, China) instrument. On this
+                                basis, dislocation density was calculated by the following Equation 1 [29–32]. In XRD, a
+                    Cu target (wavelength = 0.15406 nm) was used, and the scanning rate was 2 °/min. The
+                           angle range was 20°–100°. Structures of the alloy after the ageing treatment were charac-
+                              terized by transmission emission microscope (TEM, JEM F200, JEOL, Japan), including a
+                               bright-field image, high-resolution transmission electron microscope (HRTEM), selected
+                            area electron diffraction (SAED), and inverse fast Fourier transform (IFFT). Samples for
+                            the TEM observation were thinned to less than 30 μm through mechanical grinding and
+                          then placed into a nitric acid-methanol solution (CH3OH:HNO3 = 7:3). Finally, the samples
+                        were thinned using an electrolytic double jet thinning instrument (DJ2000, Hisky Tech-
+                           nology, China) under a temperature of -30 °C and a voltage of 20 V.
+
+                                            ε2
+                                  ρ = 16.1 ×   2                                        (1)                                                                     b
+
+                        where ρ  is the dislocation density, b is the Burgers vector of dislocation and ε is the
+                            microstrain obtained by Hall–Williamson’s method.
+
+                                   3. Results
+
+                           The TEM structures of the Cu-1.0% Cr-0.1% Zr alloy after solid-solution treatment
+                            are shown in Figure 1. The bright-field images of TEM are shown in Figure 1a and the
+                  HRTEM is shown in Figure 1b. Several dislocations were present in the alloy structure,
+                        which combined into dislocation cells. According to the IFFT image (Figure 1c), several
+                         unevenly distributed misfit dislocations were observed. Additionally, the dislocation den-
+                                 sity in the alloy was found to be 2.528 × 1015 m−2 and the lattice constant was 0.45448 nm,
+                        which was higher than that of Cu (0.3615 nm). The lattice distortion was severe; under
+                            these circumstances, the tensile strength of the alloy was found to be 256 ± 4 MPa and its
+                                 electrical conductivity was 34.5 ± 0.3% IACS.
+
+
+
+
+
+                                         Dislocation Cell
+
+
+
+
+
+                                                 (a)                             (b)                                (c)
+
+                             Figure 1. TEM of the alloy after solution treatment: (a) Bright-field image; (b) HRTEM image; (c)
+                            IFFT image of the red selected area in (b).
+
+                                   3.1. Influence Laws of Ageing Temperature on Ageing Structures
+
+                           The TEM images of the Cu-Cr-Zr alloy after the ageing treatment after 30 min at dif-
+                              ferent temperatures are shown in Figure 2. With increases in the ageing temperature, there
+                        were more precipitates in the ageing structure but fewer lattice distortions and a lower
+                             dislocation density. The specific lattice distortion and dislocation density are shown in
+                           Table 1. According to the SAED using [112]Cu as the zone axis after ageing at 300 °C, other
+                          than the reflection of the substrate, there was a precipitation of [110 ]Cr phases coherent
+                          with the substrate (Figure 2b) and a dislocation wall formed by the involvement of dislo-
+                             cations in the substrate (Figure 2a). After ageing at 400 °C, the number of precipitates in
+                            the substrate increased obviously, most of which were at positions that had a high
+
+--- PDF PAGE 4 ---
+Materials 2022, 15, 7605                                                                                                        4 of 12
+
+
+
+                              dislocation density (Figure 2d). HRTEM images after ageing at 450 °C are shown in Figure
+                                2e. Obviously, several fine dispersed secondary phases were precipitated in the substrate.
+                                       It can be seen from the SAED (Figure 2f) results that the precipitated phase was the Cr
+                            phase. Under these circumstances, the Cr phase and Cu substrate had different structures
+                       and lattices, and the precipitated Cr phase had a balanced BCC structure. According to
+                            the IFFT image (Figure 2g), Cr phases were precipitated from the Cu substrate and lattice
+                              distortion was relieved significantly compared to that in the solid solution state (Figure
+                                  1c). Moreover, there were some misfit dislocations in the substrate. After ageing at 500 °C,
+                             there were undissolved phases on the grain boundaries (GBs) and some fine Cr phases
+                             precipitated in the crystals, accompanied by some activity dislocation lines near the GBs.
+                       The undissolved phases are caused by the fact that the solution degree of the alloy reaches
+                            the limit.
+
+
+
+
+
+Dislocation Wall
+
+
+
+
+
+               (a)                             (b)                                (c)                            (d)
+
+
+
+
+
+         Cr
+
+
+
+
+                (e)                                    (f)                             (g)                            (h)
+
+                             Figure 2. TEM image after 30 min ageing at different temperatures: (a) 300 °C; (b) SAED of the
+                             square area in (a); (c) 350 °C; (d) 400 °C; (e) 450 °C; (f) SAED of the square area in (e); (g) IFFT image
+                                 of the square area in (e); (h) 500 °C.
+
+
+                            Table 1. Lattice distortion and dislocation density after 30 min ageing at different temperatures.
+
+                           Ageing Temperature/°C       300      350       400       450       500
+                                     Lattice Constant/nm       0.42338  0.41083    0.39517    0.38714    0.37517
+                             Dislocation Density/(1015·m−2)    2.439     2.385      2.185      2.051      1.639
+
+
+                           The variations in the tensile strength and electrical conductivity of the Cu-Cr-Zr alloy
+                              in the ageing temperature range of 300 °C–500 °C are shown in Figure 3. Clearly, the elec-
+                                   trical conductivity of the alloy after ageing exhibited increasing trends with increases in
+                            the ageing temperature, the tensile strength first rises and then decreases. When ageing at
+                          300 °C for 30 min, the electrical conductivity (75.6 ± 0.8% IACS) and tensile strength (296
+                          ± 6 MPa) of the alloy were higher than those of the alloy in the solid solution state. More-
+                             over, the electrical conductivity increased (~119%) more significantly than the tensile
+                            strength (~15.36%). After ageing at 500 °C for 30 min, the tensile strength of the alloy was
+
+--- PDF PAGE 5 ---
+Materials 2022, 15, 7605                                                                                                        5 of 12
+
+
+
+                          360 ± 7 MPa and electrical conductivity was 91.8 ± 0.2% IACS, which were increased by
+                          about 40.28% and 165.97% in comparison to those of the alloy in the solid solution state.
+
+
+
+
+
+                                                         (a)                                           (b)
+
+                             Figure 3. Property curves of the alloy with ageing temperature: (a) Electric conductivity; (b) tensile
+                                 strength.
+
+                                   3.2. Influence Laws of Holding Time on Ageing Structures
+
+                     TEM images of the solid solution state Cu-Cr-Zr alloy after ageing at 450 °C under
+                               different holding times are shown in Figure 4. With increases in the holding time, the
+                      number of Cr phases in the ageing structures increased until the completion of Cr precip-
+                                itation in the supersaturated solid solution; furthermore, the size of the precipitated
+                          phases increased continuously. However, the lattice constant and dislocation density of
+                            the alloy decreased continuously (Table 2). When the holding time was 15 min, very small
+                        Cr phases were precipitated at the GBs and positions with high dislocation densities (Fig-
+                          ure 4a). When the holding time was 60 min (Figure 4c), there were extended dislocations
+                              in the alloy structure and more phases precipitated in the substrate, which were mainly
+                               at positions with high dislocation density and on the GBs. When the holding time was 90
+                          min, it can be seen from the TEM images (Figure 4d) that the size of the precipitated Cr
+                          phases increased. When the holding time was 120 min (Figure 4e), there were several sec-
+                        ondary phases in the substrate, which had a dispersed distribution. According to the cal-
+                              ibration of the SAED image (Figure 4f), there were Cu3Zr precipitations in the substrate,
+                           except for the secondary Cr phases.
+
+
+
+
+
+                                                 (a)                            (b)                                (c)
+
+--- PDF PAGE 6 ---
+Materials 2022, 15, 7605                                                                                                        6 of 12
+
+
+
+
+
+                                            (d)                               (e)                                  (f)
+
+                             Figure 4. TEM images after ageing at 450 °C under different holding times: (a) 15 min; (b) 30 min;
+                                       (c) 60 min; (d) 90 min; (e) 120 min; (f) SAED of the square area in (e).
+
+
+                            Table 2. Lattice distortion and dislocation density after ageing at 450 °C under different holding
+                                 times.
+
+                             Ageing Time/min          15       30        60        90        120
+                                    Lattice Constant/nm       0.38925   0.38714    0.37604    0.37191    0.36204
+                            Dislocation Density/(1015·m−2)    2.376      2.051      1.910      1.376      1.132
+
+
+                           The variations in the tensile strength and electrical conductivity of the Cu-Cr-Zr alloy
+                          with holding times from 15 min to 120 min are shown in Figure 5. The tensile strength of
+                            the alloy presented an inverted V-shaped variation with the holding time. The electrical
+                            conductivity presented a rising trend and the increased amplitude in electrical conductiv-
+                                 ity decreased when the ageing temperature was fixed at 450 °C. From 15 min to 60 min,
+                            the tensile strength of the alloy increased as the amplitude decreased. From 60 min to 120
+                          min, the tensile strength decreased with the reduction in amplitude. The electrical con-
+                             ductivity of the alloy continued to increase with the same trend as above. The tensile
+                            strength of the alloy reached a peak (359 ± 2 MPa) when the holding time was 60 min and
+                            the electrical conductivity was 91.9 ± 0.7% IACS.
+
+
+
+
+
+                                                         (a)                                           (b)
+
+                              Figure 5. Property curves of the alloy with ageing time: (a) Electric conductivity; (b) tensile strength.
+
+                                Influenced by the free energy and diffusion energy, the secondary phases were pre-
+                              cipitated from the oversaturated solid solution of the Cu-Cr-Zr alloy, and the nucleation
+                       grew continuously. Therefore, the ageing temperature and holding time play an im-
+                            portant role in the precipitation of secondary phases from the alloy. According to the ex-
+                           perimental results in this study, the precipitation, nucleation, and growth mechanisms of
+                            the secondary phases during the ageing of the alloy, as well as the influence mechanism
+                              of the structure on the properties of the alloy, were analyzed.
+
+--- PDF PAGE 7 ---
+Materials 2022, 15, 7605                                                                                                        7 of 12
+
+
+
+                                   4. Discussion
+
+                                   4.1. Nucleation Mechanism of Precipitated Phase in the Cu-Cr-Zr Alloy
+
+                                              It can be seen from Figure 2 and Figure 3 that the FCC Cr phases were precipitated
+                           gradually during ageing from the Cu-Cr-Zr alloy after solid-solution treatment. These
+                    FCC Cr phases further evolved into BCC Cr phases. The number of precipitated Cr phases
+                              in the structures was positively related to the ageing temperature and holding time.
+                          Cheng and Peng et al. [14,20] demonstrated that, in Cu-Cr alloys, Cr atoms exhibited
+                        an obvious segregation phenomenon (Cr-atom clustering) in the early ageing stages. Since
+                            the radius of the Cr atoms was 0.185 nm and the radius of the Cu atoms was 0.128 nm, Cr
+                        atoms may produce distortion in the Cu substrate, resulting in a sharp growth in the free
+                            energy. As ageing continued, the precipitated Cr phases nucleated and grew at the struc-
+                               tural defects, lowering the free energies, which was attributed to the diffusion of Cr atoms
+                        under thermodynamic conditions. The structure and size changed continuously after the
+                            nucleation of the precipitated Cr phases. In other words, different sizes of precipitated Cr
+                          phases were produced on the Cu substrate under different ageing temperatures and hold-
+                           ing times.
+                             According to an analysis of Figure 2a, the alloy was in the early stages of ageing pre-
+                               cipitation when the ageing time was 300 °C and the holding time was 30 min. In this stage,
+                                          it was clear that no secondary phases were precipitated. However, it was found from the
+                  TEM images at the right corner that FCC Cr phases that were coherent with the Cu sub-
+                                strate were precipitated in the alloy. This was mainly attributed to the highly symmetrical
+                             structures of the Cu substrate and the elastic strain caused by the clustering of solute Cr
+                        atoms in the substrate [9]. In SAED, there was some secondary diffraction of BCC Cr
+                          phases and diffraction spots of the super-lattices, indicating that FCC Cr phases were
+                           transforming into BCC Cr phases in an orderly manner. This was consistent with the re-
+                            search conclusions of Xia and Cheng et al. [12,20]; however, in this study, no clustering of
+                        Cr atoms was observed. This was because the Zr atoms in the alloy had relatively high
+                        bonding energies and were mainly located in various structural defects like vacancies,
+                               dislocations, faults, and GBs. This promoted the segregation of Cr significantly and accel-
+                            erated the precipitation of FCC Cr phases, leading to the disappearance of the GP region.
+                             Based on the abovementioned analysis, the precipitation order of Cr phases was as
+                              follows: Oversaturated solid solution; FCC Cr phases; BCC Cr phases, as shown in Figure
+                                   6. The orientation relationship between the precipitation of FCC Cr phases and the Cu
+                             substrate was Nishiyama–Wassermann (N–W): (110)Cr // (111 )Cu, (002)Cr // ( 220 )Cu, and [
+                            110 ]Cr // [112]Cu. There were several dislocations surrounding the FCC Cr phases. This is
+                          because the dislocation energies caused by lattice distortion at dislocations can facilitate
+                            the diffusion of solute atoms and concentrate at dislocations gradually, increasing the lo-
+                                cal solute concentration. As a result, the precipitated phases nucleated and grew first at
+                             positions with high dislocation densities.
+
+
+
+
+
+                             Figure 6. Schematic diagram of the phase precipitation.
+
+--- PDF PAGE 8 ---
+Materials 2022, 15, 7605                                                                                                        8 of 12
+
+
+
+                           The precipitation continued as the ageing temperature rose and holding time in-
+                             creased, which led to a growth in the percentage of the precipitated Cr phases and a con-
+                           tinuous reduction in the nucleation quantity. This is because, as the ageing precipitation
+                            continued, Cr atoms in the alloy formed nano-secondary phase grains in oversaturated α-
+                    Cu solid solutes, the concentration of Cr solute atoms in the substrate decreases rapidly,
+                              dislocations continue to work and annihilate, the driving force for nucleation decreases,
+                       and the nucleation speed becomes slower [8]. The oversaturated solid solubility of the
+                             substrate decreased quickly and the dislocation moved and disappeared gradually. Con-
+                             sequently, the driving force for nucleation decreased continuously and the nucleation de-
+                               celerated. Figure 2d shows that the precipitated secondary phase was the balanced BCC
+                        Cr phase when the ageing time was 450 °C and the holding time was 30 min. The orienta-
+                              tion relationship between the BCC Cr phase and the Cu substrate was Kurdjumov–Sachs
+                             (K–S): (101 )Cr // (111 )Cu and [010]Cr // [101 ]Cu.
+                           The results showed that Cu3Zr phases were precipitated in the alloy, in addition to
+                            the Cr phase (Figure 2f). This was because some Cr atoms acted on Zr atoms to form met-
+                              astable CuCrZr phases during Cr precipitation in the substrate with the same orientation
+                            as the substrate, and the CuCrZr phases were then decomposed into Cu3Zr and Cr phases
+                            rapidly [1,6,13]. Moreover, the precipitation of abundant Cr phases from the substrate de-
+                           layed the nucleation of Cu3Zr phases. This is different from Cu5Zr and Cu4Zr found by
+                        most researchers [24–28] but similar to Cu51Zr14 [33]. The different reasons may be related
+                              to the Zr content in the alloy [34]. Additionally, Cu3Zr maintained a K–S orientation rela-
+                             tionship with the substrate: (131 )Cu3Zr // (111 )Cu and [112 ]Cu3Zr // [111 ]Cu.
+
+                                   4.2. Growth Mechanism of Precipitated Phases in the Cu-Cr-Zr Alloy
+
+                           The nucleation and growth of secondary phases in the Cu-Cr-Zr alloy occurred sim-
+                             ultaneously. With increases in the ageing temperature and holding time, the precipitated
+                          phases began to grow continuously after nucleation and the energies for the growth of
+                          phases increased when the nucleation decreased during ageing precipitation. The growth
+                              of precipitated Cr phases and the migration of the Cr phase-Cu substrate interface both
+                           required the diffusion of atoms. Hence, the growth of the precipitated phases in the alloy
+                          can be used to interpret the diffusion theory.
+                                 In the early ageing stages, the FCC Cr phases maintained a coherent relationship with
+                            the Cu substrate. Although the interface between the FCC Cr phases and the Cu substrate
+                            exhibited very small energy differences, the alloy had considerably high interface energies
+                       due to the nucleation of many FCC Cr phases, which increased the instability of the struc-
+                                ture. To decrease the interface energies, the FCC Cr phases clustered and grew in the man-
+                           ner of the growth of big grains and the dissolution of small grains. FCC Cr phases tend to
+                      grow spherically due to isotropic distortion and they continue to become increasingly
+                             spherical [1,24,35]. In the growth process of the precipitated Cr phases, the Cr atom con-
+                             centration in the adjacent Cu substrate varies due to the different sizes of the Cr phases.
+                         Hence, there were concentration gradients among different sizes of Cr phases in the Cu
+                              substrate. Cr atoms diffused from the areas surrounding small-sized Cr phases to areas
+                          surrounding large-sized phases [36]. This facilitated the growth of large-sized Cr phases
+                       and the shrinking and dissolution of small-sized ones. The degree of growth in the Cr
+                          phases was determined by the diffusion rate of the Cr atoms. The Cr atoms diffused more
+                            quickly at a higher temperature and the degree of growth in the Cr phases increased.
+                    When the temperature was fixed, the diffusion rate of Cr atoms was constant. As the hold-
+                           ing time increased, the degree of growth in the Cr phases became constant. Therefore, the
+                        Cr phases in the alloy grew gradually with increases in the temperature and holding time,
+                           thus increasing the lattice distortion energies. When the Cr phases and lattice distortion
+                            energies increased to a certain extent, the Cr phase-Cu substrate interface developed co-
+                           herent buckling. The interface relationship changed to semi-coherent and finally changed
+                              to non-coherent.
+
+--- PDF PAGE 9 ---
+Materials 2022, 15, 7605                                                                                                        9 of 12
+
+
+
+                                   4.3. Influence Laws of Cu-Cr-Zr Alloy Structure on Its Properties
+
+                             According to an analysis of Table 1 and Table 2, nano Cr phases were precipitated
+                        from the oversaturated solid solution when the ageing temperature and holding time in-
+                             creased. In addition, the solute atom content in the substrate decreased. Furthermore, the
+                              dislocations moved and disappeared gradually. The precipitation and growth of the sec-
+                        ondary phases could hinder the movement of dislocations, thus decreasing the dislocation
+                            density and lattice distortion in the alloy.
+                                 In the early ageing stages, the dislocation density and lattice constant of the alloy
+                        were negatively related to the ageing temperature and holding time; hence the electrical
+                            conductivity of the alloy was positively related to the ageing temperature and holding
+                             time, while the tensile strength was negatively related to them. The number of precipi-
+                             tated fine secondary phases that were coherent with the Cu substrate increased continu-
+                           ously and the degree of supersaturation of the solid solution decreased sharply. As a re-
+                                  sult, the electrical conductivity and tensile strength of the alloy improved accordingly.
+                       The dislocations interacted with the precipitated phase, which increased the diffusion rate
+                              of the solute atoms in zones with high dislocation densities and facilitated the precipita-
+                              tion of Cr phases. The Cu substrate-Cr phase interface might hinder the dislocation move-
+                       ment and pin dislocations [37]. The precipitated phase influenced the tensile strength sig-
+                               nificantly more than the dislocations [10,11,35]. After the ageing treatment at 300 °C for
+                          30 min, the dislocation density and lattice constant in alloy structures were 2.439 × 1015 m−2
+                       and 0.42338 nm, respectively, which were 3.5% and 6.8% lower than those in the solid
+                             solution state, respectively. Moreover, the tensile strength (296 ± 6 MPa) and electrical
+                            conductivity (75.6 ± 0.8% IACS) were 15.36% and 119% higher than those in the solid so-
+                              lution state, respectively. Since the precipitate phases had very small content, the tensile
+                            strength was improved to a very small extent. Similarly, the dislocation density and lattice
+                            constant in the alloy structures were 2.376 × 1015 m−2 and 0.38925 nm after the ageing treat-
+                       ment at 450 °C for 15 min, respectively, which were 6% and 14.35% lower than those at
+                            the solid solution state, respectively. Moreover, the tensile strength (314 ± 3 MPa) and
+                                 electrical conductivity (80.1 ± 0.5% IACS) were increased by about 22.40% and 132.06%
+                       compared to those before the ageing treatment, respectively.
+                           The ageing precipitation continued with the continuous increase in the ageing tem-
+                            perature and holding time. Therefore, the dislocations in the alloy structure migrated and
+                          disappeared continuously, and the secondary phases were further precipitated. The lattice
+                            constant and dislocation density of the substrate continued to decrease. The coherent re-
+                             lationship between the secondary phase and Cu substrate in the alloy changed to a semi-
+                           coherent relationship gradually. Electron scattering was relieved by decreasing the solid
+                             solution in the substrate [12–14], thus increasing the electrical conductivity and tensile
+                            strength of the alloy gradually. Hence, the lattice constant and dislocation density of the
+                              alloy decreased to 0.38714 nm and 2.051 × 1015 m−2 after an ageing treatment at 450 °C for
+                          30 min, respectively, while the tensile strength and electrical conductivity increased to 338
+                          ± 4 MPa and 88.3 ± 0.9% IACS, respectively. The lattice constant and dislocation density
+                              of the alloy decreased to 0.37517 nm and 1.639×1015 m−2 after an ageing treatment at 500
+                        °C for 30 min. Under these conditions, the lattice constants of the alloy and the pure Cu
+                        were very similar [1,9,36]. The tensile strength and electrical conductivity increased to 360
+                          ± 7 MPa and 91.8 ± 0.2% IACS, respectively.
+                                 Solute atoms almost completely precipitated at the ageing peak. The electron scatter-
+                           ing was very small and the tensile strength was improved to the highest extent by the
+                             precipitated phase. According to Figure 4 and Figure 7, there are many elliptical precipi-
+                                tates in the alloy and they remain semi-coherent with the substrate after the ageing treat-
+                       ment at 450 °C for 60 min. Influenced by Zr, more Cr phases were precipitated at positions
+                          with high dislocation densities and GBs. Since the stacking fault energy [38,39] of the alloy
+                      was relatively low, it is difficult to incur helical dislocation slippage surrounding the pre-
+                              cipitated Cr phases. Perfect dislocations were decomposed into two or several partial dis-
+                               locations; therefore, there are extended dislocations in the structures. Due to structural
+
+--- PDF PAGE 10 ---
+Materials 2022, 15, 7605                                                                                                       10 of 12
+
+
+
+                           changes, the tensile strength and electrical conductivity of the alloy were 359 ± 2 MPa and
+                              91.9 ± 0.7% IACS, respectively.
+
+
+
+
+
+                             Figure 7. HRTEM image of the alloy after ageing treatment at 450 °C for 60 min.
+
+                         As the ageing treatment continued, the size of the precipitated Cr phases in the alloy
+                            increased gradually, whereas the lattice constant and dislocation density decreased. Both
+                            led to reductions in the tensile strength and growth in the electrical conductivity of the
+                                alloy. Since the lattice constant and dislocation density had very small influences on the
+                                 electrical conductivity, it increased slightly. After the ageing treatment at 450 °C for 90
+                          min, the lattice constant and dislocation density of the alloy decreased to 0.37191 nm and
+                             2.376 × 1015 m−2, respectively. Under these circumstances, the tensile strength of the alloy
+                          decreased to 338 ± 9 MPa, while the electrical conductivity continued to increase to 92.1 ±
+                         0.1% IACS. After the ageing treatment at 450 °C for 120 min, the tensile strength continued
+                              to decrease to 324 ± 4 MPa, while the electrical conductivity increased to 92.9 ± 0.6% IACS.
+
+                                   5. Conclusions
+
+                                 In this study, the precipitation behavior and property changes of the Cu-Cr-Zr alloy
+                        under different ageing conditions were discussed. Some major conclusions can be drawn,
+                            as follows:
+                                        1. With the increase in ageing temperature and holding time, the percentage of Cr
+                             precipitated phase in the microstructure increases, and the dislocation content decreases
+                            continuously. The tensile strength increases first and then decreases in an inverted V
+                            shape. The electrical conductivity shows a rising trend with then a decrease of the in-
+                               crease;
+                                         2. The tensile strength of the Cu-Cr-Zr alloy reached a peak (359 ± 2 MPa) and the elec-
+                                    trical conductivity was 91.9 ± 0.7% IACS after the ageing treatment at 450 °C for 60 min;
+                                        3. The precipitated Cr phase has two structures, FCC and BCC. The FCC Cr phases
+                            are transformed into BCC Cr phases. The FCC Cr precipitated phases nucleate first in re-
+                           gions with high dislocation densities, basically maintaining an N–W orientation relation-
+                           ship with the substrate. The BCC Cr phases basically maintain a K–S orientation relation-
+                           ship with the substrate. The precipitated Zr phase is the Cu3Zr phase, which basically
+                           maintains a K–S orientation relationship with the substrate.
+
+
+                           Author Contributions: Conceptualization, Y.M., H.C. and S.D.; methodology, H.L., S.D. and Y.M.;
+                             formal analysis, S.D.; investigation, Y.M.; resources, H.C. and H.L.; data curation, Y.M.; writing—
+                                  original draft preparation, Y.M.; writing—review and editing, H.C. and S.D.; visualization, Y.M.;
+                                supervision, H.C. and S.D.; project administration, H.C.; funding acquisition, H.C. and Y.M. All
+                              authors have read and agreed to the published version of the manuscript.
+
+                            Funding: Financial support from the Major Special Project of Shanxi Province [Grant No.
+                              20181101002] is gratefully acknowledged. This work is also supported by the Shanxi Postgraduate
+                             Education Innovation Project [Grant No. 2020BY109] and Basic Research Project for Free Exploration
+                           funded by the Central Government and local Scientific and Technological Development Funds
+                              [Grant No. YDZJSX2021A039].
+
+--- PDF PAGE 11 ---
+Materials 2022, 15, 7605                                                                                                       11 of 12
+
+
+
+
+                           Data Availability Statement: The data used to support the findings of this study are available from
+                               the corresponding author upon request.
+
+                               Conflicts of Interest: The authors declare no conflict of interest.
+
+
+References
+
+1.   Du, Y.B.; Zhou, Y.J.; Song, K.X.; Huang, T.; Hui, D.; Liu, H.T.; Cheng, C.; Yang, J.Z.; Niu, L.Y.; Guo, H.W. Zr-containing precip-
+      itate evolution and its effect on the mechanical properties of Cu-Cr-Zr alloys. J. Mater. Res. Technol. JMRT 2021, 14, 1451–1458.
+2.   Peng, H.C.; Xie, W.B.; Chen, H.M.; Wang, H.; Yang, B. Effect of micro-alloying element Ti on mechanical properties of Cu-Cr
+      alloy. J. Alloy. Compd. 2021, 852, 157004.
+3.   Fu, H.D.; Xu, S.; Li, W.; Xie, J.X.; Zhao, H.B.; Pan, Z.J. Effect of rolling and aging processes on microstructure and properties of
+     Cu-Cr-Zr alloy. Mater. Sci. Eng. A Struct. Mater. Prop. Microstruct. Process. 2017, 700, 107–115.
+4.   Wang, W.; Li, R.G.; Zou, C.L.; Chen, Z.N.; Wen, W.; Wang, T.M.; Yin, G.M. Effect of direct current pulses on mechanical and
+      electrical properties of aged Cu-Cr-Zr alloys. Mater. Des. 2016, 92, 135–142.
+5.   Dobatkin, S.V.; Gubicza, J.; Shangina, D.V.; Bochvar, N.R.; Tabachkova, N.Y. High strength and good electrical conductivity in
+    Cu-Cr alloys processed by severe plastic deformation. Mater. Lett. 2015, 153, 5–9.
+6.   Xu, S.; Fu, H.D.; Wang, Y.T.; Xie, J.X. Effect of Ag addition on the microstructure and mechanical properties of Cu-Cr alloy.
+     Mater. Sci. Eng. A Struct. Mater. Prop. Microstruct. Process. 2018, 726, 208–214.
+7.   Shen, D.P.; Zhu, Y.J.; Yang, X.; Tong, W.P. Investigation on the microstructure and properties of Cu-Cr alloy prepared by in-situ
+     synthesis method. Vacuum 2018, 149, 207–213.
+8.   Knights, R.W.; Wilkes, P. Precipitation of chromium in copper and copper-nickel base alloys. Metall. Trans. 1973, 4, 2389–2393.
+9.    Fujii, T.; Nakazawa, H.; Kato, M.; Dahmen, U. Crystallography and morphology of nanosized Cr particles in a Cu—0.2% Cr
+      alloy. Acta Mater. 2000, 48, 1033–1045.
+10.  Edwards, D.J.; Singh, B.N.; Tähtinen, S. Effect of heat treatments on precipitate microstructure and mechanical properties of a
+    CuCrZr alloy. J. Nucl. Mater. 2007, 367–370, 904–909.
+11.  Ivanov, A.D.; Nikolaev, A.K.; Kalinin, G.M.; Rodin, M.E. Effect of heat treatments on the properties of CuCrZr alloys. J. Nucl.
+     Mater. 2002, 307, 673–676.
+12.   Xia, C.D.; Zhang, W.; Kang, Z.Y.; Jia, Y.L.; Wu, Y.F.; Zhang, R.; Xu, G.Y.; Wang, M.P. High strength and high electrical conduc-
+      tivity Cu-Cr system alloys manufactured by hot rolling-quenching process and thermomechanical treatments. Mater. Sci. Eng.
+   A Struct. Mater. Prop. Microstruct. Process. 2012, 538, 295–301.
+13.  Zhang, Y.; Volinsky, A.A.; Tran, H.T.; Chai, Z.; Liu, P.; Tian, B.H.; Liu, Y. Aging behavior and precipitates analysis of the Cu-
+     Cr-Zr-Ce alloy. Mater. Sci. Eng. A Struct. Mater. Prop. Microstruct. Process. 2016, 650, 248–253.
+14.  Peng, L.; Xie, H.; Huang, G.; Xu, G.; Yin, X.; Feng, X.; Mi, X.; Yang, Z. The phase transformation and strengthening of a Cu-0.71
+    wt% Cr alloy. J. Alloy. Compd. 2017, 708, 1096–1102.
+15.  Meng, A.; Nie, J.F.; Wei, K.; Kang, H.J.; Liu, Z.J.; Zhao, Y.H. Optimization of strength, ductility and electrical conductivity of a
+     Cu-Cr-Zr alloy by cold rolling and aging treatment. Vacuum 2019, 167, 329–335.
+16.  Shen, D.P.; Xu, N.; Gong, M.Y.; Li, P.; Zhou, H.B.; Tong, W.P.; Wilde, G. Improved tensile strength and electrical conductivity
+     in Cu-Cr-Zr alloys by controlling the precipitation behavior through severe warm rolling. J. Mater. Sci. 2020, 55, 12499–12512.
+17.  Zeng, K.J.; Hamalainen, M. A Theoretical-Study of the Phase-Equilibria in the Cu-Cr-Zr System. J. Alloy. Compd. 1995, 220, 53–61.
+18.  Zeng, K.J.; Haemaelaeinen, M.; Lilius, K. Phase relationships in Cu-rich corner of the Cu-Cr-Zr phase diagram. Scr. Metall. Et
+     Mater. 1995, 12, 32.
+19.  Kuznetsov, G.M.; Fedorov, V.N.; Rodnyanskaya, A.L. Phase diagram of the Cu−Cr system. Izv. VUZ Tsvetn. Met. 1977, 3, 84−86.
+20.  Cheng, J.Y.; Shen, B.; Yu, F.X. Precipitation in a Cu–Cr–Zr–Mg alloy during aging. Mater. Charact. 2013, 81, 68–75.
+21.  Weatherly, G.C.; Humble, P.; Borland, D. Precipitation in a Cu-0.55 wt.% Cr alloy. Acta Metall. 1979, 27, 1815–1828.
+22.  Popovich, A.; Sufiiarov, V.; Polozov, I.; Borisov, E.; Masaylo, D.; Orlov, A. Microstructure and mechanical properties of additive
+     manufactured copper alloy. Mater. Lett. 2016, 179, 38–41.
+23.  Peng, L.; Xie, H.; Huang, G.; Li, Y.; Yin, X.; Feng, X.; Mi, X.; Yang, Z., The phase transformation and its effects on properties of a
+     Cu−0.12 wt% Zr alloy. Mater. Sci. Eng. A 2015, 633, 28–34.
+24.  Chbihi, A.; Sauvage, X.; Blavette, D. Atomic scale investigation of Cr precipitation in copper. Acta Mater. 2012, 60, 4575–4585.
+25.  Shangina, D.V.; Bochvar, N.R.; Gorshenkov, M.V.; Yanar, H.; Purcek, G.; Dobatkin, S.V. Influence of microalloying with
+     zirconium on the structure and properties of Cu-Cr alloy after high pressure torsion. Mater. Sci. Eng. A Struct. Mater. Prop.
+      Microstruct. Process. 2016, 650, 63–66.
+26.  Sun, L.X.; Tao, N.R.; Lu, K. A high strength and high electrical conductivity bulk CuCrZr alloy with nanotwins. Scr. Mater. 2015,
+      99, 73–76.
+27.  Su, J.H.; Liu, P.; Li, H.J.; Ren, F.Z.; Dong, Q.M. Phase transformation in Cu-Cr-Zr-Mg alloy. Mater. Lett. 2007, 61, 4963–4966.
+28.  Fuxiang, H.; Jusheng, M.; Honglong, N.; Zhiting, G.; Chao, L.; Shumei, G.; Xuetao, Y.; Tao, W.; Hong, L.; Huafen, L. Analysis of
+     phases in a Cu–Cr–Zr alloy. Scr. Mater. 2003, 48, 97–102.
+29.  Nagarjuna, S.; Babu, U.C.; Ghosal, P. Effect of cryo-rolling on age hardening of Cu-1.5Ti alloy. Mater. Sci. Eng. A Struct. Mater.
+     Prop. Microstruct. Process. 2008, 491, 331–337.
+
+--- PDF PAGE 12 ---
+Materials 2022, 15, 7605                                                                                                       12 of 12
+
+
+
+
+30.  Zhang, Y.; Tao, N.R.; Lu, K. Mechanical properties and rolling behaviors of nano-grained copper with embedded nano-twin
+     bundles. Acta Mater. 2008, 56, 2429–2440.
+31.   Li, R.; Kang, H.; Chen, Z.; Fan, G.; Zou, C.; Wang, W.; Zhang, S.; Lu, Y.; Jie, J.; Cao, Z.; et al. A promising structure for fabricating
+     high strength and high electrical conductivity copper alloys. Sci. Rep. 2016, 6, 20799.
+32.  Krishna, S.C.; Karthick, N.K.; Rao, G.S.; Jha, A.K.; Pant, B.; Cherian, R.M. High Strength, Utilizable Ductility and Electrical
+     Conductivity in Cold Rolled Sheets of Cu-Cr-Zr-Ti Alloy. J. Mater. Eng. Perform. 2018, 27, 787–793.
+33.  Holzwarth, U.; Stamm, H. The precipitation behaviour of ITER-grade Cu–Cr–Zr alloy after simulating the thermal cycle of hot
+      isostatic pressing. J. Nucl. Mater. 2000, 279, 31–45.
+34.   Li, H.Q.; Xie, S.S.; Mi, X.J.; Wu, P.Y. Phase and microstructure analysis of Cu-Cr-Zr alloys. J. Mater. Sci. Technol. 2007, 23, 795.
+35.   Li, M.Y.; Wang, H.; Guo, Y.H.; Wang, H.L.; Zheng, D.D.; Shan, J.F.; Chang, Y.Q. Microstructures and mechanical properties of
+     the novel CuCrZrFeTiY alloy for fusion reactor. J. Nucl. Mater. 2020, 532, 152063.
+36.  Chen, X.H.; Zhou, H.L.; Zhang, T.; Bi, L.M.; Tian, W.; Fu, S.L.; Li, W.; Liu, X.K.; Ma, F.C.; Zhang, K.; et al. Mechanism of inter-
+     action between the Cu/Cr interface and its chemical mixing on tensile strength and electrical conductivity of a Cu-Cr-Zr alloy.
+     Mater. Des. 2019, 180, 107976.
+37.   Liu, J.B.; Hou, M.L.; Yang, H.Y.; Xie, H.B.; Yang, C.; Zhang, J.D.; Feng, Q.; Wang, L.T.; Meng, L.; Wang, H.T. In-situ TEM study
+     of the dynamic interactions between dislocations and precipitates in a Cu-Cr-Zr alloy. J. Alloy. Compd. 2018, 765, 560–568.
+38.   Batra, I.S.; Dey, G.K.; Kulkarni, U.D.; Banerjee, S. Microstructure and properties of a Cu–Cr–Zr alloy. J. Nucl. Mater. 2001, 299,
+     91–100.
+39.  Shangina, D.V.; Bochvar, N.R.; Morozova, A.I.; Belyakov, A.N.; Kaibyshev, R.O.; Dobatkin, S.V. Effect of chromium and zirco-
+    nium content on structure, strength and electrical conductivity of Cu-Cr-Zr alloys after high pressure torsion. Mater. Lett. 2017,
+     199, 46–49.

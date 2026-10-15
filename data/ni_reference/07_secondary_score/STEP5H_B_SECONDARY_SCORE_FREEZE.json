@@ -1,0 +1,25 @@
+{
+  "freeze_id": "STEP5H_B_SECONDARY_SCORE_FREEZE_V1",
+  "generated_utc": "2026-09-07T02:07:14+00:00",
+  "secondary_prediction_sha256": "a6c0fc4a98a05a4c53704d85b5caf91a5477577789a69d8dc24f6976f98a72ad",
+  "target_sha256": "3e1f4ba2cf6e47120edc4e5150059541ac3d7713e850ac867f411c58126858e3",
+  "metric_prereg_sha256": "7d8f8736d5d29428fbf506709abb0db3b2f0055772d3b69f4796fc115f881328",
+  "primary_score_freeze_sha256": "11c3ddfebc288555c717811aa00088d9fc6ee4c2423fa326509ceddd6d100d30",
+  "primary_score_frozen_at": "2026-09-07T02:06:57+00:00",
+  "mean_tvd": 0.7234409098506132,
+  "ci95": [
+    0.7208391486598595,
+    0.7260206323204347
+  ],
+  "topology_accuracy": 0.2406818181818182,
+  "own_descriptive_skill": -0.19761039476904663,
+  "row_count": 22000,
+  "artifact_hashes": {
+    "STEP5H_B_SECONDARY_BLIND_METRICS.json": "6a3aad169662dead782986232de65cd166c40d73735d43b3ef73a70b7d7ffe06",
+    "STEP5H_B_SECONDARY_BLIND_ERRORS.parquet": "d6faf6da6043c7411936eddefda940d958009b7657ec33cd4634dee11717a2f7",
+    "STEP5H_B_SECONDARY_PER_TEMPERATURE.csv": "e9e54466de1f08d78d568e5bfcdf7d9b2dbe2582f3df8026993cdb7268cc2a4c",
+    "STEP5H_B_SECONDARY_PER_FAMILY.csv": "bfea67ed2f6f6a769b418f6feb34a70361941b692fdfd4b994b6d25ac75119d0"
+  },
+  "immutable": true,
+  "scored_after_primary_freeze": true
+}

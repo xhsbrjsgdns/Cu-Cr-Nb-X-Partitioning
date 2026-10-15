@@ -1,0 +1,1113 @@
+=== PDF PAGE 1 ===
+Journal of Alloys and Compounds 478 (2009) 287–296
+Contents lists available at ScienceDirect
+Journal of Alloys and Compounds
+journal homepage: www.elsevier.com/locate/jallcom
+Experimental determination and thermodynamic calculation of the phase
+equilibria in the Cu–Cr–Nb and Cu–Cr–Co systems
+X.J. Liu a,b, Z.P. Jiang a, C.P. Wang a,b,∗, K. Ishida c
+a Department of Materials Science and Engineering, College of Materials, Xiamen University, Xiamen 361005, PR China
+b Research Center of Materials Design and Applications, Xiamen University, Xiamen 361005, PR China
+c Department of Materials Science, Graduate School of Engineering, Tohoku University, Sendai 980-8579, Japan
+a r t i c l e
+i n f o
+Article history:
+Received 2 August 2008
+Received in revised form
+18 November 2008
+Accepted 19 November 2008
+Available online 24 December 2008
+Keywords:
+Phase diagrams
+Transition metal alloys and compounds
+Thermodynamic modeling
+a b s t r a c t
+Phase equilibria in the Cu–Cr–Nb and Cu–Cr–Co systems were, respectively, determined by metallog-
+raphy, X-ray diffraction (XRD) and scanning electron microscopy–energy dispersive X-ray (SEM–EDX)
+techniques. The thermodynamic assessments of the Cu–Cr–Nb and Cu–Cr–Co systems were carried out
+by using CALPHAD (CALculation of PHAse Diagrams) method on the basis of the experimental data mea-
+sured by the present and previous works. The Gibbs free energies of the liquid and solid solution phases
+were described by the subregular solution model, and those of intermetallic compounds were described
+by the sublattice model. A consistent set of the thermodynamic parameters has been obtained, and the
+evaluated thermodynamic parameters lead to a better ﬁt between calculated results and experimental
+data in both the Cu–Cr–Nb and Cu–Cr–Co systems.
+© 2008 Elsevier B.V. All rights reserved.
+1. Introduction
+The Cu–Cr base alloys are important high-conductivity and
+high-strength materials, such as the contact materials for medium-
+voltage, high-vacuum interrupters [1–4]. Co and Nb are important
+alloying elements to improve the properties of the dielectric
+strength and corrosion resistance in the Cu–Cr base alloys, respec-
+tively [5–8]. Knowledge of phase diagrams of the Cu–Cr–Nb and
+Cu–Cr–Co systems is of importance to the development of the
+high-conductivity and high-strength materials. However, the stud-
+ies of phase equilibria in these systems are not adequate. Nikolayev
+and Rozenberg [9] investigated the phase equilibria in the Cu-rich
+corner of the Cu–Cr–Nb system, where the isothermal section dia-
+grams at 873 and 1273 K in the Cu-rich portion containing up to
+0.7 wt.% Nb and Cr were determined. Hasebe [10] experimentally
+investigated several isothermal section diagrams at 1150–1550 K in
+the Cu–Cr–Co alloys. In the Cu–Cr–Nb and Cu–Cr–Co systems, the
+experimental data on thermodynamic properties were not avail-
+able and thermodynamic assessments of phase equilibria were not
+reported by the CALPHAD method, which is a powerful tool to
+cut down on cost and time during development of materials [11].
+Our goal is to develop a thermodynamic database of the phase
+∗
+Corresponding author at: Department of Materials Science and Engineering,
+College of Materials, Xiamen University, No. 422 Siming South Road, Xiamen 361005,
+PR China. Tel.: +86 592 2180606; fax: +86 592 2187966.
+E-mail address: wangcp@xmu.edu.cn (C.P. Wang).
+equilibria of the Cu–Cr based alloys on the basis of the CALPHAD
+method.
+The purpose of the present work is (1) to experimentally deter-
+mine the phase equilibria of the Cu–Cr–Nb and Cu–Cr–Co systems
+in the temperature ranges from 1073 to 1573 K and from 1073 to
+1373 K, respectively, and (2) to carry out the thermodynamic assess-
+ments in both systems by means of the CALPHAD method.
+2. Experimental determination of phase equilibria
+2.1. Experimental procedure
+The samples were prepared by direct arc melting using the con-
+stituent elements of copper (99.95 wt.%), chromium (99.98 wt.%),
+cobalt (99.9 wt.%), and niobium (99.7 wt.%) under argon atmo-
+sphere with non-consumable tungsten electrode on a water-cooled
+copper hearth. The overall weight loss is generally less than 1 wt.%.
+The prepared alloy ingots were cut into small pieces by wire-
+cutting machine. All specimens were sealed in quartz capsules
+under vacuum and treated at 1373 K for 1 week for homogeniza-
+tion, and were equilibrated at various temperatures from 1073 to
+1573 K for several hours to 6 months, and then quenched into iced
+water.
+Microstructural examination of specimens after heat treatment
+was carried out by optical microscopy. Two kinds of etchants were
+used for metallographic examination in the different Cu–Cr–Nb
+alloys to clearly show the microstructure after heat treatment.
+One etchant of 30 ml hydrochloric acid + 10 ml nitric acid was
+0925-8388/$ – see front matter © 2008 Elsevier B.V. All rights reserved.
+doi:10.1016/j.jallcom.2008.11.162
+
+=== PDF PAGE 2 ===
+288
+X.J. Liu et al. / Journal of Alloys and Compounds 478 (2009) 287–296
+Fig. 1. Typical BSE images of Cu–Cr–Nb and Cu–Cr–Co alloys: (a) Cu30Cr20Nb50 (wt.%)
+alloy annealed at 1473 K for 5 days, (b) Cu46Cr46Nb8 (wt.%) alloy annealed at 1273 K
+for 45 days, and (c) Cu48Cr4Co48 (wt.%) alloy annealed at 1273 K for 55 days.
+used for the Cu49Cr49Nb2, Cu48Cr48Nb4, Cu47Cr47Nb6, Cu46Cr46Nb8
+and Cu30Cr50Nb20 (wt.%) alloys, another one of 30 ml hydroﬂuoric
+acid + 10 ml nitric acid was used for the Cu30Cr2Nb68, Cu30Cr20Nb50,
+Cu30Cr30Nb40 and Cu30Cr38Nb32 (wt.%) alloys. Only one etchant
+with the composition of 5 g ferric chloride + 10 ml hydrochloric
+acid + 100 ml alcohol was used for metallographic examination in
+the Cu–Cr–Co alloys. The equilibrium compositions of the phases
+were determined by scanning electron microscopy–energy disper-
+sive X-ray analysis (SEM–EDX) using a standard calibration method.
+The X-ray diffraction (XRD) was used to identify the crystal struc-
+ture of a phase.
+2.2. Experimental results
+According to optical micrographs and BSE (back-scattered elec-
+tron) images, the three-phase and two-phase microstructures were
+observed in some alloys. Typical BSE images of the Cu–Cr–Nb alloys
+are shown in Fig. 1(a) and (b). The three-phase microstructure of
+the L + Cr2Nb + (Nb) in the Cu30Cr20Nb50 (wt.%) alloy annealed at
+1473 K for 5 days is shown in Fig. 1(a). The structures of three
+phases were identiﬁed by the XRD, as shown in Fig. 2(a). It is seen
+that the characteristic peaks of the fcc (Cu), Cr2Nb and bcc (Nb)
+phases were marked by different symbols, and the liquid phase
+transforms into the Cu-rich solution phase on cooling. Fig. 1(b)
+shows the three-phase microstructure of the (Cu) + Cr2Nb + (Cr) in
+the Cu46Cr46Nb8 (wt.%) alloy annealed at 1273 K for 45 days. The
+XRD result for the Cu46Cr46Nb8 (wt.%) alloy is shown in Fig. 2(b),
+where the characteristic peaks of the fcc (Cu), Cr2Nb and bcc (Cr)
+phases are distinguished by different symbols. Fig. 1(c) shows
+the typical BSE image of the two-phase microstructure of the
+(Co) + (Cu) in the Cu48Cr4Co48 (wt.%) alloy annealed at 1273 K for
+55 days.
+The equilibrium compositions in the Cu–Cr–Nb and Cu–Cr–Co
+systems determined by SEM–EDX are summarized in Tables 1 and 2,
+respectively. No ternary compound was found in these temperature
+regions.
+Fig. 2. X-ray diffraction patterns obtained from (a) Cu30Cr20Nb50 (wt.%) alloy
+annealed at 1473 K for 5 days and (b) Cu46Cr46Nb8 (wt.%) alloy annealed at 1273 K
+for 45 days.
+
+=== PDF PAGE 3 ===
+X.J. Liu et al. / Journal of Alloys and Compounds 478 (2009) 287–296
+289
+Table 1
+Equilibrium composition of the Cu–Cr–Nb system.
+Temperature (K)
+Alloys (wt.%)
+Phase equilibria
+Composition (wt. %)
+Phase 1/phase 2/phase 3
+Phase 1
+Phase 2
+Phase 3
+Cr
+Nb
+Cr
+Nb
+Cr
+Nb
+1073
+Cu49Cr49Nb2
+fcc (Cu)/bcc (Cr)/Cr2Nb
+1.24
+0.77
+97.93
+1.29
+54.61
+44.44
+Cu48Cr48Nb4
+fcc (Cu)/bcc (Cr)/Cr2Nb
+2.57
+0.38
+97.63
+1.53
+53.94
+44.57
+Cu47Cr47Nb6
+fcc (Cu)/bcc (Cr)/Cr2Nb
+2.73
+1.04
+96.82
+1.24
+54.23
+45.11
+Cu46Cr46Nb8
+fcc (Cu)/bcc (Cr)/Cr2Nb
+2.42
+0.67
+96.60
+2.11
+53.64
+45.21
+1173
+Cu49Cr49Nb2
+fcc (Cu)/bcc (Cr)/Cr2Nb
+1.50
+0.44
+97.35
+1.27
+55.21
+44.07
+Cu48Cr48Nb4
+fcc (Cu)/bcc (Cr)/Cr2Nb
+2.20
+0.61
+97.18
+1.60
+54.62
+44.93
+Cu47Cr47Nb6
+fcc (Cu)/bcc (Cr)/Cr2Nb
+1.75
+0.65
+96.99
+1.45
+53.89
+44.32
+Cu46Cr46Nb8
+fcc (Cu)/bcc (Cr)/Cr2Nb
+1.16
+0.22
+96.42
+1.96
+53.59
+44.93
+1273
+Cu49Cr49Nb2
+fcc (Cu)/bcc (Cr)/Cr2Nb
+2.05
+0.22
+97.05
+2.68
+56.04
+43.23
+Cu4Cr488Nb4
+fcc (Cu)/bcc (Cr)/Cr2Nb
+1.67
+0.78
+97.20
+2.22
+55.33
+43.06
+Cu47Cr47Nb6
+fcc (Cu)/bcc (Cr)/Cr2Nb
+1.59
+0.48
+97.70
+1.38
+55.21
+44.39
+Cu46Cr46Nb8
+fcc (Cu)/bcc (Cr)/Cr2Nb
+1.21
+0.33
+96.20
+2.54
+54.47
+43.64
+1373
+Cu49Cr49Nb2
+Liquid/bcc (Cr)
+1.20
+0.15
+99.27
+0.51
+–
+–
+Cu48Cr48Nb4
+Liquid/bcc (Cr)/Cr2Nb
+2.56
+0.26
+96.59
+2.33
+56.41
+43.08
+Cu47Cr47Nb6
+Liquid/bcc (Cr)/Cr2Nb
+2.62
+0.18
+97.03
+2.52
+54.97
+43.56
+Cu46Cr46Nb8
+Liquid/bcc (Cr)/Cr2Nb
+2.10
+0.04
+96.66
+3.18
+55.56
+43.92
+Cu30Cr2Nb68
+Liquid/bcc (Nb)
+0.47
+0.35
+2.50
+96.70
+–
+–
+Cu30Cr20Nb50
+Liquid/bcc (Nb)/Cr2Nb
+1.48
+0.34
+4.47
+94.52
+51.97
+46.69
+Cu30Cr30Nb40
+Liquid/bcc (Nb)/Cr2Nb
+0.82
+0.43
+4.34
+94.90
+51.50
+47.70
+Cu30Cr38Nb32
+Liquid/Cr2Nb
+1.76
+0.18
+54.00
+45.60
+–
+–
+Cu30Cr50Nb20
+Liquid/bcc (Nb)/Cr2Nb
+2.19
+0.10
+97.40
+2.31
+55.10
+43.80
+1473
+Cu30Cr2Nb68
+Liquid/bcc (Nb)
+0.77
+0.74
+2.87
+96.34
+–
+Cu30Cr20Nb50
+Liquid/bcc (Nb)/Cr2Nb
+1.54
+1.06
+5.74
+93.20
+51.10
+48.30
+Cu30Cr30Nb40
+Liquid/bcc (Nb)/Cr2Nb
+1.82
+1.54
+6.49
+92.82
+50.33
+48.14
+Cu30Cr38Nb32
+Liquid/Cr2Nb
+2.58
+0.25
+53.50
+45.08
+–
+–
+Cu30Cr50Nb20
+Liquid/bcc (Cr)/Cr2Nb
+3.89
+0.25
+95.33
+3.84
+56.64
+42.23
+1573
+Cu30Cr2Nb68
+Liquid/bcc (Nb)
+1.11
+1.41
+2.81
+95.80
+–
+–
+Cu30Cr20Nb50
+Liquid/bcc (Nb)/Cr2Nb
+2.40
+1.50
+7.34
+91.50
+50.70
+48.60
+Cu30Cr30Nb40
+Liquid/bcc (Nb)/Cr2Nb
+1.91
+1.09
+8.13
+90.61
+50.96
+48.12
+Cu30Cr38Nb32
+Liquid/Cr2Nb
+3.00
+1.10
+52.70
+46.70
+–
+–
+Cu30Cr50Nb20
+Liquid/bcc (Cr)/Cr2Nb
+7.44
+0.38
+93.89
+4.99
+57.44
+41.61
+It is interesting to ﬁnd that the solidiﬁed microstructures
+of the Cu48Cr48Nb4, Cu47Cr47Nb6, Cu46Cr46Nb8, Cu30Cr30Nb40,
+Cu30Cr38Nb32 and Cu30Cr50Nb20 (wt.%) alloys appear the separated
+macroscopic morphologies, which are caused by the miscibil-
+ity gap of the liquid phase, while the ones of the Cu49Cr49Nb2,
+Cu30Cr20Nb50 and Cu30Cr2Nb68 (wt.%) alloys appear the homoge-
+nous macroscopic morphologies. The same phenomena can also
+be found in the Cu–Cr–Co system. The separated macroscopic
+morphology appears in the Cu46Cr8Co46 (wt.%) alloy, while the
+homogenous macroscopic morphology appears in the Cu49Cr2Co49,
+Cu48Cr4Co48 and Cu47Cr6Co47 (wt.%) alloys. Typical microstructures
+are shown in Fig. 3(a) and (b). Such microstructures are similar with
+the ones in the Cu–Fe base alloys, as reported in our previous work
+[12,13].
+Table 2
+Equilibrium composition of the Cu–Cr–Co system.
+Temperature (K)
+Alloys (wt.%)
+Phase equilibria
+Composition (wt. %)
+Phase 1/phase 2
+Phase 1
+Phase 2
+Co
+Cr
+Co
+Cr
+1073
+Cu49Cr2Co49
+fcc (Cu)/(Co)
+3.44
+0.15
+92.24
+4.18
+Cu48Cr4Co48
+fcc (Cu)/(Co)
+3.33
+0.09
+88.04
+8.55
+Cu47Cr6Co47
+fcc (Cu)/(Co)
+3.24
+0.08
+85.55
+11.33
+Cu46Cr8Co46
+fcc (Cu)/(Co)
+2.70
+0.08
+82.09
+15.07
+1173
+Cu49Cr2Co49
+fcc (Cu)/(Co)
+4.88
+0.04
+90.70
+3.51
+Cu48Cr4Co48
+fcc (Cu)/(Co)
+4.16
+0.07
+87.10
+7.89
+Cu47Cr6Co47
+fcc (Cu)/(Co)
+4.00
+0.03
+84.02
+10.61
+Cu46Cr8Co46
+fcc (Cu)/(Co)
+3.69
+0.02
+80.80
+15.22
+1273
+Cu49Cr2Co49
+fcc (Cu)/(Co)
+6.59
+0.10
+88.58
+3.72
+Cu48Cr4Co48
+fcc (Cu)/(Co)
+5.87
+0.18
+86.11
+7.34
+Cu47Cr6Co47
+fcc (Cu)/(Co)
+5.64
+0.06
+83.57
+11.18
+Cu46Cr8Co46
+fcc (Cu)/(Co)
+5.07
+0.11
+80.18
+15.08
+1373
+Cu49Cr2Co49
+fcc (Cu)/(Co)
+7.68
+0.06
+85.30
+3.98
+Cu48Cr4Co48
+fcc (Cu)/(Co)
+6.76
+0.14
+83.82
+7.56
+Cu47Cr6Co47
+fcc (Cu)/(Co)
+5.39
+0.60
+80.89
+10.97
+Cu46Cr8Co46
+fcc (Cu)/(Co)
+4.60
+0.50
+78.83
+14.59
+
+=== PDF PAGE 4 ===
+290
+X.J. Liu et al. / Journal of Alloys and Compounds 478 (2009) 287–296
+Table 3
+Thermodynamic parameters used in the Cu–Cr–Nb and Cu–Cr–Co systems.
+Parameters in each phase (J/mol)
+Reference
+Liquid phase: (Cr, Cu, Nb)1 and (Co, Cr, Cu)1
+0LL
+Co,Cu = +35200 −4.945T
+[17]
+1LL
+Co,Cu = −1000 + 0.083T
+[17]
+0LL
+Cr,Cu = +62797.75 −18.952T
+[22]
+1LL
+Cr,Cu = +1183.91
+[22]
+0LL
+Co,Cr = +12008.624 + 2.202T
+[27]
+1LL
+Co,Cr = −5836.47 + 1.14T
+[27]
+0LL
+Cu,Nb = +204361.19 −89.931T
+[22]
+1LL
+Cu,Nb = −105148.17 + 57.817T
+[22]
+0LL
+Cr,Nb = −10304.91 + 0.606T
+[35]
+1LL
+Cr,Nb = −8513.45 + 0.501T
+[35]
+0LL
+Cr,Cu,Nb = +5000
+This work
+1LL
+Cr,Cu,Nb = +50000
+This work
+2LL
+Cr,Cu,Nb = +5000
+This work
+0LL
+Co,Cr,Cu = +10000
+This work
+1LL
+Co,Cr,Cu = +10000
+This work
+2LL
+Co,Cr,Cu = +125000 −45T
+This work
+Fcc phase (A1): (Cr, Cu, Nb)1 and (Co, Cr, Cu)1
+0Lfcc
+Co,Cu = +40900 −5.5T
+[17]
+1Lfcc
+Co,Cu = −1600
+[17]
+2Lfcc
+Co,Cu = −6900
+[17]
+0Lfcc
+Cr,Cu = +53195.87 −3.312T
+[22]
+0Lfcc
+Co,Cr = −24052.09 + 8.188T
+[27]
+1Lfcc
+Co,Cr = +5331.825 −6.906T
+[27]
+Tfcc
+c
+=
+1396xCo −1109xCr −9392.526xCoxCr + 8383.042(xCo −xCr)xCoxCr
+[27]
+ˇfcc = 1.35xCo −2.46xCr
+[27]
+0Lfcc
+Cu,Nb = +45699.84 −5.228T
+[22]
+0Lfcc
+Cr,Nb = +40000
+This work
+0Lfcc
+Cr,Cu,Nb = +85000
+This work
+1Lfcc
+Cr,Cu,Nb = 0
+This work
+2Lfcc
+Cr,Cu,Nb = 0
+This work
+0Lfcc
+Co,Cr,Cu = −10000
+This work
+1Lfcc
+Co,Cr,Cu = 60000
+This work
+2Lfcc
+Co,Cr,Cu = −10000
+This work
+Bcc phase (A2): (Cr, Cu, Nb)1 and (Co, Cr, Cu)1
+0Lbcc
+Co,Cu = +35000
+This work
+0Lbcc
+Cr,Cu = +77107.48
+[22]
+0Lbcc
+Co,Cr = +1033.283 −1.481T
+[27]
+1Lbcc
+Co,Cr = +11971.501 −13.374T
+[27]
+Tbcc
+c
+= 1450xCo −311.5xCr
+[27]
+ˇbcc = 1.35xCo −0.01xCr
+[27]
+0Lbcc
+Cu,Nb = +49480.18
+[22]
+0Lbcc
+Cr,Nb = +43426.41 −13.012T
+[35]
+1Lbcc
+Cr,Nb = +13201.2 −6.666T
+[35]
+0Lbcc
+Cr,Cu,Nb = +20000
+This work
+1Lbcc
+Cr,Cu,Nb = 0
+This work
+2Lbcc
+Cr,Cu,Nb = 0
+This work
+0Lbcc
+Co,Cr,Cu = 0
+This work
+1Lbcc
+Co,Cr,Cu = −220000
+This work
+2Lbcc
+Co,Cr,Cu = 0
+This work
+Hcp phase (A3) : (Cr, Cu, Nb)1 and (Co, Cr, Cu)1
+0Lhcp
+Co,Cu = +28000
+This work
+0Lhcp
+Cr,Cu = +81100 −25T
+This work
+0Lhcp
+Co,Cr = −28673.682 + 15.511T
+[27]
+1Lhcp
+Co,Cr = +12673.561 −14.839T
+[27]
+Thcp
+c
+=
+1396xCo −1109xCr −5828.677xCoxCr + 4873.953(xCo −xCr)xCoxCr
+[27]
+ˇhcp = 1.35xCo −2.46xCr
+[27]
+0Lhcp
+Cu,Nb = +20000
+This work
+0Lhcp
+Cr,Cu,Nb = 0
+This work
+0Lhcp
+Co,Cr,Cu = 0
+This work
+ phase(D8b): (Co)8(Cr)4(Co,Cr)18
+0G
+Co:Cr:Co = −16898.719 −29.814T + 80Gfcc
+Co + 40Gbcc
+Cr + 180Gbcc
+Co
+[27]
+0G
+Co:Cr:Cr = −259935.807 + 85.097T + 80Gfcc
+Co + 220Gbcc
+Cr
+[27]
+Table 3 (Continued )
+Parameters in each phase (J/mol)
+Reference
+Cr2Nb phase (C14): (Cr, Nb)1(Cr, Nb)2
+0GC14
+Cr:Cr = +15000 + 30Gbcc
+Cr
+[35]
+0GC14
+Cr:Nb = +42667.55 −31.011T + 5TLnT + 0Gbcc
+Cr + 20Gbcc
+Nb
+[35]
+0GC14
+Nb:Cr = −12667.55 + 31.011T −5TLnT + 0Gbcc
+Nb + 20Gbcc
+Cr
+[35]
+0GC14
+Nb:Nb = +15000 + 30Gbcc
+Nb
+[35]
+0LC14
+Cr,Nb:Cr = +18511.36
+[35]
+0LC14
+Cr,Nb:Nb = +18511.36
+[35]
+0LC14
+Cr:Cr,Nb = +90673.45
+[35]
+0LC14
+Nb:Cr,Nb = +90673.45
+[35]
+Cr2Nb phase (C15): (Cr, Nb)1(Cr, Nb)2
+0GC15
+Cr:Cr = +15000 + 30Gbcc
+Cr
+[35]
+0GC15
+Cr:Nb = +48087.03 −34.011T + 5TLnT + 0Gbcc
+Cr + 20Gbcc
+Nb
+[35]
+0GC15
+Nb:Cr = −18087.03 + 34.011T −5TLnT + 0Gbcc
+Nb + 20Gbcc
+Cr
+[35]
+0GC15
+Nb:Nb = +15000 + 30Gbcc
+Nb
+[35]
+0LC15
+Cr,Nb:Cr = +17565.57
+[35]
+0LC15
+Cr,Nb:Nb = +17565.57
+[35]
+0LC15
+Cr:Cr,Nb = +83366.02
+[35]
+0LC15
+Nb:Cr,Nb = +83366.02
+[35]
+3. Thermodynamic calculations
+3.1. Thermodynamic models
+The Gibbs free energies of the liquid, bcc, fcc, and hcp phases
+in A–B–C ternary system corresponding to the Cr–Cu–Nb and
+Co–Cr–Cu systems are described by the subregular solution model,
+Fig. 3. (a) Homogenous microscopic morphology of the Cu49Cr2Co49 (wt.%) alloy;
+(b) separated microscopic morphology of the Cu46Cr8Co46 (wt.%) alloy.
+
+=== PDF PAGE 5 ===
+X.J. Liu et al. / Journal of Alloys and Compounds 478 (2009) 287–296
+291
+Fig. 4. Calculated binary phase diagrams in the (a) Cu–Co [17], (b) Cu–Cr [22], (c) Cu–Nb [22], (d) Co–Cr [27], and (e) Cr–Nb [35] systems.
+as follows:
+G
+m =
+
+i=A,B,C
+0G
+i xi + RT
+
+i=A,B,C
+xi ln xi + EG
+m + magG
+m,
+(1)
+where G
+i is the molar Gibbs free energy of pure element i in the
+structure  phase, the Gibbs free energy of pure component i in
+its different phase states is taken from the SGTE database [14]. R
+is the gas constant, and T is the absolute temperature. xi is the
+mole fraction of component i, and the term EG
+m is the excess
+free energy, which is expressed by the Redlich–Kister polynomials
+[15] as
+EG
+m = L
+ABxAxB + L
+ACxAxC + L
+BCxBxC + L
+ABCxAxBxC,
+(2)
+L
+ij = 0L
+ij + 1L
+ij (x
+i −x
+j ) + 2L
+ij (x
+i −x
+j )
+2
++ 3L
+ij (x
+i −x
+j )
+3
++ · · · =
+n
+
+m=0
+mL
+ij (x
+i −x
+j )
+m
+,
+(3)
+mL
+ij = a + bT + cT ln T,
+(4)
+L
+ABC = 0L
+ABCxA + 1L
+ABCxB + 2L
+ABCxC,
+(5)
+nL
+ABC = a′ + b′T,
+(6)
+
+=== PDF PAGE 6 ===
+292
+X.J. Liu et al. / Journal of Alloys and Compounds 478 (2009) 287–296
+where L
+i,j is the interaction parameter in the i–j binary system,
+and the L
+ABC corresponds to the interaction parameters in ternary
+system. The coefﬁcients a′ and b′ were evaluated in the present
+work.
+In the Cu–Cr–Co ternary system, the magnetic contribution to
+Gibbs free energy for the fcc, bcc and hcp phases is considered
+because magnetic transformation exists in these phases. The term
+magG
+m is expressed as follows [16]:
+magG
+m = RT ln(ˇ + 1)f (),
+(7)
+where  = T/T
+c , T
+c is the Curie temperature of solution for fer-
+romagnetic ordering and ˇ is the Bohr magnetron number, the
+function f() is formulated by the polynomial of the normalized
+temperature, as follows:
+f () = 1 −1
+D
+×
+
+79−1
+140P + 474
+497
+ 1
+P −1
+
+3
+6 + 9
+135 + 15
+600
+
+for  ≤1,
+(8)
+f () = −1
+D
+
+−5
+10 + −15
+315 + −25
+1500
+
+for  > 1,
+(9)
+where D =
+518
+1125 + 11692
+15975
+	 1
+P −1
+and P depends on the structure, 0.4
+for the bcc structure and 0.28 for others.
+Fig. 5. Calculated isothermal section diagrams of the Cu–Cr–Nb system at (a) 873 K, (b) 1073 K, (c) 1173 K, (d) 1273 K, (e) 1373 K, (f) 1473 K, (g) 1573 K and (h) 1873 K.
+
+=== PDF PAGE 7 ===
+X.J. Liu et al. / Journal of Alloys and Compounds 478 (2009) 287–296
+293
+Fig. 5. (Continued ).
+3.2. Thermodynamic optimization
+Several thermodynamic assessments of the Cu–Co [17–21],
+Cu–Cr [22–26], Cu–Nb [22], Co–Cr [27–33], and Cr–Nb [34,35]
+binary systems have been carried out by using the CALPHAD
+method. The optimized parameters of the Cu–Co [17], Cu–Cr [22],
+Cu–Nb [22], Co–Cr [27], and Cr–Nb [35] systems were used in the
+present work by considering the consistency of the thermodynamic
+database for the Cu-based alloys developed by our group [36–38].
+The calculated binary phase diagrams are shown in Fig. 4.
+The optimization was carried out by using the PARROT [39] mod-
+ule in the Thermo-Calc software [40], which can handle various
+kinds of experimental data. The experimental data of the phase
+diagram were used as input to the program. Each piece of selected
+information was given a certain weight by the importance of data,
+and changed by trial and error during the assessment, until most
+of the selected experimental information is reproduced within the
+expected uncertainty limits. All the parameters were eventually
+optimized to obtain the best consistency between calculated results
+and experimental data. The evaluated ternary interaction parame-
+ters for each phase in the Cu–Cr–Nb and Cu–Cr–Co systems are
+listed in Table 3.
+3.2.1. Phase equilibria in the Cu–Cr–Nb and Cu–Cr–Co ternary
+systems
+Since no experimental data about thermodynamic properties
+of the Cu–Cr–Nb system are available, the present thermodynamic
+assessment was carried out on the basis of the experimental data on
+phase equilibria obtained in the present work and by Nikolayev and
+Rozenberg [9], where the parameters of the fcc, bcc and hcp phases
+were optimized. The thermodynamic parameter of the liquid phase
+was evaluated based on the experimental data of the liquid/solid
+equilibrium and information of the macroscopic morphology. The
+calculated isothermal section diagrams of the Cu–Cr–Nb ternary
+system with the experimental data at 873, 1073, 1173, 1273, 1373,
+1473, 1573 and 1873 K are shown in Fig. 5. It is seen that the calcu-
+lated results are in good agreement with the experimental data. A
+stable liquid-phase miscibility gap exists in this system, as shown
+in Fig. 5(h). The calculated vertical section diagrams at Cu–Cr2Nb
+and 30 wt.% Cu sections are shown in Fig. 6(a) and (b) compared
+with the experimental data by Nikolayev and Rozenberg [9] and
+present work, respectively. In the vertical diagram at the Cu–Cr2Nb
+section, the experimental data is limited in the Cu-rich portion, the
+phase equilibria in other part were predicted based on the opti-
+mized parameters.
+The thermodynamic parameters for the Cu–Cr–Co ternary sys-
+tem were evaluated on the basis of the experimental data by
+Fig. 6. Calculated vertical section diagrams at (a) Cu–Cr2Nb section and (b) 30 wt.%
+Cu in the Cu–Cr–Nb system.
+
+=== PDF PAGE 8 ===
+294
+X.J. Liu et al. / Journal of Alloys and Compounds 478 (2009) 287–296
+Fig. 7. Calculated isothermal section diagrams of the Cu–Cr–Co system at (a) 1073 K, (b) 1150 K, (c) 1173 K, (d) 1200 K, (e) 1273 K, (f) 1300 K, (g) 1373 K, (h) 1450 K, (i) 1500 K,
+(j) 1550 K and (k) 1800 K. (
+) Ref. [10], (
+) two-phase equilibrium in the present work.
+
+=== PDF PAGE 9 ===
+X.J. Liu et al. / Journal of Alloys and Compounds 478 (2009) 287–296
+295
+Fig. 7. (Continued ).
+the present work and Hasebe [10], where the parameters of
+the solid phases were optimized. The parameter of the liquid
+phase was also evaluated based on the experimental data of
+the liquid/solid equilibrium and information of the macroscopic
+morphology. The calculated isothermal section diagrams for the
+Cu–Cr–Co ternary system with experimental data at 1073, 1150,
+1173, 1200, 1273, 1300, 1373, 1450, 1500, 1550 and 1800 K are
+shown in Fig. 7. In the Cu–Cr–Co system, there exists a sta-
+ble miscibility gap of the fcc phase in the Cu–Co side in the
+range from 1073 to 1300 K, as shown in Fig. 7(a)–(f), and a sta-
+ble liquid-phase miscibility gap exists in this system, as shown in
+Fig. 7(k).
+Fig. 8. Calculated miscibility gap of the liquid phase in (a) the Cu–Cr–Nb and (b) the Cu–Cr–Co systems.
+
+=== PDF PAGE 10 ===
+296
+X.J. Liu et al. / Journal of Alloys and Compounds 478 (2009) 287–296
+3.2.2. Miscibility gaps of the liquid phase in the Cu–Cr–Nb and
+Cu–Cr–Co systems
+It is well known that there exists a metastable miscibility gap
+of the liquid phase at higher temperature in the Cu–Co [17,21,41],
+Cu–Cr [23] and Cu–Nb [42] binary systems, respectively. According
+to the present work, a stable miscibility gap of the liquid phase
+appears when 4 wt.% Nb is added to the Cu–Cr system and 8 wt.%
+Cr is added to the Cu–Co system.
+The calculated metastable and stable miscibility gaps in the
+liquid phase in the Cu–Cr–Nb and Cu–Cr–Co systems are shown
+in Fig. 8. It can be seen that the tie-lines in the Cu–Cr–Nb and
+Cu–Cr–Co systems lie along the Cu–CrNb and Cu–CoCr directions,
+and the islands of miscibility gap exist in both systems. An expla-
+nation for this is given from the predictions of Niessen et al. [43]
+and the thermodynamic parameters used in the Cu–Cr–Nb and
+Cu–Cr–Co systems summarized in Table 3. The relation between
+mixing enthalpies of the liquid in these systems is as follows:
+HCuNb(+) >> HCrCu(+) > HCrNb(−)
+HCrCu(+) ≥HCoCu(+) > HCoCr(−)
+Since there exists a repulsion force between Cu and Co, Nb, or
+Cr, but an attractive force between Cr and Nb or Co, the tie-lines
+radiate from the Cu corner to the Cr–Nb or Co–Cr sides.
+4. Conclusions
+(1) The phase equilibria were experimentally determined in the
+Cu–Cr–Nb system and the Cu–Cr–Co system in the temperature
+ranges from 1073 to 1573 K and from 1073 to 1373 K, respec-
+tively. No ternary compound was found in both systems.
+(2) Thermodynamic assessments in the Cu–Cr–Nb and Cu–Cr–Co
+ternary phase diagrams were carried out based on the present
+experimental values and available data from the literature by
+the CALPHAD method. A good agreement between the calcu-
+lated results and experimental data is obtained.
+Acknowledgements
+This work was supported by the National Natural Science Foun-
+dation of China (Nos. 50425101 and 50771088), the Ministry of
+Education, PR China (Nos. 20050384003 and 707037). And the sup-
+port from a Grant-in-Aid Core Research for Evolutional Science, and
+Technology (CREST), Japan Science and Technology Agency (JST) is
+also acknowledged.
+References
+[1] A. Lamperti, P.M. Ossi, V.P. Rotshtein, Surf. Coat. Technol. 200 (2006) 6373–6377.
+[2] V.G. Ivanchenko, O.N. Filatova, Powder Metall. Met. Ceram. 35 (1996) 167–
+172.
+[3] Z.M. Zhou, Y.P. Wang, J. Gao, M. Kolbe, Mater. Sci. Eng. A 398 (2005) 318–
+322.
+[4] X.F. Wang, J.Z. Zhao, J. He, Mater. Sci. Eng. A 460–461 (2007) 69–76.
+[5] D.L. Ellis, G.M. Michal, N.W. Orth, Scr. Metall. Mater. 24 (1990) 885–
+890.
+[6] J. Stobrawa, L. Ciura, Z. Rdzawski, Scr. Mater. 34 (1996) 1759–1763.
+[7] K.R. Anderson, J.R. Groza, Metall. Trans. A 32A (2001) 1211–1224.
+[8] K.R. Anderson, J.R. Groza, D.G. Ulmer, Scr. Mater. 37 (1997) 179–185.
+[9] A.K. Nikolayev, V.M. Rozenberg, Russ. Metall. 5 (1972) 118–121.
+[10] M. Hasebe, Thesis of Doctor of Eng., Tohoku University of Japan, 1982.
+[11] L. Kaufman, H. Bernstein, Computer Calculation of Phase Diagram, Academic
+Press, New York, 1970.
+[12] C.P. Wang, X.J. Liu, I. Ohnuma, R. Kainuma, K. Ishida, Science 297 (2002)
+990–993.
+[13] C.P. Wang, X.J. Liu, Y. Takaku, I. Ohnuma, R. Kainuma, K. Ishida, Metall. Trans. A
+35A (2004) 1243–1253.
+[14] A.T. Dinsdale, CALPHAD 15 (1991) 317–425.
+[15] O. Redlich, A.T. Kister, Ind. Eng. Chem. 40 (1948) 345–348.
+[16] M. Hillert, M. Jarl, CALPHAD 2 (1978) 227–238.
+[17] J. Kubiˇsta, J. Vˇreˇst’ál, J. Phase Equilib. 21 (2000) 125–129.
+[18] L. Kaufman, CALPHAD 2 (1978) 117–146.
+[19] M. Hasebe, T. Nishizawa, CALPHAD 4 (1980) 83–100.
+[20] C. Gente, M. Oehring, R. Bormann, Phys. Rev. B 48 (1993) 13244–13252.
+[21] M. Palumbo, S. Curiotto, L. Battezzati, CALPHAD 30 (2006) 171–178.
+[22] M. Hämäläinen, K. Jääskeläinen, R. Luoma, M. Nuotio, P. Taskinen, O. Teppo,
+CALPHAD 14 (2) (1990) 125–137.
+[23] K.J. Zeng, M. Hämäläinen, CALPHAD 19 (1995) 93–104.
+[24] G.M. Kuznetsov, V.N. Fedorov, A.L. Rodnyanskaya, Izv. VUZ Tsvetn, Metall 3
+(1977) 84–86.
+[25] D.J. Chakrabarti, D.E. Laughlin, Bull. Alloy Phase Diagrams 5 (1984) 59–
+68.
+[26] N. Saunders, Mater. Sci. Technol. 3 (1987) 671–673.
+[27] K. Oikawa, G.W. Qin, T. Ikeshoji, R. Kainuma, K. Ishida, Acta Mater. 50 (2002)
+2223–2232.
+[28] A. Kusoffsky, B. Jansson, CALPHAD 21 (1997) 321–333.
+[29] J. Vreˇst’ál, J. Houserová, M. ˇSob, J. Mining Metall. B 38 (3–4) (2002) 205–
+211.
+[30] J. Houserová, J. Veˇsál, M. Friák, M. ˇSob, CALPHAD 26 (2002) 513–522.
+[31] A. Pundt, C. Michaelsen, Phys. Rev. B 56 (1997) 14352–14359.
+[32] L. Kaufman, H. Nesor, Metall. Trans. A 6A (1975) 2115–2122.
+[33] C. Allibert, C. Bernard, N. Valignat, M. Dombre, J. Less-Common Met. 59 (1978)
+211–228.
+[34] G. Shao, Intermetallics 13 (2005) 69–78.
+[35] J.G. Costa Neto, S.G. Fries, H.L. Lukas, S. Gama, G. Effenberg, CALPHAD 17 (1993)
+219–228.
+[36] C.P. Wang, X.J. Liu, I. Ohnuma, R. Kainuma, K. Ishida, J. Phase Equilib. 21 (2000)
+54–62.
+[37] C.P. Wang, X.J. Liu, I. Ohnuma, R. Kainuma, K. Ishida, J. Phase Equilib. 23 (2002)
+236–245.
+[38] C.P. Wang, X.J. Liu, M. Jiang, I. Ohnuma, R. Kainuma, K. Ishida, J. Phys. Chem.
+Solids 66 (2005) 256–260.
+[39] B. Jansson, Ph.D. Thesis, Division of Physical Metallurgy, Royal Institute of Tech-
+nology, Stockholm, Sweden, 1984.
+[40] B. Sundman, B. Jansson, J.-O. Andersson, CALPHAD 9 (1985) 153–190.
+[41] T. Nishizawa, K. Ishida, Bull. Alloy Phase Diagrams 5 (1984) 161–165.
+[42] K.L. Zeik, D.A. Koss, I.E. Anderson, P.R. Howell, Metall. Trans. A 23A (1992)
+2159–2167.
+[43] A.K. Niessen, F.R. de Boer, R. Boom, P.F. de Chatel, W.C.M. Mattens, A.R. Miedema,
+CALPHAD 7 (1983) 51–70.

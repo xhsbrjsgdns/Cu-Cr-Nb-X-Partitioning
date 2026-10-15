@@ -1,0 +1,19 @@
+{
+  "generated_utc": "2026-09-06T17:07:48+00:00",
+  "pipeline_freeze_id": "STEP5G_FINAL_PIPELINE_FREEZE_V1",
+  "pipeline_freeze_sha256": "15efe35e2ad4f5372323067feccb989079d9fd5666153298a8c2d9f45d3b1788",
+  "verified_hashes": {
+    "primary_checkpoint": "f89e4ddc2f367a572a16a29062faa3c3d580fc8aae73a8e6bfaa28a8bcd86d0f",
+    "primary_scaler": "c2619e4aed54304a9ed895b98164b0205421310f613f50346c249de41d7e3475",
+    "secondary_checkpoint": "a685b2138f114f3274f3b789753b28971484b797ca7d375a9354021242d55719",
+    "secondary_scaler": "b247fdae442c475d58a052427a4744a62a88114d266b865e7e0f4116245d43d4",
+    "feature_schema_csv": "faebd4de9423b6087e5ae2bb7242dade2538299eb294b3318538d62c3ca86126",
+    "ni_compositions_csv": "7680b5a1ba5a2409f2b23900d770dd4939df0cf76bd2f1d9c1a2c2c5cce0030b",
+    "feature_list_txt": "f4ddf4a2587e33a7d441656110c589208d9d860095198dd4b276df64f8a2fb0c",
+    "fewshot_sequences_csv": "9c9389a100ee064bc8a52ab4a4d8cedb7558c9b95462cca0fa6736da92d6507e"
+  },
+  "clarification_sha256": "2c57ceb6cf40e874e96b22b4ad483be3aacae07851003e8b01413a29e60f1b7d",
+  "clarification_is_additive_only": true,
+  "frozen_artifacts_edited": 0,
+  "ni_property_access_so_far": 0
+}

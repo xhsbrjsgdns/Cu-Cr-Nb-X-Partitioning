@@ -1,0 +1,19 @@
+{
+  "30_step5a_audit.py": "5b30cee2a3c946fd0d2b619649a78cf091e096bf82d39ba6cebb6e6f16f9436f",
+  "31_step5a_element_descriptors.py": "2810e6bacbab23364b83dfb2e677723f428d6f019687685a63d5b43157e678dd",
+  "32_step5a_features.py": "09896c2aaf4b99022941727fa778178b984ded7acadc852d401fbc1d759a29e5",
+  "33_step5a_master_split.py": "6c971bb5ae80fdc44bb0006e99abac317097a412635572ee95ea62a8a13af6e7",
+  "34_step5a_leakage_audit.py": "676e375506c3c3f3ceedfa29aa56ec0a052d0542a8cb4fb7169d18cbd1332b50",
+  "35_step5a_feature_selection.py": "ff2892f51547ec7b4fc83140db1adb76c37f82f0381c7b1f42c0ae5b1f0ef2ed",
+  "36_step5a_feature_ablation.py": "c3c21b662dd4ff20b7668880212f0ee3b66310faa4ee641c7c753c362b93dd0f",
+  "37_step5a_model_screen.py": "4d22a0d5c6fe0281786669673e69349932e7f68f9af97d720351b1a34bca3698",
+  "38_step5a_tune.py": "f77e4cf43e170a2e62ecb85840289f4eef80657ffcbe4a9d358ee7e46068f28b",
+  "39_step5a_development_freeze.py": "d5d60b00143b319a0444d546467075fd722dc1422642f1925d0b70c20f09e5d0",
+  "39b_step5a_code_snapshot.py": "e59e5d01a738fd34750961e57d0835d90a40baae999cd76a16d04fc6133552e3",
+  "40_step5a_iid_test.py": "560650179f3c26311b5bea7601393acc08434e3a5079d497c3ef3066f38f14e6",
+  "41_step5a_bootstrap.py": "0c6788dfd97ad9db79d70065f5d1eba3c416523306f99675a4d36ae3d2bd2a72",
+  "42_step5a_error_analysis.py": "0ca63492c72f2567f01095feb699f8628acec20afb5d887469e8aaed255ad226",
+  "43_step5a_figures.py": "318e84809aa1658d221b7fbf60938ba8d637900b3ac03776094b2f885e35a065",
+  "44_step5a_final_qa.py": "2d8414b7e9a05f5911b67af316c94c37ba16deb355a7316c7b67bacc9a5f7494",
+  "step5a_common.py": "5d54844a2971c2e7201f212172bdd16c79cacebe12f4b25ed053878ccef87c45"
+}

@@ -1,0 +1,12 @@
+source,source_version,property,raw_field,unit,value,required_by_features,first_access_timestamp,status
+matminer MagpieData (magpie.data.json),0.10.1,AtomicNumber,Number,-,28.0,Zbar; X_AtomicNumber; Delta_AtomicNumber_X_Cu,2026-09-06T17:07:50+00:00,EXTRACTED
+matminer MagpieData (magpie.data.json),0.10.1,AtomicWeight,AtomicWeight,amu,58.6934,wt%->atomic-fraction conversion for EVERY composition-level feature; magpie_minimum_AtomicWeight; magpie_range_AtomicWeight,2026-09-06T17:07:50+00:00,EXTRACTED
+matminer MagpieData (magpie.data.json),0.10.1,CovalentRadius,CovalentRadius,pm,124.0,magpie_range_CovalentRadius (via frozen matminer preset),2026-09-06T17:07:50+00:00,EXTRACTED
+matminer MagpieData (magpie.data.json),0.10.1,Electronegativity,Electronegativity,Pauling,1.91,delta_chi; Delta_Electronegativity_X_Cu; magpie_minimum/maximum/range_Electronegativity,2026-09-06T17:07:50+00:00,EXTRACTED
+matminer MagpieData (magpie.data.json),0.10.1,VEC,NValence,count,10.0,X_VEC; Delta_VEC_X_Cu; Delta_VEC_X_Cr; magpie_minimum_NValence,2026-09-06T17:07:50+00:00,EXTRACTED
+matminer MagpieData (magpie.data.json),0.10.1,MeltingT,MeltingT,K,1728.0,X_MeltingT; Delta_MeltingT_X_Cu; Delta_MeltingT_X_Cr; magpie_minimum/maximum/range_MeltingT,2026-09-06T17:07:50+00:00,EXTRACTED
+matminer MagpieData (magpie.data.json),0.10.1,FirstIonizationEnergy,FirstIonizationEnergy,eV,7.6398,Delta_FirstIonizationEnergy_X_Cu; Delta_FirstIonizationEnergy_X_Cr,2026-09-06T17:07:50+00:00,EXTRACTED
+matminer MagpieData (magpie.data.json),0.10.1,AtomicVolume_GS,GSvolume_pa,A^3/atom,10.32,AtomicVol_bar; magpie_minimum/maximum_GSvolume_pa,2026-09-06T17:07:50+00:00,EXTRACTED
+mendeleev built-in elemental database,1.2.0,MetallicRadius,atomic_radius,pm,135.0,r_bar; delta_r,2026-09-06T17:07:50+00:00,EXTRACTED
+mendeleev built-in elemental database,1.2.0,Density,density,g/cm^3,8.9,density_bar; Delta_Density_X_Cu,2026-09-06T17:07:50+00:00,EXTRACTED
+matminer ElementProperty.from_preset('magpie') [aggregate access],0.10.1,MAGPIE_PRESET_AGGREGATE,(preset-internal; identical frozen implementation as STEP5A),-,,"the 19 magpie_* columns of the frozen 43-feature schema, computed at featurization time (stage 92)",2026-09-06T17:07:50+00:00,ACCESSED_VIA_FROZEN_PRESET_AT_FEATURIZATION

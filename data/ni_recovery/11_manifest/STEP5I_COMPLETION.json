@@ -1,0 +1,11 @@
+{
+  "generated_utc": "2026-09-07T06:01:22+00:00",
+  "items_pass": 32,
+  "items_total": 32,
+  "files_hashed": 132,
+  "forbidden_phrases": {},
+  "recommendation_category": "A_DIRECT_FEW_SHOT_SUFFICIENT",
+  "recommendation_executed": false,
+  "decision": "READY FOR USER REVIEW",
+  "blocking_reasons": []
+}

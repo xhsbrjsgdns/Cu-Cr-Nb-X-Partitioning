@@ -1,0 +1,14 @@
+{
+  "generated_utc": "2026-09-07T06:01:14+00:00",
+  "source": "executed from the frozen STEP5G code snapshot g_common.py, not re-implemented",
+  "g_common_sha256": "d8187a3c8d57098f1875042f4bad7e4cf3ab6dece71b7efd65f7ff1c2f004971",
+  "definitions": {
+    "R0": "Ignore the model. For each temperature T, predict the mean true X-partition simplex of the k anchor compositions at that same T. This is the control: if R2 does not beat R0, no improvement beyond the anchors is demonstrated by R2 under this protocol.",
+    "R1": "delta = mean over all k*11 anchor states of (true - raw model output); corrected = project_simplex(raw + delta). One 5-vector for the whole set.",
+    "R2": "delta_T = mean over the k anchor states at temperature T of (true - raw model output); corrected = project_simplex(raw + delta_T). Eleven 5-vectors; exactly k anchor states feed each, so it is defined for every budget including k=1."
+  },
+  "anchor_raw_source": "frozen STEP5H-A PRIMARY raw (unprojected) outputs",
+  "anchor_true_source": "frozen STEP5H-B Ni targets",
+  "evaluation_rows": 15400,
+  "all_methods_same_rows": true
+}

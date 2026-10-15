@@ -1,0 +1,246 @@
+{
+  "generated_utc": "2026-09-12T02:36:39+00:00",
+  "canonical_master": "STEP5K_R3_CANONICAL_MASTER.csv",
+  "canonical_master_sha256": "e84482443ced20e2ab940cbe0f814142c07b5649326d5a47b923c99ccdea0695",
+  "regenerated_from": "02_source_extraction/ALL_CONDITIONS.json",
+  "regenerated_from_sha256": "63b0e6f36feb4b59cd0d9cfea49596cea5858b5f5703ea69f2a8cdab1afdf0c6",
+  "generator": "code_snapshot/assemble_inputs.py, master construction restated verbatim in r3_05_repair_seal.build_master",
+  "on_disk_master_sha256": "e84482443ced20e2ab940cbe0f814142c07b5649326d5a47b923c99ccdea0695",
+  "canonical_vs_on_disk": "byte-identical",
+  "content_identical": true,
+  "provenance_chain": [
+    "printed source PDF (hash in STEP5K_R3_SOURCE_MANIFEST.csv)",
+    "02_source_extraction/<source>/conditions.json (manual transcription)",
+    "02_source_extraction/ALL_CONDITIONS.json (SEALED by the parent seal)",
+    "02_source_extraction/STEP5K_R3_EXPERIMENTAL_CONDITIONS_MASTER.csv (deterministic rendering; never itself sealed)"
+  ],
+  "per_source_to_sealed_record_check": {
+    "performed": true,
+    "n_source_records": 149,
+    "n_mismatched_fields": 0,
+    "first_mismatches": [],
+    "conclusion": "every field transcribed in the per-source extraction files is carried into the sealed record unchanged; the sealed record adds derived keys, applies the one named normalisation above, and alters nothing else"
+  },
+  "generator_normalisations": {
+    "system": "replace U+2013 EN DASH with '-' (assemble_inputs.py line: e['system']=e['system'].replace('–','-'))"
+  },
+  "column_classification": {
+    "condition_id": {
+      "class": "SOURCE_TRANSCRIBED",
+      "reason": "transcribed from the printed source and carried into the sealed record unchanged"
+    },
+    "source_id": {
+      "class": "SOURCE_TRANSCRIBED",
+      "reason": "transcribed from the printed source and carried into the sealed record unchanged"
+    },
+    "system": {
+      "class": "SOURCE_TRANSCRIBED",
+      "reason": "transcribed from the printed source and carried into the sealed record unchanged"
+    },
+    "X_identity": {
+      "class": "SOURCE_TRANSCRIBED",
+      "reason": "transcribed from the printed source and carried into the sealed record unchanged"
+    },
+    "alloy_id": {
+      "class": "SOURCE_TRANSCRIBED",
+      "reason": "transcribed from the printed source and carried into the sealed record unchanged"
+    },
+    "nominal_composition_original": {
+      "class": "SOURCE_TRANSCRIBED",
+      "reason": "transcribed from the printed source and carried into the sealed record unchanged"
+    },
+    "composition": {
+      "class": "SOURCE_TRANSCRIBED",
+      "reason": "transcribed from the printed source and carried into the sealed record unchanged"
+    },
+    "composition_basis": {
+      "class": "SOURCE_TRANSCRIBED",
+      "reason": "transcribed from the printed source and carried into the sealed record unchanged"
+    },
+    "temperature_original": {
+      "class": "SOURCE_TRANSCRIBED",
+      "reason": "transcribed from the printed source and carried into the sealed record unchanged"
+    },
+    "temperature_unit": {
+      "class": "SOURCE_TRANSCRIBED",
+      "reason": "transcribed from the printed source and carried into the sealed record unchanged"
+    },
+    "temperature_C": {
+      "class": "SOURCE_TRANSCRIBED",
+      "reason": "transcribed from the printed source and carried into the sealed record unchanged"
+    },
+    "temperature_K": {
+      "class": "SOURCE_TRANSCRIBED",
+      "reason": "transcribed from the printed source and carried into the sealed record unchanged"
+    },
+    "annealing_time": {
+      "class": "SOURCE_TRANSCRIBED",
+      "reason": "transcribed from the printed source and carried into the sealed record unchanged"
+    },
+    "equilibration_status": {
+      "class": "SOURCE_TRANSCRIBED",
+      "reason": "transcribed from the printed source and carried into the sealed record unchanged"
+    },
+    "cooling_condition": {
+      "class": "SOURCE_TRANSCRIBED",
+      "reason": "transcribed from the printed source and carried into the sealed record unchanged"
+    },
+    "characterization": {
+      "class": "SOURCE_TRANSCRIBED",
+      "reason": "transcribed from the printed source and carried into the sealed record unchanged"
+    },
+    "phases": {
+      "class": "SOURCE_TRANSCRIBED",
+      "reason": "transcribed from the printed source and carried into the sealed record unchanged"
+    },
+    "measured_phases": {
+      "class": "SOURCE_TRANSCRIBED",
+      "reason": "transcribed from the printed source and carried into the sealed record unchanged"
+    },
+    "page": {
+      "class": "SOURCE_TRANSCRIBED",
+      "reason": "transcribed from the printed source and carried into the sealed record unchanged"
+    },
+    "table": {
+      "class": "SOURCE_TRANSCRIBED",
+      "reason": "transcribed from the printed source and carried into the sealed record unchanged"
+    },
+    "figure": {
+      "class": "SOURCE_TRANSCRIBED",
+      "reason": "transcribed from the printed source and carried into the sealed record unchanged"
+    },
+    "source_evidence_note": {
+      "class": "SOURCE_TRANSCRIBED",
+      "reason": "transcribed from the printed source and carried into the sealed record unchanged"
+    },
+    "direct_eligible": {
+      "class": "SOURCE_TRANSCRIBED",
+      "reason": "transcribed from the printed source and carried into the sealed record unchanged"
+    },
+    "exclusion_reason": {
+      "class": "SOURCE_TRANSCRIBED",
+      "reason": "transcribed from the printed source and carried into the sealed record unchanged"
+    },
+    "composition_wt_pct": {
+      "class": "DERIVED_AND_SEALED",
+      "reason": "computed by the generator from transcribed evidence, then written into ALL_CONDITIONS.json before the seal was taken"
+    },
+    "conversion_valid": {
+      "class": "DERIVED_AND_SEALED",
+      "reason": "computed by the generator from transcribed evidence, then written into ALL_CONDITIONS.json before the seal was taken"
+    },
+    "TARGET_DOMAIN_RELEVANCE": {
+      "class": "DERIVED_AND_SEALED",
+      "reason": "computed by the generator from transcribed evidence, then written into ALL_CONDITIONS.json before the seal was taken"
+    },
+    "system_relation_class": {
+      "class": "DERIVED_AND_SEALED",
+      "reason": "computed by the generator from transcribed evidence, then written into ALL_CONDITIONS.json before the seal was taken"
+    },
+    "Cu_original": {
+      "class": "DERIVED_AT_RENDER_TIME",
+      "reason": "added when the CSV was written from the sealed JSON; not part of the sealed record"
+    },
+    "Cr_original": {
+      "class": "DERIVED_AT_RENDER_TIME",
+      "reason": "added when the CSV was written from the sealed JSON; not part of the sealed record"
+    },
+    "Nb_original": {
+      "class": "DERIVED_AT_RENDER_TIME",
+      "reason": "added when the CSV was written from the sealed JSON; not part of the sealed record"
+    },
+    "X_original": {
+      "class": "DERIVED_AT_RENDER_TIME",
+      "reason": "added when the CSV was written from the sealed JSON; not part of the sealed record"
+    },
+    "phase_1": {
+      "class": "DERIVED_AT_RENDER_TIME",
+      "reason": "added when the CSV was written from the sealed JSON; not part of the sealed record"
+    },
+    "phase_2": {
+      "class": "DERIVED_AT_RENDER_TIME",
+      "reason": "added when the CSV was written from the sealed JSON; not part of the sealed record"
+    },
+    "phase_3": {
+      "class": "DERIVED_AT_RENDER_TIME",
+      "reason": "added when the CSV was written from the sealed JSON; not part of the sealed record"
+    },
+    "phase_4": {
+      "class": "DERIVED_AT_RENDER_TIME",
+      "reason": "added when the CSV was written from the sealed JSON; not part of the sealed record"
+    },
+    "measured_phase_compositions_available": {
+      "class": "DERIVED_AT_RENDER_TIME",
+      "reason": "added when the CSV was written from the sealed JSON; not part of the sealed record"
+    },
+    "printed_page": {
+      "class": "SOURCE_TRANSCRIBED",
+      "reason": "transcribed from the printed source and carried into the sealed record unchanged"
+    },
+    "prior_heat_treatment": {
+      "class": "SOURCE_TRANSCRIBED",
+      "reason": "transcribed from the printed source and carried into the sealed record unchanged"
+    }
+  },
+  "column_class_counts": {
+    "SOURCE_TRANSCRIBED": 26,
+    "DERIVED_AT_RENDER_TIME": 9,
+    "DERIVED_AND_SEALED": 4
+  },
+  "scientific_columns": [
+    "X_identity",
+    "alloy_id",
+    "annealing_time",
+    "characterization",
+    "composition",
+    "composition_basis",
+    "condition_id",
+    "cooling_condition",
+    "direct_eligible",
+    "equilibration_status",
+    "exclusion_reason",
+    "figure",
+    "measured_phases",
+    "nominal_composition_original",
+    "page",
+    "phases",
+    "printed_page",
+    "prior_heat_treatment",
+    "source_evidence_note",
+    "source_id",
+    "system",
+    "table",
+    "temperature_C",
+    "temperature_K",
+    "temperature_original",
+    "temperature_unit"
+  ],
+  "derived_columns_inside_the_seal": [
+    "TARGET_DOMAIN_RELEVANCE",
+    "composition_wt_pct",
+    "conversion_valid",
+    "system_relation_class"
+  ],
+  "derived_columns_added_at_render_time": [
+    "Cr_original",
+    "Cu_original",
+    "Nb_original",
+    "X_original",
+    "measured_phase_compositions_available",
+    "phase_1",
+    "phase_2",
+    "phase_3",
+    "phase_4"
+  ],
+  "invariants": {
+    "condition IDs unchanged": true,
+    "inclusion decisions unchanged": true,
+    "selected request IDs unchanged": true,
+    "compositions unchanged (master vs sealed request table)": true,
+    "converted wt.% values unchanged (master vs conversion table)": true,
+    "temperatures unchanged": true,
+    "source IDs unchanged": true,
+    "domain classifications unchanged": true,
+    "request set unchanged": true
+  }
+}

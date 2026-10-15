@@ -1,0 +1,58 @@
+[
+  {
+    "id": "TI_Shi2023",
+    "doi": "10.1016/j.calphad.2023.102581",
+    "crossref": {
+      "status": 400,
+      "url": "https://api.crossref.org/works/10.1016/j.calphad.2023.102581?x=1",
+      "bytes": 196
+    },
+    "pdf": {
+      "status": 403,
+      "url": "https://papers.ssrn.com/sol3/Delivery.cfm/a745d6ce-5a85-4319-9279-51aba3384cff-MECA.pdf?abstractid=4363764&mirid=1",
+      "bytes": 5881
+    }
+  },
+  {
+    "id": "SI_Yu2011",
+    "doi": "10.1016/j.matchemphys.2010.11.033",
+    "crossref": {
+      "status": 400,
+      "url": "https://api.crossref.org/works/10.1016/j.matchemphys.2010.11.033?x=1",
+      "bytes": 196
+    }
+  },
+  {
+    "id": "ZR_Hughes2022",
+    "doi": "10.1016/j.jmrt.2022.07.113",
+    "crossref": {
+      "status": 400,
+      "url": "https://api.crossref.org/works/10.1016/j.jmrt.2022.07.113?x=1",
+      "bytes": 196
+    },
+    "pdf": {
+      "status": 200,
+      "url": "https://pure-oai.bham.ac.uk/ws/files/215681972/HughesJ2022Full-stage.pdf",
+      "bytes": 3242490
+    },
+    "pages": 11
+  },
+  {
+    "id": "TI_SI_Sumino2019",
+    "doi": "10.34562/jic.58.1_64",
+    "crossref": {
+      "status": 400,
+      "url": "https://api.crossref.org/works/10.34562/jic.58.1_64?x=1",
+      "bytes": 196
+    }
+  },
+  {
+    "id": "ZR_2012",
+    "doi": "10.1016/j.actamat.2012.01.038",
+    "crossref": {
+      "status": 400,
+      "url": "https://api.crossref.org/works/10.1016/j.actamat.2012.01.038?x=1",
+      "bytes": 196
+    }
+  }
+]

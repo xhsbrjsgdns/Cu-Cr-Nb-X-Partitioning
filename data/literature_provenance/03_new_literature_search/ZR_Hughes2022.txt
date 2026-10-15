@@ -1,0 +1,803 @@
+
+=== PDF PAGE 1 ===
+ 
+ 
+University of Birmingham
+Full-stage precipitation during aging of Cu-0.55Cr-
+0.07Zr alloy for high heat flux fusion reactor
+technology
+Hughes, J.; Toyama, T.; Gorley, M.; Jimenez-Melero, E.
+DOI:
+10.1016/j.jmrt.2022.07.113
+License:
+Creative Commons: Attribution (CC BY)
+Document Version
+Publisher's PDF, also known as Version of record
+Citation for published version (Harvard):
+Hughes, J, Toyama, T, Gorley, M & Jimenez-Melero, E 2022, 'Full-stage precipitation during aging of Cu-0.55Cr-
+0.07Zr alloy for high heat flux fusion reactor technology', Journal of Materials Research and Technology, vol. 20,
+pp. 801-810. https://doi.org/10.1016/j.jmrt.2022.07.113
+Link to publication on Research at Birmingham portal
+General rights
+Unless a licence is specified above, all rights (including copyright and moral rights) in this document are retained by the authors and/or the
+copyright holders. The express permission of the copyright holder must be obtained for any use of this material other than for purposes
+permitted by law.
+•Users may freely distribute the URL that is used to identify this publication.
+•Users may download and/or print one copy of the publication from the University of Birmingham research portal for the purpose of private
+study or non-commercial research.
+•User may use extracts from the document in line with the concept of ‘fair dealing’ under the Copyright, Designs and Patents Act 1988 (?)
+•Users may not further distribute the material nor use it for the purposes of commercial gain.
+Where a licence is displayed above, please note the terms and conditions of the licence govern your use of this document.
+When citing, please reference the published version.
+Take down policy
+While the University of Birmingham exercises care and attention in making items available there are rare occasions when an item has been
+uploaded in error or has been deemed to be commercially or otherwise sensitive.
+If you believe that this is the case for this document, please contact UBIRA@lists.bham.ac.uk providing details and we will remove access to
+the work immediately and investigate.
+Download date: 07. Sep. 2026
+
+
+=== PDF PAGE 2 ===
+Original Article
+Full-stage precipitation during aging of
+Cu-0.55Cr-0.07Zr alloy for high heat ﬂux fusion
+reactor technology
+J. Hughes a,*, T. Toyama b, M. Gorley c, E. Jimenez-Melero a,**
+a Materials Performance Centre, Dept. of Materials, The University of Manchester, Manchester M13 9PL, UK
+b Institute for Materials Research, Tohoku University, Oarai, Ibaraki 311-1313, Japan
+c UK Atomic Energy Authority, Culham Science Centre, Abingdon, Oxfordshire, OX14 3DB, UK
+a r t i c l e i n f o
+Article history:
+Received 25 April 2022
+Accepted 17 July 2022
+Available online 1 August 2022
+Keywords:
+Cu-base alloys
+heat treatment
+precipitation
+microstructure characterization
+fusion reactor technology
+a b s t r a c t
+We have monitored the full-stage precipitate evolution in Cu-0.55Cr-0.07Zr alloy during
+aging at 480 C (753 K) up to 14 days (20160 min), using micro-hardness, positron annihi-
+lation spectroscopy, electron microscopy and atom probe tomography. Cr-rich precipitates
+form during the early stages of aging, and after 5.5 min the distribution is characterised by
+a number density of 81023 m-3 and an average precipitate size of 2.5 nm. At that time, Zr
+segregation is also detected at the precipitate sites. Longer aging times lead to precipitate
+coarsening, simultaneously with the occurrence of a Zr-rich shell around precipitates
+potentially to help reduce local coherency strains. Peak aging of the alloy is attained after
+120 min of aging, and overaging induces further precipitate coarsening and the transition
+from spherical to disc-like morphology. At the longest aging time of 14 days, the pre-
+cipitates maintain a face-centred cubic symmetry, reaching an average size of ~9 nm at a
+density of 0.21022 m-3. The presence of Zr atoms at the precipitate site and interface, and
+the disc-like morphology of overaged precipitates, should be considered when assessing
+the precipitate stability under irradiation and the precipitate/matrix interface as a potential
+sink for radiation-induced lattice defects.
+© 2022 The Author(s). Published by Elsevier B.V. This is an open access article under the CC
+BY license (http://creativecommons.org/licenses/by/4.0/).
+1.
+Introduction
+Precipitation-hardened
+CuCrZr
+alloy
+is
+selected
+for
+the
+manufacture of high heat ﬂux components in the divertor and
+ﬁrst wall of magnetically-conﬁned fusion tokamaks [1-5]. The
+compositional ranges of the CuCrZr alloy, as speciﬁed in the
+European standards EN 12167:1998 and EN 12165:1998, are 0.5-
+1.2 wt.% Cr and 0.05-0.25 wt.% Zr [6]. The mechanical strength
+- thermal conductivity balance of the material is modiﬁed by
+an initial solution annealing for 0.5-2 h at 980-1000 C (1253-
+1273K), followed by water quenching and aging for 2-4 h at
+450-480
+C (723-753 K), aiming to form a homogeneous
+dispersion of Cr-rich precipitates of ~2-3 nm in diameter
+* Corresponding author.
+** Corresponding author.
+E-mail addresses: jonathanhughes@studygroup.com (J. Hughes), enrique.jimenez-melero@manchester.ac.uk (E. Jimenez-Melero).
+Available online at www.sciencedirect.com
+journal homepage: www.elsevier.com/locate/jmrt
+j o u r n a l o f m a t e r i a l s r e s e a r c h a n d t e c h n o l o g y 2 0 2 2 ; 2 0 : 8 0 1 e8 1 0
+https://doi.org/10.1016/j.jmrt.2022.07.113
+2238-7854/© 2022 The Author(s). Published by Elsevier B.V. This is an open access article under the CC BY license (http://
+creativecommons.org/licenses/by/4.0/).
+
+
+=== PDF PAGE 3 ===
+within the Cu-base matrix close to peak aging condition [4, 6].
+However, additional brazing and diffusion bonding processes
+at temperatures > 480C (>753 K) can induce overaging and
+coarsening of the precipitate distribution, having a detri-
+mental effect on the mechanics of the material [6, 7].
+The high density of Cr precipitates and their interfaces
+with the Cu matrix possess enhanced sink strength levels for
+the recombination of vacancies and self-interstitials gener-
+ated by neutron bombardment [1]. Therefore, those pre-
+cipitates
+provide
+the
+material
+with
+high
+tolerance
+to
+radiation-induced degradation phenomena such as void
+swelling [1, 4]. Unfortunately, specimens irradiated at tem-
+peratures < 200 C undergo strain localization along channels
+of ~100-250 nm thick that are generally clear of shearable
+precipitates, dislocations and other lattice defects, resulting in
+severe loss of work hardening capability and uniform elon-
+gation [6-8]. Moreover, with irradiation at temperatures > 300
+C (> 573 K) the alloy experiences softening and thermal creep
+effects associated with the recovery of dislocation structures
+and the simultaneous coarsening of those Cr-rich precipitates
+[4, 6].
+The nano-scale Cr precipitation during material’s pro-
+cessing has been reported in a range of dilute Cu-Cr model
+alloys. Aging at 450 C triggers the appearance of Cr-rich
+Guinier-Preston (GP) zones and coherent matrix strains, that
+give rise to metastable face-centred-cubic (fcc) spherical pre-
+cipitates and enhanced lattice strains along the <110> direc-
+tion of the Cu matrix [9]. The precipitate evolution with time
+into an ordered fcc phase, possessing a cube-on-cube orien-
+tation relationship with the matrix, seems to act as an inter-
+mediate stage in the formation of larger incoherent body-
+centred-cubic (bcc) precipitates [9, 10]. There is a coexistence
+of fcc & bcc precipitates at aging times of 1-24 h, whereas the
+binary Cu-Cr alloy reaches peak strength after 8 h of aging [9].
+Extended aging times lead to bcc precipitate coarsening, and
+to the predominance of the Kurdjumov-Sachs over the
+Nishiyama-Wassermann orientation relationship [11].
+The presence of Zr in solid solution in the Cu matrix facil-
+itates the formation of a homogeneous Cr-rich precipitate
+distribution [12]. Zr also reduces the stacking fault energy of
+the matrix, and therefore increases the propensity for twin
+formation and the fatigue resistance of the alloy [13]. However,
+it simultaneously facilitates the generation of dissociated
+dislocations and stacking fault tetrahedra in radiation envi-
+ronments. The role and impact of Zr on the sequence of Cr-rich
+precipitation during aging remain unconﬁrmed. Limited elec-
+tron diffraction results suggest that Zr might promote the
+formation of an ordered B2 (CsCl-type) structure from the or-
+dered fcc phase, potentially evolving at longer times into the
+bcc precipitates [14]. In binary Cu-Zr alloys, aging leads to the
+formation of Zr clusters composed of disc-shaped monolayers
+of Zr atoms that evolve into semi-coherent, disc-like Cu5Zr
+precipitates, and therefore limits the Zr amount in solid
+solution in the Cu matrix [15]. Moreover, in the Cu-rich region
+of the Cu-Zr phase diagram, Cu5Zr undergoes a eutectoid
+decomposition reaction into fcc-Cu þ Cu51Zr14-b [16]. Other
+Cu-Zr precipitate stoichiometries have also been reported in
+the literature ([15, 16]). Overaging for 1 h at 600 C (873 K) of Cu-
+Cr-Zr specimens initially in the peak aged condition is reported
+to cause the formation of a Cu7Cr3ZrSi shell surrounding the
+Cr-rich spherical precipitates. An additional 3 h of overaging at
+600 C (873 K) promotes the thick-plate morphology of the
+precipitates during growth [17, 18].
+In this work, we have monitored the time-dependent pre-
+cipitate sequence and associated changes in local micro-
+chemistry in Cu-Cr-Zr alloy during the thermal aging treat-
+ment at 480 C (753 K) up to 14 days (20160 min), after solution
+annealing, to pinpoint the Zr role during the early stages of
+precipitation and the subsequent longer overaging behaviour of
+the precipitates. This systematic material processing study is in
+support of current material property database & handbook
+campaigns to inform, for instance, EU-DEMO design selections,
+since material properties are found to be very sensitive to heat
+treatment parameters, as compared to other parameters such
+as the alloy chemistry or test specimen size [19].
+2.
+Experimental
+The chemical composition of the as-received bar material, as
+determined by inductively coupled plasma mass spectrom-
+etry, is given in Table 1. Equivalent samples with a cross
+section of 1010 mm2 and ~1 mm thick were cut from the
+initial CuCrZr material, solutioned annealed in inert atmo-
+sphere at 1000 ºC (1273 K) for 2 h, and subsequently water
+quenched to maintain the supersaturated solid solution of Cr
+and Zr in Cu. Afterwards, the samples were aged in inert
+atmosphere at 480 ºC (753 K), each at a selected aging time up
+to 14 days (20160 min), and ﬁnally water quenched to room
+temperature. The Vickers micro-hardness of the annealed
+samples was measured using a load of 1.0 kgf and a duration
+of 10 s. Mean values for each sample were calculated from 10
+micro-hardness measurements. We have undertaken a ﬁnal
+water quenching step to room temperature to avoid any po-
+tential microstructural changes during cooling from the
+aging temperature. This approach was adopted for all aging
+times for consistency, and to follow the recommended
+practice in the nuclear fusion community to avoid a reduc-
+tion in peak hardness and mechanical properties expected in
+case of furnace or air cooling [37]. However, water quenching
+would not be strictly necessary in the case of 14 days of aging
+at 480
+C, since the microstructure is overaged prior to
+the ﬁnal cooling to room temperature, as discussed later in
+section 3.
+For scanning electron microscopy (SEM) after aging, spec-
+imens after heat treatment were prepared by mechanical
+Table 1 e Chemical composition (wt.%) of the Cu-Cr-Zr alloy used in this study, determined by inductively coupled plasma
+mass spectrometry.
+Cr
+Zr
+Zn
+Fe
+Si
+Sn
+Pb
+Al
+Ni
+Cu
+0.550
+0.074
+0.038
+0.025
+0.009
+0.002
+<0.001
+<0.003
+<0.001
+Bal.
+j o u r n a l o f m a t e r i a l s r e s e a r c h a n d t e c h n o l o g y 2 0 2 2 ; 2 0 : 8 0 1 e8 1 0
+802
+
+
+=== PDF PAGE 4 ===
+grinding to 4000 grit SiC paper, followed by electro-polishing
+using an electrolyte of 10 vol.% nitric acid and 90 vol.%
+methanol at the temperature of -40 oC (233 K). High-resolution
+backscattered electron (BSE) imaging was carried out on an FEI
+Magellan HR FEG-SEM microscope equipped with a concentric
+backscattered (CBS) detector [20, 21]. The average grain size in
+the Cu matrix was calculated using the linear intercept
+method from BSE micrographs. EBSD maps of the same region
+of interest as for the BSE analysis, and EDS maps in selected
+regions containing inclusions, were collected using an Oxford
+Instrument Electron Backscattered Diffraction (EBSD) detector
+and an Energy-dispersive X-ray Spectroscopy (EDS) detector,
+respectively, both also available on the same FEI Magellan
+microscope. The EBSD and EDS data processing was per-
+formed using the Aztec software from Oxford Instruments. In
+the EBSD data analysis, low-angle grain boundaries (LAGB)
+were classiﬁed as presenting a misorientation angle between
+2 and 15 and high-angle grain boundaries (HAGB) as those
+with an angle >15 [22, 23].
+For transmission electron microscopy (TEM) imaging and
+analysis, 3mm-diameter discs were prepared by mechanical
+pre-thinning, followed by electro-polishing using the same
+electrolyte and temperature as previously mentioned. TEM
+characterization of the precipitate distribution was performed
+using an FEI Tecnai G2 20 microscope with a LaB6 source and
+an accelerating voltage 200 kV, whereas the chemical analysis
+of the precipitates was based on STEM-EDX measurements
+using an FEI Talos F200A microscope. The analysis of the EDX
+spectra was performed using the FEI Velox analysis software.
+The average diameter of the nano-sized precipitates was
+measured using Cr Ka elemental maps. In case of disc-shaped
+precipitates, the diameter corresponds to the average value of
+the short and long distance. The foil thickness was derived
+from
+the
+fringes
+spacing
+in
+convergent
+beam
+electron
+diffraction patterns (CBED) [24]. The foil thickness values ob-
+tained were ~40-50 nm. Additionally, 3D-atom probe (3D-AP)
+tomography measurements were taken of samples in the so-
+lution annealed, and in aging condition after 5, 60 and 1440
+min at 480 C. Needle-like samples for 3D-AP analysis were
+prepared via a micro-sampling method using a focused ion
+beam [25]. 3D-AP maps were collected using a laser-assisted
+local-electrode type atom probe by IMAGO Scientiﬁc In-
+struments, LEAP-3000XHR, at an evaporation rate of 0.4 per
+laser pulse, applying a laser power of 20 nJ, a laser pulse
+repetition rate of 200 kHz, a DC voltage in the range from 3 to 8
+kV, and a base specimen temperature of -238 C (35 K). Laser
+pulse mode was used during the 3D-AP measurements due to
+the high probability of fracture for these samples in voltage
+pulse mode. To reduce the probability of fracture, we
+employed laser pulse mode in relatively high power (20 nJ).
+The 3D-AP datasets were analysed using the dedicated soft-
+ware IVAS 3.6.4 from IMAGO Scientiﬁc Instruments.
+Local microstructural changes during aging were also
+assessed using Positron Annihilation Spectroscopy (PAS) [26,
+27]. A ~1 MBq Na-22 positron source, sealed in Kapton foil, was
+placed between two equivalent CuCrZr samples of ~1 mm in
+thickness. The positron lifetime spectra were acquired using a
+fast-fast BaF2 spectrometer with time resolution ~180 ps at full
+width half maximum. The data were corrected for the back-
+ground and source contributions, and they were analysed using
+the PALSﬁt software package [28]. Each recorded spectrum
+comprised ~4106 coincidence events. Two high-resolution Ge
+detectors set up in coincidence were also used to record
+simultaneously the coincidence Doppler broadening (CDB)
+spectra of the annihilation radiation. Positron-electron anni-
+hilation releases two g-ray photons at 180º to each other. The
+total energy of the electron-positron pair at the point of the
+annihilation event (ET) is the sum of the energies of these two g-
+rays. Therefore ET ¼ E1 þ E2 ¼ 2m0c2  EB where E1 and E2 are
+the energies of the two g-rays, m0 is the rest mass of an electron
+or positron, c is the speed of light, and EB is the electron-
+positron binding energy. It should be noted, however, that E1
+and E2 are not equal depending on pL, i.e. the longitudinal
+component of the momentum of the electron-positron pair in
+the direction of the g-ray emission. DE ¼ E1  E2 ¼ cpL where DE
+is the difference in energy between the two emitted g-rays [29].
+From the measured CDB spectra, we derived the S- and W- line
+shape parameters at each probed aging time, by taking the ratio
+of the low momentum (|pL| < 4  10-3 m0c) and high momentum
+(10  10-3 m0c < |pL| < 18  10-3 m0c) region of the spectrum to the
+total region, respectively. The overall momentum resolution
+was ~410-3 m0c. We also measured the CDB spectrum of three
+reference polycrystalline samples: (i) a Cu sample (99.999%)
+annealed at 800 C (1073 K) for 1 h in He gas atmosphere, (ii) a Cr
+sample (99.99%) annealed at 1100 C for 1 h in vacuum, and (iii) a
+Zr sample (99.2%) annealed at 900 C (1173 K) for 2 h in vacuum.
+The S-parameter represents lower-momentum valence elec-
+tron annihilations with the implanted positrons, making it
+more responsive to the presence of low electron density areas
+in the material such as vacancies and voids. Conversely, the W-
+parameter reveals information about the positron annihilation
+with higher-momentum core electrons, and therefore reveals
+the local chemical environment of the positron site [26, 30].
+3.
+Results
+Fig. 1 shows the BSE micrographs of the Cu-Cr-Zr microstruc-
+ture in the solution annealed (SA) state and at selected times
+during aging at 480 C (753 K). The average grain size of the
+matrix remains constant within the standard deviation of the
+size distribution (~35 mm), with a value of ~ 36-38 mm
+throughout the aging process up to 14 days. The high standard
+deviation arises from the presence of larger grains ( 100 mm) in
+all the specimens. Grain boundary analysis from EBSD maps
+(Fig. S1) did not reveal any signiﬁcant variation with aging, with
+all samples showing ~5% low angle grain boundaries, ~40%
+twins, and ~55% large angle boundaries. The solution annealed
+microstructure also contained relatively large (mostly Cr but
+also some Zr-rich, see EDS data in Fig. S2) inclusions that were
+already present in the as-received bar material.
+The material’s hardness remains relatively low and con-
+stant within the ﬁrst 3 min of annealing at a value ~50 HV1.0,
+but the hardness thereafter experiences a rapid increase after
+5.5 min attaining a value of 95 HV1.0 (see Fig. 2a). As aging
+progresses further, the hardness continues to increase and
+gradually levels off at ~135 HV1.0 at the aging time of 120 min.
+At longer times there is a noticeable reduction in hardness to
+~120 HV1.0 measured after a full 24 h (i.e., 1440 min) of aging.
+The time dependence of the positron lifetime during aging is
+j o u r n a l o f m a t e r i a l s r e s e a r c h a n d t e c h n o l o g y 2 0 2 2 ; 2 0 : 8 0 1 e8 1 0
+803
+
+
+=== PDF PAGE 5 ===
+shown in Fig. 2b. The lifetime in the solution annealed state
+amounts to 137 ps. There is a sharp increase in lifetime be-
+tween 3.0 and 5.5 min, in line with the trend observed in the
+hardness’ values, with the lifetime reaching a value of 150 ps.
+Thereafter the positron lifetime gradually decreases to 140 ps
+after 24 h of aging. The (S, W) values for the different aging
+times, together with the measured values for the annealed
+polycrystalline Cu, Cr and Zr materials as reference, are
+collected in Fig. 3. The datapoints for the ﬁrst 3.0 min of aging
+are clustered together and lie close to the values for the
+annealed Cu sample. However, in the case of 5.5, 7.0 and 10
+min, the S parameter is shifted to higher values, and the W
+parameter to lower values, both shifted towards the annealed
+Zr reference. At longer times, the (S, W) data points invert the
+trend and are shifted partially back towards the annealed Cr
+and esp. Cu reference values.
+3D-AP data reveal the presence of a ﬁne dispersion of Cr-
+rich spherical precipitates with a number density of N ¼
+81023 m-3 and an average diameter of d ¼ 2.5 nm after only
+5.5 min of aging, whereas no such precipitate structure was
+observed in the solution annealed state (Fig. 4). There is also a
+non-negligible segregation of Zr atoms at the precipitate lo-
+cations. The volume fraction (f) for spherical precipitates can
+be estimated according to [4]:
+f ¼ p N d3
+6
+(1)
+This yields a volume fraction of f ~ 0.65 vol.% after 5.5 min
+of aging. As aging progresses to 60 min, the precipitate
+distribution becomes better deﬁned, with the precipitates
+having coarsened to 3.2 nm in average diameter and the
+number density having reduced to 2.641023 m-3. In the
+sample aged for 1440 min (24 h), the precipitates have coars-
+ened yet further to a mean diameter of 8.5 nm, with the lowest
+number density of 2.31022 m-3 and a volume fraction of f ~
+0.73 vol.%, and they have adopted a disc-shaped morphology
+primarily. The spherical morphology of the Cr-rich pre-
+cipitates at aging times  60 min, and the presence of disc-like
+precipitates at longer times is also evidenced by the STEM-
+EDX data (Fig. 5). Furthermore, there is Zr segregation at the
+precipitate/matrix interface in disc-like precipitates after 1440
+min (24 h) of aging, with an average Zr shell thickness of ~2 nm
+from EDX proﬁles, and the precipitates maintain a fcc struc-
+ture, see Fig. 6.
+4.
+Discussion
+The microstructure in the solution annealed state comprises a
+fcc Cu-base matrix and Cr-rich inclusions (Fig. 1). The Cr sol-
+ubility in Cu at 1000 C (1273 K) amounts to ~0.37 wt.% [13].
+Consequently, coarse Cr-rich precipitates from solidiﬁcation
+remain undissolved in the Cu matrix after solution annealing
+[31], and they do not undergo changes during aging. The SA
+sample gives a relatively low hardness value of ~50 HV1.0, and
+a positron lifetime of 137 ps (Fig. 2). The 3D-AP data have not
+shown the presence of nm-sized precipitates in the SA state
+(Fig. 4). Positrons are implanted into the Cu-Cr-Zr material,
+Fig. 1 e BSE micrographs of Cu-Cr-Zr alloy in (a) the solution annealed (SA) state, and aged at 480 ºC (753 K) for (b) 30 min,
+(c) 2 h, and (d) 14 days.
+j o u r n a l o f m a t e r i a l s r e s e a r c h a n d t e c h n o l o g y 2 0 2 2 ; 2 0 : 8 0 1 e8 1 0
+804
+
+
+=== PDF PAGE 6 ===
+where they thermalise and become trapped at preferred lo-
+cations in the microstructure. Self-consistent electron struc-
+ture and positron band structure calculations revealed a
+higher positron afﬁnity for Cu as compared to Zr, and espe-
+cially to Cr [32]. Therefore, the implanted positrons would in
+principle become annihilated preferentially within the Cu-
+base matrix. However, the value of 137 ps is higher than the
+reported positron lifetime in bulk Cu single crystal of 110 ps.
+Vacancies and other open-volume lattice defects such as
+dislocations or interfaces (e.g. precipitate/matrix interfaces)
+can also act as effective positron trapping sites, and increase
+the positron lifetime. Positrons have a lifetime of 173 ps in
+monovacancy defects and 163 ps when trapped in dislocations
+in Cu [18]. We have only detected one component in the
+positron lifetime spectra in all measured samples. Such
+component represents the average lifetime in bulk Cu single
+crystal and in open volume defects.
+During the ﬁrst 3 min of aging at 480 C (753 K), there is a
+subtle increase in hardness and also in the positron lifetime,
+signalling the onset of Cr-rich precipitate formation. In
+contrast, when the aging time increases to 5.5 min we detec-
+ted a sharp increase in both the material’s hardness and the
+positron lifetime. At this time Cr-rich spherical precipitates
+are clearly observed in the microstructure (Fig. 4 and 5), with a
+number density of 81023 m-3 and an average precipitate size
+of 2.5 nm. The Cr diffusion coefﬁcient in Cu depends on
+temperature, in the range of 366 to 556 C (639 to 839 K), ac-
+cording to [33]:
+DCr ¼ 0:26  104  expð1:99 eV
+kBT
+Þ
+(2)
+where kB denotes the Boltzmann constant at T the tempera-
+ture in K. At the aging temperature of 480 C (753 K), the Cr
+diffusion coefﬁcient amounts to DCrz1:25  1018m2s1. If we
+assume a random walk for the Cr diffusion in Cu, we obtain a
+Cr diffusion length of
+ﬃﬃﬃﬃﬃ
+Dt
+p
+z20 nm after 5.5 min of aging.
+Furthermore, the 3D-AP data also revealed the presence of Zr
+atoms in the same locations as the Cr-rich precipitates (Fig. 4).
+The increase in hardness and positron lifetime, and the
+presence of precipitates, is supported by the trend observed in
+the (S, W) values as a function of aging time (Fig. 3). A linear
+trajectory in the S-W plot is normally associated with changes
+in the fraction of positron annihilations at competing sites
+presenting different open space and local chemical environ-
+ment for the implanted positrons [34]. The (S, W) values for
+aging times  3.0 min lie in close vicinity to the values for
+annealed Cu, whereas the data points for 5.5 to 10 min are
+shifted to higher values of the S parameter, reﬂecting a higher
+amount of open-volume defects close to the precipitate/ma-
+trix interface. There is also a reduction in the W parameter as
+Fig. 3 e S-W parameter plot for Cu-Cr-Zr samples aged at
+480 C (753 K) after solution annealing. The aging time is
+labelled close to each data point. The plot also contains the
+experimental S-W values of the annealed Cu, Cr and Zr
+samples as reference.
+Fig. 2 e Time dependence at the aging temperature of 480
+C (753 K) of (a) the microhardness (HV1.0), (b) the positron
+lifetime, and (c) the number density and average size of the
+precipitates in Cu-Cr-Zr alloy, obtained by 3D-AP and TEM
+characterisation. ‘SA’ denotes the solution-annealed state
+of the material.
+j o u r n a l o f m a t e r i a l s r e s e a r c h a n d t e c h n o l o g y 2 0 2 2 ; 2 0 : 8 0 1 e8 1 0
+805
+
+
+=== PDF PAGE 7 ===
+compared to shorter times, and in line with the value for
+annealed Zr. The shift observed in the (S, W) plot implies a
+higher fraction of positrons trapped at the precipitate/matrix
+interface, where Zr atoms are present in the precipitates close
+to that interface. In this case, the increase in positron lifetime
+at the aging time of 5.5 min, as compared to the solution
+annealed condition, can consistently be ascribed to the Zr
+content in the Cr-rich precipitates, since the positron lifetime
+in bulk Zr equals to 168.5 ps, whereas the lifetime increases to
+253.7 ps in Zr monovacancies and to 217 ps in dislocations in
+Zr [35]. Those values are higher than the corresponding posi-
+tron lifetime in bulk Cu of 110 ps and in Cu monovacancies of
+173 ps [18], but also than in bulk Cr of 108 ps and in Cr mon-
+ovacancies of 198 ps [36].
+At aging times longer than 5.5 min, the material’s hardness
+increases with time at a lower rate, attaining peak aging at 120
+Fig. 4 e 3-D atom probe tomography (APT) data revealing the evolution of Cr-rich precipitates after aging the Cu-Cr-Zr alloy
+at 480 ºC (753 K) for 5.5, 60 and 1440 min, together with the APT data for the solution annealed (SA) state as reference.
+j o u r n a l o f m a t e r i a l s r e s e a r c h a n d t e c h n o l o g y 2 0 2 2 ; 2 0 : 8 0 1 e8 1 0
+806
+
+
+=== PDF PAGE 8 ===
+min, and thereafter undergoing a gradual reduction in hard-
+ness during overaging (Fig. 2a). Overaged Cu-Cr-Zr micro-
+structures are characterised by reduced values of yield and
+tensile strength in tensile specimens [7, 37-41], although
+overaging can provide the alloy with limited gains in resis-
+tance to plastic instability and in fracture toughness after
+neutron irradiation [7]. Semi-coherent Cr-rich precipitates
+were observed by in-situ TEM to act as effective pinning sites
+for dislocation gliding, with dislocations disengaging from the
+precipitates predominantly by a shear mechanism [42]. The
+peak aged condition also corresponds to an enhanced con-
+ductivity in the alloy [38]. The Zr remaining in solid solution in
+the Cu matrix can further increase the alloy strength at peak
+aging [39].
+The nano-sized precipitate distribution experiences a
+continuous coarsening during aging at 480 C, with a reduc-
+tion in number density and an increase in average precipitate
+size to values of 0.2  1022 m-3 and ~9 nm respectively at the
+longest aging time of 14 days (Fig. 2c). The precipitate
+coarsening causes a reduction in precipitate/matrix interfa-
+cial area and consequently also in the positron lifetime
+(Fig. 2b). Moreover, the (S, W) plot in Fig. 4 shows a partial
+shift backwards of the data points corresponding to aging
+times > 5.5 min to initial values and closer to those of
+annealed Cu and Cr, reﬂecting a reduction in Zr presence in
+the positron sites at the precipitate/matrix interface as the
+precipitates coarsen. At the aging time of 60 min the pre-
+cipitates present a preferential spherical morphology. How-
+ever, at the longer time of 1440 min, past the peak aging
+condition of the material, there is a mixture of spherical and
+disc-like precipitates, with a Zr shell being detected at the
+interface in disc-like precipitates. Previous results suggested
+the need to overage the peak aged microstructure of Cu-
+078Cr-0.13Zr alloy at 600
+C (873 K) for at least 1 h to
+observe the formation of a Zr shell surrounding the nano-
+sized precipitates [18]. Zr segregation at the periphery of
+metastable fcc Cr-rich precipitates has also been reported in
+a quaternary Cu-Cr-Zr-Ti alloys [43]. The electron diffraction
+data in this work shows that the precipitates in Cu-0.55Cr-
+0.07Zr alloy remain with fcc symmetry beyond the peak
+aging time in this alloy of 120 min. A higher amount of Zr
+addition to a Cu-0.8Cr alloy, namely 0.2 wt.% Zr, induces the
+formation of ordered fcc Cr-rich precipitates with ellipsoid-
+shaped morphology at peak aging time at 450 C [44]. This
+is in contrast with the reported results in the literature in
+binary Cu-Cr alloys, where the peak aging occurs at a longer
+aging time of 8 h, with a mixture of fcc and bcc precipitates
+being observed at precipitates sizes smaller than 10 nm [9].
+Fig. 5 e Cr Ka elemental maps showing the evolution Cr-rich precipitates at selected states during the aging of CuCrZr alloy
+at 480 C (753 K), namely in the (a) solution annealed condition, and after (b) 5.5 min, (c) 1 h, and (d) 24 h.
+j o u r n a l o f m a t e r i a l s r e s e a r c h a n d t e c h n o l o g y 2 0 2 2 ; 2 0 : 8 0 1 e8 1 0
+807
+
+
+=== PDF PAGE 9 ===
+The incorporation of 0.07 wt.% Zr in the alloy seems to lead to
+a shorter peak aging time, but also to the stabilization of the
+fcc symmetry at longer times and potentially affecting the
+ﬁnal morphology of the precipitates post-aging.
+Aging at 480 C is recommended since it yields the highest
+hardness and tensile strength in the peak aged condition in
+this precipitation-hardened alloy [6]. Similar (over-)aging
+behaviour of the Cr-rich precipitate distribution is expected to
+occur at shorter times when using aging temperatures higher
+than 480 C. In practice, local temperatures may be higher
+than 480 C, e.g. during joining of materials. This can cause
+overaging of the microstructure and lower tensile strength
+levels, although still higher than in pure Cu and within the
+accepted range for high-ﬂux structural components [6].
+Additionally, an overaging treatment could for instance be
+adopted at 600 C for 1 h to increase the alloy ductility and
+Fig. 6 e STEM-EDX maps taken from CuCrZr after 24 h aging at 480 ºC (753 K) showing (a) bright ﬁeld STEM, (b) Cu, (c) Cr, and
+(d) Zr elemental maps, (e) a selected area diffraction pattern demonstrating the {-122} zone axis, and (f) BF STEM image of
+selected precipitates.
+j o u r n a l o f m a t e r i a l s r e s e a r c h a n d t e c h n o l o g y 2 0 2 2 ; 2 0 : 8 0 1 e8 1 0
+808
+
+
+=== PDF PAGE 10 ===
+fracture toughness [7], esp. after neutron irradiation, although
+at the expense of a reduction in tensile strength.
+5.
+Conclusions
+We have probed the nm-sized precipitate evolution during
+aging at 480 C (753 K) of a solution annealed Cu-Cr-Zr alloy.
+Spherical Cr-rich precipitates form during the early stages of
+aging, reaching an average size of 2.5 nm and a number den-
+sity of 81023 m-3 after 5.5 min. At that time, we also detected
+the presence of Zr segregation at the precipitate locations. As
+the aging progresses further, the precipitates coarsen as the
+number density decreases. At 60 min of aging, we detected the
+presence of a Zr-rich shell around Cr-rich precipitates. The
+peak aging corresponds to 120 min at that temperature,
+signiﬁcantly shorter than the reported time at maximum
+hardness in binary Cu-Cr alloys. Overaging causes further
+precipitate coarsening to an average size of ~9 nm at a density
+of 0.21022 m-3, while maintaining the face-centre cubic
+symmetry and evolving into a disc-like morphology. These
+results point at the Zr role in stabilising the intermediate fcc
+structure and potentially affecting the overaged precipitate
+morphology.
+Declaration of Competing Interest
+The authors declare that they have no known competing
+ﬁnancial interests or personal relationships that could have
+appeared to inﬂuence the work reported in this paper.
+Acknowledgments
+The authors of this work acknowledge the support of Culham
+Centre for Fusion Energy (CCFE). Mike Gorley would like to
+acknowledge funding from the EPSRC Grant EP/T012250/1. We
+also thank the International Research Centre for Nuclear
+Materials Science of the Institute for Materials Research,
+Tohoku University, for their ﬁnancial travel support, as well as
+access to equipment and assistance in carrying out PAS and
+3D-AP experiments.
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at
+https://doi.org/10.1016/j.jmrt.2022.07.113.
+r e f e r e n c e s
+[1] Fabritsiev SA, Zinkle SJ, Singh BN. Evaluation of copper alloys
+for fusion reactor divertor and ﬁrst wall components. J. Nucl.
+Mater. 1996;233-237:127e37.
+[2] Tanaka S, Matera R, Kalinin G, Barabash V, Mohri K. ITER
+Materials R&D Data Bank. J. Nucl. Mater.
+1999;271&272:478e85.
+[3] Hirai T, Ezato K, Majerus P. ITER Relevant High Heat Flux
+Testing on Plasma Facing Surfaces. Mater. Trans.
+2005;46:412e24.
+[4] Zinkle SJ. Applicability of copper alloys for DEMO high heat
+ﬂux components. Phys. Scr. 2016;T167:14004.
+[5] Hirai T, Barabash V, Escourbiac F, Durocher A, Ferrand L,
+Komarov V, Merola M. ITER divertor materials and
+manufacturing challenges. Fusion Eng. Des. 2017;125:250e5.
+[6] Barabash VR, Kalinin GM, Fabritsiev SA, Zinkle SJ.
+Speciﬁcation of CuCrZr alloy properties after various
+thermo-mechanical treatments and design allowables
+including neutron irradiation effects. J. Nucl. Mater.
+2011;417:904e7.
+[7] Edwards DJ, Singh BN, T€ahtinen S. Effect of heat treatments
+on precipitate microstructure and mechanical properties of a
+CuCrZr alloy. J. Nucl. Mater. 2007;367-370:904e9.
+[8] Li M, Zinkle SJ. Physical and Mechanical Properties of Copper
+and Copper Alloys. In: Comprehensive Nuclear Materials,
+vol. 4. Elsevier; 2012. p. 667e90.
+[9] Peng L, Xie H, Huang G, Xu G, Yin X, Feng X, Mi X, Yang Z. The
+phase transformation and strengthening of a Cu-0.71 wt% Cr
+alloy. J. Alloys Comp. 2017;708:1096e102.
+[10] A. Chbihi, X. Sauvage, D. Blavette, Atomic scale investigation
+of Cr precipitation in copper, Acta Mater. 60 (1012) 4575-4585.
+[11] Fujii T, Nakazawa H, Kato M, Dahmen U. Crystallography
+and morphology of nanosized Cr particles in a Cu-0.2% Cr
+alloy. Acta Mater 2000;48:1033e45.
+[12] Kalinin G, Barabash V, Cardella A, Dietz J, Ioki K, Matera R,
+et al. Assessment and selection of materials for ITER in-
+vessel components. J. Nucl. Mater. 2000;283±287:10e9.
+[13] Batra IS, Dey GK, Kulkarni UD, Banerjee S. Microstructure
+and properties of a Cu-Cr-Zr alloy. J. Nucl. Mater.
+2001;299:91e100.
+[14] Batra IS, Dey GK, Kulkarni UD, Banerjee S. Precipitation in a
+Cu-Cr-Zr alloy. Mater. Sci. Eng. A 2002;356:32e6.
+[15] Peng L, Xie H, Huang G, Li Y, Yin X, Feng X, Mi X, Yang Z. The
+phase transformation and its effects on properties of a Cu-
+0.12 wt% Zr alloy. Mater. Sci. Eng. A 2015;633:28e34.
+[16] Zhou SH, Napolitano RE. Phase stability for the CueZr
+system: First-principles, experiments and solution-based
+modelling. Acta Mater 2000;58(6):2186e96.
+[17] Hatakeyama M, Tokama T, Nagai Y, Hasegawa M, Eldrup M,
+Singh BN. Nanostructural Evolution of Cr-rich Precipitates in
+a Cu-Cr-Zr Alloy During Heat Treatment Studied by 3-
+Dimensional Atom probe. Mater. Trans. 2008;49:518e21.
+[18] Hatakeyama M, Toyama T, Yang J, Nagai Y, Hasegawa M,
+Ohkubo T, Eldrup M, Singh BN. 3D-AP and positron
+annihilation study of precipitation behaviour in Cu-Cr-Zr
+alloy. J. Nucl. Mater. 2009;386e388:852e5.
+[19] Zhang K, Gaganidze E, Gorley M. Development of the
+material property handbook and database of CuCrZr. Fus.
+Eng. Des. 2019;144:148e53.
+[20] Roussel LY, Stokes DJ, Gestmann I, Darus M, Young RJ.
+Extreme high resolution scanning electron microscopy (XHR
+SEM) and beyond. In: In Proceedings of the SPIE 7378,
+Scanning Microscopy 2009; May 2009. 73780W.
+[21] Young R, Henstra S, Chmelik J, Dingle T, Mangnus A, van
+Veen G, Gestmann I. XHR SEM: enabling extreme high-
+resolution scanning electron microscopy. In: In Proceedings
+of the SPIE 7378, Scanning Microscopy, Monterey, California,
+United States; 2009.
+[22] Humphreys FJ. Grain and subgrain characterisation by
+electron backscatter diffraction. J. Mater. Sci.
+2001;36:3833e54.
+[23] Humphreys FJ. Quantitative metallography by electron
+backscattered diffraction. J. Microsc. 1999;195:170e85.
+[24] Delille D, Pantel R, Van Cappellen E. Crystal thickness and
+extinction distance determination using energy ﬁltered
+j o u r n a l o f m a t e r i a l s r e s e a r c h a n d t e c h n o l o g y 2 0 2 2 ; 2 0 : 8 0 1 e8 1 0
+809
+
+
+=== PDF PAGE 11 ===
+{CBED} pattern intensity measurement and dynamical
+diffraction theory ﬁtting. Ultramicroscopy 2001;87:5e18.
+[25] Miller MK, Russell KF. Atom probe specimen preparation
+with a dual beam SEM/FIB miller. Ultramicrosc
+2007;107:761e6.
+[26] Asoka-Kumar P, Alatalo M, Ghosh VJ, Kruseman AC,
+Nielsen B, Lynn KG. Increased Elemental Speciﬁcity of
+Positron Annihilation Spectra. Phys. Rev. Lett.
+1996;77:2097e100.
+[27] Maeda N, Nakamura N, Uchida M, Ohta Y, Yoshida K.
+Application of positron annihilation line-shape analysis to
+fatigue damage for nuclear plant materials. Nucl. Eng. Des.
+1996;167:169e74.
+[28] Kirkegaard P, Olsen JV, Eldrup M, Pedersen NJ. PALSﬁt: a
+Computer Program for Analysing Positron Lifetime Spectra.
+2009.
+[29] Nagai Y, Hasegawa M, Tang Z, Hempel A, Yubuta K,
+Shimamura T, Kawazoe Y, Kawai A, Kano F. Positron
+conﬁnement in ultraﬁne embedded particles: Quantum-dot-
+like state in an Fe-Cu alloy. Phys. Rev. B 2000;61:6574e8.
+[30] Xiong B, Mao W, Tang X, He C. Positron annihilation
+characteristics in mesostructural silica ﬁlms with various
+porosities. J. Appl. Phys. 2014;115:094303.
+[31] Holzwarth U, Stamm H. The precipitation behaviour of ITER-
+grade Cu-Cr-Zr alloy after simulating the thermal cycle of
+hot isostatic pressing. J. Nucl. Mater. 2000;279:31e45.
+[32] Puska MJ, Lanki P, Nieminen RM. Positron afﬁnities for
+elemental metals. J. Phys.: Condens. Matter 1989;1:6081e93.
+[33] Almazouzi A, Macht M-P, Naundorf V, Neumann G. Diffusion
+of Manganese, Chromium, and Titanium in Single
+Crystalline Copper. Phys. Stat. Sol. (a) 1998;167:15e28.
+[34] Clement M, de Nijs JMM, Balk P, Schut H, van Veen A.
+Transport of positrons in the electrically biased metal-oxide-
+silicon system. J. Appl. Phys. 1997;81:1943e55.
+[35] Bordulev I, Kudiiarov V, Svyatkin L, Syrtanov M, Stepanova E,
+Cı´zek J, et al. Positron annihilation spectroscopy study of
+defects in hydrogen loaded Zr-1Nb alloy. J. Alloys Comp.
+2019;798:685e94.
+[36] Troev T, Markovski A, Peneva S, Yoshiie T. Positron lifetime
+calculations of defects in chromium containing hydrogen or
+helium. J. Nucl. Mater. 2006;359:93e101.
+[37] Ivanov AD, Nikolaev AK, Kalinin GM, Rodin ME. Effect of heat
+treatments on the properties of CuCrZr alloys. J. Nucl. Mater.
+2002;307-311:673e6.
+[38] Fu H, Xu S, Li W, Xie J, Zhao H, Pan Z. Effect of rolling and
+aging processes on microstructure and properties of Cu-Cr-
+Zr alloy. Mater. Sci. Eng A 2017;700:107e15.
+[39] Chen J, Wang J, Xiao X, Wang H, Chen H, Yang B.
+Contribution of Zr to strength and grain reﬁnement in Cu-Cr-
+Zr alloy. Mater. Sci. Eng. 2019;756:464e73.
+[40] Jinshui C, Bin Y, Junfeng W, Xiangpen X, Huiming C, Hang W.
+Effect of different Zr contents on properties and
+microstructure of Cu-Cr-Zr alloys. Mater. Res. Express
+2018;5:026515.
+[41] Jha K, Neogy S, Kumar S, Singh RN, Dey GK. Correlation
+between microstructure and mechanical properties in the age-
+hardenable Cu-Cr-Zr alloy. J. Nucl. Mater. 2021;546:152775.
+[42] Liu J, Hou M, Yang H, Xie H, Yang C, Zhang J, et al. In-situ
+TEM study of the dynamic interactions between dislocations
+and precipitates in a Cu-Cr-Zr alloy. J. Alloys Comp.
+2018;765:560e8.
+[43] Wang H, Gong L, Liao J, Chen H, Xie W, Yang B. Retaining
+meta-stable fcc-Cr phase by restraining nucleation of
+equilibrium bcc-Cr phase in CuCrZrTi alloys during ageing. J.
+Alloys Comp. 2018;749:140e5.
+[44] Che X, Jiang F, Liu L, Hunag H, Shi Z. Structure and
+orientation relationship of new precipitates in a Cu-Cr-Zr
+alloy. Mater. Sci. Technol. 2018;34(3):282e8.
+j o u r n a l o f m a t e r i a l s r e s e a r c h a n d t e c h n o l o g y 2 0 2 2 ; 2 0 : 8 0 1 e8 1 0
+810

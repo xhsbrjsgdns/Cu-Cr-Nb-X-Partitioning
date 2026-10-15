@@ -1,0 +1,5 @@
+phase_model_base_name,aggregated_family,n_states,previously_seen_in_project,mapped_by_frozen_default_to_OTHER_SOLID
+BCC_B2,BCC,20760,1,0
+C15_LAVES,C15,22000,1,0
+FCC_L12,FCC,22000,1,0
+NBNI3,OTHER_SOLID,8579,0,1

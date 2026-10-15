@@ -1,0 +1,3804 @@
+[
+  {
+    "condition_id": "R3_AG_B1_500C",
+    "source_id": "S1_AG",
+    "system": "Cu-Cr-Ag",
+    "X_identity": "AG",
+    "alloy_id": "B1",
+    "nominal_composition_original": "Cu50Cr40Ag10",
+    "composition": {
+      "CU": 50.0,
+      "CR": 40.0,
+      "AG": 10.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": "500",
+    "temperature_unit": "C",
+    "temperature_C": 500,
+    "temperature_K": 773.15,
+    "annealing_time": "60 days",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "cold-water quench",
+    "characterization": [
+      "XRD",
+      "SEM/EDX"
+    ],
+    "phases": [
+      "fcc(Ag)",
+      "fcc(Cu)",
+      "bcc(Cr)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc(Ag)",
+        "composition": {
+          "CU": 10.46,
+          "CR": 2.67,
+          "AG": 86.87
+        },
+        "basis": "at.%",
+        "structure": "fcc"
+      },
+      {
+        "phase": "fcc(Cu)",
+        "composition": {
+          "CU": 96.36,
+          "CR": 1.9,
+          "AG": 1.74
+        },
+        "basis": "at.%",
+        "structure": "fcc"
+      },
+      {
+        "phase": "bcc(Cr)",
+        "composition": {
+          "CU": 1.79,
+          "CR": 98.14,
+          "AG": 0.07
+        },
+        "basis": "at.%",
+        "structure": "bcc"
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": "Fig. 6; Fig. 7 except B7 and B10",
+    "source_evidence_note": "Table 2 visually verified; nominal bulk not chemically analyzed (p4: mass loss <1 wt.%). Experimental phase names retained. No author calculated curves included.",
+    "direct_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "condition_id": "R3_AG_B2_500C",
+    "source_id": "S1_AG",
+    "system": "Cu-Cr-Ag",
+    "X_identity": "AG",
+    "alloy_id": "B2",
+    "nominal_composition_original": "Cu70Cr20Ag10",
+    "composition": {
+      "CU": 70.0,
+      "CR": 20.0,
+      "AG": 10.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": "500",
+    "temperature_unit": "C",
+    "temperature_C": 500,
+    "temperature_K": 773.15,
+    "annealing_time": "60 days",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "cold-water quench",
+    "characterization": [
+      "XRD",
+      "SEM/EDX"
+    ],
+    "phases": [
+      "fcc(Ag)",
+      "fcc(Cu)",
+      "bcc(Cr)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc(Ag)",
+        "composition": {
+          "CU": 10.03,
+          "CR": 2.55,
+          "AG": 87.42
+        },
+        "basis": "at.%",
+        "structure": "fcc"
+      },
+      {
+        "phase": "fcc(Cu)",
+        "composition": {
+          "CU": 96.57,
+          "CR": 1.2,
+          "AG": 2.23
+        },
+        "basis": "at.%",
+        "structure": "fcc"
+      },
+      {
+        "phase": "bcc(Cr)",
+        "composition": {
+          "CU": 3.2,
+          "CR": 96.44,
+          "AG": 0.36
+        },
+        "basis": "at.%",
+        "structure": "bcc"
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 visually verified; nominal bulk not chemically analyzed (p4: mass loss <1 wt.%). Experimental phase names retained. No author calculated curves included.",
+    "direct_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "condition_id": "R3_AG_B3_500C",
+    "source_id": "S1_AG",
+    "system": "Cu-Cr-Ag",
+    "X_identity": "AG",
+    "alloy_id": "B3",
+    "nominal_composition_original": "Cu2Cr10Ag88",
+    "composition": {
+      "CU": 2.0,
+      "CR": 10.0,
+      "AG": 88.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": "500",
+    "temperature_unit": "C",
+    "temperature_C": 500,
+    "temperature_K": 773.15,
+    "annealing_time": "60 days",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "cold-water quench",
+    "characterization": [
+      "XRD",
+      "SEM/EDX"
+    ],
+    "phases": [
+      "fcc(Ag)",
+      "bcc(Cr)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc(Ag)",
+        "composition": {
+          "CU": 4.4,
+          "CR": 0.99,
+          "AG": 94.61
+        },
+        "basis": "at.%",
+        "structure": "fcc"
+      },
+      {
+        "phase": "bcc(Cr)",
+        "composition": {
+          "CU": 0.72,
+          "CR": 97.98,
+          "AG": 1.3
+        },
+        "basis": "at.%",
+        "structure": "bcc"
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": "Fig. 6; Fig. 7 except B7 and B10",
+    "source_evidence_note": "Table 2 visually verified; nominal bulk not chemically analyzed (p4: mass loss <1 wt.%). Experimental phase names retained. No author calculated curves included.",
+    "direct_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "condition_id": "R3_AG_B4_600C",
+    "source_id": "S1_AG",
+    "system": "Cu-Cr-Ag",
+    "X_identity": "AG",
+    "alloy_id": "B4",
+    "nominal_composition_original": "Cu40Cr40Ag20",
+    "composition": {
+      "CU": 40.0,
+      "CR": 40.0,
+      "AG": 20.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": "600",
+    "temperature_unit": "C",
+    "temperature_C": 600,
+    "temperature_K": 873.15,
+    "annealing_time": "30 days",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "cold-water quench",
+    "characterization": [
+      "XRD",
+      "SEM/EDX"
+    ],
+    "phases": [
+      "fcc(Ag)",
+      "fcc(Cu)",
+      "bcc(Cr)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc(Ag)",
+        "composition": {
+          "CU": 10.9,
+          "CR": 1.95,
+          "AG": 87.15
+        },
+        "basis": "at.%",
+        "structure": "fcc"
+      },
+      {
+        "phase": "fcc(Cu)",
+        "composition": {
+          "CU": 97.3,
+          "CR": 0.96,
+          "AG": 1.74
+        },
+        "basis": "at.%",
+        "structure": "fcc"
+      },
+      {
+        "phase": "bcc(Cr)",
+        "composition": {
+          "CU": 1.98,
+          "CR": 97.95,
+          "AG": 0.07
+        },
+        "basis": "at.%",
+        "structure": "bcc"
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": "Fig. 6; Fig. 7 except B7 and B10",
+    "source_evidence_note": "Table 2 visually verified; nominal bulk not chemically analyzed (p4: mass loss <1 wt.%). Experimental phase names retained. No author calculated curves included.",
+    "direct_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "condition_id": "R3_AG_B5_600C",
+    "source_id": "S1_AG",
+    "system": "Cu-Cr-Ag",
+    "X_identity": "AG",
+    "alloy_id": "B5",
+    "nominal_composition_original": "Cu70Cr10Ag20",
+    "composition": {
+      "CU": 70.0,
+      "CR": 10.0,
+      "AG": 20.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": "600",
+    "temperature_unit": "C",
+    "temperature_C": 600,
+    "temperature_K": 873.15,
+    "annealing_time": "30 days",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "cold-water quench",
+    "characterization": [
+      "XRD",
+      "SEM/EDX"
+    ],
+    "phases": [
+      "fcc(Cu)",
+      "fcc(Ag)",
+      "bcc(Cr)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc(Cu)",
+        "composition": {
+          "CU": 96.91,
+          "CR": 0.94,
+          "AG": 2.15
+        },
+        "basis": "at.%",
+        "structure": "fcc"
+      },
+      {
+        "phase": "fcc(Ag)",
+        "composition": {
+          "CU": 11.14,
+          "CR": 1.97,
+          "AG": 86.89
+        },
+        "basis": "at.%",
+        "structure": "fcc"
+      },
+      {
+        "phase": "bcc(Cr)",
+        "composition": {
+          "CU": 3.02,
+          "CR": 96.85,
+          "AG": 0.13
+        },
+        "basis": "at.%",
+        "structure": "bcc"
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 visually verified; nominal bulk not chemically analyzed (p4: mass loss <1 wt.%). Experimental phase names retained. No author calculated curves included.",
+    "direct_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "condition_id": "R3_AG_B6_600C",
+    "source_id": "S1_AG",
+    "system": "Cu-Cr-Ag",
+    "X_identity": "AG",
+    "alloy_id": "B6",
+    "nominal_composition_original": "Cu2Cr10Ag88",
+    "composition": {
+      "CU": 2.0,
+      "CR": 10.0,
+      "AG": 88.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": "600",
+    "temperature_unit": "C",
+    "temperature_C": 600,
+    "temperature_K": 873.15,
+    "annealing_time": "30 days",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "cold-water quench",
+    "characterization": [
+      "XRD",
+      "SEM/EDX"
+    ],
+    "phases": [
+      "fcc(Ag)",
+      "bcc(Cr)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc(Ag)",
+        "composition": {
+          "CU": 6.27,
+          "CR": 1.25,
+          "AG": 92.48
+        },
+        "basis": "at.%",
+        "structure": "fcc"
+      },
+      {
+        "phase": "bcc(Cr)",
+        "composition": {
+          "CU": 0.47,
+          "CR": 96.58,
+          "AG": 2.95
+        },
+        "basis": "at.%",
+        "structure": "bcc"
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": "Fig. 6; Fig. 7 except B7 and B10",
+    "source_evidence_note": "Table 2 visually verified; nominal bulk not chemically analyzed (p4: mass loss <1 wt.%). Experimental phase names retained. No author calculated curves included.",
+    "direct_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "condition_id": "R3_AG_B7_650C",
+    "source_id": "S1_AG",
+    "system": "Cu-Cr-Ag",
+    "X_identity": "AG",
+    "alloy_id": "B7",
+    "nominal_composition_original": "Cu10Cr10Ag80",
+    "composition": {
+      "CU": 10.0,
+      "CR": 10.0,
+      "AG": 80.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": "650",
+    "temperature_unit": "C",
+    "temperature_C": 650,
+    "temperature_K": 923.15,
+    "annealing_time": "30 days",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "cold-water quench",
+    "characterization": [
+      "XRD",
+      "SEM/EDX"
+    ],
+    "phases": [
+      "fcc(Cu)",
+      "fcc(Ag)",
+      "bcc(Cr)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc(Cu)",
+        "composition": {
+          "CU": 96.39,
+          "CR": 0.49,
+          "AG": 3.12
+        },
+        "basis": "at.%",
+        "structure": "fcc"
+      },
+      {
+        "phase": "fcc(Ag)",
+        "composition": {
+          "CU": 11.92,
+          "CR": 1.49,
+          "AG": 86.59
+        },
+        "basis": "at.%",
+        "structure": "fcc"
+      },
+      {
+        "phase": "bcc(Cr)",
+        "composition": {
+          "CU": 0.61,
+          "CR": 98.71,
+          "AG": 0.68
+        },
+        "basis": "at.%",
+        "structure": "bcc"
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": "Fig. 6; Fig. 7 except B7 and B10",
+    "source_evidence_note": "Table 2 visually verified; nominal bulk not chemically analyzed (p4: mass loss <1 wt.%). Experimental phase names retained. No author calculated curves included.",
+    "direct_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "condition_id": "R3_AG_B8_650C",
+    "source_id": "S1_AG",
+    "system": "Cu-Cr-Ag",
+    "X_identity": "AG",
+    "alloy_id": "B8",
+    "nominal_composition_original": "Cu25Cr10Ag65",
+    "composition": {
+      "CU": 25.0,
+      "CR": 10.0,
+      "AG": 65.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": "650",
+    "temperature_unit": "C",
+    "temperature_C": 650,
+    "temperature_K": 923.15,
+    "annealing_time": "30 days",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "cold-water quench",
+    "characterization": [
+      "XRD",
+      "SEM/EDX"
+    ],
+    "phases": [
+      "fcc(Cu)",
+      "fcc(Ag)",
+      "bcc(Cr)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc(Cu)",
+        "composition": {
+          "CU": 96.66,
+          "CR": 0.67,
+          "AG": 2.67
+        },
+        "basis": "at.%",
+        "structure": "fcc"
+      },
+      {
+        "phase": "fcc(Ag)",
+        "composition": {
+          "CU": 13.46,
+          "CR": 0.77,
+          "AG": 85.77
+        },
+        "basis": "at.%",
+        "structure": "fcc"
+      },
+      {
+        "phase": "bcc(Cr)",
+        "composition": {
+          "CU": 1.58,
+          "CR": 98.06,
+          "AG": 0.36
+        },
+        "basis": "at.%",
+        "structure": "bcc"
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 visually verified; nominal bulk not chemically analyzed (p4: mass loss <1 wt.%). Experimental phase names retained. No author calculated curves included.",
+    "direct_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "condition_id": "R3_AG_B9_650C",
+    "source_id": "S1_AG",
+    "system": "Cu-Cr-Ag",
+    "X_identity": "AG",
+    "alloy_id": "B9",
+    "nominal_composition_original": "Cu40Cr10Ag50",
+    "composition": {
+      "CU": 40.0,
+      "CR": 10.0,
+      "AG": 50.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": "650",
+    "temperature_unit": "C",
+    "temperature_C": 650,
+    "temperature_K": 923.15,
+    "annealing_time": "30 days",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "cold-water quench",
+    "characterization": [
+      "XRD",
+      "SEM/EDX"
+    ],
+    "phases": [
+      "fcc(Cu)",
+      "fcc(Ag)",
+      "bcc(Cr)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc(Cu)",
+        "composition": {
+          "CU": 96.84,
+          "CR": 0.64,
+          "AG": 2.52
+        },
+        "basis": "at.%",
+        "structure": "fcc"
+      },
+      {
+        "phase": "fcc(Ag)",
+        "composition": {
+          "CU": 12.65,
+          "CR": 1.57,
+          "AG": 85.78
+        },
+        "basis": "at.%",
+        "structure": "fcc"
+      },
+      {
+        "phase": "bcc(Cr)",
+        "composition": {
+          "CU": 2.2,
+          "CR": 97.07,
+          "AG": 0.73
+        },
+        "basis": "at.%",
+        "structure": "bcc"
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 visually verified; nominal bulk not chemically analyzed (p4: mass loss <1 wt.%). Experimental phase names retained. No author calculated curves included.",
+    "direct_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "condition_id": "R3_AG_B10_650C",
+    "source_id": "S1_AG",
+    "system": "Cu-Cr-Ag",
+    "X_identity": "AG",
+    "alloy_id": "B10",
+    "nominal_composition_original": "Cu55Cr10Ag35",
+    "composition": {
+      "CU": 55.0,
+      "CR": 10.0,
+      "AG": 35.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": "650",
+    "temperature_unit": "C",
+    "temperature_C": 650,
+    "temperature_K": 923.15,
+    "annealing_time": "30 days",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "cold-water quench",
+    "characterization": [
+      "XRD",
+      "SEM/EDX"
+    ],
+    "phases": [
+      "fcc(Cu)",
+      "fcc(Ag)",
+      "bcc(Cr)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc(Cu)",
+        "composition": {
+          "CU": 96.98,
+          "CR": 0.62,
+          "AG": 2.4
+        },
+        "basis": "at.%",
+        "structure": "fcc"
+      },
+      {
+        "phase": "fcc(Ag)",
+        "composition": {
+          "CU": 12.22,
+          "CR": 1.07,
+          "AG": 86.71
+        },
+        "basis": "at.%",
+        "structure": "fcc"
+      },
+      {
+        "phase": "bcc(Cr)",
+        "composition": {
+          "CU": 4.13,
+          "CR": 95.4,
+          "AG": 0.47
+        },
+        "basis": "at.%",
+        "structure": "bcc"
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": "Fig. 6; Fig. 7 except B7 and B10",
+    "source_evidence_note": "Table 2 visually verified; nominal bulk not chemically analyzed (p4: mass loss <1 wt.%). Experimental phase names retained. No author calculated curves included.",
+    "direct_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "condition_id": "R3_AG_B11_700C",
+    "source_id": "S1_AG",
+    "system": "Cu-Cr-Ag",
+    "X_identity": "AG",
+    "alloy_id": "B11",
+    "nominal_composition_original": "Cu80Cr10Ag10",
+    "composition": {
+      "CU": 80.0,
+      "CR": 10.0,
+      "AG": 10.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": "700",
+    "temperature_unit": "C",
+    "temperature_C": 700,
+    "temperature_K": 973.15,
+    "annealing_time": "30 days",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "cold-water quench",
+    "characterization": [
+      "XRD",
+      "SEM/EDX"
+    ],
+    "phases": [
+      "fcc(Cu)",
+      "fcc(Ag)",
+      "bcc(Cr)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc(Cu)",
+        "composition": {
+          "CU": 95.8,
+          "CR": 0.74,
+          "AG": 3.46
+        },
+        "basis": "at.%",
+        "structure": "fcc"
+      },
+      {
+        "phase": "fcc(Ag)",
+        "composition": {
+          "CU": 17.06,
+          "CR": 2.35,
+          "AG": 80.59
+        },
+        "basis": "at.%",
+        "structure": "fcc"
+      },
+      {
+        "phase": "bcc(Cr)",
+        "composition": {
+          "CU": 3.48,
+          "CR": 96.15,
+          "AG": 0.37
+        },
+        "basis": "at.%",
+        "structure": "bcc"
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 visually verified; nominal bulk not chemically analyzed (p4: mass loss <1 wt.%). Experimental phase names retained. No author calculated curves included.",
+    "direct_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "condition_id": "R3_AG_B12_700C",
+    "source_id": "S1_AG",
+    "system": "Cu-Cr-Ag",
+    "X_identity": "AG",
+    "alloy_id": "B12",
+    "nominal_composition_original": "Cu50Cr10Ag40",
+    "composition": {
+      "CU": 50.0,
+      "CR": 10.0,
+      "AG": 40.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": "700",
+    "temperature_unit": "C",
+    "temperature_C": 700,
+    "temperature_K": 973.15,
+    "annealing_time": "30 days",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "cold-water quench",
+    "characterization": [
+      "XRD",
+      "SEM/EDX"
+    ],
+    "phases": [
+      "fcc(Cu)",
+      "fcc(Ag)",
+      "bcc(Cr)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc(Cu)",
+        "composition": {
+          "CU": 92.29,
+          "CR": 4.37,
+          "AG": 3.34
+        },
+        "basis": "at.%",
+        "structure": "fcc"
+      },
+      {
+        "phase": "fcc(Ag)",
+        "composition": {
+          "CU": 15.84,
+          "CR": 1.02,
+          "AG": 83.14
+        },
+        "basis": "at.%",
+        "structure": "fcc"
+      },
+      {
+        "phase": "bcc(Cr)",
+        "composition": {
+          "CU": 2.28,
+          "CR": 97.22,
+          "AG": 0.5
+        },
+        "basis": "at.%",
+        "structure": "bcc"
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 visually verified; nominal bulk not chemically analyzed (p4: mass loss <1 wt.%). Experimental phase names retained. No author calculated curves included.",
+    "direct_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "condition_id": "R3_AG_B13_700C",
+    "source_id": "S1_AG",
+    "system": "Cu-Cr-Ag",
+    "X_identity": "AG",
+    "alloy_id": "B13",
+    "nominal_composition_original": "Cu5Cr10Ag85",
+    "composition": {
+      "CU": 5.0,
+      "CR": 10.0,
+      "AG": 85.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": "700",
+    "temperature_unit": "C",
+    "temperature_C": 700,
+    "temperature_K": 973.15,
+    "annealing_time": "30 days",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "cold-water quench",
+    "characterization": [
+      "XRD",
+      "SEM/EDX"
+    ],
+    "phases": [
+      "fcc(Ag)",
+      "bcc(Cr)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc(Ag)",
+        "composition": {
+          "CU": 11.33,
+          "CR": 1.17,
+          "AG": 87.5
+        },
+        "basis": "at.%",
+        "structure": "fcc"
+      },
+      {
+        "phase": "bcc(Cr)",
+        "composition": {
+          "CU": 1.68,
+          "CR": 88.87,
+          "AG": 9.45
+        },
+        "basis": "at.%",
+        "structure": "bcc"
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": "Fig. 6; Fig. 7 except B7 and B10",
+    "source_evidence_note": "Table 2 visually verified; nominal bulk not chemically analyzed (p4: mass loss <1 wt.%). Experimental phase names retained. No author calculated curves included. Printed bcc(Cr) Ag=9.45 at.% retained despite general prose saying solubilities about 2 at.%.",
+    "direct_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "condition_id": "R3_AG_B14_700C",
+    "source_id": "S1_AG",
+    "system": "Cu-Cr-Ag",
+    "X_identity": "AG",
+    "alloy_id": "B14",
+    "nominal_composition_original": "Cu30Cr40Ag30",
+    "composition": {
+      "CU": 30.0,
+      "CR": 40.0,
+      "AG": 30.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": "700",
+    "temperature_unit": "C",
+    "temperature_C": 700,
+    "temperature_K": 973.15,
+    "annealing_time": "30 days",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "cold-water quench",
+    "characterization": [
+      "XRD",
+      "SEM/EDX"
+    ],
+    "phases": [
+      "fcc(Cu)",
+      "fcc(Ag)",
+      "bcc(Cr)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "fcc(Cu)",
+        "composition": {
+          "CU": 95.33,
+          "CR": 1.26,
+          "AG": 3.41
+        },
+        "basis": "at.%",
+        "structure": "fcc"
+      },
+      {
+        "phase": "fcc(Ag)",
+        "composition": {
+          "CU": 13.37,
+          "CR": 1.14,
+          "AG": 85.49
+        },
+        "basis": "at.%",
+        "structure": "fcc"
+      },
+      {
+        "phase": "bcc(Cr)",
+        "composition": {
+          "CU": 1.84,
+          "CR": 97.75,
+          "AG": 0.41
+        },
+        "basis": "at.%",
+        "structure": "bcc"
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": "Fig. 6; Fig. 7 except B7 and B10",
+    "source_evidence_note": "Table 2 visually verified; nominal bulk not chemically analyzed (p4: mass loss <1 wt.%). Experimental phase names retained. No author calculated curves included.",
+    "direct_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "condition_id": "R3_MO_Cu49Cr49Mo2_1100C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu49Cr49Mo2",
+    "nominal_composition_original": "Cu49Cr49Mo2",
+    "composition": {
+      "CU": 49.0,
+      "CR": 49.0,
+      "MO": 2.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1100",
+    "temperature_unit": "C",
+    "temperature_C": 1100,
+    "temperature_K": 1373.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 97.28,
+          "CR": 2.59,
+          "MO": 0.13
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 2.59,
+          "MO": 0.13
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 97.28,
+          "CR": 2.59,
+          "MO": 0.13
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 96.76577339308648,
+          "CR": 3.1485850011261634,
+          "MO": 0.08564160578735022
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.17,
+          "CR": 98.26,
+          "MO": 1.57
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 98.26,
+          "MO": 1.57
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.17,
+          "CR": 98.26,
+          "MO": 1.57
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.1401526800157756,
+          "CR": 99.00262123650181,
+          "MO": 0.8572260834824197
+        }
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 316,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu48Cr48Mo4_1100C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu48Cr48Mo4",
+    "nominal_composition_original": "Cu48Cr48 Mo4",
+    "composition": {
+      "CU": 48.0,
+      "CR": 48.0,
+      "MO": 4.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1100",
+    "temperature_unit": "C",
+    "temperature_C": 1100,
+    "temperature_K": 1373.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 96.25,
+          "CR": 3.39,
+          "MO": 0.36
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 3.39,
+          "MO": 0.36
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 96.25,
+          "CR": 3.39,
+          "MO": 0.36
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 95.64604991470108,
+          "CR": 4.117024457136349,
+          "MO": 0.2369256281625743
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.33,
+          "CR": 95.43,
+          "MO": 4.24
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 95.43,
+          "MO": 4.24
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.33,
+          "CR": 95.43,
+          "MO": 4.24
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.2755374012226036,
+          "CR": 97.37982505965796,
+          "MO": 2.344637539119436
+        }
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 316,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu47Cr47Mo6_1100C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu47Cr47Mo6",
+    "nominal_composition_original": "Cu47Cr47 Mo6",
+    "composition": {
+      "CU": 47.0,
+      "CR": 47.0,
+      "MO": 6.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1100",
+    "temperature_unit": "C",
+    "temperature_C": 1100,
+    "temperature_K": 1373.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 97.11,
+          "CR": 2.38,
+          "MO": 0.51
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 2.38,
+          "MO": 0.51
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 97.11,
+          "CR": 2.38,
+          "MO": 0.51
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 96.76509655463086,
+          "CR": 2.8983390307016865,
+          "MO": 0.33656441466746356
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.14,
+          "CR": 91.17,
+          "MO": 8.69
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 91.17,
+          "MO": 8.69
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.14,
+          "CR": 91.17,
+          "MO": 8.69
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.11933495900655314,
+          "CR": 94.97494603848362,
+          "MO": 4.905719002509818
+        }
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 316,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu46Cr46Mo8_1100C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu46Cr46Mo8",
+    "nominal_composition_original": "Cu46Cr46 Mo8",
+    "composition": {
+      "CU": 46.0,
+      "CR": 46.0,
+      "MO": 8.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1100",
+    "temperature_unit": "C",
+    "temperature_C": 1100,
+    "temperature_K": 1373.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 97.43,
+          "CR": 2.09,
+          "MO": 0.48
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 2.09,
+          "MO": 0.48
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 97.43,
+          "CR": 2.09,
+          "MO": 0.48
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 97.13650445676562,
+          "CR": 2.5465575927949375,
+          "MO": 0.31693795043943807
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.43,
+          "CR": 85.82,
+          "MO": 13.75
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 85.82,
+          "MO": 13.75
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.43,
+          "CR": 85.82,
+          "MO": 13.75
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.37580976995279325,
+          "CR": 91.66542767034368,
+          "MO": 7.958762559703521
+        }
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 316,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu44Cr44Mo12_1100C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu44Cr44Mo12",
+    "nominal_composition_original": "Cu44Cr44Mo12",
+    "composition": {
+      "CU": 44.0,
+      "CR": 44.0,
+      "MO": 12.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1100",
+    "temperature_unit": "C",
+    "temperature_C": 1100,
+    "temperature_K": 1373.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 97.91,
+          "CR": 1.47,
+          "MO": 0.62
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 1.47,
+          "MO": 0.62
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 97.91,
+          "CR": 1.47,
+          "MO": 0.62
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 97.79543617659704,
+          "CR": 1.7944291693082703,
+          "MO": 0.4101346540946939
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.54,
+          "CR": 80.73,
+          "MO": 18.73
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 80.73,
+          "MO": 18.73
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.54,
+          "CR": 80.73,
+          "MO": 18.73
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.483840121761348,
+          "CR": 88.40168021117488,
+          "MO": 11.11447966706377
+        }
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 316,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu49Cr49Mo2_1200C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu49Cr49Mo2",
+    "nominal_composition_original": "Cu49Cr49Mo2",
+    "composition": {
+      "CU": 49.0,
+      "CR": 49.0,
+      "MO": 2.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1200",
+    "temperature_unit": "C",
+    "temperature_C": 1200,
+    "temperature_K": 1473.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 97.28,
+          "CR": 2.69,
+          "MO": 0.03
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 2.69,
+          "MO": 0.03
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 97.28,
+          "CR": 2.69,
+          "MO": 0.03
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 96.71191565862843,
+          "CR": 3.268331893789154,
+          "MO": 0.019752447582401408
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.86,
+          "CR": 97.07,
+          "MO": 2.07
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 97.07,
+          "MO": 2.07
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.86,
+          "CR": 97.07,
+          "MO": 2.07
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.7115488779113147,
+          "CR": 98.15417217422089,
+          "MO": 1.1342789478678026
+        }
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 316,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu48Cr48Mo4_1200C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu48Cr48Mo4",
+    "nominal_composition_original": "Cu48Cr48 Mo4",
+    "composition": {
+      "CU": 48.0,
+      "CR": 48.0,
+      "MO": 4.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1200",
+    "temperature_unit": "C",
+    "temperature_C": 1200,
+    "temperature_K": 1473.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 96.25,
+          "CR": 3.02,
+          "MO": 0.73
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 3.02,
+          "MO": 0.73
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 96.25,
+          "CR": 3.02,
+          "MO": 0.73
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 95.84333753673866,
+          "CR": 3.675238958780245,
+          "MO": 0.4814235044810951
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.43,
+          "CR": 93.09,
+          "MO": 6.48
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 93.09,
+          "MO": 6.48
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.43,
+          "CR": 93.09,
+          "MO": 6.48
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.36290079305300743,
+          "CR": 96.015188769247,
+          "MO": 3.621910437699982
+        }
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 316,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu47Cr47Mo6_1200C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu47Cr47Mo6",
+    "nominal_composition_original": "Cu47Cr47 Mo6",
+    "composition": {
+      "CU": 47.0,
+      "CR": 47.0,
+      "MO": 6.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1200",
+    "temperature_unit": "C",
+    "temperature_C": 1200,
+    "temperature_K": 1473.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 97.11,
+          "CR": 2.47,
+          "MO": 0.42
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 2.47,
+          "MO": 0.42
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 97.11,
+          "CR": 2.47,
+          "MO": 0.42
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 96.71653775798887,
+          "CR": 3.0064306377662207,
+          "MO": 0.27703160424491324
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.36,
+          "CR": 89.55,
+          "MO": 10.09
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 89.55,
+          "MO": 10.09
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.36,
+          "CR": 89.55,
+          "MO": 10.09
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.30905483757142177,
+          "CR": 93.9541749995288,
+          "MO": 5.73677016289977
+        }
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 316,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu46Cr46Mo8_1200C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu46Cr46Mo8",
+    "nominal_composition_original": "Cu46Cr46 Mo8",
+    "composition": {
+      "CU": 46.0,
+      "CR": 46.0,
+      "MO": 8.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1200",
+    "temperature_unit": "C",
+    "temperature_C": 1200,
+    "temperature_K": 1473.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 96.43,
+          "CR": 2.89,
+          "MO": 0.68
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 2.89,
+          "MO": 0.68
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 96.43,
+          "CR": 2.89,
+          "MO": 0.68
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 96.03404384988919,
+          "CR": 3.5174533053447563,
+          "MO": 0.4485028447660521
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.31,
+          "CR": 85.46,
+          "MO": 14.23
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 85.46,
+          "MO": 14.23
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.31,
+          "CR": 85.46,
+          "MO": 14.23
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.2715070374471031,
+          "CR": 91.47443457700392,
+          "MO": 8.254058385548984
+        }
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 316,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu44Cr44Mo12_1200C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu44Cr44Mo12",
+    "nominal_composition_original": "Cu44Cr44Mo12",
+    "composition": {
+      "CU": 44.0,
+      "CR": 44.0,
+      "MO": 12.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1200",
+    "temperature_unit": "C",
+    "temperature_C": 1200,
+    "temperature_K": 1473.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 98.81,
+          "CR": 1.17,
+          "MO": 0.02
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 1.17,
+          "MO": 0.02
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 98.81,
+          "CR": 1.17,
+          "MO": 0.02
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 98.56050601401921,
+          "CR": 1.4262817822990854,
+          "MO": 0.01321220368168989
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.34,
+          "CR": 79.53,
+          "MO": 20.13
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 79.53,
+          "MO": 20.13
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.34,
+          "CR": 79.53,
+          "MO": 20.13
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.30667167649095306,
+          "CR": 87.66842026257228,
+          "MO": 12.024908060936768
+        }
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 316,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu30Cr61Mo9_1200C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu30Cr61Mo9",
+    "nominal_composition_original": "Cu30Cr61Mo9",
+    "composition": {
+      "CU": 30.0,
+      "CR": 61.0,
+      "MO": 9.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1200",
+    "temperature_unit": "C",
+    "temperature_C": 1200,
+    "temperature_K": 1473.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 97.56,
+          "CR": 2.13,
+          "MO": 0.31
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 2.13,
+          "MO": 0.31
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 97.56,
+          "CR": 2.13,
+          "MO": 0.31
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 97.20186486661767,
+          "CR": 2.5935812453520835,
+          "MO": 0.2045538880302483
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.74,
+          "CR": 86.11,
+          "MO": 13.15
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 86.11,
+          "MO": 13.15
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.74,
+          "CR": 86.11,
+          "MO": 13.15
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.6452364526919572,
+          "CR": 91.76101578398347,
+          "MO": 7.593747763324576
+        }
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 316,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu30Cr55Mo15_1200C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu30Cr55Mo15",
+    "nominal_composition_original": "Cu30Cr55Mo15",
+    "composition": {
+      "CU": 30.0,
+      "CR": 55.0,
+      "MO": 15.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1200",
+    "temperature_unit": "C",
+    "temperature_C": 1200,
+    "temperature_K": 1473.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 98.04,
+          "CR": 1.92,
+          "MO": 0.04
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 1.92,
+          "MO": 0.04
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 98.04,
+          "CR": 1.92,
+          "MO": 0.04
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 97.63677852830654,
+          "CR": 2.3368391282428815,
+          "MO": 0.02638234345058835
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.47,
+          "CR": 79.28,
+          "MO": 20.25
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 79.28,
+          "MO": 20.25
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.47,
+          "CR": 79.28,
+          "MO": 20.25
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.42429611490206715,
+          "CR": 87.4686224357454,
+          "MO": 12.107081449352542
+        }
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 316,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu30Cr49Mo21_1200C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu30Cr49Mo21",
+    "nominal_composition_original": "Cu30Cr49Mo21",
+    "composition": {
+      "CU": 30.0,
+      "CR": 49.0,
+      "MO": 21.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1200",
+    "temperature_unit": "C",
+    "temperature_C": 1200,
+    "temperature_K": 1473.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 98.24,
+          "CR": 1.65,
+          "MO": 0.11
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 1.65,
+          "MO": 0.11
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 98.24,
+          "CR": 1.65,
+          "MO": 0.11
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 97.91749329580269,
+          "CR": 2.0098947947062418,
+          "MO": 0.0726119094910719
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.33,
+          "CR": 69.82,
+          "MO": 29.85
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 69.82,
+          "MO": 29.85
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.33,
+          "CR": 69.82,
+          "MO": 29.85
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.3130090669606993,
+          "CR": 80.93572673460338,
+          "MO": 18.75126419843591
+        }
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 316,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu30Cr43Mo27_1200C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu30Cr43Mo27",
+    "nominal_composition_original": "Cu30Cr43Mo27",
+    "composition": {
+      "CU": 30.0,
+      "CR": 43.0,
+      "MO": 27.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1200",
+    "temperature_unit": "C",
+    "temperature_C": 1200,
+    "temperature_K": 1473.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 97.78,
+          "CR": 1.98,
+          "MO": 0.24
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 1.98,
+          "MO": 0.24
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 97.78,
+          "CR": 1.98,
+          "MO": 0.24
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 97.43045321996414,
+          "CR": 2.411167205884087,
+          "MO": 0.1583795741517767
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.67,
+          "CR": 61.62,
+          "MO": 37.71
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 61.62,
+          "MO": 37.71
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.67,
+          "CR": 61.62,
+          "MO": 37.71
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.6636795878769358,
+          "CR": 74.59724697726195,
+          "MO": 24.739073434861112
+        }
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 316,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu70Cr20Mo10_1200C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu70Cr20Mo10",
+    "nominal_composition_original": "Cu70Cr20Mo10",
+    "composition": {
+      "CU": 70.0,
+      "CR": 20.0,
+      "MO": 10.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1200",
+    "temperature_unit": "C",
+    "temperature_C": 1200,
+    "temperature_K": 1473.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 97.24,
+          "CR": 2.25,
+          "MO": 0.51
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 2.25,
+          "MO": 0.51
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 97.24,
+          "CR": 2.25,
+          "MO": 0.51
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 96.92252366681912,
+          "CR": 2.7408150464020893,
+          "MO": 0.33666128677879037
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.39,
+          "CR": 64.09,
+          "MO": 35.52
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 64.09,
+          "MO": 35.52
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.39,
+          "CR": 64.09,
+          "MO": 35.52
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.38145319145636136,
+          "CR": 76.60980650864822,
+          "MO": 23.008740299895422
+        }
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 316,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu70Cr15Mo15_1200C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu70Cr15Mo15",
+    "nominal_composition_original": "Cu70Cr15Mo15",
+    "composition": {
+      "CU": 70.0,
+      "CR": 15.0,
+      "MO": 15.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1200",
+    "temperature_unit": "C",
+    "temperature_C": 1200,
+    "temperature_K": 1473.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 95.24,
+          "CR": 4.4,
+          "MO": 0.36
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 4.4,
+          "MO": 0.36
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 95.24,
+          "CR": 4.4,
+          "MO": 0.36
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 94.43185762844658,
+          "CR": 5.331743779067113,
+          "MO": 0.23639859248631043
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 1.53,
+          "CR": 46.13,
+          "MO": 52.34
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 46.13,
+          "MO": 52.34
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 1.53,
+          "CR": 46.13,
+          "MO": 52.34
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 1.65279033341171,
+          "CR": 60.9013943533147,
+          "MO": 37.445815313273584
+        }
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 316,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu70Cr10Mo20_1200C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu70Cr10Mo20",
+    "nominal_composition_original": "Cu70Cr10Mo20",
+    "composition": {
+      "CU": 70.0,
+      "CR": 10.0,
+      "MO": 20.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1200",
+    "temperature_unit": "C",
+    "temperature_C": 1200,
+    "temperature_K": 1473.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 96.71,
+          "CR": 3.02,
+          "MO": 0.27
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 3.02,
+          "MO": 0.27
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 96.71,
+          "CR": 3.02,
+          "MO": 0.27
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 96.1526518986577,
+          "CR": 3.6695623764504735,
+          "MO": 0.17778572489183536
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.55,
+          "CR": 28.45,
+          "MO": 71.0
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 28.45,
+          "MO": 71.0
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.55,
+          "CR": 28.45,
+          "MO": 71.0
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.6679486819982067,
+          "CR": 42.226017812211474,
+          "MO": 57.10603350579033
+        }
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 316,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu70Cr5Mo25_1200C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu70Cr5Mo25",
+    "nominal_composition_original": "Cu70Cr5Mo25",
+    "composition": {
+      "CU": 70.0,
+      "CR": 5.0,
+      "MO": 25.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1200",
+    "temperature_unit": "C",
+    "temperature_C": 1200,
+    "temperature_K": 1473.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 95.79,
+          "CR": 3.5,
+          "MO": 0.71
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 3.5,
+          "MO": 0.71
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 95.79,
+          "CR": 3.5,
+          "MO": 0.71
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 95.277714636906,
+          "CR": 4.254579573144863,
+          "MO": 0.467705789949141
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.49,
+          "CR": 12.51,
+          "MO": 87.0
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 12.51,
+          "MO": 87.0
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.49,
+          "CR": 12.51,
+          "MO": 87.0
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.6675983979598024,
+          "CR": 20.830225121569658,
+          "MO": 78.50217648047055
+        }
+      }
+    ],
+    "page": 3,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 316,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu49Cr49Mo2_1300C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu49Cr49Mo2",
+    "nominal_composition_original": "Cu49Cr49Mo2",
+    "composition": {
+      "CU": 49.0,
+      "CR": 49.0,
+      "MO": 2.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1300",
+    "temperature_unit": "C",
+    "temperature_C": 1300,
+    "temperature_K": 1573.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 96.58,
+          "CR": 3.35,
+          "MO": 0.07
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 3.35,
+          "MO": 0.07
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 96.58,
+          "CR": 3.35,
+          "MO": 0.07
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 95.8891230139133,
+          "CR": 4.064848846131393,
+          "MO": 0.046028139955304075
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.33,
+          "CR": 96.4,
+          "MO": 3.27
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 96.4,
+          "MO": 3.27
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.33,
+          "CR": 96.4,
+          "MO": 3.27
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.2742936771685499,
+          "CR": 97.92562200332846,
+          "MO": 1.800084319503
+        }
+      }
+    ],
+    "page": 4,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 317,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu48Cr48Mo4_1300C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu48Cr48Mo4",
+    "nominal_composition_original": "Cu48Cr48 Mo4",
+    "composition": {
+      "CU": 48.0,
+      "CR": 48.0,
+      "MO": 4.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1300",
+    "temperature_unit": "C",
+    "temperature_C": 1300,
+    "temperature_K": 1573.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 95.23,
+          "CR": 4.49,
+          "MO": 0.28
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 4.49,
+          "MO": 0.28
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 95.23,
+          "CR": 4.49,
+          "MO": 0.28
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 94.3779527025919,
+          "CR": 5.438267385710494,
+          "MO": 0.1837799116976051
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.51,
+          "CR": 94.17,
+          "MO": 5.32
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 94.17,
+          "MO": 5.32
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.51,
+          "CR": 94.17,
+          "MO": 5.32
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.42813488893824836,
+          "CR": 96.61408887239291,
+          "MO": 2.957776238668833
+        }
+      }
+    ],
+    "page": 4,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 317,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu47Cr47Mo6_1300C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu47Cr47Mo6",
+    "nominal_composition_original": "Cu47Cr47 Mo6",
+    "composition": {
+      "CU": 47.0,
+      "CR": 47.0,
+      "MO": 6.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1300",
+    "temperature_unit": "C",
+    "temperature_C": 1300,
+    "temperature_K": 1573.15,
+    "annealing_time": "15 days",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 97.32,
+          "CR": 2.15,
+          "MO": 0.53
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 2.15,
+          "MO": 0.53
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 97.32,
+          "CR": 2.15,
+          "MO": 0.53
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 97.0302778238734,
+          "CR": 2.6197574413667946,
+          "MO": 0.34996473475980727
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 1.29,
+          "CR": 86.62,
+          "MO": 12.09
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 86.62,
+          "MO": 12.09
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 1.29,
+          "CR": 86.62,
+          "MO": 12.09
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 1.120200989357453,
+          "CR": 91.92674213652143,
+          "MO": 6.953056874121116
+        }
+      }
+    ],
+    "page": 4,
+    "table": "Table 2",
+    "figure": "Fig. 1(c), Fig. 2(c)",
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 317,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu46Cr46Mo8_1300C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu46Cr46Mo8",
+    "nominal_composition_original": "Cu46Cr46 Mo8",
+    "composition": {
+      "CU": 46.0,
+      "CR": 46.0,
+      "MO": 8.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1300",
+    "temperature_unit": "C",
+    "temperature_C": 1300,
+    "temperature_K": 1573.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 96.73,
+          "CR": 2.59,
+          "MO": 0.68
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 2.59,
+          "MO": 0.68
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 96.73,
+          "CR": 2.59,
+          "MO": 0.68
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 96.39678612346368,
+          "CR": 3.154413183366148,
+          "MO": 0.4488006931701667
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 1.41,
+          "CR": 83.36,
+          "MO": 15.23
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 83.36,
+          "MO": 15.23
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 1.41,
+          "CR": 83.36,
+          "MO": 15.23
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 1.243678755161669,
+          "CR": 89.85955365405768,
+          "MO": 8.896767590780637
+        }
+      }
+    ],
+    "page": 4,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 317,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu44Cr44Mo12_1300C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu44Cr44Mo12",
+    "nominal_composition_original": "Cu44Cr44Mo12",
+    "composition": {
+      "CU": 44.0,
+      "CR": 44.0,
+      "MO": 12.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1300",
+    "temperature_unit": "C",
+    "temperature_C": 1300,
+    "temperature_K": 1573.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 97.27,
+          "CR": 2.36,
+          "MO": 0.37
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 2.36,
+          "MO": 0.37
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 97.27,
+          "CR": 2.36,
+          "MO": 0.37
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 96.88317301600591,
+          "CR": 2.872756983816132,
+          "MO": 0.24407000017794722
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.36,
+          "CR": 76.51,
+          "MO": 23.13
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 76.51,
+          "MO": 23.13
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.36,
+          "CR": 76.51,
+          "MO": 23.13
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.3297193395236468,
+          "CR": 85.64017981788125,
+          "MO": 14.030100842595106
+        }
+      }
+    ],
+    "page": 4,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 317,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu30Cr61Mo9_1300C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu30Cr61Mo9",
+    "nominal_composition_original": "Cu30Cr61Mo9",
+    "composition": {
+      "CU": 30.0,
+      "CR": 61.0,
+      "MO": 9.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1300",
+    "temperature_unit": "C",
+    "temperature_C": 1300,
+    "temperature_K": 1573.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 98.63,
+          "CR": 1.37,
+          "MO": 0.0
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 1.37,
+          "MO": 0.0
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 98.63,
+          "CR": 1.37,
+          "MO": 0.0
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 98.33076153138839,
+          "CR": 1.6692384686116066,
+          "MO": 0.0
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.96,
+          "CR": 88.6,
+          "MO": 10.44
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 88.6,
+          "MO": 10.44
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.96,
+          "CR": 88.6,
+          "MO": 10.44
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.8264821591989652,
+          "CR": 93.22092759836252,
+          "MO": 5.9525902424385055
+        }
+      }
+    ],
+    "page": 4,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 317,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu30Cr55Mo15_1300C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu30Cr55Mo15",
+    "nominal_composition_original": "Cu30Cr55Mo15",
+    "composition": {
+      "CU": 30.0,
+      "CR": 55.0,
+      "MO": 15.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1300",
+    "temperature_unit": "C",
+    "temperature_C": 1300,
+    "temperature_K": 1573.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 97.49,
+          "CR": 2.3,
+          "MO": 0.21
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 2.3,
+          "MO": 0.21
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 97.49,
+          "CR": 2.3,
+          "MO": 0.21
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 97.06294382724336,
+          "CR": 2.7985860992932636,
+          "MO": 0.138470073463385
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.71,
+          "CR": 74.87,
+          "MO": 24.42
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 74.87,
+          "MO": 24.42
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.71,
+          "CR": 74.87,
+          "MO": 24.42
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.6550793322727085,
+          "CR": 84.4230095800738,
+          "MO": 14.921911087653482
+        }
+      }
+    ],
+    "page": 4,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 317,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu30Cr49Mo21_1300C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu30Cr49Mo21",
+    "nominal_composition_original": "Cu30Cr49Mo21",
+    "composition": {
+      "CU": 30.0,
+      "CR": 49.0,
+      "MO": 21.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1300",
+    "temperature_unit": "C",
+    "temperature_C": 1300,
+    "temperature_K": 1573.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 97.52,
+          "CR": 2.31,
+          "MO": 0.17
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 2.31,
+          "MO": 0.17
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 97.52,
+          "CR": 2.31,
+          "MO": 0.17
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 97.07760899220754,
+          "CR": 2.8103137389484565,
+          "MO": 0.11207726884400666
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.68,
+          "CR": 71.76,
+          "MO": 27.56
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 71.76,
+          "MO": 27.56
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.68,
+          "CR": 71.76,
+          "MO": 27.56
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.6377038967527217,
+          "CR": 82.24510061167362,
+          "MO": 17.11719549157366
+        }
+      }
+    ],
+    "page": 4,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 317,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu30Cr43Mo27_1300C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu30Cr43Mo27",
+    "nominal_composition_original": "Cu30Cr43Mo27",
+    "composition": {
+      "CU": 30.0,
+      "CR": 43.0,
+      "MO": 27.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1300",
+    "temperature_unit": "C",
+    "temperature_C": 1300,
+    "temperature_K": 1573.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 96.39,
+          "CR": 3.39,
+          "MO": 0.22
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 3.39,
+          "MO": 0.22
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 96.39,
+          "CR": 3.39,
+          "MO": 0.22
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 95.74018907929988,
+          "CR": 4.1150910317013905,
+          "MO": 0.14471988899872168
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.73,
+          "CR": 59.34,
+          "MO": 39.93
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 59.34,
+          "MO": 39.93
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.73,
+          "CR": 59.34,
+          "MO": 39.93
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.7322249447367646,
+          "CR": 72.74223655581616,
+          "MO": 26.525538499447066
+        }
+      }
+    ],
+    "page": 4,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 317,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu70Cr20Mo10_1300C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu70Cr20Mo10",
+    "nominal_composition_original": "Cu70Cr20Mo10",
+    "composition": {
+      "CU": 70.0,
+      "CR": 20.0,
+      "MO": 10.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1300",
+    "temperature_unit": "C",
+    "temperature_C": 1300,
+    "temperature_K": 1573.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 97.87,
+          "CR": 2.1,
+          "MO": 0.03
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 2.1,
+          "MO": 0.03
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 97.87,
+          "CR": 2.1,
+          "MO": 0.03
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 97.42540721332084,
+          "CR": 2.554814569772838,
+          "MO": 0.019778216906330002
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 1.09,
+          "CR": 91.74,
+          "MO": 7.17
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 91.74,
+          "MO": 7.17
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 1.09,
+          "CR": 91.74,
+          "MO": 7.17
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.9240672538659302,
+          "CR": 95.05025063713657,
+          "MO": 4.025682108997507
+        }
+      }
+    ],
+    "page": 4,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu). Printed solid endpoint Cr91.74 Mo7.17 wt.% retained; unusual temperature contrast with 1200 C, no correction made.",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 317,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu70Cr15Mo15_1300C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu70Cr15Mo15",
+    "nominal_composition_original": "Cu70Cr15Mo15",
+    "composition": {
+      "CU": 70.0,
+      "CR": 15.0,
+      "MO": 15.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1300",
+    "temperature_unit": "C",
+    "temperature_C": 1300,
+    "temperature_K": 1573.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 95.28,
+          "CR": 4.4,
+          "MO": 0.32
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 4.4,
+          "MO": 0.32
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 95.28,
+          "CR": 4.4,
+          "MO": 0.32
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 94.45886632241854,
+          "CR": 5.331029736854408,
+          "MO": 0.2101039407270495
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.53,
+          "CR": 43.13,
+          "MO": 56.34
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 43.13,
+          "MO": 56.34
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.53,
+          "CR": 43.13,
+          "MO": 56.34
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.5852895872833797,
+          "CR": 58.209227319613234,
+          "MO": 41.205483093103396
+        }
+      }
+    ],
+    "page": 4,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 317,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu70Cr10Mo20_1300C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu70Cr10Mo20",
+    "nominal_composition_original": "Cu70Cr10Mo20",
+    "composition": {
+      "CU": 70.0,
+      "CR": 10.0,
+      "MO": 20.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1300",
+    "temperature_unit": "C",
+    "temperature_C": 1300,
+    "temperature_K": 1573.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 97.01,
+          "CR": 2.78,
+          "MO": 0.21
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 2.78,
+          "MO": 0.21
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 97.01,
+          "CR": 2.78,
+          "MO": 0.21
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 96.48262495953178,
+          "CR": 3.379051804585305,
+          "MO": 0.13832323588291107
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.55,
+          "CR": 23.45,
+          "MO": 76.0
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 23.45,
+          "MO": 76.0
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.55,
+          "CR": 23.45,
+          "MO": 76.0
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.6914549782122612,
+          "CR": 36.02977195899554,
+          "MO": 63.27877306279221
+        }
+      }
+    ],
+    "page": 4,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 317,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  },
+  {
+    "condition_id": "R3_MO_Cu70Cr5Mo25_1300C",
+    "source_id": "S2_MO",
+    "system": "Cu-Cr-Mo",
+    "X_identity": "MO",
+    "alloy_id": "Cu70Cr5Mo25",
+    "nominal_composition_original": "Cu70Cr5Mo25",
+    "composition": {
+      "CU": 70.0,
+      "CR": 5.0,
+      "MO": 25.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_original": "1300",
+    "temperature_unit": "C",
+    "temperature_C": 1300,
+    "temperature_K": 1573.15,
+    "annealing_time": "UNKNOWN (source general range: 2 months to several days)",
+    "equilibration_status": "author_reported_equilibrium_after_annealing",
+    "cooling_condition": "iced-water quench",
+    "characterization": [
+      "metallography",
+      "BSE",
+      "XRD",
+      "EPMA"
+    ],
+    "phases": [
+      "Liquid",
+      "(Cr, Mo)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Liquid",
+        "composition": {
+          "CU": 97.37,
+          "CR": 2.59,
+          "MO": 0.04
+        },
+        "basis": "wt.%",
+        "structure": null,
+        "composition_original": {
+          "CR": 2.59,
+          "MO": 0.04
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 97.37,
+          "CR": 2.59,
+          "MO": 0.04
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 96.82602335290368,
+          "CR": 3.147633348387235,
+          "MO": 0.02634329870908111
+        }
+      },
+      {
+        "phase": "(Cr, Mo)",
+        "composition": {
+          "CU": 0.67,
+          "CR": 13.82,
+          "MO": 85.51
+        },
+        "basis": "wt.%",
+        "structure": "BCC",
+        "composition_original": {
+          "CR": 13.82,
+          "MO": 85.51
+        },
+        "composition_original_basis": "wt.%",
+        "composition_wt_percent_with_balance": {
+          "CU": 0.67,
+          "CR": 13.82,
+          "MO": 85.51
+        },
+        "conversion_note": "Derived at.% from original wt.% using Cu=100-Cr-Mo; atomic weights Cu63.546 Cr51.9961 Mo95.95. Cu is balance, not separately tabulated.",
+        "composition_at_percent_derived": {
+          "CU": 0.9030670765490163,
+          "CR": 22.76515951581053,
+          "MO": 76.33177340764045
+        }
+      }
+    ],
+    "page": 4,
+    "table": "Table 2",
+    "figure": null,
+    "source_evidence_note": "Table 2 experimental nominal composition and EPMA endpoints visually verified. Source phase data are wt.%; at.% explicitly derived. Seven analyses per phase; source SD +/-0.5 wt.%. Specific anneal duration unavailable; p314 reports 2 months to several days. Liquid refers to annealing equilibrium, not post-quench FCC(Cu).",
+    "direct_eligible": true,
+    "exclusion_reason": null,
+    "printed_page": 317,
+    "prior_heat_treatment": "1000 C, 1 week homogenization; not separate phase-equilibrium evidence"
+  }
+]

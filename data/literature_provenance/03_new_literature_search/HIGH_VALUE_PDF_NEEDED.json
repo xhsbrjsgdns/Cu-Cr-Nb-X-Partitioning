@@ -1,0 +1,113 @@
+[
+  {
+    "paper_id": "TI_Shi2023",
+    "doi": "10.1016/j.calphad.2023.102581",
+    "title": "Experimental investigation and thermodynamic calculation of the Cu-Cr-Ti ternary system",
+    "X_identity": "TI",
+    "decision": "NEEDS_FULLTEXT",
+    "new_beyond_R1": true,
+    "crossref_verified": true,
+    "crossref_title": [
+      "Experimental investigation and thermodynamic calculation of the Cu–Cr–Ti ternary system"
+    ],
+    "authors": [
+      "Yuchao Shi",
+      "Jin Zhang",
+      "Benfu Li",
+      "Gang Zeng",
+      "Chenggang Jin",
+      "Biao Hu",
+      "Xinyue Lan",
+      "Yong Du"
+    ],
+    "publisher_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4363764",
+    "local_fulltext_path": null,
+    "local_fulltext_sha256": null,
+    "metadata_note": "Crossref title/author metadata stored in crossref_final.json or retrieval_candidates.json; PDF identity checked when locally present. Abstract-only cases not admissible evidence.",
+    "direct_equilibrium_validation": false,
+    "requested_action": "Obtain lawful author/publisher full text and tables before extracting composition-level phase data",
+    "priority": 1
+  },
+  {
+    "paper_id": "SI_Yu2011",
+    "doi": "10.1016/j.matchemphys.2010.11.033",
+    "title": "Thermodynamics and kinetics in liquid immiscible Cu-Cr-Si ternary system",
+    "X_identity": "SI",
+    "decision": "NEEDS_FULLTEXT",
+    "new_beyond_R1": true,
+    "crossref_verified": true,
+    "crossref_title": [
+      "Thermodynamics and kinetics in liquid immiscible Cu–Cr–Si ternary system"
+    ],
+    "authors": [
+      "Yan Yu",
+      "Cuiping Wang",
+      "Xingjun Liu",
+      "Ryosuke Kainuma",
+      "Kiyohito Ishida"
+    ],
+    "publisher_url": "https://www.sciencedirect.com/science/article/abs/pii/S0254058410009235",
+    "local_fulltext_path": null,
+    "local_fulltext_sha256": null,
+    "metadata_note": "Crossref title/author metadata stored in crossref_final.json or retrieval_candidates.json; PDF identity checked when locally present. Abstract-only cases not admissible evidence.",
+    "direct_equilibrium_validation": false,
+    "requested_action": "Obtain lawful author/publisher full text and tables before extracting composition-level phase data",
+    "priority": 1
+  },
+  {
+    "paper_id": "CO_2023",
+    "doi": "10.1016/j.jallcom.2022.168269",
+    "title": "Precipitation behavior and strengthening effects of the Cu-0.42Cr-0.16Co alloy during aging treatment",
+    "X_identity": "CO",
+    "decision": "NEEDS_FULLTEXT",
+    "new_beyond_R1": true,
+    "crossref_verified": true,
+    "crossref_title": [
+      "Precipitation behavior and strengthening effects of the Cu-0.42Cr-0.16Co alloy during aging treatment"
+    ],
+    "authors": [
+      "Qinghua Gong",
+      "Jian Liu",
+      "Fan Wu",
+      "Huiming Chen",
+      "Weibin Xie",
+      "Hang Wang",
+      "Bin Yang"
+    ],
+    "publisher_url": "https://www.sciencedirect.com/science/article/abs/pii/S0925838822046606",
+    "local_fulltext_path": null,
+    "local_fulltext_sha256": null,
+    "metadata_note": "Crossref title/author metadata stored in crossref_final.json or retrieval_candidates.json; PDF identity checked when locally present. Abstract-only cases not admissible evidence.",
+    "direct_equilibrium_validation": false,
+    "requested_action": "Obtain lawful author/publisher full text and tables before extracting composition-level phase data",
+    "priority": 2
+  },
+  {
+    "paper_id": "TI_2023",
+    "doi": "10.1016/j.jallcom.2023.168865",
+    "title": "Relationship between microstructure and properties of high-strength Cu-Ti-Cr alloys during aging",
+    "X_identity": "TI",
+    "decision": "NEEDS_FULLTEXT",
+    "new_beyond_R1": true,
+    "crossref_verified": true,
+    "crossref_title": [
+      "Relationship between microstructure and properties of high-strength Cu-Ti-Cr alloys during aging"
+    ],
+    "authors": [
+      "Lue Huang",
+      "Lijun Peng",
+      "Xujun Mi",
+      "Gang Zhao",
+      "Guojie Huang",
+      "Haofeng Xie",
+      "Wenjing Zhang"
+    ],
+    "publisher_url": "https://www.sciencedirect.com/science/article/pii/S0925838823001688",
+    "local_fulltext_path": null,
+    "local_fulltext_sha256": null,
+    "metadata_note": "Crossref title/author metadata stored in crossref_final.json or retrieval_candidates.json; PDF identity checked when locally present. Abstract-only cases not admissible evidence.",
+    "direct_equilibrium_validation": false,
+    "requested_action": "Obtain lawful author/publisher full text and tables before extracting composition-level phase data",
+    "priority": 2
+  }
+]

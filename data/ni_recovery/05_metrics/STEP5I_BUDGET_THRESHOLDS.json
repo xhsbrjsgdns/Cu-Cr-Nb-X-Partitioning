@@ -1,0 +1,31 @@
+{
+  "generated_utc": "2026-09-07T06:01:16+00:00",
+  "definitions": {
+    "B_skill": "smallest budget whose across-replicate mean M_REFIT TVD is below the frozen PRIMARY trivial TVD on the SAME recovery subset (spec 32)",
+    "B_recovery25": "smallest budget whose across-replicate mean M_REFIT TVD is <= 0.75 x the frozen PRIMARY zero-shot TVD on the SAME recovery subset (spec 33, 34)"
+  },
+  "zero_shot_tvd_recovery_subset": 0.8632602865207863,
+  "trivial_tvd_recovery_subset": 0.5960189306749455,
+  "recovery25_target_tvd": 0.6474452148905898,
+  "full_blind_tvd_not_used_here": 0.8643856186628641,
+  "per_budget_mean_tvd": {
+    "1": 0.24816237006019745,
+    "2": 0.16567073008945177,
+    "4": 0.1235011338779779,
+    "8": 0.050738067507027425,
+    "16": 0.03581375518973693,
+    "32": 0.027187984792811964
+  },
+  "B_skill": 1,
+  "B_recovery25": 1,
+  "budgets_evaluated": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "all_budgets_retained": true,
+  "post_hoc_selection_performed": false
+}

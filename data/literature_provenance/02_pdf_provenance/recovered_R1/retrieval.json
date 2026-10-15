@@ -1,0 +1,21 @@
+[
+  {
+    "id": "MO_Cho2021_recovered",
+    "url": "https://journals.pan.pl/Content/119234/PDF/AMM-2021-3-03-Seok-Jun%20Seo.pdf?handler=pdf",
+    "status": 200,
+    "bytes": 4377655,
+    "pages": 5,
+    "head": "BY\nNC\n© 2021. The Author(s). This is an open-access article distributed under the terms of the Creative Commons Attribution-NonCom-\nmercial License (CC BY-NC 4.0, https://creativecommons.org/licenses/by-nc/4.0/deed.en which permits the use, redistribution of \nthe material in any medium or format, transforming and building upon the material, provided that the article is properly cited, the \nuse is noncommercial, and no modifications or adaptations are made.\nArch. Metall. Mater. 66 (2021), 3, 683-687\nDOI: 10.24425/amm.2021.136361\nYeong-Woo Cho\n1,2, Jae-Jin Sim\n1,2, Sung-Gue Heo\n1,3, Hyun-Chul Kim\n1,3,  \nYong-Kwan Lee\n1,2, Jong-Soo Byeon\n1,2, Yong-Tak Lee\n1,2, Kee-Ahn Lee\n2,  \nSeok-Jun Seo\n1*, Kyoung-Tae Park\n1*\nEffects of ZrO2 and Al2O3 Addition on the Physical Properties of Cu-Mo-Cr Alloy  \nby Liquid Phase Sintering\nIn this study, the effect of the addition of ZrO2 and Al2O3 ceramic powders to Cu-Mo-Cr alloy was studied by examining the \nphysical properties of the composite material. The ceramic additives were selected based on the thermodynamic stability calculation \nof the Cu-Mo-Cr alloys. Elemental powders, in the ratio Cu:Mo:Cr = 60:30:10 (wt.%), and approximately 0-1.2 wt.% of ZrO2 and \nAl2O3 were mixed, and a green compact was formed by pressing the mixture under 186 MPa pressure and sintering at 1250°C for \n5 h. The raw powders were evenly dispersed in the mixed powder, as observed by scanning electron microscopy. After sintering, \nthe microstructures, densities, electr"
+  },
+  {
+    "id": "BASE_GRCop2023_recovered",
+    "url": "https://library.psfc.mit.edu/catalog/reports/2020/22ja/22ja112/22ja112_full.pdf",
+    "error": "HTTPSConnectionPool(host='library.psfc.mit.edu', port=443): Max retries exceeded with url: /catalog/reports/2020/22ja/22ja112/22ja112_full.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))"
+  },
+  {
+    "id": "CO_Zhou2016_recovered",
+    "url": "https://www.tsijournals.com/articles/phase-equilibria-of-the-cuconb-system-at-1198-k.pdf",
+    "status": 522,
+    "bytes": 7264
+  }
+]

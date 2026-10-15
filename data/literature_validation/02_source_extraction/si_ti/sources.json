@@ -1,0 +1,36 @@
+[
+  {
+    "source_id": "S4_SI",
+    "title": "Experimental investigation and CALPHAD modeling of the Cu–Cr–Si ternary system",
+    "authors": "Yu Zhang; Biao Hu; Benfu Li; Man Zhang; Qingping Wang; Yong Du",
+    "journal": "CALPHAD 74 (2021) 102324",
+    "year": 2021,
+    "doi": "10.1016/j.calphad.2021.102324",
+    "pdf_path": "E:\\Cu_CALPHAD_ML\\文献\\Experimental investigation and CALPHAD modeling of the Cu–Cr–Si ternary system(科研通-ablesci.com).pdf",
+    "sha256": "d88b2cf5b2599afe9e2a3d31ac27ca5e87d3000b7034f56a6fc3ccf8a69ab40d",
+    "systems": [
+      "Cu–Cr–Si"
+    ],
+    "experimental_system": "Cu–Cr–Si",
+    "source_role": "DIRECT_PHASE_EQUILIBRIUM",
+    "identity_verified": true,
+    "identity_evidence": "PDF page 1 title/authors/journal/DOI verified against rendered image"
+  },
+  {
+    "source_id": "S5_TI",
+    "title": "Experimental Investigation of Phase Equilibria in the Cu–Cr–Ti System",
+    "authors": "J. H. Li; X. M. Huang; L. L. Zhu; G. M. Cai",
+    "journal": "Journal of Phase Equilibria and Diffusion 42 (2021) 389–402",
+    "year": 2021,
+    "doi": "10.1007/s11669-021-00892-y",
+    "pdf_path": "E:\\Cu_CALPHAD_ML\\文献\\Experimental Investigation of Phase Equilibria in the Cu–Cr–Ti System(科研通-ablesci.com).pdf",
+    "sha256": "4d4dbd2d67bee3eb3ecc5d59c1da53d362cf07a73cb994e0148052e11a8d4143",
+    "systems": [
+      "Cu–Cr–Ti"
+    ],
+    "experimental_system": "Cu–Cr–Ti",
+    "source_role": "DIRECT_PHASE_EQUILIBRIUM",
+    "identity_verified": true,
+    "identity_evidence": "PDF page 1 title/authors/journal/DOI verified against rendered image"
+  }
+]

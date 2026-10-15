@@ -1,0 +1,961 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          12
+        ]
+      ],
+      "date-time": "2026-08-12T02:51:25Z",
+      "timestamp": 1786503085287,
+      "version": "build-2736575974"
+    },
+    "reference-count": 64,
+    "publisher": "Elsevier BV",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2023-03-01T00:00:00Z",
+          "timestamp": 1677628800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2023-03-01T00:00:00Z",
+          "timestamp": 1677628800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              4,
+              21
+            ]
+          ],
+          "date-time": "2023-04-21T00:00:00Z",
+          "timestamp": 1682035200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 51,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Transactions of Nonferrous Metals Society of China"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1016/s1003-6326(23)66149-7",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          21
+        ]
+      ],
+      "date-time": "2023-04-21T15:39:26Z",
+      "timestamp": 1682091566000
+    },
+    "page": "824-838",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 11,
+    "title": [
+      "Experimental investigation and thermodynamic modeling of Cu–Nb–Si system"
+    ],
+    "prefix": "10.1016",
+    "volume": "33",
+    "author": [
+      {
+        "given": "Jia-qiang",
+        "family": "ZHOU",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Biao",
+        "family": "HU",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ben-fu",
+        "family": "LI",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yong",
+        "family": "DU",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiong",
+        "family": "WANG",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "261",
+        "DOI": "10.1016/j.actamat.2018.12.047",
+        "article-title": "Precipitation behavior of Cu–3.0Ni–0.72Si alloy [J]",
+        "volume": "166",
+        "author": "YI",
+        "year": "2019",
+        "journal-title": "Acta Materialia"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib2",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.calphad.2019.101727",
+        "article-title": "Phase equilibria of the Cu–Zr–Si system at 750 and 900 °C [J]",
+        "volume": "68",
+        "author": "XIAO",
+        "year": "2020",
+        "journal-title": "Calphad"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/S1003-6326(23)66149-7_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "232",
+        "DOI": "10.1016/S1003-6326(20)65490-5",
+        "article-title": "Effect of Cr content on microstructure and properties of aged Cu–Cr–P alloys [J]",
+        "volume": "31",
+        "author": "WANG",
+        "year": "2021",
+        "journal-title": "Transactions of Nonferrous Metals Society of China"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/S1003-6326(23)66149-7_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "2737",
+        "DOI": "10.1016/S1003-6326(20)65416-4",
+        "article-title": "Microstructure evolution and hot deformation behavior of Cu–3Ti–0.1Zr alloy with ultra-high strength [J]",
+        "volume": "30",
+        "author": "WANG",
+        "year": "2020",
+        "journal-title": "Transactions of Nonferrous Metals Society of China"
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/S1003-6326(23)66149-7_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "2556",
+        "DOI": "10.1016/S1003-6326(19)65163-0",
+        "article-title": "Effect of Si and Ti on dynamic recrystallization of high-performance Cu–15Ni–8Sn alloy during hot deformation [J]",
+        "volume": "29",
+        "author": "ZHAO",
+        "year": "2019",
+        "journal-title": "Transactions of Nonferrous Metals Society of China"
+      },
+      {
+        "issue": "22",
+        "key": "10.1016/S1003-6326(23)66149-7_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "12864",
+        "DOI": "10.1007/s10853-021-06093-9",
+        "article-title": "Microstructural evolution in Cu–Nb processed via friction consolidation [J]",
+        "volume": "56",
+        "author": "KOMARASAMY",
+        "year": "2021",
+        "journal-title": "Journal of Materials Science and Technology"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/S1003-6326(23)66149-7_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1000",
+        "DOI": "10.1007/s11837-014-0978-z",
+        "article-title": "“Bulk” nanocrystalline metals: Review of the current state of the art and future opportunities for copper and copper alloys [J]",
+        "volume": "66",
+        "author": "TSCHOPP",
+        "year": "2014",
+        "journal-title": "JOM"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib8",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.intermet.2020.107053",
+        "article-title": "Influence of molybdenum contents on the microstructure, mechanical properties and oxidation behavior of multi-elemental Nb–Si based ultrahigh temperature alloys [J]",
+        "volume": "129",
+        "author": "MA",
+        "year": "2021",
+        "journal-title": "Intermetallics"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib9",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.intermet.2021.107172",
+        "article-title": "Balancing the fracture toughness and tensile strength by multiple additions of Zr and Y in Nb–Si based alloys [J]",
+        "volume": "133",
+        "author": "SUN",
+        "year": "2021",
+        "journal-title": "Intermetallics"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/S1003-6326(23)66149-7_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "12",
+        "DOI": "10.1134/S207511331301005X",
+        "article-title": "Application of microstructured intermetallides in turbine manufacture. Part 1: Present state and prospects (a review) [J]",
+        "volume": "4",
+        "author": "KARTAVYKH",
+        "year": "2013",
+        "journal-title": "Inorganic Materials: Applied Research"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib11",
+        "article-title": "A new thermodynamic database for multicomponent Cu alloys [J]",
+        "volume": "67",
+        "author": "HU",
+        "year": "2019",
+        "journal-title": "Calphad"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib12",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.calphad.2019.101734",
+        "article-title": "The phase equilibria of the Cu–Cr–Ni and Cu–Cr–Ag systems: Experimental investigation and thermodynamic modeling [J]",
+        "volume": "68",
+        "author": "QIU",
+        "year": "2020",
+        "journal-title": "Calphad"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib13",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jct.2020.106172",
+        "article-title": "Experimental investigation and thermodynamic modeling of the Cu–Ag–Si ternary system [J]",
+        "volume": "150",
+        "author": "QIU",
+        "year": "2020",
+        "journal-title": "The Journal of Chemical Thermodynamics"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/S1003-6326(23)66149-7_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "150",
+        "DOI": "10.1007/s11669-021-00866-0",
+        "article-title": "Experimental investigation and thermodynamic modeling of the phase equilibria in the Cu–Nb–Ni ternary system [J]",
+        "volume": "42",
+        "author": "ZHOU",
+        "year": "2021",
+        "journal-title": "Journal of Phase Equilibria and Diffusion"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "10614",
+        "DOI": "10.1007/s10853-021-05818-0",
+        "article-title": "Thermodynamic description and simulation of solidification microstructures in the Cu–Mg–Zn system [J]",
+        "volume": "56",
+        "author": "DREVAL",
+        "year": "2021",
+        "journal-title": "Journal of Materials Science and Technology"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib16",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.calphad.2021.102324",
+        "article-title": "Experimental investigation and CALPHAD modeling of the Cu–Cr–Si ternary system [J]",
+        "volume": "74",
+        "author": "ZHANG",
+        "year": "2021",
+        "journal-title": "Calphad"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib17",
+        "series-title": "Computational thermodynamics: The CALPHAD method [M]",
+        "author": "LUKAS",
+        "year": "2007"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib18",
+        "series-title": "Computational thermodynamics of materials [M]",
+        "author": "LIU",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "549",
+        "DOI": "10.1007/BF00901203",
+        "article-title": "The crystal structure of Nb5Cu4Si4 [J]",
+        "volume": "99",
+        "author": "GANGLBERGER",
+        "year": "1968",
+        "journal-title": "Monatshefte Für Chemie"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/S1003-6326(23)66149-7_bib20",
+        "first-page": "512",
+        "article-title": "Copper effect on structure and superconductive properties of transition metal silicides [J]",
+        "volume": "15",
+        "author": "SAVITSKII",
+        "year": "1979",
+        "journal-title": "Neorganicheskie Materialy"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/S1003-6326(23)66149-7_bib21",
+        "first-page": "720",
+        "article-title": "Phase equilibria in the system copper–niobium–silicon [J]",
+        "volume": "72",
+        "author": "ZANKL",
+        "year": "1981",
+        "journal-title": "Zeitschrift Für Metallkunde"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib22",
+        "first-page": "167",
+        "article-title": "Influence of alloying with germanium and copper on the conditions of formation of the superconducting compound Nb3Si [J]",
+        "volume": "3",
+        "author": "PAN",
+        "year": "1982",
+        "journal-title": "Russian Metallurgy"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib23",
+        "series-title": "Pearson's handbook of crystallographic data [M]",
+        "author": "VILLARS",
+        "year": "1991"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "170",
+        "DOI": "10.1007/BF02881559",
+        "article-title": "The Cu–Si (copper–silicon) system [J]",
+        "volume": "7",
+        "author": "OLESINSKI",
+        "year": "1986",
+        "journal-title": "Bulletin of Alloy Phase Diagrams"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "343",
+        "DOI": "10.1016/j.intermet.2008.11.011",
+        "article-title": "Thermodynamic assessment of the Nb–Si–Ti system [J]",
+        "volume": "17",
+        "author": "GENG",
+        "year": "2009",
+        "journal-title": "Intermetallics"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "363",
+        "DOI": "10.1016/j.calphad.2010.07.003",
+        "article-title": "Thermodynamic assessment of the Nb–Si–Mo system [J]",
+        "volume": "34",
+        "author": "GENG",
+        "year": "2010",
+        "journal-title": "Calphad"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/S1003-6326(23)66149-7_bib27",
+        "doi-asserted-by": "crossref",
+        "first-page": "245",
+        "DOI": "10.1016/j.intermet.2006.05.010",
+        "article-title": "Formation probability for enantiomorphic crystals (with the space groups of P6222 and P6422) in transition-metal disilicides with the C40 structure as determined by convergent-beam electron diffraction [J]",
+        "volume": "15",
+        "author": "FUJIO",
+        "year": "2007",
+        "journal-title": "Intermetallics"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib28",
+        "first-page": "1",
+        "article-title": "The crystal structure of a complex copper–silicon compound [J]",
+        "volume": "11B",
+        "author": "MORRAL",
+        "year": "1934",
+        "journal-title": "Arkiv foer Kemi, Mineralogi och Geologi"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "684",
+        "DOI": "10.1107/S0567739478001448",
+        "article-title": "The crystal structure of η-Cu3Si precipitates in silicon [J]",
+        "volume": "34",
+        "author": "SOLBERG",
+        "year": "1978",
+        "journal-title": "Acta Crystallographica A"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib30",
+        "first-page": "2335",
+        "article-title": "Phase relationship and crystal structure of intermediate phases in the Cu–Si system in the composition range 17 to 25 at. pct Si [J]",
+        "volume": "245",
+        "author": "MUKHERJEE",
+        "year": "1969",
+        "journal-title": "Transaction of American Institute of Mining, Metallurgical, and Petroleum Engineers (AIME)"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "520",
+        "DOI": "10.1016/j.calphad.2008.05.003",
+        "article-title": "Thermodynamic modeling of the Cu–Si system [J]",
+        "volume": "32",
+        "author": "SHIN",
+        "year": "2008",
+        "journal-title": "Calphad"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib32",
+        "first-page": "178",
+        "article-title": "System Cu–Si, in: COST 507: thermochemical database for light metal alloys [J]",
+        "volume": "2",
+        "author": "JACOBS",
+        "year": "1998",
+        "journal-title": "European Communities"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib33",
+        "doi-asserted-by": "crossref",
+        "first-page": "32",
+        "DOI": "10.1016/j.jct.2012.07.025",
+        "article-title": "On the binary (Cu + Si) system: Thermodynamic modelling of the phase diagram and atomic mobility in face centred cubic phase [J]",
+        "volume": "57",
+        "author": "GIERLOTKA",
+        "year": "2013",
+        "journal-title": "The Journal of Chemical Thermodynamics"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.1016/j.calphad.2016.03.002",
+        "article-title": "Calorimetric measurements and assessment of the binary Cu–Si and ternary Al–Cu–Si phase diagrams [J]",
+        "volume": "53",
+        "author": "HALLSTEDT",
+        "year": "2016",
+        "journal-title": "Calphad"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib35",
+        "doi-asserted-by": "crossref",
+        "first-page": "1479",
+        "DOI": "10.1016/j.intermet.2011.05.017",
+        "article-title": "Experimental investigation of the Cu–Si phase diagram at x(Cu)>0.72 [J]",
+        "volume": "19",
+        "author": "SUFRYD",
+        "year": "2011",
+        "journal-title": "Intermetallics"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib36",
+        "doi-asserted-by": "crossref",
+        "first-page": "221",
+        "DOI": "10.1016/S0925-8388(00)00983-X",
+        "article-title": "A thermodynamic analysis of the Cu–Si system [J]",
+        "volume": "308",
+        "author": "YAN",
+        "year": "2000",
+        "journal-title": "Journal of Alloys and Compounds"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/S1003-6326(23)66149-7_bib37",
+        "doi-asserted-by": "crossref",
+        "first-page": "427",
+        "DOI": "10.1016/j.calphad.2011.06.007",
+        "article-title": "An overview on phase equilibria and thermodynamic modeling in multicomponent Al alloys: Focusing on the Al–Cu–Fe– Mg–Mn–Ni–Si–Zn system [J]",
+        "volume": "35",
+        "author": "DU",
+        "year": "2011",
+        "journal-title": "Calphad"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/S1003-6326(23)66149-7_bib38",
+        "doi-asserted-by": "crossref",
+        "first-page": "125",
+        "DOI": "10.1016/0364-5916(90)90014-Q",
+        "article-title": "A thermodynamic analysis of the binary alloy systems Cu–Cr, Cu–Nb and Cu–V [J]",
+        "volume": "14",
+        "author": "HÄMÄLÄINEN",
+        "year": "1990",
+        "journal-title": "Calphad"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib39",
+        "doi-asserted-by": "crossref",
+        "first-page": "993",
+        "DOI": "10.1016/S0966-9795(02)00125-5",
+        "article-title": "Thermodynamic modeling of the Nb–Si system [J]",
+        "volume": "10",
+        "author": "FERNANDES",
+        "year": "2002",
+        "journal-title": "Intermetallics"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib40",
+        "doi-asserted-by": "crossref",
+        "first-page": "407",
+        "DOI": "10.1016/S0966-9795(03)00021-9",
+        "article-title": "Thermodynamic modeling of the Nb–Hf–Si ternary system [J]",
+        "volume": "11",
+        "author": "YANG",
+        "year": "2003",
+        "journal-title": "Intermetallics"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib41",
+        "doi-asserted-by": "crossref",
+        "first-page": "655",
+        "DOI": "10.1016/j.intermet.2004.03.011",
+        "article-title": "Thermodynamic assessment of the Nb–Si–Al system [J]",
+        "volume": "12",
+        "author": "SHAO",
+        "year": "2004",
+        "journal-title": "Intermetallics"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib42",
+        "doi-asserted-by": "crossref",
+        "first-page": "464",
+        "DOI": "10.1016/j.intermet.2005.08.013",
+        "article-title": "Thermodynamic description of the Cr–Nb–Si isothermal section at 1473 K [J]",
+        "volume": "14",
+        "author": "DAVID",
+        "year": "2006",
+        "journal-title": "Intermetallics"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib43",
+        "first-page": "1184",
+        "article-title": "Equilibrium diagram of the Cu–Nb system [J]",
+        "volume": "6",
+        "author": "POPOV",
+        "year": "1961",
+        "journal-title": "Russian Journal of Inorganic Chemistry"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib44",
+        "doi-asserted-by": "crossref",
+        "first-page": "1576",
+        "DOI": "10.1007/BF00553214",
+        "article-title": "The monotectic reaction in Cu–Nb alloys [J]",
+        "volume": "13",
+        "author": "VERHOEVEN",
+        "year": "1978",
+        "journal-title": "Journal of Materials Science"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib45",
+        "first-page": "210",
+        "article-title": "Phase equilibria Cu–Nb [J]",
+        "volume": "4",
+        "author": "TEREKHOV",
+        "year": "1984",
+        "journal-title": "Izvestiya Akademii Nauk SSSR, Metally"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib46",
+        "doi-asserted-by": "crossref",
+        "first-page": "614",
+        "DOI": "10.1007/BF02645084",
+        "article-title": "Cu–Nb (copper–niobium) [J]",
+        "volume": "12",
+        "author": "OKAMOTO",
+        "year": "1991",
+        "journal-title": "Journal of Phase Equilibria and Diffusion"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/S1003-6326(23)66149-7_bib47",
+        "doi-asserted-by": "crossref",
+        "first-page": "133",
+        "DOI": "10.1007/BF02868942",
+        "article-title": "Resolution of conflicting data: I. Temperature and equilibrium [J]",
+        "volume": "5",
+        "author": "SMITH",
+        "year": "1984",
+        "journal-title": "Bulletin of Alloy Phase Diagrams"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib48",
+        "series-title": "“Cu–Nb (copper– niobium)” phase diagrams of binary copper alloys [M]",
+        "author": "CHAKRABARTI",
+        "year": "1994"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib49",
+        "doi-asserted-by": "crossref",
+        "first-page": "3849",
+        "DOI": "10.1016/S1359-6454(98)00063-9",
+        "article-title": "Liquidus temperatures and solidification behavior in the copper–niobium system [J]",
+        "volume": "46",
+        "author": "LI",
+        "year": "1998",
+        "journal-title": "Acta Materialia"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib50",
+        "doi-asserted-by": "crossref",
+        "first-page": "136",
+        "DOI": "10.1361/105497100770340183",
+        "article-title": "Measurements of liquidus temperatures in the Cu–Nb and Cu–Cr systems [J]",
+        "volume": "21",
+        "author": "LI",
+        "year": "2000",
+        "journal-title": "Journal of Phase Equilibria"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/S1003-6326(23)66149-7_bib51",
+        "doi-asserted-by": "crossref",
+        "first-page": "2424",
+        "DOI": "10.1557/JMR.1992.2424",
+        "article-title": "Thermodynamics of (Cr, Mo, Nb, Ta, V, or W)–Si–Cu ternary systems [J]",
+        "volume": "7",
+        "author": "REID",
+        "year": "1992",
+        "journal-title": "Journal of Materials Research"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib52",
+        "doi-asserted-by": "crossref",
+        "first-page": "317",
+        "DOI": "10.1016/0364-5916(91)90030-N",
+        "article-title": "SGTE data for pure elements [J]",
+        "volume": "15",
+        "author": "DINSDALE",
+        "year": "1991",
+        "journal-title": "Calphad"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib53",
+        "doi-asserted-by": "crossref",
+        "first-page": "345",
+        "DOI": "10.1021/ie50458a036",
+        "article-title": "Thermodynamics of nonelectrolyte solutions [J]",
+        "volume": "40",
+        "author": "REDLICH",
+        "year": "1948",
+        "journal-title": "Industrial and Engineering Chemistry"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib54",
+        "first-page": "85",
+        "article-title": "Comparison between calculated and measured thermodynamic data of liquid (Ag, Au, Cu)–Sn–Zn alloys [J]",
+        "volume": "72",
+        "author": "MUGGIANU",
+        "year": "1975",
+        "journal-title": "The Journal of Chemical Physics"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib55",
+        "doi-asserted-by": "crossref",
+        "first-page": "3618",
+        "DOI": "10.3891/acta.chem.scand.24-3618",
+        "article-title": "The regular-solution model for stoichiometric phases and ionic melts [J]",
+        "volume": "24",
+        "author": "HILLERT",
+        "year": "1970",
+        "journal-title": "Acta Chemica Scandinavica"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib56",
+        "doi-asserted-by": "crossref",
+        "first-page": "297",
+        "DOI": "10.1016/0022-3697(81)90144-X",
+        "article-title": "A regular solution model for phases with several components and sublattices, suitable for computer applications [J]",
+        "volume": "42",
+        "author": "SUNDMAN",
+        "year": "1981",
+        "journal-title": "Journal of Physics and Chemistry of Solids"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib57",
+        "doi-asserted-by": "crossref",
+        "first-page": "B864",
+        "DOI": "10.1103/PhysRev.136.B864",
+        "article-title": "Density functional theory [J]",
+        "volume": "136",
+        "author": "HOHENBERG",
+        "year": "1964",
+        "journal-title": "Physical Review"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib58",
+        "doi-asserted-by": "crossref",
+        "first-page": "A1133",
+        "DOI": "10.1103/PhysRev.140.A1133",
+        "article-title": "Self-consistent equations including exchange and correlation effects [J]",
+        "volume": "140",
+        "author": "KOHN",
+        "year": "1965",
+        "journal-title": "Physical Review"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib59",
+        "doi-asserted-by": "crossref",
+        "first-page": "17953",
+        "DOI": "10.1103/PhysRevB.50.17953",
+        "article-title": "Projector augmented-wave method [J]",
+        "volume": "50",
+        "author": "BLÖCHL",
+        "year": "1994",
+        "journal-title": "Physical Review B"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib60",
+        "doi-asserted-by": "crossref",
+        "first-page": "1758",
+        "DOI": "10.1103/PhysRevB.59.1758",
+        "article-title": "From ultrasoft pseudopotentials to the projector augmented-wave method [J]",
+        "volume": "59",
+        "author": "KRESSE",
+        "year": "1999",
+        "journal-title": "Physical Review B"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib61",
+        "doi-asserted-by": "crossref",
+        "first-page": "11169",
+        "DOI": "10.1103/PhysRevB.54.11169",
+        "article-title": "Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set [J]",
+        "volume": "54",
+        "author": "KRESSE",
+        "year": "1996",
+        "journal-title": "Physical Review B"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib62",
+        "doi-asserted-by": "crossref",
+        "first-page": "15",
+        "DOI": "10.1016/0927-0256(96)00008-0",
+        "article-title": "Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set [J]",
+        "volume": "6",
+        "author": "KRESSE",
+        "year": "1996",
+        "journal-title": "Computational Materials Science"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib63",
+        "doi-asserted-by": "crossref",
+        "first-page": "344",
+        "DOI": "10.1016/j.jallcom.2016.09.182",
+        "article-title": "Thermodynamic reassessment of the Ni–Si–Ti system using a four-sublattice model for ordered/disordered fcc phases supported by first-principles calculations [J]",
+        "volume": "693",
+        "author": "HU",
+        "year": "2017",
+        "journal-title": "Journal of Alloys and Compounds"
+      },
+      {
+        "key": "10.1016/S1003-6326(23)66149-7_bib64",
+        "doi-asserted-by": "crossref",
+        "first-page": "153",
+        "DOI": "10.1016/0364-5916(85)90021-5",
+        "article-title": "The thermo-calc databank system [J]",
+        "volume": "9",
+        "author": "SUNDMAN",
+        "year": "1985",
+        "journal-title": "Calphad"
+      }
+    ],
+    "container-title": [
+      "Transactions of Nonferrous Metals Society of China"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1003632623661497?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1003632623661497?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          19
+        ]
+      ],
+      "date-time": "2025-10-19T12:09:38Z",
+      "timestamp": 1760875778000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1003632623661497"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          3
+        ]
+      ]
+    },
+    "references-count": 64,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            3
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S1003632623661497"
+    ],
+    "URL": "https://doi.org/10.1016/s1003-6326(23)66149-7",
+    "relation": {},
+    "ISSN": [
+      "1003-6326"
+    ],
+    "issn-type": [
+      {
+        "value": "1003-6326",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          3
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Experimental investigation and thermodynamic modeling of Cu–Nb–Si system",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Transactions of Nonferrous Metals Society of China",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/S1003-6326(23)66149-7",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "Copyright © 2023 The Nonferrous Metals Society of China. Published by Elsevier Ltd.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

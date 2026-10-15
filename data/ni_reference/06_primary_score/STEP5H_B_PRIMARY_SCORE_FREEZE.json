@@ -1,0 +1,43 @@
+{
+  "freeze_id": "STEP5H_B_PRIMARY_SCORE_FREEZE_V1",
+  "generated_utc": "2026-09-07T02:06:57+00:00",
+  "primary_prediction_sha256": "100b40ed67c396cb296d53db80e7fef7cb94c0c8223873f5a13c01af28f0f488",
+  "target_sha256": "3e1f4ba2cf6e47120edc4e5150059541ac3d7713e850ac867f411c58126858e3",
+  "metric_prereg_sha256": "7d8f8736d5d29428fbf506709abb0db3b2f0055772d3b69f4796fc115f881328",
+  "mean_tvd": 0.8643856186628641,
+  "ci95": [
+    0.8619306652264774,
+    0.8670304548642613
+  ],
+  "all_secondary_metrics": {
+    "median_tvd": 0.9111178623163201,
+    "p95_tvd": 0.9993043464932985,
+    "macro_mae": 0.3457542474651457,
+    "per_family_mae": {
+      "FCC": 0.614444624027953,
+      "BCC": 0.1402441307720359,
+      "C15": 0.6959406489144913,
+      "OTHER_SOLID": 0.2505249591957245,
+      "LIQUID": 0.027616874415523983
+    },
+    "topology_accuracy": 0.07859090909090909,
+    "topology_macro_f1": 0.039501941969385425,
+    "trivial_mean_tvd": 0.5957669021263107,
+    "skill_vs_trivial": -0.26861871653655345,
+    "relative_skill": -0.4508788849763974,
+    "simplex_fallback_count": 0,
+    "n_scored": 22000
+  },
+  "trivial_baseline_tvd": 0.5957669021263107,
+  "skill": -0.26861871653655345,
+  "row_count": 22000,
+  "artifact_hashes": {
+    "STEP5H_B_PRIMARY_BLIND_METRICS.json": "e5cdb637274a674df27b64925dc6c39da4319b10e87efa32fdac9f1a2eed281c",
+    "STEP5H_B_PRIMARY_BLIND_ERRORS.parquet": "9f3c3c31660ec34f1b410258db9cdbf93ccd561da539ddd5b5c384551bae605e",
+    "STEP5H_B_PRIMARY_BOOTSTRAP.csv": "6de8d89d957c6c0d95ed16959379ca600847532968e65beea68af1cd891b2739",
+    "STEP5H_B_PRIMARY_PER_TEMPERATURE.csv": "e5256c0200c6d2f053d89d8ae721da6dbea98564c30596bdc51f4a278a8b1dbf",
+    "STEP5H_B_PRIMARY_PER_FAMILY.csv": "7ffb11213aa88d014ec0afd7cd640f196fe69e55415055672156f9c236853ca6"
+  },
+  "immutable": true,
+  "scored_before_secondary": true
+}

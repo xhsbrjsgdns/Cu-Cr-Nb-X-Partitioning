@@ -1,0 +1,292 @@
+{
+  "generated_utc": "2026-09-12T02:37:07+00:00",
+  "database_metadata_file": "DATABASE_PHASE_METADATA.json",
+  "database_metadata_sha256": "306c8de8398866c326f4bad576193ba55aed38b8f37be165c4ad3a6e46ca4415",
+  "n_crosswalk_rows": 37,
+  "resolution_counts": {
+    "CONFIRMED_BUT_CONSTITUENTS_DIFFER": 16,
+    "CONFIRMED_IN_DATABASE": 15,
+    "ABSENT_FROM_DATABASE": 4,
+    "AMBIGUOUS_POLYMORPH_ADMITS_EITHER": 2
+  },
+  "laves_phases_in_database": [
+    "C14_LAVES",
+    "C15_LAVES",
+    "C36_LAVES"
+  ],
+  "Cr2Nb_polymorph_assumed": false,
+  "Cr2Nb_admissible_families": [
+    "C15",
+    "OTHER_SOLID"
+  ],
+  "phases_absent_from_database": [
+    "CrSi",
+    "Cu19Si6",
+    "αCr5Si3",
+    "τ1"
+  ],
+  "phases_left_unresolved": [],
+  "rule": "no literature phase is matched to a database phase unless the database returns a unique phase with the same formula core and compatible constituents; ambiguity is preserved, never resolved by picking whichever option agrees",
+  "pre_resolution_table": "STEP5K_R3_PHASE_CROSSWALK_PRE_RESOLUTION.csv",
+  "resolution_log": [
+    {
+      "literature_phase": "bcc(Cr)",
+      "was": "BCC_B2",
+      "status": "CONFIRMED_IN_DATABASE",
+      "now": "BCC_B2",
+      "note": "database constituents ['CR', 'CU', 'NB']"
+    },
+    {
+      "literature_phase": "fcc(Ag)",
+      "was": "FCC_L12",
+      "status": "CONFIRMED_BUT_CONSTITUENTS_DIFFER",
+      "now": "FCC_L12",
+      "note": "database constituents ['CR', 'CU', 'NB'] do not contain every element of the literature label"
+    },
+    {
+      "literature_phase": "fcc(Cu)",
+      "was": "FCC_L12",
+      "status": "CONFIRMED_IN_DATABASE",
+      "now": "FCC_L12",
+      "note": "database constituents ['CR', 'CU', 'NB']"
+    },
+    {
+      "literature_phase": "(Cr, Mo)",
+      "was": "BCC_B2",
+      "status": "CONFIRMED_BUT_CONSTITUENTS_DIFFER",
+      "now": "BCC_B2",
+      "note": "database constituents ['CR', 'CU', 'NB'] do not contain every element of the literature label"
+    },
+    {
+      "literature_phase": "Liquid",
+      "was": "LIQUID",
+      "status": "CONFIRMED_IN_DATABASE",
+      "now": "LIQUID",
+      "note": "database constituents ['CR', 'CU', 'NB']"
+    },
+    {
+      "literature_phase": "(αCo)",
+      "was": "FCC_L12",
+      "status": "CONFIRMED_BUT_CONSTITUENTS_DIFFER",
+      "now": "FCC_L12",
+      "note": "database constituents ['CR', 'CU', 'NB'] do not contain every element of the literature label"
+    },
+    {
+      "literature_phase": "Cr2Nb",
+      "was": "C14_LAVES | C15_LAVES",
+      "status": "AMBIGUOUS_POLYMORPH_ADMITS_EITHER",
+      "now": "C14_LAVES | C15_LAVES | C36_LAVES",
+      "note": "the source identifies the compound, not the polymorph; the database offers C14_LAVES, C15_LAVES, C36_LAVES, which the frozen map sends to C15|OTHER_SOLID"
+    },
+    {
+      "literature_phase": "Liquid",
+      "was": "LIQUID",
+      "status": "CONFIRMED_IN_DATABASE",
+      "now": "LIQUID",
+      "note": "database constituents ['CR', 'CU', 'NB']"
+    },
+    {
+      "literature_phase": "bcc (Cr)",
+      "was": "BCC_B2",
+      "status": "CONFIRMED_IN_DATABASE",
+      "now": "BCC_B2",
+      "note": "database constituents ['CR', 'CU', 'NB']"
+    },
+    {
+      "literature_phase": "bcc (Nb)",
+      "was": "BCC_B2",
+      "status": "CONFIRMED_IN_DATABASE",
+      "now": "BCC_B2",
+      "note": "database constituents ['CR', 'CU', 'NB']"
+    },
+    {
+      "literature_phase": "fcc (Cu)",
+      "was": "FCC_L12",
+      "status": "CONFIRMED_IN_DATABASE",
+      "now": "FCC_L12",
+      "note": "database constituents ['CR', 'CU', 'NB']"
+    },
+    {
+      "literature_phase": "(Cr)",
+      "was": "BCC_B2",
+      "status": "CONFIRMED_IN_DATABASE",
+      "now": "BCC_B2",
+      "note": "database constituents ['CR', 'CU', 'NB']"
+    },
+    {
+      "literature_phase": "(Cu)",
+      "was": "FCC_L12",
+      "status": "CONFIRMED_IN_DATABASE",
+      "now": "FCC_L12",
+      "note": "database constituents ['CR', 'CU', 'NB']"
+    },
+    {
+      "literature_phase": "(Si)",
+      "was": "DIAMOND_A4",
+      "status": "CONFIRMED_BUT_CONSTITUENTS_DIFFER",
+      "now": "DIAMOND_A4",
+      "note": "database constituents ['AG'] do not contain every element of the literature label"
+    },
+    {
+      "literature_phase": "Cr3Si",
+      "was": "CR3SI",
+      "status": "CONFIRMED_BUT_CONSTITUENTS_DIFFER",
+      "now": "CR3SI",
+      "note": "database constituents ['CR'] do not contain every element of the literature label"
+    },
+    {
+      "literature_phase": "CrSi",
+      "was": "UNRESOLVED",
+      "status": "ABSENT_FROM_DATABASE",
+      "now": "",
+      "note": "no phase with this formula is present in the installed description for any Cu-Cr-X ternary examined; the experimental phase therefore cannot be reproduced and the condition is scored with this phase recorded as missing"
+    },
+    {
+      "literature_phase": "CrSi2",
+      "was": "CRSI2_C40",
+      "status": "CONFIRMED_BUT_CONSTITUENTS_DIFFER",
+      "now": "CRSI2_C40",
+      "note": "database constituents ['CR', 'CU'] do not contain every element of the literature label"
+    },
+    {
+      "literature_phase": "Cu15Si4",
+      "was": "CU15SI4_EPSILON",
+      "status": "CONFIRMED_IN_DATABASE",
+      "now": "CU15SI4_EPSILON",
+      "note": "database constituents ['CU', 'SI']"
+    },
+    {
+      "literature_phase": "Cu19Si6",
+      "was": "UNRESOLVED",
+      "status": "ABSENT_FROM_DATABASE",
+      "now": "",
+      "note": "no phase with this formula is present in the installed description for any Cu-Cr-X ternary examined; the experimental phase therefore cannot be reproduced and the condition is scored with this phase recorded as missing"
+    },
+    {
+      "literature_phase": "Cu33Si7",
+      "was": "CU33SI7_DELTA",
+      "status": "CONFIRMED_IN_DATABASE",
+      "now": "CU33SI7_DELTA",
+      "note": "database constituents ['CU', 'SI']"
+    },
+    {
+      "literature_phase": "Cu56Si11",
+      "was": "CU56SI11_GAMMA",
+      "status": "CONFIRMED_IN_DATABASE",
+      "now": "CU56SI11_GAMMA",
+      "note": "database constituents ['CU', 'SI']"
+    },
+    {
+      "literature_phase": "hcp(CuSi)",
+      "was": "HCP_A3",
+      "status": "CONFIRMED_BUT_CONSTITUENTS_DIFFER",
+      "now": "HCP_A3",
+      "note": "database constituents ['CR', 'CU', 'NB'] do not contain every element of the literature label"
+    },
+    {
+      "literature_phase": "αCr5Si3",
+      "was": "UNRESOLVED",
+      "status": "ABSENT_FROM_DATABASE",
+      "now": "",
+      "note": "no phase with this formula is present in the installed description for any Cu-Cr-X ternary examined; the experimental phase therefore cannot be reproduced and the condition is scored with this phase recorded as missing"
+    },
+    {
+      "literature_phase": "(Cr)",
+      "was": "BCC_B2",
+      "status": "CONFIRMED_IN_DATABASE",
+      "now": "BCC_B2",
+      "note": "database constituents ['CR', 'CU', 'NB']"
+    },
+    {
+      "literature_phase": "(Cu)",
+      "was": "FCC_L12",
+      "status": "CONFIRMED_IN_DATABASE",
+      "now": "FCC_L12",
+      "note": "database constituents ['CR', 'CU', 'NB']"
+    },
+    {
+      "literature_phase": "(Cu, Cr)3Ti2",
+      "was": "CU3TI2",
+      "status": "CONFIRMED_BUT_CONSTITUENTS_DIFFER",
+      "now": "CU3TI2",
+      "note": "database constituents ['CU', 'NB'] do not contain every element of the literature label"
+    },
+    {
+      "literature_phase": "Cu3Ti2",
+      "was": "CU3TI2",
+      "status": "CONFIRMED_BUT_CONSTITUENTS_DIFFER",
+      "now": "CU3TI2",
+      "note": "database constituents ['CU', 'NB'] do not contain every element of the literature label"
+    },
+    {
+      "literature_phase": "Cu4Ti",
+      "was": "CU4TI1",
+      "status": "CONFIRMED_BUT_CONSTITUENTS_DIFFER",
+      "now": "CU4TI1",
+      "note": "database constituents ['CU', 'NB'] do not contain every element of the literature label"
+    },
+    {
+      "literature_phase": "Cu4Ti3",
+      "was": "CU4TI3",
+      "status": "CONFIRMED_BUT_CONSTITUENTS_DIFFER",
+      "now": "CU4TI3",
+      "note": "database constituents ['CU', 'NB'] do not contain every element of the literature label"
+    },
+    {
+      "literature_phase": "CuTi",
+      "was": "CUTI_B11",
+      "status": "CONFIRMED_BUT_CONSTITUENTS_DIFFER",
+      "now": "CUTI_B11",
+      "note": "database constituents ['CU', 'NB'] do not contain every element of the literature label"
+    },
+    {
+      "literature_phase": "CuTi2",
+      "was": "CUZR2_C11B",
+      "status": "CONFIRMED_BUT_CONSTITUENTS_DIFFER",
+      "now": "CUZR2_C11B",
+      "note": "database constituents ['CR', 'CU', 'NB'] do not contain every element of the literature label"
+    },
+    {
+      "literature_phase": "αTi",
+      "was": "HCP_A3",
+      "status": "CONFIRMED_BUT_CONSTITUENTS_DIFFER",
+      "now": "HCP_A3",
+      "note": "database constituents ['CR', 'CU', 'NB'] do not contain every element of the literature label"
+    },
+    {
+      "literature_phase": "αTiCr2",
+      "was": "C15_LAVES",
+      "status": "CONFIRMED_BUT_CONSTITUENTS_DIFFER",
+      "now": "C15_LAVES",
+      "note": "database constituents ['CR', 'CU', 'NB'] do not contain every element of the literature label"
+    },
+    {
+      "literature_phase": "βTi",
+      "was": "BCC_B2",
+      "status": "CONFIRMED_BUT_CONSTITUENTS_DIFFER",
+      "now": "BCC_B2",
+      "note": "database constituents ['CR', 'CU', 'NB'] do not contain every element of the literature label"
+    },
+    {
+      "literature_phase": "τ1",
+      "was": "UNRESOLVED",
+      "status": "ABSENT_FROM_DATABASE",
+      "now": "",
+      "note": "no phase with this formula is present in the installed description for any Cu-Cr-X ternary examined; the experimental phase therefore cannot be reproduced and the condition is scored with this phase recorded as missing"
+    },
+    {
+      "literature_phase": "Cr2Nb",
+      "was": "C14_LAVES | C15_LAVES",
+      "status": "AMBIGUOUS_POLYMORPH_ADMITS_EITHER",
+      "now": "C14_LAVES | C15_LAVES | C36_LAVES",
+      "note": "the source identifies the compound, not the polymorph; the database offers C14_LAVES, C15_LAVES, C36_LAVES, which the frozen map sends to C15|OTHER_SOLID"
+    },
+    {
+      "literature_phase": "Cu matrix",
+      "was": "FCC_L12",
+      "status": "CONFIRMED_IN_DATABASE",
+      "now": "FCC_L12",
+      "note": "database constituents ['CR', 'CU', 'NB']"
+    }
+  ]
+}

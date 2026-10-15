@@ -1,0 +1,10 @@
+id,check,status,detail
+H01,exactly 2000 rows,PASS,2000
+H02,"composition_id unique, NI_BLIND_000001..002000",PASS,NI_BLIND_000001 .. NI_BLIND_002000
+H03,few-shot roles preserved: 600 calibration / 1400 evaluation,PASS,"{'RECOVERY_EVALUATION': 1400, 'FEWSHOT_CALIBRATION': 600}"
+H04,S_CrNb in frozen range 0.6-2.0 wt.%,PASS,"[0.6005, 1.9993]"
+H05,R_CrNb_atomic_actual in frozen range 2.0-6.5,PASS,"[2.0017, 6.4992]"
+H06,Ni wt.% in frozen range 0.02-0.20,PASS,"[0.0201, 0.2000]"
+H07,"Cu balance valid: all weights close to 100, Cu > 0",PASS,max |sum-100| = 0.00e+00 | min Cu 97.8126
+H08,all numerical values finite,PASS,no NaN / inf in any numeric column
+H09,"no duplicate composition signature (Cr, Nb, X)",PASS,0 duplicates

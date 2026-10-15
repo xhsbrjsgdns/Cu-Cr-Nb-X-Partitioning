@@ -1,0 +1,27 @@
+check,result,detail
+all 471 protected artifacts re-hashed and unchanged,PASS,"changed 0, missing 0"
+STEP5G unchanged,PASS,64 files verified
+STEP5H-A unchanged,PASS,48 files verified
+STEP5H-B unchanged,PASS,82 files verified
+STEP5I unchanged,PASS,138 files verified
+STEP5J unchanged,PASS,106 files verified
+STEP5K virtual screening unchanged,PASS,8 files verified
+five global Zr finalists unchanged,PASS,5 Zr finalists: K5_ZR_02188;K5_ZR_16501;K5_ZR_15989;K5_ZR_19573;K5_ZR_18805
+R3 requests use only the eight permitted elements,PASS,"AG,CO,CR,CU,MO,NB,SI,TI"
+new Ni calculations = 0,PASS,no request contains Ni; the Cu-Cr-Ni half of source 1 was never extracted
+"new Ni predictions = 0, Ni composition changes = 0",PASS,R3 submits equilibrium calculations only; it makes no model prediction of any kind and writes nothing into any Ni artifact
+"model retraining, scaler refit, feature reselection, hyperparameter search all = 0",PASS,"no R3 stage imports a model, a scaler or a feature list"
+no new prospective unseen element,PASS,the eight elements are those of the six supplied sources
+no unexplained Ni reference in any R3 output,PASS,"clean; database model names/bibliography are reference metadata, not Ni inputs; selected systems and constituents verified non-Ni"
+no forbidden validation claim outside a disclaimer,PASS,clean
+database independence is explicitly NOT claimed,PASS,caveat recorded and written out in full
+no single global experimental-accuracy figure is reported,PASS,"results are reported per system, per source and per temperature"
+pending requests are not scored as failures,PASS,"0 pending, 0 failed, kept separate"
+every verdict is in the frozen vocabulary,PASS,"CONSISTENT, DISCREPANT, NOT_COMPARABLE, PARTIALLY_CONSISTENT, STRONGLY_CONSISTENT"
+raw phase instances are preserved before family aggregation,PASS,raw-phase table present
+Cr2Nb polymorph is not assumed,PASS,"admissible families ['C15', 'OTHER_SOLID']"
+all six source PDFs unchanged,PASS,6 PDFs verified
+"results come from a live Thermo-Calc engine, not a stand-in",PASS,"Thermo-Calc 2025b, tc_python 2025.2.30, host DESKTOP-7CKJSQ5, 2026-09-12T02:37:09Z"
+engine proven before the batch ran,PASS,PASS on R3_NB_001
+superseding seal present and the parent seal preserved,PASS,parent seal unchanged; canonical master e84482443ced20e2
+R3 calculations are complete,PASS,"120 converged, 0 failed, 0 pending"

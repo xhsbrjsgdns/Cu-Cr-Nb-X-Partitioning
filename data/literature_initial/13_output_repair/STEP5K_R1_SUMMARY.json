@@ -1,0 +1,26 @@
+{
+  "generated_utc": "2026-09-07T14:52:41+00:00",
+  "execution_status": "RECONCILED",
+  "oa_papers_found": 20,
+  "oa_papers_usable": 8,
+  "usable_by_element": {
+    "AG": "AG",
+    "TI": "TI",
+    "MO": "MO",
+    "SI": "SI",
+    "CO": "CO",
+    "ZR": "ZR"
+  },
+  "directly_comparable": 0,
+  "qualitatively_comparable": 0,
+  "FULLV1_matches": 14,
+  "new_nonNi_CALPHAD_states": 12,
+  "threshold_sensitivity_status": "computed in R1 (1e-5/1e-4/1e-3); canonicalized",
+  "nan_audit_status": "inherited PASS (see STEP5K_R1_NAN_TOLERANCE_AUDIT.md)",
+  "phase_maps_generated": 7,
+  "Ni_states_added": 0,
+  "models_retrained": 0,
+  "production_scalers_changed": 0,
+  "ready_for_JMST_assembly": true,
+  "note": "counts recomputed from existing frozen files only"
+}

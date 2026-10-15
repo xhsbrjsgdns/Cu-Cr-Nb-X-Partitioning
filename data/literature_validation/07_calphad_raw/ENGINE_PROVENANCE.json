@@ -1,0 +1,30 @@
+{
+  "generated_utc": "2026-09-12T02:37:09Z",
+  "engine": "Thermo-Calc 2025b",
+  "tc_python_version": "2025.2.30",
+  "tc_python_path": "C:\\Program Files\\Thermo-Calc\\2025b\\python\\lib\\site-packages\\tc_python",
+  "database": "TCCU6",
+  "python_interpreter": "C:\\Program Files\\Thermo-Calc\\2025b\\python\\python.exe",
+  "python_version": "3.9.20",
+  "host": "DESKTOP-7CKJSQ5",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "produced_by": "code_snapshot/run_r3.py",
+  "real_engine": true,
+  "synthetic": false,
+  "smoke_test_utc": "2026-09-12T02:36:48Z",
+  "smoke_test_condition": "R3_NB_001",
+  "smoke_test_status": "PASS",
+  "n_requests_in_batch": 120,
+  "note": "written by the runner on the live engine; downstream stages refuse to build scientific tables from a checkpoint without it",
+  "database_version": "Cu-Alloys v6.2",
+  "database_path": "C:/Program Files/Thermo-Calc/2025b/data/TCCU6",
+  "bundled_java_path": "C:/Program Files/Thermo-Calc/2025b/bundled_jre/bin/java.exe",
+  "database_version_evidence": "Frozen FULL_V1_CONFIG software database_title; unchanged installed TCCU6 used by the live runner",
+  "delivery_verified_utc": "2026-09-12T02:42:56.700743+00:00",
+  "database_file_sha256": {
+    "TCCU6.BIN": "dc0abaf0f51473fe1831020cc2bb73e185af23f4e068ee86493d4f88ff6b9cf6",
+    "TCCU6.DB": "57049cfe5111d2116037cf8d01c90bf685c1f5b131a13e3d22b94eb0508cdcec",
+    "TCCU6.ser": "66d624593b3038826aa8f508f4af0647bb73f8cec21e0ff25870333796321d19",
+    "TCCU6.TDC": "3d0b76b77a5c4287729c2b1b7e85c15fbdf04394f1474ec889d71ad64ebbf4ef"
+  }
+}

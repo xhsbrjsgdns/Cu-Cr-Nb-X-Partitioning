@@ -1,0 +1,354 @@
+{
+  "item": {
+    "id": "2f05c12b-0f42-4712-8121-5869a68f1f10",
+    "uuid": "2f05c12b-0f42-4712-8121-5869a68f1f10",
+    "name": "Sigma phase in the ternary systems chromium-cobalt-copper and chromium-manganese-copper",
+    "handle": "10919/40972",
+    "metadata": {
+      "dc.contributor.author": [
+        {
+          "value": "DeBoskey, Wentzle R.",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.contributor.committeechair": [
+        {
+          "value": "Sprinkle, J. K.",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.contributor.committeemember": [
+        {
+          "value": "Pardue, Louis A.",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        },
+        {
+          "value": "Whittemore, John A.",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 1
+        }
+      ],
+      "dc.contributor.department": [
+        {
+          "value": "Metallurgical Engineering",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.date.accessioned": [
+        {
+          "value": "2014-03-14T21:28:46Z",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.date.adate": [
+        {
+          "value": "2013-02-07",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.date.available": [
+        {
+          "value": "2014-03-14T21:28:46Z",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.date.issued": [
+        {
+          "value": "1955-11-05",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.date.rdate": [
+        {
+          "value": "2013-02-07",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.date.sdate": [
+        {
+          "value": "2013-02-07",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.description.abstract": [
+        {
+          "value": "The initial part of this investigation was to determine the ternary isothermal sections for the Cr-Co-Cu system and the Cr\u00e2  Mm-Cu system at lOOO\u00b0C. and 975\u00b0C., respectively. This was done by vacuum melting the Cr-Co~Cu alloys and annealing these alloys in an inert atmosphere of a helium-hydrogen gas mixture. The Cr-Mn-Cu alloys were melted under a helium atmosphere and annealed in evacuated Vycor tubes. By the use of metallographic techniques and x-ray analysis the phases present in each alloy were determined and the two ternary isotherml sections constructed.\n\nIt was found that copper had a very limited solid solubility in the sign phase of both systems. The sigma field in the Cr-Co-Cu 1000\u00b0C. ternary isothermal comes into equilibrium with the terminal solid solutions of chromium, cobalt, and copper. In the Cr-Mn-Cu ternary isothermal section sigma comes into equilibrium with the terminal solid solution of chromium and cobalt and the face-centered cubic solid solution of copper in manganese. From these data the electron vacancy scheme(16) may not be extended to include copper due to the limited solid solubility of copper in sigma. Also, the extent of copper solubility in the sigmas cannot be related to the solubility of the copper in cobalt or manganese.",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.description.degree": [
+        {
+          "value": "Master of Science",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.format.extent": [
+        {
+          "value": "75 leaves",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.format.medium": [
+        {
+          "value": "BTD",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.format.mimetype": [
+        {
+          "value": "application/pdf",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.identifier.other": [
+        {
+          "value": "etd-02072013-040036",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.identifier.sourceurl": [
+        {
+          "value": "http://scholar.lib.vt.edu/theses/available/etd-02072013-040036/",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.identifier.uri": [
+        {
+          "value": "http://hdl.handle.net/10919/40972",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.language.iso": [
+        {
+          "value": "en",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.publisher": [
+        {
+          "value": "Virginia Tech",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.relation.haspart": [
+        {
+          "value": "LD5655.V855_1955.D426.pdf",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.relation.isformatof": [
+        {
+          "value": "OCLC# 25754638",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.rights": [
+        {
+          "value": "In Copyright",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.rights.uri": [
+        {
+          "value": "http://rightsstatements.org/vocab/InC/1.0/",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.subject.lcc": [
+        {
+          "value": "LD5655.V855 1955.D426",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.subject.lcsh": [
+        {
+          "value": "Transition metal alloys",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.title": [
+        {
+          "value": "Sigma phase in the ternary systems chromium-cobalt-copper and chromium-manganese-copper",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.type": [
+        {
+          "value": "Thesis",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "dc.type.dcmitype": [
+        {
+          "value": "Text",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "thesis.degree.discipline": [
+        {
+          "value": "Metallurgical Engineering",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "thesis.degree.grantor": [
+        {
+          "value": "Virginia Polytechnic Institute",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "thesis.degree.level": [
+        {
+          "value": "masters",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "thesis.degree.name": [
+        {
+          "value": "Master of Science",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ]
+    },
+    "inArchive": true,
+    "discoverable": true,
+    "withdrawn": false,
+    "lastModified": "2024-04-26T00:50:15.842+00:00",
+    "entityType": null,
+    "type": "item",
+    "_links": {
+      "accessStatus": {
+        "href": "https://vtechworks.lib.vt.edu/server/api/core/items/2f05c12b-0f42-4712-8121-5869a68f1f10/accessStatus"
+      },
+      "bundles": {
+        "href": "https://vtechworks.lib.vt.edu/server/api/core/items/2f05c12b-0f42-4712-8121-5869a68f1f10/bundles"
+      },
+      "identifiers": {
+        "href": "https://vtechworks.lib.vt.edu/server/api/core/items/2f05c12b-0f42-4712-8121-5869a68f1f10/identifiers"
+      },
+      "mappedCollections": {
+        "href": "https://vtechworks.lib.vt.edu/server/api/core/items/2f05c12b-0f42-4712-8121-5869a68f1f10/mappedCollections"
+      },
+      "owningCollection": {
+        "href": "https://vtechworks.lib.vt.edu/server/api/core/items/2f05c12b-0f42-4712-8121-5869a68f1f10/owningCollection"
+      },
+      "relationships": {
+        "href": "https://vtechworks.lib.vt.edu/server/api/core/items/2f05c12b-0f42-4712-8121-5869a68f1f10/relationships"
+      },
+      "version": {
+        "href": "https://vtechworks.lib.vt.edu/server/api/core/items/2f05c12b-0f42-4712-8121-5869a68f1f10/version"
+      },
+      "templateItemOf": {
+        "href": "https://vtechworks.lib.vt.edu/server/api/core/items/2f05c12b-0f42-4712-8121-5869a68f1f10/templateItemOf"
+      },
+      "thumbnail": {
+        "href": "https://vtechworks.lib.vt.edu/server/api/core/items/2f05c12b-0f42-4712-8121-5869a68f1f10/thumbnail"
+      },
+      "self": {
+        "href": "https://vtechworks.lib.vt.edu/server/api/core/items/2f05c12b-0f42-4712-8121-5869a68f1f10"
+      }
+    }
+  },
+  "remote_sha256": "91323510ed5c5c9731692c2f74eae3b52c37871ce76521629e1e7fecddcf97d7",
+  "remote_status": 200
+}

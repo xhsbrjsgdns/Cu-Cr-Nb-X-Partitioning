@@ -1,0 +1,4814 @@
+[
+  {
+    "doi": "10.34562/jic.58.1_64",
+    "status": 404,
+    "metadata": null
+  },
+  {
+    "doi": "10.1016/j.actamat.2012.01.038",
+    "status": 200,
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            4
+          ]
+        ],
+        "date-time": "2026-09-04T06:53:30Z",
+        "timestamp": 1788504810098,
+        "version": "build-2803163510"
+      },
+      "reference-count": 49,
+      "publisher": "Elsevier BV",
+      "issue": "11",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2012,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2012-06-01T00:00:00Z",
+            "timestamp": 1338508800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2012,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2012-06-01T00:00:00Z",
+            "timestamp": 1338508800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Acta Materialia"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2012,
+            6
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.actamat.2012.01.038",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2012,
+            3,
+            17
+          ]
+        ],
+        "date-time": "2012-03-17T03:45:44Z",
+        "timestamp": 1331955944000
+      },
+      "page": "4575-4585",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 264,
+      "title": [
+        "Atomic scale investigation of Cr precipitation in copper"
+      ],
+      "prefix": "10.1016",
+      "volume": "60",
+      "author": [
+        {
+          "given": "A.",
+          "family": "Chbihi",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "X.",
+          "family": "Sauvage",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "D.",
+          "family": "Blavette",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0005",
+          "doi-asserted-by": "crossref",
+          "first-page": "3233",
+          "DOI": "10.1007/BF02586158",
+          "volume": "37A",
+          "author": "Liu",
+          "year": "2006",
+          "journal-title": "Metall Mater Trans"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0010",
+          "doi-asserted-by": "crossref",
+          "first-page": "91",
+          "DOI": "10.1016/S0022-3115(01)00691-2",
+          "volume": "299",
+          "author": "Batra",
+          "year": "2001",
+          "journal-title": "J Nucl Mater"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0015",
+          "doi-asserted-by": "crossref",
+          "first-page": "31",
+          "DOI": "10.1016/S0022-3115(99)00285-8",
+          "volume": "279",
+          "author": "Holzwarth",
+          "year": "2000",
+          "journal-title": "J Nucl Mater"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0020",
+          "doi-asserted-by": "crossref",
+          "first-page": "904",
+          "DOI": "10.1016/j.jnucmat.2007.03.064",
+          "volume": "367\u2013370",
+          "author": "Edwards",
+          "year": "2007",
+          "journal-title": "J Nucl Mater"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0025",
+          "unstructured": "Nagata K, Nishikawa S. Rept Inst Ind Sci \u2013 Univ. of Tokyo 1975;24(4) [Serial No. 153:115]."
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0030",
+          "doi-asserted-by": "crossref",
+          "first-page": "673",
+          "DOI": "10.1016/S0022-3115(02)01110-8",
+          "volume": "307\u2013311",
+          "author": "Ivanov",
+          "year": "2002",
+          "journal-title": "J Nucl Mater"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0035",
+          "doi-asserted-by": "crossref",
+          "first-page": "2389",
+          "DOI": "10.1007/BF02669380",
+          "volume": "4",
+          "author": "Knights",
+          "year": "1973",
+          "journal-title": "Metall Trans"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0040",
+          "series-title": "Binary alloy phase diagrams",
+          "author": "Massalski",
+          "year": "1987"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0045",
+          "first-page": "176",
+          "volume": "3",
+          "author": "Guillet",
+          "year": "1906",
+          "journal-title": "Rev Metall"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0050",
+          "first-page": "420",
+          "volume": "59",
+          "author": "Hindrichs",
+          "year": "1908",
+          "journal-title": "Z Anorg Allg Chem"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0055",
+          "first-page": "530",
+          "volume": "52",
+          "author": "Williams",
+          "year": "1960",
+          "journal-title": "Trans ASM"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0060",
+          "doi-asserted-by": "crossref",
+          "first-page": "549",
+          "DOI": "10.1007/BF02658413",
+          "volume": "6A",
+          "author": "Komen",
+          "year": "1975",
+          "journal-title": "Metall Trans"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0065",
+          "doi-asserted-by": "crossref",
+          "first-page": "1815",
+          "DOI": "10.1016/0001-6160(79)90072-5",
+          "volume": "27",
+          "author": "Weatherly",
+          "year": "1979",
+          "journal-title": "Acta Mater"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0070",
+          "doi-asserted-by": "crossref",
+          "first-page": "341",
+          "DOI": "10.1016/0036-9748(86)90154-7",
+          "volume": "20",
+          "author": "Rdzawski",
+          "year": "1986",
+          "journal-title": "Scripta Metall"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0075",
+          "doi-asserted-by": "crossref",
+          "first-page": "1033",
+          "DOI": "10.1016/S1359-6454(99)00411-5",
+          "volume": "48",
+          "author": "Fujii",
+          "year": "2000",
+          "journal-title": "Acta Mater"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0080",
+          "doi-asserted-by": "crossref",
+          "first-page": "270",
+          "DOI": "10.1179/mst.1985.1.4.270",
+          "volume": "1",
+          "author": "Tang",
+          "year": "1985",
+          "journal-title": "Mater Sci Technol"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0085",
+          "doi-asserted-by": "crossref",
+          "first-page": "225",
+          "DOI": "10.1016/j.msea.2008.07.061",
+          "volume": "A498",
+          "author": "Zhou",
+          "year": "2008",
+          "journal-title": "Mater Sci Eng"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0090",
+          "doi-asserted-by": "crossref",
+          "first-page": "518",
+          "DOI": "10.2320/matertrans.MBW200736",
+          "volume": "49",
+          "author": "Hatakeyama",
+          "year": "2008",
+          "journal-title": "Mater Trans"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0095",
+          "doi-asserted-by": "crossref",
+          "first-page": "852",
+          "DOI": "10.1016/j.jnucmat.2008.12.266",
+          "volume": "386\u2013388",
+          "author": "Hatakeyama",
+          "year": "2009",
+          "journal-title": "J Nucl Mater"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0100",
+          "first-page": "32",
+          "volume": "A 356",
+          "author": "Batra",
+          "year": "2002",
+          "journal-title": "Mater Sci Eng"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0105",
+          "doi-asserted-by": "crossref",
+          "first-page": "2721",
+          "DOI": "10.1023/A:1017994522958",
+          "volume": "36",
+          "author": "Fernee",
+          "year": "2001",
+          "journal-title": "J Mater Sci"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0110",
+          "doi-asserted-by": "crossref",
+          "first-page": "4963",
+          "DOI": "10.1016/j.matlet.2007.03.085",
+          "volume": "61",
+          "author": "Su",
+          "year": "2007",
+          "journal-title": "Mater Lett"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0115",
+          "doi-asserted-by": "crossref",
+          "first-page": "63",
+          "DOI": "10.1016/0001-6160(82)90045-1",
+          "volume": "30",
+          "author": "Dahmen",
+          "year": "1982",
+          "journal-title": "Acta Metall"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0120",
+          "doi-asserted-by": "crossref",
+          "first-page": "1301",
+          "DOI": "10.1016/0001-6160(80)90086-3",
+          "volume": "28",
+          "author": "Rioja",
+          "year": "1980",
+          "journal-title": "Acta Metall"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0125",
+          "doi-asserted-by": "crossref",
+          "first-page": "333",
+          "DOI": "10.1016/0001-6160(88)90010-7",
+          "volume": "36",
+          "author": "Wada",
+          "year": "1988",
+          "journal-title": "Acta Metall"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0130",
+          "doi-asserted-by": "crossref",
+          "first-page": "92",
+          "DOI": "10.1016/S0921-5093(02)00673-1",
+          "volume": "A353",
+          "author": "Heinrich",
+          "year": "2003",
+          "journal-title": "Mater Sci Eng"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0135",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1080/01418619408242533",
+          "volume": "A70",
+          "author": "Othen",
+          "year": "1994",
+          "journal-title": "Philos Mag"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0140",
+          "doi-asserted-by": "crossref",
+          "first-page": "2371",
+          "DOI": "10.1007/BF02669377",
+          "volume": "4",
+          "author": "Goodman",
+          "year": "1973",
+          "journal-title": "Metall Trans"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0145",
+          "doi-asserted-by": "crossref",
+          "first-page": "362",
+          "DOI": "10.1016/0169-4332(95)00398-3",
+          "volume": "94\u201395",
+          "author": "Pareige",
+          "year": "1996",
+          "journal-title": "Appl Surf Sci"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0150",
+          "doi-asserted-by": "crossref",
+          "first-page": "043705",
+          "DOI": "10.1063/1.2194089",
+          "volume": "77",
+          "author": "Gault",
+          "year": "2006",
+          "journal-title": "Rev Sci Inst"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0155",
+          "series-title": "Binary alloy phase diagrams",
+          "author": "Massalski",
+          "year": "1987"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0160",
+          "doi-asserted-by": "crossref",
+          "first-page": "69",
+          "DOI": "10.1016/0025-5416(88)90534-4",
+          "volume": "A102",
+          "author": "Apello",
+          "year": "1988",
+          "journal-title": "Mater Sci Eng"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0165",
+          "doi-asserted-by": "crossref",
+          "first-page": "3127",
+          "DOI": "10.1063/1.126545",
+          "volume": "76",
+          "author": "Vurpillot",
+          "year": "2000",
+          "journal-title": "Appl Phys Lett"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0170",
+          "series-title": "Atom probe analysis: principles and applications to materials problems",
+          "author": "Miller",
+          "year": "1989"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0175",
+          "doi-asserted-by": "crossref",
+          "first-page": "1463",
+          "DOI": "10.1557/JMR.1997.0201",
+          "volume": "12",
+          "author": "Michaelsen",
+          "year": "1997",
+          "journal-title": "J Mater Res"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0180",
+          "doi-asserted-by": "crossref",
+          "first-page": "719",
+          "DOI": "10.1002/andp.19354160806",
+          "volume": "24",
+          "author": "Becker",
+          "year": "1935",
+          "journal-title": "Ann Phys (Leipzig)"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0185",
+          "doi-asserted-by": "crossref",
+          "first-page": "71",
+          "DOI": "10.1063/1.1747055",
+          "volume": "17",
+          "author": "Turnbull",
+          "year": "1949",
+          "journal-title": "J Chem Phys"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0190",
+          "series-title": "The theory of transformations in metals and alloys: an advanced textbook in physical metallurgy",
+          "author": "Christian",
+          "year": "2002"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0195",
+          "series-title": "A handbook of lattice spacings and structures of metals and alloys",
+          "author": "Pearson",
+          "year": "1964"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0200",
+          "doi-asserted-by": "crossref",
+          "first-page": "213",
+          "DOI": "10.1016/j.scriptamat.2007.04.006",
+          "volume": "7",
+          "author": "Aguilar",
+          "year": "2007",
+          "journal-title": "Scripta Mater"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0205",
+          "doi-asserted-by": "crossref",
+          "first-page": "258",
+          "DOI": "10.1063/1.1744102",
+          "volume": "28",
+          "author": "Cahn",
+          "year": "1959",
+          "journal-title": "J Chem Phys"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0210",
+          "doi-asserted-by": "crossref",
+          "first-page": "688",
+          "DOI": "10.1063/1.1730447",
+          "volume": "31",
+          "author": "Cahn",
+          "year": "1959",
+          "journal-title": "J Chem Phys"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0215",
+          "doi-asserted-by": "crossref",
+          "first-page": "109",
+          "DOI": "10.1016/j.jcis.2003.08.038",
+          "volume": "272",
+          "author": "Schmelzer",
+          "year": "2004",
+          "journal-title": "J Colloid Interf Sci"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0220",
+          "doi-asserted-by": "crossref",
+          "first-page": "3820",
+          "DOI": "10.1063/1.481595",
+          "volume": "112",
+          "author": "Schmelzer",
+          "year": "2000",
+          "journal-title": "J Chem Phys"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0225",
+          "doi-asserted-by": "crossref",
+          "first-page": "4606",
+          "DOI": "10.1080/14786435.2011.616548",
+          "volume": "91",
+          "author": "Philippe",
+          "year": "2011",
+          "journal-title": "Philos Mag"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0230",
+          "series-title": "Handbook of chemistry and physics",
+          "author": "Weast",
+          "year": "1980"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0235",
+          "volume": "vol. 1",
+          "author": "Kaur",
+          "year": "1989"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0240",
+          "doi-asserted-by": "crossref",
+          "first-page": "1018",
+          "DOI": "10.1016/j.scriptamat.2008.07.008",
+          "volume": "59",
+          "author": "Kozeschnik",
+          "year": "2008",
+          "journal-title": "Scripta Mater"
+        },
+        {
+          "key": "10.1016/j.actamat.2012.01.038_b0245",
+          "doi-asserted-by": "crossref",
+          "first-page": "379",
+          "DOI": "10.1016/j.crhy.2007.10.011",
+          "volume": "9",
+          "author": "Manh",
+          "year": "2008",
+          "journal-title": "CR Phys"
+        }
+      ],
+      "container-title": [
+        "Acta Materialia"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S1359645412000766?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S1359645412000766?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            23
+          ]
+        ],
+        "date-time": "2025-10-23T13:32:22Z",
+        "timestamp": 1761226342000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1359645412000766"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2012,
+            6
+          ]
+        ]
+      },
+      "references-count": 49,
+      "journal-issue": {
+        "issue": "11",
+        "published-print": {
+          "date-parts": [
+            [
+              2012,
+              6
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "S1359645412000766"
+      ],
+      "URL": "https://doi.org/10.1016/j.actamat.2012.01.038",
+      "relation": {},
+      "ISSN": [
+        "1359-6454"
+      ],
+      "issn-type": [
+        {
+          "value": "1359-6454",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2012,
+            6
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Atomic scale investigation of Cr precipitation in copper",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Acta Materialia",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.actamat.2012.01.038",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "Copyright \u00a9 2012 Acta Materialia Inc. Published by Elsevier Ltd. All rights reserved.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ]
+    }
+  },
+  {
+    "doi": "10.1016/j.jmrt.2022.07.113",
+    "status": 200,
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            26
+          ]
+        ],
+        "date-time": "2026-08-26T06:27:43Z",
+        "timestamp": 1787725663698,
+        "version": "build-2784847793"
+      },
+      "reference-count": 44,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2022-09-01T00:00:00Z",
+            "timestamp": 1661990400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2022-09-01T00:00:00Z",
+            "timestamp": 1661990400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                7,
+                18
+              ]
+            ],
+            "date-time": "2022-07-18T00:00:00Z",
+            "timestamp": 1658102400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100014013",
+          "name": "UK Research and Innovation",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/100014013",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000266",
+          "name": "Engineering and Physical Sciences Research Council",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "EP/T012250/1"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "EP/T012250/1"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000266",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100008517",
+          "name": "Culham Centre for Fusion Energy",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/100008517",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Journal of Materials Research and Technology"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            9
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.jmrt.2022.07.113",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            1
+          ]
+        ],
+        "date-time": "2022-08-01T02:15:29Z",
+        "timestamp": 1659320129000
+      },
+      "page": "801-810",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 10,
+      "special_numbering": "C",
+      "title": [
+        "Full-stage precipitation during aging of Cu-0.55Cr-0.07Zr alloy for high heat flux fusion reactor technology"
+      ],
+      "prefix": "10.1016",
+      "volume": "20",
+      "author": [
+        {
+          "given": "J.",
+          "family": "Hughes",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "T.",
+          "family": "Toyama",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "M.",
+          "family": "Gorley",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4431-7742",
+          "authenticated-orcid": false,
+          "given": "E.",
+          "family": "Jimenez-Melero",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib1",
+          "doi-asserted-by": "crossref",
+          "first-page": "127",
+          "DOI": "10.1016/S0022-3115(96)00091-8",
+          "article-title": "Evaluation of copper alloys for fusion reactor divertor and first wall components",
+          "volume": "233-237",
+          "author": "Fabritsiev",
+          "year": "1996",
+          "journal-title": "J. Nucl. Mater."
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib2",
+          "doi-asserted-by": "crossref",
+          "first-page": "478",
+          "DOI": "10.1016/S0022-3115(98)00804-6",
+          "article-title": "ITER Materials R&D Data Bank",
+          "volume": "271&272",
+          "author": "Tanaka",
+          "year": "1999",
+          "journal-title": "J. Nucl. Mater."
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib3",
+          "doi-asserted-by": "crossref",
+          "first-page": "412",
+          "DOI": "10.2320/matertrans.46.412",
+          "article-title": "ITER Relevant High Heat Flux Testing on Plasma Facing Surfaces",
+          "volume": "46",
+          "author": "Hirai",
+          "year": "2005",
+          "journal-title": "Mater. Trans."
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib4",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1088/0031-8949/2015/T167/014004",
+          "article-title": "Applicability of copper alloys for DEMO high heat flux components",
+          "volume": "T167",
+          "author": "Zinkle",
+          "year": "2016",
+          "journal-title": "Phys. Scr."
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib5",
+          "doi-asserted-by": "crossref",
+          "first-page": "250",
+          "DOI": "10.1016/j.fusengdes.2017.07.009",
+          "article-title": "ITER divertor materials and manufacturing challenges",
+          "volume": "125",
+          "author": "Hirai",
+          "year": "2017",
+          "journal-title": "Fusion Eng. Des."
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib6",
+          "doi-asserted-by": "crossref",
+          "first-page": "904",
+          "DOI": "10.1016/j.jnucmat.2010.12.158",
+          "article-title": "Specification of CuCrZr alloy properties after various thermo-mechanical treatments and design allowables including neutron irradiation effects",
+          "volume": "417",
+          "author": "Barabash",
+          "year": "2011",
+          "journal-title": "J. Nucl. Mater."
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib7",
+          "doi-asserted-by": "crossref",
+          "first-page": "904",
+          "DOI": "10.1016/j.jnucmat.2007.03.064",
+          "article-title": "Effect of heat treatments on precipitate microstructure and mechanical properties of a CuCrZr alloy",
+          "volume": "367-370",
+          "author": "Edwards",
+          "year": "2007",
+          "journal-title": "J. Nucl. Mater."
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib8",
+          "first-page": "667",
+          "article-title": "Physical and Mechanical Properties of Copper and Copper Alloys",
+          "volume": "vol. 4",
+          "author": "Li",
+          "year": "2012"
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib9",
+          "doi-asserted-by": "crossref",
+          "first-page": "1096",
+          "DOI": "10.1016/j.jallcom.2017.03.069",
+          "article-title": "The phase transformation and strengthening of a Cu-0.71 wt% Cr alloy",
+          "volume": "708",
+          "author": "Peng",
+          "year": "2017",
+          "journal-title": "J. Alloys Comp."
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Chbihi, X. Sauvage, D. Blavette, Atomic scale investigation of Cr precipitation in copper, Acta Mater. 60 (1012) 4575-4585.",
+          "DOI": "10.1016/j.actamat.2012.01.038"
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib11",
+          "doi-asserted-by": "crossref",
+          "first-page": "1033",
+          "DOI": "10.1016/S1359-6454(99)00411-5",
+          "article-title": "Crystallography and morphology of nanosized Cr particles in a Cu-0.2% Cr alloy",
+          "volume": "48",
+          "author": "Fujii",
+          "year": "2000",
+          "journal-title": "Acta Mater"
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib12",
+          "doi-asserted-by": "crossref",
+          "first-page": "10",
+          "DOI": "10.1016/S0022-3115(00)00305-6",
+          "article-title": "Assessment and selection of materials for ITER in-vessel components",
+          "volume": "283\u00b1287",
+          "author": "Kalinin",
+          "year": "2000",
+          "journal-title": "J. Nucl. Mater."
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib13",
+          "doi-asserted-by": "crossref",
+          "first-page": "91",
+          "DOI": "10.1016/S0022-3115(01)00691-2",
+          "article-title": "Microstructure and properties of a Cu-Cr-Zr alloy",
+          "volume": "299",
+          "author": "Batra",
+          "year": "2001",
+          "journal-title": "J. Nucl. Mater."
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib14",
+          "doi-asserted-by": "crossref",
+          "first-page": "32",
+          "DOI": "10.1016/S0921-5093(02)00852-3",
+          "article-title": "Precipitation in a Cu-Cr-Zr alloy",
+          "volume": "356",
+          "author": "Batra",
+          "year": "2002",
+          "journal-title": "Mater. Sci. Eng. A"
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib15",
+          "doi-asserted-by": "crossref",
+          "first-page": "28",
+          "DOI": "10.1016/j.msea.2015.02.077",
+          "article-title": "The phase transformation and its effects on properties of a Cu-0.12 wt% Zr alloy",
+          "volume": "633",
+          "author": "Peng",
+          "year": "2015",
+          "journal-title": "Mater. Sci. Eng. A"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.jmrt.2022.07.113_bib16",
+          "doi-asserted-by": "crossref",
+          "first-page": "2186",
+          "DOI": "10.1016/j.actamat.2009.12.004",
+          "article-title": "Phase stability for the Cu\u2013Zr system: First-principles, experiments and solution-based modelling",
+          "volume": "58",
+          "author": "Zhou",
+          "year": "2000",
+          "journal-title": "Acta Mater"
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib17",
+          "doi-asserted-by": "crossref",
+          "first-page": "518",
+          "DOI": "10.2320/matertrans.MBW200736",
+          "article-title": "Nanostructural Evolution of Cr-rich Precipitates in a Cu-Cr-Zr Alloy During Heat Treatment Studied by 3-Dimensional Atom probe",
+          "volume": "49",
+          "author": "Hatakeyama",
+          "year": "2008",
+          "journal-title": "Mater. Trans."
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib18",
+          "doi-asserted-by": "crossref",
+          "first-page": "852",
+          "DOI": "10.1016/j.jnucmat.2008.12.266",
+          "article-title": "3D-AP and positron annihilation study of precipitation behaviour in Cu-Cr-Zr alloy",
+          "volume": "386\u2013388",
+          "author": "Hatakeyama",
+          "year": "2009",
+          "journal-title": "J. Nucl. Mater."
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib19",
+          "doi-asserted-by": "crossref",
+          "first-page": "148",
+          "DOI": "10.1016/j.fusengdes.2019.04.094",
+          "article-title": "Development of the material property handbook and database of CuCrZr",
+          "volume": "144",
+          "author": "Zhang",
+          "year": "2019",
+          "journal-title": "Fus. Eng. Des."
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib20",
+          "series-title": "In Proceedings of the SPIE 7378, Scanning Microscopy 2009",
+          "first-page": "73780W",
+          "article-title": "Extreme high resolution scanning electron microscopy (XHR SEM) and beyond",
+          "author": "Roussel",
+          "year": "2009"
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib21",
+          "series-title": "In Proceedings of the SPIE 7378, Scanning Microscopy, Monterey, California, United States",
+          "article-title": "XHR SEM: enabling extreme high-resolution scanning electron microscopy",
+          "author": "Young",
+          "year": "2009"
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib22",
+          "doi-asserted-by": "crossref",
+          "first-page": "3833",
+          "DOI": "10.1023/A:1017973432592",
+          "article-title": "Grain and subgrain characterisation by electron backscatter diffraction",
+          "volume": "36",
+          "author": "Humphreys",
+          "year": "2001",
+          "journal-title": "J. Mater. Sci."
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib23",
+          "doi-asserted-by": "crossref",
+          "first-page": "170",
+          "DOI": "10.1046/j.1365-2818.1999.00578.x",
+          "article-title": "Quantitative metallography by electron backscattered diffraction",
+          "volume": "195",
+          "author": "Humphreys",
+          "year": "1999",
+          "journal-title": "J. Microsc."
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib24",
+          "doi-asserted-by": "crossref",
+          "first-page": "5",
+          "DOI": "10.1016/S0304-3991(00)00067-X",
+          "article-title": "Crystal thickness and extinction distance determination using energy filtered {CBED} pattern intensity measurement and dynamical diffraction theory fitting",
+          "volume": "87",
+          "author": "Delille",
+          "year": "2001",
+          "journal-title": "Ultramicroscopy"
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib25",
+          "doi-asserted-by": "crossref",
+          "first-page": "761",
+          "DOI": "10.1016/j.ultramic.2007.02.023",
+          "article-title": "Atom probe specimen preparation with a dual beam SEM/FIB miller",
+          "volume": "107",
+          "author": "Miller",
+          "year": "2007",
+          "journal-title": "Ultramicrosc"
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib26",
+          "doi-asserted-by": "crossref",
+          "first-page": "2097",
+          "DOI": "10.1103/PhysRevLett.77.2097",
+          "article-title": "Increased Elemental Specificity of Positron Annihilation Spectra",
+          "volume": "77",
+          "author": "Asoka-Kumar",
+          "year": "1996",
+          "journal-title": "Phys. Rev. Lett."
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib27",
+          "doi-asserted-by": "crossref",
+          "first-page": "169",
+          "DOI": "10.1016/S0029-5493(96)01295-2",
+          "article-title": "Application of positron annihilation line-shape analysis to fatigue damage for nuclear plant materials",
+          "volume": "167",
+          "author": "Maeda",
+          "year": "1996",
+          "journal-title": "Nucl. Eng. Des."
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib28",
+          "series-title": "PALSfit: a Computer Program for Analysing Positron Lifetime Spectra",
+          "author": "Kirkegaard",
+          "year": "2009"
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib29",
+          "doi-asserted-by": "crossref",
+          "first-page": "6574",
+          "DOI": "10.1103/PhysRevB.61.6574",
+          "article-title": "Positron confinement in ultrafine embedded particles: Quantum-dot-like state in an Fe-Cu alloy",
+          "volume": "61",
+          "author": "Nagai",
+          "year": "2000",
+          "journal-title": "Phys. Rev. B"
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib30",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1063/1.4867740",
+          "article-title": "Positron annihilation characteristics in mesostructural silica films with various porosities",
+          "volume": "115",
+          "author": "Xiong",
+          "year": "2014",
+          "journal-title": "J. Appl. Phys."
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib31",
+          "doi-asserted-by": "crossref",
+          "first-page": "31",
+          "DOI": "10.1016/S0022-3115(99)00285-8",
+          "article-title": "The precipitation behaviour of ITER-grade Cu-Cr-Zr alloy after simulating the thermal cycle of hot isostatic pressing",
+          "volume": "279",
+          "author": "Holzwarth",
+          "year": "2000",
+          "journal-title": "J. Nucl. Mater."
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib32",
+          "first-page": "6081",
+          "article-title": "Positron affinities for elemental metals",
+          "volume": "1",
+          "author": "Puska",
+          "year": "1989",
+          "journal-title": "J. Phys.: Condens. Matter"
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib33",
+          "doi-asserted-by": "crossref",
+          "first-page": "15",
+          "DOI": "10.1002/(SICI)1521-396X(199805)167:1<15::AID-PSSA15>3.0.CO;2-8",
+          "article-title": "Diffusion of Manganese, Chromium, and Titanium in Single Crystalline Copper",
+          "volume": "167",
+          "author": "Almazouzi",
+          "year": "1998",
+          "journal-title": "Phys. Stat. Sol. (a)"
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib34",
+          "doi-asserted-by": "crossref",
+          "first-page": "1943",
+          "DOI": "10.1063/1.364050",
+          "article-title": "Transport of positrons in the electrically biased metal-oxide-silicon system",
+          "volume": "81",
+          "author": "Clement",
+          "year": "1997",
+          "journal-title": "J. Appl. Phys."
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib35",
+          "doi-asserted-by": "crossref",
+          "first-page": "685",
+          "DOI": "10.1016/j.jallcom.2019.05.186",
+          "article-title": "Positron annihilation spectroscopy study of defects in hydrogen loaded Zr-1Nb alloy",
+          "volume": "798",
+          "author": "Bordulev",
+          "year": "2019",
+          "journal-title": "J. Alloys Comp."
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib36",
+          "doi-asserted-by": "crossref",
+          "first-page": "93",
+          "DOI": "10.1016/j.jnucmat.2006.07.020",
+          "article-title": "Positron lifetime calculations of defects in chromium containing hydrogen or helium",
+          "volume": "359",
+          "author": "Troev",
+          "year": "2006",
+          "journal-title": "J. Nucl. Mater."
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib37",
+          "doi-asserted-by": "crossref",
+          "first-page": "673",
+          "DOI": "10.1016/S0022-3115(02)01110-8",
+          "article-title": "Effect of heat treatments on the properties of CuCrZr alloys",
+          "volume": "307-311",
+          "author": "Ivanov",
+          "year": "2002",
+          "journal-title": "J. Nucl. Mater."
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib38",
+          "doi-asserted-by": "crossref",
+          "first-page": "107",
+          "DOI": "10.1016/j.msea.2017.05.114",
+          "article-title": "Effect of rolling and aging processes on microstructure and properties of Cu-Cr-Zr alloy",
+          "volume": "700",
+          "author": "Fu",
+          "year": "2017",
+          "journal-title": "Mater. Sci. Eng A"
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib39",
+          "doi-asserted-by": "crossref",
+          "first-page": "464",
+          "DOI": "10.1016/j.msea.2019.04.053",
+          "article-title": "Contribution of Zr to strength and grain refinement in Cu-Cr-Zr alloy",
+          "volume": "756",
+          "author": "Chen",
+          "year": "2019",
+          "journal-title": "Mater. Sci. Eng."
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib40",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1088/2053-1591/aaabc5",
+          "article-title": "Effect of different Zr contents on properties and microstructure of Cu-Cr-Zr alloys",
+          "volume": "5",
+          "author": "Jinshui",
+          "year": "2018",
+          "journal-title": "Mater. Res. Express"
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib41",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jnucmat.2020.152775",
+          "article-title": "Correlation between microstructure and mechanical properties in the age-hardenable Cu-Cr-Zr alloy",
+          "volume": "546",
+          "author": "Jha",
+          "year": "2021",
+          "journal-title": "J. Nucl. Mater."
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib42",
+          "doi-asserted-by": "crossref",
+          "first-page": "560",
+          "DOI": "10.1016/j.jallcom.2018.06.158",
+          "article-title": "In-situ TEM study of the dynamic interactions between dislocations and precipitates in a Cu-Cr-Zr alloy",
+          "volume": "765",
+          "author": "Liu",
+          "year": "2018",
+          "journal-title": "J. Alloys Comp."
+        },
+        {
+          "key": "10.1016/j.jmrt.2022.07.113_bib43",
+          "doi-asserted-by": "crossref",
+          "first-page": "140",
+          "DOI": "10.1016/j.jallcom.2018.03.238",
+          "article-title": "Retaining meta-stable fcc-Cr phase by restraining nucleation of equilibrium bcc-Cr phase in CuCrZrTi alloys during ageing",
+          "volume": "749",
+          "author": "Wang",
+          "year": "2018",
+          "journal-title": "J. Alloys Comp."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.jmrt.2022.07.113_bib44",
+          "doi-asserted-by": "crossref",
+          "first-page": "282",
+          "DOI": "10.1080/02670836.2017.1376428",
+          "article-title": "Structure and orientation relationship of new precipitates in a Cu-Cr-Zr alloy",
+          "volume": "34",
+          "author": "Che",
+          "year": "2018",
+          "journal-title": "Mater. Sci. Technol."
+        }
+      ],
+      "container-title": [
+        "Journal of Materials Research and Technology"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2238785422011528?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2238785422011528?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            6
+          ]
+        ],
+        "date-time": "2025-11-06T07:46:08Z",
+        "timestamp": 1762415168000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2238785422011528"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            9
+          ]
+        ]
+      },
+      "references-count": 44,
+      "alternative-id": [
+        "S2238785422011528"
+      ],
+      "URL": "https://doi.org/10.1016/j.jmrt.2022.07.113",
+      "relation": {},
+      "ISSN": [
+        "2238-7854"
+      ],
+      "issn-type": [
+        {
+          "value": "2238-7854",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            9
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Full-stage precipitation during aging of Cu-0.55Cr-0.07Zr alloy for high heat flux fusion reactor technology",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Journal of Materials Research and Technology",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.jmrt.2022.07.113",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "\u00a9 2022 The Author(s). Published by Elsevier B.V.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ]
+    }
+  },
+  {
+    "doi": "10.1016/j.calphad.2023.102581",
+    "status": 200,
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            29
+          ]
+        ],
+        "date-time": "2026-08-29T12:17:02Z",
+        "timestamp": 1788005822009,
+        "version": "build-2784847793"
+      },
+      "reference-count": 42,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2023-09-01T00:00:00Z",
+            "timestamp": 1693526400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2023-09-01T00:00:00Z",
+            "timestamp": 1693526400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2023-09-01T00:00:00Z",
+            "timestamp": 1693526400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2023-09-01T00:00:00Z",
+            "timestamp": 1693526400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2023-09-01T00:00:00Z",
+            "timestamp": 1693526400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2023-09-01T00:00:00Z",
+            "timestamp": 1693526400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2023-09-01T00:00:00Z",
+            "timestamp": 1693526400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "52071002"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "52071002"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100006247",
+          "name": "Anhui University of Science and Technology",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "2022CX2107"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2022CX2107"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100006247",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Calphad"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            9
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.calphad.2023.102581",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            20
+          ]
+        ],
+        "date-time": "2023-06-20T07:09:25Z",
+        "timestamp": 1687244965000
+      },
+      "page": "102581",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 7,
+      "special_numbering": "C",
+      "title": [
+        "Experimental investigation and thermodynamic calculation of the Cu\u2013Cr\u2013Ti ternary system"
+      ],
+      "prefix": "10.1016",
+      "volume": "82",
+      "author": [
+        {
+          "given": "Yuchao",
+          "family": "Shi",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jin",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Benfu",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gang",
+          "family": "Zeng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chenggang",
+          "family": "Jin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9776-7456",
+          "authenticated-orcid": false,
+          "given": "Biao",
+          "family": "Hu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xinyue",
+          "family": "Lan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yong",
+          "family": "Du",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.calphad.2023.102581_bib1",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.msea.2020.140598",
+          "article-title": "Effect of aging process on the microstructure and properties of Cu\u2013Cr\u2013Ti alloy",
+          "volume": "802",
+          "author": "Fu",
+          "year": "2021",
+          "journal-title": "Mater. Sci. Eng., A"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.calphad.2023.102581_bib2",
+          "doi-asserted-by": "crossref",
+          "first-page": "11918",
+          "DOI": "10.1016/j.jmrt.2020.08.055",
+          "article-title": "A review of microstructure and texture evolution with nanoscale precipitates for copper alloys",
+          "volume": "9",
+          "author": "Geng",
+          "year": "2020",
+          "journal-title": "J. Mater. Res. Technol."
+        },
+        {
+          "key": "10.1016/j.calphad.2023.102581_bib3",
+          "first-page": "201",
+          "article-title": "A nano-structured TiO2/CuO/Cu2O coating on Ti\u2013Cu alloy with dual function of antibacterial ability and osteogenic activity",
+          "volume": "97",
+          "author": "Zhang",
+          "year": "2022",
+          "journal-title": "J. Mater. Res. Technol."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.calphad.2023.102581_bib4",
+          "article-title": "Mechanism investigation on high-performance Cu\u2013Cr\u2013Ti alloy via integrated computational materials engineering",
+          "volume": "27",
+          "author": "Huang",
+          "year": "2021",
+          "journal-title": "Mater. Today Commun."
+        },
+        {
+          "key": "10.1016/j.calphad.2023.102581_bib5",
+          "doi-asserted-by": "crossref",
+          "first-page": "5",
+          "DOI": "10.1016/j.matlet.2015.03.144",
+          "article-title": "High strength and good electrical conductivity in Cu\u2013Cr alloys processed by severe plastic deformation",
+          "volume": "153",
+          "author": "Dobatkin",
+          "year": "2015",
+          "journal-title": "Mater. Lett."
+        },
+        {
+          "key": "10.1016/j.calphad.2023.102581_bib6",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.calphad.2017.07.002",
+          "article-title": "Experimental investigation and thermodynamic description of the Cu\u2013Cr\u2013Zr system",
+          "volume": "59",
+          "author": "Liu",
+          "year": "2017",
+          "journal-title": "Calphad"
+        },
+        {
+          "key": "10.1016/j.calphad.2023.102581_bib7",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.msea.2021.141464",
+          "article-title": "Microstructure evolution and properties of a Cu\u2013Cr\u2013Zr alloy with high strength and high conductivity",
+          "volume": "819",
+          "author": "Li",
+          "year": "2021",
+          "journal-title": "Mater. Sci. Eng., A"
+        },
+        {
+          "key": "10.1016/j.calphad.2023.102581_bib8",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.calphad.2019.101734",
+          "article-title": "The phase equilibria of the Cu\u2013Cr\u2013Ni and Cu\u2013Cr\u2013Ag systems: experimental investigation and thermodynamic modeling",
+          "volume": "68",
+          "author": "Qiu",
+          "year": "2020",
+          "journal-title": "Calphad"
+        },
+        {
+          "key": "10.1016/j.calphad.2023.102581_bib9",
+          "doi-asserted-by": "crossref",
+          "first-page": "208",
+          "DOI": "10.1016/j.msea.2018.04.077",
+          "article-title": "Effect of Ag addition on the microstructure and mechanical properties of Cu-Cr alloy",
+          "volume": "726",
+          "author": "Xu",
+          "year": "2018",
+          "journal-title": "Mater. Sci. Eng., A"
+        },
+        {
+          "key": "10.1016/j.calphad.2023.102581_bib10",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.calphad.2021.102324",
+          "article-title": "Experimental investigation and CALPHAD modeling of the Cu\u2013Cr\u2013Si ternary system",
+          "volume": "74",
+          "author": "Zhang",
+          "year": "2021",
+          "journal-title": "Calphad"
+        },
+        {
+          "key": "10.1016/j.calphad.2023.102581_bib11",
+          "doi-asserted-by": "crossref",
+          "first-page": "165",
+          "DOI": "10.1016/j.msea.2018.10.093",
+          "article-title": "Effects of Co and Si additions and cryogenic rolling on structure and properties of Cu\u2013Cr alloys",
+          "volume": "740",
+          "author": "Sun",
+          "year": "2019",
+          "journal-title": "Mater. Sci. Eng., A"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.calphad.2023.102581_bib12",
+          "doi-asserted-by": "crossref",
+          "first-page": "389",
+          "DOI": "10.1007/s11669-021-00892-y",
+          "article-title": "Experimental investigation of phase equilibria in the Cu\u2013Cr\u2013Ti system",
+          "volume": "42",
+          "author": "Li",
+          "year": "2021",
+          "journal-title": "J. Phase Equilibria Diffus."
+        },
+        {
+          "issue": "1\u20132",
+          "key": "10.1016/j.calphad.2023.102581_bib13",
+          "doi-asserted-by": "crossref",
+          "first-page": "287",
+          "DOI": "10.1016/j.jallcom.2008.11.162",
+          "article-title": "Experimental determination and thermodynamic calculation of the phase equilibria in the Cu\u2013Cr\u2013Nb and Cu\u2013Cr\u2013Co systems",
+          "volume": "478",
+          "author": "Liu",
+          "year": "2009",
+          "journal-title": "J. Alloys Compd."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.calphad.2023.102581_bib14",
+          "doi-asserted-by": "crossref",
+          "first-page": "394",
+          "DOI": "10.1080/09506608.2020.1821485",
+          "article-title": "Copper-based alloys for structural high-heat-flux applications: a review of development, properties, and performance of Cu-rich Cu\u2013Cr\u2013Nb alloys",
+          "volume": "66",
+          "author": "Minneci",
+          "year": "2021",
+          "journal-title": "Int. Mater. Rev."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.calphad.2023.102581_bib15",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1007/BF02868543",
+          "article-title": "The Cr\u2013Cu (Chromium\u2013Copper) system",
+          "volume": "5",
+          "author": "Chakrabarti",
+          "year": "1984",
+          "journal-title": "Bull. Alloy. Phase. Diagr."
+        },
+        {
+          "issue": "21",
+          "key": "10.1016/j.calphad.2023.102581_bib16",
+          "doi-asserted-by": "crossref",
+          "first-page": "7039",
+          "DOI": "10.1007/s10853-011-5672-8",
+          "article-title": "Experimental determination and thermodynamic modeling of phase equilibria in the Cu\u2013Cr system",
+          "volume": "46",
+          "author": "Zhou",
+          "year": "2011",
+          "journal-title": "J. Mater. Sci."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.calphad.2023.102581_bib17",
+          "doi-asserted-by": "crossref",
+          "first-page": "93",
+          "DOI": "10.1016/0364-5916(95)00010-C",
+          "article-title": "Thermodynamic analysis of stable and metastable equilibria in the Cu\u2013Cr system",
+          "volume": "19",
+          "author": "Zeng",
+          "year": "1995",
+          "journal-title": "Calphad"
+        },
+        {
+          "issue": "21",
+          "key": "10.1016/j.calphad.2023.102581_bib18",
+          "doi-asserted-by": "crossref",
+          "first-page": "7039",
+          "DOI": "10.1007/s10853-011-5672-8",
+          "article-title": "Experimental determination and thermodynamic modeling of phase equilibria in the Cu\u2013Cr system",
+          "volume": "46",
+          "author": "Zhou",
+          "year": "2011",
+          "journal-title": "J. Mater. Sci."
+        },
+        {
+          "key": "10.1016/j.calphad.2023.102581_bib19",
+          "doi-asserted-by": "crossref",
+          "first-page": "241",
+          "DOI": "10.1016/j.calphad.2017.01.004",
+          "article-title": "Thermodynamic modeling of the Cu\u2013Fe\u2013Cr and Cu\u2013Fe\u2013Mn systems",
+          "volume": "56",
+          "author": "In-Ho",
+          "year": "2017",
+          "journal-title": "Calphad"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.calphad.2023.102581_bib20",
+          "doi-asserted-by": "crossref",
+          "first-page": "848",
+          "DOI": "10.1007/BF03398150",
+          "article-title": "Titanium-Chromium phase diagram",
+          "volume": "4",
+          "author": "Cuff",
+          "year": "1952",
+          "journal-title": "J. Jom."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.calphad.2023.102581_bib21",
+          "doi-asserted-by": "crossref",
+          "first-page": "174",
+          "DOI": "10.1007/BF02881474",
+          "article-title": "The Cr\u2212Ti (chromium\u2212titanium) system",
+          "volume": "2",
+          "author": "Murray",
+          "year": "1981",
+          "journal-title": "Bull. Alloy. Phase. Diagr."
+        },
+        {
+          "issue": "1\u20132",
+          "key": "10.1016/j.calphad.2023.102581_bib22",
+          "doi-asserted-by": "crossref",
+          "first-page": "229",
+          "DOI": "10.1016/S0925-8388(99)00144-9",
+          "article-title": "Phase equilibrium of the Ti\u2013Cr\u2013V ternary system in the non-burning \u03b2-Ti alloy region",
+          "volume": "291",
+          "author": "Lee",
+          "year": "1999",
+          "journal-title": "J. Alloys Compd."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.calphad.2023.102581_bib23",
+          "first-page": "121",
+          "article-title": "Thermodynamic optimization of the Cr\u2013Ti system",
+          "volume": "91",
+          "author": "Zhuang",
+          "year": "2000",
+          "journal-title": "Z. Metallkd."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.calphad.2023.102581_bib24",
+          "doi-asserted-by": "crossref",
+          "first-page": "310",
+          "DOI": "10.1361/105497102770331569",
+          "article-title": "Thermodynamic and kinetic modeling of the Cr\u2013Ti\u2013V system",
+          "volume": "23",
+          "author": "Ghosh",
+          "year": "2002",
+          "journal-title": "J. Phase Equil."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.calphad.2023.102581_bib25",
+          "doi-asserted-by": "crossref",
+          "first-page": "215",
+          "DOI": "10.1016/j.calphad.2010.03.003",
+          "article-title": "Thermodynamic modeling of Laves phases in the Cr\u2013Hf and Cr\u2013Ti systems: reassessment using first-principles results",
+          "volume": "34",
+          "author": "Pavl",
+          "year": "2010",
+          "journal-title": "Calphad"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.calphad.2023.102581_bib26",
+          "doi-asserted-by": "crossref",
+          "first-page": "1222",
+          "DOI": "10.1016/j.intermet.2011.03.031",
+          "article-title": "Thermodynamic assessment of the Cr\u2013Ti and first assessment of the Al\u2013Cr\u2013Ti systems",
+          "volume": "19",
+          "author": "Cupid",
+          "year": "2011",
+          "journal-title": "Intermetallics"
+        },
+        {
+          "key": "10.1016/j.calphad.2023.102581_bib27",
+          "series-title": "Presented at: 19th National Symposium on Phase Diagram and Materials Design, Chongqing, China",
+          "article-title": "Establishment of thermodynamic database of multiple copper alloys",
+          "author": "Hu",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.calphad.2023.102581_bib28",
+          "series-title": "Phase Diagrams of Binary Titanium Alloys, Monograph Series on Alloy Phase Diagrams",
+          "author": "Murray",
+          "year": "1987"
+        },
+        {
+          "key": "10.1016/j.calphad.2023.102581_bib29",
+          "first-page": "391",
+          "article-title": "An x-ray study of the phases in the copper-titanium system",
+          "volume": "79",
+          "author": "Karlsson",
+          "year": "1951",
+          "journal-title": "J. Inst. Met."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.calphad.2023.102581_bib30",
+          "first-page": "273",
+          "article-title": "Thermodynamic assessment of the Cu\u2013Ti system taking into account the new stable phase CuTi3",
+          "volume": "93",
+          "author": "Canale",
+          "year": "2002",
+          "journal-title": "Int. J. Mater. Res."
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.calphad.2023.102581_bib31",
+          "doi-asserted-by": "crossref",
+          "first-page": "666",
+          "DOI": "10.1515/ijmr-1996-870811",
+          "article-title": "Thermodynamic optimization of the Cu\u2013Ti system",
+          "volume": "87",
+          "author": "Kumar",
+          "year": "1996",
+          "journal-title": "Int. J. Mater. Res."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.calphad.2023.102581_bib32",
+          "doi-asserted-by": "crossref",
+          "first-page": "82",
+          "DOI": "10.1016/j.calphad.2010.12.006",
+          "article-title": "Experimental investigation and thermodynamic assessment of the Cu\u2013Sn\u2013Ti ternary system",
+          "volume": "35",
+          "author": "Wang",
+          "year": "2011",
+          "journal-title": "Calphad"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.calphad.2023.102581_bib33",
+          "doi-asserted-by": "crossref",
+          "first-page": "317",
+          "DOI": "10.1016/0364-5916(91)90030-N",
+          "article-title": "SGTE data for pure elements",
+          "volume": "15",
+          "author": "Dinsdale",
+          "year": "1991",
+          "journal-title": "Calphad"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.calphad.2023.102581_bib34",
+          "doi-asserted-by": "crossref",
+          "first-page": "345",
+          "DOI": "10.1021/ie50458a036",
+          "article-title": "Algebraic representation of thermodynamic properties and the classification of solutions",
+          "volume": "40",
+          "author": "Redlich",
+          "year": "1948",
+          "journal-title": "Ind. Eng. Chem."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.calphad.2023.102581_bib35",
+          "doi-asserted-by": "crossref",
+          "first-page": "83",
+          "DOI": "10.1051/jcp/1975720083",
+          "article-title": "Enthalpies of formation of liquid alloys bismuth-gallium-tin at 723k-choice of an analytical representation of integral and partial thermodynamic functions of mixing for this ternary-system",
+          "volume": "72",
+          "author": "Muggianu",
+          "year": "1975",
+          "journal-title": "J. Chim. Phys."
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.calphad.2023.102581_bib36",
+          "doi-asserted-by": "crossref",
+          "first-page": "3618",
+          "DOI": "10.3891/acta.chem.scand.24-3618",
+          "article-title": "Regular-solution model for stoichiometric phases and ionic melts",
+          "volume": "24",
+          "author": "Hillert",
+          "year": "1970",
+          "journal-title": "Acta Chem. Scand."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.calphad.2023.102581_bib37",
+          "doi-asserted-by": "crossref",
+          "first-page": "297",
+          "DOI": "10.1016/0022-3697(81)90144-X",
+          "article-title": "A regular solution model for phases with several components and sublattices, suitable for computer applications",
+          "volume": "42",
+          "author": "Sundman",
+          "year": "1981",
+          "journal-title": "J. Phys. Chem. Solid."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.calphad.2023.102581_bib38",
+          "doi-asserted-by": "crossref",
+          "first-page": "273",
+          "DOI": "10.1016/S0364-5916(02)00037-8",
+          "article-title": "Thermo-Calc & DICTRA, computational tools for materials science",
+          "volume": "26",
+          "author": "Andersson",
+          "year": "2002",
+          "journal-title": "Calphad"
+        },
+        {
+          "key": "10.1016/j.calphad.2023.102581_bib39",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.intermet.2020.106701",
+          "article-title": "The phase equilibria of the Ti\u2013V\u2013M (M= Si, Nb, Ta) ternary systems",
+          "volume": "118",
+          "author": "Hu",
+          "year": "2020",
+          "journal-title": "Intermetallics"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.calphad.2023.102581_bib40",
+          "doi-asserted-by": "crossref",
+          "first-page": "150",
+          "DOI": "10.1007/s11669-021-00866-0",
+          "article-title": "Experimental investigation and thermodynamic modeling of the phase equilibria in the Cu\u2013Nb\u2013Ni ternary system",
+          "volume": "42",
+          "author": "Zhou",
+          "year": "2021",
+          "journal-title": "J. Phase Equilibria Diffus."
+        },
+        {
+          "issue": "04",
+          "key": "10.1016/j.calphad.2023.102581_bib41",
+          "doi-asserted-by": "crossref",
+          "first-page": "997",
+          "DOI": "10.1016/S1003-6326(23)66161-8",
+          "article-title": "Thermodynamic modeling and solidified microstructure of Ag\u2013Sn\u2013Zr ternary system",
+          "volume": "33",
+          "author": "Zhang",
+          "year": "2022",
+          "journal-title": "Trans. Nonferrous Met. Soc. China"
+        },
+        {
+          "key": "10.1016/j.calphad.2023.102581_bib42",
+          "series-title": "Experimental Investigation and Thermodynamic Modeling of Ag\u2013Zr\u2013Y System",
+          "author": "Jin",
+          "year": "2022"
+        }
+      ],
+      "container-title": [
+        "Calphad"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0364591623000536?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0364591623000536?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            6
+          ]
+        ],
+        "date-time": "2025-10-06T23:36:07Z",
+        "timestamp": 1759793767000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0364591623000536"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            9
+          ]
+        ]
+      },
+      "references-count": 42,
+      "alternative-id": [
+        "S0364591623000536"
+      ],
+      "URL": "https://doi.org/10.1016/j.calphad.2023.102581",
+      "relation": {},
+      "ISSN": [
+        "0364-5916"
+      ],
+      "issn-type": [
+        {
+          "value": "0364-5916",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            9
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Experimental investigation and thermodynamic calculation of the Cu\u2013Cr\u2013Ti ternary system",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Calphad",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.calphad.2023.102581",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "\u00a9 2023 Elsevier Ltd. All rights reserved.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "102581"
+    }
+  },
+  {
+    "doi": "10.1016/j.matchemphys.2010.11.033",
+    "status": 200,
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            17
+          ]
+        ],
+        "date-time": "2026-08-17T19:10:34Z",
+        "timestamp": 1786993834798,
+        "version": "build-2736575974"
+      },
+      "reference-count": 47,
+      "publisher": "Elsevier BV",
+      "issue": "1-2",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2011,
+                5,
+                1
+              ]
+            ],
+            "date-time": "2011-05-01T00:00:00Z",
+            "timestamp": 1304208000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2011,
+                5,
+                1
+              ]
+            ],
+            "date-time": "2011-05-01T00:00:00Z",
+            "timestamp": 1304208000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "51031003"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "51031003"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100002338",
+          "name": "Ministry of Education of China",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "707037"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "707037"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100002338",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "Ministry of Science and Technology of China",
+          "award": [
+            "2009DFA52170"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2009DFA52170"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ministry of Science and Technology of China",
+          "award": [
+            "2009AA03Z101"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2009AA03Z101"
+              ]
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100005270",
+          "name": "Fujian Provincial Department of Science & Technology",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "2009I0024"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2009I0024"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100005270",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "Xiamen City Department of Science & Technology",
+          "award": [
+            "3502Z20093001"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "3502Z20093001"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Aviation Science Fund",
+          "award": [
+            "2009ZF68010"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2009ZF68010"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Materials Chemistry and Physics"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2011,
+            5
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.matchemphys.2010.11.033",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2011,
+            3,
+            7
+          ]
+        ],
+        "date-time": "2011-03-07T14:16:02Z",
+        "timestamp": 1299507362000
+      },
+      "page": "28-39",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 17,
+      "title": [
+        "Thermodynamics and kinetics in liquid immiscible Cu\u2013Cr\u2013Si ternary system"
+      ],
+      "prefix": "10.1016",
+      "volume": "127",
+      "author": [
+        {
+          "given": "Yan",
+          "family": "Yu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Cuiping",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xingjun",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ryosuke",
+          "family": "Kainuma",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kiyohito",
+          "family": "Ishida",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0005",
+          "first-page": "105",
+          "volume": "17",
+          "author": "M\u00fcller",
+          "year": "1988",
+          "journal-title": "Siemens Forsch. u Entwickl. Ber."
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0010",
+          "doi-asserted-by": "crossref",
+          "first-page": "96",
+          "DOI": "10.1109/95.296374",
+          "volume": "17",
+          "author": "Slade",
+          "year": "1994",
+          "journal-title": "IEEE Trans. Comp. Pack. Manuf. Technol."
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0015",
+          "doi-asserted-by": "crossref",
+          "first-page": "467",
+          "DOI": "10.1109/6144.796552",
+          "volume": "22",
+          "author": "Wang",
+          "year": "1999",
+          "journal-title": "IEEE Trans. Comp. Pack. Manuf. Technol."
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0020",
+          "doi-asserted-by": "crossref",
+          "first-page": "415",
+          "DOI": "10.1002/zaac.19080590136",
+          "volume": "59",
+          "author": "Hindrichs",
+          "year": "1908",
+          "journal-title": "Z. Anorg. Chem."
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0025",
+          "doi-asserted-by": "crossref",
+          "first-page": "1759",
+          "DOI": "10.1016/1359-6462(96)00053-X",
+          "volume": "34",
+          "author": "Stobrawa",
+          "year": "1996",
+          "journal-title": "Scripta Mater."
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0030",
+          "doi-asserted-by": "crossref",
+          "first-page": "136",
+          "DOI": "10.1361/105497100770340183",
+          "volume": "21",
+          "author": "Li",
+          "year": "2000",
+          "journal-title": "J. Phase Equilibr."
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0035",
+          "doi-asserted-by": "crossref",
+          "first-page": "318",
+          "DOI": "10.1016/j.msea.2005.03.095",
+          "volume": "398",
+          "author": "Zhou",
+          "year": "2005",
+          "journal-title": "Mater. Sci. Eng. A"
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0040",
+          "doi-asserted-by": "crossref",
+          "first-page": "998",
+          "DOI": "10.1016/S1003-6326(06)60367-1",
+          "volume": "16",
+          "author": "Sun",
+          "year": "2006",
+          "journal-title": "Trans. Nonferr. Met. Soc. China"
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0045",
+          "first-page": "199",
+          "volume": "25",
+          "author": "Wang",
+          "year": "2007",
+          "journal-title": "Mater. Sci.-Poland"
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0050",
+          "doi-asserted-by": "crossref",
+          "first-page": "654",
+          "DOI": "10.1016/j.msea.2006.02.379",
+          "volume": "449\u2013451",
+          "author": "Gao",
+          "year": "2007",
+          "journal-title": "Mater. Sci. Eng. A"
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0055",
+          "doi-asserted-by": "crossref",
+          "first-page": "177",
+          "DOI": "10.1016/S1359-6454(96)00142-5",
+          "volume": "45",
+          "author": "Correia",
+          "year": "1997",
+          "journal-title": "Acta Mater."
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0060",
+          "doi-asserted-by": "crossref",
+          "first-page": "79",
+          "DOI": "10.1016/S1468-6996(01)00029-8",
+          "volume": "2",
+          "author": "Xie",
+          "year": "2001",
+          "journal-title": "Sci. Technol. Adv. Mater."
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0065",
+          "doi-asserted-by": "crossref",
+          "first-page": "243",
+          "DOI": "10.1016/j.jallcom.2007.01.152",
+          "volume": "455",
+          "author": "Sun",
+          "year": "2008",
+          "journal-title": "J. Alloys Compd."
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0070",
+          "first-page": "675",
+          "volume": "26",
+          "author": "Yu",
+          "year": "2008",
+          "journal-title": "Mater. Sci.-Poland"
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0075",
+          "doi-asserted-by": "crossref",
+          "first-page": "1054",
+          "DOI": "10.1007/s11661-008-9466-9",
+          "volume": "39",
+          "author": "Sun",
+          "year": "2008",
+          "journal-title": "Metall. Mater. Trans. A"
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0080",
+          "doi-asserted-by": "crossref",
+          "first-page": "980",
+          "DOI": "10.1016/j.vacuum.2008.11.009",
+          "volume": "83",
+          "author": "Yu",
+          "year": "2009",
+          "journal-title": "Vacuum"
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0085",
+          "doi-asserted-by": "crossref",
+          "first-page": "990",
+          "DOI": "10.1126/science.1073050",
+          "volume": "297",
+          "author": "Wang",
+          "year": "2002",
+          "journal-title": "Science"
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0090",
+          "doi-asserted-by": "crossref",
+          "first-page": "1243",
+          "DOI": "10.1007/s11661-004-0298-y",
+          "volume": "35",
+          "author": "Wang",
+          "year": "2004",
+          "journal-title": "Metall. Mater. Trans. A"
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0095",
+          "doi-asserted-by": "crossref",
+          "first-page": "933",
+          "DOI": "10.1557/jmr.2008.0137",
+          "volume": "23",
+          "author": "Wang",
+          "year": "2008",
+          "journal-title": "J. Mater. Res."
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0100",
+          "doi-asserted-by": "crossref",
+          "first-page": "695",
+          "DOI": "10.1007/BF02646904",
+          "volume": "5",
+          "author": "Popa",
+          "year": "1996",
+          "journal-title": "J. Mater. Eng. Perform."
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0105",
+          "first-page": "512",
+          "volume": "15",
+          "author": "Savitskii",
+          "year": "1979",
+          "journal-title": "Inorg. Mater. (Engl. Trans.)"
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0110",
+          "series-title": "Handbook of Ternary Alloy Phase Diagrams",
+          "author": "Villars",
+          "year": "1995"
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0115",
+          "first-page": "28",
+          "volume": "4",
+          "author": "Roi",
+          "year": "1987",
+          "journal-title": "Konstruktsionnye Pretsizionnye Spplavy Tsvet Met."
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0120",
+          "doi-asserted-by": "crossref",
+          "first-page": "2424",
+          "DOI": "10.1557/JMR.1992.2424",
+          "volume": "7",
+          "author": "Reid",
+          "year": "1992",
+          "journal-title": "J. Mater. Res."
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0125",
+          "doi-asserted-by": "crossref",
+          "first-page": "5915",
+          "DOI": "10.1007/BF01151505",
+          "volume": "30",
+          "author": "Xiao",
+          "year": "1995",
+          "journal-title": "J. Mater. Sci."
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0130",
+          "series-title": "Computer Calculation of Phase Diagrams",
+          "author": "Kaufman",
+          "year": "1970"
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0135",
+          "article-title": "Calculation of phase diagrams\u2014A Comprehensive Guide",
+          "author": "Saunders",
+          "year": "1998",
+          "journal-title": "Pergamon Press"
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0140",
+          "series-title": "Computational Thermodynamics\u2014The Calphad Method",
+          "author": "Lukas",
+          "year": "2007"
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0145",
+          "doi-asserted-by": "crossref",
+          "first-page": "198",
+          "DOI": "10.1016/S0921-5093(01)00928-5",
+          "volume": "313",
+          "author": "Lu",
+          "year": "2001",
+          "journal-title": "Mater. Sci. Eng. A"
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0240",
+          "doi-asserted-by": "crossref",
+          "first-page": "1706",
+          "DOI": "10.1557/JMR.2010.0223",
+          "volume": "25",
+          "author": "Yu",
+          "year": "2010",
+          "journal-title": "J. Mater. Res."
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0155",
+          "doi-asserted-by": "crossref",
+          "first-page": "543",
+          "DOI": "10.1016/j.scriptamat.2003.10.024",
+          "volume": "50",
+          "author": "Zhao",
+          "year": "2004",
+          "journal-title": "Scripta Mater."
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0160",
+          "first-page": "131905-1-2",
+          "volume": "87",
+          "author": "Zhao",
+          "year": "2005",
+          "journal-title": "Appl. Phys. Lett."
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0165",
+          "doi-asserted-by": "crossref",
+          "first-page": "1749",
+          "DOI": "10.1016/j.actamat.2005.12.023",
+          "volume": "54",
+          "author": "He",
+          "year": "2006",
+          "journal-title": "Acta Mater."
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0170",
+          "doi-asserted-by": "crossref",
+          "first-page": "247",
+          "DOI": "10.1016/j.scriptamat.2005.09.038",
+          "volume": "54",
+          "author": "Zhao",
+          "year": "2006",
+          "journal-title": "Scripta Mater."
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0175",
+          "doi-asserted-by": "crossref",
+          "first-page": "637",
+          "DOI": "10.1016/j.msea.2006.11.127",
+          "volume": "454",
+          "author": "Zhao",
+          "year": "2007",
+          "journal-title": "Mater. Sci. Eng. A"
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0180",
+          "doi-asserted-by": "crossref",
+          "first-page": "1162",
+          "DOI": "10.1007/s11661-007-9193-7",
+          "volume": "38",
+          "author": "Zhao",
+          "year": "2007",
+          "journal-title": "Metall. Mater. Trans. A"
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0185",
+          "first-page": "241902-1-3",
+          "volume": "92",
+          "author": "Li",
+          "year": "2008",
+          "journal-title": "Appl. Phys. Lett."
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0190",
+          "first-page": "141904-1-3",
+          "volume": "91",
+          "author": "Wang",
+          "year": "2007",
+          "journal-title": "Appl. Phys. Lett."
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0195",
+          "unstructured": "R.P. Shi, C.P. Wang, X.J. Liu, C. Shen, Y. Wang, Phys. Rev. Lett., under review."
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0200",
+          "doi-asserted-by": "crossref",
+          "first-page": "125",
+          "DOI": "10.1016/0364-5916(90)90014-Q",
+          "volume": "14",
+          "author": "H\u00e4m\u00e4l\u00e4inen",
+          "year": "1990",
+          "journal-title": "CALPHAD"
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0205",
+          "volume": "vol. 2 of COST 507",
+          "author": "Ansara",
+          "year": "1998"
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0210",
+          "doi-asserted-by": "crossref",
+          "first-page": "221",
+          "DOI": "10.1016/S0925-8388(00)00983-X",
+          "volume": "308",
+          "author": "Yan",
+          "year": "2000",
+          "journal-title": "J. Alloys. Compd."
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0215",
+          "doi-asserted-by": "crossref",
+          "first-page": "520",
+          "DOI": "10.1016/j.calphad.2008.05.003",
+          "volume": "32",
+          "author": "Shin",
+          "year": "2008",
+          "journal-title": "CALPHAD"
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0220",
+          "doi-asserted-by": "crossref",
+          "first-page": "125",
+          "DOI": "10.1016/0364-5916(94)90023-X",
+          "volume": "18",
+          "author": "Coughnanowr",
+          "year": "1994",
+          "journal-title": "CALPHAD"
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0225",
+          "doi-asserted-by": "crossref",
+          "first-page": "14",
+          "DOI": "10.1007/s11837-997-0024-5",
+          "volume": "49",
+          "author": "Kattner",
+          "year": "2003",
+          "journal-title": "JOM"
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0230",
+          "doi-asserted-by": "crossref",
+          "first-page": "345",
+          "DOI": "10.1021/ie50458a036",
+          "volume": "40",
+          "author": "Redlich",
+          "year": "1948",
+          "journal-title": "Ind. Eng. Chem."
+        },
+        {
+          "key": "10.1016/j.matchemphys.2010.11.033_bib0235",
+          "doi-asserted-by": "crossref",
+          "first-page": "269",
+          "DOI": "10.1361/105497101770338761",
+          "volume": "22",
+          "author": "Nishizawa",
+          "year": "2001",
+          "journal-title": "J. Phase Equilibr."
+        }
+      ],
+      "container-title": [
+        "Materials Chemistry and Physics"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0254058410009235?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0254058410009235?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            1
+          ]
+        ],
+        "date-time": "2025-10-01T16:54:11Z",
+        "timestamp": 1759337651000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0254058410009235"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2011,
+            5
+          ]
+        ]
+      },
+      "references-count": 47,
+      "journal-issue": {
+        "issue": "1-2",
+        "published-print": {
+          "date-parts": [
+            [
+              2011,
+              5
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "S0254058410009235"
+      ],
+      "URL": "https://doi.org/10.1016/j.matchemphys.2010.11.033",
+      "relation": {},
+      "ISSN": [
+        "0254-0584"
+      ],
+      "issn-type": [
+        {
+          "value": "0254-0584",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2011,
+            5
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Thermodynamics and kinetics in liquid immiscible Cu\u2013Cr\u2013Si ternary system",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Materials Chemistry and Physics",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.matchemphys.2010.11.033",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "Copyright \u00a9 2011 Elsevier B.V. All rights reserved.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ]
+    }
+  },
+  {
+    "doi": "10.3390/coatings14070909",
+    "status": 200,
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            12
+          ]
+        ],
+        "date-time": "2026-07-12T02:52:35Z",
+        "timestamp": 1783824755721,
+        "version": "3.55.0"
+      },
+      "reference-count": 33,
+      "publisher": "MDPI AG",
+      "issue": "7",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                20
+              ]
+            ],
+            "date-time": "2024-07-20T00:00:00Z",
+            "timestamp": 1721433600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "Henan key research and development project",
+          "award": [
+            "221111230600"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "221111230600"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Henan key research and development project",
+          "award": [
+            "2201017A"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2201017A"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Henan key research and development project",
+          "award": [
+            "52071133"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "52071133"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Luoyang major science and technology innovation special project",
+          "award": [
+            "221111230600"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "221111230600"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Luoyang major science and technology innovation special project",
+          "award": [
+            "2201017A"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2201017A"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Luoyang major science and technology innovation special project",
+          "award": [
+            "52071133"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "52071133"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "National Natural Science Foundation of China",
+          "award": [
+            "221111230600"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "221111230600"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "National Natural Science Foundation of China",
+          "award": [
+            "2201017A"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2201017A"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "National Natural Science Foundation of China",
+          "award": [
+            "52071133"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "52071133"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Coatings"
+      ],
+      "abstract": "<jats:p>Copper alloys used in connectors rely significantly on stress relaxation resistance as a key property. In this study, a heavily deformed Cu-Cr-Ag-Si alloy underwent aging at varying temperatures, with a subsequent analysis of its mechanical properties and microstructure, with a particular emphasis on understanding the mechanism of improving stress relaxation resistance. As the aging temperature rose, the Cr precipitated into a Cr-Si composite element precipitated phase. Both work hardening and precipitation strengthening played vital roles in enhancing the stress relaxation resistance of the Cu-Cr-Ag-Si alloy, with the latter exerting a more pronounced impact. The notable performance enhancement observed after aging at 450 \u00b0C can be attributed to the synergistic effects of work hardening and precipitation strengthening. Following aging at 450 \u00b0C, the alloy demonstrated optimal performance, boasting a tensile strength of 495.25 MPa, an electrical conductivity of 84.2% IACS, and a level of 91.12%. These exceptional properties position the alloy as a highly suitable material for connector contacts.</jats:p>",
+      "DOI": "10.3390/coatings14070909",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            23
+          ]
+        ],
+        "date-time": "2024-07-23T14:26:50Z",
+        "timestamp": 1721744810000
+      },
+      "page": "909",
+      "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "The Influence of Aging Temperatures on the Microstructure and Stress Relaxation Resistance of Cu-Cr-Ag-Si Alloy"
+      ],
+      "prefix": "10.3390",
+      "volume": "14",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1516-8343",
+          "authenticated-orcid": false,
+          "given": "Haitao",
+          "family": "Liu",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "School of Materials Science and Engineering, Henan University of Science and Technology, Luoyang 471023, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Longlong",
+          "family": "Lu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Materials, Henan Academy of Sciences, Zhengzhou 450046, China"
+            },
+            {
+              "name": "School of Chemical Engineering, Zhengzhou University, Zhengzhou 450001, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Guojie",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Materials Science and Engineering, Henan University of Science and Technology, Luoyang 471023, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2137-1404",
+          "authenticated-orcid": false,
+          "given": "Yong",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Materials Science and Engineering, Henan University of Science and Technology, Luoyang 471023, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "1968",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            20
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "ref_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "114567",
+          "DOI": "10.1016/j.microrel.2022.114567",
+          "article-title": "The Influence of the Vibration Test Mode on the Failure Rate of Electrical Connectors",
+          "volume": "135",
+          "author": "Yuan",
+          "year": "2022",
+          "journal-title": "Microelectron. Reliab."
+        },
+        {
+          "key": "ref_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "213",
+          "DOI": "10.1016/j.jmatprotec.2004.04.209",
+          "article-title": "Material Selection in the Design of Electrical Connectors",
+          "volume": "153\u2013154",
+          "author": "Buggy",
+          "year": "2004",
+          "journal-title": "J. Mater. Process. Technol."
+        },
+        {
+          "key": "ref_3",
+          "doi-asserted-by": "crossref",
+          "first-page": "899",
+          "DOI": "10.1080/02670836.2018.1471380",
+          "article-title": "Prediction of the Behaviour of Copper Alloy Components under Complex Loadings by Electro-Thermomechanical Coupled Simulations",
+          "volume": "36",
+          "author": "Weber",
+          "year": "2020",
+          "journal-title": "Mater. Sci. Technol."
+        },
+        {
+          "key": "ref_4",
+          "doi-asserted-by": "crossref",
+          "first-page": "1759",
+          "DOI": "10.1016/1359-6462(96)00053-X",
+          "article-title": "Rapidly Solidified Strips of Cu-Cr Alloys",
+          "volume": "34",
+          "author": "Stobrawa",
+          "year": "1996",
+          "journal-title": "Scr. Mater."
+        },
+        {
+          "key": "ref_5",
+          "doi-asserted-by": "crossref",
+          "first-page": "104452",
+          "DOI": "10.1016/j.mtcomm.2022.104452",
+          "article-title": "The Evolution of Microstructure and Properties of Cu-Cr Alloys Synthesized via Flake Powder Metallurgy Assisted by Mechanical Alloying and Hot Pressing",
+          "volume": "33",
+          "author": "Varol",
+          "year": "2022",
+          "journal-title": "Mater. Today Commun."
+        },
+        {
+          "key": "ref_6",
+          "doi-asserted-by": "crossref",
+          "first-page": "1451",
+          "DOI": "10.1016/j.jmrt.2021.07.020",
+          "article-title": "Zr-Containing Precipitate Evolution and Its Effect on the Mechanical Properties of Cu\u2013Cr\u2013Zr Alloys",
+          "volume": "14",
+          "author": "Du",
+          "year": "2021",
+          "journal-title": "J. Mater. Res. Technol."
+        },
+        {
+          "key": "ref_7",
+          "doi-asserted-by": "crossref",
+          "first-page": "140144",
+          "DOI": "10.1016/j.msea.2020.140144",
+          "article-title": "Effect of Mg on the Stress Relaxation Resistance of Cu\u2013Cr Alloys",
+          "volume": "799",
+          "author": "Sun",
+          "year": "2021",
+          "journal-title": "Mater. Sci. Eng. A"
+        },
+        {
+          "key": "ref_8",
+          "doi-asserted-by": "crossref",
+          "first-page": "813",
+          "DOI": "10.1007/s10853-007-2159-8",
+          "article-title": "Mechanical Properties of Cu\u2013Cr System Alloys with and without Zr and Ag",
+          "volume": "43",
+          "author": "Watanabe",
+          "year": "2008",
+          "journal-title": "J. Mater. Sci."
+        },
+        {
+          "key": "ref_9",
+          "doi-asserted-by": "crossref",
+          "first-page": "169619",
+          "DOI": "10.1016/j.jallcom.2023.169619",
+          "article-title": "Influence of Trace Silicon Addition on the Strengthening Precipitates, Mechanical Properties and Stress Relaxation Resistance of Cu-Cr Alloy",
+          "volume": "948",
+          "author": "Du",
+          "year": "2023",
+          "journal-title": "J. Alloys Compd."
+        },
+        {
+          "key": "ref_10",
+          "doi-asserted-by": "crossref",
+          "first-page": "3579",
+          "DOI": "10.1016/j.jmrt.2022.06.060",
+          "article-title": "Aging Process and Strengthening Mechanism of Cu\u2013Cr\u2013Ni Alloy with Superior Stress Relaxation Resistance",
+          "volume": "19",
+          "author": "Wang",
+          "year": "2022",
+          "journal-title": "J. Mater. Res. Technol."
+        },
+        {
+          "key": "ref_11",
+          "doi-asserted-by": "crossref",
+          "first-page": "112725",
+          "DOI": "10.1016/j.matchar.2023.112725",
+          "article-title": "A Procedure to Obtain Correlation Curve between Local Misorientation and Plastic Strain",
+          "volume": "198",
+          "author": "Kamaya",
+          "year": "2023",
+          "journal-title": "Mater. Charact."
+        },
+        {
+          "key": "ref_12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xu, G., Zhu, Y., Peng, L., Xie, H., Li, Z., Huang, S., Yang, Z., Zhang, W., and Mi, X. (2022). Effect of Sn Addition on Microstructure, Aging Properties and Softening Resistance of Cu-Cr Alloy. Materials, 15.",
+          "DOI": "10.3390/ma15238441"
+        },
+        {
+          "key": "ref_13",
+          "doi-asserted-by": "crossref",
+          "first-page": "1162",
+          "DOI": "10.1080/02670836.2020.1759275",
+          "article-title": "Recrystallization Behaviour during Annealing of Cold-Rolled Cu\u20135Fe\u20132Sn Alloy",
+          "volume": "36",
+          "author": "Zhang",
+          "year": "2020",
+          "journal-title": "Mater. Sci. Technol."
+        },
+        {
+          "key": "ref_14",
+          "doi-asserted-by": "crossref",
+          "first-page": "374",
+          "DOI": "10.1016/j.actamat.2018.02.002",
+          "article-title": "The Microstructural Origin of Work Hardening Stages",
+          "volume": "148",
+          "author": "Hughes",
+          "year": "2018",
+          "journal-title": "Acta Mater."
+        },
+        {
+          "key": "ref_15",
+          "doi-asserted-by": "crossref",
+          "first-page": "254",
+          "DOI": "10.1016/j.msea.2016.12.018",
+          "article-title": "Cyclic Deformation Mechanisms and Microcracks Behavior in High-Strength Bainitic Steel",
+          "volume": "684",
+          "author": "Marinelli",
+          "year": "2017",
+          "journal-title": "Mater. Sci. Eng. A"
+        },
+        {
+          "key": "ref_16",
+          "doi-asserted-by": "crossref",
+          "first-page": "139009",
+          "DOI": "10.1016/j.msea.2020.139009",
+          "article-title": "Effects of Mg Addition on the Microstructure and Softening Resistance of Cu\u2013Cr Alloys",
+          "volume": "776",
+          "author": "Sun",
+          "year": "2020",
+          "journal-title": "Mater. Sci. Eng. A"
+        },
+        {
+          "key": "ref_17",
+          "doi-asserted-by": "crossref",
+          "first-page": "157582",
+          "DOI": "10.1016/j.jallcom.2020.157582",
+          "article-title": "Evolution of the Microstructure and Properties of a Cu\u2013Cr-(Mg) Alloy upon Thermomechanical Treatment",
+          "volume": "857",
+          "author": "Zeng",
+          "year": "2021",
+          "journal-title": "J. Alloys Compd."
+        },
+        {
+          "key": "ref_18",
+          "doi-asserted-by": "crossref",
+          "first-page": "16607",
+          "DOI": "10.1021/acsnano.1c06367",
+          "article-title": "Understanding Grain Boundary Electrical Resistivity in Cu: The Effect of Boundary Structure",
+          "volume": "15",
+          "author": "Bishara",
+          "year": "2021",
+          "journal-title": "ACS Nano"
+        },
+        {
+          "key": "ref_19",
+          "doi-asserted-by": "crossref",
+          "first-page": "2049",
+          "DOI": "10.1021/acsaelm.0c00311",
+          "article-title": "Approaches to Measure the Resistivity of Grain Boundaries in Metals with High Sensitivity and Spatial Resolution: A Case Study Employing Cu",
+          "volume": "2",
+          "author": "Bishara",
+          "year": "2020",
+          "journal-title": "ACS Appl. Electron. Mater."
+        },
+        {
+          "key": "ref_20",
+          "doi-asserted-by": "crossref",
+          "first-page": "2429",
+          "DOI": "10.1080/14786435.2016.1204022",
+          "article-title": "Influence of Grain Boundary State on Electrical Resistivity of Ultrafine Grained Aluminium",
+          "volume": "96",
+          "author": "Orlova",
+          "year": "2016",
+          "journal-title": "Philos. Mag."
+        },
+        {
+          "key": "ref_21",
+          "doi-asserted-by": "crossref",
+          "first-page": "143281",
+          "DOI": "10.1016/j.msea.2022.143281",
+          "article-title": "Effect of Trace Alloying Elements on the Stress Relaxation Properties of High Strength Cu\u2013Ti Alloys",
+          "volume": "846",
+          "author": "Huang",
+          "year": "2022",
+          "journal-title": "Mater. Sci. Eng. A"
+        },
+        {
+          "key": "ref_22",
+          "doi-asserted-by": "crossref",
+          "first-page": "142023",
+          "DOI": "10.1016/j.msea.2021.142023",
+          "article-title": "Microstructure Evolution and Dislocation Strengthening Mechanism of Cu\u2013Ni\u2013Co\u2013Si Alloy",
+          "volume": "826",
+          "author": "Wei",
+          "year": "2021",
+          "journal-title": "Mater. Sci. Eng. A"
+        },
+        {
+          "key": "ref_23",
+          "doi-asserted-by": "crossref",
+          "first-page": "112853",
+          "DOI": "10.1016/j.matchar.2023.112853",
+          "article-title": "Critical Role of \u03ba-Carbides in the Multi-Stage Work Hardening Process of a Lightweight Austenitic Steel",
+          "volume": "200",
+          "author": "Chen",
+          "year": "2023",
+          "journal-title": "Mater. Charact."
+        },
+        {
+          "key": "ref_24",
+          "doi-asserted-by": "crossref",
+          "first-page": "8314",
+          "DOI": "10.1007/s11665-022-07729-w",
+          "article-title": "Effect of Aging Treatment on the Microstructure and Properties of a Novel Medium-Heavy NiWCoTa Alloy Subjected to Pre-Deformation",
+          "volume": "32",
+          "author": "Li",
+          "year": "2023",
+          "journal-title": "J. Mater. Eng. Perform."
+        },
+        {
+          "key": "ref_25",
+          "doi-asserted-by": "crossref",
+          "first-page": "1117",
+          "DOI": "10.1080/02670836.2021.1987682",
+          "article-title": "Effect of Aging-Treatment on Dynamic Compression Behaviour and Microstructure of ZK60 Alloy",
+          "volume": "37",
+          "author": "Wang",
+          "year": "2021",
+          "journal-title": "Mater. Sci. Technol."
+        },
+        {
+          "key": "ref_26",
+          "doi-asserted-by": "crossref",
+          "first-page": "142862",
+          "DOI": "10.1016/j.msea.2022.142862",
+          "article-title": "The Tensile Properties and Microstructure Evolution of Cold-Rolled Fe\u2013Mn\u2013C TWIP Steels with Different Carbon Contents",
+          "volume": "839",
+          "author": "Li",
+          "year": "2022",
+          "journal-title": "Mater. Sci. Eng. A"
+        },
+        {
+          "key": "ref_27",
+          "doi-asserted-by": "crossref",
+          "first-page": "613",
+          "DOI": "10.1016/j.jallcom.2016.11.014",
+          "article-title": "Mechanical Properties Optimization of a Cu\u2013Be\u2013Co\u2013Ni Alloy by Precipitation Design",
+          "volume": "695",
+          "author": "Tang",
+          "year": "2017",
+          "journal-title": "J. Alloys Compd."
+        },
+        {
+          "key": "ref_28",
+          "doi-asserted-by": "crossref",
+          "first-page": "187",
+          "DOI": "10.1016/j.actamat.2015.08.076",
+          "article-title": "A Precipitation-Hardened High-Entropy Alloy with Outstanding Tensile Properties",
+          "volume": "102",
+          "author": "He",
+          "year": "2016",
+          "journal-title": "Acta Mater."
+        },
+        {
+          "key": "ref_29",
+          "doi-asserted-by": "crossref",
+          "first-page": "1096",
+          "DOI": "10.1016/j.jallcom.2017.03.069",
+          "article-title": "The Phase Transformation and Strengthening of a Cu-0.71 Wt% Cr Alloy",
+          "volume": "708",
+          "author": "Peng",
+          "year": "2017",
+          "journal-title": "J. Alloys Compd."
+        },
+        {
+          "key": "ref_30",
+          "doi-asserted-by": "crossref",
+          "first-page": "548",
+          "DOI": "10.1080/09603409.2019.1662981",
+          "article-title": "Creep Rupture Behaviour of Modified 9Cr-1Mo Heat-Resistant Steel Strengthened with Different Mechanisms",
+          "volume": "36",
+          "author": "Zhu",
+          "year": "2019",
+          "journal-title": "Mater. High Temp."
+        },
+        {
+          "key": "ref_31",
+          "doi-asserted-by": "crossref",
+          "first-page": "5125",
+          "DOI": "10.1016/j.actamat.2011.04.044",
+          "article-title": "Modeling the Creep Threshold Stress Due to Climb of a Dislocation in the Stress Field of a Misfitting Precipitate",
+          "volume": "59",
+          "author": "Krug",
+          "year": "2011",
+          "journal-title": "Acta Mater."
+        },
+        {
+          "key": "ref_32",
+          "doi-asserted-by": "crossref",
+          "first-page": "334",
+          "DOI": "10.1016/j.actamat.2018.10.059",
+          "article-title": "Strengthening Mechanisms in Al\u2013Ni\u2013Sc Alloys Containing Al3Ni Microfibers and Al3Sc Nanoprecipitates",
+          "volume": "164",
+          "author": "Suwanpreecha",
+          "year": "2019",
+          "journal-title": "Acta Mater."
+        },
+        {
+          "key": "ref_33",
+          "doi-asserted-by": "crossref",
+          "first-page": "102646",
+          "DOI": "10.1016/j.ijplas.2019.102646",
+          "article-title": "Stress-Relaxation Ageing Behavior and Microstructural Evolution under Varying Initial Stresses in an Al\u2013Cu Alloy: Experiments and Modeling",
+          "volume": "127",
+          "author": "Yang",
+          "year": "2020",
+          "journal-title": "Int. J. Plast."
+        }
+      ],
+      "container-title": [
+        "Coatings"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.mdpi.com/2079-6412/14/7/909/pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            10
+          ]
+        ],
+        "date-time": "2025-10-10T15:20:21Z",
+        "timestamp": 1760109621000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.mdpi.com/2079-6412/14/7/909"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            20
+          ]
+        ]
+      },
+      "references-count": 33,
+      "journal-issue": {
+        "issue": "7",
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              7
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "coatings14070909"
+      ],
+      "URL": "https://doi.org/10.3390/coatings14070909",
+      "relation": {},
+      "ISSN": [
+        "2079-6412"
+      ],
+      "issn-type": [
+        {
+          "value": "2079-6412",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            20
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "doi": "10.1016/j.matdes.2022.110455",
+    "status": 200,
+    "metadata": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            16
+          ]
+        ],
+        "date-time": "2026-06-16T11:06:16Z",
+        "timestamp": 1781607976853,
+        "version": "3.54.5"
+      },
+      "reference-count": 52,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2022-03-01T00:00:00Z",
+            "timestamp": 1646092800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2022-03-01T00:00:00Z",
+            "timestamp": 1646092800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                2,
+                7
+              ]
+            ],
+            "date-time": "2022-02-07T00:00:00Z",
+            "timestamp": 1644192000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100012166",
+          "name": "National Basic Research Program of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "2020YFB0704500"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2020YFB0704500"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100012166",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Materials &amp; Design"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            3
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.matdes.2022.110455",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            2,
+            7
+          ]
+        ],
+        "date-time": "2022-02-07T12:12:47Z",
+        "timestamp": 1644235967000
+      },
+      "page": "110455",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 14,
+      "special_numbering": "C",
+      "title": [
+        "High-throughput investigation of structural evolution upon solid-state in Cu\u2013Cr\u2013Co combinatorial multilayer thin-film"
+      ],
+      "prefix": "10.1016",
+      "volume": "215",
+      "author": [
+        {
+          "given": "Jian",
+          "family": "Hui",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Qingyun",
+          "family": "Hu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hengrui",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jie",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yuxi",
+          "family": "Luo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yang",
+          "family": "Ren",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhan",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hong",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "issue": "21",
+          "key": "10.1016/j.matdes.2022.110455_b0005",
+          "doi-asserted-by": "crossref",
+          "first-page": "2472",
+          "DOI": "10.1103/PhysRevLett.61.2472",
+          "article-title": "Giant magnetoresistance of (001) Fe/(001) Cr magnetic superlattices",
+          "volume": "61",
+          "author": "Baibich",
+          "year": "1988",
+          "journal-title": "Phys. Rev. Lett."
+        },
+        {
+          "issue": "1-3",
+          "key": "10.1016/j.matdes.2022.110455_b0010",
+          "doi-asserted-by": "crossref",
+          "first-page": "571",
+          "DOI": "10.1016/S0304-8853(99)00336-4",
+          "article-title": "Magnetic superlattices and multilayers",
+          "volume": "200",
+          "author": "Schuller",
+          "year": "1999",
+          "journal-title": "J. Magnetism Magnetic Mater."
+        },
+        {
+          "key": "10.1016/j.matdes.2022.110455_b0015",
+          "doi-asserted-by": "crossref",
+          "first-page": "33",
+          "DOI": "10.1016/j.ijplas.2013.04.002",
+          "article-title": "Multiscale modeling and simulation of deformation in nanoscale metallic multilayer systems",
+          "volume": "52",
+          "author": "Abdolrahim",
+          "year": "2014",
+          "journal-title": "Int. J. Plast."
+        },
+        {
+          "issue": "1-2",
+          "key": "10.1016/j.matdes.2022.110455_b0020",
+          "doi-asserted-by": "crossref",
+          "first-page": "199",
+          "DOI": "10.1016/S0040-6090(03)01089-7",
+          "article-title": "Fretting wear of metallic multilayer films",
+          "volume": "444",
+          "author": "Haseeb",
+          "year": "2003",
+          "journal-title": "Thin Solid Films"
+        },
+        {
+          "issue": "23",
+          "key": "10.1016/j.matdes.2022.110455_b0025",
+          "doi-asserted-by": "crossref",
+          "first-page": "231901",
+          "DOI": "10.1063/1.2938921",
+          "article-title": "Deformability of ultrahigh strength 5 nm Cu\u2215 Nb nanolayered composites",
+          "volume": "92",
+          "author": "Mara",
+          "year": "2008",
+          "journal-title": "Appl. Phys. Lett."
+        },
+        {
+          "key": "10.1016/j.matdes.2022.110455_b0030",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.msea.2020.140111",
+          "article-title": "Thickness effect of graphene film on optimizing the interface and mechanical properties of Cu/Ni multilayer composites",
+          "volume": "798",
+          "author": "Zhang",
+          "year": "2020",
+          "journal-title": "Mater. Sci. Eng., A"
+        },
+        {
+          "key": "10.1016/j.matdes.2022.110455_b0035",
+          "doi-asserted-by": "crossref",
+          "first-page": "180",
+          "DOI": "10.1016/0169-4332(91)90260-Q",
+          "article-title": "Cobalt lattice diffusion in bulk cobalt disilicide",
+          "volume": "53",
+          "author": "Barge",
+          "year": "1991",
+          "journal-title": "Appl. Surf. Sci."
+        },
+        {
+          "issue": "47",
+          "key": "10.1016/j.matdes.2022.110455_b0040",
+          "doi-asserted-by": "crossref",
+          "first-page": "eabc8641",
+          "DOI": "10.1126/sciadv.abc8641",
+          "article-title": "Printable, high-performance solid-state electrolyte films",
+          "volume": "6",
+          "author": "Ping",
+          "year": "2020",
+          "journal-title": "Sci. Adv."
+        },
+        {
+          "key": "10.1016/j.matdes.2022.110455_b0045",
+          "doi-asserted-by": "crossref",
+          "first-page": "344",
+          "DOI": "10.1016/j.matlet.2019.07.102",
+          "article-title": "Atomic-scale characterization of diffusion kinetics in Ru/Al multilayer thin films",
+          "volume": "254",
+          "author": "Aboulfadl",
+          "year": "2019",
+          "journal-title": "Mater. Lett."
+        },
+        {
+          "key": "10.1016/j.matdes.2022.110455_b0050",
+          "doi-asserted-by": "crossref",
+          "first-page": "425",
+          "DOI": "10.1016/j.matdes.2017.01.085",
+          "article-title": "Grain boundary driven Plateau-Rayleigh instability in multilayer nanocrystalline thin film: A phase-field study",
+          "volume": "119",
+          "author": "Chakrabarti",
+          "year": "2017",
+          "journal-title": "Mater. Des."
+        },
+        {
+          "issue": "5\u20138",
+          "key": "10.1016/j.matdes.2022.110455_b0055",
+          "doi-asserted-by": "crossref",
+          "first-page": "1470",
+          "DOI": "10.1016/j.msec.2006.06.002",
+          "article-title": "Atomic mechanisms of interdiffusion in metallic multilayers",
+          "volume": "27",
+          "author": "Zotov",
+          "year": "2007",
+          "journal-title": "Mater. Sci. Eng., C"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.matdes.2022.110455_b0060",
+          "doi-asserted-by": "crossref",
+          "first-page": "427",
+          "DOI": "10.1002/pssa.2210600212",
+          "article-title": "Influence of the grain-boundary structure on the rate of mixing in thin polycrystalline films",
+          "volume": "60",
+          "author": "Ehrmann-Falkenau",
+          "year": "1980",
+          "journal-title": "Phys. Status Solidi (a)"
+        },
+        {
+          "key": "10.1016/j.matdes.2022.110455_b0065",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.15407/ufm.05.04.433",
+          "article-title": "Nucleation and Growth in Nanosystems: Some New Concepts",
+          "volume": "5",
+          "author": "Gusak",
+          "year": "2004",
+          "journal-title": "Usp. Fiz. Met."
+        },
+        {
+          "key": "10.1016/j.matdes.2022.110455_b0070",
+          "doi-asserted-by": "crossref",
+          "first-page": "146",
+          "DOI": "10.1016/j.msea.2015.10.105",
+          "article-title": "Strain gradients in Cu\u2013Fe thin films and multilayers during micropillar compression",
+          "volume": "651",
+          "author": "Wang",
+          "year": "2016",
+          "journal-title": "Mater. Sci. Eng., A"
+        },
+        {
+          "key": "10.1016/j.matdes.2022.110455_b0075",
+          "doi-asserted-by": "crossref",
+          "first-page": "699",
+          "DOI": "10.1016/j.msea.2006.02.083",
+          "article-title": "Alloying process of sputter-deposited Ti/Ni multilayer thin films",
+          "volume": "438",
+          "author": "Cho",
+          "year": "2006",
+          "journal-title": "Mater. Sci. Eng., A"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.matdes.2022.110455_b0080",
+          "doi-asserted-by": "crossref",
+          "first-page": "2040",
+          "DOI": "10.1021/acs.nanolett.6b00024",
+          "article-title": "High-throughput fabrication of resonant metamaterials with ultrasmall coaxial apertures via atomic layer lithography",
+          "volume": "16",
+          "author": "Yoo",
+          "year": "2016",
+          "journal-title": "Nano Lett."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.matdes.2022.110455_b0085",
+          "doi-asserted-by": "crossref",
+          "first-page": "2198",
+          "DOI": "10.1021/acs.nanolett.5b04364",
+          "article-title": "High-throughput mechanobiology screening platform using micro-and nanotopography",
+          "volume": "16",
+          "author": "Hu",
+          "year": "2016",
+          "journal-title": "Nano Lett."
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.matdes.2022.110455_b0090",
+          "doi-asserted-by": "crossref",
+          "first-page": "1120",
+          "DOI": "10.1038/nmat4717",
+          "article-title": "Design of efficient molecular organic light-emitting diodes by a high-throughput virtual screening and experimental approach",
+          "volume": "15",
+          "author": "G\u00f3mez-Bombarelli",
+          "year": "2016",
+          "journal-title": "Nat. Mater."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.matdes.2022.110455_b0095",
+          "doi-asserted-by": "crossref",
+          "first-page": "1874",
+          "DOI": "10.1021/nl100669s",
+          "article-title": "Reproducible, high-throughput synthesis of colloidal nanocrystals for optimization in multidimensional parameter space",
+          "volume": "10",
+          "author": "Chan",
+          "year": "2010",
+          "journal-title": "Nano Lett."
+        },
+        {
+          "issue": "1-3",
+          "key": "10.1016/j.matdes.2022.110455_b0100",
+          "doi-asserted-by": "crossref",
+          "first-page": "54",
+          "DOI": "10.1016/S0169-4332(03)00931-0",
+          "article-title": "High throughput synthesis and screening for functional materials",
+          "volume": "223",
+          "author": "Xiang",
+          "year": "2004",
+          "journal-title": "Appl. Surf. Sci."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.matdes.2022.110455_b0105",
+          "doi-asserted-by": "crossref",
+          "first-page": "149",
+          "DOI": "10.1146/annurev.matsci.29.1.149",
+          "article-title": "Combinatorial materials synthesis and screening: an integrated materials chip approach to discovery and optimization of functional materials",
+          "volume": "29",
+          "author": "Xiang",
+          "year": "1999",
+          "journal-title": "Annu. Rev. Mater. Sci."
+        },
+        {
+          "issue": "6829",
+          "key": "10.1016/j.matdes.2022.110455_b0110",
+          "doi-asserted-by": "crossref",
+          "first-page": "643",
+          "DOI": "10.1038/35070692",
+          "article-title": "Rapid alloy assessment",
+          "volume": "410",
+          "author": "Cahn",
+          "year": "2001",
+          "journal-title": "Nature"
+        },
+        {
+          "issue": "21",
+          "key": "10.1016/j.matdes.2022.110455_b0115",
+          "doi-asserted-by": "crossref",
+          "first-page": "6552",
+          "DOI": "10.1016/j.msea.2011.05.006",
+          "article-title": "High-throughput characterization of mechanical properties of Ti\u2013Ni\u2013Cu shape memory thin films at elevated temperature",
+          "volume": "528",
+          "author": "Zarnetta",
+          "year": "2011",
+          "journal-title": "Mater. Sci. Eng., A"
+        },
+        {
+          "key": "10.1016/j.matdes.2022.110455_b0120",
+          "doi-asserted-by": "crossref",
+          "first-page": "151",
+          "DOI": "10.1016/j.msea.2007.02.168",
+          "article-title": "Combinatorial fabrication and high-throughput characterization of a Ti\u2013Ni\u2013Cu shape memory thin film composition spread",
+          "volume": "481\u2013482",
+          "author": "L\u00f6bel",
+          "year": "2008",
+          "journal-title": "Mater. Sci. Eng., A"
+        },
+        {
+          "key": "10.1016/j.matdes.2022.110455_b0125",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.matdes.2019.108358",
+          "article-title": "High-throughput synthesis of Mo-Nb-Ta-W high-entropy alloys via additive manufacturing",
+          "volume": "187",
+          "author": "Moorehead",
+          "year": "2020",
+          "journal-title": "Mater. Des."
+        },
+        {
+          "key": "10.1016/j.matdes.2022.110455_b0130",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.matdes.2021.109710",
+          "article-title": "Ultrastrong nanocrystalline binary alloys discovered via high-throughput screening of the CoCr system",
+          "volume": "205",
+          "author": "Wieczerzak",
+          "year": "2021",
+          "journal-title": "Mater. Des."
+        },
+        {
+          "key": "10.1016/j.matdes.2022.110455_b0135",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.matdes.2020.109018",
+          "article-title": "High-throughput synthesis and corrosion behavior of sputter-deposited nanocrystalline Alx (CoCrFeNi) 100\u2013x combinatorial high-entropy alloys",
+          "volume": "195",
+          "author": "Shi",
+          "year": "2020",
+          "journal-title": "Mater. Des."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.matdes.2022.110455_b0140",
+          "doi-asserted-by": "crossref",
+          "first-page": "1162",
+          "DOI": "10.1107/S0021889813017214",
+          "article-title": "xrayutilities: a versatile tool for reciprocal space conversion of scattering data recorded with linear and area detectors",
+          "volume": "46",
+          "author": "Kriegner",
+          "year": "2013",
+          "journal-title": "J. Appl. Crystallogr."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.matdes.2022.110455_b0145",
+          "doi-asserted-by": "crossref",
+          "first-page": "22",
+          "DOI": "10.1109/MC.1983.1654163",
+          "article-title": "Biomedical Image Processing",
+          "volume": "16",
+          "author": "Sternberg",
+          "year": "1983",
+          "journal-title": "Computer"
+        },
+        {
+          "key": "10.1016/j.matdes.2022.110455_b0150",
+          "unstructured": "E. Jones, T. Oliphant, P. Peterson, SciPy: Open source scientific tools for Python, (2001)."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.matdes.2022.110455_b0155",
+          "doi-asserted-by": "crossref",
+          "first-page": "261",
+          "DOI": "10.1038/s41592-019-0686-2",
+          "article-title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+          "volume": "17",
+          "author": "Virtanen",
+          "year": "2020",
+          "journal-title": "Nat. Methods"
+        },
+        {
+          "issue": "301",
+          "key": "10.1016/j.matdes.2022.110455_b0160",
+          "doi-asserted-by": "crossref",
+          "first-page": "236",
+          "DOI": "10.1080/01621459.1963.10500845",
+          "article-title": "Hierarchical Grouping to Optimize an Objective Function",
+          "volume": "58",
+          "author": "Ward",
+          "year": "1963",
+          "journal-title": "J. Am. Stat. Assoc."
+        },
+        {
+          "key": "10.1016/j.matdes.2022.110455_b0165",
+          "series-title": "Auto-sklearn: efficient and robust automated machine learning",
+          "first-page": "113",
+          "author": "Feurer",
+          "year": "2019"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.matdes.2022.110455_b0170",
+          "doi-asserted-by": "crossref",
+          "first-page": "678",
+          "DOI": "10.1016/j.stam.2005.05.006",
+          "article-title": "Fabrication and characterization of Ti\u2013Ni shape memory thin film using Ti/Ni multilayer technique",
+          "volume": "6",
+          "author": "Cho",
+          "year": "2005",
+          "journal-title": "Sci. Technol. Adv. Mater."
+        },
+        {
+          "issue": "10\u201311",
+          "key": "10.1016/j.matdes.2022.110455_b0175",
+          "doi-asserted-by": "crossref",
+          "first-page": "1157",
+          "DOI": "10.1016/j.intermet.2005.12.012",
+          "article-title": "Nanometric multilayers: A new approach for joining TiAl",
+          "volume": "14",
+          "author": "Ramos",
+          "year": "2006",
+          "journal-title": "Intermetallics"
+        },
+        {
+          "key": "10.1016/j.matdes.2022.110455_b0180",
+          "series-title": "Ultrathin Magnetic Structures I: An Introduction to the Electronic",
+          "author": "Bland",
+          "year": "2006"
+        },
+        {
+          "issue": "1-2",
+          "key": "10.1016/j.matdes.2022.110455_b0185",
+          "doi-asserted-by": "crossref",
+          "first-page": "287",
+          "DOI": "10.1016/j.jallcom.2008.11.162",
+          "article-title": "Experimental determination and thermodynamic calculation of the phase equilibria in the Cu\u2013Cr\u2013Nb and Cu\u2013Cr\u2013Co systems",
+          "volume": "478",
+          "author": "Liu",
+          "year": "2009",
+          "journal-title": "J. Alloy. Compd."
+        },
+        {
+          "issue": "13",
+          "key": "10.1016/j.matdes.2022.110455_b0190",
+          "doi-asserted-by": "crossref",
+          "first-page": "3871",
+          "DOI": "10.1016/S1359-6454(03)00211-8",
+          "article-title": "Al/Ni formation reactions: characterization of the metastable Al9Ni2 phase and analysis of its formation",
+          "volume": "51",
+          "author": "Blobaum",
+          "year": "2003",
+          "journal-title": "Acta Mater."
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.matdes.2022.110455_b0195",
+          "doi-asserted-by": "crossref",
+          "first-page": "852",
+          "DOI": "10.1063/1.102447",
+          "article-title": "Experimental evidence for nucleation during thin-film reactions",
+          "volume": "55",
+          "author": "Coffey",
+          "year": "1989",
+          "journal-title": "Appl. Phys. Lett."
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.matdes.2022.110455_b0200",
+          "doi-asserted-by": "crossref",
+          "first-page": "7850",
+          "DOI": "10.1063/1.357893",
+          "article-title": "Intermetallic phase formation during annealing of Al/Ni multilayers",
+          "volume": "76",
+          "author": "Edelstein",
+          "year": "1994",
+          "journal-title": "J. Appl. Phys."
+        },
+        {
+          "key": "10.1016/j.matdes.2022.110455_b0205",
+          "doi-asserted-by": "crossref",
+          "first-page": "210",
+          "DOI": "10.1016/j.surfcoat.2014.02.022",
+          "article-title": "Production of single-phase intermetallic films from Ru-Al multilayers",
+          "volume": "244",
+          "author": "Guitar",
+          "year": "2014",
+          "journal-title": "Surf. Coat. Technol."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.matdes.2022.110455_b0210",
+          "doi-asserted-by": "crossref",
+          "first-page": "350",
+          "DOI": "10.1016/j.intermet.2010.10.021",
+          "article-title": "Anisothermal solid-state reactions of Ni/Al nanometric multilayers",
+          "volume": "19",
+          "author": "Sim\u00f5es",
+          "year": "2011",
+          "journal-title": "Intermetallics"
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.matdes.2022.110455_b0215",
+          "doi-asserted-by": "crossref",
+          "first-page": "1061",
+          "DOI": "10.1016/j.intermet.2008.06.002",
+          "article-title": "Intermetallic phase formation in nanometric Ni/Al multilayer thin films",
+          "volume": "16",
+          "author": "Noro",
+          "year": "2008",
+          "journal-title": "Intermetallics"
+        },
+        {
+          "issue": "18",
+          "key": "10.1016/j.matdes.2022.110455_b0220",
+          "doi-asserted-by": "crossref",
+          "first-page": "13244",
+          "DOI": "10.1103/PhysRevB.48.13244",
+          "article-title": "Formation of thermodynamically unstable solid solutions in the Cu\u2013Co system by mechanical alloying",
+          "volume": "48",
+          "author": "Gente",
+          "year": "1993",
+          "journal-title": "Phys. Rev. B Condens Matter"
+        },
+        {
+          "key": "10.1016/j.matdes.2022.110455_b0225",
+          "series-title": "Diffusion in solids: fundamentals, methods, materials, diffusion-controlled processes",
+          "author": "Mehrer",
+          "year": "2007"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.matdes.2022.110455_b0230",
+          "doi-asserted-by": "crossref",
+          "first-page": "1374",
+          "DOI": "10.1063/1.349565",
+          "article-title": "Interdiffusion, hardness and resistivity of Cr/Cu/Co/Au thin films",
+          "volume": "70",
+          "author": "Madakson",
+          "year": "1991",
+          "journal-title": "J. Appl. Phys."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.matdes.2022.110455_b0235",
+          "doi-asserted-by": "crossref",
+          "first-page": "63",
+          "DOI": "10.2320/matertrans.MD201111",
+          "article-title": "Accelerated diffusion and phase transformations in Co\u2013Cu alloys driven by the severe plastic deformation",
+          "volume": "53",
+          "author": "Straumal",
+          "year": "2012",
+          "journal-title": "Mater. Trans."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.matdes.2022.110455_b0240",
+          "doi-asserted-by": "crossref",
+          "first-page": "607",
+          "DOI": "10.1147/rd.425.0607",
+          "article-title": "Electrolessly deposited diffusion barriers for microelectronics",
+          "volume": "42",
+          "author": "O'Sullivan",
+          "year": "1998",
+          "journal-title": "IBM J. Res. Dev."
+        },
+        {
+          "key": "10.1016/j.matdes.2022.110455_b0245",
+          "doi-asserted-by": "crossref",
+          "first-page": "241",
+          "DOI": "10.1016/j.matlet.2014.07.140",
+          "article-title": "Bulk and grain boundary diffusion of Co in Cu",
+          "volume": "135",
+          "author": "Itckovich",
+          "year": "2014",
+          "journal-title": "Mater. Lett."
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.matdes.2022.110455_b0250",
+          "doi-asserted-by": "crossref",
+          "first-page": "3880",
+          "DOI": "10.1021/acsaelm.0c00717",
+          "article-title": "Phase Evolution and Amorphous Stability upon Solid-State Reaction in Superlattice-Like Ge\u2013Sb\u2013Te Combinatorial Thin Films",
+          "volume": "2",
+          "author": "Hui",
+          "year": "2020",
+          "journal-title": "ACS Appl. Electron. Mater."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.matdes.2022.110455_b0255",
+          "doi-asserted-by": "crossref",
+          "first-page": "47",
+          "DOI": "10.1080/108939597200421",
+          "article-title": "Influence of interface thermal conductance on the apparent thermal conductivity of thin films",
+          "volume": "1",
+          "author": "Lee",
+          "year": "1997",
+          "journal-title": "Microscale Thermophys. Eng."
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.matdes.2022.110455_b0260",
+          "doi-asserted-by": "crossref",
+          "first-page": "6077",
+          "DOI": "10.1103/PhysRevB.50.6077",
+          "article-title": "Thermal conductivity of a-Si: H thin films",
+          "volume": "50",
+          "author": "Cahill",
+          "year": "1994",
+          "journal-title": "Phys. Rev. B"
+        }
+      ],
+      "container-title": [
+        "Materials &amp; Design"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0264127522000764?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0264127522000764?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            18
+          ]
+        ],
+        "date-time": "2025-07-18T18:37:15Z",
+        "timestamp": 1752863835000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0264127522000764"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            3
+          ]
+        ]
+      },
+      "references-count": 52,
+      "alternative-id": [
+        "S0264127522000764"
+      ],
+      "URL": "https://doi.org/10.1016/j.matdes.2022.110455",
+      "relation": {},
+      "ISSN": [
+        "0264-1275"
+      ],
+      "issn-type": [
+        {
+          "value": "0264-1275",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            3
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "High-throughput investigation of structural evolution upon solid-state in Cu\u2013Cr\u2013Co combinatorial multilayer thin-film",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Materials & Design",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.matdes.2022.110455",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "\u00a9 2022 Published by Elsevier Ltd.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "110455"
+    }
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "generated_utc": "2026-09-04T15:48:18+00:00",
+  "selection": {
+    "presence": {
+      "metric": "macro_f1",
+      "ranking": [
+        "XGBoost",
+        "RandomForest",
+        "CatBoost",
+        "MLP"
+      ],
+      "top2": [
+        "XGBoost",
+        "RandomForest"
+      ]
+    },
+    "fraction": {
+      "metric": "mean_tvd",
+      "ranking": [
+        "CatBoost",
+        "RandomForest",
+        "XGBoost",
+        "MLP"
+      ],
+      "top2": [
+        "CatBoost",
+        "RandomForest"
+      ]
+    },
+    "cr_partition": {
+      "metric": "mean_tvd",
+      "ranking": [
+        "CatBoost",
+        "XGBoost",
+        "RandomForest",
+        "MLP"
+      ],
+      "top2": [
+        "CatBoost",
+        "XGBoost"
+      ]
+    },
+    "nb_partition": {
+      "metric": "mean_tvd",
+      "ranking": [
+        "XGBoost",
+        "RandomForest",
+        "CatBoost",
+        "MLP"
+      ],
+      "top2": [
+        "XGBoost",
+        "RandomForest"
+      ]
+    },
+    "x_partition": {
+      "metric": "mean_tvd",
+      "ranking": [
+        "RandomForest",
+        "XGBoost",
+        "CatBoost",
+        "MLP"
+      ],
+      "top2": [
+        "RandomForest",
+        "XGBoost"
+      ]
+    }
+  },
+  "screen_train_rows": 53743,
+  "screen_train_compositions": 4900,
+  "val_rows": 57577,
+  "features_n": 43,
+  "seed": 20260904
+}

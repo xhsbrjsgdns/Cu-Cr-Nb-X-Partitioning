@@ -1,0 +1,7 @@
+{
+  "preregistration_sha256": "817333decbfd3f51551814e1e50db4545514e4f805dbd29bdc5011bea996aa77",
+  "frozen_recovery_splits_sha256": "2fcb76db78e2900ba6b886cfac95f2a46fe6bc8f5a8d2b6a587fa313eb389d5c",
+  "frozen_few_shot_sequences_sha256": "eb0a6c4b41adcc1a18be7f6d40a202e482e9eac277421a8a63447c7b69331fa1",
+  "generated_utc": "2026-09-05T16:45:07+00:00",
+  "note": "splits and sequences frozen before ANY model of this stage is fit"
+}

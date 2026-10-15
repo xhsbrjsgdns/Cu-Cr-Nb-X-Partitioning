@@ -1,0 +1,42 @@
+[
+  {
+    "source_id": "S1_AG",
+    "phase": "fcc(Cu)",
+    "structure": "fcc",
+    "page": 3,
+    "evidence": "Table 2 explicit phase name; experimental XRD/SEM identification",
+    "prototype": null
+  },
+  {
+    "source_id": "S1_AG",
+    "phase": "fcc(Ag)",
+    "structure": "fcc",
+    "page": 3,
+    "evidence": "Table 2 explicit phase name; experimental XRD/SEM identification",
+    "prototype": null
+  },
+  {
+    "source_id": "S1_AG",
+    "phase": "bcc(Cr)",
+    "structure": "bcc",
+    "page": 3,
+    "evidence": "Table 2 explicit phase name; experimental XRD/SEM identification",
+    "prototype": null
+  },
+  {
+    "source_id": "S2_MO",
+    "phase": "(Cr, Mo)",
+    "structure": "BCC",
+    "page": "PDF 4–5 / printed 317–318",
+    "evidence": "Section 2.2 identifies Liquid + BCC (Cr, Mo) for Cu47Cr47Mo6 at 1300 C; XRD FCC(Cu) + BCC(Cr,Mo) after cooling.",
+    "prototype": null
+  },
+  {
+    "source_id": "S2_MO",
+    "phase": "Liquid",
+    "structure": null,
+    "page": "PDF 3–5 / printed 316–318",
+    "evidence": "Table 2 equilibrium Liquid/(Cr, Mo). Quenched FCC(Cu) is not an equilibrium FCC claim at annealing temperature.",
+    "prototype": null
+  }
+]

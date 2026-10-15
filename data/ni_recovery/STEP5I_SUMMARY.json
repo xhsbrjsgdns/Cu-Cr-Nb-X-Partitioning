@@ -1,0 +1,138 @@
+{
+  "generated_utc": "2026-09-07T06:01:22+00:00",
+  "stage": "STEP5I POST-BLIND Ni FEW-SHOT RECOVERY",
+  "stage_type": "POST-BLIND RETROSPECTIVE RECOVERY",
+  "is_not": [
+    "zero-shot",
+    "blind",
+    "prospective zero-shot"
+  ],
+  "frozen_zero_shot_unchanged": {
+    "PRIMARY_mean_tvd_22000": 0.8643856186628641,
+    "SECONDARY_mean_tvd_22000": 0.7234409099,
+    "artifacts_modified": 0
+  },
+  "recovery_subset": {
+    "n_compositions": 1400,
+    "n_states": 15400,
+    "M_ZERO_mean_tvd": 0.8632602865207863,
+    "M_TRIVIAL_mean_tvd": 0.5960189306749455,
+    "M_ZERO_topology_accuracy": 0.07967532467532468
+  },
+  "protocol": {
+    "learning_rate": 0.0003,
+    "batch": 1024,
+    "max_epochs": 200,
+    "patience": 15,
+    "seed": 2266358626,
+    "retuning": false,
+    "scaler": "frozen PRIMARY, never refit (spec 15)",
+    "validation": "frozen original-six DEV_VALIDATION only (spec 14)",
+    "weighting": "natural; no Ni oversampling (spec 18)",
+    "warm_start": false,
+    "architecture_search": false,
+    "feature_selection": false
+  },
+  "anchor_fraction_range": [
+    4.549985729590212e-05,
+    0.0014539446509706732
+  ],
+  "random_learning_curve": {
+    "1": 0.2481623700601974,
+    "2": 0.1656707300894517,
+    "4": 0.1235011338779779,
+    "8": 0.0507380675070274,
+    "16": 0.0358137551897369,
+    "32": 0.0271879847928119
+  },
+  "random_learning_curve_std": {
+    "1": 0.0256179969334684,
+    "2": 0.0168951842980632,
+    "4": 0.0249048646212206,
+    "8": 0.0039868777515685,
+    "16": 0.0033087205066398,
+    "32": 0.005792486545222
+  },
+  "maximin_learning_curve": {
+    "1": 0.5712928684118109,
+    "2": 0.4527395636283647,
+    "4": 0.2891188042635012,
+    "8": 0.1415873860054949,
+    "16": 0.0336419705758001,
+    "32": 0.0234572169422126
+  },
+  "controls": {
+    "R0": {
+      "1": 0.1367162844676768,
+      "2": 0.1117968871794828,
+      "4": 0.0975040313600958,
+      "8": 0.0908066971237927,
+      "16": 0.0764951206640487,
+      "32": 0.0795312509726499
+    },
+    "R1": {
+      "1": 0.3288552201264634,
+      "2": 0.3311766342266494,
+      "4": 0.3439468479002712,
+      "8": 0.3526249283343081,
+      "16": 0.369336747969317,
+      "32": 0.3637845077456716
+    },
+    "R2": {
+      "1": 0.1913154848041996,
+      "2": 0.1522359217468841,
+      "4": 0.1443401403958257,
+      "8": 0.1394180741553712,
+      "16": 0.1306829569888241,
+      "32": 0.1309852109226985
+    }
+  },
+  "thresholds": {
+    "B_skill": 1,
+    "B_recovery25": 1,
+    "recovery25_target_tvd": 0.6474452148905898
+  },
+  "model_vs_control": {
+    "M_REFIT_beats_R0_cells": 9,
+    "M_REFIT_beats_R2_cells": 12,
+    "M_REFIT_beats_M_ZERO_cells": 18,
+    "M_REFIT_beats_M_TRIVIAL_cells": 18,
+    "n_random_cells": 18
+  },
+  "integrity": {
+    "pass": 32,
+    "total": 32
+  },
+  "files_hashed": 127,
+  "next_stage_recommendation": {
+    "category": "A_DIRECT_FEW_SHOT_SUFFICIENT",
+    "triggered": {
+      "A_DIRECT_FEW_SHOT_SUFFICIENT": true,
+      "B_ANCHOR_CORRECTION_DOMINATES": true,
+      "C_TOPOLOGY_TARGETED_REMEDY_JUSTIFIED": true,
+      "D_LOW_ORDER_NI_ANCHOR_STUDY_JUSTIFIED": false
+    },
+    "evidence": {
+      "B_skill": 1,
+      "B_recovery25": 1,
+      "beats_R0_cells": 9,
+      "beats_R2_cells": 12,
+      "n_random_cells": 18,
+      "budgets_R0_matches_or_beats": 3,
+      "budgets_R2_matches_or_beats": 2,
+      "budget32_other_solid_tvd": 0.031113063341008468,
+      "budget32_fcc_tvd": 0.02562991660278033,
+      "budget32_nbni3_present_tvd": 0.0369337630778066
+    },
+    "executed": false
+  },
+  "not_executed": [
+    "Shargh-style targeted augmentation",
+    "NBNI3-targeted anchor selection",
+    "Cu-Ni / Cr-Ni / Nb-Ni binary CALPHAD",
+    "new descriptors",
+    "new model family",
+    "DFT",
+    "meta-learning"
+  ]
+}

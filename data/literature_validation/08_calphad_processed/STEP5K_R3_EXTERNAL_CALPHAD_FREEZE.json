@@ -1,0 +1,69 @@
+{
+  "generated_utc": "2026-09-12T02:37:48+00:00",
+  "stage": "STEP5K-R3 stage 20 - canonical external CALPHAD tables",
+  "engine": "Thermo-Calc 2025b / TC-Python 2025.2.30 / TCCU6 Cu-Alloys v6.2",
+  "conditions": {
+    "pressure_Pa": 100000.0,
+    "system_size_mol": 1.0,
+    "basis": "wt.%, Cu balance",
+    "equilibrium_only": true
+  },
+  "n_requests": 120,
+  "n_converged": 120,
+  "n_failed": 0,
+  "n_pending": 0,
+  "n_converged_needing_solver_escalation": 0,
+  "escalated_state_ids": [],
+  "per_system": {
+    "CONVERGED": {
+      "Cu-Cr-Ag": 14,
+      "Cu-Cr-Co": 16,
+      "Cu-Cr-Mo": 16,
+      "Cu-Cr-Nb": 29,
+      "Cu-Cr-Si": 17,
+      "Cu-Cr-Ti": 28
+    }
+  },
+  "elements_used": [
+    "AG",
+    "CO",
+    "CR",
+    "CU",
+    "MO",
+    "NB",
+    "SI",
+    "TI"
+  ],
+  "ni_states": 0,
+  "pending_is_not_failure": "a PENDING row means no calculation has been submitted; it is never read as phase absence and never scored as CALPHAD_FAILED",
+  "raw_instances_preserved_before_aggregation": true,
+  "presence_threshold_mole_fraction": 0.0001,
+  "frozen_family_map": {
+    "FCC_L12": "FCC",
+    "BCC_B2": "BCC",
+    "C15_LAVES": "C15",
+    "LIQUID": "LIQUID"
+  },
+  "request_sha256": "bcfb08280ed128fe920ca6d99954841c253a8d2a0cc59d6691aadd09015cbe64",
+  "engine_provenance": {
+    "generated_utc": "2026-09-12T02:37:09Z",
+    "engine": "Thermo-Calc 2025b",
+    "tc_python_version": "2025.2.30",
+    "tc_python_path": "C:\\Program Files\\Thermo-Calc\\2025b\\python\\lib\\site-packages\\tc_python",
+    "database": "TCCU6",
+    "python_interpreter": "C:\\Program Files\\Thermo-Calc\\2025b\\python\\python.exe",
+    "python_version": "3.9.20",
+    "host": "DESKTOP-7CKJSQ5",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "produced_by": "code_snapshot/run_r3.py",
+    "real_engine": true,
+    "synthetic": false,
+    "smoke_test_utc": "2026-09-12T02:36:48Z",
+    "smoke_test_condition": "R3_NB_001",
+    "smoke_test_status": "PASS",
+    "n_requests_in_batch": 120,
+    "note": "written by the runner on the live engine; downstream stages refuse to build scientific tables from a checkpoint without it"
+  },
+  "results_are_from_a_live_thermo_calc_engine": true,
+  "used_for_training_or_tuning": false
+}

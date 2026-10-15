@@ -1,0 +1,241 @@
+{
+  "freeze_id": "DEVELOPMENT_FREEZE_V1",
+  "generated_utc": "2026-09-04T18:00:30+00:00",
+  "master_seed": 20260904,
+  "feature_set": "PRIMARY_FEATURE_LIST.txt",
+  "n_features": 43,
+  "features": [
+    "Temperature_C",
+    "Cr_wt_pct",
+    "Nb_wt_pct",
+    "X_wt_pct",
+    "R_CrNb_atomic_actual",
+    "has_X",
+    "delta_r",
+    "delta_chi",
+    "r_bar",
+    "Zbar",
+    "density_bar",
+    "AtomicVol_bar",
+    "X_AtomicNumber",
+    "X_VEC",
+    "X_MeltingT",
+    "Delta_AtomicNumber_X_Cu",
+    "Delta_Electronegativity_X_Cu",
+    "Delta_VEC_X_Cu",
+    "Delta_VEC_X_Cr",
+    "Delta_MeltingT_X_Cu",
+    "Delta_MeltingT_X_Cr",
+    "Delta_Density_X_Cu",
+    "Delta_FirstIonizationEnergy_X_Cu",
+    "Delta_FirstIonizationEnergy_X_Cr",
+    "magpie_mean_GSbandgap",
+    "magpie_mean_GSmagmom",
+    "magpie_mean_NsUnfilled",
+    "magpie_mean_Row",
+    "magpie_mean_SpaceGroupNumber",
+    "magpie_minimum_AtomicWeight",
+    "magpie_minimum_Electronegativity",
+    "magpie_minimum_GSvolume_pa",
+    "magpie_minimum_MeltingT",
+    "magpie_minimum_NValence",
+    "magpie_minimum_NsUnfilled",
+    "magpie_minimum_SpaceGroupNumber",
+    "magpie_maximum_Electronegativity",
+    "magpie_maximum_GSvolume_pa",
+    "magpie_range_AtomicWeight",
+    "magpie_range_CovalentRadius",
+    "magpie_range_Electronegativity",
+    "magpie_range_MeltingT",
+    "magpie_avg_dev_SpaceGroupNumber"
+  ],
+  "feature_list_sha256": "f4ddf4a2587e33a7d441656110c589208d9d860095198dd4b276df64f8a2fb0c",
+  "pcc_removal_sha256": "9443f02b8b01d96e696eaceace5f1d247fe8e2302a3e0013033fdbe7e338b951",
+  "nzv_removal_sha256": "5fb85a180eb978036a8cd96701188aacc15bffafd89c80a3b53829163c74f15c",
+  "exact_redundancy_sha256": "2074f2312015aeb936df3a3bfe5143617c300dfe3f3033b4811f797212ce6ae2",
+  "library_versions": {
+    "python": "3.14.5",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "pyarrow": "25.0.1",
+    "scikit-learn": "1.8.0",
+    "xgboost": "3.2.0",
+    "catboost": "1.2.10",
+    "torch": "2.12.0+cu132",
+    "optuna": "4.9.0",
+    "matminer": "0.10.1",
+    "pymatgen": "2026.5.4",
+    "mendeleev": "1.2.0",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.9",
+    "shap": "0.52.0"
+  },
+  "metric_definitions": {
+    "presence": [
+      "exact_match",
+      "hamming_loss",
+      "micro_f1",
+      "macro_f1",
+      "per-label precision/recall/F1/ROC-AUC/PR-AUC at frozen thresholds"
+    ],
+    "regression": [
+      "per-family MAE/RMSE/R2 (raw+projected)",
+      "macro MAE/RMSE",
+      "TVD=0.5*sum|f_pred-f_true| (mean/median/p95)",
+      "raw/projected sum violation"
+    ],
+    "threshold_rule": "per-label F1-maximizing on DEV_VALIDATION, tie -> closest to 0.5, frozen here",
+    "projection_rule": "clip at 0 then renormalize to sum 1; sum==0 -> DEV_TRAIN mean simplex (counted)",
+    "bootstrap": "composition-level cluster bootstrap, 1000 replicates, seed 20260904"
+  },
+  "tasks": {
+    "presence": {
+      "model_family": "XGBoost",
+      "hyperparameters": {
+        "n_estimators": 300,
+        "max_depth": 10,
+        "learning_rate": 0.10166082378696865,
+        "subsample": 0.6591307598635731,
+        "colsample_bytree": 0.7891971881086737,
+        "min_child_weight": 2,
+        "reg_lambda": 0.2478860589846176
+      },
+      "train_rows": 268698,
+      "train_compositions": 24500,
+      "val_rows": 57577,
+      "n_features": 43,
+      "fit_seconds": 6.1,
+      "val_predict_seconds": 0.2,
+      "seed": 20260904,
+      "thresholds": {
+        "FCC": 0.5,
+        "BCC": 0.37,
+        "C15": 0.5,
+        "OTHER_SOLID": 0.32,
+        "LIQUID": 0.42
+      },
+      "class_weights_train_only": [
+        1.0,
+        0.5448119806810302,
+        0.5013808134110569,
+        2.78512790745885,
+        144.46129032258065
+      ],
+      "artifact_sha256": "5fd19bfabffa2118a6cfefadf2282693ae73b4834a103f26409460d6738b750e"
+    },
+    "fraction": {
+      "model_family": "CatBoost",
+      "hyperparameters": {
+        "iterations": 800,
+        "depth": 9,
+        "learning_rate": 0.09530381657481919,
+        "l2_leaf_reg": 0.93663009866977,
+        "random_strength": 0.5112597801502385
+      },
+      "train_rows": 268698,
+      "train_compositions": 24500,
+      "val_rows": 57577,
+      "n_features": 43,
+      "fit_seconds": 119.9,
+      "val_predict_seconds": 0.3,
+      "seed": 20260904,
+      "simplex_fallback_row": [
+        0.9852722893433209,
+        0.004787072236317012,
+        0.009241239446712528,
+        0.0006854294474662205,
+        1.3969526183382228e-05
+      ],
+      "val_simplex_fallbacks": 0,
+      "artifact_sha256": "cc9cbb09d4ee838dc6eb82f15c86953fc5570eb4987aabe6b6ca065a573ec373"
+    },
+    "cr_partition": {
+      "model_family": "CatBoost",
+      "hyperparameters": {
+        "iterations": 800,
+        "depth": 10,
+        "learning_rate": 0.10773808488269368,
+        "l2_leaf_reg": 0.821464568303897,
+        "random_strength": 0.18037117601347105
+      },
+      "train_rows": 268698,
+      "train_compositions": 24500,
+      "val_rows": 57577,
+      "n_features": 43,
+      "fit_seconds": 248.8,
+      "val_predict_seconds": 0.3,
+      "seed": 20260904,
+      "simplex_fallback_row": [
+        0.09940845477470955,
+        0.3901964800586509,
+        0.4687576556474249,
+        0.041623702058374935,
+        1.3707460839813316e-05
+      ],
+      "val_simplex_fallbacks": 0,
+      "artifact_sha256": "50f2782e48e0c6f1e1e7cbf489ddc864ad151f41d9d03cf6e1ddb1b1db40206f"
+    },
+    "nb_partition": {
+      "model_family": "XGBoost",
+      "hyperparameters": {
+        "n_estimators": 900,
+        "max_depth": 10,
+        "learning_rate": 0.055887815979868444,
+        "subsample": 0.7136358572399193,
+        "colsample_bytree": 0.99283010286948,
+        "min_child_weight": 4,
+        "reg_lambda": 0.13086078059398523
+      },
+      "train_rows": 268698,
+      "train_compositions": 24500,
+      "val_rows": 57577,
+      "n_features": 43,
+      "fit_seconds": 26.5,
+      "val_predict_seconds": 0.4,
+      "seed": 20260904,
+      "simplex_fallback_row": [
+        0.09538850892142897,
+        0.013356221682894501,
+        0.8912455407853325,
+        8.879815228494739e-06,
+        8.487951156855916e-07
+      ],
+      "val_simplex_fallbacks": 0,
+      "artifact_sha256": "4dfbb6dd816090fa39e50ad5b8d3ca57cce196d22e96d84607f81afe1c051b9a"
+    },
+    "x_partition": {
+      "model_family": "XGBoost",
+      "hyperparameters": {
+        "n_estimators": 700,
+        "max_depth": 11,
+        "learning_rate": 0.021009005980018196,
+        "subsample": 0.720468251086434,
+        "colsample_bytree": 0.9231681084702589,
+        "min_child_weight": 5,
+        "reg_lambda": 2.3072228470000042
+      },
+      "train_rows": 241748,
+      "train_compositions": 22050,
+      "val_rows": 51802,
+      "n_features": 43,
+      "fit_seconds": 32.7,
+      "val_predict_seconds": 0.4,
+      "seed": 20260904,
+      "simplex_fallback_row": [
+        0.3924063060849874,
+        0.17997911835521582,
+        0.2687588732102482,
+        0.1582142342482923,
+        0.0006414681012562028
+      ],
+      "val_simplex_fallbacks": 0,
+      "artifact_sha256": "013058267e3badfb6db657ba9638173c1c0f4ace37ad210a4750fbc6addbe63a"
+    }
+  },
+  "sealed_sets_status": {
+    "IID_TEST": "SEALED - no test metric computed by this script",
+    "SEALED_DOMAIN_B": "UNOPENED - never loaded for training/validation/scaler/PCC/tuning",
+    "SEALED_ANCHOR": "UNOPENED - composition count/family count/ID integrity only",
+    "NI": "SEALED - zero descriptor rows, zero compositions, zero calculations"
+  }
+}

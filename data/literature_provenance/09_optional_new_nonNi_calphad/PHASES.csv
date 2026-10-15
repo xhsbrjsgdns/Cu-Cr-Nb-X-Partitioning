@@ -1,0 +1,1 @@
+state_id,case_id,Temperature_C,Temperature_K,phase_index,raw_phase_name,phase_model_base_name,phase_moles,phase_mole_fraction,phase_volume_fraction,phase_mass_fraction,is_stable_numeric,is_present_1e4,note,family_5

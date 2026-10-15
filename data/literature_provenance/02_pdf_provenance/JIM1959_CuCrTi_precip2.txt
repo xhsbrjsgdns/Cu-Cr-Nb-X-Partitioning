@@ -1,0 +1,300 @@
+
+--- PDF PAGE 1 ---
+  482                     論         文             第23巻
+
+
+       Extraction　ReplicaによるCu－Cr－Ti合金の
+      　　　　　　　　　析出物に関する研究＊
+
+
+                               土  井  俊    雄＊＊
+
+
+     　Toshio　Doi：Studies　on　the　Precipitates　of　a　Cu－Cr－Ti　alloy　by　means　of　Ex－
+     traction－Replica　Technique（Studies　on　the　Precipitation　of　a　Cu－Cr－Ti　Alloy　2　nd
+      Report）．　　　　Identification　of　the　precipitates　was　made　by　means　of　extraction－replica
+
+      technique　and　extra－high　voltage（300　kV）electronmicroscopy　for　Cu－0．54％Cr－3．06％Ti　alloy，
+      which　was　solution－treated　and　aged　at　various　temperatures　from　5500C　to　7000C．　The　results
+
+      obtained　by　micro　diffraction　method　were　as　follows；The　particles　of　insoluble　plase，　the
+      precipitates　of　pearlite　type　and　of　Widmanstatten　type　wereβLCu3Ti　and　the　precipitates
+      of　box　type　wereγ一TiCr2．　On　the　basis　of　the　results　on　the　identlfication　of　the　precipitates，
+
+      the　author　discussed　the　precipitation　process　of　this　alloy．
+
+     　　　　　　　　　　　　　　　　　｛Received　Apri1　13，　1959）
+
+　　　　　　　　　1．緒　　　　言         　2．実験装置
+　前報（1）においてCu。Cr－Ti　3元合金は焼入後550～700。  　電顕は日立製作所由で本体，ベルト起電機，平滑コンデ
+
+で時効するとβLCu3Ti，γ一TiCr2の2種の析出物を析出   ンサおよび分割抵抗から成っておる．この電顕は制限視野
+することが明らかとなったが，どの形態のものがどちらの  回折を行うために，とくに3段レンズ系を採用している・
+組成であるかはわからなかった．1953年にアメリカの  放射富山は2段加速電極を採用し，第1段の加速電極は通
+Fisher（2）は，従来のレプリカ膜に試料の組織を写しとる   常の3電極系であり使用状態におけるクロスオー・バーの径
+
+と同時に，析出物や非金属介在物を膜内に取出し，それを  は商用電顕と大差ない．レンズ系は対物レンズ，中間レン
+
+電子回折して構造解析するいわゆるExtraction　Replica  ズ，投射レンズから成り，対物レンズの後焦点面に作られ
+
+法を考えた．爾来ドイツ，イギリス，日本などでもこの方  た制限視野回折像は中間レンズによって投射レンズの物面
+
+法により鉄鋼中の析出物，非金属介在物の研究が行われ多  に写像され，投射レンズはその物面に写像された回折像を
+
+大の成果を収めている（3）．そこで著者は，この3元銅合金   さらに拡大して螢光膜上に投影する．したがって，3段レ
+
+の析出物をExtraction　Replica法で抽出し，300　kVの   ンズを用いた電子回折のカメラ長は，対物レンズの焦点距
+
+超高圧電子顕微鏡（4）（電顕と略す）を用いて解析すること  離，中間，投射レンズの倍率の積である．制限視野絞りは
+
+を試みた・                        中間レンズの中心から88mmのところに置かれ，絞りの
+　　　　II．試料および実験方法       大きさおよび所望視野の選択は真空外から自由に操作でき
+　1．試　料                        る．加速電圧の測定は放射管部電圧分割用の高抵抗（7500
+　550。，6000および700。の各一定温度で10，∞Ominまで  Mρ）と直列の電流計によって測走され，較正はカメラ長
+時効したCu－0．54％Cr－3．06％Ti合金の1mmφの試  既知の場所においたAu箔の回折環によってなされる．た
+料を合成樹脂に埋め込み，試料の表面を研磨した後，5％  だし，電子回折の常数λL（λは波長，Lはカメラ長）を
+HNO3水溶液で深めの腐蝕を行った・その腐蝕面をエチ  きめるには次に述べる方法によっている．
+ルセルローズ膜で覆い，それを機械的に剥離して析出物を  　3．えしの決定
+附着させ，次にカーボンを裏側から蒸着して，カーボン膜  　電子回折によって結晶の面間隔を決定するには，波長λ
+とエチルセルローズ膜の間に析出物をはさみ，しかる後エ   とカメラ長しの積を精密に測定することが必要である．
+チルセルローズ膜を溶解し去ってカーボン膜を検鏡試料と   一般にあまり精密を要しないときには（精度0．1％以下）
+した．                          得られた回折環の半径γ，面間隔4とするとγ4＝2しと
+
+                            して4を算出する．したがって未知の物質の回折像を撮 ＊＊日立製作所中央研究所
+ ＊1958年4月本会東京大会にて一・部発表；Cu℃r－Ti   影したのと同一条件でAuの薄膜のような標準試料の回折
+ 　合金の析出に関する研究（第2報）；（ジェフリース賞                               像を撮りλ，Lを決定する．
+ 　金応募論文）
+ 　（1）土井：本誌，23（1959），477．             　制限視野回折の場合には一般の電子回折に比べてカメラ
+ 　（2）R．M．Fisher：S遡ρ03∫π甥。ηTθo伽毎吻3／oγ  長は試料交換ごとに少し変り一定でない．すなわち試料交
+ 　　EZθ‘彦γoηM6’α〃08γαρ妙，　ASTM，　Special　Te－
+ 　　chnical　Publication，　No．155（1953），49．       換の際に対物レンズの焦点距離に比べて，試料位置の再現
+ 　（3）解説したものに内山，深見：金属物理，5（1959），35  性が悪い．超高圧電顕ではさらに電圧の正確な再現性が望
+ 　　がある．
+                             めないので，被検物質と標準試料の同時撮影が好ましい． 　（4）B．Tadano，　S．Katagiri，　K．Ichige，　Y．Sakaki，
+ 　　S．Maruse：J．of　Electronmicroscopy，7（1959），7・   著者はExtraction　Replica膜にAuを薄く蒸着して同時
+
+--- PDF PAGE 2 ---
+ 第　8　号        Extraction　ReplicaによるCu－Cr－Ti合金の析出物に関する研究                    483
+
+
+撮影を行い，以上の欠点を補った．                のようになり，β’一Cu3Tiと　γ一TiCr2の2種の析出物が
+
+                                あることがわかる．
+ 　　　　　　III．全視野回折
+                              　同じ試料の溶解残渣のX線回折の結果でも同様に，β’一
+  600つで1・500min時効した試料のExtraction　Repllca
+                                   Cu3Tiとγ一TiCr2が存在することが証明されている（1）の
+                 の電顕写真はPhoto．1で
+                                  で，析出物は間違いなくβ’一Cu3Tiとγ一TiCr2の2種で
+               ある．非常に大きなWid－
+                                      ある．
+                   manstatten状の析出物と
+              小さな箱状の析出物が見ら  　　　　　IV．制限視野回折
+              れる．この全視野回折（加   光顕並びに電顕写真を観察すると時効した試料には，次
+
+                                 の4種の析出物があることが明らかである．
+              　　　　　　　　　　　黍     愚総ざ臓      （A）塊状の不溶相
+            　　　　　　　　　　襲掴■
+                                （B）α相相互間の結晶粒界またはα相と不溶相と
+　　　　　　　　×1500×1／2   Photo．2　Electron　diffraction  　　の境界から発達しているパーライト状の析出物
+Photo．1　Electrorlmicros－  　　　　　patterns・          （C）・7トリックスのWidmanstatten回天出物
+ copic　stnlcture　of　extrac－  　a．　aged　for　1，500　nユinutes   （D）マトリックスの小さな箱状析出物
+ tion　replica　of　samples  　　　at　6000
+ aged　　for　　1，500　minutes 　b．Au                  そこで上記4種のExtraction　Replicaの電顕写
+ at　600。                            真と電子回折像をとった．                  速電圧185kV）豫はPho一
+to．2a・標準試料Auの回折像は2bである．上記の豫を      Table　2  Electron　diffraction　analysis　of　sample
+解析するとTable　1のようになる．すなわち，析出物は                aged　for　10，000　minutes　at　6000．
+β’一Cu3Tiとγ一TiCr2の2種類である・　　　　　　　　　No．  4（　A）   箆TiCr21塵  二焔・3Til襯
+
+　Table　l　Electron　diffraction　analysis　of　sample
+                                                 1　2．447      2．44       220　　　　　　agedg　for　1，500　rninutes　at　600。．
+                                                2　2．285                           2．264     020
+                                                3　2．107      2．08       311        2．173      002
+No．  4（A）    β’一Cu3Ti   肋z   γ一TiCr2圃       4　2．037                           2．008      021
+                                                5　1．718      1．73       400
+   1    2．075                          2．03     311         6　1．589      1．59       331        1．569      022
+   2    1．564     1．569       022                       7　1．448
+   3    1．429                           1．411    422         8　1．416      1．411      422
+   4    1．344                          1．330    511，333     9　1．374
+   5    1．297     1．292       200                       10　1．333      1．330      511，333
+   6    1．240     1．249       131                       11　1．229      1．223      440        1．220     023
+                                              l            12　』1．182                           1．122      220  7    1．214     1．217       113
+   8    1．196                                            13　：1．058      1．057      533
+   9    1．096     1．096       041       1．094  1620         14　　0．9722     0．9708     711，551    0．977      114
+       1．056 10                                        1．057 艦731     16　　0．918315　　0．9290     0．9255     642 11    0．903                                      0．902
+ 12    0．836                             i              17　　　0．9058　、   0．9021　　　　553，731
+ 1β    0．801                         0．8003　1555，751     18　0．8028     0．8003　　　　555，751
+ 14    0．774                          0．7746   840         19　　0．7784    0．7746　　　　840
+ 15    0．742
+ 16    0．712                            　P：hoto．5は不溶相の一例で，6000で3，000　min時
+
+                                    効した試料のExtraction　Replica写真である・△の部
+　6000で10，000min時効したときのExtraction　Re－  分の電子回折像はPhoto・6である・　これを解析すると
+Plicaの電顕写真はPhoto・3である・非常に大きな板状   Table　3のようにβしCu3Tiのデータとほぼ一致する．
+
+               の析出物と多数の小さな   　　　　　　　　　　　　　　　　なお（110）面と（111）
+              箱状の析出物が見られ           纏面のなす角は計算に
+              る・この全視野回折像                　　　よると27。であるが，
+                 　（加速電圧170kV）は                                               　　潟実測値は：Fig．1のよ
+                     Photo．4a，　Auの回折
+     　　　　　・漏欝襲戴1鎌懲a屡　9
+       b曜醗●
+Photo．3　　　　　×1500×1／2   Photo．4　Electron　diffraction　Photo．5　　　　×6，500×1／2
+ Electronmicroscopic　stru－ 　　　　patterns．　　　　　Electronmicroscopic　からα相内部へ向
+ cture　of　extraction　repllca  a・aged　fo「10・000　minutes．　structure　of　lnsoluble　って発達しているパ
+ of　samples　aged　for　IO，000 　　at　600。　　　　　　　　　　　　　　　　　phase．
+ nlinutes　at　600。．     bAu　　　　　　　　、　　　　　　　　　　　一ライト状析出物の
+像はPhoto．4　bである．上記の像を解析すると　　　　　　　Table　2　一例で，6000で3，000　min時効した試料の　Extrac一
+
+--- PDF PAGE 3 ---
+  484                      論                     第23巻
+
+
+tion　Replica写真である．△の部分の電子回折像はPho一　で，やはり60り。で10，000min時効した試料のExtrac－
+
+to．8である．この回折豫を解析するとTable4のように　　tion　Replica写真である・△の部分の電子回折像はPho一
+
+  Table　3　E1セctron　diffra－                                 to．14で，この回折豫を解
+  　ction．analysis　of　inso－                               析するとTaMe　7のよう
+  　1uble　phase．
+
+No． 4（A）1βLCu3Ti　l脚
+
+   1   2．25    2．245     110
+  2   1．99    1．994     111
+              1．132                      040
+  3   1．13              1．122                        220
+  4   1．09    1．086    221，004Photo．6　Electron　dif－
+   5   1．00            　　　　fraction　pattern　of　str－
+  6      0．784          　　　　ucture　in　closed　line                                        　　　　　　　×4950×1／2    Photo．10　Eelectron　di－      0．704  7                            Photo．6（210　kV）．
+                                                    Pgoto．9　Electronmicro－   　　　ffraction　Pattern
+                                                         scopic　structure　of　Wid－   　　　of　structure　　in
+             〃。
+                                                  manstatten　type　prec卜  　　　closed　　line　　on
+                                                                 Pltate・                  　　　Photo。10（92　kV）．
+
+
+
+
+
+　Fig．1　Explanation　of
+　　　　Photo．7．        Photo．7　　　　　×4200　x　1／2     Photo・11　　　　×12，600　　　Photo．12　Electron　diff＿
+                         Electronmicroscopic　stru－    Electronmicroscopic　　　　raction　pattern　of　str－
+β’一C113Tiのデータとよく                           cture　of　Pearlite　type　pre馴    structure　of　Box　type　　　ucture　i：n　closed　line
+                                                    （Plate　type）precipitate．　　on　Photo．12（97kV）．
+一致する．なお，α相相互間   cipitate．
+
+の結晶粒界から発達したパ                              　Table　5　Electron　diffraction　analysis　of　Wi－
+                                                 　　　　　　dmanstatten　type　precipitate（containeーライト状析出物も上記の
+                                              　　　　　　Box　type　precipitate）
+データと一致した．Pho－
+to・9　はマトリヅクスに現                           No．  4（A）    γ一TiCr2   襯｛βLCu3Ti｝襯
+われたWidmanstatten状                                                1    4．09       4．00      111
+                                                                        2    2．46       2．44      220析出物の一例で，600。で
+                                                                          3    2．24                           2．245    110                         Photo．8　Electron　diffr－
+10，000min時効した試料                                       4    2．15                            2．173    002
+                            action　pattern　of　struc－        5    2．07       2．08      311
+のExtraction　Replica写    ture　in　closed　line　on       6    1．99       1．99      222        1．994    111
+                        Rhoto．8（96　kV）                  7    1．67真である．△の部分の電子
+                                                                     8    1．33       1．330     511，333
+　Table　4　　　　Electron　diffra－　　　回折像は　Plloto．10        9    1．28                            1．292    200
+                                                                   1．23                                                              10                                                                              1．223     440    ction　analysis　of　Pear－              　　　である．この回折像を                                                                    1．09                                                                    11                                                                                                   1．086   22LOO4    1ite　type　precipitate・
+                 　　　　　　　　　Table　5解析すると
+     P4（むA）                                              Table　6　Electron　dlffra－   にγ一TiCr2のデータとN・・     β℃u3Til脚   のようにγ一TiCr2と
+                                                 　　　　ction　analysis　of   ほぼ一致する．それ故，
+                             1
+   1   2．239    2．245                        110    βLCu3Tiが存在す     　　　　Box　type　（P正ate
+   2   1．986    1．994    111    ることがわかる．これ     　　　　type）precipitate。   先のTable　5で解析
+   3   1．559    1．563    112                                  した2種の析出物のう
+   4   1．356                 はWidmanstatten状    No． 4（A）レーTiCr21襯
+   5   1．293    1．292    200                                ち，大きな板状の析出                 析出物の他に小さな箱
+   6   1．246    1．249    131                                                1  4．2引
+   7   1．236    1．220    023   状の析出物が回折され        2  1・劃              物はβ’一Cu3Tiである
+   8   1．119    1．119  　132                  たためと考えられる．         3           2．14       220   ことが珂らかである．
+   9   1．080    1．086    221，004                                  4   lillli
+ 10   0．999              　Photo．11　は小さ         5            2．08       311   　以．上の制限視野回折
+  11      0．841    0．839                                                                           6  ｛二劉   1．59                                                                                      331                          151   な箱状の析出物のう 12　10．826                                              の結果によって，塊状               0．831    204                                                                          1．223                                                                     7                                                                                      440
+ 　1           ち平板状に見える       8   ｝：l15｝           の不溶相，パーライト
+                                                                           1．057                                                                        9                                                                                        533ものの一例で，6000で10，000min時効した試料のEx－                                                                           1・0491                                                                             1．045                                                              10                                                                                         622  状の析出物およびWi－
+traction　Replica写真である．△の部分の電子回折像は                          dmanstatten状の析
+Photo・12である．この回折像を解析するとTable　6の  出物はいずれもβ’。Cu3Tiで，小さな箱状の析出物はγ一
+
+ ようにγ一TiCr2のデータとほぼ一致する．またPhoto．13   TiCr2であることが明らかとなった．
+
+は小さな箱状の析出物のうちの六角状に見えるものの一例   なお本実験では最大210kVの加速電圧まで使用したが・
+
+--- PDF PAGE 4 ---
+ 第8号        Extraction　ReplicaによるCu－Cr－Ti合金の析出物に関する研究                     485
+
+肉厚の析出物の電子回折を行う上で非常に有効であった・    Replicaの電顕写真でも認めにくいものであったが，　Ex－
+　　　　V．西出過程に関する考察        traction　Replicaの電顕写真で初めて明らかとなったも
+　Cu－0．5％Cr合金の析出物はCr（5），Cu－3％Ti合金  ので，その形状は平板または六角に見えるが，いずれも箱
+   翼矯欝繋霧  状のものと考えられる・このγ一TiCr2はダイヤモンド型に属し，2個の面心立方格子を組合せたものである・光顕
+                                      組織，Filmy並びにExtraction　Replicaの電顕組織お
+    属                 よび電子回折の結果によれば550。および6000で時効し
+             1もs                               たときに，α相即の粒界およびα相と不溶相（βLCu3Ti）
+     感                 との境界から発達しているパーライト状の析出物はCu－Ti
+      熱                  2元合金の場合と同様に，β’一Cu3Tiであり，また600Q
+                                  で1，500min以上並びに700。で10min以上時効したと
+Photo．13　　　　　×8850×1！2   Photo．14　Electron　dif－   きにマトリックスの（111）面に板状に現われるWidman－
+Electronmicroscopic　stru－   fraction　　pattern　　of   statten状の析出物もβLCu3Tiであることが明らかとな
+cture　of　Box　type　（Hex－   structure　in　closed　line
+                                   った．Cu－3％Ti　2元合金の場合には，550～600。で時効
+agon　type）precipitate・     on　Photo．14（97kV）．
+                             したときにパーライト状析出物のみが現われてマトリック
+　Table　7　Electron　diffra－ 　　ではCu－O．54％Cr－
+                                ス全面を覆い，620～6800で時効したときにはパーライト
+　　　ction　analysis　of　Box 　　3．06％Ti　3元合金の
+　　　type（Hexagon　type）                 状析出物とWidmanstatten状析出物とが共存して現わ
+                  　　析出物はβ’一Cu3Tiと
+　　　precipitate．                        れ，700。で時効したときにはWidmanstatten状析出物
+              　　　　　γ一TiCr2であることが
+No．  4（A）  γ一TiCr2  　励z                 のみが現われたのであるが，この3元合金ではβ’一Cu3Ti
+            　　　　　さらに究明された．X  の析出のみに着目するとパーライト状析出物が全面を覆
+   1   3．205           　　　　　線並びに電子回折の結                               うことはなく，また6000でパーライト状析出物とwid－      2．442   2．44                       220   2
+  3   1．951      　　　　　果によれば．この3元   manstatten状析出物が共存して現われた点が違う．すな
+  4   1．591   1．59   ll｝，333合金におし・てCr単体
+   5   1．337   1．330                   わち，3元合金ではパーライト状析出物が全面を覆うこと
+   6   1．234   1．223  440　　　は析出しないのである   なく，またCu－Tiの場合よりも低温でパー・ライト状析出
+  7   1．151   1．167   ll｝，551から，固溶体として溶
+  8   0．976   0．9708                     物とWidmanstatten平町出物とが共存しているわけで
+           　　　　　け込むより以上の過剰   ある．これは両合金ともTiの含有量はほぼ同じであるが，
+CrはTiと結び付き，γ一TiCr2　　　　として析出するわけであ   3元合金ではCrが入っているので，固溶限以上のCrが
+                                T1と結びつき，結局β，一Cu3Tiとして析出するTiの量る．それ故Cu†TiCr2という凝2元系が考えられる．で
+                              が減少したからであろう・
+あるからこのCrとTiの重量比104．02：47・90よりも
+                                           　βLCu3Tiの析出は低温ではdiscontinuous　prec1Plta－
+Tiの量が相対的に多い場合には（本実験試料はこれに相
+                                          tion，高温ではcontinuous　precipitationであることは
+当する）γ一TiCr2とβ’一Cu3Tiが，またCrの多い場合
+                                 Cu－Ti　2元合金の場合と全く同様である・
+にはγ一TiCr2とCrが析出するわけである．1mmφの
+                                        　本実験によって，低温ではdiscontinuous　precipita－
+Cu。0．54％Cr－3．06％Ti合金線を9300から焼入れた場
+                                         tionを，高温ではcontinuous　precipitatlonを起す合
+合には円内（1）Photo．1のように2相が存在する．1相は
+                                        金に，両温度域にまたがってcontinuous　precipitation
+α固溶体，他の相は電子回折の結果によればβ’一Cu3Tiで
+                            をするような第三元素を添加しても，析出の過程を本質的
+ある．すなわち，930Qではα＋β’一Cu3Ti相であること
+                             に変えないという新知見が得られた，
+が推察される．温度降下によってα固溶体中のCrとTi
+                           　　　　　　　　VI．結　　　　言
+の固溶度が減少するために，溶体化したこの3元合金を
+                               　複雑な析出過程を示すCu－Cr－Ti　3元合金の組織変化
+550～7000の各一定温度で時効すると　βLCu3Tiと　γ一
+                                 ならびに析出物の構造を光顕組織，Filmy並びにExtra－
+TiCr2とが析出するわけである．そして時効温度の違いに                                   ction　Replicaの電顕組織と電子回折，残渣のX線回折な
+よって，析出物の出る量並びに析出の形態が変ることは先  どの手段を用いて研究し所期の目的を達したのであるが，
+に報告したCu－Ti　2元合金の場合と同様である（7）．　Ex－   この際2種以上の析出物を分別するのにExtraction　Re－
+traction　Replicaの電顕組織，電子回折：および前盛（1）のX   plicaの制限視野回折が非常に有効な手段であった・そし
+線回折の結果によれば，γ。TiCr2は550～7000のどの温   て肉厚の析出物の電子回折の場合には200kV以上の加速
+度においても粒内に均一に析出していることがわかる．す  電圧を必要とすることが多々あったが，超高圧電顕のお蔭
+                             でこの問題は簡単に片付けられた．今後超高圧電顕は析出
+なわち，γ一TiCr2の析出の型はcontinuous　precipitation
+                             物や介在物を研究する上で重要な存在となるであろう・
+である．この析出物は光顕では検出されず，またFi】my
+                             　終りに臨み，本論：文の発表を許可された当時日立中央研
+  （5）土井：本誌，22（1958），313．                究所菊田多利男所長に，またExtねction　Replicaの作成
+  （6）土井：本誌，23（1959），351．             並びに電顕写真の撮影に援助された片桐信二郎氏に感謝の
+  （7）土井：本誌，23（4959），347．               意を表します．

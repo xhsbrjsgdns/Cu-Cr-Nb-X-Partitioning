@@ -1,0 +1,15 @@
+{
+  "generated_utc": "2026-09-07T02:05:35+00:00",
+  "n_formal": 22000,
+  "n_converged": 22000,
+  "n_failed": 0,
+  "convergence_rate": 1.0,
+  "failure_by_temperature": {},
+  "failure_by_composition_region": {},
+  "conservation_max_dev": 2.220446049250313e-16,
+  "family_volume_sum_max_dev": 2.220446049250313e-16,
+  "previously_unseen_bases": [
+    "NBNI3"
+  ],
+  "target_sha256": "3e1f4ba2cf6e47120edc4e5150059541ac3d7713e850ac867f411c58126858e3"
+}

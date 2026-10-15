@@ -1,0 +1,16 @@
+{
+  "generated_utc": "2026-09-07T01:22:51+00:00",
+  "patch_id": "STEP5H_A_MANIFEST_PATCH_01",
+  "scope": "documentation + external sidecar only; NO frozen file edited",
+  "original_manifest": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\09_manifest\\STEP5H_A_FILE_HASHES.csv",
+  "recorded_self_hash": "712521fff857c166f9611fac1b5e88235b1148fcfdfe36f5ff82d4698811b25a",
+  "actual_final_self_hash": "9db63f711baf58b55094839d22be96eb19d7ff2d1595bd7ad9fe25ce461aec7b",
+  "sidecar": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\09_manifest\\STEP5H_A_FILE_HASHES.csv.sha256",
+  "rows_reverified": 38,
+  "mismatches": 0,
+  "verified_csv": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\11_manifest\\STEP5H_A_FILE_HASHES_VERIFIED.csv",
+  "scientific_impact": "NONE",
+  "prediction_impact": "NONE",
+  "model_impact": "NONE",
+  "composition_impact": "NONE"
+}

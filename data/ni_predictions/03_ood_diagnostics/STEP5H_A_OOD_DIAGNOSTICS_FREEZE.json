@@ -1,0 +1,50 @@
+{
+  "generated_utc": "2026-09-06T17:10:47+00:00",
+  "frozen_before_any_ni_calphad": true,
+  "descriptive_only": true,
+  "must_never_alter_model_choice_or_predictions": true,
+  "no_threshold_may_be_selected_after_reveal": true,
+  "n_features_extending_train_range": 0,
+  "features_extending_train_range": [],
+  "frac_states_any_abs_z_gt3": 0.003,
+  "frac_states_any_abs_z_gt5": 0.0,
+  "max_abs_z_median": 1.9880154893400332,
+  "max_abs_z_p95": 2.128683013414008,
+  "nn1_median": 2.494409395447577,
+  "nn1_p95": 2.9420600698442736,
+  "knn5_median": 2.504477830916156,
+  "descriptor_position": {
+    "properties_used": [
+      "AtomicNumber",
+      "AtomicWeight",
+      "CovalentRadius",
+      "Electronegativity",
+      "VEC",
+      "MeltingT",
+      "FirstIonizationEnergy",
+      "AtomicVolume_GS",
+      "MetallicRadius",
+      "Density"
+    ],
+    "nearest_original_identity": "CO",
+    "z_distance_to_nearest": 0.5985321750778009,
+    "z_distance_to_six_centroid": 2.644629452969318,
+    "per_identity_z_distance": {
+      "ZR": 5.791813550053329,
+      "TI": 4.111617305950109,
+      "CO": 0.5985321750778009,
+      "SI": 4.690249271280909,
+      "AG": 3.534229348779839,
+      "MO": 4.082454226415254
+    },
+    "outside_six_range_count": 0,
+    "outside_six_range_properties": [],
+    "role": "interpretation only; no model, role or selection change (spec 21)"
+  },
+  "files": {
+    "STEP5H_A_NI_FEATURE_RANGE_DIAGNOSTICS.csv": "7ccaca20596cbf25d2acf01f24444ffacceb444e8dc5f036ea069aab77b483a3",
+    "STEP5H_A_NI_OOD_DIAGNOSTICS.csv": "e919d98607fc2fba02bc46c2ad2bb189156be791e166cd35bd3e785badcf7b93",
+    "STEP5H_A_NI_OOD_PER_COMPOSITION.csv": "ac1c1156d2df2661a4095d2a774f0142e3aca1d06c4c9d9af0ffcea060d2890c",
+    "STEP5H_A_NI_OOD_PER_TEMPERATURE.csv": "b1b1aa8bae66a075799434f70d936dbc1be544e168875aac7c1559998901655c"
+  }
+}

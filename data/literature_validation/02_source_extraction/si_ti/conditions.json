@@ -1,0 +1,3573 @@
+[
+  {
+    "condition_id": "R3_SI_A1",
+    "source_id": "S4_SI",
+    "system": "Cu–Cr–Si",
+    "X_identity": "SI",
+    "alloy_id": "A1",
+    "nominal_composition_original": "Cu61Cr3Si36",
+    "composition": {
+      "CU": 61.0,
+      "CR": 3.0,
+      "SI": 36.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 700,
+    "temperature_unit": "C",
+    "temperature_C": 700,
+    "temperature_K": 973.15,
+    "annealing_time": "30 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "cold water quench",
+    "characterization": "XRD; SEM/EDS",
+    "phases": [
+      "(Si)",
+      "Cu19Si6",
+      "CrSi2"
+    ],
+    "measured_phases": [
+      {
+        "phase": "(Si)",
+        "composition": {
+          "CU": 7.9,
+          "CR": 0.04,
+          "SI": 92.06
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.08,
+          "CR": 0.01,
+          "SI": 0.05
+        }
+      },
+      {
+        "phase": "Cu19Si6",
+        "composition": {
+          "CU": 71.88,
+          "CR": 2.27,
+          "SI": 25.85
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.13,
+          "CR": 0.05,
+          "SI": 0.12
+        }
+      },
+      {
+        "phase": "CrSi2",
+        "composition": {
+          "CU": 2.44,
+          "CR": 32.06,
+          "SI": 65.5
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.05,
+          "CR": 0.23,
+          "SI": 0.16
+        }
+      }
+    ],
+    "page": "PDF 3 (printed 3); methods PDF 5",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. EDS not calibrated to standard sample; three-point mean; methods state about 1 at.% scatter, despite smaller tabulated uncertainties.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_SI_A2",
+    "source_id": "S4_SI",
+    "system": "Cu–Cr–Si",
+    "X_identity": "SI",
+    "alloy_id": "A2",
+    "nominal_composition_original": "Cu61Cr7Si32",
+    "composition": {
+      "CU": 61.0,
+      "CR": 7.0,
+      "SI": 32.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 700,
+    "temperature_unit": "C",
+    "temperature_C": 700,
+    "temperature_K": 973.15,
+    "annealing_time": "30 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "cold water quench",
+    "characterization": "XRD; SEM/EDS",
+    "phases": [
+      "Cu19Si6",
+      "CrSi2"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Cu19Si6",
+        "composition": {
+          "CU": 72.41,
+          "CR": 2.25,
+          "SI": 25.34
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.24,
+          "CR": 0.05,
+          "SI": 0.11
+        }
+      },
+      {
+        "phase": "CrSi2",
+        "composition": {
+          "CU": 1.93,
+          "CR": 33.32,
+          "SI": 64.75
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.06,
+          "CR": 0.21,
+          "SI": 0.26
+        }
+      }
+    ],
+    "page": "PDF 3 (printed 3); methods PDF 5",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. EDS not calibrated to standard sample; three-point mean; methods state about 1 at.% scatter, despite smaller tabulated uncertainties.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_SI_A3",
+    "source_id": "S4_SI",
+    "system": "Cu–Cr–Si",
+    "X_identity": "SI",
+    "alloy_id": "A3",
+    "nominal_composition_original": "Cu70Cr5Ni25",
+    "composition": {
+      "CU": 70.0,
+      "CR": 5.0,
+      "SI": 25.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 700,
+    "temperature_unit": "C",
+    "temperature_C": 700,
+    "temperature_K": 973.15,
+    "annealing_time": "30 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "cold water quench",
+    "characterization": "XRD; SEM/EDS",
+    "phases": [
+      "Cu15Si4",
+      "CrSi2"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Cu15Si4",
+        "composition": {
+          "CU": 74.99,
+          "CR": 3.45,
+          "SI": 21.56
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.32,
+          "CR": 0.08,
+          "SI": 0.18
+        }
+      },
+      {
+        "phase": "CrSi2",
+        "composition": {
+          "CU": 2.72,
+          "CR": 32.6,
+          "SI": 64.68
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.05,
+          "CR": 0.23,
+          "SI": 0.18
+        }
+      }
+    ],
+    "page": "PDF 3 (printed 3); methods PDF 5; PDF 6 (printed 6)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Table 2 literally Cu70Cr5Ni25; PDF6 explicitly names same A3 Cu70Cr5Si25 and confirms Cu15Si4+CrSi2. Internal same-specimen prose resolves nominal typo. No Ni composition admitted or calculated. EDS not calibrated to standard sample; three-point mean; methods state about 1 at.% scatter, despite smaller tabulated uncertainties.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_SI_A4",
+    "source_id": "S4_SI",
+    "system": "Cu–Cr–Si",
+    "X_identity": "SI",
+    "alloy_id": "A4",
+    "nominal_composition_original": "Cu29Cr26Si45",
+    "composition": {
+      "CU": 29.0,
+      "CR": 26.0,
+      "SI": 45.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 700,
+    "temperature_unit": "C",
+    "temperature_C": 700,
+    "temperature_K": 973.15,
+    "annealing_time": "30 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "cold water quench",
+    "characterization": "XRD; SEM/EDS",
+    "phases": [
+      "Cu56Si11",
+      "CrSi2",
+      "CrSi"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Cu56Si11",
+        "composition": {
+          "CU": 78.92,
+          "CR": 2.93,
+          "SI": 18.15
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.23,
+          "CR": 0.08,
+          "SI": 0.21
+        }
+      },
+      {
+        "phase": "CrSi2",
+        "composition": {
+          "CU": 2.5,
+          "CR": 32.9,
+          "SI": 64.6
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.03,
+          "CR": 0.23,
+          "SI": 0.18
+        }
+      },
+      {
+        "phase": "CrSi",
+        "composition": {
+          "CU": 1.82,
+          "CR": 48.89,
+          "SI": 49.29
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.01,
+          "CR": 0.43,
+          "SI": 0.32
+        }
+      }
+    ],
+    "page": "PDF 3 (printed 3); methods PDF 5",
+    "table": "2",
+    "figure": "2",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. EDS not calibrated to standard sample; three-point mean; methods state about 1 at.% scatter, despite smaller tabulated uncertainties.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_SI_A5",
+    "source_id": "S4_SI",
+    "system": "Cu–Cr–Si",
+    "X_identity": "SI",
+    "alloy_id": "A5",
+    "nominal_composition_original": "Cu67Cr10Si23",
+    "composition": {
+      "CU": 67.0,
+      "CR": 10.0,
+      "SI": 23.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 700,
+    "temperature_unit": "C",
+    "temperature_C": 700,
+    "temperature_K": 973.15,
+    "annealing_time": "30 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "cold water quench",
+    "characterization": "XRD; SEM/EDS",
+    "phases": [
+      "hcp(CuSi)",
+      "Cu56Si11",
+      "CrSi"
+    ],
+    "measured_phases": [
+      {
+        "phase": "hcp(CuSi)",
+        "composition": {
+          "CU": 86.34,
+          "CR": 0.79,
+          "SI": 12.87
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.22,
+          "CR": 0.01,
+          "SI": 0.12
+        }
+      },
+      {
+        "phase": "Cu56Si11",
+        "composition": {
+          "CU": 79.44,
+          "CR": 2.89,
+          "SI": 17.67
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.34,
+          "CR": 0.05,
+          "SI": 0.23
+        }
+      },
+      {
+        "phase": "CrSi",
+        "composition": {
+          "CU": 1.82,
+          "CR": 48.64,
+          "SI": 49.54
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.05,
+          "CR": 0.33,
+          "SI": 0.25
+        }
+      }
+    ],
+    "page": "PDF 3 (printed 3); methods PDF 5",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. EDS not calibrated to standard sample; three-point mean; methods state about 1 at.% scatter, despite smaller tabulated uncertainties.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_SI_A6",
+    "source_id": "S4_SI",
+    "system": "Cu–Cr–Si",
+    "X_identity": "SI",
+    "alloy_id": "A6",
+    "nominal_composition_original": "Cu28Cr36Si36",
+    "composition": {
+      "CU": 28.0,
+      "CR": 36.0,
+      "SI": 36.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 700,
+    "temperature_unit": "C",
+    "temperature_C": 700,
+    "temperature_K": 973.15,
+    "annealing_time": "30 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "cold water quench",
+    "characterization": "XRD; SEM/EDS",
+    "phases": [
+      "αCr5Si3",
+      "(Cu)",
+      "CrSi"
+    ],
+    "measured_phases": [
+      {
+        "phase": "αCr5Si3",
+        "composition": {
+          "CU": 1.8,
+          "CR": 59.99,
+          "SI": 38.21
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.03,
+          "CR": 0.35,
+          "SI": 0.24
+        }
+      },
+      {
+        "phase": "(Cu)",
+        "composition": {
+          "CU": 86.42,
+          "CR": 2.73,
+          "SI": 10.85
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.57,
+          "CR": 0.05,
+          "SI": 0.11
+        }
+      },
+      {
+        "phase": "CrSi",
+        "composition": {
+          "CU": 1.8,
+          "CR": 48.99,
+          "SI": 49.21
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.01,
+          "CR": 0.32,
+          "SI": 0.26
+        }
+      }
+    ],
+    "page": "PDF 3 (printed 3); methods PDF 5",
+    "table": "2",
+    "figure": "2",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. EDS not calibrated to standard sample; three-point mean; methods state about 1 at.% scatter, despite smaller tabulated uncertainties.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_SI_A7",
+    "source_id": "S4_SI",
+    "system": "Cu–Cr–Si",
+    "X_identity": "SI",
+    "alloy_id": "A7",
+    "nominal_composition_original": "Cu29Cr45Si26",
+    "composition": {
+      "CU": 29.0,
+      "CR": 45.0,
+      "SI": 26.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 700,
+    "temperature_unit": "C",
+    "temperature_C": 700,
+    "temperature_K": 973.15,
+    "annealing_time": "30 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "cold water quench",
+    "characterization": "XRD; SEM/EDS",
+    "phases": [
+      "Cr3Si",
+      "(Cu)",
+      "αCr5Si3"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Cr3Si",
+        "composition": {
+          "CU": 1.93,
+          "CR": 71.42,
+          "SI": 26.65
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.02,
+          "CR": 0.31,
+          "SI": 0.11
+        }
+      },
+      {
+        "phase": "(Cu)",
+        "composition": {
+          "CU": 95.16,
+          "CR": 3.28,
+          "SI": 1.56
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.05,
+          "CR": 0.01,
+          "SI": 0.01
+        }
+      },
+      {
+        "phase": "αCr5Si3",
+        "composition": {
+          "CU": 2.03,
+          "CR": 59.87,
+          "SI": 38.1
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.01,
+          "CR": 0.34,
+          "SI": 0.11
+        }
+      }
+    ],
+    "page": "PDF 3 (printed 3); methods PDF 5",
+    "table": "2",
+    "figure": "2",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Table first phase label literally Cr3Si (Cu); PDF6 prose and Fig2e,f resolve three phases Cr3Si+(Cu)+αCr5Si3, and assign 1.93 at.% Cu endpoint to Cr3Si. EDS not calibrated to standard sample; three-point mean; methods state about 1 at.% scatter, despite smaller tabulated uncertainties.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_SI_A8",
+    "source_id": "S4_SI",
+    "system": "Cu–Cr–Si",
+    "X_identity": "SI",
+    "alloy_id": "A8",
+    "nominal_composition_original": "Cu29Cr58Si13",
+    "composition": {
+      "CU": 29.0,
+      "CR": 58.0,
+      "SI": 13.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 700,
+    "temperature_unit": "C",
+    "temperature_C": 700,
+    "temperature_K": 973.15,
+    "annealing_time": "30 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "cold water quench",
+    "characterization": "XRD; SEM/EDS",
+    "phases": [
+      "(Cu)",
+      "Cr3Si",
+      "(Cr)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "(Cu)",
+        "composition": {
+          "CU": 95.89,
+          "CR": 2.77,
+          "SI": 1.34
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.05,
+          "CR": 0.01,
+          "SI": 0.01
+        }
+      },
+      {
+        "phase": "Cr3Si",
+        "composition": {
+          "CU": 1.52,
+          "CR": 72.97,
+          "SI": 25.51
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.01,
+          "CR": 0.35,
+          "SI": 0.21
+        }
+      },
+      {
+        "phase": "(Cr)",
+        "composition": {
+          "CU": 3.5,
+          "CR": 93.34,
+          "SI": 3.16
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.02,
+          "CR": 0.08,
+          "SI": 0.05
+        }
+      }
+    ],
+    "page": "PDF 3 (printed 3); methods PDF 5",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. EDS not calibrated to standard sample; three-point mean; methods state about 1 at.% scatter, despite smaller tabulated uncertainties.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_SI_B1",
+    "source_id": "S4_SI",
+    "system": "Cu–Cr–Si",
+    "X_identity": "SI",
+    "alloy_id": "B1",
+    "nominal_composition_original": "Cu61Cr3Si36",
+    "composition": {
+      "CU": 61.0,
+      "CR": 3.0,
+      "SI": 36.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 800,
+    "temperature_unit": "C",
+    "temperature_C": 800,
+    "temperature_K": 1073.15,
+    "annealing_time": "25 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "cold water quench",
+    "characterization": "XRD; SEM/EDS",
+    "phases": [
+      "(Si)",
+      "Cu19Si6",
+      "CrSi2"
+    ],
+    "measured_phases": [
+      {
+        "phase": "(Si)",
+        "composition": {
+          "CU": 3.13,
+          "CR": 1.06,
+          "SI": 95.81
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.02,
+          "CR": 0.01,
+          "SI": 0.06
+        }
+      },
+      {
+        "phase": "Cu19Si6",
+        "composition": {
+          "CU": 70.24,
+          "CR": 2.31,
+          "SI": 27.45
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.34,
+          "CR": 0.01,
+          "SI": 0.21
+        }
+      },
+      {
+        "phase": "CrSi2",
+        "composition": {
+          "CU": 1.04,
+          "CR": 32.62,
+          "SI": 66.34
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.01,
+          "CR": 0.21,
+          "SI": 0.32
+        }
+      }
+    ],
+    "page": "PDF 3 (printed 3); methods PDF 5",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. EDS not calibrated to standard sample; three-point mean; methods state about 1 at.% scatter, despite smaller tabulated uncertainties.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_SI_B2",
+    "source_id": "S4_SI",
+    "system": "Cu–Cr–Si",
+    "X_identity": "SI",
+    "alloy_id": "B2",
+    "nominal_composition_original": "Cu31Cr26Si43",
+    "composition": {
+      "CU": 31.0,
+      "CR": 26.0,
+      "SI": 43.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 800,
+    "temperature_unit": "C",
+    "temperature_C": 800,
+    "temperature_K": 1073.15,
+    "annealing_time": "25 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "cold water quench",
+    "characterization": "XRD; SEM/EDS",
+    "phases": [
+      "Cu19Si6",
+      "CrSi2",
+      "CrSi"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Cu19Si6",
+        "composition": {
+          "CU": 78.19,
+          "CR": 1.33,
+          "SI": 20.48
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.34,
+          "CR": 0.01,
+          "SI": 0.16
+        }
+      },
+      {
+        "phase": "CrSi2",
+        "composition": {
+          "CU": 1.51,
+          "CR": 32.9,
+          "SI": 65.59
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.02,
+          "CR": 0.26,
+          "SI": 0.13
+        }
+      },
+      {
+        "phase": "CrSi",
+        "composition": {
+          "CU": 1.04,
+          "CR": 49.69,
+          "SI": 49.27
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.01,
+          "CR": 0.11,
+          "SI": 0.13
+        }
+      }
+    ],
+    "page": "PDF 3 (printed 3); methods PDF 5",
+    "table": "2",
+    "figure": "3",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. EDS not calibrated to standard sample; three-point mean; methods state about 1 at.% scatter, despite smaller tabulated uncertainties.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_SI_B3",
+    "source_id": "S4_SI",
+    "system": "Cu–Cr–Si",
+    "X_identity": "SI",
+    "alloy_id": "B3",
+    "nominal_composition_original": "Cu62Cr10Si28",
+    "composition": {
+      "CU": 62.0,
+      "CR": 10.0,
+      "SI": 28.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 800,
+    "temperature_unit": "C",
+    "temperature_C": 800,
+    "temperature_K": 1073.15,
+    "annealing_time": "25 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "cold water quench",
+    "characterization": "XRD; SEM/EDS",
+    "phases": [
+      "Cu15Si4",
+      "CrSi"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Cu15Si4",
+        "composition": {
+          "CU": 85.11,
+          "CR": 0.5,
+          "SI": 14.39
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.39,
+          "CR": 0.01,
+          "SI": 0.1
+        }
+      },
+      {
+        "phase": "CrSi",
+        "composition": {
+          "CU": 1.27,
+          "CR": 48.8,
+          "SI": 49.93
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.05,
+          "CR": 0.21,
+          "SI": 0.25
+        }
+      }
+    ],
+    "page": "PDF 3 (printed 3); methods PDF 5",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. EDS not calibrated to standard sample; three-point mean; methods state about 1 at.% scatter, despite smaller tabulated uncertainties.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_SI_B4",
+    "source_id": "S4_SI",
+    "system": "Cu–Cr–Si",
+    "X_identity": "SI",
+    "alloy_id": "B4",
+    "nominal_composition_original": "Cu70Cr7Si23",
+    "composition": {
+      "CU": 70.0,
+      "CR": 7.0,
+      "SI": 23.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 800,
+    "temperature_unit": "C",
+    "temperature_C": 800,
+    "temperature_K": 1073.15,
+    "annealing_time": "25 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "cold water quench",
+    "characterization": "XRD; SEM/EDS",
+    "phases": [
+      "Cu33Si7",
+      "CrSi"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Cu33Si7",
+        "composition": {
+          "CU": 79.67,
+          "CR": 1.53,
+          "SI": 18.8
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.35,
+          "CR": 0.05,
+          "SI": 0.13
+        }
+      },
+      {
+        "phase": "CrSi",
+        "composition": {
+          "CU": 1.28,
+          "CR": 50.11,
+          "SI": 48.61
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.03,
+          "CR": 0.31,
+          "SI": 0.21
+        }
+      }
+    ],
+    "page": "PDF 3 (printed 3); methods PDF 5",
+    "table": "2",
+    "figure": "3",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. EDS not calibrated to standard sample; three-point mean; methods state about 1 at.% scatter, despite smaller tabulated uncertainties.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_SI_B5",
+    "source_id": "S4_SI",
+    "system": "Cu–Cr–Si",
+    "X_identity": "SI",
+    "alloy_id": "B5",
+    "nominal_composition_original": "Cu75Cr5Si20",
+    "composition": {
+      "CU": 75.0,
+      "CR": 5.0,
+      "SI": 20.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 800,
+    "temperature_unit": "C",
+    "temperature_C": 800,
+    "temperature_K": 1073.15,
+    "annealing_time": "25 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "cold water quench",
+    "characterization": "XRD; SEM/EDS",
+    "phases": [
+      "hcp(CuSi)",
+      "CrSi"
+    ],
+    "measured_phases": [
+      {
+        "phase": "hcp(CuSi)",
+        "composition": {
+          "CU": 83.46,
+          "CR": 1.78,
+          "SI": 14.76
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.37,
+          "CR": 0.03,
+          "SI": 0.11
+        }
+      },
+      {
+        "phase": "CrSi",
+        "composition": {
+          "CU": 2.09,
+          "CR": 48.7,
+          "SI": 49.21
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.05,
+          "CR": 0.34,
+          "SI": 0.42
+        }
+      }
+    ],
+    "page": "PDF 3 (printed 3); methods PDF 5",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. EDS not calibrated to standard sample; three-point mean; methods state about 1 at.% scatter, despite smaller tabulated uncertainties.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_SI_B6",
+    "source_id": "S4_SI",
+    "system": "Cu–Cr–Si",
+    "X_identity": "SI",
+    "alloy_id": "B6",
+    "nominal_composition_original": "Cu78Cr5Si17",
+    "composition": {
+      "CU": 78.0,
+      "CR": 5.0,
+      "SI": 17.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 800,
+    "temperature_unit": "C",
+    "temperature_C": 800,
+    "temperature_K": 1073.15,
+    "annealing_time": "25 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "cold water quench",
+    "characterization": "XRD; SEM/EDS",
+    "phases": [
+      "hcp(CuSi)",
+      "CrSi",
+      "(Cu)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "hcp(CuSi)",
+        "composition": {
+          "CU": 83.51,
+          "CR": 1.34,
+          "SI": 15.15
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.23,
+          "CR": 0.02,
+          "SI": 0.32
+        }
+      },
+      {
+        "phase": "CrSi",
+        "composition": {
+          "CU": 1.02,
+          "CR": 49.43,
+          "SI": 49.55
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.01,
+          "CR": 0.34,
+          "SI": 0.23
+        }
+      },
+      {
+        "phase": "(Cu)",
+        "composition": {
+          "CU": 85.07,
+          "CR": 3.18,
+          "SI": 11.75
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.17,
+          "CR": 0.1,
+          "SI": 0.12
+        }
+      }
+    ],
+    "page": "PDF 3 (printed 3); methods PDF 5",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. EDS not calibrated to standard sample; three-point mean; methods state about 1 at.% scatter, despite smaller tabulated uncertainties.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_SI_B7",
+    "source_id": "S4_SI",
+    "system": "Cu–Cr–Si",
+    "X_identity": "SI",
+    "alloy_id": "B7",
+    "nominal_composition_original": "Cu30Cr36Si34",
+    "composition": {
+      "CU": 30.0,
+      "CR": 36.0,
+      "SI": 34.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 800,
+    "temperature_unit": "C",
+    "temperature_C": 800,
+    "temperature_K": 1073.15,
+    "annealing_time": "25 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "cold water quench",
+    "characterization": "XRD; SEM/EDS",
+    "phases": [
+      "αCr5Si3",
+      "(Cu)",
+      "CrSi"
+    ],
+    "measured_phases": [
+      {
+        "phase": "αCr5Si3",
+        "composition": {
+          "CU": 2.03,
+          "CR": 60.21,
+          "SI": 37.76
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.08,
+          "CR": 0.22,
+          "SI": 0.31
+        }
+      },
+      {
+        "phase": "(Cu)",
+        "composition": {
+          "CU": 89.16,
+          "CR": 0.78,
+          "SI": 10.06
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.13,
+          "CR": 0.02,
+          "SI": 0.11
+        }
+      },
+      {
+        "phase": "CrSi",
+        "composition": {
+          "CU": null,
+          "CR": null,
+          "SI": null
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": null,
+          "CR": null,
+          "SI": null
+        }
+      }
+    ],
+    "page": "PDF 3 (printed 3); methods PDF 5",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. CrSi identified but its phase composition explicitly missing (dashes). EDS not calibrated to standard sample; three-point mean; methods state about 1 at.% scatter, despite smaller tabulated uncertainties.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_SI_B8",
+    "source_id": "S4_SI",
+    "system": "Cu–Cr–Si",
+    "X_identity": "SI",
+    "alloy_id": "B8",
+    "nominal_composition_original": "Cu29Cr45Si26",
+    "composition": {
+      "CU": 29.0,
+      "CR": 45.0,
+      "SI": 26.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 800,
+    "temperature_unit": "C",
+    "temperature_C": 800,
+    "temperature_K": 1073.15,
+    "annealing_time": "25 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "cold water quench",
+    "characterization": "XRD; SEM/EDS",
+    "phases": [
+      "Cr3Si",
+      "(Cu)",
+      "αCr5Si3"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Cr3Si",
+        "composition": {
+          "CU": 1.56,
+          "CR": 73.08,
+          "SI": 25.36
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.03,
+          "CR": 0.28,
+          "SI": 0.23
+        }
+      },
+      {
+        "phase": "(Cu)",
+        "composition": {
+          "CU": 85.42,
+          "CR": 3.73,
+          "SI": 10.85
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.32,
+          "CR": 0.08,
+          "SI": 0.14
+        }
+      },
+      {
+        "phase": "αCr5Si3",
+        "composition": {
+          "CU": 1.77,
+          "CR": 59.61,
+          "SI": 38.62
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.05,
+          "CR": 0.34,
+          "SI": 0.22
+        }
+      }
+    ],
+    "page": "PDF 3 (printed 3); methods PDF 5",
+    "table": "2",
+    "figure": "3",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. EDS not calibrated to standard sample; three-point mean; methods state about 1 at.% scatter, despite smaller tabulated uncertainties.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_SI_B9",
+    "source_id": "S4_SI",
+    "system": "Cu–Cr–Si",
+    "X_identity": "SI",
+    "alloy_id": "B9",
+    "nominal_composition_original": "Cu60Cr35Si5",
+    "composition": {
+      "CU": 60.0,
+      "CR": 35.0,
+      "SI": 5.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 800,
+    "temperature_unit": "C",
+    "temperature_C": 800,
+    "temperature_K": 1073.15,
+    "annealing_time": "25 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "cold water quench",
+    "characterization": "XRD; SEM/EDS",
+    "phases": [
+      "(Cu)",
+      "Cr3Si",
+      "(Cr)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "(Cu)",
+        "composition": {
+          "CU": 94.7,
+          "CR": 4.64,
+          "SI": 0.66
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.12,
+          "CR": 0.11,
+          "SI": 0.01
+        }
+      },
+      {
+        "phase": "Cr3Si",
+        "composition": {
+          "CU": 1.67,
+          "CR": 75.22,
+          "SI": 23.11
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.07,
+          "CR": 0.21,
+          "SI": 0.14
+        }
+      },
+      {
+        "phase": "(Cr)",
+        "composition": {
+          "CU": 2.39,
+          "CR": 94.99,
+          "SI": 2.62
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.03,
+          "CR": 0.15,
+          "SI": 0.02
+        }
+      }
+    ],
+    "page": "PDF 3 (printed 3); methods PDF 5",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. EDS not calibrated to standard sample; three-point mean; methods state about 1 at.% scatter, despite smaller tabulated uncertainties.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_A1",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "A1",
+    "nominal_composition_original": "Cu13Cr20Ti67",
+    "composition": {
+      "CU": 13.0,
+      "CR": 20.0,
+      "TI": 67.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 1073,
+    "temperature_unit": "K",
+    "temperature_C": 799.85,
+    "temperature_K": 1073,
+    "annealing_time": "90 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "CuTi2",
+      "αTiCr2",
+      "βTi"
+    ],
+    "measured_phases": [
+      {
+        "phase": "CuTi2",
+        "composition": {
+          "CU": 32.2,
+          "CR": 0.7,
+          "TI": 67.1
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.6,
+          "CR": 0.2,
+          "TI": 0.2
+        }
+      },
+      {
+        "phase": "αTiCr2",
+        "composition": {
+          "CU": 0.4,
+          "CR": 64.1,
+          "TI": 35.5
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": 0.6,
+          "TI": 0.5
+        },
+        "structure": "C15; cF24; Cu2Mg prototype; Fd-3m (Table1 PDF3; allotropes PDF2)"
+      },
+      {
+        "phase": "βTi",
+        "composition": {
+          "CU": 6.4,
+          "CR": 14.4,
+          "TI": 79.2
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": 0.1,
+          "TI": 0.1
+        }
+      }
+    ],
+    "page": "PDF 5 (printed 393); methods PDF 2 (390)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_A2",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "A2",
+    "nominal_composition_original": "Cu33Cr13Ti54",
+    "composition": {
+      "CU": 33.0,
+      "CR": 13.0,
+      "TI": 54.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 1073,
+    "temperature_unit": "K",
+    "temperature_C": 799.85,
+    "temperature_K": 1073,
+    "annealing_time": "90 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "CuTi2",
+      "CuTi",
+      "αTiCr2"
+    ],
+    "measured_phases": [
+      {
+        "phase": "CuTi2",
+        "composition": {
+          "CU": 32.6,
+          "CR": 0.9,
+          "TI": 66.5
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.3,
+          "CR": 0.1,
+          "TI": 0.3
+        }
+      },
+      {
+        "phase": "CuTi",
+        "composition": {
+          "CU": 48.4,
+          "CR": 0.9,
+          "TI": 50.7
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.2,
+          "CR": 0.4,
+          "TI": 0.5
+        }
+      },
+      {
+        "phase": "αTiCr2",
+        "composition": {
+          "CU": 2.2,
+          "CR": 61.4,
+          "TI": 36.4
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.9,
+          "CR": 1.5,
+          "TI": 1.1
+        },
+        "structure": "C15; cF24; Cu2Mg prototype; Fd-3m (Table1 PDF3; allotropes PDF2)"
+      }
+    ],
+    "page": "PDF 5 (printed 393); methods PDF 2 (390)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_A3",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "A3",
+    "nominal_composition_original": "Cu38Cr18Ti44",
+    "composition": {
+      "CU": 38.0,
+      "CR": 18.0,
+      "TI": 44.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 1073,
+    "temperature_unit": "K",
+    "temperature_C": 799.85,
+    "temperature_K": 1073,
+    "annealing_time": "90 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "CuTi",
+      "τ1",
+      "αTiCr2"
+    ],
+    "measured_phases": [
+      {
+        "phase": "CuTi",
+        "composition": {
+          "CU": 48.3,
+          "CR": 1.5,
+          "TI": 50.2
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.9,
+          "CR": 0.3,
+          "TI": 1.1
+        }
+      },
+      {
+        "phase": "τ1",
+        "composition": {
+          "CU": 42.4,
+          "CR": 13.8,
+          "TI": 43.8
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.3,
+          "CR": 0.4,
+          "TI": 0.1
+        },
+        "normalized_phase_name": "TAU1"
+      },
+      {
+        "phase": "αTiCr2",
+        "composition": {
+          "CU": 1.1,
+          "CR": 64.6,
+          "TI": 34.3
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.3,
+          "CR": 0.6,
+          "TI": 0.5
+        },
+        "structure": "C15; cF24; Cu2Mg prototype; Fd-3m (Table1 PDF3; allotropes PDF2)"
+      }
+    ],
+    "page": "PDF 5 (printed 393); methods PDF 2 (390)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_A4",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "A4",
+    "nominal_composition_original": "Cu51Cr17Ti32",
+    "composition": {
+      "CU": 51.0,
+      "CR": 17.0,
+      "TI": 32.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 1073,
+    "temperature_unit": "K",
+    "temperature_C": 799.85,
+    "temperature_K": 1073,
+    "annealing_time": "90 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "(Cu, Cr)3Ti2",
+      "αTiCr2",
+      "Cu4Ti"
+    ],
+    "measured_phases": [
+      {
+        "phase": "(Cu, Cr)3Ti2",
+        "composition": {
+          "CU": 51.0,
+          "CR": 11.4,
+          "TI": 37.6
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.2,
+          "CR": 0.3,
+          "TI": 0.1
+        }
+      },
+      {
+        "phase": "αTiCr2",
+        "composition": {
+          "CU": 1.4,
+          "CR": 65.3,
+          "TI": 33.3
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": 0.2,
+          "TI": 0.1
+        },
+        "structure": "C15; cF24; Cu2Mg prototype; Fd-3m (Table1 PDF3; allotropes PDF2)"
+      },
+      {
+        "phase": "Cu4Ti",
+        "composition": {
+          "CU": 78.3,
+          "CR": 0.4,
+          "TI": 21.3
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": 0.1,
+          "TI": 0.1
+        }
+      }
+    ],
+    "page": "PDF 5 (printed 393); methods PDF 2 (390)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied. Figure5 caption labels A4 but PDF7 prose says A10 for panels a,b; do not use this contradictory caption for specimen-specific corroboration.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_A5",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "A5",
+    "nominal_composition_original": "Cu74Cr9Ti17",
+    "composition": {
+      "CU": 74.0,
+      "CR": 9.0,
+      "TI": 17.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 1073,
+    "temperature_unit": "K",
+    "temperature_C": 799.85,
+    "temperature_K": 1073,
+    "annealing_time": "90 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "(Cu)",
+      "Cu4Ti",
+      "αTiCr2"
+    ],
+    "measured_phases": [
+      {
+        "phase": "(Cu)",
+        "composition": {
+          "CU": 93.3,
+          "CR": 0.8,
+          "TI": 5.9
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.3,
+          "CR": 0.1,
+          "TI": 0.2
+        }
+      },
+      {
+        "phase": "Cu4Ti",
+        "composition": {
+          "CU": 78.7,
+          "CR": 0.5,
+          "TI": 20.8
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.7,
+          "CR": 0.1,
+          "TI": 0.6
+        }
+      },
+      {
+        "phase": "αTiCr2",
+        "composition": {
+          "CU": 1.9,
+          "CR": 65.3,
+          "TI": 32.8
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": 0.1,
+          "TI": 0.1
+        },
+        "structure": "C15; cF24; Cu2Mg prototype; Fd-3m (Table1 PDF3; allotropes PDF2)"
+      }
+    ],
+    "page": "PDF 5 (printed 393); methods PDF 2 (390)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_A6",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "A6",
+    "nominal_composition_original": "Cu12Cr70Ti18",
+    "composition": {
+      "CU": 12.0,
+      "CR": 70.0,
+      "TI": 18.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 1073,
+    "temperature_unit": "K",
+    "temperature_C": 799.85,
+    "temperature_K": 1073,
+    "annealing_time": "90 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "(Cu)",
+      "αTiCr2",
+      "(Cr)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "(Cu)",
+        "composition": {
+          "CU": 94.1,
+          "CR": 2.2,
+          "TI": 3.7
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": 0.1,
+          "TI": 0.1
+        }
+      },
+      {
+        "phase": "αTiCr2",
+        "composition": {
+          "CU": 0.2,
+          "CR": 66.6,
+          "TI": 33.2
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": 0.2,
+          "TI": 0.1
+        },
+        "structure": "C15; cF24; Cu2Mg prototype; Fd-3m (Table1 PDF3; allotropes PDF2)"
+      },
+      {
+        "phase": "(Cr)",
+        "composition": {
+          "CU": 0.3,
+          "CR": 94.2,
+          "TI": 5.5
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.2,
+          "CR": 0.2,
+          "TI": 0.2
+        }
+      }
+    ],
+    "page": "PDF 5 (printed 393); methods PDF 2 (390)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_A7",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "A7",
+    "nominal_composition_original": "Cu57.5Cr1.5Ti41",
+    "composition": {
+      "CU": 57.5,
+      "CR": 1.5,
+      "TI": 41.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 1073,
+    "temperature_unit": "K",
+    "temperature_C": 799.85,
+    "temperature_K": 1073,
+    "annealing_time": "90 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "Cu4Ti3",
+      "Cu3Ti2"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Cu4Ti3",
+        "composition": {
+          "CU": 56.5,
+          "CR": 0.4,
+          "TI": 43.1
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.3,
+          "CR": 0.1,
+          "TI": 0.2
+        }
+      },
+      {
+        "phase": "Cu3Ti2",
+        "composition": {
+          "CU": 59.7,
+          "CR": 0.4,
+          "TI": 39.9
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.2,
+          "CR": 0.1,
+          "TI": 0.1
+        }
+      }
+    ],
+    "page": "PDF 5 (printed 393); methods PDF 2 (390)",
+    "table": "2",
+    "figure": "10",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_A8",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "A8",
+    "nominal_composition_original": "Cu48Cr12Ti40",
+    "composition": {
+      "CU": 48.0,
+      "CR": 12.0,
+      "TI": 40.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 1073,
+    "temperature_unit": "K",
+    "temperature_C": 799.85,
+    "temperature_K": 1073,
+    "annealing_time": "90 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "(Cu, Cr)3Ti2"
+    ],
+    "measured_phases": [
+      {
+        "phase": "(Cu, Cr)3Ti2",
+        "composition": {
+          "CU": 50.8,
+          "CR": 11.4,
+          "TI": 37.8
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.3,
+          "CR": 0.2,
+          "TI": 0.1
+        }
+      }
+    ],
+    "page": "PDF 5 (printed 393); methods PDF 2 (390)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied. Single-phase EPMA mean (50.8,11.4,37.8) differs from nominal (48,12,40); retained exactly.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_A9",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "A9",
+    "nominal_composition_original": "Cu54Cr8Ti38",
+    "composition": {
+      "CU": 54.0,
+      "CR": 8.0,
+      "TI": 38.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 1073,
+    "temperature_unit": "K",
+    "temperature_C": 799.85,
+    "temperature_K": 1073,
+    "annealing_time": "90 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "Cu4Ti",
+      "(Cu, Cr)3Ti2"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Cu4Ti",
+        "composition": {
+          "CU": 78.3,
+          "CR": 0.3,
+          "TI": 21.4
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.3,
+          "CR": 0.1,
+          "TI": 0.1
+        }
+      },
+      {
+        "phase": "(Cu, Cr)3Ti2",
+        "composition": {
+          "CU": 52.4,
+          "CR": 9.9,
+          "TI": 37.7
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.4,
+          "CR": 0.3,
+          "TI": 0.7
+        }
+      }
+    ],
+    "page": "PDF 5 (printed 393); methods PDF 2 (390)",
+    "table": "2",
+    "figure": "4",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_A10",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "A10",
+    "nominal_composition_original": "Cu52Cr12Ti36",
+    "composition": {
+      "CU": 52.0,
+      "CR": 12.0,
+      "TI": 36.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 1073,
+    "temperature_unit": "K",
+    "temperature_C": 799.85,
+    "temperature_K": 1073,
+    "annealing_time": "90 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "(Cu, Cr)3Ti2",
+      "αTiCr2",
+      "Cu4Ti"
+    ],
+    "measured_phases": [
+      {
+        "phase": "(Cu, Cr)3Ti2",
+        "composition": {
+          "CU": 50.9,
+          "CR": 11.2,
+          "TI": 37.9
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": 0.1,
+          "TI": 0.2
+        }
+      },
+      {
+        "phase": "αTiCr2",
+        "composition": {
+          "CU": 1.4,
+          "CR": 64.8,
+          "TI": 33.8
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.2,
+          "CR": 0.2,
+          "TI": 0.1
+        },
+        "structure": "C15; cF24; Cu2Mg prototype; Fd-3m (Table1 PDF3; allotropes PDF2)"
+      },
+      {
+        "phase": "Cu4Ti",
+        "composition": {
+          "CU": 78.1,
+          "CR": 0.4,
+          "TI": 21.5
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.2,
+          "CR": 0.1,
+          "TI": 0.2
+        }
+      }
+    ],
+    "page": "PDF 5 (printed 393); methods PDF 2 (390)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied. Figure5 caption labels A4 but PDF7 prose says A10 for panels a,b; do not use this contradictory caption for specimen-specific corroboration.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_A11",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "A11",
+    "nominal_composition_original": "Cu12Cr3Ti85",
+    "composition": {
+      "CU": 12.0,
+      "CR": 3.0,
+      "TI": 85.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 1073,
+    "temperature_unit": "K",
+    "temperature_C": 799.85,
+    "temperature_K": 1073,
+    "annealing_time": "90 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "βTi",
+      "CuTi2"
+    ],
+    "measured_phases": [
+      {
+        "phase": "βTi",
+        "composition": {
+          "CU": 5.3,
+          "CR": 4.3,
+          "TI": 90.4
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.2,
+          "CR": 0.2,
+          "TI": 0.3
+        }
+      },
+      {
+        "phase": "CuTi2",
+        "composition": {
+          "CU": 32.2,
+          "CR": 0.2,
+          "TI": 67.6
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": 0.1,
+          "TI": 0.2
+        }
+      }
+    ],
+    "page": "PDF 5 (printed 393); methods PDF 2 (390)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_A12",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "A12",
+    "nominal_composition_original": "Cu20Cr6Ti74",
+    "composition": {
+      "CU": 20.0,
+      "CR": 6.0,
+      "TI": 74.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 1073,
+    "temperature_unit": "K",
+    "temperature_C": 799.85,
+    "temperature_K": 1073,
+    "annealing_time": "90 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "βTi",
+      "CuTi2"
+    ],
+    "measured_phases": [
+      {
+        "phase": "βTi",
+        "composition": {
+          "CU": 4.6,
+          "CR": 13.6,
+          "TI": 81.8
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.2,
+          "CR": 0.2,
+          "TI": 0.2
+        }
+      },
+      {
+        "phase": "CuTi2",
+        "composition": {
+          "CU": 31.5,
+          "CR": 0.3,
+          "TI": 68.2
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.3,
+          "CR": 0.1,
+          "TI": 0.2
+        }
+      }
+    ],
+    "page": "PDF 5 (printed 393); methods PDF 2 (390)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_A13",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "A13",
+    "nominal_composition_original": "Cu3Cr22Ti75",
+    "composition": {
+      "CU": 3.0,
+      "CR": 22.0,
+      "TI": 75.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 1073,
+    "temperature_unit": "K",
+    "temperature_C": 799.85,
+    "temperature_K": 1073,
+    "annealing_time": "90 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "βTi",
+      "αTiCr2"
+    ],
+    "measured_phases": [
+      {
+        "phase": "βTi",
+        "composition": {
+          "CU": 3.5,
+          "CR": 15.6,
+          "TI": 80.9
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.3,
+          "CR": 0.5,
+          "TI": 0.6
+        }
+      },
+      {
+        "phase": "αTiCr2",
+        "composition": {
+          "CU": 0.2,
+          "CR": 63.8,
+          "TI": 35.9
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": 0.3,
+          "TI": 0.3
+        },
+        "structure": "C15; cF24; Cu2Mg prototype; Fd-3m (Table1 PDF3; allotropes PDF2)"
+      }
+    ],
+    "page": "PDF 5 (printed 393); methods PDF 2 (390)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_A14",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "A14",
+    "nominal_composition_original": "Cu42Cr19Ti39",
+    "composition": {
+      "CU": 42.0,
+      "CR": 19.0,
+      "TI": 39.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 1073,
+    "temperature_unit": "K",
+    "temperature_C": 799.85,
+    "temperature_K": 1073,
+    "annealing_time": "90 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "(Cu, Cr)3Ti2",
+      "τ1",
+      "αTiCr2"
+    ],
+    "measured_phases": [
+      {
+        "phase": "(Cu, Cr)3Ti2",
+        "composition": {
+          "CU": 50.0,
+          "CR": 11.6,
+          "TI": 38.4
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.2,
+          "CR": 0.1,
+          "TI": 0.2
+        }
+      },
+      {
+        "phase": "τ1",
+        "composition": {
+          "CU": 41.9,
+          "CR": 17.2,
+          "TI": 40.9
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.7,
+          "CR": 0.5,
+          "TI": 0.3
+        },
+        "normalized_phase_name": "TAU1"
+      },
+      {
+        "phase": "αTiCr2",
+        "composition": {
+          "CU": 4.3,
+          "CR": 61.0,
+          "TI": 34.7
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": 0.5,
+          "TI": 0.4
+        },
+        "structure": "C15; cF24; Cu2Mg prototype; Fd-3m (Table1 PDF3; allotropes PDF2)"
+      }
+    ],
+    "page": "PDF 5 (printed 393); methods PDF 2 (390)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_A15",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "A15",
+    "nominal_composition_original": "Cu60Cr4Ti36",
+    "composition": {
+      "CU": 60.0,
+      "CR": 4.0,
+      "TI": 36.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 1073,
+    "temperature_unit": "K",
+    "temperature_C": 799.85,
+    "temperature_K": 1073,
+    "annealing_time": "90 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "(Cu, Cr)3Ti2",
+      "Cu4Ti",
+      "Cu3Ti2"
+    ],
+    "measured_phases": [
+      {
+        "phase": "(Cu, Cr)3Ti2",
+        "composition": {
+          "CU": 54.6,
+          "CR": 7.2,
+          "TI": 38.2
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.3,
+          "CR": 0.1,
+          "TI": 0.2
+        }
+      },
+      {
+        "phase": "Cu4Ti",
+        "composition": {
+          "CU": 77.9,
+          "CR": 0.2,
+          "TI": 21.9
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": 0.1,
+          "TI": 0.1
+        }
+      },
+      {
+        "phase": "Cu3Ti2",
+        "composition": {
+          "CU": 59.2,
+          "CR": 1.5,
+          "TI": 39.3
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.3,
+          "CR": 0.6,
+          "TI": 0.3
+        }
+      }
+    ],
+    "page": "PDF 5 (printed 393); methods PDF 2 (390)",
+    "table": "2",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied. Table2 explicitly lists (Cu,Cr)3Ti2 and Cu3Ti2 as separate observed entries, while PDF8 says continuous solid solution at1073K; preserve endpoint multiplicity and crosswalk ambiguity.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_B1",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "B1",
+    "nominal_composition_original": "Cu13Cr20Ti67",
+    "composition": {
+      "CU": 13.0,
+      "CR": 20.0,
+      "TI": 67.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 973,
+    "temperature_unit": "K",
+    "temperature_C": 699.85,
+    "temperature_K": 973,
+    "annealing_time": "120 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "CuTi2",
+      "αTiCr2",
+      "βTi"
+    ],
+    "measured_phases": [
+      {
+        "phase": "CuTi2",
+        "composition": {
+          "CU": 30.5,
+          "CR": 3.9,
+          "TI": 65.6
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.5,
+          "CR": 0.2,
+          "TI": 0.6
+        }
+      },
+      {
+        "phase": "αTiCr2",
+        "composition": {
+          "CU": 0.3,
+          "CR": 64.1,
+          "TI": 35.6
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": 0.2,
+          "TI": 0.1
+        },
+        "structure": "C15; cF24; Cu2Mg prototype; Fd-3m (Table1 PDF3; allotropes PDF2)"
+      },
+      {
+        "phase": "βTi",
+        "composition": {
+          "CU": 3.5,
+          "CR": 15.0,
+          "TI": 81.5
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.3,
+          "CR": 0.3,
+          "TI": 0.1
+        }
+      }
+    ],
+    "page": "PDF 9 (printed 397); methods PDF 2 (390)",
+    "table": "3",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_B2",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "B2",
+    "nominal_composition_original": "Cu33Cr13Ti54",
+    "composition": {
+      "CU": 33.0,
+      "CR": 13.0,
+      "TI": 54.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 973,
+    "temperature_unit": "K",
+    "temperature_C": 699.85,
+    "temperature_K": 973,
+    "annealing_time": "120 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "CuTi2",
+      "CuTi",
+      "αTiCr2"
+    ],
+    "measured_phases": [
+      {
+        "phase": "CuTi2",
+        "composition": {
+          "CU": 32.6,
+          "CR": 0.9,
+          "TI": 66.5
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.6,
+          "CR": 0.2,
+          "TI": 0.5
+        }
+      },
+      {
+        "phase": "CuTi",
+        "composition": {
+          "CU": 48.4,
+          "CR": 0.9,
+          "TI": 50.7
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.3,
+          "CR": 0.3,
+          "TI": 0.1
+        }
+      },
+      {
+        "phase": "αTiCr2",
+        "composition": {
+          "CU": 0.3,
+          "CR": 64.1,
+          "TI": 35.6
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": 0.3,
+          "TI": 0.3
+        },
+        "structure": "C15; cF24; Cu2Mg prototype; Fd-3m (Table1 PDF3; allotropes PDF2)"
+      }
+    ],
+    "page": "PDF 9 (printed 397); methods PDF 2 (390)",
+    "table": "3",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_B3",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "B3",
+    "nominal_composition_original": "Cu38Cr18Ti44",
+    "composition": {
+      "CU": 38.0,
+      "CR": 18.0,
+      "TI": 44.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 973,
+    "temperature_unit": "K",
+    "temperature_C": 699.85,
+    "temperature_K": 973,
+    "annealing_time": "120 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "CuTi",
+      "τ1",
+      "αTiCr2"
+    ],
+    "measured_phases": [
+      {
+        "phase": "CuTi",
+        "composition": {
+          "CU": 48.5,
+          "CR": 1.6,
+          "TI": 49.9
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": 0.1,
+          "TI": 0.1
+        }
+      },
+      {
+        "phase": "τ1",
+        "composition": {
+          "CU": 43.2,
+          "CR": 12.5,
+          "TI": 44.3
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.4,
+          "CR": 0.4,
+          "TI": 0.2
+        },
+        "normalized_phase_name": "TAU1"
+      },
+      {
+        "phase": "αTiCr2",
+        "composition": {
+          "CU": 2.6,
+          "CR": 62.3,
+          "TI": 35.1
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.9,
+          "CR": 1.1,
+          "TI": 0.3
+        },
+        "structure": "C15; cF24; Cu2Mg prototype; Fd-3m (Table1 PDF3; allotropes PDF2)"
+      }
+    ],
+    "page": "PDF 9 (printed 397); methods PDF 2 (390)",
+    "table": "3",
+    "figure": "8;9",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_B4",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "B4",
+    "nominal_composition_original": "Cu51Cr17Ti32",
+    "composition": {
+      "CU": 51.0,
+      "CR": 17.0,
+      "TI": 32.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 973,
+    "temperature_unit": "K",
+    "temperature_C": 699.85,
+    "temperature_K": 973,
+    "annealing_time": "120 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "(Cu, Cr)3Ti2",
+      "αTiCr2",
+      "Cu4Ti"
+    ],
+    "measured_phases": [
+      {
+        "phase": "(Cu, Cr)3Ti2",
+        "composition": {
+          "CU": 50.2,
+          "CR": 12.0,
+          "TI": 37.8
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": 0.2,
+          "TI": 0.1
+        }
+      },
+      {
+        "phase": "αTiCr2",
+        "composition": {
+          "CU": 2.6,
+          "CR": 63.5,
+          "TI": 33.9
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": 0.1,
+          "TI": 0.1
+        },
+        "structure": "C15; cF24; Cu2Mg prototype; Fd-3m (Table1 PDF3; allotropes PDF2)"
+      },
+      {
+        "phase": "Cu4Ti",
+        "composition": {
+          "CU": 78.3,
+          "CR": 0.7,
+          "TI": 21.0
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.2,
+          "CR": 0.3,
+          "TI": 0.1
+        }
+      }
+    ],
+    "page": "PDF 9 (printed 397); methods PDF 2 (390)",
+    "table": "3",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_B5",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "B5",
+    "nominal_composition_original": "Cu74Cr9Ti17",
+    "composition": {
+      "CU": 74.0,
+      "CR": 9.0,
+      "TI": 17.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 973,
+    "temperature_unit": "K",
+    "temperature_C": 699.85,
+    "temperature_K": 973,
+    "annealing_time": "120 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "(Cu)",
+      "Cu4Ti",
+      "αTiCr2"
+    ],
+    "measured_phases": [
+      {
+        "phase": "(Cu)",
+        "composition": {
+          "CU": 96.7,
+          "CR": 0.9,
+          "TI": 2.4
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.2,
+          "CR": 0.2,
+          "TI": 0.2
+        }
+      },
+      {
+        "phase": "Cu4Ti",
+        "composition": {
+          "CU": 77.9,
+          "CR": 1.4,
+          "TI": 20.7
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.2,
+          "CR": 0.4,
+          "TI": 0.2
+        }
+      },
+      {
+        "phase": "αTiCr2",
+        "composition": {
+          "CU": 1.7,
+          "CR": 65.4,
+          "TI": 32.9
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.3,
+          "CR": 0.2,
+          "TI": 0.5
+        },
+        "structure": "C15; cF24; Cu2Mg prototype; Fd-3m (Table1 PDF3; allotropes PDF2)"
+      }
+    ],
+    "page": "PDF 9 (printed 397); methods PDF 2 (390)",
+    "table": "3",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_B6",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "B6",
+    "nominal_composition_original": "Cu12Cr70Ti18",
+    "composition": {
+      "CU": 12.0,
+      "CR": 70.0,
+      "TI": 18.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 973,
+    "temperature_unit": "K",
+    "temperature_C": 699.85,
+    "temperature_K": 973,
+    "annealing_time": "120 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "(Cu)",
+      "αTiCr2",
+      "(Cr)"
+    ],
+    "measured_phases": [
+      {
+        "phase": "(Cu)",
+        "composition": {
+          "CU": 94.5,
+          "CR": 3.2,
+          "TI": 2.3
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 1.1,
+          "CR": 0.8,
+          "TI": 0.4
+        }
+      },
+      {
+        "phase": "αTiCr2",
+        "composition": {
+          "CU": 1.5,
+          "CR": 66.1,
+          "TI": 32.4
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.3,
+          "CR": 0.2,
+          "TI": 0.4
+        },
+        "structure": "C15; cF24; Cu2Mg prototype; Fd-3m (Table1 PDF3; allotropes PDF2)"
+      },
+      {
+        "phase": "(Cr)",
+        "composition": {
+          "CU": 1.1,
+          "CR": 91.4,
+          "TI": 7.5
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": 0.6,
+          "TI": 0.4
+        }
+      }
+    ],
+    "page": "PDF 9 (printed 397); methods PDF 2 (390)",
+    "table": "3",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_B7",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "B7",
+    "nominal_composition_original": "Cu60Cr4Ti36",
+    "composition": {
+      "CU": 60.0,
+      "CR": 4.0,
+      "TI": 36.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 973,
+    "temperature_unit": "K",
+    "temperature_C": 699.85,
+    "temperature_K": 973,
+    "annealing_time": "120 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "(Cu, Cr)3Ti2",
+      "Cu4Ti",
+      "Cu4Ti3"
+    ],
+    "measured_phases": [
+      {
+        "phase": "(Cu, Cr)3Ti2",
+        "composition": {
+          "CU": 52.8,
+          "CR": 9.5,
+          "TI": 37.7
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.3,
+          "CR": 0.2,
+          "TI": 0.2
+        }
+      },
+      {
+        "phase": "Cu4Ti",
+        "composition": {
+          "CU": 78.0,
+          "CR": 0.2,
+          "TI": 21.8
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.6,
+          "CR": 0.1,
+          "TI": 0.5
+        }
+      },
+      {
+        "phase": "Cu4Ti3",
+        "composition": {
+          "CU": 56.3,
+          "CR": 0.5,
+          "TI": 43.2
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.3,
+          "CR": 0.2,
+          "TI": 0.5
+        }
+      }
+    ],
+    "page": "PDF 9 (printed 397); methods PDF 2 (390)",
+    "table": "3",
+    "figure": "8;9",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_B8",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "B8",
+    "nominal_composition_original": "Cu52Cr8Ti40",
+    "composition": {
+      "CU": 52.0,
+      "CR": 8.0,
+      "TI": 40.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 973,
+    "temperature_unit": "K",
+    "temperature_C": 699.85,
+    "temperature_K": 973,
+    "annealing_time": "120 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "Cu4Ti3",
+      "(Cu, Cr)3Ti2"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Cu4Ti3",
+        "composition": {
+          "CU": 55.7,
+          "CR": 1.6,
+          "TI": 42.7
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.2,
+          "CR": 0.2,
+          "TI": 0.1
+        }
+      },
+      {
+        "phase": "(Cu, Cr)3Ti2",
+        "composition": {
+          "CU": 50.4,
+          "CR": 10.7,
+          "TI": 38.9
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": 0.1,
+          "TI": 0.1
+        }
+      }
+    ],
+    "page": "PDF 9 (printed 397); methods PDF 2 (390)",
+    "table": "3",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_B9",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "B9",
+    "nominal_composition_original": "Cu42Cr19Ti39",
+    "composition": {
+      "CU": 42.0,
+      "CR": 19.0,
+      "TI": 39.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 973,
+    "temperature_unit": "K",
+    "temperature_C": 699.85,
+    "temperature_K": 973,
+    "annealing_time": "120 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "(Cu, Cr)3Ti2",
+      "τ1",
+      "αTiCr2"
+    ],
+    "measured_phases": [
+      {
+        "phase": "(Cu, Cr)3Ti2",
+        "composition": {
+          "CU": 48.9,
+          "CR": 12.2,
+          "TI": 38.9
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.5,
+          "CR": 0.6,
+          "TI": 0.3
+        }
+      },
+      {
+        "phase": "τ1",
+        "composition": {
+          "CU": 41.0,
+          "CR": 18.0,
+          "TI": 41.0
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.3,
+          "CR": 0.1,
+          "TI": 0.2
+        },
+        "normalized_phase_name": "TAU1"
+      },
+      {
+        "phase": "αTiCr2",
+        "composition": {
+          "CU": 4.5,
+          "CR": 60.4,
+          "TI": 35.1
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.6,
+          "CR": 0.5,
+          "TI": 0.2
+        },
+        "structure": "C15; cF24; Cu2Mg prototype; Fd-3m (Table1 PDF3; allotropes PDF2)"
+      }
+    ],
+    "page": "PDF 9 (printed 397); methods PDF 2 (390)",
+    "table": "3",
+    "figure": "8;9",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_B10",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "B10",
+    "nominal_composition_original": "Cu52Cr12Ti36",
+    "composition": {
+      "CU": 52.0,
+      "CR": 12.0,
+      "TI": 36.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 973,
+    "temperature_unit": "K",
+    "temperature_C": 699.85,
+    "temperature_K": 973,
+    "annealing_time": "120 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "(Cu, Cr)3Ti2",
+      "αTiCr2",
+      "Cu4Ti"
+    ],
+    "measured_phases": [
+      {
+        "phase": "(Cu, Cr)3Ti2",
+        "composition": {
+          "CU": 50.3,
+          "CR": 11.6,
+          "TI": 38.0
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": 0.2,
+          "TI": 0.2
+        }
+      },
+      {
+        "phase": "αTiCr2",
+        "composition": {
+          "CU": 1.9,
+          "CR": 64.1,
+          "TI": 34.0
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.3,
+          "CR": 0.3,
+          "TI": 0.2
+        },
+        "structure": "C15; cF24; Cu2Mg prototype; Fd-3m (Table1 PDF3; allotropes PDF2)"
+      },
+      {
+        "phase": "Cu4Ti",
+        "composition": {
+          "CU": 77.9,
+          "CR": 0.5,
+          "TI": 21.6
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.4,
+          "CR": 0.1,
+          "TI": 0.2
+        }
+      }
+    ],
+    "page": "PDF 9 (printed 397); methods PDF 2 (390)",
+    "table": "3",
+    "figure": "8;9",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_B11",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "B11",
+    "nominal_composition_original": "Cu12Cr3Ti85",
+    "composition": {
+      "CU": 12.0,
+      "CR": 3.0,
+      "TI": 85.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 973,
+    "temperature_unit": "K",
+    "temperature_C": 699.85,
+    "temperature_K": 973,
+    "annealing_time": "120 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "αTi",
+      "βTi",
+      "CuTi2"
+    ],
+    "measured_phases": [
+      {
+        "phase": "αTi",
+        "composition": {
+          "CU": 0.8,
+          "CR": 0.3,
+          "TI": 98.9
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": 0.1,
+          "TI": 0.1
+        }
+      },
+      {
+        "phase": "βTi",
+        "composition": {
+          "CU": 3.5,
+          "CR": 8.5,
+          "TI": 88.0
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": 0.2,
+          "TI": 0.2
+        }
+      },
+      {
+        "phase": "CuTi2",
+        "composition": {
+          "CU": 31.0,
+          "CR": 0.3,
+          "TI": 68.7
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": 0.1,
+          "TI": 0.1
+        }
+      }
+    ],
+    "page": "PDF 9 (printed 397); methods PDF 2 (390)",
+    "table": "3",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_B12",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "B12",
+    "nominal_composition_original": "Cu20Cr6Ti74",
+    "composition": {
+      "CU": 20.0,
+      "CR": 6.0,
+      "TI": 74.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 973,
+    "temperature_unit": "K",
+    "temperature_C": 699.85,
+    "temperature_K": 973,
+    "annealing_time": "120 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "βTi",
+      "CuTi2"
+    ],
+    "measured_phases": [
+      {
+        "phase": "βTi",
+        "composition": {
+          "CU": 30.7,
+          "CR": 0.5,
+          "TI": 68.8
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": 0.1,
+          "TI": 0.2
+        }
+      },
+      {
+        "phase": "CuTi2",
+        "composition": {
+          "CU": 3.6,
+          "CR": 11.2,
+          "TI": 85.2
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": 0.2,
+          "TI": 0.3
+        }
+      }
+    ],
+    "page": "PDF 9 (printed 397); methods PDF 2 (390)",
+    "table": "3",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied. Unresolved Table3 phase-to-composition order contradiction: βTi label assigned Cu30.7Cr0.5Ti68.8, CuTi2 label assigned Cu3.6Cr11.2Ti85.2; endpoints not swapped silently.",
+    "direct_eligible": false,
+    "exclusion_reason": "Unresolved Table3 phase-to-composition order contradiction: βTi label assigned Cu30.7Cr0.5Ti68.8, CuTi2 label assigned Cu3.6Cr11.2Ti85.2; endpoints not swapped silently."
+  },
+  {
+    "condition_id": "R3_TI_B13",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "B13",
+    "nominal_composition_original": "Cu52Cr7Ti41",
+    "composition": {
+      "CU": 52.0,
+      "CR": 7.0,
+      "TI": 41.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 973,
+    "temperature_unit": "K",
+    "temperature_C": 699.85,
+    "temperature_K": 973,
+    "annealing_time": "120 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "τ1",
+      "(Cu, Cr)3Ti2",
+      "Cu4Ti3"
+    ],
+    "measured_phases": [
+      {
+        "phase": "τ1",
+        "composition": {
+          "CU": 41.0,
+          "CR": 17.8,
+          "TI": 41.2
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.3,
+          "CR": 0.1,
+          "TI": 0.3
+        },
+        "normalized_phase_name": "TAU1"
+      },
+      {
+        "phase": "(Cu, Cr)3Ti2",
+        "composition": {
+          "CU": 51.0,
+          "CR": 9.9,
+          "TI": 39.1
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.5,
+          "CR": 0.6,
+          "TI": 0.3
+        }
+      },
+      {
+        "phase": "Cu4Ti3",
+        "composition": {
+          "CU": 55.9,
+          "CR": 1.5,
+          "TI": 42.6
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": 0.5,
+          "TI": 0.4
+        }
+      }
+    ],
+    "page": "PDF 9 (printed 397); methods PDF 2 (390)",
+    "table": "3",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_B14",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "B14",
+    "nominal_composition_original": "Cu52Cr3Ti45",
+    "composition": {
+      "CU": 52.0,
+      "CR": 3.0,
+      "TI": 45.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 973,
+    "temperature_unit": "K",
+    "temperature_C": 699.85,
+    "temperature_K": 973,
+    "annealing_time": "120 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "Cu4Ti3",
+      "CuTi"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Cu4Ti3",
+        "composition": {
+          "CU": 55.7,
+          "CR": 0.7,
+          "TI": 43.6
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.3,
+          "CR": 0.2,
+          "TI": 0.2
+        }
+      },
+      {
+        "phase": "CuTi",
+        "composition": {
+          "CU": 50.8,
+          "CR": 0.3,
+          "TI": 48.9
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 1.0,
+          "CR": 0.1,
+          "TI": 1.1
+        }
+      }
+    ],
+    "page": "PDF 9 (printed 397); methods PDF 2 (390)",
+    "table": "3",
+    "figure": "",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied.",
+    "direct_eligible": true,
+    "exclusion_reason": ""
+  },
+  {
+    "condition_id": "R3_TI_B15",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "B15",
+    "nominal_composition_original": "Cu57.5Cr1.5Ti41",
+    "composition": {
+      "CU": 57.5,
+      "CR": 1.5,
+      "TI": 41.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 973,
+    "temperature_unit": "K",
+    "temperature_C": 699.85,
+    "temperature_K": 973,
+    "annealing_time": "120 days",
+    "equilibration_status": "120-day anneal, but authors explicitly question kinetic completeness",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "Cu4Ti",
+      "Cu4Ti3"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Cu4Ti",
+        "composition": {
+          "CU": 78.2,
+          "CR": 0.2,
+          "TI": 21.6
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.2,
+          "CR": 0.1,
+          "TI": 0.3
+        }
+      },
+      {
+        "phase": "Cu4Ti3",
+        "composition": {
+          "CU": 55.6,
+          "CR": 1.6,
+          "TI": 42.8
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.2,
+          "CR": 0.2,
+          "TI": 0.3
+        }
+      }
+    ],
+    "page": "PDF 9 (printed 397); methods PDF 2 (390)",
+    "table": "3",
+    "figure": "10",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied.",
+    "direct_eligible": false,
+    "exclusion_reason": "PDF8 (396) explicitly raises sluggish peritectoid formation/nucleation and requests longer annealing for absent Cu3Ti2; strict equilibrium not established."
+  },
+  {
+    "condition_id": "R3_TI_B16",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "B16",
+    "nominal_composition_original": "Cu60Ti40",
+    "composition": {
+      "CU": 60.0,
+      "TI": 40.0,
+      "CR": 0.0
+    },
+    "composition_basis": "at.%",
+    "temperature_original": 973,
+    "temperature_unit": "K",
+    "temperature_C": 699.85,
+    "temperature_K": 973,
+    "annealing_time": "120 days",
+    "equilibration_status": "long-annealed equilibrium alloy as reported",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "OM; SEM; EPMA; XRD (typical alloys)",
+    "phases": [
+      "Cu3Ti2",
+      "Cu4Ti"
+    ],
+    "measured_phases": [
+      {
+        "phase": "Cu3Ti2",
+        "composition": {
+          "CU": 60.0,
+          "CR": 0.0,
+          "TI": 40.0
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": null,
+          "TI": 0.1
+        }
+      },
+      {
+        "phase": "Cu4Ti",
+        "composition": {
+          "CU": 78.0,
+          "CR": 0.0,
+          "TI": 22.0
+        },
+        "basis": "at.%",
+        "reported_uncertainty": {
+          "CU": 0.1,
+          "CR": null,
+          "TI": 0.1
+        }
+      }
+    ],
+    "page": "PDF 9 (printed 397); methods PDF 2 (390)",
+    "table": "3",
+    "figure": "11",
+    "source_evidence_note": "Primary experimental alloy row; measured means retained without renormalization. Nominal formula interpreted in atomic percent consistently with EPMA table and at.% isothermal axes (Figures6/12); Ti supplement not supplied.",
+    "direct_eligible": false,
+    "exclusion_reason": "Binary Cu–Ti control with Cr=0, outside requested ternary direct validation; qualitative binary support only."
+  },
+  {
+    "condition_id": "R3_TI_DT_1073K",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "DT_1073K",
+    "nominal_composition_original": "Cu/Cr/Ti diffusion triple; separate pure-metal bricks",
+    "composition": null,
+    "composition_basis": "UNKNOWN",
+    "temperature_original": 1073,
+    "temperature_unit": "K",
+    "temperature_C": 799.85,
+    "temperature_K": 1073,
+    "annealing_time": "30 days",
+    "equilibration_status": "local equilibrium assumed at interfaces; not a homogeneous bulk alloy",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "SEM/BSE; EPMA line scans",
+    "phases": [
+      "(Cu)",
+      "(Cr)",
+      "αTiCr2",
+      "βTi",
+      "CuTi2",
+      "CuTi",
+      "Cu4Ti3",
+      "Cu3Ti2",
+      "Cu4Ti",
+      "(Cu, Cr)3Ti2",
+      "τ1"
+    ],
+    "measured_phases": [],
+    "page": "PDF 4 (printed 392); methods PDF 2 (390)",
+    "table": "",
+    "figure": "3",
+    "source_evidence_note": "One independent diffusion-triple/temperature condition, phases across entire diffusion region are NOT one coexisting phase set. Pure bricks bonded after Cu/Ti 1073K 8h preanneal. No numerical tie-line endpoints tabulated independently of alloy tables; no plotted digitization or schematic extrapolation accepted. At973K Cu3Ti2 absent, kinetics/cracks/holes acknowledged. At1073K Fig3c detects τ1+CuTi+Cu4Ti3 but PDF8 calls this region assumed; contradiction retained.",
+    "direct_eligible": false,
+    "exclusion_reason": "No homogeneous exact nominal bulk composition; measured local endpoints must not substitute for bulk alloy composition."
+  },
+  {
+    "condition_id": "R3_TI_DT_973K",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "DT_973K",
+    "nominal_composition_original": "Cu/Cr/Ti diffusion triple; separate pure-metal bricks",
+    "composition": null,
+    "composition_basis": "UNKNOWN",
+    "temperature_original": 973,
+    "temperature_unit": "K",
+    "temperature_C": 699.85,
+    "temperature_K": 973,
+    "annealing_time": "60 days",
+    "equilibration_status": "local equilibrium assumed at interfaces; not a homogeneous bulk alloy",
+    "cooling_condition": "ice-water mixture quench",
+    "characterization": "SEM/BSE; EPMA line scans",
+    "phases": [
+      "(Cu)",
+      "(Cr)",
+      "αTiCr2",
+      "αTi",
+      "βTi",
+      "CuTi2",
+      "CuTi",
+      "Cu4Ti3",
+      "Cu4Ti",
+      "(Cu, Cr)3Ti2",
+      "τ1"
+    ],
+    "measured_phases": [],
+    "page": "PDF 8 (printed 396); methods PDF 2 (390)",
+    "table": "",
+    "figure": "7",
+    "source_evidence_note": "One independent diffusion-triple/temperature condition, phases across entire diffusion region are NOT one coexisting phase set. Pure bricks bonded after Cu/Ti 1073K 8h preanneal. No numerical tie-line endpoints tabulated independently of alloy tables; no plotted digitization or schematic extrapolation accepted. At973K Cu3Ti2 absent, kinetics/cracks/holes acknowledged. At1073K Fig3c detects τ1+CuTi+Cu4Ti3 but PDF8 calls this region assumed; contradiction retained.",
+    "direct_eligible": false,
+    "exclusion_reason": "No homogeneous exact nominal bulk composition; measured local endpoints must not substitute for bulk alloy composition."
+  },
+  {
+    "condition_id": "R3_TI_TAU1_STRUCTURE_1173K",
+    "source_id": "S5_TI",
+    "system": "Cu–Cr–Ti",
+    "X_identity": "TI",
+    "alloy_id": "TAU1_STRUCTURE_1173K",
+    "nominal_composition_original": "Cu46Cr13Ti41",
+    "composition": {
+      "CU": 46.0,
+      "CR": 13.0,
+      "TI": 41.0
+    },
+    "composition_basis": "UNKNOWN",
+    "temperature_original": 1173,
+    "temperature_unit": "K",
+    "temperature_C": 899.85,
+    "temperature_K": 1173,
+    "annealing_time": "not reported",
+    "equilibration_status": "structure sample, equilibrium not established",
+    "cooling_condition": "not reported",
+    "characterization": "XRD preliminary indexing described; cited Figure S1 unavailable",
+    "phases": [
+      "τ1"
+    ],
+    "measured_phases": [],
+    "page": "PDF11 (printed399), Section5",
+    "table": "",
+    "figure": "S1 (not supplied)",
+    "source_evidence_note": "Main text says mainly τ1, not pure single phase. No unidentified minority phase invented. τ1 literal Greek tau, not sigma; extracted PDF font s1 is not phase name.",
+    "direct_eligible": false,
+    "exclusion_reason": "1173K structure sample lacks reported annealing duration/equilibration, explicit composition basis and complete phase set."
+  }
+]

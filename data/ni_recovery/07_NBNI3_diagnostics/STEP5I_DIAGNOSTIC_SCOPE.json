@@ -1,0 +1,49 @@
+{
+  "generated_utc": "2026-09-07T06:01:18+00:00",
+  "label": "POST-BLIND DESCRIPTIVE ANALYSIS (spec 37-41)",
+  "may_explain_recovery": true,
+  "may_alter_anchor_selection": false,
+  "targeted_anchor_design_performed": false,
+  "shargh_style_targeted_augmentation_performed": false,
+  "low_order_binary_ni_study_performed": false,
+  "dft_used": false,
+  "nbni3_mapping": "NBNI3 -> OTHER_SOLID, frozen at STEP5H-B and unchanged here",
+  "strata": {
+    "TRUE_TOPOLOGY": [
+      "FCC",
+      "OTHER_SOLID"
+    ],
+    "NBNI3_STATUS": [
+      "NBNI3_PRESENT",
+      "NBNI3_ABSENT"
+    ],
+    "TEMPERATURE_REGIME": {
+      "LOW_T": [
+        300,
+        350,
+        400,
+        450,
+        500,
+        600
+      ],
+      "HIGH_T": [
+        700,
+        800,
+        900,
+        950,
+        1000
+      ]
+    }
+  },
+  "recovery_subset_composition": {
+    "n_states": 15400,
+    "n_NBNI3_present": 6019,
+    "n_NBNI3_absent": 9381,
+    "true_topology_counts": {
+      "FCC": 11024,
+      "OTHER_SOLID": 4376
+    },
+    "n_LOW_T": 8400,
+    "n_HIGH_T": 7000
+  }
+}

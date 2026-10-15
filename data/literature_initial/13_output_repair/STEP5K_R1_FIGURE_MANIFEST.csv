@@ -1,0 +1,8 @@
+figure_id,figure_file,source_csv,exists,source_exists,generated_from_frozen_FULLV1,notes
+Fig_R1_01,Fig_R1_01_Zr_phase_map.png,Fig_R1_01_Zr_phase_map_data.csv,1,1,1,phase map from frozen FULL_V1 state tables
+Fig_R1_02,Fig_R1_02_Ti_phase_map.png,Fig_R1_02_Ti_phase_map_data.csv,1,1,1,phase map from frozen FULL_V1 state tables
+Fig_R1_03,Fig_R1_03_Co_phase_map.png,Fig_R1_03_Co_phase_map_data.csv,1,1,1,phase map from frozen FULL_V1 state tables
+Fig_R1_04,Fig_R1_04_Si_phase_map.png,Fig_R1_04_Si_phase_map_data.csv,1,1,1,phase map from frozen FULL_V1 state tables
+Fig_R1_05,Fig_R1_05_Ag_phase_map.png,Fig_R1_05_Ag_phase_map_data.csv,1,1,1,phase map from frozen FULL_V1 state tables
+Fig_R1_06,Fig_R1_06_Mo_phase_map.png,Fig_R1_06_Mo_phase_map_data.csv,1,1,1,phase map from frozen FULL_V1 state tables
+Fig_R1_07,Fig_R1_07_cross_family_topology_map.png,Fig_R1_07_cross_family_topology_map_data.csv,1,1,1,phase map from frozen FULL_V1 state tables

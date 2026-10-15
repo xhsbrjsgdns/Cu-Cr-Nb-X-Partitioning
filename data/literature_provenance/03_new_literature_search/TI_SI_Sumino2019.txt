@@ -1,0 +1,381 @@
+
+=== PDF PAGE 1 ===
+1．緒言
+将来的な自動運転化にともなう自動車の電装化を背景
+に、電子機器の外部接続コネクタの小型化や電子機器の
+性能向上により端子に通電される電流密度が増加してい
+る．このような技術変化に対応するには、通電に伴う発
+熱を抑制する導電率や端子接点を良好に維持するための
+強度や耐応力緩和特性を有した銅合金が必要となる．
+これまでに導電率80％IACS を有し550MPa 程度の中
+強度を兼備したCu-Cr系合金が実用化されており、主に
+自動車用端子や半導体リードフレーム材として使用され
+ている1）2）．Cu-Cr 系合金の研究では、Zr を添加し強ひ
+ずみ加工した場合の組織変化調査、また析出物と機械的
+性質の関係が報告されている3）4）．一方、Zr よりも酸化
+物の標準生成エネルギー5）が低いことから、添加時や溶
+解鋳造中の酸化滅失を抑制し成分を安定化させやすいと
+思われるTi やSi の機械的特性への影響、析出物の種類、
+および析出挙動に関する報告はない．またTi やSi は、
+Crと添加した場合に2元状態図6）からCr2TiやCr3Siの析
+出が期待され析出強化が望める．
+そこで、本研究では、Cu-Cr 系にTi やSi を添加した
+場合の機械的特性の変化と析出物の相関を調査した．
+2．実験方法
+本研究に用いた合金組成をTable 1 に示す．いずれの
+合金もCr 含有量0.3at％に揃うように添加した．合金2
+と合金3 はCr 以外にそれぞれTi とSi を添加した．大気
+中にて溶解・鋳造し、1223 K にて30 min. 以上の均一化
+処理後、熱間圧延にて板厚20 mmまで圧延し水冷を行っ
+た．引き続き、板厚2 mm まで冷間圧延を行い、1223 K
+にて1 時間の溶体化処理を実施した．さらに冷間圧延に
+て板厚0.2 mm（加工率90％）とした．その後、723 K の
+［ 論文 ］
+Cu-Cr系合金の析出挙動に及ぼすTiおよびSiの影響
+株式会社神戸製鋼所　アルミ・銅事業部門　長府製造所　銅板工場　銅板研究室　主任研究員 　　　隅　野　裕　也
+株式会社神戸製鋼所　アルミ・銅事業部門　長府製造所　銅板工場　銅板研究室　主任研究員 　　　野　村　幸　矢
+株式会社神戸製鋼所　アルミ・銅事業部門　長府製造所　銅板工場　銅板研究室　室長 　　　坂　本　　　浩
+Effects of Ti and Si on Precipitation Behavior of Cu-Cr Based Alloy
+ 
+Research & Developing Section, Copper Rolled Products Plant CHOFU WORKS, Aluminum & Copper Business, 
+ 
+KOBE STEEL, LTD., Senior Researcher 
+ Yuya Sumino
+ 
+Research & Developing Section, Copper Rolled Products Plant CHOFU WORKS, Aluminum & Copper Business, 
+ 
+KOBE STEEL, LTD., Senior Researcher 
+ Koya Nomura
+ 
+Research & Developing Section, Copper Rolled Products Plant CHOFU WORKS, Aluminum & Copper Business, 
+ 
+KOBE STEEL, LTD., Manager 
+ Hiroshi Sakamoto
+（Received March 19, 2019 ; Accepted April 2, 2019）
+The effects of Ti or Si addition on precipitation of Cu-Cr based alloy were studied with hardness, 
+electrical conductivity and microstructure. As a result of aging at 723K after 90％ cold rolling, Ti added Cu-
+Cr-Ti based alloy has higher increment of hardness than Cu-Cr based alloy and Cu-Cr-Si based alloy. 
+Microstructures of Cu-Cr based alloy and Cu-Cr-Ti based alloy were observed by transmission electron 
+microscope. Cr system precipitate of up to 15 nm was observed in Cu-Cr based alloy. In the case of Cu-Cr-
+Ti based alloy, Cr-Ti based precipitate of up to 5 nm was observed, too. Number density of precipitate in 
+Cu-Cr-Ti based alloy is about 5 times bigger than Cu-Cr based alloy.
+Keywords:  Cu-Cr based alloy, Cr system precipitate, Transmission Electron Microscope
+＊
+＊〒752－0953　山口県下関市長府港町14番1号
+Tel：083－246－1220　　Fax：083－246－1219
+E－mail：sumino.yuya@kobelco.com
+銅と銅合金 第58巻1号（2019）
+Journal of Japan Institute of Copper Vol.58 No.1 （2019）
+−64−
+
+
+=== PDF PAGE 2 ===
+ソルトバス（硝酸ナトリウム：硝酸カリウム＝1：1）に
+て時効処理を行い供試材とした．溶体化処理後の再結晶
+粒組織および固溶状態を調査するため、厚さ2 mm の溶
+体化処理材の導電率をシグマテスターで測定した．また
+圧延方向に対し平行断面をCCD で観察し板厚方向に切
+断法にて結晶粒度を測定した．
+合金1〜3より、圧延方向に対し平行方向を長手に長さ
+180 mm、幅 10 mmの試料を切り出し、荷重500 gfにて
+マイクロビッカース硬さ（Akashi 社製HM-112）、ダブ
+ルブリッジを用いた四端子法にて導電率（YOKOGAWA
+社製2752）を測定した．また時効後の合金について、結
+晶粒組織の評価を目的にSEM（日本電子製JSM-7800F）
+による組織観察とSEM 付属のEBSD（TSL 社製）で結晶
+粒度測定を行った．析出物のサイズ、および析出物の定
+性評価には、TEM（日本FEI 社製Talos F200X）とTEM
+付属のEDX（日本FEI 社製）を用いた．さらに熱的安定
+性を評価するため熱分析（NETZSCH 社製DSC404F3）を
+行った．SEM 観察は、圧延方向に対し平行断面をイオ
+ン加工（日本電子製SM-09010）した後、板厚中央付近に
+て行った．TEM 観察は、板厚中央付近まで圧延面より
+ツインジェット法にて研磨したものを観察用試料とし加
+速電圧200 kVにて行った．
+3．実験結果および考察
+3.1　溶体化処理材の特性
+溶体化処理材の結晶粒度および導電率を測定した結果
+をTable 2 に示す．導電率はシグマテスター実測値を
+Measured の項に、リンデの法則による計算値を
+Calculated の項に記載した．いずれの合金も結晶粒径が
+100 μm以上の再結晶組織となっていた．
+リンデ則によれば抵抗率は固溶元素の量に従い線形的
+に増加する7）．したがって、添加元素が全て固溶した場
+合の抵抗率Rは以下の式で算出できる．
+R＝R0＋ΔRCr＋ΔRTi＋ΔRSi
+ここで、R0 は標準軟銅の体積抵抗率（1.7241 μΩ・cm）、
+ΔRCr、ΔRTi およびΔ RSi はCr、Ti およびSi のat％に対
+する抵抗率の増加量を示しそれぞれ4.1Cr（μΩ・cm）、
+16Ti（μΩ・cm）および3.1Si（μΩ・cm）を使用した．実測
+した導電率は、計算値と概ね一致し、Cr、Ti およびSi
+は固溶していると推定した．
+3.2　時効処理後の特性
+板厚0.2 mm まで冷間圧延を施した後、723K 等温時効
+を行った際の硬さと導電率の変化をFig. 1 に示す．硬さ
+は、合金組成により挙動が異なる．合金1 は、100 秒で
+低下を示した後900 秒でピーク値となり、その後急激に
+低下する．Si を添加した合金3 は、100 秒から増加し900
+秒でピーク値となったのち軟化する．硬さ変化は、合金
+1 とほぼ同様であるが軟化量は著しく抑制されている．
+Ti を添加した合金2 についても、100 秒から増加を示す．
+しかし、合金1および合金3と比較すると急激に増加する．
+その後、合金1 および合金3 よりも長時間側の3600 秒で
+合金3 よりも約1.2 倍高いピーク値となる．一方、導電
+Table 1　Chemical compositions of the alloy 1〜3 in atomic percent.
+Cu
+Cr
+Ti
+Si
+Alloy 1
+Rem.
+0.26
+trace
+trace
+Alloy 2
+Rem.
+0.29
+0.16
+trace
+Alloy 3
+Rem.
+0.28
+trace
+0.21
+Table 2　Grain size and electrical conductivity after solution treatment.
+Grain size, d / μm
+Electrical conductivity / %IACS
+Measured
+Calculated
+Alloy 1
+251
+51
+62
+Alloy 2
+385
+35
+32
+Alloy 3
+127
+45
+49
+0
+20
+40
+60
+80
+100
+1
+100
+10000
+Electrical conductivity / %IACS
+Aging time, t / s
+18007
+18008
+18010
+50
+100
+150
+200
+1
+100
+10000
+s
+r
+e
+k
+ci
+V
+s
+s
+e
+n
+d
+r
+a
+h
+Aging time, t / s
+18007
+18008
+18010
+//
+Alloy 1
+Alloy 2
+Alloy 3
+Alloy 1
+Alloy 2
+Alloy 3
+//
+//
+//
+//
+As rolled
+As rolled
+(a)
+(b)
+Fig. 1　 Hardness curves electrical conductivity curves of the alloy 1〜3 
+specimens isothermally annealed at 723K.
+Alloy 2
+Alloy 1
+Alloy 3
+Exo. →
+Fig. 2　 DSC curves of the alloy 1〜3 specimens aged at Vickers hardness 
+peak condition.
+銅と銅合金 第58巻1号（2019）
+Journal of Japan Institute of Copper Vol.58 No.1 （2019）
+−65−
+
+
+=== PDF PAGE 3 ===
+率は、いずれの合金も100 秒では増加しないが100 秒を
+超えると急激に増加し、合金1 は3600 秒以上、合金2 お
+よび合金3 は900 秒以上で増加が緩やかになる．導電率
+の増加傾向から、100 秒を超えてからの硬さ上昇は、析
+出によるものと考えられる．また、導電率の増加が緩や
+かになる時間において、いずれの合金も急激な軟化が開
+始しており、析出物の粗大化が生じていることが推定さ
+れる．
+硬さがピーク値となる条件にて時効を行った供試材
+（以下、ピーク時効材）のDSC 曲線をFig. 2 に示す．測
+定は、Ar 雰囲気にて室温から1173K まで昇温速度10K/
+分にて行った．Fig. 2 中の矢印は発熱反応が認められた
+部位を示す．合金2 および合金3 は、合金1 よりも高温
+側に発熱ピークが認められる．Ti またはSi の添加は、
+加工転位の回復温度の上昇や析出物の再固溶温度の上昇
+に寄与している可能性がある．
+Alloy
+Alloy 1
+Alloy 2
+Aging condition
+900s at 723K
+3600s at 723K
+BSE image
+G.S. / μm
+20.4
+21.7
+10μm
+10μm
+Rolling Direction
+Rolling Direction
+Fig. 3　SEM images of the alloy 1, 2 specimens after heating at 723K for（Alloy 1）900s and（Alloy 2）3600s.
+Fig. 4　TEM images of the alloy 1, 2 specimens after heating at 723K for（Alloy 1）900s and（Alloy 2）3600s.
+銅と銅合金 第58巻1号（2019）
+Journal of Japan Institute of Copper Vol.58 No.1 （2019）
+−66−
+
+
+=== PDF PAGE 4 ===
+3.3.　内部組織観察
+ピーク時効を施した合金1 および合金2 のSEM 組織観
+察像をFig. 3 に示す．いずれの合金も圧延方向に伸長し
+た組織が観察され、再結晶粒は認められない．EBSD に
+よる方位差角度が5 度以上の場合を結晶粒界とし、観察
+範囲50 μm×75 μm の面積寄与率に基づく加重平均法で
+算出した結晶粒径は、合金1 が20.4 μm、合金2 が
+21.7 μmと同等であった．
+同様の試料を用いTEM にて観察した結果をFig. 4 に
+示す．観察部位の膜厚は約100 nm である．合金1 は球
+状のCr 系析出物の形成が確認されたのに対し、合金2
+は合金1 よりも明らかにサイズが小さいCr-Ti 系の析出
+物が観察された．観察結果より、析出物のサイズおよび
+数密度を見積もった結果を図中に示す．Ti を添加する
+ことにより、析出物サイズは約1/3 に小さくなり、数密
+度は約5 倍に増加した．析出物が母相よりも硬い場合、
+分散強化として作用し析出物の間隔が狭くなると
+Orowan応力が増加する．純Crの硬さは、130Hvである8）．
+時効処理により、加工ひずみが消滅し、固溶元素が減少
+した母相と比較すると純Cr の硬さは同等以上と思われ
+る．合金に観察されたCr 系析出物が分散強化として作
+用すると仮定すると、合金2 は析出物が微細に分散され
+ることにより、転位と析出物の相互作用が高くなり硬さ
+が増加したと考えられる．
+Fig. 4 には、観察された任意の析出物に電子線を収束
+させ回折図形を取得した結果も示す．回折点は、FCC
+の場合はh、k、l の3 つの指数がすべて偶数もしくは奇
+数の場合に、BCC の場合は3 つの指数の合計が偶数の場
+合に反射し、それ以外の場合には反射は消滅する9）．合
+金1は、実線矢印で示すFCCの格子点および破線矢印で
+示すBCC の格子点が認められる．TEM 観察結果より、
+BCC はCr 析出物と考える．一方、合金2 は、FCC と
+BCC の格子点に加え、奇数と偶数の指数が混合してい
+る（0 1 0）および（0 0 -1）も観察された．これは、Ti添
+加によりBCC 構造のCr と異なるCu-Ti 析出物の発現の
+可能性、またCr 析出物の結晶構造が乱されている可能
+性があると推定する．格子定数の比較調査や析出条件の
+異なるサンプルでの観察を行い詳細な解析が今後の課題
+である．
+3.4.　析出物分散状態と特性の関係
+Fig. 1 に示したように、ピーク時効材の硬さは、Ti を
+添加した合金2 の方が硬く、また増加量も大きい．時効
+処理で形成される析出物と強度増加の関係には、一般的
+にCutting 機構、Orowan 機構がある．前者は、析出物
+の体積分率が大きいほど、後者は体積分率が大きいほど
+または析出物半径が小さいほど影響が大きいことが報告
+されている10）．そこで、時効により形成される析出物を
+サンプル1 はCr 単体、サンプル2 はCr3Ti と仮定し、時
+効前後の導電率変化からリンデの法則を用い体積分率を
+見積もった．結果をTable 3 に示す．Ti を添加したサン
+プル2 の方がサンプル1 よりも約10％であるが体積分率
+が大きい傾向である．サンプル2 は、析出物のサイズが
+サンプル1 よりも1/3 程度小さいこと、また体積分率が
+若干大きいことにより硬さが増加していると推定する．
+4．まとめ
+（1） Cu-Cr 系合金にTi またはSi を添加することにより、
+時効後のピーク硬さが向上した．Cu-Cr-Ti 系合金
+が最も硬くなり、また時効前からの硬さ増加量も最
+も大きい．
+（2） TEM 観察の結果、Ti 添加材はCu-Cr 合金よりも析
+出物のサイズが約1/3 に小さくなり、数密度は約5
+倍に増加した組織が認められ、EDX からCr-Ti が検
+出された．
+（3） 回折パターンより析出物の同定を行いTi添加材には
+BCC構造と異なる回折点が認められた．
+（4） 時効処理前後の導電率変化より析出物の体積分率と
+硬さの相関を見積もった結果、Ti 添加材の方が若干
+であるが体積分率が大きい傾向が認められた．
+参考文献
+ 1） 浅井真人，大山好正，佐藤力：伸銅技術研究開始，
+27（1988），109–114．
+ 2） 藤井恵人，松尾亮佑，樋口優：古河電工時報，135（平
+成28年），31–35．
+ 3） 森正澄，結城典夫：銅と銅合金，46（1）（2007），7–11．
+ 4） 大竹祐輔，北川和夫，北和久，高田尚記，辻伸泰，青
+木庄治：銅と銅合金，46（1）（2007），142–147．
+ 5） 金属データブック 改定4版 日本金属学会編，106．
+ 6） Thaddeus B．Massalski，Joanne L．Murray，
+Lawrence H．Bennett and Hugh Baker：BINARY 
+ALLOY PHASE DIAGRAMS．
+ 7） 銅と技術，1（3）（1965），2–19．
+ 8） 金属材料の辞典，朝倉書店，520付録
+ 9） 橋本功二，浅見勝彦：表面技術，52（11）（2001），
+738–739．
+10） 高木節雄ら：鉄鋼の析出制御メタラジー最前線，日
+本鉄鋼協会，材料の組織と特性部会，析出制御メタ
+ラジー研究会，（2001），69-80．
+Table 3　Calculation of volume fraction of precipitate after ageing.
+Aging 
+condition
+Electrical conductivity
+/ %IACS
+Precipitate
+size / nm
+Volume
+fraction / %
+Before aging
+After aging
+Alloy 1
+900s
+at 723K
+51
+76
+~ 15
+0.27
+Alloy 2
+3600s
+at 723K
+35
+57
+~ 5
+0.30
+銅と銅合金 第58巻1号（2019）
+Journal of Japan Institute of Copper Vol.58 No.1 （2019）
+−67−

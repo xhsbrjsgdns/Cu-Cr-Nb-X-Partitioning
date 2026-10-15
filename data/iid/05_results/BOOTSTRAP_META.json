@@ -1,0 +1,8 @@
+{
+  "generated_utc": "2026-09-04T18:08:33+00:00",
+  "n_replicates": 1000,
+  "seed": 20260904,
+  "scheme": "composition-level cluster bootstrap over IID_TEST compositions; all temperature rows of each sampled composition travel together",
+  "n_compositions": 5250,
+  "n_rows": 57571
+}

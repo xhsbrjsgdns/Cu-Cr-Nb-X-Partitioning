@@ -1,0 +1,165 @@
+{
+  "stage": "STEP5E_XPART_REMEDY_V1",
+  "title": "Preregistered retrospective X-partition remedy study",
+  "preregistered_utc": "2026-09-05T16:44:55+00:00",
+  "terminology": "<!--TERMINOLOGY_DISCLAIMER--> This is a RETROSPECTIVE remedy / retrospective few-shot recovery study. ZR/TI/CO/SI/AG/MO targets historically exist and were evaluated in STEP5C; nothing here is prospective, blind, or never-seen. The prospective blind unseen-element test (Ni) remains sealed and is NOT part of STEP5E. <!--/TERMINOLOGY_DISCLAIMER-->",
+  "primary_task_only": "X partition (spec 12); presence/fraction/Cr/Nb are NOT retrained",
+  "folds": [
+    "FOLD_ZR",
+    "FOLD_TI",
+    "FOLD_CO",
+    "FOLD_SI",
+    "FOLD_AG",
+    "FOLD_MO"
+  ],
+  "fold_data_source": "STEP5C LOEO_MASTER_FOLD_MANIFEST.csv roles reused verbatim; features from the frozen STEP5A candidate parquet (Domain A only)",
+  "frozen_zero_shot_references": {
+    "Z0_TREE_DIRECT": "STEP5C FOLD_<X>_HELDOUT_PREDICTIONS.parquet X_P_*_proj (never refit)",
+    "Z1_MLP_DIRECT": "STEP5D 07_model_bias_diagnostic/FOLD_<X>/DIAGNOSTIC_HELDOUT_PREDICTIONS.parquet MLP_* columns (never refit)"
+  },
+  "candidate_branches": {
+    "Z2": "affinity-enhanced direct XGBoost (STEP5C fold XGB hyperparameters)",
+    "Z3": "topology-first XGBoost on original fold features",
+    "Z4": "affinity-enhanced topology-first XGBoost",
+    "Z5": "affinity-enhanced direct MLP 128/64/5"
+  },
+  "affinity_descriptors": {
+    "source": "matminer Miedema featurizer (deterministic implementation of Miedema's model with the de Boer et al. 1988 parameter tables, shipped inside matminer)",
+    "quantity": "Miedema_deltaH_inter at equiatomic 50:50 composition (intermetallic formation enthalpy, Miedema model)",
+    "unit": "eV/atom",
+    "composition_definition": "equiatomic 50:50 binary, identical for all six X and all three base partners (spec 21)",
+    "required_pairs": [
+      "X-Cu",
+      "X-Cr",
+      "X-Nb"
+    ],
+    "features": {
+      "A1": "H_XCu",
+      "A2": "H_XCr",
+      "A3": "H_XNb",
+      "A4": "H_XCr - H_XCu",
+      "A5": "H_XNb - H_XCu",
+      "A6": "H_XNb - H_XCr",
+      "A7": "min(H_XCu,H_XCr,H_XNb)",
+      "A8": "max(...)",
+      "A9": "range(...)"
+    },
+    "sign_convention": "taken verbatim from the source; no absolute values",
+    "ni_rule": "the matminer parameter table may contain Ni; Ni pairs are NEVER queried; descriptor table contains only ZR TI CO SI AG MO (spec 23)",
+    "filtering": "finite + constant + exact-duplicate check only; no heldout-aware selection; no new PCC (spec 27)"
+  },
+  "affinity_feature_filtering": "finite/constant/exact-duplicate only (spec 27)",
+  "topology_first": {
+    "principle": "96.696% of summed X-partition TVD comes from wrong-dominant-topology states (STEP5D frozen finding); hierarchical target formulation",
+    "stage1_target": "dominant family = argmax of TRUE X-partition vector over the five core families; labels from FOLD_TRAIN only (spec 32)",
+    "classifier": "XGBoost multiclass, fixed family; preregistered validation-only grid: [{'n_estimators': 300, 'max_depth': 6, 'learning_rate': 0.05}, {'n_estimators': 300, 'max_depth': 6, 'learning_rate': 0.1}, {'n_estimators': 300, 'max_depth': 8, 'learning_rate': 0.05}, {'n_estimators': 300, 'max_depth': 8, 'learning_rate': 0.1}, {'n_estimators': 600, 'max_depth': 6, 'learning_rate': 0.05}, {'n_estimators': 600, 'max_depth': 6, 'learning_rate': 0.1}, {'n_estimators': 600, 'max_depth': 8, 'learning_rate': 0.05}, {'n_estimators': 600, 'max_depth': 8, 'learning_rate': 0.1}] selected on fold-validation multiclass macro F1 (spec 33)",
+    "stage2": "topology-conditional XGBoost regressor per dominant class k (same hyperparameters as Z2), trained on FOLD_TRAIN states with true dominant topology == k (spec 35)",
+    "expert_support_thresholds": {
+      "min_training_compositions": 100,
+      "min_training_states": 500,
+      "else": "global direct-regressor fallback (original features, Z2 hyperparameters)"
+    },
+    "routing": "hard routing: predict dominant topology -> route to the conditional regressor -> simplex projection (spec 37)",
+    "oracle": "ORACLE_TOPOLOGY_CONDITIONAL routes with TRUE topology; labelled DIAGNOSTIC_ORACLE, excluded from candidate ranking (spec 39-40)"
+  },
+  "mlp_architecture": {
+    "layers": [
+      128,
+      64,
+      5
+    ],
+    "activations": "ReLU/ReLU/linear",
+    "scaler": "StandardScaler on FOLD_TRAIN only",
+    "learning_rate_candidates": [
+      0.0001,
+      0.0003,
+      0.001
+    ],
+    "selection": "fold-validation only",
+    "max_epochs": 200,
+    "early_stopping_patience": 15
+  },
+  "simplex_projection": "clip negatives to 0; renormalize to sum 1; sum==0 -> fold-train mean simplex; never uses held-out labels (spec 30)",
+  "zero_shot_primary_metrics": [
+    "mean_tvd",
+    "median_tvd",
+    "p95_tvd",
+    "macro_mae",
+    "topology_accuracy",
+    "topology_macro_f1",
+    "positive-skill folds vs fold-train trivial",
+    "per-fold mean_tvd for every branch (spec 61: never average-only)"
+  ],
+  "zero_shot_selection_rule": {
+    "primary": "lowest 6-fold mean TVD among Z0..Z5",
+    "guardrail": "candidate must beat the fold-train trivial baseline on >=3/6 folds AND mean topology accuracy must not be below Z0's",
+    "fallback": "if the lowest-TVD candidate fails the guardrail, take the lowest-TVD candidate satisfying it; if none does, keep the Z0/Z1 baseline that better satisfies the rule",
+    "fixed_before_any_heldout_metric": true,
+    "purpose": "this selection defines the FUTURE Ni zero-shot pipeline; few-shot results never influence it (spec 43)"
+  },
+  "few_shot": {
+    "purpose": "answer whether the failure is caused by missing direct chemical anchors; NOT the final Ni model (spec 44, 78)",
+    "split_rule": "for each held-out element, order its 5,250 Domain-A compositions by SHA256('{element}|{composition_id}|20260908') ascending; the lowest 30% (~1575) = CALIBRATION_POOL, the remaining 70% (~3675) = RETROSPECTIVE_RECOVERY_EVAL; verified at freeze time (spec 46)",
+    "eval_terminology": "RECOVERY_EVAL is only the internal non-calibration subset; it is NOT historically untouched (STEP5C evaluated it) (spec 47)",
+    "budgets": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32
+    ],
+    "nested": true,
+    "each_composition": "all available temperature rows enter calibration together; MO@950 failures not interpolated (spec 48)",
+    "random_strategy": "3 independent replicate sequences, deterministic SeedSequence children of the master seed; nested prefixes of one 32-composition permutation (spec 50)",
+    "targeted_strategy": "target-free greedy maximin in composition-level feature space (Temperature_C and fold-constant columns removed; StandardScaler fit on FOLD_TRAIN only); first pick = largest 1-NN distance to FOLD_TRAIN, then maximize the minimum distance to FOLD_TRAIN + already selected (spec 51-53)",
+    "architectures": {
+      "F0": "direct Tree formulation (fold features, Z2 hyperparameters)",
+      "F1": "affinity + topology-first XGBoost (Z4 configuration); degrades to topology-first if affinity BLOCKED"
+    },
+    "no_retuning": "no Optuna, no feature reselection, no threshold policy change after calibration labels are added; only weights/trees are refit on FOLD_TRAIN + selected calibration compositions (spec 56-57)",
+    "evaluation": "metrics ONLY on RETROSPECTIVE_RECOVERY_EVAL (spec 58)",
+    "metrics": [
+      "mean_tvd",
+      "median_tvd",
+      "p95_tvd",
+      "topology_accuracy",
+      "topology_macro_f1",
+      "skill_vs_trivial",
+      "relative_TVD_reduction_vs_zero_shot_same_subset"
+    ],
+    "b_skill": "smallest budget whose TVD < fold-train trivial TVD; >32 if never",
+    "b_topo50": "smallest budget with topology accuracy >= 0.50; >32 if never",
+    "random_vs_targeted": "per budget: targeted TVD, random mean/std, difference, targeted percentile among random replicates; no pseudo state-level significance tests (spec 63)"
+  },
+  "internal_success_criteria": {
+    "zero_shot_practical": "6-fold mean TVD -10% vs Z0 AND topology accuracy improved AND >=3/6 folds beat trivial",
+    "zero_shot_strong": "6-fold mean TVD -25% vs Z0 AND >=4/6 folds beat trivial",
+    "few_shot_rapid": "<=8 compositions beat trivial AND relative TVD reduction >=25%",
+    "note": "internal only, never lowered post hoc (spec 79-80)"
+  },
+  "seeds": {
+    "master": 20260908,
+    "derivation": "numpy SeedSequence([20260908, replicate]) for random replicate r; split ordering via SHA256 text"
+  },
+  "seals": {
+    "Ni": "zero descriptors/properties/pairs/compositions/predictions",
+    "ANCHOR": "no training/tuning/prediction/evaluation",
+    "DomainB": "not used for tuning, descriptor selection, few-shot calibration, or zero-shot model selection",
+    "new_CALPHAD": "0 Thermo-Calc / TC-Python calls"
+  },
+  "immutability": "STEP5C primary predictions/metrics/freezes/features and STEP5D diagnostic outputs are read-only; STEP5E only copies/references",
+  "package_versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "pyarrow": "25.0.1",
+    "scikit-learn": "1.8.0",
+    "xgboost": "3.2.0",
+    "catboost": "1.2.10",
+    "torch": "2.12.0+cu132",
+    "optuna": "4.9.0",
+    "matminer": "0.10.1",
+    "pymatgen": "2026.5.4",
+    "scipy": "1.17.1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "generated_utc": "2026-09-07T14:52:41+00:00",
+  "canonical_present_exact": 10,
+  "canonical_equivalent": 1,
+  "canonical_rebuilt": 11,
+  "canonical_genuinely_missing": 0,
+  "oa_pdfs_needing_user_download": 0,
+  "new_Ni_CALPHAD": 0,
+  "models_retrained": 0,
+  "production_scalers_refit": 0,
+  "new_thermocalc_runs_in_fix": 0,
+  "all_19_canonical_present": true,
+  "phase_maps_and_sources": "7/7 present with source CSVs",
+  "conditional_files": "STEP5K_R1_EXTERNAL_CALPHAD.* canonicalized from the already-executed authorized R1 run (not NOT_APPLICABLE)",
+  "protected_hashes_verified": {
+    "STEP5G_PRIMARY": "f89e4ddc2f367a572a16a29062faa3c3d580fc8aae73a8e6bfaa28a8bcd86d0f",
+    "STEP5HA_PRIMARY_PRED": "100b40ed67c396cb296d53db80e7fef7cb94c0c8223873f5a13c01af28f0f488",
+    "STEP5HB_TARGETS": "3e1f4ba2cf6e47120edc4e5150059541ac3d7713e850ac867f411c58126858e3",
+    "STEP5I_SUMMARY": "c254af3d13c31b0200aad821a327de900f083d6afcc5b64a4cb89232a7e9ac6e",
+    "STEP5J_NUMERICAL": "3430d48575bffe9544cebfa98c49a7272d7a316ed4f05c5d6a5e911417a4106f"
+  }
+}

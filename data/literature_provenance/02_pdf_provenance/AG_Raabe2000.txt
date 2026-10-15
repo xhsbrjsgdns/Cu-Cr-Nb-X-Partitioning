@@ -1,0 +1,556 @@
+
+--- PDF PAGE 1 ---
+                                      Materials Science and Engineering A291 (2000) 186–197
+                                                                                                            www.elsevier.com/locate/msea
+
+
+Processing, microstructure, and properties of ternary high-strength
+             Cu–Cr–Ag in situ composites
+
+                  D. Raabe a,*, K. Miyake b, H. Takahara b
+
+                               a Max-Planck-Institut  fu¨r Eisenforschung, Max-Planck-Str. 1, 40237 Du¨sseldorf, Germany
+                b Corporate Research and De6elopment Center, Mitsui Kinzoku, 1333-2 Haraichi, Ageo-Shi, Saitama 362, Japan
+
+                                   Received 6 December 1999; received in revised form 6 April 2000
+
+
+
+
+Abstract
+
+ A new class of ternary in situ metal matrix composites (MMCs) with high strength and high electrical conductivity consisting
+of heavily co-deformed Cu, Cr, and Ag is introduced. Three alloys are investigated in detail, namely, Cu–10wt.%Cr–3wt.%Ag,
+Cu–10wt.%Cr–1wt.%Ag, and Cu–4.5wt.%Cr–3wt.%Ag. The alloys were produced by inductive melting and  chill casting.
+Because Cu–Cr and Cu–Cr–Ag alloys with hypereutectic Cr content are less ductile than previously investigated Cu–Nb,
+Cu–Ag, and Cu–Nb–Ag alloys, special attention was placed on optimizing microstructure with respect to both strength and
+ductility using thermal and thermo-mechanical processing schemes. These included various combinations of swaging, heavy wire
+deformation (using different lubricants), solution annealing at different temperatures followed by quenching, and aging at
+different temperatures. Optimized processing allows one to attain maximum wire strains of h=8.48 (h=ln(A0/A), A: wire
+cross-section). The wires have very high strength (for instance Cu–10wt.%Cr–3wt.%Ag: 1260 MPa at a strain of h=8.48) and
+good electrical conductivity (62% of the conductivity of pure Cu (IACS) at a strain of h=2.5 after solution treatment). Up to wire
+strains of h:8.5 the strength is equal to that of Cu–20wt.%Nb. The wire strength is much higher than predicted by the linear
+rule of mixtures. The investigation presents the evolution of microstructure during the various thermo-mechanical treatments and
+relates the results to the observed mechanical and electrical properties. The strength is discussed in terms of Hall–Petch-type
+hardening. © 2000 Elsevier Science S.A. All rights reserved.
+
+
+Keywords: Ternary Cu-base composites; In situ MMC; Cu–Cr–Ag; High strength, High conductivity
+
+
+                                                     amples are in the areas of high ﬁeld capacitor driven1. Introduction
+                                                          pulsed or steady-state, Bitter-type direct current magnet
+                                                              design, robotics, cables in aerospace applications, and  Heavily  strained  binary  metal  matrix  composites
+                                                                      electrical contacts [25–27]. The need for high strength(MMCs) consisting of Cu as matrix metal and a body
+                                                             materials in magnet design is due to the high Lorentzcentered cubic (bcc) transition metal with low solubility
+                                                               forces on the conductor during operation. High electri-in Cu such as Nb [1–13] or Cr [14–16] as second phase
+                                                                  cal conductivity is necessary in order to minimize joulehave been the subject of extensive research over the last
+                                                           heating occurring in resistive and pulse coils. Roboticstwo decades. Further investigations along these lines
+                                                 and related electronics cables are often severely me-were conducted on Cu-base MMCs using face centered
+                                                             chanically stressed, but their maximum electrical con-cubic (fcc) Ag as a second metal [17–24].
+                                                               ductivity  is  usually  less  critical when compared  to  Two reasons drive these efforts. The ﬁrst reason is
+                                                           high-ﬁeld magnet design. Electrical contacts must havethe need for alloys with very high strength and good
+                                                   low resistivity and high resistance to wear. The secondelectrical conductivity which can be used  in highly
+                                                        reason for pursuing research in this ﬁeld  is that themechanically stressed electrical devices. Prominent ex-
+                                                       unusual mechanical and electromagnetic properties ob-
+                                                           served and their dependence on microstructure have
+  * Corresponding author. Tel.: +49-211-6792278/340; fax: +49-
+211-6792333.                                                    raised a number of fundamental questions. The most
+  E-mail address: raabe@mpie.de (D. Raabe).                     important among these topics is probably the extreme
+
+
+0921-5093/00/$ - see front matter © 2000 Elsevier Science S.A. All rights reserved.
+PII: S0921-5093(00)00981-3
+
+--- PDF PAGE 2 ---
+                              D. Raabe et al. / Materials Science and Engineering A291 (2000) 186–197                            187
+
+hardening  behavior  of  Cu-base  in  situ  composites      increases with the number of elements added.
+which leads them surprisingly close to the theoretical      Both above mentioned aspects have stimulated ef-
+limits of strength under uniaxial loads. Important as-      forts to create a new class of ternary Cu-base com-
+pects in that context are basic dislocation issues such as      posites where the Nb  is replaced by Cr and the Ag
+multiplication,  glide,  cell formation, and  pile-up  of     content is reduced [33]. This combination leaves room
+dislocations in materials with an extremely high inter-      for optimizing and tailoring microstructure with respect
+face  density;  dislocation-interface  issues such as the     to a particular application at costs below those required
+generation of secondary interface dislocation arrays,      for producing conventional high-performance Cu-base
+the complete penetration of thin metal ﬁbers by lattice     composites.
+dislocations; and structural issues such as structural
+changes of the matrix and of the ﬁber material, the
+generation of structurally less ordered (glass-like) areas
+in the ﬁbers, and the gradual formation of whiskers.      2. Fundamentals of Cu–Cr and Cu–Ag alloys
+  While much attention was devoted to the develop-
+ment and understanding of binary Cu-bcc [1–16] and     Cu and Cr have small mutual solubility which decays
+Cu–Ag alloys [17–24], less efforts were made to widen     to near zero at room temperature. Maximum solubility
+the spectrum of in situ MMCs towards ternary Cu-base     of Cr in Cu is 0.89 at.% (0.71 wt.%) at 1350 K. The
+alloys. Some recent investigations aim at ﬁlling this gap.     equilibrium phase diagram of Cu and Cr reveals a
+Morris  and  Joyce  worked  on  hypereutectic Cu–     Cu-rich eutectic at 1.56 at.% (1.25 wt.%) Cr and 1350 K
+2wt.%Cr–0.3wt.%Zr alloys  [28], Verhoeven et  al. on     which is characterized by the decomposition liqUaCu+
+Cu–15wt.%Nb–2wt.%Ag alloys [7], Troxel on disper-     bCr [38,39]. At hypereutectic compositions the shape of
+soid-strengthened    Cu–10wt.%Nb–(0.31.1)wt.%-     the Cu–Cr equilibrium phase diagram is determined by
+Al2O3  alloys  [29],  Fritzemeier on Cu–15wt.%Nb–      the  reaction  liqUliqCu+bCr.  These  thermodynamic
+2wt.%Ag alloys [30], Spitzig et al. on Cu–20wt.%Nb–     boundary conditions allow one to generate four differ-
+7wt.%Ag   alloys   [31],  Spaic  and   Pristavec  on     ent microstructure ingredients with dissimilar mechani-
+Cu–(17)wt.%Ag–0.3wt.%Zr alloys [32], and Raabe      cal and kinetic behavior, namely, primary dendritic Cr
+et  al. on Cu–4wt.%Nb–8.2wt.%Ag  alloys  [33–37].      crystals in the Cu, Cr–Cu eutectic, solute Cr atoms in
+Taking a  practical  perspective,  the development  of     the Cu as well as solute Cu atoms in the Cr, and Cr
+ternary Cu-base composites usually follows two criteria.      precipitates formed during aging in the Cu matrix. In
+First, it aims at further improving the mechanical prop-     order to exploit these different morphologies for in-
+erties of conventional binary alloys without severely      creasing strength the chosen alloys contained either 4.5
+deteriorating their electromagnetic properties. A second     or 10 wt.% Cr,  i.e. they were  in the hypereutectic
+aspect in moving from binary to ternary alloys lies in     regime.
+cost reduction. For instance, pure Nb or Ag are costly       In an ordinary chill casting experiment the primary
+ingredients which impede the large scale application of    Cr crystals typically solidify with dendritic morphology.
+such new materials for devices other then high ﬁeld    The  dendrite  thickness  decreases  with  decreasing
+magnets. A useful strategy for meeting both goals lies     quenching time. During subsequent deformation such
+in exploiting both ﬁlamentary Hall–Petch-type harden-     as swaging and wire drawing the dendrites form into
+ing and classical age hardening at the same time. Both     ﬁbers the spacing of which continuously drops with
+effects are due to the interaction of mostly incoherent      increasing strain. This effect renders the alloy a ﬁber-re-
+heterophase  interfaces with  lattice  dislocations. This     inforced composite where the density of the Cu/Cr
+means that the physics of hardening in ternary alloys      interfaces increases with increasing strain. In most Cu-
+has  essentially the same origin as  in binary  alloys.     bcc composites the two co-deformed phases do not
+However, adding a third element allows one to exploit     undergo the same microscopic strain. The ﬁbers typi-
+a larger variety of possible kinetic paths for attaining a      cally carry  less plastic deformation than the matrix.
+certain ﬂow stress–conductivity proﬁle. In other words,     Because the mass density of Cr is 7.14 g cm−3 and that
+the variation in possible thermo-mechanical treatment     of Cu 8.93 g cm−3 gravitational segregation of the
+
+
+Table 1
+Compositions of the three as-cast Cu–Cr–Ag alloys
+
+
+Alloy                          Cr (wt.%)          Ag (wt.%)        O (ppm)        C (ppm)         Cu (wt.%)
+
+
+Cu–10wt.%Cr–3wt.%Ag               10.0                    3.0                    128.0                11.0                Balance
+Cu–10wt.%Cr–1wt.%Ag                9.6                    1.0                      88.8                23.4                Balance
+Cu–4.5wt.%Cr–3wt.%Ag                4.5                    2.7                      44.8                23.5                Balance
+
+--- PDF PAGE 3 ---
+188                           D. Raabe et al. / Materials Science and Engineering A291 (2000) 186–197
+
+
+
+
+
+Fig. 1. (a) Processing scheme A. The various treatments are characterized by a solution temperature of 1323 K just below the temperature of
+maximum solubility of Cr in Cu and various subsequent aging and wire drawing schemes. (b) Processing scheme B. The various treatments are
+characterized by the absence of solution treatment and various aging schemes prior to further wire drawing. (c) Processing scheme C. The various
+treatments are characterized by a solution temperature of 1273 K, intermediate wire drawing, aging treatment at 473 K, and ﬁnal wire drawing.
+
+primary  dendrites  during  casting   is  not  a  major     of Cu–Cr alloys can be signiﬁcantly enhanced by an
+concern.                                                                 initial or intermediate solution and subsequent aging
+  Various groups studied aging of binary Cu–Cr alloys     treatment and that optimum strengthening occurs in
+[14–16]. Ellis has investigated aging in a Cu–7vol.%Cr     the temperature regime between 670 and 770 K. Precip-
+alloy [16]. Most of these authors agree that the ductility      itation and ripening of Cr in Cu–Cr alloys is usually
+
+--- PDF PAGE 4 ---
+                              D. Raabe et al. / Materials Science and Engineering A291 (2000) 186–197                            189
+
+
+
+
+
+                                                                Fig. 1. (Continued)
+
+
+accompanied by a drop in  resistivity. Binary alloys      As in the case of Cu–Nb and Cu–Cr composites, the
+consisting of Cu and 7 vol.% Cr were reported to reach     observed increase in strength of Cu–Ag alloys exceeds
+an ultimate tensile strength (UTS) of up to 925 MPa at      that predicted by the linear rule of mixtures. The proﬁle
+a total strain of h=8.5 [15] and even up to 975 MPa at     of strength and conductivity of near-eutectic Cu–Ag
+a total strain of h=9.4 using an intermediate aging      alloys shows a similar dependence on wire strain as
+treatment [16].                                        Cu-bcc alloys. Recent TEM work has revealed  [20],
+  Cu and Ag have limited mutual  solubility. Their      that the microstructural scale of the silver ﬁlaments in
+equilibrium phase diagram reveals a single immiscibility    Cu-Ag   is  much  ﬁner  than  reported  in   earlier
+gap, leading to the formation of a eutectic equilibrium      investigations.
+phase diagram with the eutectic at 60.1 at.% (72 wt.%)
+Ag and 1052 K which is characterized by the decompo-
+sition liqUaCu+bAg [38,39]. Maximum solubility of Ag
+in Cu is reported to lie between 4.2 (4.7 wt.%) and 5.2
+at.% (5.8 wt.%) at 1052 K. Previous research on Cu-
+rich Cu–Ag composites with compositions above the
+maximum solubility of Ag have shown that these alloys
+consist of two phases, a Cu-rich solid solution and a
+Cu–Ag eutectic [17–24]. During deformation the eutec-
+tic and the Cu-rich matrix form into lamellar ﬁlaments
+where the inter-lamellar spacing decreases with wire
+strain. An intermediate heat treatment leads to Ag
+precipitation. These can be used  for  increasing the
+matrix strain and/or to form additional ﬁbers during
+further drawing. At large wire strains Cu–Ag com-
+                                                                             Fig. 2. SEM micrograph of the Cr microstructure of the as-cast
+posites were reported to show an UTS of up to s=1.5     Cu–10wt.%Cr–1wt.%Ag alloy. Cu and Ag were dissolved by selec-
+GPa at a strain of h=10 [18].                                          tive etching.
+
+--- PDF PAGE 5 ---
+190                           D. Raabe et al. / Materials Science and Engineering A291 (2000) 186–197
+
+
+
+
+
+Fig. 3. Thickness of the Cr dendrites as a function of strain. The Nb data taken from Cu–4wt.%Nb–8.2wt.%Ag [33–37] are given as a reference.
+The large scatter is due to the fact that Cr appears in two microstructural morphologies, namely in the form of large primary dendrites with
+secondary and tertiary branches and in the form of thin eutectic lamellae.
+
+  When the interface spacing in the heavily deformed      in Cu and various aging and wire drawing steps. Fig. 1b
+in situ composites is reduced to the order of the mean     shows processing scheme B. It is characterized by the
+free electron path, the electrical conductivity of both     absence of solution treatment and various aging meth-
+alloy types decays with further deformation. Due to the     ods prior to further wire drawing. Fig. 1c shows pro-
+high intrinsic conductivity of the constituents and the      cessing scheme C.  It  is characterized by a solution
+comparatively small contribution of inelastic interface     temperature of 1273 K, intermediate wire drawing,
+scattering, eutectic Cu–Ag MMCs reveal, at a given     intermediate aging treatment at 473 K, and ﬁnal wire
+strength  level, a somewhat  better conductivity than                                                        drawing. All solution and aging treatments were made
+Cu-bcc alloys.                                                     under vacuum or argon atmosphere. The largest at-
+                                                            tained wire strain of h=8.48 was realized for Cu–
+                                                10wt.%Cr–3wt.%Ag   specimens   using   processing
+3. Experimental                                                    scheme C.
+                                                             Optical and scanning electron microscopy (SEM) was
+  Three compositions were chosen for the investiga-                                                   employed to quantitatively investigate the morphology
+tion,    namely,   Cu–10wt.%Cr–3wt.%Ag,   Cu–
+                                                 and topology of the dendrites and ﬁbers. For optical
+10wt.%Cr–1wt.%Ag,  and  Cu–4.5wt.%Cr–3wt.%Ag.
+                                                               investigation  the  samples  were ground and  subse-
+The melts were prepared using electrolytic Cu, commer-
+                                                          quently etched using a solution of 50 ml C2H5OH, 50cial Cr with at least 99.99 wt.% purity, and commercial
+Ag with at least 99.9 wt.% purity. The three alloys were
+separately melted in a vacuum induction furnace using
+a magnesia crucible. The alloys were cast into a Cu
+mold at a temperature of   1570 K. Table 1 shows the
+ﬁnal compositions of the three as-cast alloys.
+  Cylindrical ingots of 18 mm diameter were cut from
+the as-cast samples in order to remove the oxidation
+layer and surface defects. From the ingots cylindrical
+rods were produced by rotary swaging and subsequent
+moderate drawing through hard metal drawing bench
+dies. During swaging the sample diameter was reduced
+from 18 to 6.7 mm. During drawing the sample diame-
+ter was further reduced from 6.7 to 2.5 mm, corre-
+sponding to an accumulated strain of h4 (h=ln(A0/A),
+A: wire cross-section). Starting with this microstruc-
+tural  state  three  different  experimental  processing       Fig. 4. SEM micrograph of Cr in the form of large primary dendrites
+                                                              and thin eutectic lamellae. Cu and Ag were dissolved by selective
+schemes were used (Fig. 1a–c). Fig. 1a shows process-                                                                               etching. The average thickness of the primary Cr dendrites in the
+ing scheme A. It uses a solution temperature of 1323 K       as-cast materials is about 4500–5200 nm and that of the eutectic Cr
+just below the temperature of maximum solubility of Cr        1000 nm.
+
+--- PDF PAGE 6 ---
+                              D. Raabe et al. / Materials Science and Engineering A291 (2000) 186–197                            191
+
+                                                                in the form of large primary dendrites with secondary
+                                                 and tertiary dendrite arms and in the form of very thin
+                                                                 eutectic lamellae (Fig. 2). Fig. 4 shows a magniﬁcation
+                                                            of both types of Cr morphology in a Cu–10wt.%Cr–
+                                               1wt.%Ag specimen. While the thickness of the primary
+                                                Cr dendrites in the as-cast materials  is close to the
+                                                      above-mentioned average value of 4500–5200 nm the
+                                                                 eutectic Cr has a diameter of   1000 nm.
+
+
+                                                                    4.1.2. Microstructure e6olution during
+                                                        thermo-mechanical treatment
+                                                                Fig. 5 presents the microstructure of the Cr dendrites
+                                                                  after a total sample strain of h1.98 for one of the three
+Fig. 5. SEM micrograph of the microstructures of the as-cast Cu–      investigated  alloys  (Cu–10wt.%Cr–1wt.%Ag).  This
+10wt.%Cr–1wt.%Ag alloy at a total wire strain of h2. Cu and Ag      strain  level  was  attained  by  swaging.  The Cu–
+were dissolved by selective etching. The misalignment of some of the    10wt.%Cr–3wt.%Ag and the Cu–10wt.%Cr–1wt.%Ag
+dendrites stems from sample preparation.                         specimens are characterized by large and dense den-
+                                                                      dritic crystals the secondary and tertiary branches of
+ml HF and 30 ml HNO3. This etching removed the     which are aligned with the swaging axis. The misalign-
+smeared out Cr debris which had formed during grind-                                                 ment of some of the elongated dendrites stems from
+ing on the sample surface. The ﬁlament spacing was                                                     sample preparation. Some of the very thin dendrites
+determined by an edge-to-edge measurement. The mor-                                                                     visible in Fig. 5 are presumably of eutectic rather than
+phology of the dendrites and ﬁbers was measured using                                                            of  primary  dendritic   origin.  The  Cu–5wt.%Cr–
+a  selective etching technique, where the matrix was                                               3wt.%Ag sample clearly reveals a smaller volume frac-
+dissolved by dilute nitric acid. The mechanical proper-                                                              tion of primary dendrites. A number of ﬁne eutectic
+ties were determined using Vickers hardness measure-                                                                plates are visible as well.
+ments with a testing mass of 200 g and tensile tests on                                                                Fig. 6 shows the gradual morphological evolution of
+deformed wire samples at 298 and 77 K.                                                            the primary Cr dendrites and of the eutectic Cr den-
+                                                                   drites into ﬁlaments. The micrographs document the
+                                                      shape changes observed during processing scheme C
+4. Results and discussion                                       (Fig. 1c) exemplary for the Cu–10wt.%Cr–3wt.%Ag
+                                                                   alloy. Fig. 6a reveals the microstructure at a total strain
+4.1. Microstructure e6olution                                of h=3.95 prior to the solution treatment. The den-
+                                                                   drites  appear more homogeneous  than  at  smaller
+4.1.1. As-cast specimens                                          strains. However, Fig. 3 reveals very large scatter at
+  Fig. 2 shows the microstructure of one of the as-cast      that processing stage. Fig. 6b shows the specimen after
+alloys (Cu–10wt.%Cr–1wt.%Ag). In all three cases Cr      solution treatment at 1273 K for 100 min (Fig. 1c). The
+had dendritic shape. The Cu matrix and the Ag were     elongated Cr ﬁlaments have started to coarsen, i.e. to
+removed by selective etching prior to the SEM investi-     undergo  transition from  ﬁber-type  to bamboo-type
+gation. Due to the high quenching rate and the absence     morphology. In some cases the ﬁlaments even started to
+of any precipitation heat treatment directly after cast-     separate and break up into  pieces. Fig. 6c gives a
+ing,  it  is likely that some Ag was  still solute in the     magniﬁcation of some ﬁlaments just before separation.
+Cu-matrix. The fact that Cr solidiﬁes with dendritic      Fig. 6d presents the ﬁbers after a total strain of h=
+morphology can be attributed to the large temperature      4.97. Although the average ﬁlament thickness  is  still
+difference that exists in the solidiﬁcation of the Cr and      close to 2 mm some ﬁbers reveal a thickness of only 100
+the Cu–Ag matrix. The average diameter of the Cr   nm and less. Fig. 6e shows the Cr ﬁlaments at a strain
+particles in the as-cast state amounted in all three alloys     of h=8.48, after an intermediate aging treatment and
+to   dCr:4500–5200 nm. This is much larger than the     subsequent ﬁnal wire drawing (Fig. 1c). The inhomo-
+average diameter of the Nb particles in Cu–4wt.%Nb–      geneity of the Cr morphology observed at low and
+8.2wt.%Ag [33–37].                                        intermediate strain levels (Fig. 3)  is in part a conse-
+  The scatter of the data given in Fig. 3 shows that the     quence of the bimodal  initial size distribution of Cr
+thickness distribution of the Cr dendrites is very inho-      (dendritic and eutectic) in the as-cast state. This hetero-
+mogeneous. This applies both at low and at intermedi-      geneity is inherited to the later processing stages. It also
+ate  strains. The  scatter  is due to the  fact that Cr     shows that large deformation is necessary to produce a
+appears in two microstructural morphologies, namely    more homogeneous size distribution of the ﬁlaments.
+
+--- PDF PAGE 7 ---
+192                           D. Raabe et al. / Materials Science and Engineering A291 (2000) 186–197
+
+ A further important  result  in  this context  is the    10wt.%Cr–3wt.%Ag in Fig. 7 demonstrate that  this
+observed heterogeneous strain distribution in the inves-      result  is independent on heat treatment. This shows
+tigated composites. Fig. 7 shows the total microscopic      that solution and aging annealing — though changing
+strain of the Cr ﬁlaments as a function of the total     the ﬁlament shape and thus inﬂuencing ductility — do
+macroscopic  strain  of  the  specimens.  The  Cu–     not affect the intrinsic plastic properties of the Cr. Fig.
+4wt.%Nb–8.2wt.%Ag composite which is used here as     7 underlines that the Cr carries  less strain than the
+a reference [33–37] reveals a one-to-one correspondence     matrix. Because the Cr has an inhomogeneous spatial
+(dotted line) at macroscopic strains below h6. The Cr      distribution and undergoes an average plastic deforma-
+ﬁlaments embedded in the three Cu–Cr–Ag composites      tion much below that of the wire, the more ductile
+reveal a  one-to-two  correspondence  of  micro- and     matrix phases (Cu, Ag) must undergo a higher defor-
+macrostrain throughout the process. The data on Cu–     mation,  locally. This again modiﬁes the local  stress
+
+
+
+
+
+Fig. 6. SEM micrographs of the gradual evolution of the primary Cr dendrites and of the eutectic Cr lamellae into ﬁlaments; processing scheme
+C; Cu–10wt.%Cr–3wt.%Ag. (a) Total strain: h=3.95; before solution treatment. (b) Total strain: h=3.95; after solution treatment at 1273 K for
+100 min. (c) Total strain: h=3.95; after solution treatment at 1273 K for 100 min; magniﬁcation of some ﬁlaments just before separation. (d)
+Total strain: h=4.97. (e) Total strain: h=8.48; after intermediate aging treatment and subsequent ﬁnal wire drawing.
+
+--- PDF PAGE 8 ---
+                              D. Raabe et al. / Materials Science and Engineering A291 (2000) 186–197                            193
+
+
+
+
+
+Fig. 7. Total microscopic strain of the Cr (and Nb) ﬁlaments as a function of the total macroscopic strain of the specimens. The data for
+Cu–4wt.%Nb–8.2wt.%Ag were taken from [33–37].
+
+distribution within the wire, i.e. neither the actual Cu
+strain nor the actual Ag or Cr strain equals the true
+wire strain.
+
+
+4.1.3. Material failure during thermo-mechanical
+treatment
+  Many of the heavily deformed specimens revealed
+failure during wire drawing. This applied particularly
+for the samples which were processed according to
+scheme B,  i.e. without solution treatment (Fig. 1b).
+Fracture in these samples was characterized by conical
+tears which often initiated in the core of the wires (Fig.
+8a,b). The micrographs suggest that fracture occurred
+particularly in areas with microscopical morphological
+instabilities. An additive and probably not-less impor-
+tant mechanical reason for material failure can be seen
+in large local stress concentrations which might arise
+from the unequal strain–distribution between matrix
+and ﬁlaments as presented in Fig. 7.
+
+4.2. Mechanical properties and electrical conducti6ity
+
+
+4.2.1. Hardness
+  Fig. 9 is an overview graph which presents the maxi-
+mum  obtained  Vickers  hardness  (200  g)  of Cu–
+10wt.%Cr–3wt.%Ag as a function of total strain for
+various  thermo-mechanical  treatments  according  to
+schemes A, B and C. The as-cast specimens had a
+hardness between HV 95 and HV 105. At the largest
+attained  strain of h=8.48 the average hardness of
+Cu–10wt.%Cr–3wt.%Ag reaches a value of HV 272.
+                                                                             Fig. 8. (a,b) Failure during wire drawing. Fracture is characterized by
+As is evident from group A samples (heat treatment at                                                                            conical tears which form in the core of the wires; two subsequent
+a strain of h6) and group C samples (heat treatment at       sketches  during  fracture  formation;  processing scheme  B; Cu–
+a strain of h8) aging prior to ﬁnal wire drawing sub-      10wt.%Cr–3wt.%Ag.
+
+--- PDF PAGE 9 ---
+194                           D. Raabe et al. / Materials Science and Engineering A291 (2000) 186–197
+
+
+
+
+
+Fig. 9. Vickers hardness (200 g) of Cu–10wt.%Cr–3wt.%Ag as a function of total strain for various thermo-mechanical treatments according to
+schemes A, B, and C.
+
+stantially enhances  the hardness. Group B samples      4.2.2. Ultimate tensile strength
+reveal very high hardness already at relatively small        Fig. 12 shows the ultimate tensile strength of the
+strains (h5) much below those required by group C and      three investigated alloys. The diagram presents data
+group A samples for attaining the same hardness level.     which were experimentally determined in a tensile test
+This effect is due to the fact that group B samples were    and compares them to data which were calculated from
+not solution annealed and did thus not undergo soften-
+ing at h4. The absence of solution treatment entails a
+larger fracture tendency of group B samples so that
+strains beyond h=5 could not be realized (Fig. 8a,b).
+  Of course, increase in hardness during aging is not
+only a function of pre-straining but of annealing time
+and temperature. Fig. 9 merely summarizes the maxi-
+mum values obtained for  different annealing condi-
+tions. Fig. 10 exemplary shows for group A specimens
+the increase in hardness as a function of annealing time
+at 573 K. Fig. 11 presents the time and temperature
+dependence of hardening attained during group C aging
+treatment. The diagram conﬁrms the well-known ten-
+                                                                             Fig. 10. Increase in hardness as a function of annealing time for a
+dency that lower aging temperatures can entail larger      temperature of 573 K  for group A samples of Cu–10wt.%Cr–
+hardness values whilst higher aging temperatures may     3wt.%Ag at a strain of h=6.
+lead to overaging, i.e. to particle coarsening. The major
+advantage  arising from aging  after an intermediate
+solution treatment followed by further straining prior
+to aging is that larger dislocation densities provide a
+better distribution of potential nucleation sites. Ellis et
+al. reported in an investigation of a Cu–7vol.%Cr alloy
+[16] that Cr precipitated from solid solution during
+aging on the existing Cr ﬁlaments without producing a
+hardening  effect. Due to the  large  strains imposed
+between the solution and the aging treatment it is thus
+conceivable that this effect was in the present case — at
+least to a certain extent — avoided. However, it must
+be taken into account that the increase in hardness as                                                                             Fig. 11. Increase in hardness as a function of annealing time and
+observed in the present alloys may stem from both, Cr       annealing temperature for group C samples during aging treatment of
+and Ag precipitates.                                       Cu–10wt.%Cr–3wt.%Ag at a strain of h=8.
+
+--- PDF PAGE 10 ---
+                              D. Raabe et al. / Materials Science and Engineering A291 (2000) 186–197                            195
+
+                                                                    4.2.3. Electrical conducti6ity
+                                                  The use of  precipitated Ag as an  ingredient  for
+                                                       hardening the Cu matrix has two  aspects.  First,  it
+                                                          provides an additional Hall–Petch contribution to the
+                                                               overall strength of the composite. Second, the Cu–Ag
+                                                                 interfaces have a smaller contribution to inelastic scat-
+                                                                tering of conduction electrons than the Cu–Cr inter-
+                                                                   faces. The ternary Cu–10wt.%Cr–3wt.%Ag wires reach
+                                                               at 300 K (total wire strain h=2.5, after solution treat-
+
+
+
+
+
+Fig. 12. Ultimate tensile strength of the three investigated alloys. The
+diagram presents data which were experimentally determined in a
+tensile test and compares them to data which were calculated from
+the hardness measurements.
+
+
+
+
+
+the hardness measurements presented in the preceding
+section. The drop at h4 is due to the solution treatment.
+The ﬁgure demonstrates that the hardness data are not
+sufﬁciently reliable for the determination of the ulti-
+mate tensile strength. The deviation between the tensile
+strength calculated from the hardness and the experi-
+mental  tensile strength  is not systematic. While the
+hardness  data  predict  a  strength  for  the  Cu–
+4.5wt.%Cr–3wt.%Ag  composite  which  exceeds  the
+                                                                             Fig.  13. Comparison  of  the  ultimate  tensile  strength  of Cu–
+measured one they underestimate the strength for the
+                                                             10wt.%Cr–3wt.%Ag, Cu–20wt.%Nb (data taken from  [10]), and
+other two  alloys. The reason for the observed  dis-     Cu–4wt.%Nb–8.2wt.%Ag (data taken from [33–37]).
+crepancy can be explained  in terms of the Vickers
+indentation shape which  ﬁrst,  yields an  anisotropic
+plastic response and second, causes a multiaxial stress
+state which cannot be easily translated into the stress
+state occurring in a tensile test carried out on a thin
+wire.
+  The ultimate tensile strength particularly of the Cu–
+10wt.%Cr–3wt.%Ag composite increases exponentially
+after the solution treatment with increasing wire strain
+and reaches a maximum value of 1260 MPa at h=8.48.
+Fig. 13 shows a comparison of the ultimate  tensile
+strength of Cu–10wt.%Cr–3wt.%Ag, Cu–20wt.%Nb,
+and Cu–4wt.%Nb–8.2wt.%Ag. The diagram substanti-                                                                             Fig. 14. Electrical resistivity of Cu–10wt.%Cr–3wt.%Ag wires at 300
+ates that up to wire strains of h:8.5 the strength is      and 77 K and a total wire strain of h=2.5 before and after solution
+equal to that of Cu–20wt.%Nb.                                   treatment.
+
+--- PDF PAGE 11 ---
+196                           D. Raabe et al. / Materials Science and Engineering A291 (2000) 186–197
+
+ment) 62% of the conductivity of pure Cu (62% IACS,     support and helpful comments. One of the authors
+IACS: International Annealed Cu Standard) (Fig. 14).     (D.R.) gratefully acknowledges the ﬁnancial support by
+The drop in resistivity at 77 K  is simply due to de-     the  Deutsche  Forschungsgemeinschaft  through  the
+crease of phonon scattering.                             Heisenberg program.
+  The fact that previous publications on Cu–Cr alloys
+[9,15] revealed higher electrical conductivity than the
+alloys presented here is attributed to the inﬂuence of     References
+the Ag, to the purity of the used Cr, to the thermo-me-
+chanical processing scheme, and to the melting and          [1] J. Bevk, J.P. Harbison, J.L. Bell, J. Appl. Phys. 49 (1978) 6031.
+casting technique. Previous authors showed [9,15] that          [2] P.D. Funkenbusch, T.H. Courtney, Acta Metall. 33 (1985) 913.
+the conductivity of Cu–Cr alloys is sensitive to the ﬁne          [3] W.A. Spitzig, A.R. Pelton, F.C. Laabs, Acta Metall. 35 (1987)
+details of the deformation and annealing procedure, in           2427.
+                                                                                                [4] P.D. Funkenbusch, J.K. Lee, T.H. Courtney, Metall. Trans. A
+particular to the solution and quenching methods. It is                                                                      18 (1987) 1249.
+thus conceivable that the alloys shown here can be          [5] C. Trybus, W.A. Spitzig, Acta Metall. 37 (1989) 1971.
+further optimized through an improved solution and          [6] J.D. Verhoeven, W.A. Spitzig, F.A. Schmidt, P.D. Krotz, E.D.
+precipitation procedure. The same applies to melting          Gibson, J. Mater. Sci. 24 (1989) 1015.
+and casting. Cr reacts with air and the crucible mate-          [7] J.D. Verhoeven, W.A. Spitzig, L.L. Jones, H.L. Downing, C.L.
+rial. Both effects may increase the impurity content of           Trybus, E.D. Gibson, L.S. Chumbley, L.G. Fritzemeier, G.D.
+                                                                              Schnittgrund, J. Mater. Eng. 12 (1990) 127.
+the Cr and deteriorate the electrical conductivity of the
+                                                                                                [8] W.A. Spitzig, Acta Metall. 39 (1991) 1085.
+composite. Previous authors [9,15] have used vacuum                                                                                                [9] W.A. Spitzig, H.L. Downing, F.C. Laabs, E.D. Gibson, J.D.
+induction and air melting under argon gas.                       Verhoeven, Metall. Trans. A 24 (1993) 7.
+                                                                                      [10] D. Raabe, F. Heringhaus, U. Hangen, G. Gottstein, Z. Metall.
+                                                                      86 (1995) 405.
+5. Conclusions                                                                  [11] F. Heringhaus, D. Raabe, G. Gottstein, Acta Metall. 43 (1995)
+                                                                             1467.
+                                                                                      [12] D. Raabe, U. Hangen, Acta Metall. 44 (1996) 953–961.
+  Three ternary in situ metal matrix composites with
+                                                                                      [13] J.T. Wood, J.D. Embury, M.F. Ashby, Acta Mater. 45 (1997)
+high strength and high electrical conductivity consist-           1099.
+ing of heavily co-deformed Cu, Cr, and Ag were intro-        [14] C.J. Kim, J.M. Lee, J. Mater. Process. Manuf. Sci. 2 (1994) 325.
+duced,       namely,      Cu–10wt.%Cr–3wt.%Ag,        [15] S.T. Kim, P.M. Berge, J.D. Verhoeven, J. Mater. Eng. Perform.
+Cu–10wt.%Cr–1wt.%Ag,    and    Cu–4.5wt.%Cr–          4 (1995) 573.
+3wt.%Ag. The composites were produced by inductive        [16] T.W. Ellis, S.T. Kim, J.D. Verhoeven, J. Mater. Eng. Perform. 4
+melting, chill casting, swaging, wire deformation, and           (1995) 581.
+                                                                                      [17] H.E. Cline, D. Lee, Acta Metall. 18 (1970) 315.
+intermediate heat treatment. The main results are as
+                                                                                      [18] G. Frommeyer, G. Wassermann, Acta Metall. 23 (1975) 1353.
+follows.                                                                           [19] S. Foner, E. Bobrov, IEEE Trans. Magn. 24 (1987) 1059.
+   (1) Cu–Cr–Ag alloys with hypereutectic Cr content        [20] S.I. Hong, M.A. Hill, Acta Metall. 46 (1988) 4111.
+are  less  ductile compared to previously investigated        [21] T. Asano, Y. Sakai, K. Inoue, M. Oshikiri, H. Maeda, Japan. J.
+Cu–Nb, Cu–Ag, and Cu–Nb–Ag alloys.                         Appl. Phys. 32 (1993) 1027.
+   (2) Special attention must be placed on optimizing        [22] T. Asano, Y. Sakai, M. Oshikiri, K. Inoue, H. Maeda, G.
+                                                                    Heremans, L. van Bockstal, L. Li, F. Herlach, IEEE Trans.
+microstructure with respect to strength, ductility, and
+                                                              Magn. 30 (1994) 2106.
+electrical  conductivity. A  large number  of  possible                                                                                      [23] Y. Sakai, K. Inoue, H. Maeda, Acta Metall. 43 (1995) 1517.
+thermo-mechanical  processing schemes were  investi-        [24] Y. Sakai, H.-J. Schneider-Muntau, Acta Metall. 45 (1997) 1017.
+gated. Good results were obtained by combining pre-        [25] H.-J. Schneider-Muntau, IEEE Trans. Magn. 18 (1982) 32.
+straining, intermediate solution treatment, intermediate        [26] F. Heringhaus, Y.M. Eyssa, P. Pernambuco-Wise, M.D. Bird,
+wire drawing, aging treatment, and ﬁnal wire drawing.         G. Gottstein, H.-J. Schneider-Muntau, Metall 50 (1996) 272.
+   (3) Maximum ultimate tensile strength of 1260 MPa        [27] J.D. Embury, M.A. Hill, W.A. Spitzig, Y. Sakai, MRS Bull. 8
+                                                                               (1993) 57.
+was observed for a Cu–10wt.%Cr–3wt.%Ag composite
+                                                                                      [28] M.A. Morris, J.C. Joyce, Acta Metall. 43 (1995) 69.
+at a total wire strain of h=8.48.                                      [29] J. Troxel, Adv. Mater. Proc. 147 (1995) 35.
+   (4) The  electrical  conductivity  of Cu–10wt.%Cr–        [30] L.G. Fritzemeier, Nanostruct. Mater. 1 (1992) 257.
+3wt.%Ag at a total wire strain of h=2.5 amounts to        [31] W.A. Spitzig, P.B. Wheelock, T.W. Ellis, F.C. Laabs, Microme-
+62% of the conductivity of pure Cu (IACS).                        chanics of Advanced Materials, Cleveland, OH, TMS Minerals
+                                                                        Metals Materials Society, 1996, p. 341.
+                                                                                      [32] S. Spaic, M. Pristavec, Metall 4 (1996) 254.
+                                                                                      [33] D. Raabe, D. Mattissen, K. Miyake, H. Takahara, F. Hering-
+Acknowledgements
+                                                                              haus,  in:  P.S. Nicholson  (Ed.), Proceedings of International
+                                                                        Conference on Dialogues at Lake Louise, Composites-Design for
+  The  authors  are  indebted  to D.  Mattissen, G.           Performance, Eagle Press, Burlington, Ontario, 1997, p. 146.
+Scheele, G. Gottstein and F. Heringhaus for practical        [34] D. Mattissen, D. Raabe, Metall 51 (1997) 464.
+
+--- PDF PAGE 12 ---
+                              D. Raabe et al. / Materials Science and Engineering A291 (2000) 186–197                            197
+
+
+[35] D. Raabe, D. Mattissen, Acta Mater. 46 (1998) 5973.                   [38] M. Hansen, Constitution of Binary Alloys, McGraw–Hill, New
+[36] D. Raabe, D. Mattissen, Acta Mater. 47 (1999) 769.                   York, 1958.
+[37] D. Mattissen, D. Raabe, F. Heringhaus, Acta Mater. 47 (1999)        [39] T. Massalski, Binary Alloys Phase Diagrams, ASM Interna-
+    1627.                                                                              tional, 1990.
+
+
+
+
+
+                                                                                                                                                                                                                                                           .

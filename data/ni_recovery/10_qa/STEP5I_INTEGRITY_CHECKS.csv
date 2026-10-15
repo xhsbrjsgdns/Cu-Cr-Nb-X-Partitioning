@@ -1,0 +1,33 @@
+n,item,result,detail
+1,STEP5G pipeline (PRIMARY checkpoint + scaler) unchanged,PASS,checkpoint f89e4ddc2f367a57 | scaler c2619e4aed54304a
+2,STEP5H-A zero-shot predictions unchanged,PASS,100b40ed67c396cb296d53db80e7fef7cb94c0c8223873f5a13c01af28f0f488
+3,STEP5H-B Ni target file unchanged,PASS,3e1f4ba2cf6e47120edc4e5150059541ac3d7713e850ac867f411c58126858e3
+4,STEP5H-B PRIMARY blind score unchanged (0.8643856187),PASS,0.8643856186628641
+5,STEP5H-B SECONDARY blind score unchanged (0.7234409099),PASS,0.7234409098506132
+6,600 / 1400 split unchanged and reproduced from the frozen rule,PASS,"{'RECOVERY_EVALUATION': 1400, 'FEWSHOT_CALIBRATION': 600}"
+7,frozen nested random sequences unchanged,PASS,9c9389a100ee064bc8a52ab4a4d8cedb7558c9b95462cca0fa6736da92d6507e
+8,frozen maximin sequence unchanged,PASS,6704c7e9d71f64dc8395c55b0beed239f29f99f6e7e9bfa510ab8f4d64221fda
+9,budgets are exactly 1 / 2 / 4 / 8 / 16 / 32,PASS,"[1, 2, 4, 8, 16, 32]"
+10,every anchor composition contributes all 11 temperatures,PASS,"{'RANDOM_R1_B1': 11, 'RANDOM_R1_B2': 22, 'RANDOM_R1_B4': 44, 'RANDOM_R1_B8': 88, 'RANDOM_R1_B16': 176, 'RANDOM_R1_B32': 352, 'RANDOM_R2_B1': 11, 'RANDOM_R2_B2': 22, 'RANDOM_R2_B4': 44, 'RANDOM_R2_B8': 88, 'RANDOM_R2_B16': 176, 'RANDOM_R2_B32': 352, 'RANDOM_R3_B1': 11, 'RANDOM_R3_B2': 22, 'RANDOM_R3_B4': 44, 'RANDOM_R3_B8': 88, 'RANDOM_R3_B16': 176, 'RANDOM_R3_B32': 352, 'MAXIMIN_B1': 11, 'MAXIMIN_B2': 22, 'MAXIMIN_B4': 44, 'MAXIMIN_B8': 88, 'MAXIMIN_B16': 176, 'MAXIMIN_B32': 352}"
+11,no RECOVERY_EVALUATION composition entered any fit,PASS,"120 anchor ids, 0 of them evaluation compositions"
+12,no RECOVERY_EVALUATION row entered validation or early stopping,PASS,['frozen original-six DEV_VALIDATION (no Ni)']
+13,"original-six validation set unchanged (51802 frozen rows, no Ni)",PASS,"51802 rows, 0 Ni"
+14,architecture unchanged (43-128-64-5),PASS,"Linear(43,128)-ReLU-Linear(128,64)-ReLU-Linear(64,5)"
+15,"learning rate fixed at 0.0003 for every cell, never retuned",PASS,[0.0003]
+16,frozen PRIMARY scaler used and never refit on Ni,PASS,"frozen PRIMARY, never refit (spec 15)"
+17,no feature selection performed in STEP5I,PASS,"43 frozen features, no selection artifact under the STEP5I root"
+18,natural row weighting; no Ni oversampling or balancing,PASS,anchor fraction of training rows: 0.00455% to 0.14539%
+19,a fresh checkpoint exists for every replicate x budget cell,PASS,"24 cells, 24 distinct checkpoint hashes"
+20,no warm start between budgets or replicates,PASS,every cell initialized fresh from seed 2266358626
+21,R0 matches the frozen preregistered definition exactly,PASS,"executed from the frozen STEP5G g_common.py, not re-implemented"
+22,R1 matches the frozen preregistered definition exactly,PASS,"executed from the frozen STEP5G g_common.py, not re-implemented"
+23,R2 matches the frozen preregistered definition exactly,PASS,"executed from the frozen STEP5G g_common.py, not re-implemented"
+24,every method scored on the identical 15400 recovery states,PASS,[15400]
+25,B_skill uses the trivial baseline on the SAME recovery subset,PASS,trivial on recovery subset 0.5960189307 (full-blind value 0.5957669021 not used)
+26,"B_recovery25 uses the zero-shot value on the SAME recovery subset, not the 22,000-state number",PASS,recovery-subset zero-shot 0.8632602865 vs full-blind 0.8643856187
+27,topology stratification is descriptive only,PASS,POST-BLIND DESCRIPTIVE ANALYSIS (spec 37-41)
+28,NBNI3 diagnostics did not alter anchor selection,PASS,first anchor of every cell is rank 1 of its frozen sequence
+29,no NBNI3-targeted or OTHER_SOLID-targeted sampling performed,PASS,spec 42 and 46 respected
+30,no low-order Cu-Ni / Cr-Ni / Nb-Ni binary anchor study executed,PASS,spec 47
+31,no DFT / Materials Project / MLIP / first-principles descriptor used,PASS,spec 48
+32,all STEP5I output hashes recorded,PASS,127 files indexed in 11_manifest/STEP5I_FILE_HASHES.csv

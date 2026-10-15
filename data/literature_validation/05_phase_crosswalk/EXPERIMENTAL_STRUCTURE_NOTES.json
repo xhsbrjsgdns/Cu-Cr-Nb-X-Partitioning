@@ -1,0 +1,414 @@
+[
+  {
+    "source_id": "S1_AG",
+    "phase": "fcc(Cu)",
+    "structure": "fcc",
+    "page": 3,
+    "evidence": "Table 2 explicit phase name; experimental XRD/SEM identification",
+    "prototype": null
+  },
+  {
+    "source_id": "S1_AG",
+    "phase": "fcc(Ag)",
+    "structure": "fcc",
+    "page": 3,
+    "evidence": "Table 2 explicit phase name; experimental XRD/SEM identification",
+    "prototype": null
+  },
+  {
+    "source_id": "S1_AG",
+    "phase": "bcc(Cr)",
+    "structure": "bcc",
+    "page": 3,
+    "evidence": "Table 2 explicit phase name; experimental XRD/SEM identification",
+    "prototype": null
+  },
+  {
+    "source_id": "S2_MO",
+    "phase": "(Cr, Mo)",
+    "structure": "BCC",
+    "page": "PDF 4–5 / printed 317–318",
+    "evidence": "Section 2.2 identifies Liquid + BCC (Cr, Mo) for Cu47Cr47Mo6 at 1300 C; XRD FCC(Cu) + BCC(Cr,Mo) after cooling.",
+    "prototype": null
+  },
+  {
+    "source_id": "S2_MO",
+    "phase": "Liquid",
+    "structure": null,
+    "page": "PDF 3–5 / printed 316–318",
+    "evidence": "Table 2 equilibrium Liquid/(Cr, Mo). Quenched FCC(Cu) is not an equilibrium FCC claim at annealing temperature.",
+    "prototype": null
+  },
+  {
+    "source_id": "S3_NB_CO",
+    "phase": "fcc (Cu)",
+    "structure": "FCC",
+    "prototype": null,
+    "page": "288–289 (PDF pp.2–3)",
+    "evidence": "Experimental text and Fig.2 XRD legends identify fcc (Cu); Table1/2 phase labels."
+  },
+  {
+    "source_id": "S3_NB_CO",
+    "phase": "bcc (Cr)",
+    "structure": "BCC",
+    "prototype": null,
+    "page": "288–289 (PDF pp.2–3)",
+    "evidence": "Experimental Fig.2(b) XRD legend and Table1 phase labels."
+  },
+  {
+    "source_id": "S3_NB_CO",
+    "phase": "bcc (Nb)",
+    "structure": "BCC",
+    "prototype": null,
+    "page": "288–289 (PDF pp.2–3)",
+    "evidence": "Experimental Fig.2(a) XRD legend and Table1 phase labels. 1373 K Cu30Cr50Nb20 conflicting row excluded."
+  },
+  {
+    "source_id": "S3_NB_CO",
+    "phase": "Cr2Nb",
+    "structure": null,
+    "prototype": null,
+    "page": "288–290 (PDF pp.2–4)",
+    "evidence": "Experimental text/Fig.2/Table1 identify Cr2Nb without a literal C14/C15 assignment. Thermodynamic Table3 separately includes Cr2Nb(C14) and Cr2Nb(C15), both from Ref.35; model labels cannot establish measured polymorph.",
+    "mapping_constraint": "Cr2Nb chemistry supports Laves-related relevance, but experimental C15 identity is unresolved; must distinguish database raw-phase mapping from experimental proof."
+  },
+  {
+    "source_id": "S3_NB_CO",
+    "phase": "(αCo)",
+    "structure": null,
+    "prototype": null,
+    "page": "288–289 (PDF pp.2–3); 295 (PDF p.9)",
+    "evidence": "Literal experimental label is (αCo), verified visually. Experimental table does not print fcc next to this phase. Discussion p.295 interprets Cu-Co-side phase separation as fcc miscibility gap; a FCC mapping would use that author interpretation, not an explicit XRD structure entry.",
+    "mapping_constraint": "Cu-Co-rich solid-solution separation supports adjacent ternary chemistry only; no Nb in system and no evidence for Co-Nb Laves topology."
+  },
+  {
+    "source_id": "S6_GRCOP",
+    "phase": "Cr2Nb",
+    "structure": "Laves (generic source terminology)",
+    "prototype": null,
+    "page": "505 (PDF p.4)",
+    "evidence": "Text calls pure Cr2Nb a laves phase in cited melting-point background; observed precipitates named Cr2Nb throughout. No C15/C14 polymorph is experimentally established in this paper.",
+    "mapping_constraint": "QUALITATIVE_CONTEXT only; cannot supply a direct C15 equilibrium assignment."
+  },
+  {
+    "source_id": "S4_SI",
+    "phase": "(Cu)",
+    "prototype": "Cu",
+    "pearson_symbol": "cF4",
+    "space_group": "Fm-3m",
+    "page": "PDF2 (printed2)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation (reference14), not new structure measurement",
+    "note": "FCC A1"
+  },
+  {
+    "source_id": "S4_SI",
+    "phase": "(Cr)",
+    "prototype": "Cr",
+    "pearson_symbol": "cI2",
+    "space_group": "Im-3m",
+    "page": "PDF2 (printed2)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation (reference14), not new structure measurement",
+    "note": "BCC A2"
+  },
+  {
+    "source_id": "S4_SI",
+    "phase": "(Si)",
+    "prototype": "C",
+    "pearson_symbol": "cF8",
+    "space_group": "Fd-3m",
+    "page": "PDF2 (printed2)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation (reference14), not new structure measurement",
+    "note": "diamond A4"
+  },
+  {
+    "source_id": "S4_SI",
+    "phase": "Cu15Si4",
+    "prototype": "Cu15Si4",
+    "pearson_symbol": "cI76",
+    "space_group": "I-43d",
+    "page": "PDF2 (printed2)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation (reference14), not new structure measurement",
+    "note": ""
+  },
+  {
+    "source_id": "S4_SI",
+    "phase": "Cu19Si6",
+    "prototype": null,
+    "pearson_symbol": "tP*",
+    "space_group": "R-3m",
+    "page": "PDF2 (printed2)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation (reference14), not new structure measurement",
+    "note": "Table1 unusual Pearson/space-group combination preserved; do not infer a different structure"
+  },
+  {
+    "source_id": "S4_SI",
+    "phase": "Cu56Si11",
+    "prototype": null,
+    "pearson_symbol": "cP20",
+    "space_group": "P4123 (literal table text)",
+    "page": "PDF2 (printed2)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation (reference14), not new structure measurement",
+    "note": "Table renders CP20; retain reported structure without prototype inference"
+  },
+  {
+    "source_id": "S4_SI",
+    "phase": "Cu33Si7",
+    "prototype": null,
+    "pearson_symbol": "t**",
+    "space_group": null,
+    "page": "PDF2 (printed2)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation (reference14), not new structure measurement",
+    "note": "incomplete structure in source"
+  },
+  {
+    "source_id": "S4_SI",
+    "phase": "hcp(CuSi)",
+    "prototype": "Mg",
+    "pearson_symbol": "hP2",
+    "space_group": "P6_3/mmc",
+    "page": "PDF2 (printed2)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation (reference14), not new structure measurement",
+    "note": "HCP A3 Cu6.69Si"
+  },
+  {
+    "source_id": "S4_SI",
+    "phase": "bcc(CuSi)",
+    "prototype": null,
+    "pearson_symbol": "cI2",
+    "space_group": "Im-3m",
+    "page": "PDF2 (printed2)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation (reference14), not new structure measurement",
+    "note": "BCC A2 Cu5.12Si; not an observed Table2 phase"
+  },
+  {
+    "source_id": "S4_SI",
+    "phase": "CrSi2",
+    "prototype": "CrSi2",
+    "pearson_symbol": "hP9",
+    "space_group": "P6_222",
+    "page": "PDF2 (printed2)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation (reference14), not new structure measurement",
+    "note": ""
+  },
+  {
+    "source_id": "S4_SI",
+    "phase": "CrSi",
+    "prototype": "FeSi",
+    "pearson_symbol": "cP8",
+    "space_group": "P2_13",
+    "page": "PDF2 (printed2)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation (reference14), not new structure measurement",
+    "note": ""
+  },
+  {
+    "source_id": "S4_SI",
+    "phase": "αCr5Si3",
+    "prototype": "αCr5Si3",
+    "pearson_symbol": "tI32",
+    "space_group": "I4/mcm",
+    "page": "PDF2 (printed2)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation (reference14), not new structure measurement",
+    "note": "Table prints Ti32; visual typography retained as conventional tI32"
+  },
+  {
+    "source_id": "S4_SI",
+    "phase": "βCr5Si3",
+    "prototype": null,
+    "pearson_symbol": null,
+    "space_group": null,
+    "page": "PDF2 (printed2)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation (reference14), not new structure measurement",
+    "note": "Not an observed experimental Table2 phase; no structure specified"
+  },
+  {
+    "source_id": "S4_SI",
+    "phase": "Cr3Si",
+    "prototype": "Cr3Si",
+    "pearson_symbol": "cP8",
+    "space_group": "Pm-3m",
+    "page": "PDF2 (printed2)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation (reference14), not new structure measurement",
+    "note": "Table phase-description column incorrectly says Cu19Si6; phase/prototype both Cr3Si; do not inherit erroneous description"
+  },
+  {
+    "source_id": "S5_TI",
+    "phase": "(Cu)",
+    "prototype": "Cu",
+    "pearson_symbol": "cF4",
+    "space_group": "Fm-3m",
+    "page": "PDF3 (printed391); allotropes PDF2 (390)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation; XRD additional evidence where noted",
+    "note": ""
+  },
+  {
+    "source_id": "S5_TI",
+    "phase": "(Cr)",
+    "prototype": "W",
+    "pearson_symbol": "cI2",
+    "space_group": "Im-3m",
+    "page": "PDF3 (printed391); allotropes PDF2 (390)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation; XRD additional evidence where noted",
+    "note": "Table1 labels Cr without parentheses"
+  },
+  {
+    "source_id": "S5_TI",
+    "phase": "αTi",
+    "prototype": "Mg",
+    "pearson_symbol": "hP2",
+    "space_group": "P6_3/mmc",
+    "page": "PDF3 (printed391); allotropes PDF2 (390)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation; XRD additional evidence where noted",
+    "note": ""
+  },
+  {
+    "source_id": "S5_TI",
+    "phase": "βTi",
+    "prototype": "W",
+    "pearson_symbol": "cI2",
+    "space_group": "Im-3m",
+    "page": "PDF3 (printed391); allotropes PDF2 (390)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation; XRD additional evidence where noted",
+    "note": ""
+  },
+  {
+    "source_id": "S5_TI",
+    "phase": "Cu4Ti",
+    "prototype": "Au4Zr",
+    "pearson_symbol": "oP20",
+    "space_group": "Pnma",
+    "page": "PDF3 (printed391); allotropes PDF2 (390)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation; XRD additional evidence where noted",
+    "note": ""
+  },
+  {
+    "source_id": "S5_TI",
+    "phase": "Cu2Ti",
+    "prototype": "Au2V",
+    "pearson_symbol": "oC12",
+    "space_group": "oC12",
+    "page": "PDF3 (printed391); allotropes PDF2 (390)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation; XRD additional evidence where noted",
+    "note": "Source places oC12 in space-group column; unresolved typo, not used"
+  },
+  {
+    "source_id": "S5_TI",
+    "phase": "Cu3Ti2",
+    "prototype": "Cu3Ti2",
+    "pearson_symbol": "tP10",
+    "space_group": "P4/nmm",
+    "page": "PDF3 (printed391); allotropes PDF2 (390)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation; XRD additional evidence where noted",
+    "note": ""
+  },
+  {
+    "source_id": "S5_TI",
+    "phase": "(Cu, Cr)3Ti2",
+    "prototype": "Cu3Ti2",
+    "pearson_symbol": "tP10",
+    "space_group": "P4/nmm",
+    "page": "PDF3 (printed391); allotropes PDF2 (390)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation; XRD additional evidence where noted",
+    "note": "PDF4 Figure4/ PDF6 text A9 XRD supports Cu3Ti2 solid solution; preserve Cu3Ti2 vs (Cu,Cr)3Ti2 endpoint distinction where table reports both"
+  },
+  {
+    "source_id": "S5_TI",
+    "phase": "Cu4Ti3",
+    "prototype": "Cu4Ti3",
+    "pearson_symbol": "tI14",
+    "space_group": "I4/mmm",
+    "page": "PDF3 (printed391); allotropes PDF2 (390)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation; XRD additional evidence where noted",
+    "note": ""
+  },
+  {
+    "source_id": "S5_TI",
+    "phase": "CuTi",
+    "prototype": "γCuTi",
+    "pearson_symbol": "tP4",
+    "space_group": "P4/nmm",
+    "page": "PDF3 (printed391); allotropes PDF2 (390)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation; XRD additional evidence where noted",
+    "note": ""
+  },
+  {
+    "source_id": "S5_TI",
+    "phase": "CuTi2",
+    "prototype": "MoSi2",
+    "pearson_symbol": "tI6",
+    "space_group": "I4/mmm",
+    "page": "PDF3 (printed391); allotropes PDF2 (390)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation; XRD additional evidence where noted",
+    "note": ""
+  },
+  {
+    "source_id": "S5_TI",
+    "phase": "αTiCr2",
+    "prototype": "Cu2Mg",
+    "pearson_symbol": "cF24",
+    "space_group": "Fd-3m",
+    "page": "PDF3 (printed391); allotropes PDF2 (390)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation; XRD additional evidence where noted",
+    "note": "C15 explicitly stated PDF2 p390; only this TiCr2 polymorph observed in Tables2/3"
+  },
+  {
+    "source_id": "S5_TI",
+    "phase": "βTiCr2",
+    "prototype": "MgNi2",
+    "pearson_symbol": "hP24",
+    "space_group": "P6_3/mmc",
+    "page": "PDF3 (printed391); allotropes PDF2 (390)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation; XRD additional evidence where noted",
+    "note": "C36 explicitly stated PDF2 p390; not observed in experimental Tables2/3"
+  },
+  {
+    "source_id": "S5_TI",
+    "phase": "γTiCr2",
+    "prototype": "MgZn2",
+    "pearson_symbol": "hP12",
+    "space_group": "P6_3/mmc",
+    "page": "PDF3 (printed391); allotropes PDF2 (390)",
+    "table": "1",
+    "evidence_type": "source crystal-structure compilation; XRD additional evidence where noted",
+    "note": "C14 explicitly stated PDF2 p390; not observed in experimental Tables2/3"
+  },
+  {
+    "source_id": "S5_TI",
+    "phase": "τ1",
+    "normalized_phase_name": "TAU1",
+    "prototype": null,
+    "pearson_symbol": null,
+    "space_group": "P4/nnc",
+    "page": "PDF11 (printed399)",
+    "table": "",
+    "figure": "S1 (not supplied)",
+    "evidence_type": "main-text report of preliminary XRD indexing at1173K",
+    "note": "Tetragonal (Cu,Cr)4Ti3; a=b=3.109(3), c=2.854(3), units absent in paragraph. Detailed crystallography explicitly unresolved. Actual literal τ1 (Greek tau), not sigma1; PDF text extraction renders s1. Do not map to Cu4Ti3 merely by stoichiometry."
+  }
+]

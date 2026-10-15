@@ -1,0 +1,228 @@
+{
+  "audit_scope": "Four existing PDFs; no CALPHAD",
+  "records": [
+    {
+      "id": "VT1955_CrCoCu_sigma",
+      "author_scan": "Wentzle [middle initial faint] DeBoskey; repository resolves R.",
+      "title": "Sigma phase in the ternary systems chromium-cobalt-copper and chromium-manganese-copper",
+      "year": 1955,
+      "type": "Virginia Polytechnic Institute MS thesis",
+      "doi": null,
+      "bibliography_status": "Verified repository metadata via DSpace API item and local PDF title page. Remote PDF SHA256 matches local existing PDF.",
+      "specimen": 29,
+      "basis": "atomic percent explicitly in Table II",
+      "proposed_composition": {
+        "Cr": 60.0,
+        "Co": 37.0,
+        "Cu": 3.0
+      },
+      "revised_composition": {
+        "Cr": 60.2,
+        "Co": 37.1,
+        "Cu": 2.7
+      },
+      "revised_chemically_analyzed": true,
+      "composition_location": "PDF/printed p48 Table II row29; asterisk footnote",
+      "temperature_C": 1000,
+      "duration_days": "3 or 4 (general protocol, no row-specific exact duration)",
+      "atmosphere": "helium-hydrogen mixture",
+      "cooling": "cold tap water quench",
+      "thermal_locations": [
+        "PDF p7 abstract",
+        "PDF p43 atmosphere",
+        "PDF p44 duration and quench",
+        "PDF p46 links TableII to1000C",
+        "PDF p49 Fig11 caption"
+      ],
+      "phases": [
+        "sigma",
+        "alpha-Cr terminal solid solution",
+        "delta-Cu terminal solid solution"
+      ],
+      "phase_locations": [
+        "PDF p48 TableII row29 image checked",
+        "PDF pp51,54 phase-label definitions"
+      ],
+      "method": "metallography and powder XRD, p45",
+      "qualification": "Authors assume equilibrium after two successive microstructure checks show no changes (p44). No quantitative phase fractions.",
+      "old_state_judgment": "1000C condition supported. Exact source composition is mole fractions Cr=.602 Co=.371 Cu=.027. An old weight conversion must be separately compared and cannot be called exact if it differs. Qualitative equilibrium-oriented benchmark only after composition provenance is repaired.",
+      "repository_url": "https://hdl.handle.net/10919/40972",
+      "repository_author": [
+        {
+          "value": "DeBoskey, Wentzle R.",
+          "language": "en",
+          "authority": null,
+          "confidence": -1,
+          "place": 0
+        }
+      ],
+      "pdf_sha256": "91323510ed5c5c9731692c2f74eae3b52c37871ce76521629e1e7fecddcf97d7",
+      "author": "Wentzle R. DeBoskey"
+    },
+    {
+      "id": "AG_Raabe2000",
+      "authors": [
+        "D. Raabe",
+        "K. Miyake",
+        "H. Takahara"
+      ],
+      "title": "Processing, microstructure, and properties of ternary high-strength Cu–Cr–Ag in situ composites",
+      "year": 2000,
+      "volume": 291,
+      "pages": "186–197",
+      "doi": "10.1016/S0921-5093(00)00981-3",
+      "bibliography_status": "Crossref200 title and authors verified; MPG repository search corroboration",
+      "url": "https://pure.mpg.de/pubman/item/item_2018806",
+      "basis": "wt% explicit",
+      "measured_compositions": [
+        {
+          "nominal_label": "Cu-10Cr-3Ag",
+          "Cr": 10.0,
+          "Ag": 3.0
+        },
+        {
+          "nominal_label": "Cu-10Cr-1Ag",
+          "Cr": 9.6,
+          "Ag": 1.0
+        },
+        {
+          "nominal_label": "Cu-4.5Cr-3Ag",
+          "Cr": 4.5,
+          "Ag": 2.7
+        }
+      ],
+      "composition_location": "PDF p2 printed187 Table1 image inspected; Cu balance",
+      "conditions": [
+        {
+          "scheme": "A",
+          "T_K": 1323,
+          "T_C_exact": 1049.85,
+          "duration_min": 60,
+          "atmosphere": "Ar",
+          "cooling": "water quench",
+          "location": "PDF p3 printed188 Fig1A image inspected",
+          "observed_equilibrium_phases_at_T": null
+        },
+        {
+          "scheme": "C",
+          "T_K": 1273,
+          "T_C_exact": 999.85,
+          "duration_min": 100,
+          "atmosphere": "vacuum",
+          "cooling": "water quench",
+          "location": "PDF p4 printed189 Fig1C image inspected",
+          "observation": "Cr filaments after solution treatment at strain3.95; p6 text and p7 Fig6b,c, post-treatment morphology"
+        },
+        {
+          "scheme": "C subsequent ageing",
+          "T_K": 473,
+          "duration_min": 30,
+          "atmosphere": "vacuum",
+          "cooling": "furnace cool",
+          "location": "PDF p4 Fig1C"
+        }
+      ],
+      "phase_evidence": "As-cast Cr dendrites/thin eutectic lamellae SEM after Cu/Ag selective etching, pp4–6 Figs2,4 and sec4.1.1. Some Ag still solute is author inference. Ageing precipitation discussion does not establish high-temperature equilibrium assemblages.",
+      "old_state_judgment": "Three old1050C rows are processing-context only, not valid experimental equilibrium phase agreement rows. 1323K equals1049.85C, and no full measured equilibrium phase set is reported at this solution step. Do not transfer cooled or aged phase labels to it."
+    },
+    {
+      "id": "JIM1959_CuCrTi_ageing1",
+      "author": "Toshio Doi",
+      "title": "On the Structure Changes Produced by Ageing of a Cu-Cr-Ti Alloy (Studies on the Precipitation of a Cu-Cr-Ti Alloy, 1st Report)",
+      "year": 1959,
+      "volume": 23,
+      "issue": 8,
+      "pages": "477–481",
+      "doi": "10.2320/jinstmet1952.23.8_477",
+      "bibliography_status": "Crossref200 exact title and author; J-STAGE publisher PDF corroboration",
+      "url": "https://www.jstage.jst.go.jp/article/jinstmet1952/23/8/23_8_477/_pdf",
+      "composition": {
+        "Cr": 0.54,
+        "Ti": 3.06,
+        "Cu": "balance",
+        "basis": "percent unspecified for analyzed specimen"
+      },
+      "basis_location": "PDF p1 abstract and p2 printed478 secII.1 image checked",
+      "basis_caution": "Background binary Fig1/2 wt% axes belong to cited phase diagrams. They are not explicit analytical specimen basis proof. Do not silently convert to mole fractions.",
+      "solution": {
+        "T_C": 930,
+        "duration_min": 60,
+        "cooling": "water quench",
+        "location": "PDF p2 secII.1"
+      },
+      "conditions": [
+        {
+          "T_C": 550,
+          "duration_min": 100,
+          "phases": [
+            "beta-prime Cu3Ti",
+            "gamma TiCr2"
+          ],
+          "location": "PDF p1 abstract, residue XRD"
+        },
+        {
+          "T_C": 700,
+          "duration_min": 480,
+          "phases": [
+            "beta-prime Cu3Ti",
+            "gamma TiCr2"
+          ],
+          "location": "PDF p1 abstract, residue XRD"
+        }
+      ],
+      "eligibility": "Qualitative ageing precipitate evidence; quantitative composition-based validation blocked by unresolved basis. Preserve historical phase nomenclature."
+    },
+    {
+      "id": "JIM1959_CuCrTi_precip2",
+      "author": "Toshio Doi",
+      "title": "Studies on the Precipitates of a Cu-Cr-Ti alloy by means of Extraction-Replica Technique (Studies on the Precipitation of a Cu-Cr-Ti Alloy 2nd Report)",
+      "year": 1959,
+      "volume": 23,
+      "issue": 8,
+      "pages": "482–485",
+      "doi": "10.2320/jinstmet1952.23.8_482",
+      "bibliography_status": "Crossref200 exact title and author; J-STAGE contents and PDF corroboration",
+      "url": "https://www.jstage.jst.go.jp/article/jinstmet1952/23/8/23_8_482/_pdf",
+      "composition": {
+        "Cr": 0.54,
+        "Ti": 3.06,
+        "Cu": "balance",
+        "basis": "percent unspecified"
+      },
+      "basis_caution": "p485 Cr:Ti weight ratio104.02:47.90 is TiCr2 stoichiometry, not explicit specimen percent-basis declaration.",
+      "conditions": [
+        {
+          "T_C": 600,
+          "duration_min": 1500,
+          "phases": [
+            "beta-prime Cu3Ti",
+            "gamma TiCr2"
+          ],
+          "location": "PDF p2 printed483 Table1 Photos1–2 electron diffraction"
+        },
+        {
+          "T_C": 600,
+          "duration_min": 10000,
+          "phases": [
+            "beta-prime Cu3Ti",
+            "gamma TiCr2"
+          ],
+          "location": "PDF p2 Table2 Photos3–4 electron diffraction"
+        },
+        {
+          "T_C": 600,
+          "duration_min": 3000,
+          "phase": "beta-prime Cu3Ti",
+          "location": "PDF pp2–3 Photos5–8 Tables3–4, insoluble/pearlite-like particles"
+        },
+        {
+          "T_C": 600,
+          "duration_min": 10000,
+          "phase": "gamma TiCr2",
+          "location": "PDF pp3–4 Photos11–14 Tables6–7, box particles"
+        }
+      ],
+      "eligibility": "Strong precipitate identity evidence, kinetic ageing study. Basis unresolved; no strict quantitative composition-based validation."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "generated_utc": "2026-09-07T02:07:26+00:00",
+  "label": "EXPLORATORY POST-REVEAL DIAGNOSTIC (spec 43); descriptive only; no threshold fitted, no model modified, no model selected",
+  "spearman_primary_tvd_vs": {
+    "max_abs_z": {
+      "spearman_rho": -0.038123273459995416,
+      "p_value": 1.5464395534033434e-08
+    },
+    "mean_abs_z": {
+      "spearman_rho": -0.27684437980677834,
+      "p_value": 0.0
+    },
+    "nn1_distance": {
+      "spearman_rho": -0.33187673917041793,
+      "p_value": 0.0
+    },
+    "knn5_mean_distance": {
+      "spearman_rho": -0.3228417266983375,
+      "p_value": 0.0
+    },
+    "tvd_primary_vs_secondary": {
+      "spearman_rho": -0.47306904642970676,
+      "p_value": 0.0
+    }
+  },
+  "primary_vs_secondary": [
+    {
+      "quantity": "mean_tvd",
+      "PRIMARY": 0.8643856187,
+      "SECONDARY": 0.7234409099,
+      "difference_S_minus_P": -0.1409447088,
+      "relative_difference": -0.1630576745
+    },
+    {
+      "quantity": "median_tvd",
+      "PRIMARY": 0.9111178623,
+      "SECONDARY": 0.8534921055,
+      "difference_S_minus_P": -0.0576257569,
+      "relative_difference": -0.0632473133
+    },
+    {
+      "quantity": "p95_tvd",
+      "PRIMARY": 0.9993043465,
+      "SECONDARY": 0.9441549545,
+      "difference_S_minus_P": -0.055149392,
+      "relative_difference": -0.0551877835
+    },
+    {
+      "quantity": "topology_accuracy",
+      "PRIMARY": 0.0785909091,
+      "SECONDARY": 0.2406818182,
+      "difference_S_minus_P": 0.1620909091,
+      "relative_difference": null
+    },
+    {
+      "quantity": "macro_mae",
+      "PRIMARY": 0.3457542475,
+      "SECONDARY": 0.2893763639,
+      "difference_S_minus_P": -0.0563778835,
+      "relative_difference": -0.1630576745
+    }
+  ],
+  "composition_error_descriptives": {
+    "mean_of_mean_tvd": 0.8643856186628643,
+    "worst_composition": {
+      "composition_id": "NI_BLIND_001193",
+      "mean_tvd": 0.9732870501353585,
+      "max_tvd": 0.9999981654324157,
+      "topology_accuracy": 0.0,
+      "n_converged_T": 11
+    },
+    "best_composition": {
+      "composition_id": "NI_BLIND_000722",
+      "mean_tvd": 0.6839819297083708,
+      "max_tvd": 0.9536924600897909,
+      "topology_accuracy": 0.36363636363636365,
+      "n_converged_T": 11
+    }
+  },
+  "figures": [
+    "Fig_HB_01_true_Ni_topology_vs_temperature.png",
+    "Fig_HB_02_primary_predicted_vs_true_topology.png",
+    "Fig_HB_03_primary_TVD_distribution.png",
+    "Fig_HB_04_primary_TVD_by_temperature.png",
+    "Fig_HB_05_primary_vs_secondary_TVD.png",
+    "Fig_HB_06_primary_secondary_topology_accuracy.png",
+    "Fig_HB_07_error_vs_pre_reveal_distance.png",
+    "Fig_HB_08_error_vs_model_disagreement.png",
+    "Fig_HB_09_true_partition_by_temperature.png",
+    "Fig_HB_10_blind_result_context_vs_historical_LOEO.png"
+  ]
+}

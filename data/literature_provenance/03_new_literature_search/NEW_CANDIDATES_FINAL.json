@@ -1,0 +1,220 @@
+[
+  {
+    "paper_id": "TI_SI_Sumino2019",
+    "doi": "10.34562/jic.58.1_64",
+    "title": "Effects of Ti and Si on Precipitation Behavior of Cu-Cr Based Alloy",
+    "X_identity": "TI;SI",
+    "decision": "QUALITATIVE_ONLY",
+    "new_beyond_R1": true,
+    "crossref_verified": false,
+    "crossref_title": null,
+    "authors": [
+      "Yuya Sumino",
+      "Koya Nomura",
+      "Hiroshi Sakamoto"
+    ],
+    "publisher_url": "https://www.jstage.jst.go.jp/article/jic/58/1/58_64/_article/-char/en",
+    "local_fulltext_path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5K_R2_SOURCE_PROVENANCE_REPAIR\\03_new_literature_search\\TI_SI_Sumino2019.pdf",
+    "local_fulltext_sha256": "4fe158a30fb5d30ccf396d33f31fbff64166550cf3489e8c06c9b84cc18a75f5",
+    "metadata_note": "Crossref 404; DOI resolves to J-STAGE, publisher title/author list and PDF first page agree. Crossref absence is not evidence of an invalid DOI.",
+    "direct_equilibrium_validation": false
+  },
+  {
+    "paper_id": "ZR_2012",
+    "doi": "10.1016/j.actamat.2012.01.038",
+    "title": "Atomic scale investigation of Cr precipitation in copper",
+    "X_identity": "ZR",
+    "decision": "BASELINE_ONLY",
+    "new_beyond_R1": true,
+    "crossref_verified": true,
+    "crossref_title": [
+      "Atomic scale investigation of Cr precipitation in copper"
+    ],
+    "authors": [
+      "A. Chbihi",
+      "X. Sauvage",
+      "D. Blavette"
+    ],
+    "publisher_url": "https://www.sciencedirect.com/science/article/abs/pii/S1359645412000766",
+    "local_fulltext_path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5K_R2_SOURCE_PROVENANCE_REPAIR\\03_new_literature_search\\ZR_2012.pdf",
+    "local_fulltext_sha256": "5cb0fbe279d4677ec0374d098aad87c693b4f0128d39c96dedd191cb283085da",
+    "metadata_note": "Crossref title/author metadata stored in crossref_final.json or retrieval_candidates.json; PDF identity checked when locally present. Abstract-only cases not admissible evidence.",
+    "direct_equilibrium_validation": false
+  },
+  {
+    "paper_id": "ZR_Hughes2022",
+    "doi": "10.1016/j.jmrt.2022.07.113",
+    "title": "Full-stage precipitation during aging of Cu-0.55Cr-0.07Zr alloy for high heat flux fusion reactor technology",
+    "X_identity": "ZR",
+    "decision": "BASELINE_ONLY",
+    "new_beyond_R1": true,
+    "crossref_verified": true,
+    "crossref_title": [
+      "Full-stage precipitation during aging of Cu-0.55Cr-0.07Zr alloy for high heat flux fusion reactor technology"
+    ],
+    "authors": [
+      "J. Hughes",
+      "T. Toyama",
+      "M. Gorley",
+      "E. Jimenez-Melero"
+    ],
+    "publisher_url": "https://www.sciencedirect.com/science/article/pii/S2238785422011528",
+    "local_fulltext_path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5K_R2_SOURCE_PROVENANCE_REPAIR\\03_new_literature_search\\ZR_Hughes2022.pdf",
+    "local_fulltext_sha256": "2e5893ba12cf1172e74f9d53d6fc14740977ec0dfd2100a800ef25dd0e07d5ae",
+    "metadata_note": "Crossref title/author metadata stored in crossref_final.json or retrieval_candidates.json; PDF identity checked when locally present. Abstract-only cases not admissible evidence.",
+    "direct_equilibrium_validation": false
+  },
+  {
+    "paper_id": "TI_Shi2023",
+    "doi": "10.1016/j.calphad.2023.102581",
+    "title": "Experimental investigation and thermodynamic calculation of the Cu-Cr-Ti ternary system",
+    "X_identity": "TI",
+    "decision": "NEEDS_FULLTEXT",
+    "new_beyond_R1": true,
+    "crossref_verified": true,
+    "crossref_title": [
+      "Experimental investigation and thermodynamic calculation of the Cu–Cr–Ti ternary system"
+    ],
+    "authors": [
+      "Yuchao Shi",
+      "Jin Zhang",
+      "Benfu Li",
+      "Gang Zeng",
+      "Chenggang Jin",
+      "Biao Hu",
+      "Xinyue Lan",
+      "Yong Du"
+    ],
+    "publisher_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4363764",
+    "local_fulltext_path": null,
+    "local_fulltext_sha256": null,
+    "metadata_note": "Crossref title/author metadata stored in crossref_final.json or retrieval_candidates.json; PDF identity checked when locally present. Abstract-only cases not admissible evidence.",
+    "direct_equilibrium_validation": false
+  },
+  {
+    "paper_id": "SI_Yu2011",
+    "doi": "10.1016/j.matchemphys.2010.11.033",
+    "title": "Thermodynamics and kinetics in liquid immiscible Cu-Cr-Si ternary system",
+    "X_identity": "SI",
+    "decision": "NEEDS_FULLTEXT",
+    "new_beyond_R1": true,
+    "crossref_verified": true,
+    "crossref_title": [
+      "Thermodynamics and kinetics in liquid immiscible Cu–Cr–Si ternary system"
+    ],
+    "authors": [
+      "Yan Yu",
+      "Cuiping Wang",
+      "Xingjun Liu",
+      "Ryosuke Kainuma",
+      "Kiyohito Ishida"
+    ],
+    "publisher_url": "https://www.sciencedirect.com/science/article/abs/pii/S0254058410009235",
+    "local_fulltext_path": null,
+    "local_fulltext_sha256": null,
+    "metadata_note": "Crossref title/author metadata stored in crossref_final.json or retrieval_candidates.json; PDF identity checked when locally present. Abstract-only cases not admissible evidence.",
+    "direct_equilibrium_validation": false
+  },
+  {
+    "paper_id": "CO_2023",
+    "doi": "10.1016/j.jallcom.2022.168269",
+    "title": "Precipitation behavior and strengthening effects of the Cu-0.42Cr-0.16Co alloy during aging treatment",
+    "X_identity": "CO",
+    "decision": "NEEDS_FULLTEXT",
+    "new_beyond_R1": true,
+    "crossref_verified": true,
+    "crossref_title": [
+      "Precipitation behavior and strengthening effects of the Cu-0.42Cr-0.16Co alloy during aging treatment"
+    ],
+    "authors": [
+      "Qinghua Gong",
+      "Jian Liu",
+      "Fan Wu",
+      "Huiming Chen",
+      "Weibin Xie",
+      "Hang Wang",
+      "Bin Yang"
+    ],
+    "publisher_url": "https://www.sciencedirect.com/science/article/abs/pii/S0925838822046606",
+    "local_fulltext_path": null,
+    "local_fulltext_sha256": null,
+    "metadata_note": "Crossref title/author metadata stored in crossref_final.json or retrieval_candidates.json; PDF identity checked when locally present. Abstract-only cases not admissible evidence.",
+    "direct_equilibrium_validation": false
+  },
+  {
+    "paper_id": "TI_2023",
+    "doi": "10.1016/j.jallcom.2023.168865",
+    "title": "Relationship between microstructure and properties of high-strength Cu-Ti-Cr alloys during aging",
+    "X_identity": "TI",
+    "decision": "NEEDS_FULLTEXT",
+    "new_beyond_R1": true,
+    "crossref_verified": true,
+    "crossref_title": [
+      "Relationship between microstructure and properties of high-strength Cu-Ti-Cr alloys during aging"
+    ],
+    "authors": [
+      "Lue Huang",
+      "Lijun Peng",
+      "Xujun Mi",
+      "Gang Zhao",
+      "Guojie Huang",
+      "Haofeng Xie",
+      "Wenjing Zhang"
+    ],
+    "publisher_url": "https://www.sciencedirect.com/science/article/pii/S0925838823001688",
+    "local_fulltext_path": null,
+    "local_fulltext_sha256": null,
+    "metadata_note": "Crossref title/author metadata stored in crossref_final.json or retrieval_candidates.json; PDF identity checked when locally present. Abstract-only cases not admissible evidence.",
+    "direct_equilibrium_validation": false
+  },
+  {
+    "paper_id": "CO_Hui2022",
+    "doi": "10.1016/j.matdes.2022.110455",
+    "title": "High-throughput investigation of structural evolution upon solid-state in Cu-Cr-Co combinatorial multilayer thin-film",
+    "X_identity": "CO",
+    "decision": "REJECT_THIN_FILM",
+    "new_beyond_R1": true,
+    "crossref_verified": true,
+    "crossref_title": [
+      "High-throughput investigation of structural evolution upon solid-state in Cu–Cr–Co combinatorial multilayer thin-film"
+    ],
+    "authors": [
+      "Jian Hui",
+      "Qingyun Hu",
+      "Hengrui Zhang",
+      "Jie Zhao",
+      "Yuxi Luo",
+      "Yang Ren",
+      "Zhan Zhang",
+      "Hong Wang"
+    ],
+    "publisher_url": "https://scholars.cityu.edu.hk/files/104466904/1_s2.0_S0264127522000764_main.pdf",
+    "local_fulltext_path": null,
+    "local_fulltext_sha256": null,
+    "metadata_note": "Crossref title/author metadata stored in crossref_final.json or retrieval_candidates.json; PDF identity checked when locally present. Abstract-only cases not admissible evidence.",
+    "direct_equilibrium_validation": false
+  },
+  {
+    "paper_id": "SI_AG_2024",
+    "doi": "10.3390/coatings14070909",
+    "title": "The Influence of Aging Temperatures on the Microstructure and Stress Relaxation Resistance of Cu-Cr-Ag-Si Alloy",
+    "X_identity": "SI;AG;TI",
+    "decision": "REJECT_MIXED_X",
+    "new_beyond_R1": true,
+    "crossref_verified": true,
+    "crossref_title": [
+      "The Influence of Aging Temperatures on the Microstructure and Stress Relaxation Resistance of Cu-Cr-Ag-Si Alloy"
+    ],
+    "authors": [
+      "Haitao Liu",
+      "Longlong Lu",
+      "Guojie Wang",
+      "Yong Liu"
+    ],
+    "publisher_url": "https://www.mdpi.com/2079-6412/14/7/909",
+    "local_fulltext_path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5K_R2_SOURCE_PROVENANCE_REPAIR\\03_new_literature_search\\SI_AG_2024.pdf",
+    "local_fulltext_sha256": "b913c5568c280d595bc95e40c979f66f1c6dd43fd7355cb51b05dd5f8651ab43",
+    "metadata_note": "Crossref title/author metadata stored in crossref_final.json or retrieval_candidates.json; PDF identity checked when locally present. Abstract-only cases not admissible evidence.",
+    "direct_equilibrium_validation": false
+  }
+]

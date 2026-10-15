@@ -1,0 +1,60 @@
+{
+  "role": "PRIMARY",
+  "model": "ORIGINAL6_DIRECT_MLP",
+  "endpoint": "mean TVD over all converged Ni blind states (frozen STEP5G metric preregistration)",
+  "n_formal": 22000,
+  "n_converged": 22000,
+  "n_failed": 0,
+  "n_not_in_store": 0,
+  "n_scored": 22000,
+  "mean_tvd": 0.8643856186628641,
+  "median_tvd": 0.9111178623163201,
+  "p95_tvd": 0.9993043464932985,
+  "macro_mae": 0.3457542474651457,
+  "per_family_mae": {
+    "FCC": 0.614444624027953,
+    "BCC": 0.1402441307720359,
+    "C15": 0.6959406489144913,
+    "OTHER_SOLID": 0.2505249591957245,
+    "LIQUID": 0.027616874415523983
+  },
+  "topology_accuracy": 0.07859090909090909,
+  "topology_macro_f1": 0.039501941969385425,
+  "trivial_baseline": [
+    0.3924063060849874,
+    0.17997911835521582,
+    0.2687588732102482,
+    0.1582142342482923,
+    0.0006414681012562028
+  ],
+  "trivial_mean_tvd": 0.5957669021263107,
+  "skill_vs_trivial": -0.26861871653655345,
+  "relative_skill": -0.4508788849763974,
+  "simplex_fallback_count": 0,
+  "bootstrap_mean_tvd": {
+    "replicates": 1000,
+    "seed": 20260911,
+    "unit": "composition_id",
+    "ci95_low": 0.8619306652264774,
+    "ci95_high": 0.8670304548642613,
+    "boot_mean": 0.8644175913277075,
+    "boot_std": 0.0013051434991345468
+  },
+  "true_topology_distribution": {
+    "FCC": 0.7172272727272727,
+    "OTHER_SOLID": 0.2827727272727273
+  },
+  "pred_topology_distribution": {
+    "C15": 0.8730909090909091,
+    "FCC": 0.07859090909090909,
+    "BCC": 0.048318181818181816
+  },
+  "interpretation_guides_descriptive_only": {
+    "historical_original_six_retrospective_loeo_mean_tvd": 0.752644,
+    "note": "per STEP5G_CLARIFICATION_01 these historical values are NOT scores of this exact production checkpoint; they are model-family context only (spec 47, 48)",
+    "below_0.752644_means": "better than the average historical original-six retrospective LOEO (descriptive only)",
+    "below_0.50_means": "relatively strong prospective transfer (descriptive only)"
+  },
+  "success_threshold": null,
+  "no_journal_claim": true
+}

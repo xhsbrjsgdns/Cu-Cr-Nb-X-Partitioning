@@ -1,0 +1,110 @@
+{
+  "manifest": "CODE_SNAPSHOT_MANIFEST_STEP5A_FINAL (post-QA, supplementary)",
+  "generated_utc": "2026-09-04T18:13:25+00:00",
+  "note": "frozen pre-test manifest remains CODE_SNAPSHOT_MANIFEST_STEP5A.json; differences are PATCH_01/PATCH_02 tooling fixes only",
+  "n_files": 17,
+  "files": [
+    {
+      "filename": "30_step5a_audit.py",
+      "bytes": 17754,
+      "mtime_utc": "2026-09-04T12:51:31+00:00",
+      "sha256": "5b30cee2a3c946fd0d2b619649a78cf091e096bf82d39ba6cebb6e6f16f9436f"
+    },
+    {
+      "filename": "31_step5a_element_descriptors.py",
+      "bytes": 8092,
+      "mtime_utc": "2026-09-04T12:57:56+00:00",
+      "sha256": "2810e6bacbab23364b83dfb2e677723f428d6f019687685a63d5b43157e678dd"
+    },
+    {
+      "filename": "32_step5a_features.py",
+      "bytes": 16544,
+      "mtime_utc": "2026-09-04T13:09:00+00:00",
+      "sha256": "09896c2aaf4b99022941727fa778178b984ded7acadc852d401fbc1d759a29e5"
+    },
+    {
+      "filename": "33_step5a_master_split.py",
+      "bytes": 12128,
+      "mtime_utc": "2026-09-04T12:52:43+00:00",
+      "sha256": "6c971bb5ae80fdc44bb0006e99abac317097a412635572ee95ea62a8a13af6e7"
+    },
+    {
+      "filename": "34_step5a_leakage_audit.py",
+      "bytes": 9540,
+      "mtime_utc": "2026-09-04T13:09:09+00:00",
+      "sha256": "676e375506c3c3f3ceedfa29aa56ec0a052d0542a8cb4fb7169d18cbd1332b50"
+    },
+    {
+      "filename": "35_step5a_feature_selection.py",
+      "bytes": 9675,
+      "mtime_utc": "2026-09-04T13:11:23+00:00",
+      "sha256": "ff2892f51547ec7b4fc83140db1adb76c37f82f0381c7b1f42c0ae5b1f0ef2ed"
+    },
+    {
+      "filename": "36_step5a_feature_ablation.py",
+      "bytes": 8242,
+      "mtime_utc": "2026-09-04T13:13:54+00:00",
+      "sha256": "c3c21b662dd4ff20b7668880212f0ee3b66310faa4ee641c7c753c362b93dd0f"
+    },
+    {
+      "filename": "37_step5a_model_screen.py",
+      "bytes": 12146,
+      "mtime_utc": "2026-09-04T13:16:29+00:00",
+      "sha256": "4d22a0d5c6fe0281786669673e69349932e7f68f9af97d720351b1a34bca3698"
+    },
+    {
+      "filename": "38_step5a_tune.py",
+      "bytes": 11930,
+      "mtime_utc": "2026-09-04T13:18:43+00:00",
+      "sha256": "f77e4cf43e170a2e62ecb85840289f4eef80657ffcbe4a9d358ee7e46068f28b"
+    },
+    {
+      "filename": "39_step5a_development_freeze.py",
+      "bytes": 17902,
+      "mtime_utc": "2026-09-04T13:20:23+00:00",
+      "sha256": "d5d60b00143b319a0444d546467075fd722dc1422642f1925d0b70c20f09e5d0"
+    },
+    {
+      "filename": "39b_step5a_code_snapshot.py",
+      "bytes": 1904,
+      "mtime_utc": "2026-09-04T13:28:49+00:00",
+      "sha256": "e59e5d01a738fd34750961e57d0835d90a40baae999cd76a16d04fc6133552e3"
+    },
+    {
+      "filename": "40_step5a_iid_test.py",
+      "bytes": 17727,
+      "mtime_utc": "2026-09-04T15:46:21+00:00",
+      "sha256": "030ad9aaff0112ba99b8475a47e6700cad7bb1387424b1d65dd71eca47f80ccc"
+    },
+    {
+      "filename": "41_step5a_bootstrap.py",
+      "bytes": 5901,
+      "mtime_utc": "2026-09-04T13:22:38+00:00",
+      "sha256": "0c6788dfd97ad9db79d70065f5d1eba3c416523306f99675a4d36ae3d2bd2a72"
+    },
+    {
+      "filename": "42_step5a_error_analysis.py",
+      "bytes": 6554,
+      "mtime_utc": "2026-09-04T13:23:13+00:00",
+      "sha256": "0ca63492c72f2567f01095feb699f8628acec20afb5d887469e8aaed255ad226"
+    },
+    {
+      "filename": "43_step5a_figures.py",
+      "bytes": 12870,
+      "mtime_utc": "2026-09-04T18:11:57+00:00",
+      "sha256": "aac6ffc61f236c52a213967c929aa699a730dd747a0d28e2f51eb2be67766993"
+    },
+    {
+      "filename": "44_step5a_final_qa.py",
+      "bytes": 28913,
+      "mtime_utc": "2026-09-04T18:12:46+00:00",
+      "sha256": "8e08bd6e506f18abab289faab79028d3cb6937c25a37a838bb59faf3f928fd40"
+    },
+    {
+      "filename": "step5a_common.py",
+      "bytes": 9870,
+      "mtime_utc": "2026-09-04T15:45:55+00:00",
+      "sha256": "fb4011812379362629145da924edda3d0abc59f8fe9bf81d25fba9947394309a"
+    }
+  ]
+}

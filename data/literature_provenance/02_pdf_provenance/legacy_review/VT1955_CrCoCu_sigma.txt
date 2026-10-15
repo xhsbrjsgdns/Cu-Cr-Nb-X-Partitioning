@@ -1,0 +1,2149 @@
+PAGE 1
+SIGMA PHASE IN THE TERNARY SYSTEMS
+¤dROMIUMbCOBALT·COPPER AND
+CHROMIUM+MANGANESE-COPPER
+by
+Wentzle L. Deßoskey
+Thesis submitted to the Graduate Faculty of the
+Virginia Polyteehnic Institute
+in candidacy for the degree of
+_
+MASTER OF SCIENCE
+in
+Metallurgical Engineering
+APPROVED:
+APPROVED:
+•
+*
+Q)
+rector o
+ra uate
+tu
+es
+ea
+o
+epartment
+·
+!
+* (
+‘
+•ean o
+ng near ng
+upe
+ser
+or
+o esser
+November 1955
+Blackeburg, Virginia
+t
+
+PAGE 2
+-3-
+TABLE OF CONTENTS
+··
+Page
+Q
+I.
+ABSTRACT . . . . . . .
+. . . . . . . . . .
+7
+II.
+INTRODUCTION ...............
+9
+III.
+THE REVIEW OF LITERATURE . ....... .
+12
+E
+The General Alloy Theory ......
+12
+The Sigma Phase .......... .
+15
+IV.
+OBJECT OF THE INVESTIGATION
+. ......
+20
+V.
+DESCRIPTION OF EQUIPMENT AND MATERIALS . .
+29
+Melting Furnace .....A . . ....
+29
+Annealing Furnace . . . . . .
+.
+. . .
+33
+Materials . . . . . . . . . . . .
+. .
+39
+VI.
+OPERATION OF EQUIPMENT . .
+. . ..... .
+41
+Melting Furnace . . . . . . . . . . .
+41
+Annealing Furnace . . .
+. ..... .
+42
+Phase Beundary Determinations . . . .
+44
+VII.
+RESULTS AND DISCUSSION
+. . . ......
+46
+Results . .7. . . . . . . . . . .
+. .
+46
+Discussien of Results ..... . . .
+51
+Photomicrographs
+. . . . . .... .
+59
+VIII.
+CONGLUSIONS
+. . . . . ........
+. .
+70
+IX.
+SUMMARY ............... . .
+71
+X.
+ACKNOMLEDGMENTS .............
+72
+
+PAGE 3
+VM
+P
+Page
+XI Q
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+Q
+Q
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+75
+
+PAGE 4
+enh-
+TABLE OF FIGURES
+Figure Nc.
+'
+Page
+1.
+1
+The Cr·Cu Binary Diagram ....
+.
+23
+2.
+' The Co—0u Binary Diagram .....
+2A
+3.
+The Mh-Cu Binary Diagram ....
+.
+25
+’
+L.
+The Cr—Co Binary Diagram
+. . . . .
+26
+5.
+The Partial Cr-Mn Binary
+y
+‘
+Q
+Q
+Q
+Q
+Q
+Q
+Q
+Q
+Q
+Q
+Q
+Q
+Q
+6.
+The 0r•Mh Binary Diagram .... .
+28
+.7.
+Schematic Diagram of the High
+·
+A
+·
+Frequency Induction Furnace .
+.
+. .„
+30
+8.
+Circuit Diagram for Annealing
+Q
+Q
+Q
+Q
+Q
+Q
+Q
+Q
+Q
+Q
+Q
+Q
+I
+Q
+Q
+9.
+Annealing Furnace ...... . . .
+37
+l
+10.
+F Curve of Proposed Analysis
+Versus Probable Analysis fer
+the Cemponent Metals of the
+Cr·Co—Cu Ternary System . . .
+. . .
+L7
+11.
+The Partial 1000*0. Cr—Cc-Cu
+Ternary Isothermal Section
+. . . .
+L9
+12.
+Curve of Proposed Analysis
+Versus Prebable Analysis for
+the Component Metals of the
+Cr—Mn—Cu Ternary System . . ....
+50
+13.
+The Partial 975*C. Cr—Mn•Cu
+Ternary Isothermal Section
+. . . .
+53
+lk.
+Photcmicrograph of Specimen 101 . .
+62
+15.
+Photomicrograph of Specimen 103 . .
+63
+16.
+Photomicrcgraph of Specimen 106 . .
+6h
+
+PAGE 5
+-5-
+Figure Ne.
+Page
+17.
+Photomicrograph of Specimea 115 . .
+65
+18.
+Phobomicrograph of Specimen 35
+. .
+66
+19.
+Photomicrograph of Specimen 36
+. .
+67
+20.
+Photomicrograph cf Specimen 28U . .
+68
+21.
+Photomicrograph af Spacimen 28E . .
+69
+2
+n
+
+PAGE 6
+..6..
+TABLE OF TABLES
+Table H0.
+R
+Page
+I.
+.
+Analysis of Compcnent Metals
+. . . .
+A0
+II.
+Chromium»Cobalt-Copper
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+IIII.
+Chromium»Manganes•—Copper
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I IR
+
+PAGE 7
+ABSTRACT
+The initial part of this investigation was to
+determine the ternary isothermal sections for the
+Cr·Co-Cu system and the Cr—Mm-Cu system at lOOO°C.
+and 975°C., respectively.
+This was done by vacuum
+melting the Cr-Co~Cu alloys and annealing these alloys
+in an inert atmosphere of a helium-hydrogen gas mix-
+ture.
+The Cr-Mn-Cu alleys were melted under a helium
+atmosphere and annealed in evacuated Vycor tubes.
+By
+the use of metallographic techniques and x-ray analysis
+the pases present in each alloy were determined and
+the two ternary isotherml sections constructed.
+It was found that copper had a very limited solid
+solubility in the sigm
+phase of both systems.
+The
+sigma field in the Cr-Co—Cu l0O0°C. ternary isothermal
+comes into equilibrium with the terminal solid solu-
+tions of chromium, cobalt, and copper.
+In the Cr-Mn-Cu
+ternary isothermal section sigma comes into equilibrium
+with the terminal solid solution of chromium and cobalt
+and the face•centered cubic solid solution of copper
+in manganese.
+From these data the electron vacancy
+scheme(16) may not be extended to include copper due
+
+PAGE 8
+to the limited solid solubility of copper in sigma.
+Also, the extent of copper solubility in the sigmas
+cannot be related to the solubility of the oopper in
+eobalt or mnganes••
+4
+
+PAGE 9
+INTRODUCTION
+The most typical intermediate phase occurring in
+binary and ternary systems of the transition elements
+is the sigma phase, the first occurrence of which was
+reported by Bain and Griff1ths(l) in the Fe-Cr system.
+Thereafter, sigma was reported in many other transition
+element systems, both ferrous and non—ferrous.
+Green-
+field and Beck(2•3) have recently substantiated the
+occurrence of the sigma phase in a number of systems.
+These are listed according to the Period combination
+as follows:
+First Period with First Period
+V-Mn, V-Fe, V-Go, V-Ni, Cr—Mn, Cr—Fe, Cr-Co
+Second Period with Second Period
+Nb·Rh, Nb—Pd, Mb-Ru
+Third Period with Third Period
+Ta-Re, Ta-Pt, W-Re
+First Period with Second Period
+Cr-Ru, Mo-Mh, Mb-Fe, Mo-Co
+First Period with Third Period
+p
+Cr-Re
+T
+‘
+Second Period with Third Period
+Nb·-Re, Nb-Pt, Ho-Re, Mo-Os, Ta-Rh
+T
+
+PAGE 10
+-10-
+With reference to the First Long Period it is
+noted that sigma occurs only when either of the two
+transition elements to the left of menganeee, vene-
+dium or chromium, ie combined with manganese or a
+traneition element to the right of manganese.
+This
+V
+combination of Groups VB, VIB, VIIB, and VIII also
+appears to hold both for the Second and Third Long
+T
+Periode and the combinations of Long Periode.
+A
+I
+The occurrence of sigma in twelve ternary systems
+was listed by Nevitt‘h).
+More recently, Derby, Green-
+field, and Beck(5) substentiated the occurrence of
+sigma in sight more ternary systems.
+These twenty
+ternary systeme are:
+V-Fe-Co, V·Fe-Ni, V-Co-Ni, V-Mh-Fe, V-Mh-Co,
+V-Mh-Ni, V-Co·Or, Cr-Oo-Fe, Gr-Co-Mo, Cr—Co-W,
+V-Co-Mo, Cr—Fe-Mo, Cr-Fe-W, Cr-Fe-V, Cr—Mo-Ni,
+Cr-Ni·Fe, Cr-Ni-W, Gr•Fe-Ni, Cr-Fe-S1, Cr-Co-Ni.
+Also, it was shown by Tucker(6) that the beta-uranium
+structure is analogous to that of sigma.
+Sigma has been found to have a tetragonal lattice
+with thirty atoms per unit cell(7).
+The very char-
+acteristic x-ray pattern gives an excellent method of
+rapid identification.
+This unique x-ray pattern is
+
+PAGE 11
+•11•
+common to all sigmas, although there is a slight para-
+meter shift due to the different sized atoms involved.
+Another spot-check means of identifying sigma, in
+some cases, is given by the non·magnetic room tempera-
+ture behavior of sigma.
+It also was observed(8) and
+confirmed(9) that sigma becomes ferromagnetie around
+liquid air temperatures.
+Nevitt showed that low tem-
+perature ferromagnetism is a definite characteristic
+of the sigma phase•
+Bein and Griff1ths(1) along with their discovery
+of sigma observed the characteristic property of
+extreme hardness.
+This hardness causes severe em-
+brittlement of alloys highly alloyed with transition
+elements when sigma is present.
+Thus, an understand-
+ing of the alloying behavior of the transition ele-
+monte would lead to knowledge of the control of sigma.
+
+PAGE 12
+-12-
+,
+!
+THE REVIEW OF LITERATURE
+The General Alloy Theogy.
+In the general theory of
+alloys, one may classify the metallic elements as
+either transition elements or non-transition elements.
+The transition elements are characterized by having an
+electronic configuration of either hs, Ss, or 6s elec-
+trons outside of partially filled d levels.
+The elec-
+tronic configuration of the non-transition elements is
+that of valence electrons outside of filled levels.
+Relationships developed by Hume-Rothery(1O) can
+be used with fair reliability in predicting the alloy-
+ing behavior of the non-transition elements.
+General
+predictions derivable from these relationships are as
+follows:
+l.
+If the atomic diameters of the solvent
+and the solute atoms differ by more than
+about 15 per cent, the solid solubility
+range becomes small.
+2.
+Large electro-chemical differences be-
+tween the comonent metals give a ten-
+dency toward the formation of stable
+compounds rather than extensive termi-
+nal solid solutions.
+
+PAGE 13
+-13-
+‘
+l
+O
+3.
+The ratio cf valence electrons to the num-
+ber of atoms at ideal composition of many
+isomorphous compounds may correspond to one
+of the venme, 3/2, 21/13, or 7/L., where
+the respective crystal structures becoming
+stable are body-centered cubic, complex
+cublc and c1ose—packed hexagonal.
+The 3/2
+ratio also tends to give rise to a beta-
+manganese, close-packed hexagonal type
+crystal structure.
+_
+Hodiflcatlons of the above relatlonshlps must be
+made if predlctions are to be made concerning the
+alloylng behavior of e transltlon wlth a non-transl-
+n
+tion element.
+One modification requires that a zero
+valence be asslgned to the transitlon element as
+polnted out by Cottrell(ll) due to the necossity for
+fllling the partlally fllled sub-bands of the transl-
+tlon elements.
+Raynor(12) has proposed a merger ef
+Hume-Rothery's relationshlps wlth those of Pau1lng(13)
+as a further modification of the alloylng behavior of
+a transltion element with a non·transition element.
+In this modification a transltion element of the First
+I
+Long Period accepts enough electrons from the
+
+PAGE 14
+~l&•
+k
+X
+X
+structure to fill the Pauling non—bonding or atomic
+3d sub·band while contributing no electrons of its own,
+This assumption gives rise to an electron-to·atom ratio
+of approximately 2,2 for isomorphous compounds of
+transition elements with aluminum,
+e
+When the alloying behavior of one transition e1e•
+i
+ment with another is investigated, Hume—Rothery*s
+relationships show a low degree of applicability,
+especially in proposing critical electron—to—atom
+ratios,
+This electron·to-atom ratio would be a con·
+X
+stant for combinations of the transition elements with
+ä
+one another if the postulation of Pauling is adopted
+X
+that the number of bonding electrons remains constant,
+equal to 5,78 electrons across the First Long Period,
+This consideratien, along with similarity of atomic
+diameters and electrechemical characteristics for
+these transition elements, gives rise to very low
+probability, by Hume·Rothery's relationships, that
+intermediate phases should exist,
+The fact that the sigma phase, an exceptionally
+stable phase when certain conditions are present,
+occurs when certain transition elements are combined,
+gives rise to the consideration that factors, probably
+
+PAGE 15
+,15-
+of minor importance or even non·existent in non—transi-
+[
+tion elements, play a definite role in determining the
+alloying behavior of the traneition elements.
+The Sggga Phase.
+Dewey and Bain(1L) were the first
+tosuggest
+necessary conditions for the formation of
+thesigma
+phase.
+These conditions were that the
+atomicdiametere
+must not differ by more than about 8 per
+cent and that the crYstal structure of one of the com~
+ponent transition elements is body—centered cubic while
+the other component ie face·centered cubic in at least
+. one of its allotropic forms.
+The fact that sigma is
+found in the Mo-Ru binary system, where the crystal
+structures are body—centered cubic and hexagonal close-
+packed, respectively, shows that the letter is not a
+necessary condition.
+When sigma forms between ele·
+mente in different Long Periode the atomic diameters
+of the component elements may differ by as much as
+J
+10 per cent.
+This fact eleminates the necessity of
+the first condition«“
+[
+The proposal of Sul1y(15) and those of Beck(16)
+are dependent upon Pauling's theory of the transition
+elements of the First Long Period, which proposes that
+
+PAGE 16
+”
+5-16-
+metallic bonding is some form of covalent bonding.
+Pauling theorised that the transition elements have
+e
+their d eleetrons sub-divided into two distinct groups,
+the atomic sub-group and the bonding sub-group.
+Pauling further postulated that the number of bonding
+electrons was constant across the First Transition
+Period from chromium to nickel.
+From magnetic satura-
+tion moment data Pauling inferred that a maximum of
+V
+b.88 electrons may enter into the atomic sub-group.
+T
+Using this model, Sully correlated sigma to an elec-
+tron-to-atom ratio of 2.25 which showed good agreement
+with the then existing data.
+Douglas(l7) deduced and
+Heal and Silcock(18) confirmed through determinatione
+of the volume of the first Brillouin zone from x-ray
+data that the electron-toeatom ratio for sigma with a
+filled Brillouin sone should be about 1.7.
+Because of
+these data, Sully modified his theory by eliminating
+the 0.66 Ls electrons from taking part in the sigma
+y
+bonding.
+This resulted in a modified electron-to-atom
+ratio for the sigma phase of about 1.7.
+This ratio for
+the sigma phase locates the mean composition of certain
+binary sigma phase fields in acceptable agreement with
+experimental data.
+Although acceptable agreement is
+
+PAGE 17
+-17-
+obtained, Sully°s theory is hard to substantiate on
+any theoretical ground.
+For example, the ferromagnetic
+behavior of sigma shows that a full Brillouin zone, as
+propoeed by Sully for his theory, is not correct.l Even
+though there are week points in the theory, one must
+give Sully credit for showing that sigma is at least
+partially electronic in its nature.
+1
+Independent of Sully, Beck and his co-workers(l6)
+propoeed a method of locating the comosition of the
+sigma phase.
+Beck and co-workers noticed that the
+sigma phase fields of certain ternary systeme eeemed
+E
+to follow constant electron vacancy lines.
+This elec-
+tron vacancy, R-, was derived from Pauling's theory
+and expressed by the following equation:
+‘
+N- · l+.88(V) + l».66(Cr) + 3.66(Mn)
++ 2.66(Fe) + 1.71(c¤) + o.61(¤1>
+where the chemical symbole stand for the atomic frac-
+tion of that particular element in the alloy.
+The
+numbers, k.88 for vanadium, A.66 for chromium, etc.,
+are the Pauling values for the number of vacant atomic
+orbitals for the respective elements.
+To obtain
+closer agreement with existing data, vanadium's
+/
+/
+
+PAGE 18
+-l8—
+vacancy number was increased to 5.66 when vanadium
+was combined with either cobalt er nickel.
+The
+'
+vacancy number for manganese was lowered to 3.33 for
+closer agreement.
+These changes are partially exp1ain—
+able theoretically; but, inasmuch ae Pauling's original
+F
+theory was empirical in its origin, this proposal must
+remain a method for the location of the sigma phase,
+not a reason for the formation of sigma.
+Beck must be
+given credit, as was Sully, for showing that sigma is
+partially electronic in its nature.
+Beck and co-
+werkers have found that the average NV for sigma
+formed of elements of the First Long Period to be
+P
+g
+3.hl.
+Beck and co-workers have also found that molyb-
+denum, a Group VI element of the Second Long Period,
+may be satisfactorily included in the proposal of
+locating the sigma phase field by assigning the vacan-
+cy number L.66, that of chremium, to molybdenum.
+Beck
+and Greenfield(2) further found that any assignment of
+First Long Period vacancy numbers to elements ef the,
+Second and Third Long Periode was not feasible in that
+the location of the sigma phase field either was dis-
+placed or non-existent.
+This lack of consistency be-
+tween Long Periode shows that the formation of sigma
+
+PAGE 19
+is related to variables ¤ot_yet clearly understood, and
+coneiderable further work will be required before a
+satisfactory theory for the sigma phase is developed.
+
+PAGE 20
+-20-
+QBJECT OF THE INVESTIGATION
+The electron vacancy scheme for predicting the
+existence and location of the sigma phase holds rather
+nicely for combinations of First Long Period elements
+and is lnadequate when extended to cover combinatlons
+of the Second and Third Long Periode.
+Another test of
+the range of appllcability of the electron vacancy
+scheme would be to see whether the correlatlon leads
+to rational predlctions about sigma formation when a
+zero vacancy number is assigned to a non-transitlon
+element such as copper ln combination with a transl-
+tion element such as chromium.
+.By using the two ele-
+mente, chromium and copper, with vacancy numbers of
+h.66 and zero, respeetively, a sigma may be postulated
+at a point 73.2 per cent chromium and 26.8 per cent
+copper by substltution into the NV equatlon with NV
+equal to 3.hl.
+However, the chromium-copper binary
+system(l9), Figure l, page 23, shows that no sigma
+phase exists.
+However, the influence of a non-transl-
+tion element on the stability of the siga phase could
+still be studled by addlng copper to a binary system
+such as Cr-Co or Cr~Mn, where the sigma phase is known
+
+PAGE 21
+-31-
+to exist, to determine the extent of solubility of
+copper in the sigma phase and to see if the boundaries
+of the sigma phase field follow the constant electron
+vacancy lines and point toward the hypothetical sigma
+point on the chromiumscopper binary.
+Cobalt and man~
+ganese appeared to be logical choices fer the third
+element because of the possibility of studying the
+effect of the solid solubility of copper in one of the
+8
+component elements of the sigma·forming binary on the
+e
+solid solubility of copper in sigma.
+Copper, as shown
+by the copperecobalt binary system(20), Figure 2, page
+2a, has limited solid solubility in cobalt.
+Complete
+F
+solid solubility at elevated temperatures is shown by
+the copper·manganese binary system(21), Figure 3, page
+t
+25.
+In both binary systems, Cr~6o(22) and 6r—Mn(23),
+sigma is stable at high temperatures so that equilibrdum
+structures may be obtained without abnormally long
+annealing periods.
+The chromium—cobalt binary system,
+Figure A, page 26, shows that sigma is stable at
+I
+1000*6.
+With copper having a melting point of
+1083*6., the 1000*0. ternary isothermal section was
+ehosen to be inveetigated since all components are
+solidified at this high temperature where sigma is
+stable.
+Because of an order~disorder transformation
+
+PAGE 22
+-22-
+at approximately 1000*0., shown in the chromium-man-
+ganese binary system, Figure 5, page 27, the 975*0.
+Cr—Mn-Cu ternary isothermal section was chosen to be
+investigated so that phase identification would be
+simplified.
+j
+Thus, in summary, the objects for this investiga-
+tion are:
+1.
+To determine the 1000*0. boundariee of the
+sigma phase in the two ternary systems
+Cr-Co-Cu and Gr-Mh-Cu.
+2.
+To determine the pheses which are in equilib-
+t
+I
+rium with the sigma phase at 1000*0.
+3.
+To determine whether the composition range
+”*
+ef solubility of the sigma phases of the two
+ternary systems 0r¤0o-Cu and Cr·M-Cu can be
+F
+correlated with the distribution of d-shell
+electrons in the component transition and
+non-trensition metels.
+h.
+To determine whether the solubility of a
+non-transition,metal in one of the component
+metals of the sigma phase effects the solu-
+bility of the non—transit1on metal in the
+sigma phase.
+
+PAGE 23
+
+PAGE 24
+
+PAGE 25
+
+PAGE 26
+
+PAGE 27
+
+PAGE 28
+
+PAGE 29
+ggg-
+DESCRIPTION OF EQUIPMENT AND MATERIALS
+Melging Furnace.
+All samples prepared were melted in
+a high-frequency induction furnace.
+See Figure 7,
+page 30.
+Power was supplied free a 20 kilowatt Ajax-
+Northrup mercury spark-gap converter.
+Maximum power
+dissipation used was approximately 15 kilowatts.
+The induction furnace was a modified stationary
+U
+cylindrical vacuum furnace, Model No. 313, produced by
+Ajax-Northrup.
+The induction coil arrangement, iden-
+tical to the production model, consisted of a L2_turn
+'
+water cooled copper coil, fourteen inches long and nine
+and one-fourth inches in diameter.
+Fitted inside of
+this coil was a fused silica tube, closed at one end,
+—twenty-five inches in length and nine inches in diam-
+eter.
+This tube extended about seven and one-half
+inches above the top turn of the coil and was insu-
+lated from the coil by several wrappings of asbestos
+paper.
+Waxed to the open end of the silica tube was
+a steel flange.
+The finished top edge of the flange
+contained a groove into which an 0•ring was fitted.
+To keep this 0—ring seal cool during operation a thin
+sheet of copper was wrapped around the silica tube just
+
+PAGE 30
+
+PAGE 31
+1
++31•
+below the flange and several turns of copper tubing
+were soldered to the copper sleeve.
+Water was circu-
+lated for the cooling action.
+The water-cooled steel top with a sight glass in
+the center which was supplied by Ajax-Northrup with the
+Model No. 313 furnace, was modified in several ways:
+First, the bottom surface was machined for better
+o
+0-ring contact; second, the top was pierced by a one-
+fourth inch inside diameter brass tube which was brased
+to the top and to which a Model No. 276AA McLeod type
+Stoke: vacuum gauge was attached with heavy welled
+rubber tubing; third, a Hoke high vacuum needle
+valvewas
+connected to the vecuum chamber through the top
+I
+from a rubber tube which led to a supply of helium
+usedin
+flushing out the system and for providing an inert
+atmosphere.
+This valve had a removable stem for vent-
+ing the system to the atmosphere when necessary.
+Inside and at the bottom of the silica tube were
+placed several inches of granulated K-30 brick to build
+up the test tube-like closed end of the tube to a flat
+surface.
+Upon this surface was placed a circle of K-30
+brick of the appropriate diameter to act as the founda-
+tion for the rest of the internal build-up.
+A thin-
+
+PAGE 32
++32+
+wall fused eilica inner eleeve fourteen inches long
+and seven and seven-eighths inchee in diameter was
+placed upon this base, the base being so located by
+the K·3O fill that the inner sleeve was poeitioned
+exactly inside the induction coil., Within the inner
+sleeve was a hellow cylinder about sight inchee high
+and having a wall thickness of about one and one—half
+inchee which was built with K-30 brick.
+This K—3O
+T
+cylinder served as a radiation shield for the inner
+M
+eleeve which in turn protected the silica tube.
+Addi-
+tional radiation shields coneisting of circlee of K-30
+T
+brick out to the appropriate diameter were positioned
+so ae to rest on the top of the K-30 cylinder and on
+the top of the fused quartz inner sleeve.
+Within the remaining space, cylindrical in shape,
+was placed a graphite heater crucible five inches long
+and two and one·half inches in diameter.
+Mounted on
+three three-sixteenthe inch diameter eaibon lege, this
+heater crucible was positioned so that a three-fourthe
+inch epacing was obtained from the K-30 insulation in
+e
+all directions.
+The carbon heater was bored out to
+a two inch depth, leaving a one-fourth inch wall.
+Three one inch holes, three-fourthe inch deep were
+
+PAGE 33
+-33-
+triangularly pesitioned within this cup.
+High purity
+recrystallized alumina crucibles one and one-fourth
+inches long and seven·eighths inch in inside diameter
+were placed in these holes to serve as containers for
+the charges being melted.
+Temperature measurements were obtained with a Pyro
+Model No. es optical pyrometer.
+The sight path to the
+charges in the melting crucibles was obtained by cutting
+holes in the two top radiatien shields on a line from
+the sight glass in the steel top to the center of the
+heater crucible.
+8
+The system was connected by spring reinforced
+·
+heavy walled vacuum tubing from the one and one—ha1f
+inch exhaust port in the steel top to a Model 1397B
+welch Duo—Seal mechanical vacuum pump.
+The pumping
+_
+rate of this pump was two hundred and fifty liters
+per minute at five microns pressure.
+gggegling Fgggaceg.
+The as-cast specimens, either bare
+or in evacuated and sealed Vycor tubes, were annealed
+in one or the other of two modified Model D·l·9 Burrell
+tube furnaces employing either an inert gas atmosphere
+of ninety~two per cent helium and sight per cent
+hydrogen er a VRGUHM of approximately two hundred
+
+PAGE 34
+·3b·
+microns.
+Design of both furnaces was substantially
+the same.
+The Burrell tube furnace, designed by the manu~
+facturer to have two heating elements, was converted
+to a four element furnace with elements positioned at
+ninety degree intervals around the furnace tube.
+The
+heating elements used were three—elghths inch by ten
+inch Crystolon elements.
+Power to the series—con·
+nected elements was supplied from a two hundred and
+twenty volt main through meroury relays controlled by
+a Leeds and Northrup, Series H, controller-recorder
+6
+and through a flfteen ampere variable transformer.
+The Leeds and Northrup controller responded to a plat-
+inum·platinum plus ten per cent rhodium thermocouple
+placed outside the furnace tube but adjacent to the
+annealing zone.
+With a controller temperature setting
+of T, the Leeds and Northrup controller, utllizing two
+off·on switches called for full power at temperatures
+below T·AT, partial power from T—AT to T+AT, and no
+power above T+AT.
+AT is determined by the setting of the two off•on
+switches.
+For this investigation AT was made as small
+as mechanically possible.
+Figure 8, page 36, shows
+
+PAGE 35
+-35-
+the circuit diagram for the furnace.
+Figure 9, page
+37, shows the annealing furnaces.
+Power diesipation
+at an annealing temperature of lO0O°6. at full power
+was approximately eleven hundred wette at ten amperee
+and at partial power approximately three hundred wette
+T
+at five amperes.
+The annealing zone inside the tube,
+located about at the middle of the furnace, was approxi—
+mately three inches long with a four degree centigrade
+temperature variation over the three inch length at.
+\annealing temperature.
+The temperature variation with
+time of annealing zone was dependent upon the con-
+troller characterietice.
+One furnace had·a tempera-
+ture variation with time of.1 2°C., the other.I l2°G.
+A
+The·majority of the specimens were annealed under the
+bettersconditions.
+The vertically mounted furnace had a mullite
+MeDanel combustion tube thirty inches long and one and
+three-fourths inchee in inside diameter as its furnace
+tube.
+Brass flanges machined for 0•rings were sealed
+on the ends of the tube with Apiezon W wax.
+A flat
+brase dise was bolted by brass bolts and wing nute to
+the flange and drawn tight against the 0-ring to
+achieve a seal.
+Piercing the copper dieos at the
+
+PAGE 36
+
+PAGE 37
+
+PAGE 38
+I
+···38··
+top and bottom were short lengths of three~eighths inch
+diameter steel tubing which served es inlet end outlet
+ports, respectively, for the inert ges mixture,
+The
+upper tube ended in a tee fitting, the horizontal leg
+being either sealed off with a short length of rubber
+tube and a hose clamp for a vecuum or connected through
+a needle valve, a distribution msnifold, a CaS0h desic·
+cent column, a Deoxo catalytic purifier, and a pressure
+regulator to the heliumehydrogen ges cylinder when an
+inert gas atmosphere was employed.
+The vertical leg
+of the tee terminated with a short length of rubber
+tubing,
+A length of 0,032 inch diameter Kanthal wire
+was dropped through the rubber tubing and on the lower
+I
+end of the wire the specimen was suepended in the
+I
+annealing zone,
+A hose clamp sealed the rubber tube
+I
+and held the Kanthal wire in position,
+When the anneal—
+I
+ing was done in the helium~hydrogen gas mixture the
+steel tubing emerging from the bottom disc was con-
+nected to an oil bath bubbler by means of which a
+qualitative measure of the rate of gas flow could be
+made,
+when veeuum annealing was employed this tube
+was connected to a vacuum pump•
+I
+
+PAGE 39
+Water was circulated through copper tubing sol-
+dered to the brass flanges to cool the ends of the
+furnace tube, the rubber 0·ring, and the wax seal.
+Materials.
+The alloy specimens prepared in this
+investigation were prepared from high purity metals.
+Analysis of these metals may be found in Table I,
+page A0.
+p
+i
+
+PAGE 40
+-gQ-
+Table I
+Analysis gg Comgenent §g_gggl_g gy _\gI_g_ggg_1_t_ ggg ggzgg
+Electrolytic Electrolytic Electrolytic Electrolytic
+Manganese
+Chromium
+Copper Shot
+Cobalt
+8
+Fe
+0.001
+0.06
+0.0025
+0.lb
+C
+0.005
+0.01.
+0.028
+P
+Not detect·
+8
+I
+able
+S1
+Trace
+A
+0.002
+Cu
+P
+5
+0.01
+’
+99.9-99.97
+0.00h
+M
+99.9 Min.
+Nil
+„
+H2
+0.015
+Ü•Ü2
+V
+5
+oz
+0
+0..1.5
+0.02-0.55
+N2
+1
+0.01
+I
+N1
+0.0015
+Trace
+1
+Al
+0.008
+As
+0.015
+Sb
+9
+0.0015
+Sulfide
+0.018
+Sulfate
+0.006
+Pb
+0.005
+0.005
+Notaggäect-
+Cr
+99.00 Min.
+Co
+Remainder
+S
+0.02
+0.002
+0.00h
+Ag
+0.001
+Au
+_
+0.00001
+
+PAGE 41
+-g1-
+OPERATION OF EQUIPMENT
+Melting Egrnacg.
+Thirty gram charges were prepared by
+weighing out the necessary quantities of the component
+metals to an accuracy of'; 0.05 gram.
+The charges were
+packed inte recrystallised alumina crucibles, and these
+l
+alumina melting crucibles were lewered into the walls
+of the graphite heater crucibles, three crucibles per
+run.
+The two K-30 briek radiation shields and the steel
+I
+top were placed into their proper positions.
+With the
+top in position the system was evacuated to about five
+microns.
+A power ef five kilowatts was then applied to
+the induction coils and held until the metal charge was
+outgassed.
+Power was then increased to ten to fifteen
+d
+kilowatts.
+This increase in power raised the tempera-
+ture of the charges te about l500°C. in appreximately
+twenty-five minutes, temperature being determined by
+use of the optical pyrometer.
+The system was flushed
+with high purity helium and re-evacuated periodically
+f
+during the melting cycle.
+Whe
+the charges contained
+manganese the system was flooded with helium at 1lOO°
+and the remainder of the melting cycle finished with
+a helium atmsphere.
+yafter complete mslting,
+
+PAGE 42
+*‘•2·
+determined visually through the sight port in the top,
+the power was cut off and the charges allowed to cool
+below a red heat after being removed from the furnace.
+y
+The alumina crucibles in most cases were not
+attached and could be reueed four or five times for
+alloys in the same ternary system.
+Tlngots were easily
+removed by inverting the crucible and tapping lightly.
+The ingots had smooth surfaoes which were free from
+oxidation.
+All ingots were weighed upon removal from
+the alumina melting crucibles and any loss in weight
+recorded.
+The losses in weight were negligible for
+the 0r~Co—0u system and about 0.6 gran per 30 gram
+charge in the 0r—Mn—Gu system.
+Anngaligg Furnageg.
+The specimon fer annealing con—
+sisted of approximately one·third of a one—eighth inch
+T
+disc cut from the bottom of the thirty gram ingot.
+A
+wet cut·off wheel was used for the sectioning of the
+ingot.
+A group of three specimens were wired together in
+an elongated cluster using Kanthal wire.
+The cluster
+was attached to a length of Kanthal wire and suspended
+in the furnace.
+Manganese•containing specimens were
+
+PAGE 43
+-g3-
+individually sealed in evacuated ten mm. diameter
+Vycor tubes.
+Three Vyoor tubes were bound together
+with Kanthal wire and supported in the furnaoe in the
+same manner as the bare specimens.
+Prior to the anneal a ohromel-alumel thermocouple
+was ineerted down through the steel tube in the top fit-
+ting and the temperature of the ennealing zone was de-
+termined with a Brown Model No. 1117 portable potenti•
+7
+ometer.
+After the annealing zone temperature was
+stabilized at the desired point, the top brass disc
+was removed and the supporting Kanthal wire pushed up
+through the vertical leg of the tee.
+When an inert
+gas atmosphere was used the specimens were kept in the
+top of the furnace tube out of the high temperature sone
+until the air in the tube was replaced by the helium-
+hydrogen mixture.
+The air replacement was accomplished
+by flushing the tube with a moderate flow of the gas
+mixture for five to ten minutes.
+After flushing the
+gas flow was cut back until only a elightly positive
+pressure was obtained within the furnaee tube, as
+indicated by the bubbler•
+l
+Specimens that were sealed in evacuated Vyoor
+tubes were anneeled utilizing a vacuum within the
+
+PAGE 44
+-gg.
+_ furnace tube.
+The specimens were introduced into the
+furnace tube as before and were lowered slowly down
+into the annealing zone to prevent thermal shock to.
+the Vycor tubes,
+After the specimens were in position
+the furnace tube was evacuated.
+_
+The anneal was for a duration of three or four
+days.
+This annealing time was determined by annealing
+the first specimens for several different time periods
+‘
+and comparing the annealed structure against the as-
+cast structure,
+It was assumed that the equilibrium
+„
+structure had been attained when two successive checks
+of the microstructure did not show any further changes.
+·
+After the specimens had been at the annealing tempera-
+ture for the proper length of time, the bottom seal of
+the furnace tube was removed.
+Then the supporting
+Kanthal wire was severed and the specimens dropped
+into a container of cold tap water,
+Phase Boundagg Determinations.
+Approximately half of
+each ef the annealed specimens was mounted in bakelite
+and prepared for metallographic examination,
+Polish-
+ing was done on a series of dry emery papers and the
+wet laps of 600 alundum on canvas and of Shamva on
+y
+Beuhler Microcloth,
+Etching of the chromium-coba1t—
+
+PAGE 45
+-g5-
+copper alloye was accemplished by using concentrated
+hydrechloric acid.
+The chremium-manganese-copper
+alloys were etched using 5 per cent Nital,
+The mounted specimens were examined on a Bausch
+and Lomb Research Metallograph utilizing both bright
+field illumination and the phase contrast accessory.
+The determination ef the phases present was dene by
+comparing the phases in the specimens under examina-
+‘
+tion with known phases in previeus specimens.
+The remainder of each cf the annealed specimensa
+was pewdered to 250 mesh either by crushing er by
+filing.
+The pewder was then spread on a glass slide
+using a rubber-base cement.
+This glass slide was
+meunted en a General Electric IRB-} x-ray diffraction
+unit.
+This diffraction unit utilized unfiltered
+p
+radiation from a chremium tube and a spectrogonimeter
+—
+using a multi-chamber Geiger tube detector which
+automatically reccrded the intensity of reflected
+radiation as a function the angle 29.·
+The determina-
+tion ef the phases present was dene by cemparing the
+pattern ef the specimens under examination with the
+patterns of known phases.
+T
+
+PAGE 46
+„g5„
+RESULTS AND DISCUSSION
+Results.
+Approximately 25 per cent of the Gr-Co-Cu
+·
+ternary system specimens were chemically analyzed.
+From these analyses the probable analysis for each
+specimen was determined by using the appropriate curves
+of Figure 10, page L7.
+Table II, page L8, lists the
+F
+melt numbers, the proposed compositions, and the prob-
+able compositions.
+Also listed are the phases present
+in each specimen as determined by visual and by x-ray
+analysis.
+From Table II the partial ternary isothermal
+section at lO00°C., as shown in Figure ll, page L9, was
+drawn.
+This figure, which will be discussed in detail,
+shows that copper has a limited solubility in sigma.
+Also sigma is shwn to come into equilibrium with the
+terminal solid solutions of chromium, cobalt, and
+F
+copper.
+The copper phase being almost pure copper,
+as determined by x-ray analysis.
+About 25 per cent of the Cr-Mn-Cu ternary system
+specimens were chemically analysed.
+From these chemi-
+cal analyses the probable composition for each speci-
+men was determined by using the appropriate curves of
+Figure 12, page 50.
+A list of the melt numbers, the
+1
+proposed compositions, the probable compositions, and
+
+PAGE 47
+
+PAGE 48
+-13-
+Table II
+7
+»
+_Q1‘__1}__e_ 0l·1:*6mium·06ba1t-Cogger Allogs
+Specimem
+Proposed Compositiou
+Hevised Compositiou
+Phases
+N6.
+atomic $
+atomic9
+59.10:* 1.0.906
+59.10:* 1.0.906
+’*T
+18
+61.80:* 37.206 1.00u
+61.901* 37.306 Ü•8C\1
+W
+19
+60.80:* 38.206 1.0011
+60.90:* 38.306 0.80u
+T
+—
+1
+I
+V r
+I
+°
+I
+I
+r
+I
+0
+I
+u
+ää
+2§*'·§*é*”
+ä‘;*ä‘é° 383**
+2§*3ä* 3;*1*.* ä*'-5S**
+€§i‘i‘l~ä
+22
+63.70:* 31.306 5.001.1
+61..10:* 31.506 1..1.011
+‘¥ *8 *<$
+23
+62.70:* 32.306 5.0011
+63.10:* 32.506 1..1.0u
+<***+S
+21.
+60.60:* 31..1.06 5.001.1
+60.901* 31..606 1..1.011
+T +***6
+ää
+2%*23* 2%*38 3*%**
+22*33*•
+r
+•
+O
+•
+u
+•
+·!°
+6
+O
+•
+u
+"°
+27
+61..00:* 25.006 11.0011
+61..90: 25.1.06 9.70u*.
+W**¤\*S
+28
+68.00:* 17.006 15.0011
+69.20:* 17.506 13.3011
+W +4+%
+29
+66.661 37.006 3.0011
+60.20:* 37.106 2.7011*
+W + 4 + S
+6 .
+.
+.
+.
+1*
+.
+6
+.
+il
+4
+ää?
+***23* 0*23* 3*88**
+ä**ä‘é*‘ 0*12* ä*$*é“ F11?
+32
+68.66; 31.006 3.003
+66.20:* 31.106 2.70u
+W +4 1-Ä
+33
+62.70:* 33.306 1..00u
+63.00:* 33.1.06 3.6011*
+W1-.1.%
+31.
+3.00u
+173.ägr ägégo 2.7011
+W + 4;%
+35
+.
+:·
+.
+6
+.
+:*
+.
+6
+W+
+36
+1
+72.50:* 37.506
+g2.50:* 37.506
+W+4
+3738
+61.50:* 37.006 1.5011
+61.60:* 37.106 1.301.1*
+9 +***5
+39
+62.30:* 37.006 0.ZOu
+62.1.0:* 37.006 0.6011
+9 *8* S
+1.0
+59.80:* 39.606 0. 011
+59.90:* 39.606 0.50u*
+“'+ é* S
+1.3
+59.00:* 32.ÜCQ Ö•ÜÜ\1
+59.1.0:* 35.306 5.30u
+8'*·**S
+1.1.
+56.66: 3 .006 6.0011
+58.1.0:* 36.306 5.3011*
+<+8*S
+1.5
+57.00:* 37.006 6.00u
+57.1.0:* 37.306 5.3011
+W+<$
+*
+Ghemically analyzed.
+
+PAGE 49
+
+PAGE 50
+
+PAGE 51
+-51-
+the phases present in each specimen may be found in
+Table III, page 52.
+From Table III the partial ter-
+nary isothermal section at 975°C., as shown in Figure
+13, page 53, was drawn.
+This figure also shows that
+copper has a limited solubility in sigma.
+Sigma is
+shown also to be in equilibrium with the chromium
+terminal solid solution, the beta-manganese terminal
+solid solution, and the manganese-rich solid solution
+of manganese and copper.
+Sigma does not come into
+equilibrium with the liquid or the copper-rich solid
+‘
+solution of manganese and copper in the copper corner
+of the ternary isothermal.
+Discussion of Resultg.
+The sigma phase boundary in the
+Cr-Co-Gu ternary system was determined by the existence
+of very small quantities of the terminal solid solu-
+tions in specimens 38, 39, and AO.
+X-ray analysis did
+not substantiate their presence due to the small quan-
+tities present.
+From the Cr-Go binary diagram, Figure
+y
+L, page 26, the limit of the solid solubility of cobalt
+in chromium was found to be 12.5 per cent cobalt.
+From
+F
+this information and the fact that chromium shows no
+solid solubility for copper, as shown in Figure l,
+page 23, the alpha chromium or chromium terminal solid
+
+PAGE 52
+Table III
+_';‘__l_;g_ Chromium·@gan6sa·Goggar Allogs
+Spacimau
+Proposed Compositiou
+Revissd Composibiou
+Phasas
+No.
+atcmic %
+_
+atomic %
+101
+‘
+80•OMn 20,0Cr
+78,5Mn 21.101*
+V
+102B
+7g•OMn 25,9Cx*
+70,51411 29,561**
+$9
+103
+8 •0Mn ll„0Cr
+8l•~•6Mn 1l•„3Cr
+W
+Y
+1,01,
+68,2Mn 27,8Gr l+•0Gu
+66,8Mn 29.•l•«Cr 1+.l•Cu
+‘V*°\“"
+105
+56•l•M¤ 35.60:* 8•0Gu
+5l+„9Mn 37.•8C!' 8•2Cu
+‘”"'°l
+106
+l+l+•8Mn l;3.•2Cr 12,001.1
+l•l•2Mn l+7•l+Cr 1l„l•Cu*
+‘_"°(
+107
+77•OMu 22.0Gz* l•GGu
+75•6M¤ 23..OCr 1.5Cu
+T
+,-
+108
+71+,2Mn 23.8Cr 2.0611
+72,5Mn109
+7l•2Mn 25•8G!‘ 3.0Cu
+69•6Mn 27.2Cr 3;l+Cu
+W *°(* X
+110
+66•0M¤ 3l+•0C!'
+6l+•5Mn 361.061*
+“_*°(
+111
+10OMn
+100Mu
+1
+Q
+115
+70•6M¤ 22•1Cr 7•l•Gu
+69.11Mn 23,00:* 7«6Cu
+“”*“{" X
+116
+59•5Mn 29.•?Cx‘ ll•2Cu
+57•9Mn 3l»•2Cr 11.3611
+‘¥ *4*6/
+117
+77•l•M¤ 17•lCx‘ 5•6Gu
+76•—0M¤ 17•6Cx‘
+5,9611119
+8l•9M¤ 18•lCr 1.1011
+g6„5M¤ 2l•6Cr l«9Cu*
+‘“*@‘
+120
+62.5Mu 19,80:* l7•8C8
+1•0M¤ 20.701* 17.8011
+4*
+V'-121
+50•l•M¤ 20•lGr 29•6Cu g8•l•M¤ 21•0Cr 28.80u
+4+ VH-
+122
+62.5Mu 7.901* 29.6011
+l•„•0Mn 7.201* 28.8Cu*
+•( + YH-
+123B
+71.2Mn 28.801*
+69•6Mu
+30•5Cr12lpB
+75•1Mn 2l•—•9Cr
+73•6Mn 26•2Cr
+T
+125B
+77•0Mn 23•0Cx‘
+76•lM¤ 23 •9Cr*
+Y
+X
+126
+82•5Mn 11.801* 3•9C'L\
+83•0Mn 11,9Cr in-3Cu
+‘—*Q*
+127
+7 •&M¤ 11•8Gx‘ 11•8Cu
+75-02/In 11.901* ll•9Cu
+“”*°l*¥
+128
+92•lMn 3•9Cr 3•9Cu
+90•6M¤ 3•lC1* l+•3Cu
+18+Y
+129
+50.0Mu 30,0Gr 20,0Cu
+1,8.0Mn 31.801* 19.7611
+¤l+¥+l.
+130
+äJ••OM¤ 30•OCr 26•0Cu
+L2•OMn 31•8Cr 25.5Cu
+4+ Y+L
+132
+3,0Mn 11.0Cr 6•OCu
+81,51% 11•5Cr 6•l»Cu
+W +¤l + Y
+133
+8l+•OM¤ 8..06:* 8,0Cu
+82.3Mn 8.1Cr 8,3611
+"+·¢ * Y
+131+
+80•OMn 9.0Cr 11•0Gu
+78,5Mn 9.10:* 11•3Cu
+‘Y*°'~* X
+*
+Chamically analyzsd.
+
+PAGE 53
+
+PAGE 54
+-5q-
+solution boundary was drawn in speculatively.
+From
+similar data from the Cr·0o binary diagram and Co·Cu
+binary diagram, the cobalt terminal solid solution,
+the epsilon phase, is shown to extend from 39 per cent
+chromium on the Cr~Go binary to 9 per cent copper on
+the Co•Cu binary.
+Specimens 37 and LO show, by the
+presence of a small amount of the copper terminal
+7
+solid solution, the delta phase, that the two phase
+regions of sigma plus alpha and sigma plus epsilon
+are very narrow, indicating that copper has limited
+3
+solubility in the alpha and epsilon phases when they
+are in a two phase equilibrium with sigma.
+Sigma in
+t
+this ternary isothermal section is also in a two
+phase equilibrium with the delta copper phase.
+This
+delta phase is almost pure copper since copper shows
+very little solubility for either cobalt or chromium.
+The x-ray analysis gave d values for this delta phase
+very close to those of pure copper.
+The two phase
+sigma plus delta corridor is very narrow, which is
+indicated by the presence of small quantities of the
+third phase, either alpha or epsilon, in specimens
+straddling a line drewn between the mean sigma posi·
+tion on the Cr—Co binary diagram to the copper corner.
+
+PAGE 55
+-55-
+6
+Specimen L5 did not exhibit the presence of a third
+phase, indicating that it lay within the two phase
+corridor.
+The phase boundaries in the region of the
+sigma field are raxray well established by the visual
+estimates of the amount: of the phases present.
+The
+spots where the boundary konodes of the two phase
+regions meet at a single phase region can be the only
+place where a three phase region may touch a single
+phase region.
+This fact, together with the knowledge
+I
+that the delta phase is almost pure copper, indicates
+that the boundaries of the two three-phase triangles,
+V
+shown by dashed lines on the isothermal section, are
+probably correct.
+Specimens 38, 39, and A0 were also annealed at
+1100*6.
+Several specimens were also annealed at
+900*6.
+These specimens, when examined microscop·
+ically, showed the presence of the same phases in the
+same relative amounts as did the specimens annealed
+at 1000*6.
+This indicates that the equilibrium be-
+tween the phases present did not change appreciably
+on raising or lowering the temperature.
+The sigma phase boundary in the Cr-Mn—Cu ternary
+system was determined by the existence of very small
+
+PAGE 56
+-55-
+quantities of other phases in specimens 108 and 119.
+The sigma will take into solid solution only a small
+amount of copper, as shown by specimens 107 and 108.
+The sigma phase field in the Cr-Mh binary system was
+found to extend between,70.5 atom per cent manganese
+and 8L atom per cent manganese, rather than the 76 to
+SA atom per cent manganese as shown in Figures 5 and
+6, pages 27 and 28.
+It was noted that there was some
+dispute as to the location of the limit of manganese
+solid solubility in chromium between the binary dia-
+gram in the Metals Reference Book(2k), Figure 6, and_
+that of Pearson and Hume-Rothery, Figure 5.
+Specimen
+110, which exhibits approximately equal amounts of the
+two phases, sigma and alpha, shows that the letter
+diagram is probably correct with regard to the solid
+solubility limit.
+The ehromium terminal solid solu-
+tion boundery was again drawn in speculatively, from
+a consideration of the binay diagrams.
+From Figure
+13, page 53, the solid solubility of chromium in
+beta-manganese was found to be 9.5 atom per cent.
+From this observation and the fact that beta-manganese
+shows no solid solubility for copper, as shown in
+Figure 6, the beta-manganese terminal solid solution
+
+PAGE 57
+-57-
+boundary could be drawn in speculatively.
+The pres-
+ence of a very small amount of beta in specimen 119
+shows that the two phase region of sigma plus beta is
+very narrow, indicating that copper has a very low
+solid solubility in these two phases when they are in
+a two phase equilibrium.
+The boundary between the two
+{
+phase region of alpha plus sigma and the three phase
+”
+region of sigma plus alpha plus gamma was easily
+established due to the presence of very small quan-
+tities of gamma in specimens 108, 109, and 10h, plus
+the absence of the gamma phase in specimens 105 and 106.
+The gamma phase field, a face centered oubic solid
+solution of copper in manganese on the Cu-Mh binary
+{
+{
+‘
+diagram, probably comes into equilibrium with sigma
+and alpha as shown in Figure 13, page 53, since speci-
+mens 132 and 13L are sigma and specimens 128, 126, 132,
+and 127 exhibit visually small amounts of either beta,
+sigma, or alpha.
+It was noted that the gamma phase
+could not be entirely retained by quenching from the
+annealing temperature.
+This being due, probably, to
+not enough copper being present to stabilize the face-
+centered cubic manganese.
+The phase boundaries are
+fairly well established by the visual estimates of
+
+PAGE 58
+-53-
+the amounts of the phases present.
+The three phase
+T
+triangle of sigma plus alpha plus gamma is well
+established due to these visual estimates.
+Speci-
+mens 120, 129, 130, 121, and 122 showed definite
+signs of melting at the annealing temperature and
+when examined visually showed a typical cored struc-
+ture due to rapid solidification during the quenching
+a
+y
+V
+operation.
+The approximate position of the three
+phase triangle as shown by the dashed lines of gamma
+plus alpha plus liquid was established by the visual
+0
+estimates of the amounts of liquid present at the
+annealing temperature of 975'C.
+The very low solid solubility of copper in the
+sigma phase of either the Cr-Co binary system or the
+T
+Cr-Mn binary system gives insufficient data as to
+whether the electron vacancy schema can be extended
+to copper by assigning copper a zero electron vacancy
+number.
+In the only other case of a non-transition
+s
+element being combined with sigma, the Fe-Cr—Si
+system(25), sigma was shown to have a solid solubil-
+y
+ity for silicon of about 15 per cent at l000°C.
+This
+would seem to indicate that the greater the number of
+valence electrons the non-transition element has, the
+
+PAGE 59
+„59-
+greater is its solubility in sigma.
+Thus, the solid
+solubility of the non·transition element in sigma
+appears to be governed by electronic considerations.
+The relative solubility of copper in cobalt and
+manganese seems to have no effect on the solubility
+of copper in sigma.
+It would seem, therefore, that
+the low solubility of copper in chromium is what
+inhibits the solubility of copper in sigma.
+The
+other non·transition element for which the solubility
+has been determined in a sigma, silicon, shows a
+solubility in chromium of 7.5 per cent(26).
+This,
+plus the fact that silicon is soluble in the Fe·Cr
+sigma to about 15 per cent, suggests that if the
+non·transition element is soluble in chromium, then
+it will be soluble in sigma formed with that element.
+Further investigation will be necessary to substantiate
+the validity of this generalization.
+Photomicrographs.
+Specimen 101.
+This is a photomicrograph of an
+y
+all sigma alloy in the Cr·Mn binary system.
+The light
+gray structure is sigma which is broken up by the many
+cracks and voide which appear black.
+
+PAGE 60
+Specimen 103.
+This is a two phase structure of
+sigma and beta-manganese.
+The beta-manganese is cut
+through with twin bands due to the transformation
+which occurs in quenching from the annealing tempera-
+ture.
+Specimen l06._ This shows the two phase equilib-
+rium between sigma and alpha-chromium.
+The light areas
+are sigma with the gray areas between being a mechan-
+ical mixture of sigma and alpha.
+The black areas are
+”
+voids.
+y
+Specimen 115.
+This photomicrograph shows the
+three phase squilibrium between sigma, alpha-chromium,
+and gamma-manganese-copper.
+The light areas are sigma,
+the homogeneous gray areas are gamma, and the mottled
+gray areas are alpha.
+Specimen 35.
+This shows the two phase equi1ib•
+rium between sigma and epsilon-cobalt in the Cr-Co
+p
+binary system.
+The lighter areas are the epsilon
+in the matrix of light gray sigma.
+The black areas
+are either voids er cracks.
+Specimen 36.
+This shows the two phase equilib-
+rium between sigma and a1pha—chromium in the Cr-Co
+
+PAGE 61
+-61-
+binary system.
+The light areas are sigma and the
+darker gray areas are alpha.
+Specimen 28U.
+This is a photomicrograph of an
+unetched three phase alloy in the Gr—Co~Gu ternary
+system.
+The copper, the dark gray areas, and the
+background, with appears to be all sigma, is all that
+is visible.
+The black areas show the presence of a
+tramp phase, an inclusion.
+k
+a
+Specimen 28E.
+This is a photomicrograph of
+Specimen 28U etched.
+The background of 28U can now
+be resolved into two phases, sigma and alpha.
+The
+small grains are alpha in a matrix of sigma.. Grain
+orisntation has caused the speeimen to steh unevenly.
+n
+
+PAGE 62
+
+PAGE 63
+
+PAGE 64
+
+PAGE 65
+
+PAGE 66
+
+PAGE 67
+
+PAGE 68
+
+PAGE 69
+
+PAGE 70
+-70-
+COHCLUSIONS
+3
+The conclusions of this investigation may be
+summarized as followsz
+1.
+Sigma comes into equilibrium with the three
+terminal solid solutions of chrcmium, cobalt,
+and ccpper in the Cr—Co·Cu ternary system and
+the terminal solid solutions of manganese and
+chrcmium plus the face•centered cubic solid
+solution of ccpper in manganese in the
+Cr—Mn·Cu ternary system.
+2.
+The electron vacancy schema may not be ex-
+tended to include copper due to the very low
+solid solubility of copper in the sigmas of
+the Cr·Cc and Cr•Mn binary systems.
+3.
+The extent of solid solubility of ccpper in
+the tue sigma phases investigated cannot be
+related to the relative solubilities of
+copper in cobalt and manganese.
+
+PAGE 71
+•71•
+SUMMAR!
+During this investigation ternary isothermal
+sections for the Cr-Co·Cu system and the Cr-Mn-Cu
+system were determined.
+It was found that copper had
+a very low solubility in the sigma phase in both sys-
+tems•
+The sigma field in the lO00°C. isothermal sec-
+tion of the Cr-Co-Cu system was in equilibrium with
+the terminal solid solutions in the chromium corner,
+the cobalt corner, and the copper corner.
+In the
+975'C. isothermal section of the Cr-Mn-Cu system the
+f
+sigma field was in equilibrium with the terminal
+solid solutions in the chromium and manganese cor-
+ners and with the face-eentered cubic solid solution
+of copper in manganese„
+
+PAGE 72
+L
+L
+·72·
+ACKNOWLEDGMENTS
+The author wishes to express his sincere apprecia-
+tion to Professor Michael V. Nevitt, Head, Department
+of Metallurgical Engineering, Virginia Polytechnic
+Institute, who gave the author competent assistance,
+frequent encouragement, and worthy advice.
+f
+y
+The National Science Foundation provided the
+financial support for this investigation.
+This sup-
+port is gratefully acknowledged._
+E
+To Professor Charles I. Rich, Department of
+Agronomy, thanks are expressed for his instruction
+and assistance in the use of the General Electric
+IRD·3 x»ray diffraction unit.
+G
+The Electro Manganese Corporation provided the
+high purity electrolytic manganese used in this
+investigation.
+The author wishes to acknowledge the encourage·
+ment given him by other members of the teaching staff
+of the Virginia Polytechnic Institute.
+
+PAGE 73
+l
+REFERENGES1.
+E. 0. Bein and W. E. Griffiths, Trans. AIME (1927),
+2.
+P. Greenfield and P. A. Beck, ”Intermediate Phases
+in Binary Systems of Certain Transition E1ements,"
+to be published.
+3.
+P. Greenfield and P. A. Beck, Trans. AIME (1954),
+4.
+M. V. Nevitt, "Curie Temperatures of Binary and
+_
+Ternary Sigma Phases,” Doctorate Thesis, University
+of Illinois (1954).
+5.
+J. B. Darby, P. Greenfield, and P. A. Beck, "The
+Sigma Phase in Certain Ternary Systems with
+Vanadium.”
+6.
+G. W. Tucker, Science (1950), ggg, 448.
+7.
+B. G. Ber
+and D. P. Shoemaker, Jnl. Chem. Ph s.
+‘
+(1951)
+gg, 515; also, Jnl. Am. Chem. Soc. (1950),
+12,,
+svéa.8.
+K. W. J. Bowen and J. P. Hear, Research (1950), 1,
+9.
+P. A. Beck, Trans. AIME (1952),_gQg, 420.
+10.
+W. Hume·Rothery, ”Atomic Theory for Students of
+Metal1urgy,” Inst. of Metals, London (1946).
+11.
+A. H. Cottrell, "Theoretical Structural Meta11urgy,“
+Edward Arnold and Co., London (1948).
+12.
+G. V. Raynor and P. G. Pfiel, Jnl. Inst. Met. (1947),
+EQ
+·
+13.
+L. Pauling, Phys. Rev. (1938), _8_Q, 173.
+14.
+P. Duwez and S. R. Bein, Proc. ASTM (1950), QQ.
+r
+
+PAGE 74
+15.
+A. H. Sully, Jnl. Inst. Met. (1951), QQ, 173.
+16.
+S. Rideout, W. D. Manly, E. L. Kamen
+B. S. Lement,
+and P. A. Beck, Trans. AIME (l9A9), }g}, 872.
+17.
+AÖSM. B. Douglas, Brit. J. Appl. Phys. (195l),_g,
+18.
+T. J. Heal and J. M. Silcock, ibid.
+19.
+ASM Handbook, 19&8 Edition, 1193.
+20.
+ASM Handbook, l9A8 Edition, 1191.
+21.
+ASM Handbook, 19A8 Edition, 1198.
+22.
+AIME Trans. (19A9), l§Q, 579.
+—
+23.
+W. B. Pearson and W. Hume·Rothery, Jnl. Inst. Met.
+(1952-·53), Q}, 311.
+2A.
+Metals Reference Book, Vol. 1, 373.
+25.
+A. G. H. Anderson and E. R. Jette, Trans. ASM
+(1936), ZA;. 375.
+26.
+ASM Handbook, 19A8 Edition, 1195.
+
+PAGE 75

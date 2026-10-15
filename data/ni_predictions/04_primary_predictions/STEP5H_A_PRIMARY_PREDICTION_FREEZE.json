@@ -1,0 +1,39 @@
+{
+  "role": "PRIMARY",
+  "generated_utc": "2026-09-06T17:11:02+00:00",
+  "file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\04_primary_predictions\\STEP5H_A_PRIMARY_NI_PREDICTIONS.parquet",
+  "sha256": "100b40ed67c396cb296d53db80e7fef7cb94c0c8223873f5a13c01af28f0f488",
+  "file_size_bytes": 1815669,
+  "row_count": 22000,
+  "schema_columns": [
+    "state_id",
+    "composition_id",
+    "Temperature_C",
+    "fewshot_role",
+    "raw_FCC",
+    "raw_BCC",
+    "raw_C15",
+    "raw_OTHER_SOLID",
+    "raw_LIQUID",
+    "pred_FCC",
+    "pred_BCC",
+    "pred_C15",
+    "pred_OTHER_SOLID",
+    "pred_LIQUID",
+    "pred_topology",
+    "simplex_fallback"
+  ],
+  "schema_sha256": "68897d61a1184fecdce57f4d91b419d76c15d67d3838ae243ffc498978bfeb2e",
+  "simplex_fallback_count": 0,
+  "max_projected_sum_deviation": 2.220446049250313e-16,
+  "qa_checks": {
+    "rows_22000": true,
+    "state_id_unique": true,
+    "all_finite": true,
+    "projected_non_negative": true,
+    "projected_sum_one_1e12": true,
+    "target_column_guard_clean": true
+  },
+  "immutable_from_utc": "2026-09-06T17:11:02+00:00",
+  "no_target_column_present": true
+}

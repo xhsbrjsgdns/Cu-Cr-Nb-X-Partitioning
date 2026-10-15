@@ -1,0 +1,21 @@
+{
+  "generated_utc": "2026-09-12T02:39:42+00:00",
+  "parent_seal_frozen_utc": "2026-09-11T14:32:08.721127+00:00",
+  "all_conditions_json_sha256": "63b0e6f36feb4b59cd0d9cfea49596cea5858b5f5703ea69f2a8cdab1afdf0c6",
+  "all_conditions_json_matches_parent_seal": true,
+  "master_csv_sha256": "e84482443ced20e2ab940cbe0f814142c07b5649326d5a47b923c99ccdea0695",
+  "master_csv_was_never_covered_by_the_parent_seal": true,
+  "master_matches_canonical_rendering": true,
+  "checks": {
+    "condition ids are unique": true,
+    "every sealed request exists in the master": true,
+    "selection covers exactly the master": true,
+    "conversions cover exactly the master": true,
+    "domain table covers exactly the master": true,
+    "selected set equals the sealed request set": true,
+    "eligible count agrees between master and selection": true,
+    "every request composition equals its conversion-table entry": true
+  },
+  "n_requests_whose_composition_disagrees_with_the_conversion_table": 0,
+  "verdict": "PASS"
+}

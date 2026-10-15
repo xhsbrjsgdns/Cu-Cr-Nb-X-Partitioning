@@ -1,0 +1,11 @@
+{
+  "status": "AVAILABLE",
+  "affinity_column": "Miedema_deltaH_inter",
+  "n_pairs": 18,
+  "n_x_elements": 6,
+  "nan": 0,
+  "ni_scan_hits": [],
+  "descriptor_table_sha256": "5fa01dcc513193c31ae5ead737159d85958b0b88b89599a3de55fd0e9c241562",
+  "provenance_sha256": "ac6220b9cb54f7d5ed38fba2de806832337ac346a16d1f1f47abf0d358ce2104",
+  "generated_utc": "2026-09-05T15:45:09+00:00"
+}

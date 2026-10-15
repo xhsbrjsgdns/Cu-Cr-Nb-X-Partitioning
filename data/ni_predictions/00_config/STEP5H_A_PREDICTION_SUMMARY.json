@@ -1,0 +1,113 @@
+{
+  "generated_utc": "2026-09-06T17:11:02+00:00",
+  "primary": {
+    "freeze": {
+      "role": "PRIMARY",
+      "generated_utc": "2026-09-06T17:11:02+00:00",
+      "file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\04_primary_predictions\\STEP5H_A_PRIMARY_NI_PREDICTIONS.parquet",
+      "sha256": "100b40ed67c396cb296d53db80e7fef7cb94c0c8223873f5a13c01af28f0f488",
+      "file_size_bytes": 1815669,
+      "row_count": 22000,
+      "schema_columns": [
+        "state_id",
+        "composition_id",
+        "Temperature_C",
+        "fewshot_role",
+        "raw_FCC",
+        "raw_BCC",
+        "raw_C15",
+        "raw_OTHER_SOLID",
+        "raw_LIQUID",
+        "pred_FCC",
+        "pred_BCC",
+        "pred_C15",
+        "pred_OTHER_SOLID",
+        "pred_LIQUID",
+        "pred_topology",
+        "simplex_fallback"
+      ],
+      "schema_sha256": "68897d61a1184fecdce57f4d91b419d76c15d67d3838ae243ffc498978bfeb2e",
+      "simplex_fallback_count": 0,
+      "max_projected_sum_deviation": 2.220446049250313e-16,
+      "qa_checks": {
+        "rows_22000": true,
+        "state_id_unique": true,
+        "all_finite": true,
+        "projected_non_negative": true,
+        "projected_sum_one_1e12": true,
+        "target_column_guard_clean": true
+      },
+      "immutable_from_utc": "2026-09-06T17:11:02+00:00",
+      "no_target_column_present": true
+    },
+    "architecture": "Linear(43,128)-ReLU-Linear(128,64)-ReLU-Linear(64,5)",
+    "checkpoint_role": "ORIGINAL6_DIRECT_MLP",
+    "chosen_lr": 0.0003
+  },
+  "secondary": {
+    "freeze": {
+      "role": "SECONDARY",
+      "generated_utc": "2026-09-06T17:11:02+00:00",
+      "file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\05_secondary_predictions\\STEP5H_A_SECONDARY_NI_PREDICTIONS.parquet",
+      "sha256": "a6c0fc4a98a05a4c53704d85b5caf91a5477577789a69d8dc24f6976f98a72ad",
+      "file_size_bytes": 1822174,
+      "row_count": 22000,
+      "schema_columns": [
+        "state_id",
+        "composition_id",
+        "Temperature_C",
+        "fewshot_role",
+        "raw_FCC",
+        "raw_BCC",
+        "raw_C15",
+        "raw_OTHER_SOLID",
+        "raw_LIQUID",
+        "pred_FCC",
+        "pred_BCC",
+        "pred_C15",
+        "pred_OTHER_SOLID",
+        "pred_LIQUID",
+        "pred_topology",
+        "simplex_fallback"
+      ],
+      "schema_sha256": "68897d61a1184fecdce57f4d91b419d76c15d67d3838ae243ffc498978bfeb2e",
+      "simplex_fallback_count": 0,
+      "max_projected_sum_deviation": 2.220446049250313e-16,
+      "qa_checks": {
+        "rows_22000": true,
+        "state_id_unique": true,
+        "all_finite": true,
+        "projected_non_negative": true,
+        "projected_sum_one_1e12": true,
+        "target_column_guard_clean": true
+      },
+      "immutable_from_utc": "2026-09-06T17:11:02+00:00",
+      "no_target_column_present": true
+    },
+    "checkpoint_role": "FULL11_DIRECT_MLP",
+    "chosen_lr": 0.001
+  },
+  "state_ids_identical": true,
+  "qa_primary": {
+    "rows_22000": true,
+    "state_id_unique": true,
+    "all_finite": true,
+    "projected_non_negative": true,
+    "projected_sum_one_1e12": true,
+    "target_column_guard_clean": true
+  },
+  "qa_secondary": {
+    "rows_22000": true,
+    "state_id_unique": true,
+    "all_finite": true,
+    "projected_non_negative": true,
+    "projected_sum_one_1e12": true,
+    "target_column_guard_clean": true
+  },
+  "schema_sha256_primary": "68897d61a1184fecdce57f4d91b419d76c15d67d3838ae243ffc498978bfeb2e",
+  "schema_sha256_secondary": "68897d61a1184fecdce57f4d91b419d76c15d67d3838ae243ffc498978bfeb2e",
+  "no_target_accessed": true,
+  "no_error_computed": true,
+  "no_model_retrained": true,
+  "no_scaler_refit": true
+}

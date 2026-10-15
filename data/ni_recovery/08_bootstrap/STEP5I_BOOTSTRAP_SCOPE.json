@@ -1,0 +1,16 @@
+{
+  "generated_utc": "2026-09-07T06:01:19+00:00",
+  "label": "POST-BLIND EXPLORATORY CI (spec 43)",
+  "method": "composition-level paired bootstrap; the same composition resample is applied to both methods in a contrast",
+  "replicates": 1000,
+  "seed": 20260913,
+  "n_compositions": 1400,
+  "contrasts": [
+    "M_REFIT - M_ZERO",
+    "M_REFIT - R0",
+    "M_REFIT - R2"
+  ],
+  "sign_convention": "negative = M_REFIT has the lower TVD",
+  "may_alter_primary_definitions": false,
+  "may_alter_model_roles": false
+}

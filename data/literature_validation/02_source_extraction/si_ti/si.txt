@@ -1,0 +1,1577 @@
+=== PDF PAGE 1 ===
+CALPHAD: Computer Coupling of Phase Diagrams and Thermochemistry 74 (2021) 102324
+Available online 29 July 2021
+0364-5916/© 2021 Elsevier Ltd. All rights reserved.
+Experimental investigation and CALPHAD modeling of the Cu–Cr–Si 
+ternary system 
+Yu Zhang a, Biao Hu a,*, Benfu Li a, Man Zhang a, Qingping Wang a, Yong Du b 
+a School of Materials Science and Engineering, Anhui University of Science and Technology, Huainan, Anhui 232001, PR China 
+b State Key Laboratory of Powder Metallurgy, Central South University, Changsha, Hunan, 410083, PR China   
+A R T I C L E  I N F O   
+Keywords: 
+Cu–Cr–Si system 
+Isothermal section 
+Thermodynamic modeling 
+Experimental investigation 
+CALPHAD 
+A B S T R A C T   
+The phase equilibria of the Cu–Cr–Si ternary system were investigated via thermodynamic modeling coupled 
+with key experiments. Seventeen ternary alloys were prepared to determine the isothermal sections of the 
+Cu–Cr–Si system at 700 and 800 ◦C by combining X-ray diffraction (XRD) and scanning electron microscopy with 
+energy dispersive X-ray spectroscopy (SEM/EDS). No ternary compound was found. The solubilities of the third 
+element in binary compounds in the Cu–Si and Cr–Si systems were measured. Based on the thermodynamic 
+descriptions of three constitutive binary systems available in the literature as well as the experimental phase 
+equilibria data obtained from the present work and literature, thermodynamic re-assessment of the Cu–Cr–Si 
+system was carried out by the CALPHAD (CALculation of PHAse Diagrams) approach. The substitutional model 
+and sublattice model were used to describe the solution phases and intermediate phases, respectively. A set of 
+thermodynamic parameters of the Cu–Cr–Si system was obtained. The calculated isothermal sections and vertical 
+section are in good agreement with most of the reliable experimental data. The liquidus projection and reaction 
+scheme of the Cu–Cr–Si system over the whole composition were also presented.   
+1. Introduction 
+Copper and copper alloys, which show good electrical conductivity, 
+thermal conductivity, corrosion resistance and weldability etc., have 
+been extensively utilized in various fields, such as resistance welding 
+electrode, lead frames and contact wire for electrified railways [1–3]. 
+High strength and high conductivity are the most important perfor­
+mance requirements for copper alloys. However, the strength of pure 
+copper is low, which can be improved by adding alloy elements. In 
+Cu-based alloys, Cr and Si as two of the common additional elements 
+improve the strength, corrosion resistance and thermoelectricity of 
+copper alloys. Cu–Cr based alloys demonstrate the high strength and 
+excellent conductivity and have been widely studied [4–6]. In addition, 
+Si can make the face-centered cubic (fcc) phase of Cu more plastic, 
+which is easy to work during cold deformation due to the large number 
+of slip bands in the crystals [7]. The design of compositions of Cu alloys 
+requires information about the phase equilibria of the Cu–Cr–Si ternary 
+system. Therefore, a thorough thermodynamic assessment of the 
+Cu–Cr–Si system is necessary for providing a set of reliable thermody­
+namic parameters for thermodynamic extrapolations to related higher 
+order systems. 
+Thermodynamic description for the Cu–Cr–Si system is part of our 
+efforts [8–11] to establish thermodynamic database of multi-component 
+Cu based alloys. To the best of our knowledge, so far no complete 
+thermodynamic parameter for the Cu–Cr–Si system is available in the 
+literature. The purposes of the present work are to determine some 
+representative isothermal sections of the Cu–Cr–Si system by key ex­
+periments, and to obtain a set of complete thermodynamic parameters 
+for the Cu–Cr–Si ternary system by the CALPHAD approach [12,13]. 
+2. Literature review 
+To facilitate reading, the symbols used to denote the solid phases 
+[14] with their crystal structures in the Cu–Cr–Si system are listed in 
+Table 1. 
+2.1. Binary systems 
+The phase equilibria of the Cu–Si system are quite complex since it 
+contains several intermediate compounds (i.e., Cu19Si6, Cu15Si4, 
+Cu33Si7, Cu56Si11, hcp(CuSi) and bcc(CuSi)) at different compositions. 
+Sufryd [15] performed some experimental investigations which located 
+* Corresponding author. 
+E-mail addresses: hubiao05047071@163.com, bhu@aust.edu.cn (B. Hu).  
+Contents lists available at ScienceDirect 
+Calphad 
+journal homepage: www.elsevier.com/locate/calphad 
+https://doi.org/10.1016/j.calphad.2021.102324 
+Received 11 March 2021; Received in revised form 17 July 2021; Accepted 24 July 2021   
+
+=== PDF PAGE 2 ===
+Calphad 74 (2021) 102324
+2
+in the Cu-rich part and proposed that the Cu15Si4 phase was a stable 
+phase which was not directly formed from the liquid phase. Olesinski 
+and Abbaschian [16] have given a critical evaluation including all 
+literature up to 1986. A more recent thermodynamic assessment of the 
+system has been made by Yan and Chang [17] based on the experimental 
+data available in the literature. The binary compounds were all situated 
+in the Cu-rich side of the phase diagram. The thermodynamic descrip­
+tion of the Cu–Si system from the work of Yan and Chang [17] repro­
+duced well the thermodynamic properties and phase equilibria data and 
+the thermodynamic parameters from their work were accepted in the 
+Table 1 
+List of the symbols to denote the phases in the Cu–Cr–Si system.  
+Phase 
+Prototype 
+Personal system 
+Space group 
+Phase description 
+(Cu) 
+Cu 
+cF4 
+Fm3m  
+Solid solution based on fcc_A1 Cu 
+(Cr) 
+Cr 
+CI2 
+Im3m  
+Solid solution based on bcc_A2 Cr 
+(Si) 
+C 
+cF8 
+Fd3m  
+Solid solution based on diamond_A4 Si 
+Cu15Si4 
+Cu15Si4 
+cI76 
+I43d  
+Binary phase Cu15Si4 
+Cu19Si6 
+– 
+tP* 
+R3m  
+Binary phase Cu19Si6 
+Cu56Si11 
+– 
+CP20 
+P4123 
+Binary phase Cu56Si11 
+Cu33Si7 
+– 
+t** 
+– 
+Binary phase Cu33Si7 
+hcp(CuSi) 
+Mg 
+hP2 
+P63/mmc 
+Solid solution based on hcp_A3 Cu6⋅69Si 
+bcc(CuSi) 
+– 
+CI2 
+Im3m  
+Solid solution based on bcc_A2 Cu5⋅12Si 
+CrSi2 
+CrSi2 
+hP9 
+P6222 
+Binary phase CrSi2 
+CrSi 
+FeSi 
+cP8 
+P213 
+Binary phase CrSi 
+αCr5Si3 
+αCr5Si3 
+Ti32 
+I4/mcm 
+Binary phase αCr5Si3 
+βCr5Si3 
+– 
+– 
+– 
+Binary phase βCr5Si3 
+Cr3Si 
+Cr3Si 
+cP8 
+Pm3m  
+Binary phase Cu19Si6  
+Fig. 1. Calculated (a) Cu–Si, (b) Cu–Cr and (c) Cr–Si phase diagrams using the thermodynamic parameters from Yan and Chang [17], Liu at al [21]. and Chen et al. 
+[25], respectively. 
+Y. Zhang et al.                                                                                                                                                                                                                                   
+
+=== PDF PAGE 3 ===
+Calphad 74 (2021) 102324
+3
+present work. The calculated phase diagram of the Cu–Si system was 
+shown in Fig. 1 (a). 
+Cui and Jung [18] has critically reviewed the literature data on the 
+Cu–Cr phase diagram and thermodynamic properties and modeled the 
+liquid phase with a MQM (Modified Quasichemical Model) in the 
+FactSage software [19]. Zeng [20] obtained a set of optimized thermo­
+dynamic 
+parameters 
+of 
+the 
+Cu–Cr 
+system 
+using 
+the 
+Tanaka-Gokcen-Morita relationship containing the impact of the excess 
+enthalpy and entropy coefficients of the liquid phase on the process of 
+precipitation in the supersaturated fcc Cu–Cr alloys. In order to obtain 
+the thermodynamic description of the Cu–Cr system with a substitu­
+tional solution model for the solution phases, Liu et al. [21] re-assessed 
+the Cu–Cr binary system. The thermodynamic parameters of the Cu–Cr 
+system from Liu et al. [21] were adopted in the present work to attain 
+the compatibility in our previous work [9]. The calculated Cu–Cr phase 
+diagram was shown in Fig. 1 (b) based on the thermodynamic param­
+eters from Liu et al. [21]. 
+The thermodynamic modeling for the Cr–Si system was firstly done 
+by Coughanowr and Ansara [22]. Four binary phases, i.e., Cr3Si, Cr5Si3, 
+CrSi, and CrSi2, were considered. The Cr3Si and CrSi2 phases were 
+modeled as nonstoichiometric compounds, while the CrSi and Cr5Si3 
+phases were modeled as stoichiometric compounds. Later, Du and 
+Schuster [23] re-optimized the Cr–Si system by the thermodynamic data 
+from Meschel and Kleppa [24] and their own experimental results in the 
+CrSi–Si partial phase equilibria. Recently, Chen et al. [25] re-examined 
+the melting behavior of the Cr5Si3 phase to be a peritectic type. The 
+calculated Cr–Si phase diagram was shown in Fig. 1 (c) according to the 
+work from Chen et al. [25], which was accepted in the present work. 
+2.2. The Cu–Cr–Si ternary system 
+The phase equilibria, thermal stability, kinetics immiscibility, me­
+chanical properties and melting characterization of the Cu–Cr–Si ternary 
+system have been studied [26–32]. Roi et al. [26] determined the phase 
+equilibria in the Cu-rich corner at 700 and 1000 ◦C by XRD and 
+SEM/EDS methods. Since the solubility of the (Cu) solid solution re­
+ported by Roi et al. [26] was in poor agreement with the accepted phase 
+diagrams of the Cu–Cr [21] and Cu–Si [17] systems and the experi­
+mental data mainly were focus on the 0–2 at.% Si, these experimental 
+data were not considered in the present work. Savitskii et al. [27] 
+Table 2 
+Summary of the identified phase and their compositions by XRD and SEM/EDS (standard uncertainty (u): u(x) = 0.05%) of alloys 
+A1–A8 and B1–B9 annealed at 700 and 800 ◦C (standard uncertainty (u): u(T) = 1.0 ◦C) for 30 and 25 days, respectively.  
+Alloy No. 
+Nominal composition (at.%) 
+Phases identified 
+Composition (at.%) 
+Cu 
+Cr 
+Si 
+A1 
+Cu61Cr3Si36 
+(Si) 
+7.90 ± 0.08 
+0.04 ± 0.01 
+92.06 ± 0.05 
+Cu19Si6 
+71.88 ± 0.13 
+2.27 ± 0.05 
+25.85 ± 0.12 
+CrSi2 
+2.44 ± 0.05 
+32.06 ± 0.23 
+65.50 ± 0.16 
+A2 
+Cu61Cr7Si32 
+Cu19Si6 
+72.41 ± 0.24 
+2.25 ± 0.05 
+25.34 ± 0.11 
+CrSi2 
+1.93 ± 0.06 
+33.32 ± 0.21 
+64.75 ± 0.26 
+A3 
+Cu70Cr5Ni25 
+Cu15Si4 
+74.99 ± 0.32 
+3.45 ± 0.08 
+21.56 ± 0.18 
+CrSi2 
+2.72 ± 0.05 
+32.60 ± 0.23 
+64.68 ± 0.18 
+A4 
+Cu29Cr26Si45 
+Cu56Si11 
+78.92 ± 0.23 
+2.93 ± 0.08 
+18.15 ± 0.21 
+CrSi2 
+2.50 ± 0.03 
+32.90 ± 0.23 
+64.60 ± 0.18 
+CrSi 
+1.82 ± 0.01 
+48.89 ± 0.43 
+49.29 ± 0.32 
+A5 
+Cu67Cr10Si23 
+hcp(CuSi) 
+86.34 ± 0.22 
+0.79 ± 0.01 
+12.87 ± 0.12 
+Cu56Si11 
+79.44 ± 0.34 
+2.89 ± 0.05 
+17.67 ± 0.23 
+CrSi 
+1.82 ± 0.05 
+48.64 ± 0.33 
+49.54 ± 0.25 
+A6 
+Cu28Cr36Si36 
+αCr5Si3 
+1.80 ± 0.03 
+59.99 ± 0.35 
+38.21 ± 0.24 
+(Cu) 
+86.42 ± 0.57 
+2.73 ± 0.05 
+10.85 ± 0.11 
+CrSi 
+1.80 ± 0.01 
+48.99 ± 0.32 
+49.21 ± 0.26 
+A7 
+Cu29Cr45Si26 
+Cr3Si (Cu) 
+1.93 ± 0.02 
+71.42 ± 0.31 
+26.65 ± 0.11 
+(Cu) 
+95.16 ± 0.05 
+3.28 ± 0.01 
+1.56 ± 0.01 
+αCr5Si3 
+2.03 ± 0.01 
+59.87 ± 0.34 
+38.10 ± 0.11 
+A8 
+Cu29Cr58Si13 
+(Cu) 
+95.89 ± 0.05 
+2.77 ± 0.01 
+1.34 ± 0.01 
+Cr3Si 
+1.52 ± 0.01 
+72.97 ± 0.35 
+25.51 ± 0.21 
+(Cr) 
+3.50 ± 0.02 
+93.34 ± 0.08 
+3.16 ± 0.05 
+B1 
+Cu61Cr3Si36 
+(Si) 
+3.13 ± 0.02 
+1.06 ± 0.01 
+95.81 ± 0.06 
+Cu19Si6 
+70.24 ± 0.34 
+2.31 ± 0.01 
+27.45 ± 0.21 
+CrSi2 
+1.04 ± 0.01 
+32.62 ± 0.21 
+66.34 ± 0.32 
+B2 
+Cu31Cr26Si43 
+Cu19Si6 
+78.19 ± 0.34 
+1.33 ± 0.01 
+20.48 ± 0.16 
+CrSi2 
+1.51 ± 0.02 
+32.90 ± 0.26 
+65.59 ± 0.13 
+CrSi 
+1.04 ± 0.01 
+49.69 ± 0.11 
+49.27 ± 0.13 
+B3 
+Cu62Cr10Si28 
+Cu15Si4 
+85.11 ± 0.39 
+0.50 ± 0.01 
+14.39 ± 0.10 
+CrSi 
+1.27 ± 0.05 
+48.80 ± 0.21 
+49.93 ± 0.25 
+B4 
+Cu70Cr7Si23 
+Cu33Si7 
+79.67 ± 0.35 
+1.53 ± 0.05 
+18.80 ± 0.13 
+CrSi 
+1.28 ± 0.03 
+50.11 ± 0.31 
+48.61 ± 0.21 
+B5 
+Cu75Cr5Si20 
+hcp (CuSi) 
+83.46 ± 0.37 
+1.78 ± 0.03 
+14.76 ± 0.11 
+CrSi 
+2.09 ± 0.05 
+48.70 ± 0.34 
+49.21 ± 0.42 
+B6 
+Cu78Cr5Si17 
+hcp(CuSi) 
+83.51 ± 0.23 
+1.34 ± 0.02 
+15.15 ± 0.32 
+CrSi 
+1.02 ± 0.01 
+49.43 ± 0.34 
+49.55 ± 0.23 
+(Cu) 
+85.07 ± 0.17 
+3.18 ± 0.10 
+11.75 ± 0.12 
+B7 
+Cu30Cr36Si34 
+αCr5Si3 
+2.03 ± 0.08 
+60.21 ± 0.22 
+37.76 ± 0.31 
+(Cu) 
+89.16 ± 0.13 
+0.78 ± 0.02 
+10.06 ± 0.11 
+CrSi 
+– 
+– 
+– 
+B8 
+Cu29Cr45Si26 
+Cr3Si 
+1.56 ± 0.03 
+73.08 ± 0.28 
+25.36 ± 0.23 
+(Cu) 
+85.42 ± 0.32 
+3.73 ± 0.08 
+10.85 ± 0.14 
+αCr5Si3 
+1.77 ± 0.05 
+59.61 ± 0.34 
+38.62 ± 0.22 
+B9 
+Cu60Cr35Si5 
+(Cu) 
+94.70 ± 0.12 
+4.64 ± 0.11 
+0.66 ± 0.01 
+Cr3Si 
+1.67 ± 0.07 
+75.22 ± 0.21 
+23.11 ± 0.14 
+(Cr) 
+2.39 ± 0.03 
+94.99 ± 0.15 
+2.62 ± 0.02  
+Y. Zhang et al.                                                                                                                                                                                                                                   
+
+=== PDF PAGE 4 ===
+Calphad 74 (2021) 102324
+4
+investigated the microstructure and phase composition of the alloys in 
+the Cu–Cr–Si system by XRD and metallographic microscope and 
+tentatively constructed the isothermal section at 800 ◦C with the Si 
+content less than 40 at.%. Two three-phase regions, i.e., αCr5Si3 + (Cu) 
++ Cr3Si and (Cu) + Cr3Si + (Cr), were predicted and the solubilities of 
+Cu in αCr5Si3 and Cr3Si were reported about 6 at.%. The phase equilibria 
+of the Cu–Cr–Si system at 800 ◦C were not well determined by Savitskii 
+et al. [27]. The experimental data from Savitskii et al. [27] were not 
+adopted in the present optimization. Yu et al. [32] studied the ther­
+modynamic and kinetic of the liquid phase separation in the Cu–Cr–Si 
+ternary system and determined the isothermal sections at 900, 1000, 
+1100 and 1200 ◦C annealed for 90, 60, 30 and 15 days by means of XRD 
+and electron probe microanalyzer (EPMA). There were three 
+three-phase regions, i.e., liquid + (Si) + CrSi2, liquid + CrSi2 + CrSi and 
+liquid + CrSi + Cr5Si3, in the isothermal section at 900 ◦C, and the re­
+lationships were the same to the isothermal sections at 1000, 1100 and 
+1200 ◦C. The three-phase region, i.e., (Cu) + (Cr) + Cr3Si, in the 
+isothermal sections at 900 and 1000 ◦C was changed into the 
+three-phase region, i.e., liquid + (Cr) + Cr3Si, in the isothermal sections 
+at 1100 ◦C and 1200 ◦C. Based on their experimental results, they 
+thermodynamically assessed the Cu–Cr–Si system using the CALPHAD 
+approach, and a set of thermodynamic parameters, which can reproduce 
+well the phase equilibria at high temperature, was obtained. However, 
+only the solubility of the CrSi2 phase was considered in the work of Yu 
+et al. [32]. In addition, the phase equilibria of the Cu–Cr–Si system at 
+700 and 800 ◦C are only partial, and more experiments are needed to 
+determine. Thus, the present work is dedicated to determining the 
+Table 3 
+Summary of the thermodynamic parameters in the Cu–Cr–Si systema.  
+Phases/Models 
+Thermodynamic parameters 
+Reference 
+liquid: (Cr, Cu, 
+Si)1 
+0Lliquid
+Cr,Cu = 38795.8 −
+3.68⋅T  
+[21] 
+1Lliquid
+Cr,Cu = 3760 + 2.62⋅T  
+[21] 
+2Lliquid
+Cr,Cu = 44731.3 −
+21.05⋅T  
+[21] 
+0Lliquid
+Cr,Si
+= −
+128000 + 21.24⋅T  
+[25] 
+1Lliquid
+Cr,Si
+= −
+50016.61 + 14.32⋅T  
+[25] 
+0Lliquid
+Cu,Si = −
+38763.5 + 12⋅T  
+[17] 
+1Lliquid
+Cu,Si = −
+52431.2 + 27.4571⋅T  
+[17] 
+2Lliquid
+Cu,Si = −
+29426.5 + 14.775⋅T  
+[17] 
+0Lliquid
+Cr,Cu,Si = ​ 32520 −
+12.5⋅T  
+This work 
+fcc: (Cr, Cu, 
+Si)1Va1 
+0Lfcc
+Cr,Cu:Va = 52900  
+[21] 
+0Lfcc
+Cu,Si:Va = −
+42203.5 + 13.89⋅T  
+[17] 
+1Lfcc
+Cu,Si:Va = −
+1102.2 −
+18.18⋅T  
+[17] 
+bcc: (Cr, Cu, 
+Si)1Va3 
+0Lbcc
+Cr,Cu:Va = 81000  
+[21] 
+0Lbcc
+Cr,Si:Va = −
+77309.93 −
+2.38⋅T  
+[25] 
+1Lbcc
+Cr,Si:Va = −
+53247.56 + 13.59⋅T  
+[25] 
+0Lbcc
+Cu,Si:Va = −
+26447.3 ​ + ​ 10.21623⋅T  
+[17] 
+1Lbcc
+Cu,Si:Va = −
+47275.11 −
+8.517323⋅T  
+[17] 
+hcp: (Cr, Cu, 
+Si)1Va0.5 
+0Lhcp
+Cr,Cu:Va = 81000  
+[21] 
+0Lhcp
+Cu,Si:Va = −
+26798.8 −
+0.731518⋅T  
+[17] 
+1Lhcp
+Cu,Si:Va = −
+28064.75 −
+0.028889⋅T  
+[17] 
+Cu19Si6: (Cr, 
+Cu)19(Cr, Si)6 
+oGCu19Si6
+Cu:Si
+= 34191.555 −
+179.940572⋅T + 19⋅ 
+oGfcc
+Cu + 6⋅
+oGdiamond
+Si  
+[17]  
+oGCu19Si6
+Cu:Cr
+= 375650 + 19⋅
+oGfcc
+Cu + 6⋅
+oGbcc
+Cr  
+This work 
+oGCu19Si6
+Cr:Si
+= −
+350275 + 19⋅
+oGbcc
+Cr + 6⋅
+oGdiamond
+Si  
+This work 
+oGCu19Si6
+Cr:Cr
+= 300425 + 25⋅
+oGbcc
+Cr  
+This work 
+Cu15Si4: (Cr, 
+Cu)15(Cr, Si)4 
+oGCu15Si4
+Cu:Si
+= 23578.3141 −
+127.663214⋅T + 15⋅ 
+oGfcc
+Cu + 4⋅
+oGdiamond
+Si  
+[17] 
+oGCu15Si4
+Cu:Cr
+= 418133 + 15⋅
+oGfcc
+Cu + 4⋅
+oGbcc
+Cr  
+This work 
+oGCu15Si4
+Cr:Si
+= −
+218937 + 15⋅
+oGbcc
+Cr + 4⋅
+oGdiamond
+Si  
+This work 
+oGCu15Si4
+Cr:Cr
+= 190095 + 19⋅
+oGbcc
+Cr  
+This work 
+Cu56Si11: (Cr, 
+Cu)56(Cr, Si)11 
+oGCu56Si11
+Cu:Si
+= 70114.6491 −
+393.603774⋅T + 56⋅ 
+oGfcc
+Cu + 11⋅
+oGdiamond
+Si  
+[17] 
+oGCu56Si11
+Cu:Cr
+= 670402 + 56⋅
+oGfcc
+Cu + 11⋅
+oGbcc
+Cr  
+This work 
+oGCu56Si11
+Cr:Si
+= −
+402536 + 56⋅
+oGbcc
+Cr + 11⋅
+oGdiamond
+Si  
+This work 
+oGCu56Si11
+Cr:Cr
+= 536134 + 67⋅
+oGbcc
+Cr  
+This work 
+Cu33Si7: (Cr, 
+Cu)33(Cr, Si)7 
+oGCu33Si7
+Cu:Si
+= 78895.28 −
+278.655732⋅T + 33⋅ 
+oGfcc
+Cu + 7⋅
+oGdiamond
+Si  
+[17] 
+oGCu33Si7
+Cu:Cr
+= 400680 + 33⋅
+oGfcc
+Cu + 7⋅
+oGbcc
+Cr  
+This work 
+oGCu33Si7
+Cr:Si
+= −
+124160 + 33⋅
+oGbcc
+Cr + 7⋅
+oGdiamond
+Si  
+This work 
+oGCu33Si7
+Cr:Cr
+= 3204160 + 40⋅
+oGbcc
+Cr  
+This work 
+CrSi2: (Cr, Cu, 
+Si)1(Cr, Cu, Si)2 
+oGCrSi2
+Cr:Cr = 10000 −
+T + 3⋅
+oGbcc
+Cr  
+[21] 
+oGCrSi2
+Si:Cr = 224822.024 −27.60473⋅T + 2⋅
+oGbcc
+Cr +
+oGdiamond
+Si  
+[25] 
+oGCrSi2
+Cr:Si = −
+100597.117 + 336.62707⋅T −
+57.86⋅T⋅ln(T) −
+0.01232⋅T2 −
+4.3203⋅10−7⋅T3  
+[25] 
+oGCrSi2
+Si:Si
+= 84524.9887 −
+26.27506⋅T + 3⋅ 
+oGdiamond
+Si  
+[25] 
+oGCrSi2
+Cr,Si:Cr = 1535.45  
+[25] 
+oGCrSi2
+Cr,Si:Si = 1535.45  
+[25] 
+oGCrSi2
+Cr:Cu = 82016 + 2⋅
+oGfcc
+Cu +
+oGbcc
+Cr  
+This work 
+oGCrSi2
+Si:Cu = 22002 + 2⋅
+oGfcc
+Cu +
+oGdiamond
+Si  
+This work 
+oGCrSi2
+Cu:Cu = 40001 + 3⋅
+oGfcc
+Cu  
+This work  
+Table 3 (continued) 
+Phases/Models 
+Thermodynamic parameters 
+Reference 
+oGCrSi2
+Cu:Cr = 60012 + 2⋅
+oGbcc
+Cr +
+oGfcc
+Cu  
+This work 
+oGCrSi2
+Cu:Si = 20004 + 2⋅
+oGdiamond
+Si
++
+oGfcc
+Cu  
+This work 
+Cr5Si3: (Cu, 
+Si)3(Cr, Cu)5 
+oGCr5Si3
+Si:Cr
+= −
+329102.726⋅T + 1077.75585⋅T −
+182.578184⋅T⋅ln(T) −
+0.203919688⋅T2 −
+2.31728⋅10−6⋅T3  
+[25] 
+oGCr5Si3
+Cu:Cr = 110143 + 3⋅
+oGfcc
+Cu + 5⋅
+oGbcc
+Cr  
+This work 
+oGCr5Si3
+Cu:Cu = 40040 + 8⋅
+oGfcc
+Cu  
+This work 
+oGCr5Si3
+Si:Cu
+= 56067 + 32⋅T + 3⋅
+oGdiamond
+Si
++ 5⋅
+oGfcc
+Cu  
+This work 
+CrSi: (Cr, 
+Cu)1(Cu, Si)1 
+oGCrSi
+Cr:Si = −
+83545.008 + 315.0996⋅T −
+51.62865⋅T⋅ln(T) −
+0.00447355⋅T2 + 391330⋅ 
+T−1  
+[25] 
+oGCrSi
+Cr:Cu = 40020 +
+oGbcc
+Cr +
+oGfcc
+Cu  
+This work 
+oGCrSi
+Cu:Cu = 3002 + 2⋅
+oGfcc
+Cu  
+This work 
+oGCrSi
+Cu:Si = 13604 + 2.145⋅T +
+oGfcc
+Cu +
+oGdiamond
+Si  
+This work 
+Cr3Si: (Cr, Si, 
+Cu)3(Cu, Cr, 
+Si)1 
+oGCr3Si
+Cr:Cr = 20000 + 10⋅T + 4⋅
+oGbcc
+Cr  
+[25] 
+oGCr3Si
+Si:Cr = 561830.369 −
+61.08⋅T +
+oGbcc
+Cr + 3⋅ 
+oGdiamond
+Si  
+[25] 
+oGCr3Si
+Cr:Si = −
+125904.402 + 5.14⋅T + 3⋅
+oGbcc
+Cr +
+oGdiamond
+Si  
+[25] 
+oGCr3Si
+Si:Si
+= 415925 −
+65.94⋅T + 4⋅
+oGdiamond
+Si  
+[25] 
+oGCr3Si
+Cr,Si:Cr = −
+391881.445  
+[25] 
+oGCr3Si
+Cr,Si:Si = −
+391881.445  
+[25] 
+oGCr3Si
+Cr:Cu = 72029 + 3⋅
+oGbcc
+Cr +
+oGfcc
+Cu  
+This work 
+oGCr3Si
+Si:Cu = 8002 +
+oGfcc
+Cu + 3⋅
+oGdiamond
+Si  
+This work 
+oGCr3Si
+Cu:Cu = 8011 + 4⋅
+oGfcc
+Cu  
+This work 
+oGCr3Si
+Cu:Cr = 38008 +
+oGbcc
+Cr + 3⋅
+oGfcc
+Cu  
+This work 
+oGCr3Si
+Cu:Si = 46009 + 26⋅T + 3⋅
+oGfcc
+Cu +
+oGdiamond
+Si  
+This work  
+a Temperature (T) in Kelvin and Gibbs energy in J/mol-formula. The Gibbs 
+energies for the pure elements are taken from the compilation of Dinsdale [28]. 
+The thermodynamic parameters for the Cu–Si, Cu–Cr and Cr–Si systems from 
+Yan and Chang [17], Liu et al. [21] and Chen et al. [25] respectively, were 
+adopted in the present work. 
+Y. Zhang et al.                                                                                                                                                                                                                                   
+
+=== PDF PAGE 5 ===
+Calphad 74 (2021) 102324
+5
+isothermal sections at 700 and 800 ◦C and obtaining a set of complete 
+thermodynamic parameters of the Cu–Cr–Si system considering the 
+solubilities of third element in the binary phases. 
+3. Experimental procedures 
+In order to determine the phase equilibria of the Cu–Cr–Si system at 
+700 and 800 ◦C, seventeen ternary alloys were prepared by melting 
+mixture of the high purity Cu (99.99 wt.%) rods, Cr (99.99 wt.%) blocks 
+and Si (99.999 wt.%) blocks (China New Metal Materials Technology 
+Co., Ltd.) as starting materials. The nominal compositions of the samples 
+were listed in Table 2. The alloy samples, each with a weight of 
+approximately 1 g, were prepared in a non-consumable vacuum arc- 
+melting furnace (WK–I, Physcience Opto-electronics Co., Ltd. Beijing, 
+China) with water-cooled copper crucible under 99.999 % pure Ar at­
+mosphere. Each alloy was re-melted at least five times to improve their 
+homogeneities. The alloys after arc melting were not subjected to 
+chemical analysis since the weight losses were less than 1 wt.% for all 
+alloys. Then the samples were sealed in evacuated quartz capsules with 
+vacuum sealing machine (MRVS-1002, Wuhan Bailibo Technology Co., 
+Ltd., China), and annealed at 700 ◦C (30 days) and 800 ◦C (25 days) in 
+the high temperature diffusion furnace (KSL-1200X, Hefei Kejing Ma­
+terial Technology Co., Ltd., China), followed by quenching in cold 
+water. 
+The powder XRD measurement of the annealed alloys was performed 
+using a Cu-Kα radiation at 40 kV and 300 mA (Smartlab SE, Rigaku 
+corporation, Japan) at room temperature. Diffraction patterns were 
+generally acquired in a scan step 0.02◦of over a 2θ range 20–80◦. Then 
+the samples were further examined using scanning electron microscopy 
+equipped with energy dispersive X-ray analysis (SEM/EDS) (accelera­
+tion voltage 20 kV, scanning speed 10 μs, working distance 4.5 mm) 
+(JSM-6360LV/GENESIS2000XM60, JEOL, Japan), which the equipment 
+standard uncertainty is 0.05 at.%. Generally, three points of each phase 
+were measured by EDS analysis and their average value was taken as the 
+phase composition. The phase composition wasn’t calibrated to the 
+standard sample and the error range of the average value compared to 
+the compositions of each points was about 1 at.%. 
+4. Thermodynamic model 
+The Gibbs energy functions of the pure elements Cu, Cr and Si were 
+taken from the SGTE database compiled by Dinsdale [33]. The ther­
+modynamic parameters of the Cu–Si, Cu–Cr and Cr–Si binary systems 
+reported by Yan and Chang [17], Liu et al. [21] and Chen et al. [25] were 
+accepted in the present work. 
+The phases in the Cu–Cr–Si system to be optimized in the present 
+work are as follows: solution phases, i.e., liquid, fcc (Cu), bcc (Cr), 
+diamond (Si), hcp(CuSi) and bcc(CuSi); eight binary phases extending 
+into the ternary system, i.e., Cu19Si6, Cu15Si4, Cu56Si11, Cu33Si7, CrSi2, 
+CrSi, αCr5Si3 and Cr3Si. 
+4.1. Solution phases 
+The solution phases, i.e., liquid, fcc (Cu), bcc (Cr), diamond (Si), hcp 
+(CuSi) and bcc(CuSi), are described by the substitutional solution model. 
+The molar Gibbs energy of solution phase ϕ is expressed by the Redlich- 
+Kister-Muggianu polynomial [34]. 
+Gϕ = xCu⋅oGϕ
+Cu + xCr⋅oGϕ
+Cr + xSi⋅oGϕ
+Si + R⋅T⋅(xCu⋅ln xCu + xCr⋅ln xCr + xSi⋅ln xSi)
++xCu⋅xCr⋅Lϕ
+Cu,Cr + xCr⋅xSi⋅Lϕ
+Cr,Si + xCu⋅xSi⋅Lϕ
+Cu,Si
++xCu⋅xCr⋅xSi⋅
+(
+xCu⋅0Lϕ
+Cu,Cr,Si + xCr⋅1Lϕ
+Cu,Cr,Si + xSi ⋅2Lϕ
+Cu,Cr,Si
+)
+(1)  
+where 
+oGϕ
+i stands for the Gibbs free energy of the pure component i (i =
+Cu, Cr or Si) in the reference state for ϕ phase, R represents the gas 
+constant, T is the temperature in Kelvin, xCu, xCr and xSi are the molar 
+fractions of the elements Cu, Cr and Si, respectively. The ternary inter­
+action parameters, 
+0Lϕ
+Cu,Cr,Si, 
+1Lϕ
+Cu,Cr,Si and 
+2Lϕ
+Cu,Cr,Si are linearly 
+temperature-dependent, which can be expressed as Lϕ
+Cu,Cr,Si = A + B⋅T. 
+The coefficients A and B will be optimized according to the experimental 
+data obtained from the present work and the literature. 
+4.2. Binary phases extending into the ternary system 
+According to the experimental data, the binary phases Cu19Si6, 
+Cu15Si4, Cu33Si7 and Cu56Si11 in the Cu–Si system and CrSi2, CrSi, 
+αCr5Si3 and Cr3Si in the Cr–Si system exhibit some solubilities for Cr and 
+Cu, respectively. Sublattice models [35,36] were used to describe these 
+binary phases and listed in Table 3. In view of the experimental results, it 
+is assumed that Cu, Cr and Si substitute each other in the sublattice 
+models. Thus, in the present work, the Cu19Si6, Cu15Si4, Cu33Si7, 
+Cu56Si11, CrSi2, CrSi, αCr5Si3 and Cr3Si phases are modeled as (Cr, 
+Cu)19(Cr, Si)6, (Cr, Cu)15(Cr, Si)4, (Cr, Cu)33(Cr, Si)7, (Cr, Cu)56(Cr, 
+Si)11, (Cr, Cu, Si)1(Cr, Cu, Si)2, (Cr, Cu)1(Cu, Si)1, (Cr, Cu)5(Cu, Si)3 and 
+(Cr, Cu, Si)3(Cr, Cu, Si)1, respectively. Taking the Cr3Si phase as an 
+example, its Gibbs energy can be expressed as follows: 
+GCr3Si =
+∑
+i
+∑
+j
+y
+′
+i ⋅y′′
+j ⋅
+oGCr3Si
+i:j
++R ⋅T ⋅
+(
+3 ⋅
+∑
+i
+y
+′
+i ⋅ln y
+′
+i +
+∑
+j
+y′′
+j ⋅ln y′′
+j
+)
++
+∑
+i,j
+∑
+k
+[
+y
+′
+i ⋅y
+′
+j ⋅y′′
+k ⋅
+( ∑nLCr3Si
+i,j:k ⋅
+(
+y
+′
+i −y
+′
+j
+)n)]
++
+∑
+i
+∑
+j,k
+[
+y
+′
+i ⋅y′′
+j ⋅y′′
+k ⋅
+( ∑nLCr3Si
+i:j,k ⋅
+(
+y′′
+j −y′′
+k
+)n)]
+(2)  
+where GCr3Si
+i:j 
+is the Gibbs free energy of end-members of the Cr3Si phase, 
+when the first sublattice is occupied by the element i (i = Cr, Cu or Si), 
+and the second one is occupied by the element j (j = Cr, Cu or Si). The 
+nLi, ​ j:k and nLi: ​ j, ​ k are the interaction parameters, which were evaluated 
+based on the experimental data. Analogous expressions like Eq. (2) were 
+applied to describe the Gibbs energies of the Cu19Si6, Cu15Si4, Cu33Si7, 
+Cu56Si11, CrSi2, CrSi and αCr5Si3 and phases. 
+5. Results and discussion 
+5.1. Experimental results and discussion 
+Eight and nine ternary alloys were prepared to determine the phase 
+equilibria of the Cu–Cr–Si system at 700 and 800 ◦C, respectively. The 
+experimental results about phases identified by XRD and the composi­
+tions and microstructures measured by SEM/EDS of ternary alloy sam­
+ples are listed in Table 2. 
+Alloys A1–A8 were prepared for determining the phase equilibria at 
+700 ◦C of the Cu–Cr–Si system. Figs. 2 presents the backscattered elec­
+tron (BSE) images and XRD patterns of the representative ternary alloys 
+A4 (Cu29Cr26Si45), A6 (Cu28Cr36Si36) and A7 (Cu29Cr45Si26) annealed at 
+700 ◦C for 30 days, respectively. Figs. 2 (a) and (b) are the BSE micro­
+graph and XRD diffraction patterns for the alloy A4, respectively. Ac­
+cording to the XRD patterns and SEM/EDS measurement results, it can 
+be concluded that alloy A4 is located in a three-phase region, i.e. black 
+CrSi2, dark gray CrSi and light gray Cu56Si11. The measured solubilities 
+of Cr in the Cu56Si11 phase and Cu in the CrSi2 phase are about 2.93 and 
+2.50 at.%, respectively. Figs. 2 (c) and (d) are the BSE micrograph and 
+XRD patterns of the alloy A6, respectively. The XRD analysis indicates 
+that the alloy A6 contains the patterns of three phases, i.e. αCr5Si3, CrSi 
+and (Cu), which correspond to the dark gray, light gray and bright re­
+gions of the BSE micrograph shown in Fig. 2 (c). Thus, the alloy A6 is 
+located in the three-phase region, i.e., αCr5Si3 + CrSi + (Cu). The 
+measured solubilities of Cu in the αCr5Si3 and CrSi phases are about 1.80 
+Y. Zhang et al.                                                                                                                                                                                                                                   
+
+=== PDF PAGE 6 ===
+Calphad 74 (2021) 102324
+6
+and 1.81 at.% and the one of Cr in the (Cu) phase is about 2.73 at.%. The 
+BSE micrograph and XRD diffraction pattern of the alloy A7 are shown in 
+Figs. 2 (e) and (f), respectively. Similarly, combined with the BSE and 
+XRD results, the alloy A7 is located in the three-phase region, i.e. αCr5Si3 
++ Cr3Si + (Cu). The measured solubilities of Cr and Si in the (Cu) phase 
+are about 3.28 and 1.56 at.%, respectively, and the solubilities of Cu in 
+the αCr5Si3 and Cr3Si phases are about 2.03 and 1.93 at.%, respectively. 
+Similarly, the phases and compositions of the alloys A1 
+(Cu61Cr3Si36), A2 (Cu61Cr7Si32), A3 (Cu70Cr5Si25), A5 (Cu67Cr10Si23) 
+and A8 (Cu29Cr58Si13) were also analyzed and listed in Table 2. The 
+alloys A1, A5 and A8 are located in the three-phase regions, i.e. (Si) +
+Cu19Si6 + CrSi2, Cu56Si11 + CrSi + hcp(CuSi) and (Cu) + Cr3Si + (Cr), 
+respectively. The alloys A2 and A3 are located in the two-phase regions 
+Cu19Si6 + CrSi2 and Cu15Si4 + CrSi2, respectively. 
+Fig. 2. The BSE micrographs and XRD patterns of the Cu–Cr–Si alloys at 700 ◦C annealed 30 days: (a) and (b) alloy A4 (Cu29Cr26Si45); (c) and (d) alloy A6 
+(Cu28Cr36Si36); (e) and (f) alloy A7 (Cu29Cr45Si26). 
+Y. Zhang et al.                                                                                                                                                                                                                                   
+
+=== PDF PAGE 7 ===
+Calphad 74 (2021) 102324
+7
+Based on the experimental analysis above, the phase equilibria of the 
+Cu–Cr–Si system at 700 ◦C were obtained in the present work. For the 
+isothermal section at 700 ◦C, six three-phase regions, i.e. (Si) + CrSi2 +
+Cu19Si6, Cu56Si11 + CrSi2 + CrSi, CrSi + Cu56Si11 + hcp(CuSi), αCr5Si3 
++ (Cu) + CrSi, Cr5Si3 + Cr3Si + (Cu) and (Cu) + Cr3Si + (Cr), and two 
+two-phase regions, i.e. Cu19Si6 + CrSi2, Cu15Si4 + CrSi2, were 
+determined. According to the phase regions of alloys A5 and A6 and the 
+Gibbs phase rule, a three-phase region hcp(CuSi) + (Cu) + CrSi was 
+extrapolated. Similarly, the two three-phase regions, i.e., Cu19Si6 +
+CrSi2 + Cu15Si4 and Cu15Si4 + CrSi2 + Cu56Si11, could be extrapolated 
+according to the experimental results of alloys A2, A3 and A4. These 
+three-phase 
+regions 
+are 
+very 
+small 
+and 
+hardly 
+determined 
+Fig. 3. The BSE micrographs and XRD patterns of the Cu–Cr–Si alloys at 800 ◦C annealed 25 days: (a) and (b) alloy B2 (Cu31Cr26Si43); (c) and (d) alloy B4 
+(Cu70Cr7Si23); (e) and (f) alloy B8 (Cu29Cr45Si26). 
+Y. Zhang et al.                                                                                                                                                                                                                                   
+
+=== PDF PAGE 8 ===
+Calphad 74 (2021) 102324
+8
+Fig. 4. The calculated isothermal sections of the Cu–Cr–Si system along with the experimental data from the present work and literature [32]: (a) 700 ◦C, (b) 800 ◦C, 
+(c) 900 ◦C, (d) 1000 ◦C, (e) 1100 ◦C, (f) 1200 ◦C. 
+Y. Zhang et al.                                                                                                                                                                                                                                   
+
+=== PDF PAGE 9 ===
+Calphad 74 (2021) 102324
+9
+Fig. 5. The calculated vertical section of the Cu–Cr–Si ternary system at w(Cu): w(Cr) = 1:1, and its enlargement part compared with the experimental data from Yu 
+et al. [32]: (a) 0–100 at.% Si, and (b) 0–18 at.% Si. 
+Fig. 6. The calculated liquidus projection of the Cu–Cr–Si system.  
+Y. Zhang et al.                                                                                                                                                                                                                                   
+
+=== PDF PAGE 10 ===
+Calphad 74 (2021) 102324
+10
+Fig. 7. Reaction scheme of the Cr–Cr–Si system associated with the liquid phase.  
+Y. Zhang et al.                                                                                                                                                                                                                                   
+
+=== PDF PAGE 11 ===
+Calphad 74 (2021) 102324
+11
+experimentally, but they can be extrapolated in view of the Gibbs phase 
+rule. The measured average solubilities of Cu in the CrSi2, CrSi, αCr5Si3 
+and Cr3Si phases are about 2.40, 1.82, 1.92 and 1.73 at.%, respectively. 
+The average solubilities of Cr in the Cu19Si6, Cu15Si4, Cu56Si11 and hcp 
+(CuSi) phases are about 2.26, 3.45, 2.91 and 0.79 at.%, respectively. It 
+can be noted that the solubilities of the third element in binary com­
+pounds in the Cr–Si and Cu–Si systems at 700 ◦C are less than 4 at.%. 
+Alloys B1–B9 were prepared for determining the phase equilibria at 
+800 ◦C of the Cu–Cr–Si system. Fig. 3 shows the backscattered electron 
+(BSE) images and XRD patterns of the representative ternary alloys B2 
+(Cu31Cr26Si43), B4 (Cu70Cr7Si23) and B8 (Cu29Cr45Si26) annealed at 
+800 ◦C for 25 days, respectively. Figs. 3 (a) and (b) are the BSE micro­
+graph and XRD patterns for alloys B2, respectively. The XRD analysis 
+indicates that the alloys B2 contains the patterns of three phase, i.e., 
+CrSi2, CrSi and Cu19Si6, which correspond to the dark, gray and bright 
+regions of the BSE micrograph shown in Fig. 3 (a), respectively. 
+Therefore, the alloy B2 is located in the three-phase region CrSi2 + CrSi 
++ Cu19Si6. The measured solubilities of Cu in the CrSi2 and CrSi phases 
+are 1.51 and 1.04 at.%, respectively. Figs. 3 (c) and (d) are the BSE 
+micrograph and XRD patterns for the alloy B4, respectively. According 
+to the XRD patterns and SEM/EDS measurement results, it can be 
+concluded that alloys B4 is located in a two-phase region, i.e. dark CrSi 
+and gray Cu33Si7. The measured solubilities of Cu in the CrSi phase and 
+Cr in the Cu33Si7 phase are about 1.28 and 1.53 at.%, respectively. The 
+BSE micrograph and XRD patterns of the alloy B8 are presented in Figs. 3 
+(e) and (f), respectively. Similarly, combined with the BSE and XRD 
+results, the alloy B8 is located in the three-phase region, i.e. αCr5Si3 +
+Cr3Si + (Cu). The measured solubility of Cr in the (Cu) phase is about 
+3.73 at.%, and the solubilities of Cu in the αCr5Si3 and Cr3Si phases are 
+about 1.77 and 1.56 at.%, respectively. 
+The phases and compositions of the alloys B1 (Cu61Cr3Si36), B3 
+(Cu62Cr10Si28), B5 (Cu75Cr5Si20), B6 (Cu78Cr5Si17), B7 (Cu30Cr36Si34) 
+and B9 (Cu60Cr35Si5) were also analyzed and listed in Table 2. The alloys 
+B1, B6, B7 and B9 are located in the three-phase regions, i.e., (Si) +
+Cu19Si6 + CrSi2, CrSi + hcp(CuSi) + (Cu), CrSi + (Cu) + αCr5Si3 and 
+(Cu) + Cr3Si + (Cr), respectively. The alloys B3 and B5 are located in the 
+two-phase regions Cu15Si4 + CrSi and hcp(CuSi) + CrSi, respectively. 
+Based on the experimental analysis above, the phase equilibria of the 
+Cu–Cr–Si system at 800 ◦C were obtained in the present work. For the 
+isothermal section at 800 ◦C, six three-phase regions, i.e., (Si) + CrSi2 +
+Cu19Si6, Cu19Si6 + CrSi2 + CrSi, CrSi + hcp(CuSi) + (Cu), CrSi + (Cu) +
+αCr5Si3, αCr5Si3 + Cr3Si + (Cu) and (Cu) + Cr3Si + (Cr) and three two- 
+phase regions, i.e., Cu15Si4 + CrSi, Cu33Si7 + CrSi and hcp(CuSi) + CrSi 
+were determined. According to the experimental results of alloys B2 and 
+B4 and the Gibbs phase rule, a three-phase region Cu15Si4 + CrSi +
+Cu19Si6 was extrapolated. Similarly, the two three-phase regions, i.e., 
+Cu15Si4 + CrSi + Cu33Si7 and Cu33Si7 + CrSi + hcp(CuSi) could be 
+extrapolated according to the experimental results of alloys B4, B5 and 
+B6. The measured average solubilities of Cu in the CrSi2, CrSi, αCr5Si3 
+and Cr3Si phases are about 1.28, 1.34, 1.90 and 1.62 at.%, respectively. 
+The average solubilities of Cr in the Cu19Si6, Cu15Si4, Cu33Si7 and hcp 
+(CuSi) phases are about 1.82, 0.50, 1.53 and 1.56 at.%, respectively. It 
+can be noted that the solubilities of the third element in binary com­
+pounds in the Cr–Si and Cu–Si systems at 800 ◦C are less than 2 at.%. 
+5.2. Thermodynamic calculation results and discussion 
+Based on the experimental data obtained from the present work and 
+literature, the thermodynamic parameters of the Cu–Cr–Si system were 
+evaluated by the optimization module PARROT [37,38] of the program 
+Thermo-Calc, which works by minimizing the square sum of the dif­
+ferences between measured and calculated values. The step-by-step 
+optimization procedure [39–41] was utilized in the present assessment. 
+The optimization starts with the isothermal section at 700 ◦C. Firstly, 
+according to the phase equilibria and the solubilities of Cu and Cr in the 
+binary phases in the Cu–Si and Cr–Si systems, respectively, the inter­
+action parameters a for these phases in Eq. (2) were optimized. Then, the 
+isothermal sections at 800, 900, 1000, 1100 and 1200 ◦C are considered 
+one by one in the optimization process. Next, the ternary interaction 
+parameters A and B for the phase liquid in Eq. (1) are obtained by fitting 
+the experimental data of invariant reactions. Finally, all the parameters 
+are optimized simultaneously. The thermodynamic parameters obtained 
+in the present work are listed in Table 3. 
+The calculated isothermal sections of the Cu–Cr–Si system at 700 and 
+800 ◦C compared with the experimental phase equilibria data obtained 
+in the present work and the isothermal sections at 900, 1000, 1100 and 
+1200 ◦C compared with the experimental data reported from literatures 
+were presented in Fig. 4 (a)–(f), respectively. It can be seen that the 
+calculated isothermal sections at 700 and 800 ◦C are in good agreement 
+with our experiment data. Similarly, the calculated isothermal sections 
+at 900, 1000, 1100 and 1200 ◦C are in reasonable agreement with most 
+of the reliable experimental data from the work of Yu et al. [32]. 
+The calculated vertical section of the Cu–Cr–Si ternary system at w 
+(Cu): w(Cr) = 1:1 was shown in Fig. 5(a), and its enlargement part with 
+Table 4 
+Calculated invariant reactions in the Cu–Cr–Si system.  
+Type 
+Invariant Reaction 
+Temperature/◦C 
+Composition/at.% 
+Cu 
+Cr 
+Si 
+M1 
+Liquid#1 + Liquid#2 ↔ (Cr) + Cr3Si 
+1632 
+76.37 
+22.03 
+1.60 
+M2 
+Liquid#1 ↔ Liquid#2 + (Cr) + Cr3Si 
+1632 
+5.71 
+79.63 
+14.66 
+M3 
+Liquid#1 + Cr3Si ↔ Liquid#2 + βCr5Si3 
+1584 
+70.81 
+9.80 
+19.39 
+M4 
+Liquid#1 + Cr3Si ↔ Liquid#2 + βCr5Si3 
+1584 
+10.57 
+51.57 
+37.86 
+M5 
+Liquid#1 + βCr5Si3 + Liquid#2 ↔ αCr5Si3 
+1565 
+68.93 
+9.54 
+21.53 
+M6 
+Liquid#1 + βCr5Si3 + Liquid#2 ↔ αCr5Si3 
+1565 
+11.45 
+48.70 
+39.85 
+M7 
+Liquid#1 + Liquid#2 + αCr5Si3 ↔ CrSi 
+1396 
+54.71 
+6.82 
+38.47 
+M8 
+Liquid#1 + αCr5Si3 ↔ Liquid#2 + CrSi 
+1396 
+13.81 
+33.59 
+52.60 
+M9 
+Liquid#1 + Liquid#2↔ CrSi + CrSi2 
+1373 
+47.54 
+8.03 
+44.43 
+M10 
+Liquid#1 ↔ Liquid#2 + CrSi + CrSi2 
+1373 
+17.57 
+27.39 
+55.04 
+P1 
+Liquid + CrSi2 + CrSi ↔ Cu19Si6 
+866 
+80.43 
+0.01 
+19.56 
+P2 
+Liquid + CrSi + bcc(CuSi) ↔ Cu33Si7 
+845 
+83.29 
+0.01 
+16.70 
+P3 
+Liquid + CrSi + Cu19Si6 ↔ Cu15Si4 
+844 
+81.76 
+0.01 
+18.23 
+U1 
+Liquid + βCr5Si3 ↔ Cr3Si + αCr5Si3 
+1558 
+73.67 
+8.23 
+18.10 
+U2 
+Liquid + (Cr) ↔ (Cu) + Cr3Si 
+1077 
+98.82 
+1.10 
+0.08 
+U3 
+Liquid + Cr3Si ↔ αCr5Si3 + (Cu) 
+998 
+91.84 
+0.09 
+8.07 
+U4 
+Liquid + (Cu) ↔ bcc(CuSi) + αCr5Si3 
+853 
+84.28 
+0.01 
+15.71 
+U5 
+Liquid + αCr5Si3 ↔ CrSi + bcc(CuSi) 
+847 
+83.53 
+0.01 
+16.46 
+U6 
+Liquid + CrSi ↔ Cu15Si4 + Cu33Si7 
+842 
+81.98 
+0.01 
+18.01 
+U7 
+Liquid + Cu15Si4 ↔ Cu19Si6 + Cu33Si7 
+832 
+81.39 
+0.01 
+18.60 
+U8 
+Liquid + CrSi2 ↔ Cu19Si6 + (Si) 
+803 
+69.23 
+0.01 
+30.76  
+Y. Zhang et al.                                                                                                                                                                                                                                   
+
+=== PDF PAGE 12 ===
+Calphad 74 (2021) 102324
+12
+the experimental phase equilibria and transformation temperatures data 
+from Yu et al. [32] was presented in Fig. 5 (b). The comparison found 
+that the experimental data were reproduced well in the present calcu­
+lation within the estimated experimental errors. In addition, the calcu­
+lated results show that a stable miscibility gap of the liquid phase in this 
+ternary system exists, which is consistent with the calculations from Yu 
+at al [32]. 
+The calculated liquidus projection of the Cu–Cr–Si system over the 
+whole composition according to the present thermodynamic parameters 
+with the experimental data from Yu at al [32]. was presented in Fig. 6. 
+As can be seen from Fig. 6, the experimental data were reproduced well 
+by the present modeling except one circle experimental point closed to 
+the Cu–Cr side in the liquid phase separation region. Since the updated 
+phase diagram of the Cu–Cr system was adopted in the present work 
+with a miscibility gap (Liquid#1 + Liquid#2) at high temperature, while 
+the one adopted by Yu et al. [32] does not. Thus, the calculated liquid 
+miscibility gap goes through the Cu–Cr side and the circle point locates 
+in separated morphology region. In addition, the calculated results show 
+that the miscibility gap in the liquid phase extends from the Cu–Cr side 
+to the Si-rich corner. It means that the addition of Si can stabilize the 
+liquid phase separation in the Cu–Cr binary system. The constructed 
+reaction scheme of the Cu–Cr–Si system was presented in Fig. 7. The 
+calculated invariant reactions in the Cu–Cr–Si system are listed in 
+Table 4. Seventeen invariant reactions were predicted. The liquidus 
+projection and reaction scheme have been proved to be a useful tool in 
+describing ternary and higher order systems. 
+6. Conclusions  
+● The phase equilibria of the Cu–Cr–Si system at 700 and 800 ◦C have 
+been experimentally investigated by means of the XRD and SEM/EDS 
+methods. Six three-phase regions and two two-phase regions at 
+700 ◦C, and six three-phase regions and three two-phase regions at 
+800 ◦C were determined. No ternary compound was found in the 
+ternary system. The solubilities of Cr in Cu–Si compounds and the 
+solubilities of Cu in Cr–Si compounds were measured and their 
+values are less than 4 at.% in general.  
+● The thermodynamic assessment of the Cu–Cr–Si systems was carried 
+out by using the CALPHAD method based on the experimental data 
+available in the present work and literature. A set of complete 
+thermodynamic parameters of the Cu–Cr–Si system was obtained. 
+The calculated isothermal sections and vertical section are in good 
+agreement with most of the reliable experimental data. The liquidus 
+projection and reaction scheme of the Cu–Cr–Si system over the 
+whole composition were also presented. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgments 
+The work support from the National Natural Science Foundation of 
+China (No. 52071002), the National Natural Science Foundation of 
+Anhui Province (No. 2008085QE200), and the Major Science and 
+Technology Project of Precious Metal Materials Genetic Engineering in 
+Yunnan Province (Nos. 2019ZE001-1 and 202002AB080001) are greatly 
+acknowledged. 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.calphad.2021.102324. 
+References 
+[1] X. Zhan, J.G. Tang, H.Z. Li, X.P. Liang, Y.F. Lu, Y.X. Che, W.B. Tu, Y.D. Zhang, 
+Effects of non-isothermal aging on mechanical properties, corrosion behavior and 
+microstructures of Al–Cu–Mg–Si alloy, J. Alloys Compd. 819 (2020) 152960. 
+[2] A.H. Huang, Y.F. Wang, M.S. Wang, L.Y. Song, Y.S. Li, L. Gao, C.X. Huang, Y. 
+T. Zhu, Optimizing the strength, ductility and electrical conductivity of a Cu–Cr–Zr 
+alloy by rotary swaging and aging treatment, Mater. Sci. Eng., A 746 (2019) 
+211–216. 
+[3] H.M. Chen, P.Z. Gao, H.C. Peng, H.G. Wei, W.B. Xie, H. Wang, B. Yang, Study on 
+the hot deformation behavior and microstructure evolution of Cu–Cr–In alloy, 
+J. Mater. Eng. Perform. 28 (2019) 2128–2136. 
+[4] F. Wang, K. von Klinski-Wetzel, R. Mukherjee, B. Nestler, M. Heilmaier, 
+Experimental and numerical investigation on the phase separation affected by 
+cooling rates and marangoni convection in Cu–Cr alloys, Metall. Mater. Trans. 46 
+(2015) 1756–1766. 
+[5] S. Xu, H.D. Fu, Y.T. Wang, J.X. Xie, Effect of Ag addition on the microstructure and 
+mechanical properties of Cu–Cr alloy, Mater. Sci. Eng., A 726 (2018) 208–214. 
+[6] G.L. Xu, L.J. Peng, G.J. Huang, H.F. Xie, Z. Yang, X. Feng, X.Q. Yin, X.J. Mi, 
+Microstructural evolution and properties of a Cu–Cr–Ag alloy during continuous 
+manufacturing process, Rare Met. 38 (2019) 1–11. 
+[7] H.W. Yang, G. Reisinger, H. Flandorfer, K.W. Richter, Phase equilibria in the 
+system Ag–Cu–Si, J. Phase Equilibria Diffus. 41 (2020) 79–92. 
+[8] B. Hu, Y. Du, S.H. Liu, Y.L. Liu, L. Huang, C.Y. Shi, A new thermodynamic database 
+for multicomponent Cu alloys, in: R. Arroyave (Ed.), An Overview of CALPHAD 
+XLVII (Juriquilla, Queretaro, Mexico), Calphad, vol. 67, 2019, p. 101618. 
+[9] C.L. Qiu, B. Hu, J.Q. Zhou, P.L. Wu, Y. Liu, C.J. Wang, Y. Du, The phase equilibria 
+of the Cu–Cr–Ni and Cu–Cr–Ag systems: experimental investigation and 
+thermodynamic modeling, Calphad 68 (2020) 101734. 
+[10] C.L. Qiu, B. Hu, Y. Zhang, X.Y. Wang, Q.P. Wang, F.F. Min, Y. Du, Experimental 
+investigation and thermodynamic modeling of the Cu–Ag–Si ternary system, 
+J. Chem. Thermodyn. 150 (2020) 106172. 
+[11] J.Q. Zhou, B. Hu, Y.C. Shi, Q.P. Wang, C.J. Wang, Y. Du, Experimental 
+investigation and thermodynamic modeling of the phase equilibria in the 
+Cu–Nb–Ni ternary system, J. Phase Equilibria Diffus. 42 (2021) 150–163. 
+[12] Z.K. Liu, Y. Wang, Computational Thermodynamics of Materials, Cambridge 
+University Press, 2016. 
+[13] H. Lukas, S.G. Fries, B. Sundman, Computational Thermodynamics: the Calphad 
+Method, Cambridge university press, 2007. 
+[14] P. Villars, L.D. Calvert, Pearson’s Handbook of Crystallographic Data, ASM, 
+Materials Park, 1991. 
+[15] K. Sufryd, Experimental investigation of the Cu-Si phase diagram at x(Cu)>0.72, 
+Intermetallics 19 (2011) 1479–1488. 
+[16] R.W. Olesinski, G.J. Abbaschian, The Cu-Si (copper-silicon) system, Bull. Alloy 
+Phase Diagr. 7 (1986) 170–178. 
+[17] X.Y. Yan, Y.A. Chang, A thermodynamic analysis of the Cu–Si System, J. Alloys 
+Compd. 308 (2000) 221–229. 
+[18] S. Cui, I.H. Jung, Thermodynamic modeling of the Cu–Fe–Cr and Cu–Fe–Mn 
+systems, Calphad 56 (2017) 241–259. 
+[19] C.W. Bale, P. Chartrand, S.A. Degterov, G. Eriksson, K. Hack, FactSage 
+thermochemical software and databases, Calphad 26 (2002) 189–228. 
+[20] K.J. Zeng, Thermodynamic analysis of stable and metastable equilibria in the 
+Cu–Cr system, Calphad 19 (1995) 93–104. 
+[21] Y.L. Liu, P. Zhou, S.H. Liu, Y. Du, Experimental investigation and thermodynamic 
+description of the Cu–Cr–Zr system, Calphad 59 (2017) 1–11. 
+[22] C.A. Coughanowr, I. Ansara, Assessment of the Cr–Si system, Calphad 18 (1994) 
+125–140. 
+[23] Y. Du, J.C. Schuster, Experimental reinvestigation of the CrSi–Si partial system and 
+update of the thermodynamic description of the entire Cr–Si system, J. Phase Equil. 
+21 (2000) 281–286. 
+[24] S.V. Meschel, O.J. Kleppa, Standard enthalpies of formation of some 3d transition 
+metal silicides by high temperature direct synthesis calorimetry, J. Alloys Compd. 
+267 (1998) 128–135. 
+[25] H. Chen, Y. Du, J.C. Schuster, On the melting of Cr5Si3 and update of the 
+thermodynamic description of Cr–Si, Calphad 33 (2009) 211–214. 
+[26] I.A. Roi, N.N. Fedyakina, I.N. Revina, A.K. Nikolaiev, The Cu–Cr–Si system, 
+Konstruktsionnye Pretsizionnye Spplavy Tsvet Met 4 (1987) 28–33. 
+[27] E.M. Savitskii, Y.V. Efimov, T.M. Frolova, Influence of copper on the structure and 
+superconducting properrties of transition metals, Inorg. Mater. Engl. Trans. 15 
+(1979) 512–515. 
+[28] J.S. Reid, E. Kolawa, M.A. Nicolet, Thermodynamic (Cr, Mo, Nb, Ta, V, or W)– 
+Si–Cu ternary systems, J. Mater. Res. 7 (1992) 2424–2428. 
+[29] P. Xiao, B. Derby, The wetting of silicon nitride by chromiun-containning alloys, 
+J. Math. Sci. 30 (1995) 5915–5922. 
+[30] Y.X. Yin, H.M. Wang, Microstructure and wear resistance of Cuss-toughened 
+Cr5Si3/CrSi metal silicide alloys, J. Mater. Res. 20 (2005) 1122–1130. 
+[31] L.H. Huang, W. Chu, Y. Long, Z.M. Ci, S.Z. Luo, Influence of zirconia promoter on 
+catalytic properties of Cu–Cr–Si catalysts for methanol synthesis at high CO 
+conversion in slurry phase, Catal. Lett. 108 (2006) 113–118. 
+[32] Y. Yu, C.P. Wang, X.J. Liu, R. Kainuma, K. Ishida, Thermodynamics and kinetics in 
+liquid immiscible Cu–Cr–Si ternary system, Mater. Chem. Phys. 127 (2011) 28–39. 
+[33] A.T. Dinsdale, SGTE data for pure elements, Calphad 15 (1991) 317–425. 
+[34] O. Redlich, A.T. Kister, Thermodynamics of nonelectrolyte solutions x–y–t relations 
+in a binary system, Ind. Chem. Phys. 40 (1948) 341–345. 
+[35] M. Hillert, L. Staffansson, Regular-solution model for stoichiometric phases and 
+ionic melts, Acta Chem. Scand. 24 (1970) 3618–3626. 
+Y. Zhang et al.                                                                                                                                                                                                                                   
+
+=== PDF PAGE 13 ===
+Calphad 74 (2021) 102324
+13
+[36] B. Sundman, J. Ågren, A regular solution model for phases with several 
+components and sublattices suitable for computer applications, J. Phys. Chem. 
+Solid. 42 (1981) 297–301. 
+[37] W.B. Pearson, P. Villars, L.D. Calvert, Pearson’s handbook of crystallographic data 
+for intermetallic phases, Am. Soc. Met. 1 (1985). 
+[38] B. Sundman, B. Jansson, J.O. Andersson, The thermo-calc databank system, 
+Calphad 9 (1985) 153–190. 
+[39] B. Hu, B. Yao, J. Wang, Y. Liu, C.J. Wang, Y. Du, H.Q. Yin, The phase equilibria of 
+the Ti–V–M (M = Si, Nb, Ta) ternary systems, Intermetallics 118 (2020) 106701. 
+[40] B. Hu, C.L.Q. iu, S.L. Cui, P.S. Wang, J.Q. Zhou, W.S. Xu, F.F. Min, J.R. Zhao, 
+CALPHAD-type thermodynamic description of the phase equilibria in the Ti–W–M 
+(M = Zr, Mo, Nb) ternary systems, J. Chem. Thermodyn. 131 (2019) 25–32. 
+[41] B. Hu, J.Q. Zhou, Y.T. Meng, P.S. Wang, C.L. Qiu, F.F. Min, CALPHAD-type 
+thermodynamic modeling of the Ti–W–B and Ti–W–Si refractory systems, Int. J. 
+Refract. Metals Hard Mater. 81 (2019) 206–213. 
+Y. Zhang et al.                                                                                                                                                                                                                                   

@@ -1,0 +1,319 @@
+{
+  "stage": "STEP5H_B_NI_BLIND_REVEAL_V1",
+  "generated_utc": "2026-09-07T02:08:41+00:00",
+  "status": "PASS",
+  "decision": "ZERO-SHOT BLIND REVEAL COMPLETE\nREADY FOR USER REVIEW BEFORE FEW-SHOT",
+  "first_target_access_utc": "2026-09-07T01:23:44+00:00",
+  "calphad": {
+    "n_formal": 22000,
+    "n_converged": 22000,
+    "n_failed": 0,
+    "convergence_rate": 1.0,
+    "previously_unseen_bases": [
+      "NBNI3"
+    ],
+    "conservation_max_dev": 2.220446049250313e-16,
+    "failure_by_temperature": {}
+  },
+  "primary_blind": {
+    "mean_tvd": 0.8643856186628641,
+    "ci95": [
+      0.8619306652264774,
+      0.8670304548642613
+    ],
+    "median_tvd": 0.9111178623163201,
+    "p95_tvd": 0.9993043464932985,
+    "topology_accuracy": 0.07859090909090909,
+    "topology_macro_f1": 0.039501941969385425,
+    "trivial_mean_tvd": 0.5957669021263107,
+    "skill_vs_trivial": -0.26861871653655345,
+    "true_topology_distribution": {
+      "FCC": 0.7172272727272727,
+      "OTHER_SOLID": 0.2827727272727273
+    },
+    "pred_topology_distribution": {
+      "C15": 0.8730909090909091,
+      "FCC": 0.07859090909090909,
+      "BCC": 0.048318181818181816
+    }
+  },
+  "secondary_sensitivity": {
+    "mean_tvd": 0.7234409098506132,
+    "topology_accuracy": 0.2406818181818182,
+    "own_descriptive_skill": -0.19761039476904663,
+    "role": "PROSPECTIVE SENSITIVITY ONLY"
+  },
+  "comparison_descriptive": [
+    {
+      "quantity": "mean_tvd",
+      "PRIMARY": 0.8643856187,
+      "SECONDARY": 0.7234409099,
+      "difference_S_minus_P": -0.1409447088,
+      "relative_difference": -0.1630576745
+    },
+    {
+      "quantity": "median_tvd",
+      "PRIMARY": 0.9111178623,
+      "SECONDARY": 0.8534921055,
+      "difference_S_minus_P": -0.0576257569,
+      "relative_difference": -0.0632473133
+    },
+    {
+      "quantity": "p95_tvd",
+      "PRIMARY": 0.9993043465,
+      "SECONDARY": 0.9441549545,
+      "difference_S_minus_P": -0.055149392,
+      "relative_difference": -0.0551877835
+    },
+    {
+      "quantity": "topology_accuracy",
+      "PRIMARY": 0.0785909091,
+      "SECONDARY": 0.2406818182,
+      "difference_S_minus_P": 0.1620909091,
+      "relative_difference": null
+    },
+    {
+      "quantity": "macro_mae",
+      "PRIMARY": 0.3457542475,
+      "SECONDARY": 0.2893763639,
+      "difference_S_minus_P": -0.0563778835,
+      "relative_difference": -0.1630576745
+    }
+  ],
+  "exploratory_diagnostics": [
+    {
+      "label": "EXPLORATORY POST-REVEAL DIAGNOSTIC",
+      "target": "PRIMARY per-state TVD",
+      "diagnostic": "max_abs_z",
+      "spearman_rho": -0.0381232735,
+      "p_value": 1.55e-08
+    },
+    {
+      "label": "EXPLORATORY POST-REVEAL DIAGNOSTIC",
+      "target": "PRIMARY per-state TVD",
+      "diagnostic": "mean_abs_z",
+      "spearman_rho": -0.2768443798,
+      "p_value": 0.0
+    },
+    {
+      "label": "EXPLORATORY POST-REVEAL DIAGNOSTIC",
+      "target": "PRIMARY per-state TVD",
+      "diagnostic": "nn1_distance",
+      "spearman_rho": -0.3318767392,
+      "p_value": 0.0
+    },
+    {
+      "label": "EXPLORATORY POST-REVEAL DIAGNOSTIC",
+      "target": "PRIMARY per-state TVD",
+      "diagnostic": "knn5_mean_distance",
+      "spearman_rho": -0.3228417267,
+      "p_value": 0.0
+    },
+    {
+      "label": "EXPLORATORY POST-REVEAL DIAGNOSTIC",
+      "target": "PRIMARY per-state TVD",
+      "diagnostic": "tvd_primary_vs_secondary",
+      "spearman_rho": -0.4730690464,
+      "p_value": 0.0
+    }
+  ],
+  "historical_context_not_checkpoint_scores": {
+    "original_six_retrospective_loeo": 0.752644,
+    "full5_retrospective_loeo": 0.710332
+  },
+  "fewshot_executed": false,
+  "models_retrained": false,
+  "predictions_regenerated": false,
+  "metrics_changed_post_reveal": false,
+  "audit": [
+    {
+      "n": 1,
+      "item": "STEP5G pipeline freeze unchanged",
+      "result": "PASS",
+      "detail": "15efe35e2ad4f537"
+    },
+    {
+      "n": 2,
+      "item": "Ni composition hash unchanged",
+      "result": "PASS",
+      "detail": "7680b5a1ba5a2409"
+    },
+    {
+      "n": 3,
+      "item": "PRIMARY prediction hash unchanged",
+      "result": "PASS",
+      "detail": "100b40ed67c396cb"
+    },
+    {
+      "n": 4,
+      "item": "SECONDARY prediction hash unchanged",
+      "result": "PASS",
+      "detail": "a6c0fc4a98a05a4c"
+    },
+    {
+      "n": 5,
+      "item": "PRIMARY/SECONDARY roles unchanged",
+      "result": "PASS",
+      "detail": "roles as frozen in STEP5G"
+    },
+    {
+      "n": 6,
+      "item": "first target-access record predates the first CALPHAD result",
+      "result": "PASS",
+      "detail": "access 2026-09-07T01:23:44+00:00 | runtime stamps later"
+    },
+    {
+      "n": 7,
+      "item": "all 22000 formal states represented in the target table",
+      "result": "PASS",
+      "detail": "22000 rows"
+    },
+    {
+      "n": 8,
+      "item": "no composition resampling: exactly the frozen 2000 were run",
+      "result": "PASS",
+      "detail": "2000 frozen compositions, same ids"
+    },
+    {
+      "n": 9,
+      "item": "no prediction-guided CALPHAD",
+      "result": "PASS",
+      "detail": "frozen runner, stride split by composition index only"
+    },
+    {
+      "n": 10,
+      "item": "same Thermo-Calc version (2025b engine banner in shard logs)",
+      "result": "PASS",
+      "detail": "engine banner 'Thermo-Calc 2025b' in both logs"
+    },
+    {
+      "n": 11,
+      "item": "same TC-Python stack as frozen runs",
+      "result": "PASS",
+      "detail": "2025.2.30"
+    },
+    {
+      "n": 12,
+      "item": "same TCCU6 database",
+      "result": "PASS",
+      "detail": "TCCU6 Cu-Alloys v6.2"
+    },
+    {
+      "n": 13,
+      "item": "same pressure / amount / unit / balance",
+      "result": "PASS",
+      "detail": "{'pressure_bar': 1.0, 'system_amount_mol': 1.0, 'composition_unit': 'wt.%', 'balance': 'Cu', 'mode': 'equilibrium only'}"
+    },
+    {
+      "n": 14,
+      "item": "frozen phase mapping used (fivefamily.family_of_5)",
+      "result": "PASS",
+      "detail": "['BCC', 'C15', 'FCC', 'OTHER_SOLID']"
+    },
+    {
+      "n": 15,
+      "item": "unknown-phase rule obeyed (unseen bases -> OTHER_SOLID, raw names kept)",
+      "result": "PASS",
+      "detail": "unseen bases: ['NBNI3']"
+    },
+    {
+      "n": 16,
+      "item": "molar partition formula unchanged; volume-fraction form absent",
+      "result": "PASS",
+      "detail": "n_Ni_alpha = phase_moles_alpha * X_Ni^alpha ; P_Ni^alpha = n"
+    },
+    {
+      "n": 17,
+      "item": "failed states retained with NaN targets and failure metadata",
+      "result": "PASS",
+      "detail": "0 failed rows retained"
+    },
+    {
+      "n": 18,
+      "item": "no interpolation / imputation anywhere",
+      "result": "PASS",
+      "detail": "failed targets are NaN, never filled"
+    },
+    {
+      "n": 19,
+      "item": "target table frozen BEFORE scoring",
+      "result": "PASS",
+      "detail": "target freeze 2026-09-07T02:05:35+00:00 <= PRIMARY score 2026-09-07T02:06:57+00:00"
+    },
+    {
+      "n": 20,
+      "item": "PRIMARY scored first",
+      "result": "PASS",
+      "detail": "PRIMARY 2026-09-07T02:06:57+00:00 <= SECONDARY 2026-09-07T02:07:14+00:00"
+    },
+    {
+      "n": 21,
+      "item": "PRIMARY score frozen before SECONDARY scoring",
+      "result": "PASS",
+      "detail": "bound by timestamp and by primary_score_freeze_sha256"
+    },
+    {
+      "n": 22,
+      "item": "SECONDARY role remains sensitivity-only",
+      "result": "PASS",
+      "detail": "PRIMARY trivial baseline (spec 39) - unchanged"
+    },
+    {
+      "n": 23,
+      "item": "metric preregistration unchanged (and followed)",
+      "result": "PASS",
+      "detail": "endpoint mean_tvd over converged states; no threshold then or now"
+    },
+    {
+      "n": 24,
+      "item": "bootstrap = 1000 replicates, seed 20260911, cluster composition_id",
+      "result": "PASS",
+      "detail": "{'replicates': 1000, 'seed': 20260911, 'unit': 'composition_id', 'ci95_low': 0.8619306652264774, 'ci95_high': 0.8670304548642613, 'boot_mean': 0.8644175913277075, 'boot_std': 0.0013051434991345468}"
+    },
+    {
+      "n": 25,
+      "item": "no post-reveal threshold fitting (diagnostics labelled EXPLORATORY)",
+      "result": "PASS",
+      "detail": "5 correlations, all labelled"
+    },
+    {
+      "n": 26,
+      "item": "no model retraining (checkpoint hashes still the frozen ones)",
+      "result": "PASS",
+      "detail": "both checkpoints bit-identical to STEP5G freeze"
+    },
+    {
+      "n": 27,
+      "item": "no scaler refit",
+      "result": "PASS",
+      "detail": "both scalers bit-identical"
+    },
+    {
+      "n": 28,
+      "item": "no feature reselection (schema not touched in STEP5H-B)",
+      "result": "PASS",
+      "detail": "no feature-selection artifact exists under the STEP5H-B root"
+    },
+    {
+      "n": 29,
+      "item": "no prediction regeneration (files hash-verified, item 3-4)",
+      "result": "PASS",
+      "detail": "identical bytes since STEP5H-A freeze"
+    },
+    {
+      "n": 30,
+      "item": "no few-shot executed in STEP5H-B",
+      "result": "PASS",
+      "detail": "0 recovery artifacts"
+    },
+    {
+      "n": 31,
+      "item": "all output hashes recorded WITHOUT self-referential manifest error",
+      "result": "PASS",
+      "detail": "manifest excludes itself; own hash only in sidecar"
+    }
+  ],
+  "audit_failures": 0,
+  "files_hashed": 67,
+  "next": "user review; only then may post-blind few-shot recovery begin"
+}

@@ -1,0 +1,15 @@
+source_id,X_identity,Cr_wt_pct,Nb_wt_pct,X_wt_pct,composition_basis,literature_temperature_C,at_percent_source,conversion_note
+JIM1959_TI_a,TI,0.54,0.0,3.06,wt%,550,n/a,reported as wt% (spectrographic analysis Cu-0.54Cr-3.06Ti); FULL_V1 X domain <=0.6 => out of domain
+JIM1959_TI_b,TI,0.54,0.0,3.06,wt%,700,n/a,reported as wt% (spectrographic analysis Cu-0.54Cr-3.06Ti); FULL_V1 X domain <=0.6 => out of domain
+VT1955_CO,CO,57.03,0.0,39.84,wt% (conv from at%),1000,Cr60.2Co37.1Cu2.7 at%,"specimen 29, sigma+a+Cu field; at%->wt% via M(Cr)=51.9961, M(Co)=58.9332, M(Cu)=63.546; far outside FULL_V1 (S<=4.5, X<=0.6)"
+SI_Zhou_Nb3Si19,SI,0.0,4.83,9.25,wt% (conv from at%),600,CU78 at%NB3 at%SI19 at%,nominal at%% -> wt%% via M(Cu)=63.546 M(Nb)=92.9064 M(Si)=28.0855; R=0 (no Cr); out of FULL_V1 X domain (Si>0.6)
+SI_Zhou_Nb3Si19,SI,0.0,4.83,9.25,wt% (conv from at%),700,CU78 at%NB3 at%SI19 at%,nominal at%% -> wt%% via M(Cu)=63.546 M(Nb)=92.9064 M(Si)=28.0855; R=0 (no Cr); out of FULL_V1 X domain (Si>0.6)
+SI_Zhou_Nb3Si25,SI,0.0,5.02,12.64,wt% (conv from at%),600,CU72 at%NB3 at%SI25 at%,nominal at%% -> wt%% via M(Cu)=63.546 M(Nb)=92.9064 M(Si)=28.0855; R=0 (no Cr); out of FULL_V1 X domain (Si>0.6)
+SI_Zhou_Nb3Si25,SI,0.0,5.02,12.64,wt% (conv from at%),700,CU72 at%NB3 at%SI25 at%,nominal at%% -> wt%% via M(Cu)=63.546 M(Nb)=92.9064 M(Si)=28.0855; R=0 (no Cr); out of FULL_V1 X domain (Si>0.6)
+SI_Zhou_Nb15Si65,SI,0.0,31.04,40.66,wt% (conv from at%),600,CU20 at%NB15 at%SI65 at%,nominal at%% -> wt%% via M(Cu)=63.546 M(Nb)=92.9064 M(Si)=28.0855; R=0 (no Cr); out of FULL_V1 X domain (Si>0.6)
+SI_Zhou_Nb15Si65,SI,0.0,31.04,40.66,wt% (conv from at%),700,CU20 at%NB15 at%SI65 at%,nominal at%% -> wt%% via M(Cu)=63.546 M(Nb)=92.9064 M(Si)=28.0855; R=0 (no Cr); out of FULL_V1 X domain (Si>0.6)
+AG_sun2020,AG,0.1636,0.0,0.2036,wt% (conv from at%),450,Cu99.68Cr0.2Ag0.12 at%,at%->wt% via M(Ag)=107.8682; dilute - inside/near FULL_V1 domain (S=0.16<0.5689 min)
+AG_raabe2000,AG,10.0,0.0,3.0,wt%,1050,n/a,reported as wt%; solution-anneal temperature 1323 K=1050 C; out of FULL_V1 domain
+AG_liu2024,AG,0.26,0.0,0.2,wt%,600,n/a,reported as wt%; minor Si/Fe/Ti (0.073 wt% total) excluded from FULL_V1 matching (X=Ag only)
+MO_cho2021,MO,10.0,0.0,30.0,wt%,1250,n/a,reported as wt% (60Cu-30Mo-10Cr; ZrO2/Al2O3 dispersoids 0-1.2 wt% excluded); out of FULL_V1 domain
+MO_seo2021,MO,10.0,0.0,30.0,wt%,1200,n/a,reported as wt% (60Cu-10Cr-30Mo); out of FULL_V1 domain

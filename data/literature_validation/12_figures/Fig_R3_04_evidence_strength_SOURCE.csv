@@ -1,0 +1,8 @@
+system,evidence_strength,evidence_strength_score,evidence_strength_parts,n_calphad_converged
+Cu-Cr-Nb,STRONG,6/6,breadth (converged conditions)=2; temperature coverage=1; measured phase chemistry=1; phase-identity mapping quality=1; agreement=1,29
+Cu-Cr-Ag,STRONG,6/6,breadth (converged conditions)=2; temperature coverage=1; measured phase chemistry=1; phase-identity mapping quality=1; agreement=1,14
+Cu-Cr-Mo,STRONG,6/6,breadth (converged conditions)=2; temperature coverage=1; measured phase chemistry=1; phase-identity mapping quality=1; agreement=1,16
+Cu-Cr-Co,STRONG,6/6,breadth (converged conditions)=2; temperature coverage=1; measured phase chemistry=1; phase-identity mapping quality=1; agreement=1,16
+Cu-Cr-Si,MODERATE,4/6,breadth (converged conditions)=2; temperature coverage=0; measured phase chemistry=1; phase-identity mapping quality=1; agreement=0,17
+Cu-Cr-Ti,STRONG,5/6,breadth (converged conditions)=2; temperature coverage=1; measured phase chemistry=1; phase-identity mapping quality=1; agreement=0,28
+GRCop (qualitative context),LIMITED,1/6,breadth (converged conditions)=0; temperature coverage=0; measured phase chemistry=0; phase-identity mapping quality=1; agreement=0,0

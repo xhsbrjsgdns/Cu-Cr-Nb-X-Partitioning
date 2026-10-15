@@ -1,0 +1,293 @@
+[
+  {
+    "evidence_id": "NEW_TI_SUMINO_A2",
+    "paper_id": "TI_SI_Sumino2019",
+    "doi": "10.34562/jic.58.1_64",
+    "X_identity": "TI",
+    "composition": {
+      "Cu": "balance",
+      "Cr": 0.29,
+      "Ti": 0.16,
+      "Si": "trace"
+    },
+    "composition_basis": "at.%",
+    "processing_state": "Air melted/cast; homogenized 1223 K >=30 min; hot rolled/water cooled; cold rolled to 2 mm; solution 1223 K 1 h; 90% cold rolled to 0.2 mm; salt-bath aged",
+    "temperature_K": 723,
+    "aging_time_s": 3600,
+    "experimental_phases": [
+      "Cu matrix",
+      "Cr-Ti enriched precipitates; crystal structure unresolved"
+    ],
+    "source_location": "PDF p1-2 (printed64-65) Methods and Table1; p3 (printed66) Fig4; p4 (printed67) section3.3 and Table3",
+    "kinetic_and_identity_caveats": "Peak-aged kinetic state; TEM/EDX support Cr-Ti enrichment and ~5 nm size. Extra diffraction spots do not identify a unique compound. Cr3Ti in section3.4 is an assumption used to infer volume fraction, NOT experimentally identified phase. Do not promote Cr3Ti or Cr2Ti to observed phase.",
+    "comparability_class": "QUALITATIVELY_COMPARABLE",
+    "direct_equilibrium_validation": false,
+    "usable_for_qualitative_support": true,
+    "source_kind": "FULLTEXT",
+    "source_path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5K_R2_SOURCE_PROVENANCE_REPAIR\\03_new_literature_search\\TI_SI_Sumino2019.pdf"
+  },
+  {
+    "evidence_id": "NEW_SI_SUMINO_A3",
+    "paper_id": "TI_SI_Sumino2019",
+    "doi": "10.34562/jic.58.1_64",
+    "X_identity": "SI",
+    "composition": {
+      "Cu": "balance",
+      "Cr": 0.28,
+      "Ti": "trace",
+      "Si": 0.21
+    },
+    "composition_basis": "at.%",
+    "processing_state": "Air melted/cast; homogenized 1223 K >=30 min; hot rolled/water cooled; cold rolled to 2 mm; solution 1223 K 1 h; 90% cold rolled to 0.2 mm; salt-bath aged",
+    "temperature_K": 723,
+    "aging_time_s": 900,
+    "experimental_phases": [],
+    "source_location": "PDF p2 (printed65) Table1, Fig1 and section3.2",
+    "kinetic_and_identity_caveats": "Only hardness/conductivity response documented for this alloy. TEM/EDX phase observations explicitly concern Alloy1 and Alloy2. No observed Cr3Si claim permitted.",
+    "comparability_class": "NOT_DIRECTLY_COMPARABLE",
+    "direct_equilibrium_validation": false,
+    "usable_for_qualitative_support": false,
+    "source_kind": "FULLTEXT",
+    "source_path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5K_R2_SOURCE_PROVENANCE_REPAIR\\03_new_literature_search\\TI_SI_Sumino2019.pdf"
+  },
+  {
+    "evidence_id": "NEW_BASE_SUMINO_A1",
+    "paper_id": "TI_SI_Sumino2019",
+    "doi": "10.34562/jic.58.1_64",
+    "X_identity": "CR_BASE",
+    "composition": {
+      "Cu": "balance",
+      "Cr": 0.26,
+      "Ti": "trace",
+      "Si": "trace"
+    },
+    "composition_basis": "at.%",
+    "processing_state": "Air melted/cast; homogenized 1223 K >=30 min; hot rolled/water cooled; cold rolled to 2 mm; solution 1223 K 1 h; 90% cold rolled to 0.2 mm; salt-bath aged",
+    "temperature_K": 723,
+    "aging_time_s": 900,
+    "experimental_phases": [
+      "Cu matrix",
+      "bcc Cr precipitates"
+    ],
+    "source_location": "PDF p2 (printed65) Table1; p3-4 (printed66-67) Fig4, section3.3, Table3",
+    "kinetic_and_identity_caveats": "Peak-aged kinetic control alloy; ~15 nm precipitates; reference control only.",
+    "comparability_class": "QUALITATIVELY_COMPARABLE",
+    "direct_equilibrium_validation": false,
+    "usable_for_qualitative_support": true,
+    "source_kind": "FULLTEXT",
+    "source_path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5K_R2_SOURCE_PROVENANCE_REPAIR\\03_new_literature_search\\TI_SI_Sumino2019.pdf"
+  },
+  {
+    "evidence_id": "NEW_ZR_CHBIHI_5H",
+    "paper_id": "ZR_2012",
+    "doi": "10.1016/j.actamat.2012.01.038",
+    "X_identity": "ZR",
+    "composition": {
+      "Cu": "balance",
+      "Cr": 1.0,
+      "Zr": 0.1
+    },
+    "composition_basis": "wt.%",
+    "processing_state": "Commercial alloy; homogenized 1323 K 1 h under Ar; water quenched; aged",
+    "temperature_K": 713,
+    "aging_time_s": 18000,
+    "experimental_phases": [
+      "Cu matrix",
+      "Cr-rich nanoscale precipitates; fcc/bcc morphology interpretation discussed"
+    ],
+    "source_location": "Author manuscript PDF p4 section2; p7 section3.3; p16 conclusions; p17 Table1",
+    "kinetic_and_identity_caveats": "APT phase chemistry is nonequilibrium; fcc/bcc assignments partly morphology/OR interpretation. Zr below APT detection after homogenization; large Zr-rich particles not crystallographically identified. Do not claim Cu4Zr from introduction as an observation.",
+    "comparability_class": "QUALITATIVELY_COMPARABLE",
+    "direct_equilibrium_validation": false,
+    "usable_for_qualitative_support": true,
+    "source_kind": "FULLTEXT",
+    "source_path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5K_R2_SOURCE_PROVENANCE_REPAIR\\03_new_literature_search\\ZR_2012.pdf"
+  },
+  {
+    "evidence_id": "NEW_ZR_CHBIHI_10H",
+    "paper_id": "ZR_2012",
+    "doi": "10.1016/j.actamat.2012.01.038",
+    "X_identity": "ZR",
+    "composition": {
+      "Cu": "balance",
+      "Cr": 1.0,
+      "Zr": 0.1
+    },
+    "composition_basis": "wt.%",
+    "processing_state": "Commercial alloy; homogenized 1323 K 1 h under Ar; water quenched; aged",
+    "temperature_K": 713,
+    "aging_time_s": 36000,
+    "experimental_phases": [
+      "Cu matrix",
+      "Cr-rich nanoscale precipitates; coexisting inferred fcc and bcc populations"
+    ],
+    "source_location": "Author manuscript PDF p4 section2; p6-9 TEM/APT results; p16 conclusions; p17 Table1",
+    "kinetic_and_identity_caveats": "Early aging state; never treat coexistence as equilibrium validation. Correct DOI from manuscript is 10.1016/j.actamat.2012.01.038; initial .010 retrieval guess quarantined in raw log and superseded by correct Crossref response.",
+    "comparability_class": "QUALITATIVELY_COMPARABLE",
+    "direct_equilibrium_validation": false,
+    "usable_for_qualitative_support": true,
+    "source_kind": "FULLTEXT",
+    "source_path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5K_R2_SOURCE_PROVENANCE_REPAIR\\03_new_literature_search\\ZR_2012.pdf"
+  },
+  {
+    "evidence_id": "NEW_ZR_HUGHES_5p5MIN",
+    "paper_id": "ZR_Hughes2022",
+    "doi": "10.1016/j.jmrt.2022.07.113",
+    "X_identity": "ZR",
+    "composition": {
+      "Cu": "balance",
+      "Cr": 0.55,
+      "Zr": 0.074,
+      "Zn": 0.038,
+      "Fe": 0.025,
+      "Si": 0.009,
+      "Sn": 0.002,
+      "Pb": "<0.001",
+      "Al": "<0.003",
+      "Ni": "<0.001"
+    },
+    "composition_basis": "wt.% (measured ICP-MS)",
+    "processing_state": "Solution anneal1273 K 2 h inert atmosphere; water quenched; aged inert atmosphere; final water quench",
+    "temperature_K": 753,
+    "aging_time_s": 330.0,
+    "experimental_phases": [
+      "Cu matrix",
+      "Cr-rich precipitates; reported fcc symmetry; Zr segregation/shell at longer times"
+    ],
+    "source_location": "PDF p3 (journal802) section2 and Table1; PDF p5-8 results/Figs3-7; PDF p10 (journal809) conclusions",
+    "kinetic_and_identity_caveats": "Baseline aging evidence with measured trace elements, not single-X purified ternary. Zr-shell is chemical segregation, NOT identification of a stoichiometric Cu-Zr phase. At 14 d particles remain reported fcc -> clear metastability warning.",
+    "comparability_class": "QUALITATIVELY_COMPARABLE",
+    "direct_equilibrium_validation": false,
+    "usable_for_qualitative_support": true,
+    "source_kind": "FULLTEXT",
+    "source_path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5K_R2_SOURCE_PROVENANCE_REPAIR\\03_new_literature_search\\ZR_Hughes2022.pdf"
+  },
+  {
+    "evidence_id": "NEW_ZR_HUGHES_120MIN",
+    "paper_id": "ZR_Hughes2022",
+    "doi": "10.1016/j.jmrt.2022.07.113",
+    "X_identity": "ZR",
+    "composition": {
+      "Cu": "balance",
+      "Cr": 0.55,
+      "Zr": 0.074,
+      "Zn": 0.038,
+      "Fe": 0.025,
+      "Si": 0.009,
+      "Sn": 0.002,
+      "Pb": "<0.001",
+      "Al": "<0.003",
+      "Ni": "<0.001"
+    },
+    "composition_basis": "wt.% (measured ICP-MS)",
+    "processing_state": "Solution anneal1273 K 2 h inert atmosphere; water quenched; aged inert atmosphere; final water quench",
+    "temperature_K": 753,
+    "aging_time_s": 7200,
+    "experimental_phases": [
+      "Cu matrix",
+      "Cr-rich precipitates; reported fcc symmetry; Zr segregation/shell at longer times"
+    ],
+    "source_location": "PDF p3 (journal802) section2 and Table1; PDF p5-8 results/Figs3-7; PDF p10 (journal809) conclusions",
+    "kinetic_and_identity_caveats": "Baseline aging evidence with measured trace elements, not single-X purified ternary. Zr-shell is chemical segregation, NOT identification of a stoichiometric Cu-Zr phase. At 14 d particles remain reported fcc -> clear metastability warning.",
+    "comparability_class": "QUALITATIVELY_COMPARABLE",
+    "direct_equilibrium_validation": false,
+    "usable_for_qualitative_support": true,
+    "source_kind": "FULLTEXT",
+    "source_path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5K_R2_SOURCE_PROVENANCE_REPAIR\\03_new_literature_search\\ZR_Hughes2022.pdf"
+  },
+  {
+    "evidence_id": "NEW_ZR_HUGHES_1440MIN",
+    "paper_id": "ZR_Hughes2022",
+    "doi": "10.1016/j.jmrt.2022.07.113",
+    "X_identity": "ZR",
+    "composition": {
+      "Cu": "balance",
+      "Cr": 0.55,
+      "Zr": 0.074,
+      "Zn": 0.038,
+      "Fe": 0.025,
+      "Si": 0.009,
+      "Sn": 0.002,
+      "Pb": "<0.001",
+      "Al": "<0.003",
+      "Ni": "<0.001"
+    },
+    "composition_basis": "wt.% (measured ICP-MS)",
+    "processing_state": "Solution anneal1273 K 2 h inert atmosphere; water quenched; aged inert atmosphere; final water quench",
+    "temperature_K": 753,
+    "aging_time_s": 86400,
+    "experimental_phases": [
+      "Cu matrix",
+      "Cr-rich precipitates; reported fcc symmetry; Zr segregation/shell at longer times"
+    ],
+    "source_location": "PDF p3 (journal802) section2 and Table1; PDF p5-8 results/Figs3-7; PDF p10 (journal809) conclusions",
+    "kinetic_and_identity_caveats": "Baseline aging evidence with measured trace elements, not single-X purified ternary. Zr-shell is chemical segregation, NOT identification of a stoichiometric Cu-Zr phase. At 14 d particles remain reported fcc -> clear metastability warning.",
+    "comparability_class": "QUALITATIVELY_COMPARABLE",
+    "direct_equilibrium_validation": false,
+    "usable_for_qualitative_support": true,
+    "source_kind": "FULLTEXT",
+    "source_path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5K_R2_SOURCE_PROVENANCE_REPAIR\\03_new_literature_search\\ZR_Hughes2022.pdf"
+  },
+  {
+    "evidence_id": "NEW_ZR_HUGHES_20160MIN",
+    "paper_id": "ZR_Hughes2022",
+    "doi": "10.1016/j.jmrt.2022.07.113",
+    "X_identity": "ZR",
+    "composition": {
+      "Cu": "balance",
+      "Cr": 0.55,
+      "Zr": 0.074,
+      "Zn": 0.038,
+      "Fe": 0.025,
+      "Si": 0.009,
+      "Sn": 0.002,
+      "Pb": "<0.001",
+      "Al": "<0.003",
+      "Ni": "<0.001"
+    },
+    "composition_basis": "wt.% (measured ICP-MS)",
+    "processing_state": "Solution anneal1273 K 2 h inert atmosphere; water quenched; aged inert atmosphere; final water quench",
+    "temperature_K": 753,
+    "aging_time_s": 1209600,
+    "experimental_phases": [
+      "Cu matrix",
+      "Cr-rich precipitates; reported fcc symmetry; Zr segregation/shell at longer times"
+    ],
+    "source_location": "PDF p3 (journal802) section2 and Table1; PDF p5-8 results/Figs3-7; PDF p10 (journal809) conclusions",
+    "kinetic_and_identity_caveats": "Baseline aging evidence with measured trace elements, not single-X purified ternary. Zr-shell is chemical segregation, NOT identification of a stoichiometric Cu-Zr phase. At 14 d particles remain reported fcc -> clear metastability warning.",
+    "comparability_class": "QUALITATIVELY_COMPARABLE",
+    "direct_equilibrium_validation": false,
+    "usable_for_qualitative_support": true,
+    "source_kind": "FULLTEXT",
+    "source_path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5K_R2_SOURCE_PROVENANCE_REPAIR\\03_new_literature_search\\ZR_Hughes2022.pdf"
+  },
+  {
+    "evidence_id": "EXCLUDED_SI_AG_2024",
+    "paper_id": "SI_AG_2024",
+    "doi": "10.3390/coatings14070909",
+    "X_identity": "SI;AG;TI",
+    "composition": {
+      "Cu": "balance",
+      "Cr": 0.26,
+      "Si": 0.021,
+      "Fe": 0.018,
+      "Ti": 0.034,
+      "Ag": 0.2
+    },
+    "composition_basis": "wt.%",
+    "processing_state": "980 C 2.5 h solution; hot extrusion/rolling; water quench;83% cold reduction",
+    "temperature_K": 723.15,
+    "aging_time_s": 3600,
+    "experimental_phases": [
+      "Cr precipitates",
+      "Cr-Si enriched composite precipitates"
+    ],
+    "source_location": "PDF p2 Table1 and Methods; results",
+    "kinetic_and_identity_caveats": "Mixed X composition includes deliberately added Ag, Ti, Fe. Excluded from single-X comparisons and all equilibrium validation.",
+    "comparability_class": "NOT_DIRECTLY_COMPARABLE",
+    "direct_equilibrium_validation": false,
+    "usable_for_qualitative_support": false,
+    "source_kind": "FULLTEXT",
+    "source_path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5K_R2_SOURCE_PROVENANCE_REPAIR\\03_new_literature_search\\SI_AG_2024.pdf"
+  }
+]

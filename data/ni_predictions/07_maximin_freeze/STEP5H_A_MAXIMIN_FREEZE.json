@@ -1,0 +1,70 @@
+{
+  "generated_utc": "2026-09-06T17:15:12+00:00",
+  "purpose": "SECONDARY few-shot comparison anchor sequence (spec 66-67 of STEP5G); SECONDARY COMPARISON ONLY, not preferred",
+  "geometry": {
+    "scaler": "frozen PRIMARY (hash-verified)",
+    "features": 43,
+    "temperatures": 11,
+    "dimensions": 473,
+    "flattening": "temperature order, per composition",
+    "distance": "euclidean"
+  },
+  "reference_set": {
+    "source": "PRIMARY train compositions with all 11 temperature rows",
+    "n": 21248,
+    "target_information_used": false,
+    "ni_calphad_used": false
+  },
+  "candidates": {
+    "pool": "frozen 600 FEWSHOT_CALIBRATION compositions",
+    "n": 600
+  },
+  "algorithm": "nested greedy maximin; tie -> lexicographically smallest composition_id",
+  "sequence": [
+    "NI_BLIND_001906",
+    "NI_BLIND_000247",
+    "NI_BLIND_000280",
+    "NI_BLIND_000822",
+    "NI_BLIND_000369",
+    "NI_BLIND_000437",
+    "NI_BLIND_001337",
+    "NI_BLIND_000653",
+    "NI_BLIND_000623",
+    "NI_BLIND_000172",
+    "NI_BLIND_001587",
+    "NI_BLIND_000073",
+    "NI_BLIND_000776",
+    "NI_BLIND_000094",
+    "NI_BLIND_000370",
+    "NI_BLIND_001805",
+    "NI_BLIND_000319",
+    "NI_BLIND_000949",
+    "NI_BLIND_001267",
+    "NI_BLIND_000344",
+    "NI_BLIND_001770",
+    "NI_BLIND_001051",
+    "NI_BLIND_001529",
+    "NI_BLIND_000230",
+    "NI_BLIND_000261",
+    "NI_BLIND_000701",
+    "NI_BLIND_001732",
+    "NI_BLIND_001127",
+    "NI_BLIND_001548",
+    "NI_BLIND_001415",
+    "NI_BLIND_000780",
+    "NI_BLIND_000611"
+  ],
+  "sequence_file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\07_maximin_freeze\\STEP5H_A_MAXIMIN_SEQUENCE.csv",
+  "sequence_sha256": "6704c7e9d71f64dc8395c55b0beed239f29f99f6e7e9bfa510ab8f4d64221fda",
+  "immutable_after_ni_calphad_reveal": true,
+  "random_sequences": {
+    "file": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\06_postblind_fewshot_prereg\\STEP5G_NESTED_RANDOM_SEQUENCES.csv",
+    "sha256": "9c9389a100ee064bc8a52ab4a4d8cedb7558c9b95462cca0fa6736da92d6507e",
+    "regenerated": false,
+    "content_matches_preregistration_json": true
+  },
+  "fewshot_executed_here": false,
+  "labels_used": 0,
+  "b_skill_computed": false,
+  "b_recovery25_computed": false
+}

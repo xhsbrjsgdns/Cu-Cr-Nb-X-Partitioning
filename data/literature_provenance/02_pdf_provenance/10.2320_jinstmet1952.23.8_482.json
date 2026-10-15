@@ -1,0 +1,151 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          20
+        ]
+      ],
+      "date-time": "2025-10-20T10:21:49Z",
+      "timestamp": 1760955709753
+    },
+    "reference-count": 0,
+    "publisher": "Japan Institute of Metals",
+    "issue": "8",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "J.Japan Inst.Metals",
+      "J. Japan Inst. Metals",
+      "J. Japan Inst. Metals and Materials",
+      "Journal of the Japan Institute of Metals"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          1959
+        ]
+      ]
+    },
+    "DOI": "10.2320/jinstmet1952.23.8_482",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          4,
+          20
+        ]
+      ],
+      "date-time": "2017-04-20T01:19:04Z",
+      "timestamp": 1492651144000
+    },
+    "page": "482-485",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Studies on the Precipitates of a Cu-Cr-Ti alloy by means of Extraction-Replica Technique (Studies on the Precipitation of a Cu-Cr-Ti Alloy 2nd Report)"
+    ],
+    "prefix": "10.2320",
+    "volume": "23",
+    "author": [
+      {
+        "given": "Toshio",
+        "family": "Doi",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "1149",
+    "container-title": [
+      "Journal of the Japan Institute of Metals",
+      "Journal of the Japan Institute of Metals and Materials"
+    ],
+    "original-title": [
+      "Extraction ReplicaによるCu-Cr-Ti合金の析出物に関する研究"
+    ],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.jstage.jst.go.jp/article/jinstmet1952/23/8/23_8_482/_pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          4,
+          20
+        ]
+      ],
+      "date-time": "2017-04-20T01:19:06Z",
+      "timestamp": 1492651146000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.jstage.jst.go.jp/article/jinstmet1952/23/8/23_8_482/_article/-char/ja/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1959
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "8",
+      "published-print": {
+        "date-parts": [
+          [
+            1959
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.2320/jinstmet1952.23.8_482",
+    "relation": {},
+    "ISSN": [
+      "0021-4876",
+      "1880-6880"
+    ],
+    "issn-type": [
+      {
+        "value": "0021-4876",
+        "type": "print"
+      },
+      {
+        "value": "1880-6880",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          1959
+        ]
+      ]
+    }
+  }
+}

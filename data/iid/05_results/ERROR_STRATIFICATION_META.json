@@ -1,0 +1,5 @@
+{
+  "generated_utc": "2026-09-04T18:10:53+00:00",
+  "bcc3_labelled_states_in_iid_test": 0,
+  "note": "BCC_B2#3 states are diagnostic annotation only (never a class, feature, or physical phase). has_multiple_* flags are post-hoc stratification metadata only."
+}

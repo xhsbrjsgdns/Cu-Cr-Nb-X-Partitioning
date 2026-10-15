@@ -1,0 +1,9 @@
+{
+  "original_first_open": {
+    "TEST_FIRST_OPEN_TIMESTAMP": "2026-09-04T15:43:46+00:00",
+    "opened_by": "40_step5a_iid_test.py",
+    "note": "first and only opening of Domain-A IID_TEST for STEP5A"
+  },
+  "resume_utc": "2026-09-04T18:07:52+00:00",
+  "reason": "aborted run (output-assembly bug, PATCH_01) produced no predictions or metrics; resume = same single test opening"
+}

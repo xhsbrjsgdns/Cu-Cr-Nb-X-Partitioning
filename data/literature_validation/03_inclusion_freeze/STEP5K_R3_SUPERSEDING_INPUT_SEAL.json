@@ -1,0 +1,60 @@
+{
+  "seal_id": "STEP5K_R3_SUPERSEDING_INPUT_SEAL",
+  "generated_utc": "2026-09-12T02:36:39+00:00",
+  "supersedes": {
+    "file": "03_inclusion_freeze/INPUT_FREEZE.json",
+    "sha256": "0c5df40fa8b1c5738b54de1de8aeb392a999d409369be19dbc8a0df8d8d3935b",
+    "frozen_utc": "2026-09-11T14:32:08.721127+00:00",
+    "status": "PRESERVED UNCHANGED; not edited, not deleted"
+  },
+  "parent_seal_recorded_condition_sha256": "63b0e6f36feb4b59cd0d9cfea49596cea5858b5f5703ea69f2a8cdab1afdf0c6",
+  "parent_key_actually_covers": "02_source_extraction/ALL_CONDITIONS.json",
+  "original_master_recorded_hash": null,
+  "original_master_recorded_hash_note": "there is none. The master CSV was never covered by the parent seal; the key named condition_sha256 hashes ALL_CONDITIONS.json, as the generator source shows.",
+  "current_pre_repair_master_hash": "e84482443ced20e2ab940cbe0f814142c07b5649326d5a47b923c99ccdea0695",
+  "canonical_master_hash": "e84482443ced20e2ab940cbe0f814142c07b5649326d5a47b923c99ccdea0695",
+  "exact_reason_for_apparent_drift": "no drift occurred. An earlier check of mine compared the parent seal's condition_sha256 against the master CSV; that key covers ALL_CONDITIONS.json, which verifies byte-exactly. The master CSV is a deterministic rendering of that sealed file and is byte-identical.",
+  "columns_added_or_changed_relative_to_the_sealed_record": {
+    "added_at_render_time": [
+      "Cr_original",
+      "Cu_original",
+      "Nb_original",
+      "X_original",
+      "measured_phase_compositions_available",
+      "phase_1",
+      "phase_2",
+      "phase_3",
+      "phase_4"
+    ],
+    "changed": []
+  },
+  "proof_scientific_request_content_unchanged": {
+    "condition IDs unchanged": true,
+    "inclusion decisions unchanged": true,
+    "selected request IDs unchanged": true,
+    "compositions unchanged (master vs sealed request table)": true,
+    "converted wt.% values unchanged (master vs conversion table)": true,
+    "temperatures unchanged": true,
+    "source IDs unchanged": true,
+    "domain classifications unchanged": true,
+    "request set unchanged": true
+  },
+  "hashes": {
+    "ALL_CONDITIONS.json (parent-sealed)": "63b0e6f36feb4b59cd0d9cfea49596cea5858b5f5703ea69f2a8cdab1afdf0c6",
+    "STEP5K_R3_CANONICAL_MASTER.csv": "e84482443ced20e2ab940cbe0f814142c07b5649326d5a47b923c99ccdea0695",
+    "STEP5K_R3_EXPERIMENTAL_CONDITIONS_MASTER.csv": "e84482443ced20e2ab940cbe0f814142c07b5649326d5a47b923c99ccdea0695",
+    "STEP5K_R3_CALPHAD_REQUESTS.csv": "bcfb08280ed128fe920ca6d99954841c253a8d2a0cc59d6691aadd09015cbe64",
+    "STEP5K_R3_CONDITION_INCLUSION_FREEZE.md": "9e86e90a9eb49d67f9824919063465087c76a78ffe40428f95537a8bf12ae188",
+    "STEP5K_R3_COMPOSITION_CONVERSIONS.csv": "8c8c8c3784be11707ea631be0538e23eb744e81523703922ee13438d7443f168",
+    "STEP5K_R3_DOMAIN_RELEVANCE.csv": "c6298a2b97bf78747d9569872b9d92667a350d3c1d059f9f604d72c10e81b5f1",
+    "CONDITION_SELECTION.csv": "bc048d6162c2ede1205f5d4a6ff8c3ae5a416fed7adf7c2f7b213fb65757aaba"
+  },
+  "parent_seal_verification": {
+    "request_sha256": true,
+    "rules_sha256": true,
+    "condition_sha256_vs_ALL_CONDITIONS_json": true,
+    "condition_sha256_vs_master_csv": false
+  },
+  "preserved_discrepancy_record": "not present on this machine; the misidentification it recorded is described here instead",
+  "no_scientific_content_was_altered_by_this_stage": true
+}

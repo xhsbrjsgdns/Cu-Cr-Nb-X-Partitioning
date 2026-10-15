@@ -1,0 +1,53 @@
+[
+  {
+    "source_id": "S3_NB_CO",
+    "phase": "fcc (Cu)",
+    "structure": "FCC",
+    "prototype": null,
+    "page": "288–289 (PDF pp.2–3)",
+    "evidence": "Experimental text and Fig.2 XRD legends identify fcc (Cu); Table1/2 phase labels."
+  },
+  {
+    "source_id": "S3_NB_CO",
+    "phase": "bcc (Cr)",
+    "structure": "BCC",
+    "prototype": null,
+    "page": "288–289 (PDF pp.2–3)",
+    "evidence": "Experimental Fig.2(b) XRD legend and Table1 phase labels."
+  },
+  {
+    "source_id": "S3_NB_CO",
+    "phase": "bcc (Nb)",
+    "structure": "BCC",
+    "prototype": null,
+    "page": "288–289 (PDF pp.2–3)",
+    "evidence": "Experimental Fig.2(a) XRD legend and Table1 phase labels. 1373 K Cu30Cr50Nb20 conflicting row excluded."
+  },
+  {
+    "source_id": "S3_NB_CO",
+    "phase": "Cr2Nb",
+    "structure": null,
+    "prototype": null,
+    "page": "288–290 (PDF pp.2–4)",
+    "evidence": "Experimental text/Fig.2/Table1 identify Cr2Nb without a literal C14/C15 assignment. Thermodynamic Table3 separately includes Cr2Nb(C14) and Cr2Nb(C15), both from Ref.35; model labels cannot establish measured polymorph.",
+    "mapping_constraint": "Cr2Nb chemistry supports Laves-related relevance, but experimental C15 identity is unresolved; must distinguish database raw-phase mapping from experimental proof."
+  },
+  {
+    "source_id": "S3_NB_CO",
+    "phase": "(αCo)",
+    "structure": null,
+    "prototype": null,
+    "page": "288–289 (PDF pp.2–3); 295 (PDF p.9)",
+    "evidence": "Literal experimental label is (αCo), verified visually. Experimental table does not print fcc next to this phase. Discussion p.295 interprets Cu-Co-side phase separation as fcc miscibility gap; a FCC mapping would use that author interpretation, not an explicit XRD structure entry.",
+    "mapping_constraint": "Cu-Co-rich solid-solution separation supports adjacent ternary chemistry only; no Nb in system and no evidence for Co-Nb Laves topology."
+  },
+  {
+    "source_id": "S6_GRCOP",
+    "phase": "Cr2Nb",
+    "structure": "Laves (generic source terminology)",
+    "prototype": null,
+    "page": "505 (PDF p.4)",
+    "evidence": "Text calls pure Cr2Nb a laves phase in cited melting-point background; observed precipitates named Cr2Nb throughout. No C15/C14 polymorph is experimentally established in this paper.",
+    "mapping_constraint": "QUALITATIVE_CONTEXT only; cannot supply a direct C15 equilibrium assignment."
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "role": "SECONDARY - PROSPECTIVE SENSITIVITY ONLY",
+  "model": "FULL11_DIRECT_MLP",
+  "cannot_replace_primary_regardless_of_result": true,
+  "n_scored": 22000,
+  "mean_tvd": 0.7234409098506132,
+  "median_tvd": 0.8534921054609947,
+  "p95_tvd": 0.944154954536072,
+  "macro_mae": 0.28937636394024524,
+  "per_family_mae": {
+    "FCC": 0.4989636523353332,
+    "BCC": 0.010804907603388514,
+    "C15": 0.6848930372745119,
+    "OTHER_SOLID": 0.25214444741150743,
+    "LIQUID": 7.5775076485103e-05
+  },
+  "topology_accuracy": 0.2406818181818182,
+  "topology_macro_f1": 0.10050298946569232,
+  "own_trivial_baseline": [
+    0.45812328163558386,
+    0.1240658371930271,
+    0.18471172806626412,
+    0.21560165117755808,
+    0.01749750192756682
+  ],
+  "own_trivial_mean_tvd": 0.5258305150815665,
+  "own_descriptive_skill": -0.19761039476904663,
+  "bootstrap_mean_tvd": {
+    "replicates": 1000,
+    "seed": 20260911,
+    "unit": "composition_id",
+    "ci95_low": 0.7208391486598595,
+    "ci95_high": 0.7260206323204347,
+    "boot_mean": 0.7234672984717478,
+    "boot_std": 0.0013164362892826766
+  },
+  "true_topology_distribution": {
+    "FCC": 0.7172272727272727,
+    "OTHER_SOLID": 0.2827727272727273
+  },
+  "pred_topology_distribution": {
+    "C15": 0.7593181818181818,
+    "FCC": 0.2406818181818182
+  },
+  "primary_skill_claim_basis": "PRIMARY trivial baseline (spec 39) - unchanged",
+  "success_threshold": null
+}

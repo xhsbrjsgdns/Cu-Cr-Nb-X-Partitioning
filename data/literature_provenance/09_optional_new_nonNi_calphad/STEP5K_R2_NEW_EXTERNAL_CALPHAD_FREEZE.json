@@ -1,0 +1,65 @@
+{
+  "status": "COMPLETED_WITH_FAILURES",
+  "inputs": [
+    {
+      "validation_id": "R2_SI_A5",
+      "verified_source_id": "R2_Zhou2023_CuNbSi",
+      "X_identity": "SI",
+      "composition_wt_pct": {
+        "NB": 4.8314,
+        "SI": 9.2498,
+        "CU": 85.9188
+      },
+      "temperature_C": 600.0,
+      "source_page": "827;829-832 (PDF 4;6-9)",
+      "source_table": "4"
+    },
+    {
+      "validation_id": "R2_SI_A7",
+      "verified_source_id": "R2_Zhou2023_CuNbSi",
+      "X_identity": "SI",
+      "composition_wt_pct": {
+        "NB": 50.0597,
+        "SI": 10.8091,
+        "CU": 39.1312
+      },
+      "temperature_C": 600.0,
+      "source_page": "827;829-832 (PDF 4;6-9)",
+      "source_table": "4"
+    },
+    {
+      "validation_id": "R2_SI_A15",
+      "verified_source_id": "R2_Zhou2023_CuNbSi",
+      "X_identity": "SI",
+      "composition_wt_pct": {
+        "NB": 50.0597,
+        "SI": 10.8091,
+        "CU": 39.1312
+      },
+      "temperature_C": 700.0,
+      "source_page": "827;829-832 (PDF 4;6-9)",
+      "source_table": "4"
+    }
+  ],
+  "reason": "No exact FULL_V1 state; long annealed primary experiments with verified Table 4 composition and basis. A5 tests independent Cu/Nb silicides; A7/A15 compare Cu+Nb5Si3+ternary compound at 600/700 C. This is not Cr3Si validation or target-domain calibration.",
+  "database": "TCCU6 Cu-Alloys v6.2",
+  "tc_python": "2025.2.30",
+  "pressure_bar": 1,
+  "system_size_mol": 1,
+  "composition_basis": "wt.% Cu balance",
+  "max_states": 3,
+  "max_compositions": 2,
+  "new_Ni": 0,
+  "source_pdf_sha256": "0a5c7023101466195e3e18f7cf0c172940cdd2988a196c88e8d2d9f5aea0be4c",
+  "matching_rule_sha256": "1c8355e02ec8cdab5c69b1d87c736f88201c71bd45fdc74a7532c3e2d4f71eb6",
+  "helper_hashes": {
+    "dry_run_lib.py": "7c97467c2946c1cba9a836d08d72376683d4168fb9746481e90a152411b4d380",
+    "fivefamily.py": "a703d95d5aa2b9c3ac78aa847ad0e488678c561b0710ed0d4bc9c3848c471af8"
+  },
+  "n_states": 3,
+  "n_converged": 0,
+  "n_failed": 3,
+  "used_for_training": false,
+  "automatic_retry": false,
+  "parquet_sha256": "bb0c521327f808e3890b4fe51da7c33141265a0738ef20bd0e8fc8fef3cdbca1"
+}

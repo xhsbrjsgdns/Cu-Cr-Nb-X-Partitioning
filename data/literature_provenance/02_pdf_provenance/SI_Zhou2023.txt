@@ -1,0 +1,699 @@
+
+--- PDF PAGE 1 ---
+                                  Trans. Nonferrous Met. Soc. China 33(2023) 824−838
+
+                    Experimental investigation and
+            thermodynamic modeling of Cu–Nb–Si system
+
+                        Jia-qiang ZHOU1,2, Biao HU1,3, Ben-fu LI1,3, Yong DU2, Jiong WANG2
+
+                                      1. School of Materials Science and Engineering,
+                    Anhui University of Science and Technology, Huainan 232001, China;
+           2. State Key Laboratory of Powder Metallurgy, Central South University, Changsha 410083, China;
+        3. Anhui International Joint Research Center for Nano Carbon-based Materials and Environmental Health,
+                                        Huainan 232001, China
+
+                             Received 14 October 2021; accepted 2 January 2022
+
+Abstract: The phase equilibria of the Cu−Nb−Si system were investigated via a combination of key equilibrated alloys,
+thermodynamic modeling and first-principles calculations. Sixteen ternary alloys were prepared to determine the
+isothermal sections at 600 and 700 °C, by means of X-ray diffraction (XRD) and scanning electron microscopy with
+energy dispersive X-ray spectroscopy (SEM−EDS). The three- and two-phase regions were determined. The existence
+of ternary compound τ1 (Cu4Nb5Si4) was confirmed. The solubilities of Cu in the NbSi2 and Nb5Si3 phases were
+measured. Based on the experimental equilibria data from the literature and the present work, a thermodynamic
+description of the Cu−Nb−Si system was carried out by using the calculation of phase diagrams (CALPHAD) method
+supported by first-principles calculations. The substitutional model and sublattice model were employed to describe the
+solution phases and intermediate phases, respectively. A set of self-consistent thermodynamic parameters of the
+Cu−Nb−Si system were conclusively obtained. Most of the reliable experimental data were reproduced by the present
+thermodynamic modeling.
+Key words: Cu−Nb−Si system; thermodynamic modeling; first-principles calculations; CALPHAD approach
+
+
+                                                   long  time, which can be enhanced by  adding
+1 Introduction                                      alloying elements, such as Nb and Si [5]. Nb can
+                                                        also improve the thermal stability of the Cu-based
+    Cu-based   alloys   exhibit   the   excellent     alloy [6,7]. Nb5Si3_L and NbSi2 are two promising
+characteristics such as high electrical conductivity,     candidate  materials  for  the  next  generation  of
+superior thermal conductivity, and good mechanical    high-temperature parts such as the hot sections of
+properties  [1−4],  which  are  widely  used  in     aircraft and spacecraft engines, due to their high
+electricity,   microelectronics,   aerospace,  ocean    melting  points,  low  densities  and  exceptional
+transport  and  other  fields. The  high  electrical    mechanical performance at the temperatures above
+conductivity and high thermal conductivity are the    1200 °C  [8−10]. The development  of  the new
+most important characteristics of copper. However,    copper alloy requires information about the phase
+pure Cu with low mechanical properties cannot     equilibria and thermodynamic  properties  of  the
+service in a high-temperature environment for a    Cu-based ternary systems.
+
+  Corresponding author: Biao HU, Tel/Fax: +86-554-6601194, E-mail: hubiao05047071@163.com;
+                         Jiong WANG, Tel/Fax: +86-731-88877300, E-mail: wangjionga@csu.edu.cn
+  DOI: 10.1016/S1003-6326(23)66149-7
+  1003-6326/© 2023 The Nonferrous Metals Society of China. Published by Elsevier Ltd & Science Press
+
+--- PDF PAGE 2 ---
+                            Jia-qiang ZHOU, et al/Trans. Nonferrous Met. Soc. China 33(2023) 824−838                   825
+    The accurate thermodynamic descriptions of
+the Cu-based ternary systems were considerable   2 Literature review
+efforts of our group to establish a thermodynamic
+database   for   the   multicomponent   Cu-based        Both the experimental data of the Cu−Nb−Si
+alloys  [11−16].  However,  to  the  best  of  our    system  published  in  the  literature  [19−22]  are
+knowledge, there is no thermodynamic modeling     critically evaluated below. To facilitate reading, the
+of  the Cu−Nb−Si  ternary  system  available  in    symbols used to denote the phases with their crystal
+the   literature.  There  are  no  reports  on  the     structures in the Cu−Nb−Si system are listed in
+thermodynamic modeling of the Cu−Nb−Si ternary    Table 1, and the investigations on phase equilibria
+system, and the experimental phase equilibria data    and crystal structures used in the optimization are
+are  also  scattered.  Thus,  the  objectives  of  the    summarized in Table 2.
+present work  are:  (1)  to  determine  the  phase
+equilibria of  the Cu−Nb−Si system  at 600 and     2.1 Cu−Si system
+700 °C by XRD and SEM−EDS, (2) to perform        The Cu−Si phase diagram was very complex
+first-principles calculations to obtain the enthalpies    with a number of intermediate phases in the Cu-rich
+of formation at 0 K for the end-members of NbSi2     part at different temperatures. The Cu−Si system
+and Nb5Si3_L and the ternary compounds τ1 and τ2,    has  been  thermodynamically  described  several
+and   (3)   to  obtain  a   set  of   self-consistent    times [31−34]. All thermodynamic models could
+thermodynamic  parameters  for  the  Cu−Nb−Si    reproduce   the   phase   diagram   well.  New
+system by the CALPHAD approach [17,18]. In    experimental  investigations  with  focus  on  the
+summary, the present studies on the thermodynamic    Cu-rich  part were performed by HALLSTEDT
+assessment of the Cu−Nb−Si system are extremely     et al [34] and SUFRYD et al [35]. Most recently,
+useful for providing a set of reliable thermodynamic    thermodynamic  evaluation  of  the  system  was
+parameters  for thermodynamic  extrapolations  to    proposed  by HALLSTEDT  et  al  [34]  which
+related higher order systems. And the copper alloy    considered more recent experimental data [35] and
+database established by our group can provide the     their own calorimetric measurements data. However,
+theoretical basis for material research and process     the  thermodynamic  parameters  proposed  by
+control,  especially  for  the development  of new   HALLSTEDT et al [34] were incompatible with the
+copper alloys.                                    ones in our constructed Cu alloys thermodynamic
+
+Table 1 Phase in Cu−Nb−Si system
+    Phase     Prototype  Pearson symbol  Space group               Phase description                  Ref.
+    (Cu)       Cu         cF4       Fm 3 m             Solid solution based on fcc Cu            [23]
+    (Nb)    W            cI2        Im 3 m             Solid solution based on bcc Nb            [23]
+  bcc(CuSi)     −            cI2        Im 3 m           Solid solution based on bcc(CuSi)           [24]
+      (Si)       C         cF8        Fd 3 m           Solid solution based on diamond Si          [23]
+  hcp(CuSi)    Mg        hP2        P63/mmc          Solid solution based on hcp(CuSi)           [24]
+  Nb5Si3_L     Cr5Si3          tI32        I4/mcm     Binary compound Nb5Si3 at high-temperature     [25]
+  Nb5Si3_H     W5Si3          tI32        I4/mcm     Binary compound Nb5Si3 at low-temperature      [25]
+    Nb3Si        PTi3         tP32           P4/n                Binary compound Nb3Si               [26]
+    NbSi2       CrSi2        hP9         P6222               Binary compound NbSi2               [27]
+   Cu15Si4      Cu15Si4         cl76             I 43d               Binary compound Cu15Si4               [28]
+   Cu19Si6       −         hR*        R 3 m               Binary compound Cu19Si6               [29]
+   Cu56Si11     β-Mn        cP20         P4132              Binary compound Cu56Si11              [24]
+   Cu33Si7       −           tP*          −                Binary compound Cu33Si7               [30]
+       τ1      Nb5Cu4Si4        tl26           I4/m              Ternary compound Nb5Cu4Si4             [19]
+       τ2      Nb4CoSi       tP12       P4/mmc             Ternary compound Nb4CuSi             [22]
+
+--- PDF PAGE 3 ---
+826                        Jia-qiang ZHOU, et al/Trans. Nonferrous Met. Soc. China 33(2023) 824−838
+Table 2 Phase diagram and thermodynamic data for
+Cu−Nb−Si system available in literature
+Techniquea         Type of data       QMb Ref.
+                   Crystal structure of  XRD                          ■   [19]                      ternary τ1 phase
+OM, XRD,   Isothermal section at 800 °C   □   [20]
+  MD     Confirming that τ1 phase exists  ■   [20]
+              Isothermal section at 800 °C   □   [21]
+OM, XRD,   Isothermal section at 875 °C   □   [21]
+  EMPA      Presenting liquidus surface    □   [21]
+            Reporting that τ1 does not exist  □   [21]
+             Isothermal section at 1500 °C   ○   [22]
+                   Crystal structure ofOM, XRD                         ■   [22]                      ternary τ2 phase
+                   τ2 formed above 1500 °C    ○   [22]
+a XRD:  X-ray  diffraction; OM:  Optical  metallography; MD:
+microhardness; EMPA: Electron probe micro-analyzer;
+b QM: Quoted Mode, indicating whether the data are used in the
+parameter: ■ used; □ not used; ○ not used but estimated to be
+reliable data for checking the modeling
+
+database. The CALPHAD description for the Cu−Si
+system from YAN and CHANG [36] provided a
+good description of the experimental data, and was
+successfully used to establish the thermodynamic
+database for Al-based alloys [37]. Thus, the thermo-
+dynamic parameters from YAN and CHANG [36]
+were adopted in the present work. The calculated
+phase diagram of the Cu−Si system is shown in
+Fig. 1(a).
+
+2.2 Si−Nb system
+    The  Si−Nb  binary  system  contains  four
+compounds,  i.e., NbSi2, Nb5Si3_L, Nb5Si3_H and
+Nb3Si.  The  Si−Nb  binary  system  has  been
+thermodynamically  evaluated  [25,26,39−42].  In
+general, the calculated phase diagrams are very                                                             Fig. 1 Calculated Cu−Si (a), Si−Nb (b), and Cu−Nb (c)
+similar,  except  that  a  different  thermodynamic     phase diagrams using thermodynamic parameters from
+model  was  used  to  describe  the  range  of   YAN  and CHANG  [36], GENG  et  al  [26],  and
+homogeneity of compounds. Recently, the Si−Nb   HÄMÄLÄINEN et al [38], respectively
+system was thermodynamically assessed by GENG
+et al [26] accounting for the homogeneity ranges of     2.3 Cu−Nb system
+compounds,  and   their  calculated   results  can        The phase equilibria of the Cu−Nb system was
+reproduce experimental information  satisfactorily.     characterized by only one invariant reaction with
+The assessment performed by GENG  et  al [26]    extremely limited solubility. Some authors [43−46]
+was directly adopted in the present work, and the    suggested  that  the  invariant  reaction  was  a
+calculated  Si–Nb  phase  diagram  is shown  in    monotectic  type, whereas other authors [47−50]
+Fig. 1(b).                                             believed  this reaction  to be the  peritectic  type.
+
+--- PDF PAGE 4 ---
+                            Jia-qiang ZHOU, et al/Trans. Nonferrous Met. Soc. China 33(2023) 824−838                   827
+Investigators [48−50] claimed that the monotectic    been completely determined. Thus, there are  still
+invariant reaction observed by the authors [43−46]    some issues to be resolved. On the one hand, the
+was  due   to  the   effect  of   impurities.  The     existence of ternary phase τ1 needs to be clarified.
+thermodynamic assessment of the Cu−Nb system   On the other hand, the composition ranges of the
+was only performed by HÄMÄLÄINEN et al [38].     Cu19Si6, Cu15Si4,  Cu56Si11, NbSi2, Nb5Si3 and  τ1
+And the reaction in phase equilibria was calculated    phases  needs  to  be  determined  by  the  key
+to   the   peritectic   type.  The  thermodynamic     experiments. Then, the thermodynamic assessment
+parameters obtained by HÄMÄLÄINEN et al [38]     of the Cu−Nb−Si system could be performed by
+were  adopted  in  the  present work.  Figure 1(c)     taking into consideration of the experimental data
+presents the calculated phase diagram of the Cu−Nb     available in the literature and present work as well
+system using  the thermodynamic  description  of     as the enthalpies of formation values from the first-
+HÄMÄLÄINEN et al [38].                              principles calculations.
+
+2.4 Cu−Nb−Si ternary system                 3 Experimental
+   By XRD analysis, GANGLBERGER [19] first
+detected the new ternary phase τ1 (Cu4Nb5Si4) in the        The phase equilibria of the Cu−Nb−Si systems
+Cu−Nb−Si  alloy  and  determined  the   crystal     at 600 and 700 °C, were experimentally determined.
+structure  (space  group  I4/m,  lattice  parameters    Copper, niobium and silicon blocks with the purity
+a=10.19 Å, and c=3.60 Å). Then, combining XRD,     of 99.99% (China New Metal Materials Technology
+optical metallography (OM) and micro hardness     Co., Ltd.) were used as starting materials. Sixteen
+measurements, SAVITSKII  et  al [20] determined     ternary alloys, each with a total mass of usually
+one three-phase region (Cu) + (Nb) +  τ1 in the     1.5 g, were prepared in a non-consumable electrode
+isothermal section at 800 °C and also determined    vacuum  arc-melting  furnace (WK-I,  Physcience
+the crystal structure of the τ1 ternary compound.     Opto-electronics Co.,  Ltd.,  Beijing, China) with
+However, the stability of the ternary phase τ1 was    water-cooled copper  crucible under an  inert Ar
+discussed controversially in literature [19−21]. By    atmosphere. Each alloy was re-melted up to 6 times
+employing OM, XRD and electron probe micro-     to improve its homogeneities. During the melting
+analyzer (EMPA), ZANKL and MALTER  [21]     process, a piece of titanium in the center of the
+constructed  the  isothermal  sections  at 800 and     crucible was used to capture traces of oxygen. The
+875 °C. However, the τ1 phase was not observed.     alloys  after  arc melting were  not  subjected  to
+ZANKL and MALTER [21] claimed that the  τ1    chemical analysis since the mass loss was less than
+phase was a metastable phase and explained the    1 wt.% for  all  alloys. The button samples were
+appearance of τ1 by non- equilibrium crystallization     sealed into evacuated quartz tubes with vacuum
+conditions. Subsequently, PAN et al [22] measured     sealing  machine (MRVS−1002, Wuhan  Bailibo
+the  partial  phase  equilibria  at 1500 °C  in  the    Technology Co., Ltd., China), annealed at 600 °C
+Nb-rich region by using OM and XRD. The new    (40 d) and 700 °C (30 d) in the high temperature
+ternary phase  τ2 (Nb4CuSi) was  identified with     diffusion  furnace  (KSL−1200X,  Hefei  Kejing
+Nb4CoSi  type  structure  (space  group  P4/mmc,     Material Technology Co., Ltd., China), and then
+lattice parameters a=3.60 Å, and c=6.21 Å) with a    quenched into ice water. In order to ensure the rapid
+limited homogeneity range of Cu. The solubility of    cooling of alloy samples, the quartz capsules were
+Cu in Nb5Si3 was also measured to be 12 at.% in    broken in the ice water.
+their work. Furthermore, REID et al [51] tentatively         After standard metallographic preparation, the
+calculated the phase equilibria of the Cu−Nb−Si     microstructure observation and phase identification
+system at 700 °C, but they did not take into account    were  carried  out  by SEM−EDS  (acceleration
+the ternary compounds. According to the evaluation     voltage 20 kV, working distance 10 mm) (JSM−
+of experimental data of the Cu−Nb−Si system, the    6360LV/GENESIS2000XM60, JEOL, Japan) and
+experimental results of SAVITSKII et al [20] were   XRD. The XRD (Smartlab SE, Rigaku corporation,
+inconsistent  with  the  ones  from ZANKL  and    Japan) measurement of the quenched alloys was
+MALTER [21], and the phase equilibria at 800 and    performed using a Cu Kα radiation at 40 kV and
+1500 °C measured in the literature [20,22] have not    300 mA.   Diffraction   patterns  were   generally
+
+--- PDF PAGE 5 ---
+828                        Jia-qiang ZHOU, et al/Trans. Nonferrous Met. Soc. China 33(2023) 824−838
+acquired in a scan step of 0.01° over a 2θ range of        Cu19 Si 6      Θ  Cu19 Si 6      Θ  Cu19 Si 6                                G    = y Nb′  GNb:Si  + yCu′  GCu:Si  +20°−90°.
+                                                  19 RT ( y Nb′  ln y Nb′  + y Nb′  ln yCu′  ) +
+                                                                                                                                                                          19 Si 6 + ⋅⋅⋅]4 Thermodynamic model                            y Nb′  yCu′  [ 0 LCuNb,Cu:Si                                                                                                                                   19 Si 6 + ( y Nb′  − yCu′  ) 1 LCuNb,Cu:Si
+                                                                                                              (2)
+    The  Gibbs  energy  functions  of  the  pure
+                                               where  y′Cu and y′Nb  denote the site fractions of theelements Cu, Nb and Si were taken from the SGTE
+                                                   elements Cu and Nb in the  first sublattice. The
+database  compiled  by DINSDALE  [52].  The                                               0 Cu19 Si 6     1 Cu19 Si 6                                                        ternary interaction parameters  LNb,Cu:Si ,  LNb,Cu:Sithermodynamic parameters for the Cu−Nb, Cu−Si             2 Cu19 Si 6                                               and  LNb,Cu:Si  are linearly temperature-dependent,and Si−Nb systems from HÄMÄLÄINEN et al [38],                                            Cu19 Si 6                                               which  can  be  expressed  as  LNb,Cu:Si = A + BT ,YAN and CHANG [36] and GENG  et  al [26],
+                                               and the coefficients A and B will be evaluated in therespectively, were adopted in the present work. The
+                                                       present work. Analogous expressions are used tosymbols used to denote the crystallographic data of
+                                                       describe the Gibbs energies of Cu15Si4, Cu56Si11,the phases in the three binary systems are listed in
+                                                NbSi2 and Nb5Si3_L.Table 1.
+
+                                                       4.3 Ternary compound4.1 Solution phases
+                                                The τ1 phase has the Nb5Cu4Si4-type crystal    The   solution   phases,   i.e.   liquid,   (Cu),
+                                                           structure with two different atomic sites: 2a and 8h.hcp(CuSi), bcc(CuSi) and (Nb), were described by
+                                                    Species Nb occupies the sites 2a, and species Cu, Sithe   substitutional   solution  model   with   the
+                                               and Nb occupy  the  sites  8h.  In view  of  theRedlich-Kister-Muggianu polynomial [53,54]. The
+                                                     experimentally  observed  negligible homogeneitymolar Gibbs energy of the solution phase φ is
+                                                       range,  the  ternary  phase   τ1  is  described  asexpressed as
+                                                        stoichiometric compound and  its Gibbs  energy
+Gφ = xCu Θ GφCu + x Nb Θ GφNb + xSi Θ GSiφ +                    relative to the pure elements can be formulated by
+    RT ( xCu Θ GφCu + x Nb Θ GφNb + xSi Θ GSiφ ) +                                                 Θ GτCu:Nb:Si                                                                                                            1    = a + bT + 4 Θ GCufcc +
+     xCu x Nb LφCu,Nb + xCu xSi LφCu,Si +                                                  5 Θ GNbbcc + 4 Θ GSidiamond                        (3)
+     x Nb xSi LφNb,Si + xCu x Nb xSi ( xCu 0 LφCu,Nb,Si +                                               where the coefficients a and b are to be optimized
+     x Nb 1 LφCu,Nb,Si + xSi 2 LφCu,Nb,Si)                 (1)     in the present work. The parameters Θ GCufcc , Θ GNbbcc
+                                               and Θ GSidiamond  are the Gibbs energies of fcc_A1 Cu,
+where R  represents  the molar  gas  constant, T                                            bcc_A2 Nb and diamond_A4 Si, respectively.
+represents the temperature in K; xCu, xNb and  xSi
+represent the molar fractions                              of the elements                                          Cu,   5 First-principles calculations for enthalpy                                                  1                                   0
+Nb and Si, respectively;  LφCu,Nb,Si ,  LφCu,Nb,Si  and      of formation
+ 2 LφCu,Nb,Si    represent   the   ternary   interaction
+parameters with linearly temperature-dependent to                                                The enthalpies of formation at 0 K for all the
+be evaluated.                                              end-members  in  the  sublattice  of  the  NbSi2,
+                                                Nb5Si3_L and the ternary compound τ1 as well as τ2
+4.2 Binary phases extending into ternary system     phases in the Cu–Nb–Si system are computed by
+    According to the experimental data from the    means  of  first-principles  calculations  to  supply
+present work, the following binary phases with     reasonable  initial values  for the thermodynamic
+measured solubilities for the third elements were    parameters for the modeling in the present work.
+described by sublattice models [55,56]. For Cu19Si6,     First-principles calculations based on the density
+Cu15Si4  and   Cu56Si11,  the   sublattice  models     functional theory (DFT) [57,58] were performed
+(Cu,Nb)19Si6, (Cu,Nb)15Si4 and (Cu,Nb)56Si11 were    using the projector augmented wave (PAW) [59,60]
+used in the present work. The bold and underline     pseudo-potentials as implemented  in Vienna Ab
+type mean the normal atoms (i.e., major species).     initio  simulation package (VASP)  [61,62]. The
+Taking Cu19Si6 as an example, its Gibbs energy can     details of the first-principles calculations can be
+be expressed as                                   found in our previous work [63]. The equilibrium
+
+--- PDF PAGE 6 ---
+                            Jia-qiang ZHOU, et al/Trans. Nonferrous Met. Soc. China 33(2023) 824−838                   829
+enthalpy of formation, ∆Heq(φ) (where φ=NbSi2,     detailed experimental  results  are summarized  in
+Nb5Si3_L, τ1 and τ2) can be expressed as               Table 4.
+      eq          φ      eq                                 In order to investigate the phase equilibria of∆H   (φ) = E (φ) − [ xCu ⋅ E  (Cu) +                                                        the Cu−Nb−Si system at 600 °C, eight alloys of
+     xφNb ⋅ E eq (Nb) + E eq xφSi (Si)]                 (4)   A1−A8 were prepared. Figures 2 and 3 present the
+                                     BSE  images and XRD  patterns  of  the  alloyswhere  E(φ),  Eeq(Cu),  Eeq(Nb)  and  Eeq(Si)  are
+                                                    annealed at 600 °C for 40 d, respectively. Figure 2(a)equilibrium energies of the compound φ and the
+                                                                 illustrates that Alloy A1 (Cu20Nb15Si65) consists ofpure elements Cu, Nb and Si, the reference states
+                                                         Cu19Si6, (Si) and NbSi2. Figures 2(b) and 3 indicateare  fcc_A1   for  Cu,  bcc_A2   for  Nb,  and
+diamond_A4 for Si, respectively.  ixφ  is the molar     that Alloy A2 (Cu20Nb40Si40) consists of τ1, Nb5Si3
+fraction  of  the  component  in φ phase.  The    and NbSi2. As presented in Fig. 2(c), τ1 + NbSi2 +
+enthalpies of formation at 0 K for τ1 and τ2 ternary     Cu15Si4 exists in Alloy A3. According to Fig. 2(d),
+compounds as well as the end-members of NbSi2    Alloy A5  is located in  τ1, Cu56Si11 and Cu15Si4
+and Nb5Si3_L are summarized in Table 3.               three-phase region, which corresponds well with the
+                                 XRD results presented in Fig. 3. As illustrated in
+Table 3 Enthalpies of formation for NbSi2, Nb5Si3, τ1 and     Fig. 2(e), a three-phase equilibrium of (Cu), τ1 and
+τ2 phases  in Cu−Nb−Si system obtained from  first-    Nb5Si3 is detected in the Alloy A7 (Cu40Nb35Si25).
+principles calculations and CALPHAD method           The crystal structures of three phases are identified
+                               ΔHf/(J·mol−1)            by XRD, as shown in Fig. 3. Similarly, the Alloy A8
+           End-
+  Phase                  First-principles  CALPHAD,      (Cu20Nb65Si15) consists of three phases (Cu), (Nb)         member
+                         calculations, 0 K    298.15 K      and Nb5Si3_L,  as shown  in  Fig. 2(f), which  is
+         NbCu2        22342         32477        supposed  by  the XRD  result  in  Fig. 3.  The
+                                                            solubility of Cu in NbSi2 was measured to be about         CuNb2        19518         25080
+                                                    3.47 at.% Cu, and that in Nb5Si3 was found to be
+  NbSi2     CuSi2        −86171         −                                                   about 8.35 at.% Cu. The determined composition
+           SiCu2        422366         −                                                   range of the  τ1 phase  is 31.93−35.94 at.% Nb,
+           SiNb2        −31998         −          30.16−33.08 at.%  Si, and 30.98−37.91 at.% Cu.
+          Nb5Cu3        26325         107801       Ternary  compound  τ2 was  not  found  in  this
+                                                      isothermal section at 600 °C.          Cu5Nb3        45228         49228
+                                                        Alloys A9−A16 were prepared for determiningNb5Si3_L   Cu5Si3        22838          −
+                                                        the isothermal section of the Cu−Nb−Si system at
+           Si5Cu 3        50008          −                                              700 °C. Figures 4(a) and 5 show the backscattered
+           Si5Nb3        −8558          −           electron (BSE) images and XRD patterns for the
+     τ1       −         −48592        −54909       Alloy A9 (Cu20Nb15Si65). According to the SEM−
+     τ2       −         −23468         −       EDS and XRD results,  it can be concluded that
+                                                  Alloy A9 is located in the three-phase region, i.e.
+6 Results and discussion                         Cu19Si6 + (Si) + NbSi2. Figures 4(b) and 5 are the
+                                     BSE micrograph and XRD patterns for the Alloy
+                                        A10 (Cu20Nb40Si40), respectively. According to the6.1 Experimental results and discussion
+                                   SEM−EDS and XRD results, it can be concluded     Sixteen alloys were prepared to determine the
+                                                             that Alloy A10 is located in the three-phase regionphase equilibria of the Cu−Nb−Si system at 600
+and  700 °C,   respectively.  The  phases  were     of τ1, Nb5Si3_L and NbSi2. Likewise, three phases,
+identified  by XRD,  and  the  composition  and      i.e.  τ1, NbSi2 and Cu15Si4, coexist in Alloy A11
+microstructure  were  measured  by  SEM−EDS.     (Cu40Nb25Si35), as shown in Figs. 4(c). Figure 4(d)
+Selected  microstructures  and XRD  diffraction    shows  the BSE micrograph  for  the Alloy A13
+patterns  of the annealed samples are shown  in     (Cu74Nb08Si18). The SEM−EDS and XRD analyses
+Figs. 2−5. All the phases in alloys can be easily     indicate that the Alloy A13 is located in a three-
+distinguished   based   on   the    contrast   of    phase  region,  i.e.  τ1,  Cu56Si11 and  Cu15Si4. The
+microstructure  and  chemical  composition.  The    Alloy A14 (Cu78Nb8Si14) shows phase region of τ1 +
+
+--- PDF PAGE 7 ---
+830                        Jia-qiang ZHOU, et al/Trans. Nonferrous Met. Soc. China 33(2023) 824−838
+
+
+
+
+
+Fig. 2 BSE micrographs of Cu−Nb−Si alloys annealed at 600 °C for 40 d: (a) Alloy A1; (b) Alloy A2; (c) Alloy A3;
+(d) Alloy A5; (e) Alloy A7; (f) Alloy A8
+
+                                                  hcp(CuSi) +  Cu56Si11 (see  Fig. 4(e)). The BSE
+                                                 micrograph and XRD patterns of the Alloy A16
+                                                       (Cu40Nb35Si25)   is  shown  in  Figs. 4(f)  and  5,
+                                                           respectively. The SEM−EDS and XRD  analysis
+                                                          indicate  that  the  Alloy A16  is  located  in  a
+                                                       three-phase region,  i.e. (Cu), (Nb) and Nb5Si3_L.
+                                            The determined maximum solubilities of Cu in the
+                                                NbSi2 and Nb5Si3_L phases at 700 °C are about 4.02
+                                                   at.% and 8.66 at.%, respectively. The measured
+                                                   composition of the τ1 phase is 32.0−35.8 at.% Nb,
+                                                  27.0−33.2 at.% Si and 30.9−39.96 at.% Cu. Ternary
+                                           compound τ2 was also not found in the isothermal
+                                                        section at 700 °C.
+Fig. 3 XRD patterns of Alloys A2, A5 and A7 and A8 in        Based on the analyses of the above experimental
+Cu−Nb−Si system annealed at 600 °C for 40 d               results in the present work and the accepted binary
+
+--- PDF PAGE 8 ---
+                            Jia-qiang ZHOU, et al/Trans. Nonferrous Met. Soc. China 33(2023) 824−838                   831
+
+
+
+
+
+Fig. 4 BSE micrographs of Cu−Nb−Si alloys annealed at 700 °C for 30 d: (a) Alloy A9; (b) Alloy A10; (c) Alloy A11;
+(d) Alloy A13; (e) Alloy A14; (f) Alloy A16
+
+                                                  phase diagrams, the isothermal sections of the Cu−
+                                            Nb−Si system at 600 and 700 °C were constructed,
+                                                       as shown in Figs. 6(a) and (b), respectively. It can
+                                                be seen that the phase equilibria of the Cu−Nb−Si
+                                                 system  at 600 and 700 °C are  similar. For  the
+                                                      isothermal  section  at 600 °C, seven  three-phase
+                                                         regions, (Si) + Cu19Si6 + NbSi2, NbSi2 + Nb5Si3_L +
+                                                                          τ1, NbSi2 + Cu15Si4 + τ1, Cu15Si4 + Cu19Si6 + NbSi2,
+                                                      Cu15Si4+Cu56Si11 +  τ1, (Cu) + Nb5Si3_L + τ1, and
+                                                  (Cu) + Nb5Si3_L + (Nb), and a two-phase regions
+                                                                    τ1 + hcp(CuSi), were measured. Two three-phase
+                                                      regions hcp(CuSi) + Cu56Si11 + τ1 and hcp(CuSi) +
+Fig. 5 XRD patterns of Alloys A9, A10, A11 and A16 in    (Cu) +  τ1 were extrapolated based on the Gibbs
+Cu−Nb−Si system annealed at 700 °C for 30 d             phase rule and the phase regions of Alloys A5−A7.
+
+--- PDF PAGE 9 ---
+832                        Jia-qiang ZHOU, et al/Trans. Nonferrous Met. Soc. China 33(2023) 824−838
+Table 4 Phases and compositions determined by XRD and SEM−EDS of Cu−Nb−Si alloys annealed at 600 and 700 °C
+              Nominal          Annealed      Annealed      Phase          Phase composition/at.%
+Alloy No.
+            composition/at.%     temperature/°C      time/d        identified     Cu      Nb         Si
+               Cu20Nb15Si65           600           40             (Si)         0.03       2.99      96.98
+  A1        Cu20Nb15Si65           600           40         NbSi2        0.96      35.98      63.06
+               Cu20Nb15Si65           600           40          Cu19Si6       75.36       0.54       24.1
+               Cu20Nb40Si40           600           40         NbSi2        1.07      37.36      61.57
+  A2        Cu20Nb40Si40           600           40        Nb5Si3_L       2        60.88      37.12
+               Cu20Nb40Si40           600           40               τ1         30.98      35.94      33.08
+               Cu40Nb25Si35           600           40         NbSi2        3.46       36.2      60.34
+  A3        Cu40Nb25Si35           600           40               τ1         33.96      34       32.04
+               Cu40Nb25Si35           600           40          Cu15Si4       78.56       0.4       21.04
+               Cu72Nb3Si25           600           40         NbSi2        3.47      35.45      61.08
+  A4         Cu72Nb3Si25           600           40          Cu19Si6        75.1       0.56      24.34
+               Cu72Nb3Si25           600           40          Cu15Si4       78.55       0.25       21.2
+               Cu78Nb3Si19           600           40               τ1         37.91      31.93      30.16
+  A5         Cu78Nb3Si19           600           40          Cu15Si4       78.49       0.47      21.04
+               Cu78Nb3Si19           600           40          Cu56Si11       83.2       0.17      16.63
+               Cu84Nb3Si13           600           40               τ1         37.07      32.98      29.95
+  A6
+               Cu84Nb3Si13           600           40        hcp(CuSi)      87.86       0.11      12.03
+               Cu40Nb35Si25           600           40               τ1         35.71      34.25      30.04
+  A7        Cu40Nb35Si25           600           40          (Cu)        94.13       3.01       2.86
+               Cu40Nb35Si25           600           40        Nb5Si3_L       5.84      61.12      33.04
+               Cu20Nb65Si15           600           40          (Cu)        96.07       3.07       0.86
+  A8        Cu20Nb65Si15           600           40          (Nb)         3.09      95.88      1.03
+               Cu20Nb65Si15           600           40        Nb5Si3_L       8.35      62.25      29.4
+               Cu20Nb15Si65           700           30             (Si)          1.8        2.25      95.95
+  A9        Cu20Nb15Si65           700           30         NbSi2        2.04      35.11      62.85
+               Cu20Nb15Si65           700           30          Cu19Si6       74.52       0.66      24.82
+               Cu20Nb40Si40           700           30         NbSi2        2.03      37.17      60.8
+  A10        Cu20Nb40Si40           700           30        Nb5Si3_L       2.08       61       36.92
+               Cu20Nb40Si40           700           30               τ1         30.93      35.83      33.24
+               Cu40Nb25Si35           700           30         NbSi2        3.47      35.85      60.68
+  A11        Cu40Nb25Si35           700           30               τ1         33.04      34.65      32.31
+               Cu40Nb25Si35           700           30          Cu15Si4       78.14       0.83      21.03
+               Cu62Nb03Si25           700           30         NbSi2        4.02      34.92      61.06
+  A12        Cu62Nb03Si25           700           30          Cu19Si6       74.71       0.85      24.44
+               Cu62Nb03Si25           700           30          Cu15Si4       78.18       0.28      21.54
+               Cu77Nb03Si20           700           30               τ1         37.99      31.92      30.09
+  A13        Cu77Nb03Si20           700           30          Cu15Si4       78.39       0.98      20.63
+               Cu77Nb03Si20           700           30          Cu56Si11      82.41       0.55      17.04
+               Cu72Nb3Si15           700           30               τ1         40.01      31.96      28.03
+  A14        Cu72Nb3Si15           700           30        hcp(CuSi)      86.65       0.36      12.99
+               Cu72Nb3Si15           700           30          Cu56Si11      82.79       0.74      16.47
+               Cu40Nb35Si25           700           30               τ1         34.66      36.22      29.12
+  A15        Cu40Nb35Si25           700           30          (Cu)        90.83       4.74       4.43
+               Cu40Nb35Si25           700           30        Nb5Si3_L       5.08      61.13      33.79
+               Cu20Nb65Si15           700           30          (Cu)        94.84       4.02       1.14
+  A16        Cu20Nb65Si15           700           30          (Nb)         3.98      92.72       3.3
+               Cu20Nb65Si15           700           30        Nb5Si3_L       8.66      62.07      29.27
+
+--- PDF PAGE 10 ---
+                            Jia-qiang ZHOU, et al/Trans. Nonferrous Met. Soc. China 33(2023) 824−838                   833
+
+
+
+
+
+Fig. 6 Constructed isothermal sections of Cu−Nb−Si system at 600 °C (a) and 700 °C (b)
+
+For the isothermal section at 700 °C, eight three-     Nb5Si3, as well as  τ1 phases calculated by  first-
+phase regions, (Si) + Cu19Si6 + NbSi2, NbSi2 +     principles were used as the reasonable initial values.
+Nb5Si3_L +  τ1, NbSi2 + Cu15Si4 +  τ1, Cu15Si4 +    Then,  the  data  of  three-phase  region  of  the
+Cu19Si6 + NbSi2, Cu15Si4 + Cu56Si11 + τ1, hcp(CuSi)     isothermal  sections  at  600  and  700 °C  were
++ Cu56Si11 + τ1, (Cu) + Nb5Si3_L + τ1, and (Cu) +    considered one by one in the optimization process.
+Nb5Si3_L + (Nb), were determined. According to     Finally, all parameters were optimized simultaneously
+the Gibbs phase  rule and the phase regions of     to   achieve   a   self-consistent  thermodynamic
+Alloys  A14  and  A15,  a  three-phase  region     description. The obtained thermodynamic parameters
+hcp(CuSi) + (Cu) + τ1 was extrapolated.                 of the Cu−Nb−Si system are listed in Table 5.
+   EDS analyses indicated that the solubilities of        The  enthalpies  of  formation  for  the  end-
+Cu in the (Nb) phase are about 3.09 and 3.98 at.%    members of the NbSi2, Nb5Si3_L and the ternary
+at  600  and  700 °C,  respectively.  Besides,  the    compound τ1 as well as τ2 phases computed by the
+measured maximum solubilities of Cu in the NbSi2     first-principles  calculations  compared  with  the
+phase are about 4.02 and 3.47 at.% at 600 and   CALPHAD approach are summarized in Table 3.
+700 °C, respectively, and those of the measured   As shown in Table 3, most of the enthalpies of
+maximum solubilities of Cu in the Nb5Si3_L phase    formation for the end-members by using the first-
+are about 8.35 and 8.66 at.% at 600 and 700 °C,     principles calculations and CALPHAD approach
+respectively. According to the EDS results listed in     are in reasonable agreement except for the end-
+Table  4, the homogeneity range of  τ1 phase  is    members Nb5Cu3. In order to reproduce the three-
+32.0−35.8 at.% Nb, 27.0−33.2 at.% Si and 30.9−    phase regions (Cu) + Nb5Si3_L + (Nb) and (Cu) +
+39.96 at.% Cu. The solubilities of Nb in the Cu19Si6,    Nb5Si3_L + τ1, as well as the solubility of Nb5Si3_L,
+Cu15Si4,   Cu56Si11,  and  hcp(CuSi)  phase   are     the enthalpy of formation  for the end-members
+measured to be less than 1 at.%.                    Nb5Cu3  should  be  more  positive  than  those
+                                                        calculated by the first-principles calculations.
+6.2  Thermodynamic  calculation  results  and         Figures 7(a)  and  (b)  show  the  calculated
+     discussion                                       isothermal sections at 600 and 700 °C of the Cu−
+    Based on the experimental data available in the    Nb−Si system in comparison with the experimental
+present work and literature, the Cu−Nb−Si system     data from the present work, respectively. It is found
+was  evaluated  by   the  optimization  module     that  the isothermal  sections  at 600 and 700 °C
+PARROT  [64]  of  the  program  Thermo-Calc     contain nine three-phase regions, i.e., (Si) + Cu19Si6
+software, which works by minimizing the square   + NbSi2, NbSi2 + Nb5Si3_L + τ1, NbSi2 + Cu15Si4 +
+sum  of  the  differences between measured and      τ1, Cu15Si4 + Cu19Si6 + NbSi2, Cu15Si4+Cu56Si11 + τ1,
+calculated values. In the first step, the enthalpies of    hcp(CuSi) + Cu56Si11 + τ1, (Cu) + Nb5Si3_L + τ1,
+formation at 0 K for the end-members of the NbSi2,    hcp(CuSi) + (Cu) + τ1, and (Cu) + Nb5Si3_L + (Nb).
+
+--- PDF PAGE 11 ---
+834                        Jia-qiang ZHOU, et al/Trans. Nonferrous Met. Soc. China 33(2023) 824−838
+Table 5 Obtained thermodynamic parameters of Cu−Nb−Si system in present work
+ Phase              Model                              Thermodynamic parameter a
+                                                                                                                                                                            15 Si 4 ,                                            ΘGNb,SiCu                                                                                                   15 Si 4 = 90000 + (15/19) ΘGNbCu                                                                                                                                               15 Si 4 + (4/19) ΘGSiCu
+ Cu15Si4            (Cu,Nb)15/19(Si)4/19
+                                                                                                                                 15 Si 4 = −18897                                                          ΘGCu,Nb:SiCu
+                                                                                                                                                                           19 Si 6 ,                                            ΘGNb:SiCu                                                                                                    19 Si 6 = 5000 + (19/25) ΘGNbCu                                                                                                                                              19 Si 6 + (6/25) ΘGSiCu
+ Cu19Si6            (Cu,Nb)19/25(Si)6/25
+                                                                                                                              19 Si 6 = −18758                                                         ΘGCu,Nb:SiCu
+                                                                                                                                                                               56 Si11 ,                                                                                               56 Si11 = 117620 + (56/67) ΘGCuCu                                          ΘGNb:SiCu                                                                                                                                               56 Si11 + (11/ 67) ΘGSiCu
+ Cu56Si11           (Cu,Nb)56/67(Si)11/67
+                                                                                                                                 56 Si11 = −8843                                                          ΘGCu,Nb:SiCu
+                                                                                                                                                                            5Si 3 _L ,                                                                                                                                               5Si 3 _L + 0.375 ΘGCuNb                                           ΘGNb:CuNb                                                                                                 5 Si 3 _L = 107801 + 0.625 ΘGNbNb
+                                                                                                                                                                            5 Si 3 _L ,                                                                                                  5 Si 3 _L = 49228 + 0.625 ΘGCuNbNb5Si3_L     (Cu,Nb,Si)0.625(Cu,Nb,Si) 0.375         ΘGNb:CuNb                                                                                                                                              5 Si 3 _L + 0.375 ΘGNbNb
+                                                                                                                      5 Si 3 _L = −385487.03 − 5.78T                                                    ΘGNb:Cu,SiNb
+
+                                                                                                                                                          2 ,                                                       ΘGCu:CuNbSi                                                                                                                             2 = 5000 + ΘGCuNbSi
+                                                                                                                                                          2 ,                                                       ΘGNb:NbNbSi                                                                                                                             2 = 5000 + ΘGNbNbSi
+
+                                                                                                                                                                          2 ,                                                                                                                                                 2 + (2/3) ΘGCuNbSi NbSi2     (Cu,Nb,Si)0.333333(Cu,Nb,Si)0.66667           ΘGNb:CuNbSi                                                                                                           2 = 32477 + (1/3) ΘGNbNbSi
+
+                                                                                                                                                                           2 ,                                                                                                            2 = 25080 + (1/3) ΘGCuNbSi                                               ΘGCu:NbNbSi                                                                                                                                                  2 + (2/3) ΘGNbNbSi
+                                                                                                                                 2  = −74536                                                         ΘGNb:Cu,SiNbSi
+
+                                                                                                                                                                                               1                                                                                    1    = −54909 − 4.615T + (4/13) ΘGτCu    τ1              (Cu)5/14(Nb)5/14(Si)5/14       ΘGτCu:Nb:Si                                                                                                                                                 1 + (5/13) ΘGτNb                                                                                                                                                                       1 + (4 /13) ΘGτSi
+a Temperature (T) in K, and Gibbs energy in J/mol
+The Gibbs energies for the pure elements were derived from the compilation of DINSDALE [52]. The thermodynamic parameters for the
+Cu−Nb, Cu−Si and Nb−Si systems from HÄMÄLÄINEN et al [38], YAN and CHANG [36], and GENG et al [26], respectively, were
+adopted in the present work
+
+
+
+
+
+Fig. 7 Calculated isothermal sections of Cu−Nb−Si system at 600 °C (a) and 700 °C (b) along with experimental data
+from present work
+
+As can be seen from these calculated isothermal     the (Nb) phase, and Nb and Si in the (Cu) phase are
+sections,  most  of  the  calculated  data show  a     noticeably smaller than the measured one. In the
+reasonable  agreement  with  the  measured  ones     calculated Cu−Nb and Si−Nb phase diagrams (see
+except some data points in the Nb- and Cu-rich     Fig. 1), the solubilities of Cu and Si in the (Nb)
+corners. The calculated solubilities of Cu and Si in    phase  are  small  below 600 °C.  It  makes  the
+
+--- PDF PAGE 12 ---
+                            Jia-qiang ZHOU, et al/Trans. Nonferrous Met. Soc. China 33(2023) 824−838                   835
+calculated solubility of the (Nb) phase lower than    Thus, the reported three-phase region (Cu) + τ1 +
+the experimental one. Likewise, the same reason    (Nb) seemed to be questionable [20]. On the other
+can be elucidated for the discrepancy of solubilities    hand, ZANKL and MALTER [21] did not detect the
+in the Cu-rich corner. The calculated solubilities of    hcp(CuSi), bcc(CuSi), Cu33Si7 and τ1 phases in their
+Cu  in  the Nb5Si3_L phase  are about 8.51 and     experiments. The  experimental  results  [21]  are
+8.57 at.%, at 600 and 700 °C, respectively, showing     inconsistent with the accepted Cu−Si binary phase
+a reasonable agreement with the measured values of    diagram in Fig. 1(b). We surmise that the samples
+8.35 and 8.66 at.%. The calculated solubilities of    were annealed  at 800 °C for only 20 h without
+Cu in the NbSi2 phase are about 3.66 and 3.97 at.%    reaching phase equilibrium condition [21]. Based
+at  600  and  700 °C,  respectively,  which  are    on the above discussions, the data from SAVITSKII
+consistent with the experimental results of 3.47 and     et al [20] and ZANKL and MALTER [21] were not
+4.02 at.%. The  calculated  solubilities  of Nb  in    used during the thermodynamic optimization.
+Cu19Si6, Cu15Si4, Cu56Si11, and hcp(CuSi) are all less
+than 1 at.%, which are consistent with experimental   7 Conclusions
+data. In  Fig. 8,  calculated isothermal  section  at
+800 °C  of  the Cu−Nb−Si  system  is compared          (1) The phase  equilibria of  the Cu−Nb−Si
+with the observed ones by SAVITSKII et al [20]    system  at  600  and  700 °C  were  investigated
+and ZANKL and MALTER [21].  It can be seen    by XRD  and  SEM−EDS.  According  to  the
+in  Fig. 8(a)  that  nine  three-phase  regions,  i.e.,    experimental results, two isothermal sections were
+(Si) + Cu19Si6 + NbSi2, NbSi2 + Nb5Si3_L + τ1, τ1 +     constructed. Ternary compound τ1 (Cu4Nb5Si4) was
+Cu19Si6 +  NbSi2,  Cu33Si7 +  Cu19Si6 +  NbSi2,    confirmed to exist in the Cu−Nb−Si ternary system
+Cu33Si7 + bcc(CuSi) + τ1, hcp(CuSi) + bcc(CuSi) +     at 600 and 700 °C.
+τ1, (Cu) + Nb5Si3_L + τ1, hcp(CuSi) + (Cu) + τ1, and          (2)  The  first-principles  calculations  were
+(Cu) + Nb5Si3_L + (Nb) were calculated. However,    performed to compute the enthalpies of formation at
+the  present  calculated  phase  relations  are  not    0 K for the end-members of the NbSi2, Nb5Si3_L
+consistent with the experimental data [20,21]. These    and the ternary compound τ1 as well as τ2 phases to
+discrepancies can be interpreted by the following    provide reasonable initial values.
+two reasons. On the one hand, according to the          (3) The measured maximum solubilities of Cu
+present experimental  results,  as  the temperature     in Nb5Si3_L and NbSi2 at 700 °C are about 8.66
+increases, the Nb5Si3_L phase extends more into the    and  4.02 at.%,   respectively.  At  600 °C,   the
+three-phase  region,  and  the  three-phase  region   maximum solubilities of Cu in Nb5Si3_L and NbSi2
+(Cu) + Nb5Si3_L + (Nb) will be more stable, which     are  about  8.35  and  3.47 at.%,   respectively.
+may not be replaced by the three-phase region    The  homogeneity  range  of  τ1  phase  is  32.0−
+(Cu) +  τ1 + (Nb). The samples may not diffuse     35.8 at.% Nb, 27.0−33.2 at.% Si and 30.9−39.96 at.%
+completely even after 200 h of annealing at 800 °C.    Cu. The measured solubilities of Nb in Cu19Si6,
+
+
+
+
+
+Fig. 8 Calculated (a) and observed (b) isothermal sections of Cu−Nb−Si system at 800 °C
+
+--- PDF PAGE 13 ---
+836                        Jia-qiang ZHOU, et al/Trans. Nonferrous Met. Soc. China 33(2023) 824−838
+Cu15Si4, Cu56Si11, and hcp(CuSi) are all less than          and copper alloys [J]. JOM, 2014, 66(6): 1000−1019.
+1 at.%.                                                                  [8]  MA Rui, GUO Xi-ping. Influence of molybdenum contents
+     (4) The thermodynamic  assessment  of  the          on the microstructure, mechanical properties and oxidation
+                                                                         behavior   of   multi-elemental  Nb−Si  based   ultrahigh
+Cu−Nb−Si system was carried out by using the                                                                          temperature alloys [J]. Intermetallics, 2021, 129: 107053.
+CALPHAD method based on the experimental data      [9]  SUN Guang-xin, JIA Li-na, YE Cheng-tong, JIN Zu-heng,
+available in the present work and literature. A set of       WANG Yu, LI Hang, ZHANG Hu. Balancing the fracture
+self-consistent thermodynamic parameters of the           toughness and tensile strength by multiple additions of Zr
+Cu−Nb−Si  systems was  obtained. The  present          and Y in Nb−Si based alloys [J]. Intermetallics, 2021, 133:
+thermodynamic parameters can reproduce most of           107172.
+                                                                       [10] KARTAVYKH A V, KALOSHKIN S D, CHERDYNTSEV Vthe reliable experimental data.                                                                            V, GORSHENKOV M V, SVIRIDOVA T A, BORISOVA Y
+                                                                            V, SENATOV F  S, MAKSIMKIN A V. Application of
+Acknowledgments                                                microstructured intermetallides in turbine manufacture. Part
+    The work was  supported by  the  National             1: Present  state and prospects  (a review)  [J]. Inorganic
+Natural  Science  Foundation   of  China  (No.            Materials: Applied Research, 2013, 4 (1): 12−20.
+52071002),   the   National   Natural   Science      [11] HU Biao, DU Yong, LIU Shu-hong, LIU Yu-ling, HUANG
+Foundation  of  Anhui  Province,  China  (No.            Lei, SHI Chen-ying. A new thermodynamic database for
+2008085QE200),  and  the  Major  Science  and           multicomponent Cu alloys [J]. Calphad, 2019, 67: 101618.
+                                                                       [12] QIU Cheng-liang, HU Biao, ZHOU Jia-qiang, WU Pei-lu,
+Technology Project of Precious Metal Materials                                                          LIU Yin, WANG Cheng-jun, DU Yong. The phase equilibria
+Genetic Engineering in Yunnan Province, China            of  the Cu–Cr–Ni and Cu–Cr–Ag systems: Experimental
+(Nos. 2019ZE001-1, 202002AB080001).                           investigation and thermodynamic modeling  [J]. Calphad,
+                                                                       2020, 68: 101734.
+References                                                      [13] QIU Cheng-liang, HU Biao, ZHANG Yu, WANG Xiu-yu,
+                                           WANG Qing-ping, MIN Fan-fei, DU Yong. Experimental
+                                                                                 investigation and thermodynamic modeling of the Cu–Ag–Si[1]  YI Jiang, JIA Yan-lin, ZHAO Yu-yuan, XIAO Zhu, HE
+                                                                               ternary   system    [J].   The   Journal   of   Chemical      Ke-jian, WANG Qi, WANG Ming-pu, LI Zhou. Precipitation
+                                                                  Thermodynamics, 2020, 150: 106172.      behavior of Cu−3.0Ni−0.72Si alloy  [J]. Acta  Materialia,
+                                                                       [14] ZHOU Jia-qiang, HU Biao, SHI Yu-chao, WANG Qing-ping,     2019, 166: 261−270.
+                                           WANG Cheng-jun, DU Yong. Experimental investigation[2]  XIAO Meng  , DU Yong, LIU Zhi-jian, XU Kai, CHEN
+                                                                   and thermodynamic modeling of the phase equilibria in the     Chong, QIU Lian-chang, ZHANG Hua-qing, LIU Yu-ling,
+                                                         Cu−Nb−Ni ternary system [J]. Journal of Phase Equilibria    LIU Shu-hong. Phase equilibria of the Cu−Zr−Si system at
+                                                                  and Diffusion, 2021, 42(1): 150−163.     750 and 900 °C [J]. Calphad, 2020, 68: 101727.
+[3]  WANG Jian, ZHANG Hong-tao, FU Hua-dong, XIE Jian-xin.     [15] DREVAL L, ZENG Yin-ping, DOVBENKO O, DU Yong,
+      Effect of Cr content on microstructure and properties of aged         LIU   Shu-hong,  HU    Biao,  ZHANG   Hua-qing.
+    Cu−Cr−P  alloys  [J].  Transactions  of Nonferrous Metals          Thermodynamic description and simulation of solidification
+      Society of China, 2021, 31(1): 232−242.                                microstructures in the Cu−Mg−Zn system  [J]. Journal of
+[4]  WANG  Xu,  LI  Zhou,  XIAO  Zhu,  QIU  Wen-ting.            Materials Science and Technology, 2021, 56: 10614−10639.
+      Microstructure evolution and hot deformation behavior of      [16] ZHANG Yu, HU Biao, LI Ben-fu, ZHANG Man, WANG
+     Cu−3Ti−0.1Zr   alloy   with   ultra-high   strength    [J].           Qing-ping, DU  Yong.  Experimental  investigation  and
+      Transactions of Nonferrous Metals Society of China, 2020,       CALPHAD modeling of the Cu−Cr−Si ternary system [J].
+      30(10): 2737−2748.                                                Calphad, 2021, 74: 102324.
+[5]  ZHAO Chao, WANG Zhi, PAN De-qing, LI Dao-xi, LUO      [17] LUKAS H L, FRIES S G, SUNDMAN B. Computational
+      Zong-qiang, ZHANG  Da-tong, YANG  Chao, ZHANG           thermodynamics: The CALPHAD method [M]. Cambridge:
+     Wei-wen. Effect of Si and Ti on dynamic recrystallization of          Cambridge University Press, 2007.
+      high-performance   Cu−15Ni−8Sn    alloy   during   hot      [18] LIU Zi-kui, WANG Yi. Computational thermodynamics of
+      deformation [J]. Transactions of Nonferrous Metals Society            materials [M]. Cambridge: Cambridge  University  Press,
+      of China, 2019, 29(12): 2556−2565.                                  2016.
+[6]  KOMARASAMY M, LI X, WHALEN S A, MA X L,      [19] GANGLBERGER E. The crystal structure of Nb5Cu4Si4 [J].
+    CANFIELD N, OLSZTA M  J, VARGA T, SCHEMER-           Monatshefte Für Chemie, 1968, 99: 549−556. (in German)
+   KOHRN A L, YU A Q, OVERMAN N R, MATHAUDHU S      [20]  SAVITSKII E M, EFIMOV Y V, FROLOVA T M. Copper
+     N, GRANT G  J.  Microstructural  evolution  in Cu−Nb             effect  on  structure  and  superconductive  properties  of
+      processed via friction consolidation [J]. Journal of Materials             transition metal  silicides  [J]. Neorganicheskie  Materialy,
+      Science and Technology, 2021, 56(22): 12864−12880.                  1979, 15(4): 512−515.
+[7]  TSCHOPP M  A, MURDOCH H  A, KECSKES L  J,      [21] ZANKL R, MALTER R. Phase equilibria in the system
+    DARLING K A. “Bulk” nanocrystalline metals: Review of           copper–niobium–silicon  [J].  Zeitschrift  Für  Metallkunde,
+      the current state of the art and future opportunities for copper           1981, 72(10): 720−724.
+
+--- PDF PAGE 14 ---
+                            Jia-qiang ZHOU, et al/Trans. Nonferrous Met. Soc. China 33(2023) 824−838                   837
+[22] PAN V M, LATYSHEVA V I, KULIK O G, POPOV A G.      [38] HÄMÄLÄINEN M, JÄÄSKELÄINEN  K, LUOMA  R,
+      Influence of alloying with germanium and copper on the        NUOTIO M, TASKINEN P, TEPPO O. A thermodynamic
+      conditions of formation of the superconducting compound            analysis of the binary alloy systems Cu−Cr, Cu−Nb and
+     Nb3Si [J]. Russian Metallurgy, 1982, 3: 167−171.                Cu−V [J]. Calphad, 1990, 14(2): 125−137.
+[23] VILLARS  P, CALVERT L D.  Pearson’s handbook  of      [39] FERNANDES P B, COELHO G C, FERREIRA F, NUNES
+      crystallographic data [M]. Materials Park: American Society       C A, SUNDMAN B. Thermodynamic modeling of the Nb−Si
+      for Metals, 1991.                                                 system [J]. Intermetallics, 2002, 10: 993−999.
+[24] OLESINSKI R W, ABBASCHIAN G J. The Cu−Si (copper–      [40] YANG Y, CHANG Y A, ZHAO  J C, BEWLAY B  P.
+       silicon) system [J]. Bulletin of Alloy Phase Diagrams, 1986,          Thermodynamic modeling of the Nb−Hf−Si ternary system
+      7: 170−178.                                                                            [J]. Intermetallics, 2003, 11: 407−415.
+[25] GENG Tai, LI Chang-rong, BAO Jing, ZHAO Xing-qing,      [41] SHAO G. Thermodynamic assessment of  the Nb−Si−Al
+   DU Zhen-min, GUO Cui-ping. Thermodynamic assessment           system [J]. Intermetallics, 2004, 12: 655−664.
+      of  the Nb−Si−Ti  system  [J].  Intermetallics,  2009,  17:      [42] DAVID N, CARTIGNY Y, BELMONTE T, FIORANI J M,
+     343−357.                                               VILASI M. Thermodynamic description of the Cr−Nb−Si
+[26] GENG Tai, LI Chang-rong, ZHAO Xing-qing, XU Hui-bin,            isothermal section at 1473 K [J]. Intermetallics, 2006, 14:
+   DU Zhen-min, GUO Cui-ping. Thermodynamic assessment          464−473.
+      of the Nb−Si−Mo system [J]. Calphad, 2010, 34: 363−376.        [43] POPOV I A, SHIRYAEVA N V. Equilibrium diagram of the
+[27] FUJIO S, TANAKA K, INUI H. Formation probability for        Cu−Nb system [J]. Russian Journal of Inorganic Chemistry,
+      enantiomorphic crystals (with the space groups of P6222 and           1961, 6: 1184−1187.
+     P6422) in transition-metal disilicides with the C40 structure      [44] VERHOEVEN J D, GIBSON E D. The monotectic reaction
+      as determined by convergent-beam electron diffraction [J].             in Cu−Nb alloys [J]. Journal of Materials Science, 1978, 13:
+      Intermetallics, 2007, 15(3): 245−252.                              1576−1582.
+[28] MORRAL F R, WESTGREN A. The crystal structure of a      [45] TEREKHOV G I, ALEXANDROVA L N. Phase equilibria
+     complex copper−silicon compound  [J]. Arkiv foer Kemi,        Cu−Nb [J]. Izvestiya Akademii Nauk SSSR, Metally, 1984, 4:
+      Mineralogi och Geologi, 1934, 11B: 1−6.                           210−213. (in Russian)
+[29] SOLBERG K J. The crystal structure of η-Cu3Si precipitates      [46] OKAMOTO H. Cu−Nb (copper−niobium)  [J]. Journal of
+      in silicon [J]. Acta Crystallographica A, 1978, 34: 684−698.            Phase Equilibria and Diffusion, 1991, 12: 614−615.
+[30] MUKHERJEE K P, BANDYOPADHYAYA J, GUPTA K P.      [47] SMITH  J  F, LEE K  J, BAILEY D M.  Resolution  of
+     Phase  relationship and  crystal  structure  of  intermediate             conflicting data: I. Temperature and equilibrium [J]. Bulletin
+      phases in the Cu−Si system in the composition range 17 to            of Alloy Phase Diagrams, 1984, 5(2): 133−134.
+     25 at. pct Si [J]. Transaction of American Institute of Mining,      [48] CHAKRABARTI D J, LAUGHLIN D E. "Cu−Nb (copper−
+      Metallurgical, and Petroleum Engineers (AIME), 1969, 245:           niobium)" phase diagrams of binary copper  alloys [M].
+     2335−2338.                                                           Materials Park: American Society for Metals International,
+[31] SHIN D, SAAL J E, LIU Zi-kui. Thermodynamic modeling           1994.
+      of the Cu−Si system [J]. Calphad, 2008, 32: 520−526.             [49]  LI D, ROBINSON M B, RATHZ T  J, WILLIAMS G.
+[32] JACOBS M, BÜHLER T. System Cu−Si, in: COST 507:           Liquidus temperatures and  solidification behavior  in  the
+     thermochemical database for light metal alloys [J]. European           copper–niobium  system  [J].  Acta  Materialia,  1998,  46:
+     Communities, 1998, 2: 178−181.                                  3849−3855.
+[33] GIERLOTKA W, AZIZUL HAQUE M. On the binary (Cu +      [50]  LI D, ROBINSON M B, RATHZ T  J. Measurements of
+      Si) system: Thermodynamic modelling of the phase diagram            liquidus temperatures in the Cu−Nb and Cu−Cr systems [J].
+     and atomic mobility in face centred cubic phase  [J]. The            Journal of Phase Equilibria, 2000, 21: 136−140.
+      Journal of Chemical Thermodynamics, 2013, 57: 32−38.           [51] REID J S, KOLAWA E, NICOLET M A. Thermodynamics
+[34] HALLSTEDT B, GRÖBNER  J, HAMPL M, SCHMID-            of (Cr, Mo, Nb, Ta, V, or W)−Si−Cu ternary systems [J].
+    FETZER R. Calorimetric measurements and assessment of            Journal of Materials Research, 1992, 7(9): 2424−2428.
+      the binary Cu−Si and ternary Al−Cu−Si phase diagrams [J].      [52] DINSDALE A T. SGTE data for pure elements [J]. Calphad,
+      Calphad, 2016, 53: 25−38.                                          1991, 15: 317−425.
+[35] SUFRYD K, PONWEISER N, RIANI P, RICHTER K W,      [53] REDLICH  O,  KISTER A   T.  Thermodynamics   of
+    CACCIAMANI G. Experimental investigation of the Cu−Si            nonelectrolyte  solutions  [J].  Industrial  and  Engineering
+     phase diagram at x(Cu)>0.72 [J]. Intermetallics, 2011, 19:           Chemistry, 1948, 40: 345−348.
+     1479−1488.                                                     [54] MUGGIANU Y M, GAMBINO M, BROSS L P. Comparison
+[36] YAN X Y, CHANG Y A. A thermodynamic analysis of the          between calculated and measured thermodynamic data of
+     Cu−Si system [J]. Journal of Alloys and Compounds, 2000,             liquid  (Ag, Au, Cu)−Sn−Zn  alloys  [J].  The  Journal  of
+      308: 221−229.                                                  Chemical Physics, 1975, 72: 85−91.
+[37] DU Yong, LIU Shu-hong, ZHANG Li-jun, XU Hong-hui,      [55] HILLERT M, STAFFANSSON L  I. The regular-solution
+    ZHAO Dong-dong, WANG Ai-jun, ZHOU Liang-cai. An          model for stoichiometric phases and ionic melts [J]. Acta
+     overview on phase equilibria and thermodynamic modeling          Chemica Scandinavica, 1970, 24: 3618−3626.
+      in multicomponent Al alloys: Focusing on the Al−Cu−Fe−      [56] SUNDMAN B, ÅGREN  J. A regular solution model for
+    Mg–Mn−Ni−Si−Zn  system   [J].  Calphad,  2011,  35(3):           phases with several components and sublattices, suitable for
+     427−445.                                                      computer applications [J]. Journal of Physics and Chemistry
+
+--- PDF PAGE 15 ---
+838                        Jia-qiang ZHOU, et al/Trans. Nonferrous Met. Soc. China 33(2023) 824−838
+      of Solids, 1981, 42: 297−301.                                            basis set [J]. Physical Review B, 1996, 54: 11169−11186.
+[57] HOHENBERG P, KOHN W. Density functional theory [J].      [62] KRESSE G, FURTHMÜLLER J. Efficiency of ab-initio total
+      Physical Review, 1964, 136: B864−B871.                            energy calculations for metals and semiconductors using a
+[58] KOHN W, SHAM L J. Self-consistent equations including           plane-wave basis set [J]. Computational Materials Science,
+     exchange and correlation effects [J]. Physical Review, 1965,           1996, 6: 15−50.
+      140: A1133−A1138.                                             [63] HU Biao, YUAN Xiao-ming, DU Yong, WANG Jiong, LIU
+[59] BLÖCHL P  E.  Projector  augmented-wave  method  [J].             Zi-kui.  Thermodynamic  reassessment  of  the  Ni−Si−Ti
+      Physical Review B, 1994, 50:17953−17979.                         system using a four-sublattice model for ordered/disordered
+[60] KRESSE G, JOUBERT D. From ultrasoft pseudopotentials            fcc phases supported by  first-principles  calculations  [J].
+      to  the  projector  augmented-wave  method  [J].  Physical            Journal of Alloys and Compounds, 2017, 693: 344−356.
+     Review B, 1999, 59: 1758−1775.                                 [64] SUNDMAN B, JANSSON B, ANDERSSON  J O. The
+[61] KRESSE G, FURTHMÜLLER J. Efficient iterative schemes           thermo-calc  databank  system   [J].  Calphad,  1985,  9:
+      for ab initio total-energy calculations using a plane-wave          153−190.
+
+
+        体系相平衡的实验研究和热力学模拟     Cu−Nb−Si
+
+                 周佳强1,2，胡 标1,3，李奔富1,3，杜 勇2，汪 炯2
+
+
+                                       1. 安徽理工大学 材料科学与工程学院，淮南 232001；
+                                       2. 中南大学 粉末冶金国家重点实验室，长沙 410083；
+                               3. 安徽省纳米碳基材料与环境健康国际联合研究中心，淮南 232001
+
+
+  摘 要：通过关键实验、热力学建模和第一性原理计算相结合的方法研究Cu−Nb−Si 体系的相平衡关系。制备16
+  种三元合金，采用X 射线衍射仪(XRD)和扫描电子显微镜结合X 射线能谱仪(SEM−EDS)，测定三相和两相区范
+   围，证实三元化合物τ1(Cu4Nb5Si4)的存在，同时测定Cu 在NbSi2 和Nb5Si3 相中的溶解度，最终确定Cu−Nb−Si
+   体系在600 和700 ℃的等温截面。基于文献和本工作的实验数据，结合第一性原理计算和CALPHAD 方法，利用
+   替代模型和亚点阵模型分别描述溶体相和中间化合物，对Cu−Nb−Si 体系进行热力学计算，最终得到一套自洽的
+
+  热力学参数。通过计算与实验结果相比较，所获得的热力学参数能再现可靠的实验数据。
+   关键词：Cu−Nb−Si 体系；热力学模拟；第一性原理计算；CALPHAD 方法
+                                                                                              (Edited by Xiang-qun LI)

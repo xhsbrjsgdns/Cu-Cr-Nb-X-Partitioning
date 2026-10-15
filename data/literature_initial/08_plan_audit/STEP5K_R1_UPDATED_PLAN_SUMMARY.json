@@ -1,0 +1,31 @@
+{
+  "generated_utc": "R1 (STEP5K-R1) completion audit update",
+  "document_provenance": {
+    "original_plan_docx_path": null,
+    "docx_available": false,
+    "audit_source": "V1_PLAN_EXTRACTED_TEXT.txt (149 paragraphs + 42 tables) as preserved in STEP5K_ORIGINAL_PLAN_GAP_CLOSURE_V1/00_config; the original Cu-Cr-Nb-X_CALPHAD_ML_纯计算系统研究方案_V1.0.docx was NOT found on disk during R1 (searched E:\\Cu_CALPHAD_ML recursively for *.docx).",
+    "independent_docx_verification": false,
+    "limitation": "Plan audit is against the preserved extracted-text derivative, not the DOCX; no claim of independent DOCX verification is made."
+  },
+  "label_corrections": [
+    {
+      "label": "global Pareto finalists",
+      "verified_fact": "exactly 5 finalists, all X_identity = ZR (K5_ZR_02188/15989/16501/18805/19573, pareto_rank=1, selected_finalist=1); global front ranks 1..50 are 100% Zr by construction of the sweep",
+      "correction": "do NOT claim cross-family finalist fairness; global Pareto = 5 Zr candidates only."
+    },
+    {
+      "label": "family-specific fronts",
+      "verified_fact": "family_pareto_rank exists per family (secondary)",
+      "correction": "family fronts are SECONDARY and must not be described as equally validated global candidates."
+    },
+    {
+      "label": "scaler claims",
+      "verified_fact": "STEP5K_SCREENING_RULES_FREEZE.json: 'scaler: StandardScaler fitted on the reference rows only (geometry convention from frozen STEP5E maximin; not a model scaler)' and STEP5K Supplementary insertions disclose 'The OOD geometry scaler was newly fitted on frozen reference rows ... production model scalers were unchanged.'",
+      "correction": "PRESERVE this disclosure; do NOT state 'no scaler fit occurred anywhere'."
+    }
+  ],
+  "closed_items_by_r1": [
+    "P05 (presence-threshold sensitivity + NaN/tolerance audit)",
+    "P09 (family composition-temperature phase maps)"
+  ]
+}

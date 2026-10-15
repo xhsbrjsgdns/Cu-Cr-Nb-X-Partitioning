@@ -1,0 +1,17 @@
+id,check,result,detail
+I01,STEP5H-B Ni targets sha256 unchanged,PASS,live 3e1f4ba2cf6e4712 | expected 3e1f4ba2cf6e4712
+I02,STEP5H-A PRIMARY zero-shot predictions sha256 unchanged,PASS,live 100b40ed67c396cb | expected 100b40ed67c396cb
+I03,maximin anchor sequence sha256 unchanged,PASS,live 6704c7e9d71f64dc | expected 6704c7e9d71f64dc
+I04,nested random sequences sha256 unchanged,PASS,live 9c9389a100ee064b | expected 9c9389a100ee064b
+I05,STEP5G PRIMARY checkpoint sha256 unchanged,PASS,live f89e4ddc2f367a57 | expected f89e4ddc2f367a57
+I05b,STEP5G PRIMARY scaler and SECONDARY checkpoint unchanged,PASS,"{'G_PRIMARY_SCALER': 'c2619e4aed54304a', 'G_SECONDARY_CHECKPOINT': 'a685b2138f114f32'}"
+I06,frozen PRIMARY and SECONDARY blind scores unchanged,PASS,PRIMARY 0.8643856187 | SECONDARY 0.7234409098506132 | trivial 0.5957669021
+I07,STEP5I protocol matches the frozen STEP5G preregistration,PASS,"LR 0.0003, batch 1024, <=200 epochs, patience 15, seed 2266358626, budgets [1, 2, 4, 8, 16, 32] nested, 3 replicates, PRIMARY_FORMULATION_REFIT"
+I08,split is 600 / 1400 and reproduces from the frozen rule,PASS,"{'RECOVERY_EVALUATION': 1400, 'FEWSHOT_CALIBRATION': 600} | one role per composition: True | independent reproduction matches: True"
+I09,"RECOVERY_EVALUATION is exactly 15,400 states (1400 x 11), all converged",PASS,15400 states | converged 15400 | temperatures per composition 11-11
+I10,every frozen anchor id lies inside the calibration pool,PASS,"96 random + 32 maximin ids, all in the 600"
+I11,nested prefixes hold for all four sequences (1 in 2 in 4 ... 32),PASS,1 c 2 c 4 c 8 c 16 c 32 verified 4x
+I12,no anchor composition is a recovery-evaluation composition,PASS,anchor pool and evaluation set are disjoint by construction
+I13,"frozen PRIMARY train/validation ID files present, disjoint, Ni-free",PASS,train 241748 / validation 51802 rows | shared ids 0 | Ni rows 0
+I14,the 43 frozen production features exist in both the Ni table and the original-six table,PASS,schema 43 features | missing from Ni table: none | missing from the original-six table: none
+I15,"NBNI3 present in the frozen vocabulary, mapped to OTHER_SOLID, 300-600 degC only",PASS,"8579 states, ['OTHER_SOLID'], 300-600 degC (mapping is frozen and not changed here)"

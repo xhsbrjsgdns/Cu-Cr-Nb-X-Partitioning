@@ -1,0 +1,52 @@
+[
+  {
+    "id": "CO_Zhou2016",
+    "url": "https://www.tsijournals.com/articles/phase-equilibria-of-the-cuconb-system-at-1198-k.pdf",
+    "status": "FAILED",
+    "error": "HTTPSConnectionPool(host='www.tsijournals.com', port=443): Read timed out. (read timeout=35)"
+  },
+  {
+    "id": "SI_Zhou2023",
+    "url": "https://tnmsc.csu.edu.cn/EN/PDF/10.1016/S1003-6326(23)66149-7",
+    "resolved_url": "https://tnmsc.csu.edu.cn/EN/PDF/10.1016/S1003-6326(23)66149-7",
+    "status": "OK",
+    "pages": 15,
+    "chars": 50307
+  },
+  {
+    "id": "AG_Sun2020",
+    "url": "https://mdpi-res.com/d_attachment/materials/materials-13-05386/article_deploy/materials-13-05386.pdf",
+    "resolved_url": "https://mdpi-res.com/d_attachment/materials/materials-13-05386/article_deploy/materials-13-05386.pdf",
+    "status": "OK",
+    "pages": 11,
+    "chars": 43295
+  },
+  {
+    "id": "AG_Raabe2000",
+    "url": "https://www.dierk-raabe.com/app/download/5784890916/Materials%2BScience%2Band%2BEngineering%2BA291%2B%282000%29%2B186%2BCu%2BCr%2BAg.pdf",
+    "resolved_url": "https://www.dierk-raabe.com/app/download/5784890916/Materials%2BScience%2Band%2BEngineering%2BA291%2B%282000%29%2B186%2BCu%2BCr%2BAg.pdf",
+    "status": "OK",
+    "pages": 12,
+    "chars": 35206
+  },
+  {
+    "id": "MO_Cho2021",
+    "url": "https://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-50f1d9e7-f271-46c1-a5d8-c558e697a263/c/Cho_Effects_AMM_3_2021.pdf",
+    "status": "FAILED",
+    "error": "b'<!doctype html>\\n<html>\\n\\n<head>\\n    <meta charset=\"'"
+  },
+  {
+    "id": "ZR_Ma2022",
+    "url": "https://mdpi-res.com/d_attachment/materials/materials-15-07605/article_deploy/materials-15-07605.pdf",
+    "resolved_url": "https://mdpi-res.com/d_attachment/materials/materials-15-07605/article_deploy/materials-15-07605.pdf",
+    "status": "OK",
+    "pages": 12,
+    "chars": 42293
+  },
+  {
+    "id": "BASE_GRCop2023",
+    "url": "https://library.psfc.mit.edu/catalog/reports/2020/22ja/22ja112/22ja112_full.pdf",
+    "status": "FAILED",
+    "error": "HTTPSConnectionPool(host='library.psfc.mit.edu', port=443): Max retries exceeded with url: /catalog/reports/2020/22ja/22ja112/22ja112_full.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))"
+  }
+]

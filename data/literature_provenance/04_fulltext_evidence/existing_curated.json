@@ -1,0 +1,952 @@
+[
+  {
+    "validation_id": "R2_SI_A1",
+    "verified_source_id": "R2_Zhou2023_CuNbSi",
+    "source_origin": "existing_R1",
+    "X_identity": "SI",
+    "system": "Cu-Nb-Si",
+    "nominal_composition": {
+      "CU": 20.0,
+      "NB": 15.0,
+      "SI": 65.0
+    },
+    "composition_basis": "at.%",
+    "temperature_C": 600.0,
+    "time": "40 d",
+    "phases": [
+      "(Si)",
+      "NbSi2",
+      "Cu19Si6"
+    ],
+    "page": "827;829-832 (PDF 4;6-9)",
+    "table": "4",
+    "figure": "2;3",
+    "section": "3;6.1",
+    "evidence_note": "Nominal composition and measured phases from Table 4; no experimental phase fractions reported. Cr-free system supports Nb-silicide chemistry only, not Cr3Si or Cr competition.",
+    "processing_state": "Vacuum arc melted under Ar; remelted six times; sealed evacuated quartz; long anneal",
+    "cooling_condition": "Ice-water quench; capsule broken in ice water",
+    "characterization": "XRD; SEM-EDS",
+    "measured_phase_compositions": {
+      "(Si)": {
+        "CU": 0.03,
+        "NB": 2.99,
+        "SI": 96.98
+      },
+      "NbSi2": {
+        "CU": 0.96,
+        "NB": 35.98,
+        "SI": 63.06
+      },
+      "Cu19Si6": {
+        "CU": 75.36,
+        "NB": 0.54,
+        "SI": 24.1
+      }
+    },
+    "comparison_class": "DIRECTLY_COMPARABLE",
+    "usable": true,
+    "composition_valid": true
+  },
+  {
+    "validation_id": "R2_SI_A2",
+    "verified_source_id": "R2_Zhou2023_CuNbSi",
+    "source_origin": "existing_R1",
+    "X_identity": "SI",
+    "system": "Cu-Nb-Si",
+    "nominal_composition": {
+      "CU": 20.0,
+      "NB": 40.0,
+      "SI": 40.0
+    },
+    "composition_basis": "at.%",
+    "temperature_C": 600.0,
+    "time": "40 d",
+    "phases": [
+      "NbSi2",
+      "Nb5Si3_L",
+      "τ1"
+    ],
+    "page": "827;829-832 (PDF 4;6-9)",
+    "table": "4",
+    "figure": "2;3",
+    "section": "3;6.1",
+    "evidence_note": "Nominal composition and measured phases from Table 4; no experimental phase fractions reported. Cr-free system supports Nb-silicide chemistry only, not Cr3Si or Cr competition.",
+    "processing_state": "Vacuum arc melted under Ar; remelted six times; sealed evacuated quartz; long anneal",
+    "cooling_condition": "Ice-water quench; capsule broken in ice water",
+    "characterization": "XRD; SEM-EDS",
+    "measured_phase_compositions": {
+      "NbSi2": {
+        "CU": 1.07,
+        "NB": 37.36,
+        "SI": 61.57
+      },
+      "Nb5Si3_L": {
+        "CU": 2.0,
+        "NB": 60.88,
+        "SI": 37.12
+      },
+      "τ1": {
+        "CU": 30.98,
+        "NB": 35.94,
+        "SI": 33.08
+      }
+    },
+    "comparison_class": "DIRECTLY_COMPARABLE",
+    "usable": true,
+    "composition_valid": true
+  },
+  {
+    "validation_id": "R2_SI_A3",
+    "verified_source_id": "R2_Zhou2023_CuNbSi",
+    "source_origin": "existing_R1",
+    "X_identity": "SI",
+    "system": "Cu-Nb-Si",
+    "nominal_composition": {
+      "CU": 40.0,
+      "NB": 25.0,
+      "SI": 35.0
+    },
+    "composition_basis": "at.%",
+    "temperature_C": 600.0,
+    "time": "40 d",
+    "phases": [
+      "NbSi2",
+      "τ1",
+      "Cu15Si4"
+    ],
+    "page": "827;829-832 (PDF 4;6-9)",
+    "table": "4",
+    "figure": "2;3",
+    "section": "3;6.1",
+    "evidence_note": "Nominal composition and measured phases from Table 4; no experimental phase fractions reported. Cr-free system supports Nb-silicide chemistry only, not Cr3Si or Cr competition.",
+    "processing_state": "Vacuum arc melted under Ar; remelted six times; sealed evacuated quartz; long anneal",
+    "cooling_condition": "Ice-water quench; capsule broken in ice water",
+    "characterization": "XRD; SEM-EDS",
+    "measured_phase_compositions": {
+      "NbSi2": {
+        "CU": 3.46,
+        "NB": 36.2,
+        "SI": 60.34
+      },
+      "τ1": {
+        "CU": 33.96,
+        "NB": 34.0,
+        "SI": 32.04
+      },
+      "Cu15Si4": {
+        "CU": 78.56,
+        "NB": 0.4,
+        "SI": 21.04
+      }
+    },
+    "comparison_class": "DIRECTLY_COMPARABLE",
+    "usable": true,
+    "composition_valid": true
+  },
+  {
+    "validation_id": "R2_SI_A4",
+    "verified_source_id": "R2_Zhou2023_CuNbSi",
+    "source_origin": "existing_R1",
+    "X_identity": "SI",
+    "system": "Cu-Nb-Si",
+    "nominal_composition": {
+      "CU": 72.0,
+      "NB": 3.0,
+      "SI": 25.0
+    },
+    "composition_basis": "at.%",
+    "temperature_C": 600.0,
+    "time": "40 d",
+    "phases": [
+      "NbSi2",
+      "Cu19Si6",
+      "Cu15Si4"
+    ],
+    "page": "827;829-832 (PDF 4;6-9)",
+    "table": "4",
+    "figure": "2;3",
+    "section": "3;6.1",
+    "evidence_note": "Nominal composition and measured phases from Table 4; no experimental phase fractions reported. Cr-free system supports Nb-silicide chemistry only, not Cr3Si or Cr competition.",
+    "processing_state": "Vacuum arc melted under Ar; remelted six times; sealed evacuated quartz; long anneal",
+    "cooling_condition": "Ice-water quench; capsule broken in ice water",
+    "characterization": "XRD; SEM-EDS",
+    "measured_phase_compositions": {
+      "NbSi2": {
+        "CU": 3.47,
+        "NB": 35.45,
+        "SI": 61.08
+      },
+      "Cu19Si6": {
+        "CU": 75.1,
+        "NB": 0.56,
+        "SI": 24.34
+      },
+      "Cu15Si4": {
+        "CU": 78.55,
+        "NB": 0.25,
+        "SI": 21.2
+      }
+    },
+    "comparison_class": "DIRECTLY_COMPARABLE",
+    "usable": true,
+    "composition_valid": true
+  },
+  {
+    "validation_id": "R2_SI_A5",
+    "verified_source_id": "R2_Zhou2023_CuNbSi",
+    "source_origin": "existing_R1",
+    "X_identity": "SI",
+    "system": "Cu-Nb-Si",
+    "nominal_composition": {
+      "CU": 78.0,
+      "NB": 3.0,
+      "SI": 19.0
+    },
+    "composition_basis": "at.%",
+    "temperature_C": 600.0,
+    "time": "40 d",
+    "phases": [
+      "τ1",
+      "Cu15Si4",
+      "Cu56Si11"
+    ],
+    "page": "827;829-832 (PDF 4;6-9)",
+    "table": "4",
+    "figure": "2;3",
+    "section": "3;6.1",
+    "evidence_note": "Nominal composition and measured phases from Table 4; no experimental phase fractions reported. Cr-free system supports Nb-silicide chemistry only, not Cr3Si or Cr competition.",
+    "processing_state": "Vacuum arc melted under Ar; remelted six times; sealed evacuated quartz; long anneal",
+    "cooling_condition": "Ice-water quench; capsule broken in ice water",
+    "characterization": "XRD; SEM-EDS",
+    "measured_phase_compositions": {
+      "τ1": {
+        "CU": 37.91,
+        "NB": 31.93,
+        "SI": 30.16
+      },
+      "Cu15Si4": {
+        "CU": 78.49,
+        "NB": 0.47,
+        "SI": 21.04
+      },
+      "Cu56Si11": {
+        "CU": 83.2,
+        "NB": 0.17,
+        "SI": 16.63
+      }
+    },
+    "comparison_class": "DIRECTLY_COMPARABLE",
+    "usable": true,
+    "composition_valid": true
+  },
+  {
+    "validation_id": "R2_SI_A6",
+    "verified_source_id": "R2_Zhou2023_CuNbSi",
+    "source_origin": "existing_R1",
+    "X_identity": "SI",
+    "system": "Cu-Nb-Si",
+    "nominal_composition": {
+      "CU": 84.0,
+      "NB": 3.0,
+      "SI": 13.0
+    },
+    "composition_basis": "at.%",
+    "temperature_C": 600.0,
+    "time": "40 d",
+    "phases": [
+      "τ1",
+      "hcp(CuSi)"
+    ],
+    "page": "827;829-832 (PDF 4;6-9)",
+    "table": "4",
+    "figure": "2;3",
+    "section": "3;6.1",
+    "evidence_note": "Nominal composition and measured phases from Table 4; no experimental phase fractions reported. Cr-free system supports Nb-silicide chemistry only, not Cr3Si or Cr competition.",
+    "processing_state": "Vacuum arc melted under Ar; remelted six times; sealed evacuated quartz; long anneal",
+    "cooling_condition": "Ice-water quench; capsule broken in ice water",
+    "characterization": "XRD; SEM-EDS",
+    "measured_phase_compositions": {
+      "τ1": {
+        "CU": 37.07,
+        "NB": 32.98,
+        "SI": 29.95
+      },
+      "hcp(CuSi)": {
+        "CU": 87.86,
+        "NB": 0.11,
+        "SI": 12.03
+      }
+    },
+    "comparison_class": "DIRECTLY_COMPARABLE",
+    "usable": true,
+    "composition_valid": true
+  },
+  {
+    "validation_id": "R2_SI_A7",
+    "verified_source_id": "R2_Zhou2023_CuNbSi",
+    "source_origin": "existing_R1",
+    "X_identity": "SI",
+    "system": "Cu-Nb-Si",
+    "nominal_composition": {
+      "CU": 40.0,
+      "NB": 35.0,
+      "SI": 25.0
+    },
+    "composition_basis": "at.%",
+    "temperature_C": 600.0,
+    "time": "40 d",
+    "phases": [
+      "τ1",
+      "(Cu)",
+      "Nb5Si3_L"
+    ],
+    "page": "827;829-832 (PDF 4;6-9)",
+    "table": "4",
+    "figure": "2;3",
+    "section": "3;6.1",
+    "evidence_note": "Nominal composition and measured phases from Table 4; no experimental phase fractions reported. Cr-free system supports Nb-silicide chemistry only, not Cr3Si or Cr competition.",
+    "processing_state": "Vacuum arc melted under Ar; remelted six times; sealed evacuated quartz; long anneal",
+    "cooling_condition": "Ice-water quench; capsule broken in ice water",
+    "characterization": "XRD; SEM-EDS",
+    "measured_phase_compositions": {
+      "τ1": {
+        "CU": 35.71,
+        "NB": 34.25,
+        "SI": 30.04
+      },
+      "(Cu)": {
+        "CU": 94.13,
+        "NB": 3.01,
+        "SI": 2.86
+      },
+      "Nb5Si3_L": {
+        "CU": 5.84,
+        "NB": 61.12,
+        "SI": 33.04
+      }
+    },
+    "comparison_class": "DIRECTLY_COMPARABLE",
+    "usable": true,
+    "composition_valid": true
+  },
+  {
+    "validation_id": "R2_SI_A8",
+    "verified_source_id": "R2_Zhou2023_CuNbSi",
+    "source_origin": "existing_R1",
+    "X_identity": "SI",
+    "system": "Cu-Nb-Si",
+    "nominal_composition": {
+      "CU": 20.0,
+      "NB": 65.0,
+      "SI": 15.0
+    },
+    "composition_basis": "at.%",
+    "temperature_C": 600.0,
+    "time": "40 d",
+    "phases": [
+      "(Cu)",
+      "(Nb)",
+      "Nb5Si3_L"
+    ],
+    "page": "827;829-832 (PDF 4;6-9)",
+    "table": "4",
+    "figure": "2;3",
+    "section": "3;6.1",
+    "evidence_note": "Nominal composition and measured phases from Table 4; no experimental phase fractions reported. Cr-free system supports Nb-silicide chemistry only, not Cr3Si or Cr competition.",
+    "processing_state": "Vacuum arc melted under Ar; remelted six times; sealed evacuated quartz; long anneal",
+    "cooling_condition": "Ice-water quench; capsule broken in ice water",
+    "characterization": "XRD; SEM-EDS",
+    "measured_phase_compositions": {
+      "(Cu)": {
+        "CU": 96.07,
+        "NB": 3.07,
+        "SI": 0.86
+      },
+      "(Nb)": {
+        "CU": 3.09,
+        "NB": 95.88,
+        "SI": 1.03
+      },
+      "Nb5Si3_L": {
+        "CU": 8.35,
+        "NB": 62.25,
+        "SI": 29.4
+      }
+    },
+    "comparison_class": "DIRECTLY_COMPARABLE",
+    "usable": true,
+    "composition_valid": true
+  },
+  {
+    "validation_id": "R2_SI_A9",
+    "verified_source_id": "R2_Zhou2023_CuNbSi",
+    "source_origin": "existing_R1",
+    "X_identity": "SI",
+    "system": "Cu-Nb-Si",
+    "nominal_composition": {
+      "CU": 20.0,
+      "NB": 15.0,
+      "SI": 65.0
+    },
+    "composition_basis": "at.%",
+    "temperature_C": 700.0,
+    "time": "30 d",
+    "phases": [
+      "(Si)",
+      "NbSi2",
+      "Cu19Si6"
+    ],
+    "page": "827;829-832 (PDF 4;6-9)",
+    "table": "4",
+    "figure": "4;5",
+    "section": "3;6.1",
+    "evidence_note": "Nominal composition and measured phases from Table 4; no experimental phase fractions reported. Cr-free system supports Nb-silicide chemistry only, not Cr3Si or Cr competition.",
+    "processing_state": "Vacuum arc melted under Ar; remelted six times; sealed evacuated quartz; long anneal",
+    "cooling_condition": "Ice-water quench; capsule broken in ice water",
+    "characterization": "XRD; SEM-EDS",
+    "measured_phase_compositions": {
+      "(Si)": {
+        "CU": 1.8,
+        "NB": 2.25,
+        "SI": 95.95
+      },
+      "NbSi2": {
+        "CU": 2.04,
+        "NB": 35.11,
+        "SI": 62.85
+      },
+      "Cu19Si6": {
+        "CU": 74.52,
+        "NB": 0.66,
+        "SI": 24.82
+      }
+    },
+    "comparison_class": "DIRECTLY_COMPARABLE",
+    "usable": true,
+    "composition_valid": true
+  },
+  {
+    "validation_id": "R2_SI_A10",
+    "verified_source_id": "R2_Zhou2023_CuNbSi",
+    "source_origin": "existing_R1",
+    "X_identity": "SI",
+    "system": "Cu-Nb-Si",
+    "nominal_composition": {
+      "CU": 20.0,
+      "NB": 40.0,
+      "SI": 40.0
+    },
+    "composition_basis": "at.%",
+    "temperature_C": 700.0,
+    "time": "30 d",
+    "phases": [
+      "NbSi2",
+      "Nb5Si3_L",
+      "τ1"
+    ],
+    "page": "827;829-832 (PDF 4;6-9)",
+    "table": "4",
+    "figure": "4;5",
+    "section": "3;6.1",
+    "evidence_note": "Nominal composition and measured phases from Table 4; no experimental phase fractions reported. Cr-free system supports Nb-silicide chemistry only, not Cr3Si or Cr competition.",
+    "processing_state": "Vacuum arc melted under Ar; remelted six times; sealed evacuated quartz; long anneal",
+    "cooling_condition": "Ice-water quench; capsule broken in ice water",
+    "characterization": "XRD; SEM-EDS",
+    "measured_phase_compositions": {
+      "NbSi2": {
+        "CU": 2.03,
+        "NB": 37.17,
+        "SI": 60.8
+      },
+      "Nb5Si3_L": {
+        "CU": 2.08,
+        "NB": 61.0,
+        "SI": 36.92
+      },
+      "τ1": {
+        "CU": 30.93,
+        "NB": 35.83,
+        "SI": 33.24
+      }
+    },
+    "comparison_class": "DIRECTLY_COMPARABLE",
+    "usable": true,
+    "composition_valid": true
+  },
+  {
+    "validation_id": "R2_SI_A11",
+    "verified_source_id": "R2_Zhou2023_CuNbSi",
+    "source_origin": "existing_R1",
+    "X_identity": "SI",
+    "system": "Cu-Nb-Si",
+    "nominal_composition": {
+      "CU": 40.0,
+      "NB": 25.0,
+      "SI": 35.0
+    },
+    "composition_basis": "at.%",
+    "temperature_C": 700.0,
+    "time": "30 d",
+    "phases": [
+      "NbSi2",
+      "τ1",
+      "Cu15Si4"
+    ],
+    "page": "827;829-832 (PDF 4;6-9)",
+    "table": "4",
+    "figure": "4;5",
+    "section": "3;6.1",
+    "evidence_note": "Nominal composition and measured phases from Table 4; no experimental phase fractions reported. Cr-free system supports Nb-silicide chemistry only, not Cr3Si or Cr competition.",
+    "processing_state": "Vacuum arc melted under Ar; remelted six times; sealed evacuated quartz; long anneal",
+    "cooling_condition": "Ice-water quench; capsule broken in ice water",
+    "characterization": "XRD; SEM-EDS",
+    "measured_phase_compositions": {
+      "NbSi2": {
+        "CU": 3.47,
+        "NB": 35.85,
+        "SI": 60.68
+      },
+      "τ1": {
+        "CU": 33.04,
+        "NB": 34.65,
+        "SI": 32.31
+      },
+      "Cu15Si4": {
+        "CU": 78.14,
+        "NB": 0.83,
+        "SI": 21.03
+      }
+    },
+    "comparison_class": "DIRECTLY_COMPARABLE",
+    "usable": true,
+    "composition_valid": true
+  },
+  {
+    "validation_id": "R2_SI_A12",
+    "verified_source_id": "R2_Zhou2023_CuNbSi",
+    "source_origin": "existing_R1",
+    "X_identity": "SI",
+    "system": "Cu-Nb-Si",
+    "nominal_composition": {
+      "CU": 62.0,
+      "NB": 3.0,
+      "SI": 25.0
+    },
+    "composition_basis": "at.%",
+    "temperature_C": 700.0,
+    "time": "30 d",
+    "phases": [
+      "NbSi2",
+      "Cu19Si6",
+      "Cu15Si4"
+    ],
+    "page": "827;829-832 (PDF 4;6-9)",
+    "table": "4",
+    "figure": "4;5",
+    "section": "3;6.1",
+    "evidence_note": "Table 4 Cu62Nb03Si25 sums to 90 at.%; no correction inferred.",
+    "processing_state": "Vacuum arc melted under Ar; remelted six times; sealed evacuated quartz; long anneal",
+    "cooling_condition": "Ice-water quench; capsule broken in ice water",
+    "characterization": "XRD; SEM-EDS",
+    "measured_phase_compositions": {
+      "NbSi2": {
+        "CU": 4.02,
+        "NB": 34.92,
+        "SI": 61.06
+      },
+      "Cu19Si6": {
+        "CU": 74.71,
+        "NB": 0.85,
+        "SI": 24.44
+      },
+      "Cu15Si4": {
+        "CU": 78.18,
+        "NB": 0.28,
+        "SI": 21.54
+      }
+    },
+    "comparison_class": "NOT_DIRECTLY_COMPARABLE",
+    "usable": false,
+    "composition_valid": false
+  },
+  {
+    "validation_id": "R2_SI_A13",
+    "verified_source_id": "R2_Zhou2023_CuNbSi",
+    "source_origin": "existing_R1",
+    "X_identity": "SI",
+    "system": "Cu-Nb-Si",
+    "nominal_composition": {
+      "CU": 77.0,
+      "NB": 3.0,
+      "SI": 20.0
+    },
+    "composition_basis": "at.%",
+    "temperature_C": 700.0,
+    "time": "30 d",
+    "phases": [
+      "τ1",
+      "Cu15Si4",
+      "Cu56Si11"
+    ],
+    "page": "827;829-832 (PDF 4;6-9)",
+    "table": "4",
+    "figure": "4;5",
+    "section": "3;6.1",
+    "evidence_note": "Table 4 Cu77Nb03Si20 conflicts with section 6.1 Cu74Nb08Si18.",
+    "processing_state": "Vacuum arc melted under Ar; remelted six times; sealed evacuated quartz; long anneal",
+    "cooling_condition": "Ice-water quench; capsule broken in ice water",
+    "characterization": "XRD; SEM-EDS",
+    "measured_phase_compositions": {
+      "τ1": {
+        "CU": 37.99,
+        "NB": 31.92,
+        "SI": 30.09
+      },
+      "Cu15Si4": {
+        "CU": 78.39,
+        "NB": 0.98,
+        "SI": 20.63
+      },
+      "Cu56Si11": {
+        "CU": 82.41,
+        "NB": 0.55,
+        "SI": 17.04
+      }
+    },
+    "comparison_class": "NOT_DIRECTLY_COMPARABLE",
+    "usable": false,
+    "composition_valid": false
+  },
+  {
+    "validation_id": "R2_SI_A14",
+    "verified_source_id": "R2_Zhou2023_CuNbSi",
+    "source_origin": "existing_R1",
+    "X_identity": "SI",
+    "system": "Cu-Nb-Si",
+    "nominal_composition": {
+      "CU": 72.0,
+      "NB": 3.0,
+      "SI": 15.0
+    },
+    "composition_basis": "at.%",
+    "temperature_C": 700.0,
+    "time": "30 d",
+    "phases": [
+      "τ1",
+      "hcp(CuSi)",
+      "Cu56Si11"
+    ],
+    "page": "827;829-832 (PDF 4;6-9)",
+    "table": "4",
+    "figure": "4;5",
+    "section": "3;6.1",
+    "evidence_note": "Table 4 Cu72Nb3Si15 sums to 90 at.% and conflicts with section 6.1 Cu78Nb8Si14.",
+    "processing_state": "Vacuum arc melted under Ar; remelted six times; sealed evacuated quartz; long anneal",
+    "cooling_condition": "Ice-water quench; capsule broken in ice water",
+    "characterization": "XRD; SEM-EDS",
+    "measured_phase_compositions": {
+      "τ1": {
+        "CU": 40.01,
+        "NB": 31.96,
+        "SI": 28.03
+      },
+      "hcp(CuSi)": {
+        "CU": 86.65,
+        "NB": 0.36,
+        "SI": 12.99
+      },
+      "Cu56Si11": {
+        "CU": 82.79,
+        "NB": 0.74,
+        "SI": 16.47
+      }
+    },
+    "comparison_class": "NOT_DIRECTLY_COMPARABLE",
+    "usable": false,
+    "composition_valid": false
+  },
+  {
+    "validation_id": "R2_SI_A15",
+    "verified_source_id": "R2_Zhou2023_CuNbSi",
+    "source_origin": "existing_R1",
+    "X_identity": "SI",
+    "system": "Cu-Nb-Si",
+    "nominal_composition": {
+      "CU": 40.0,
+      "NB": 35.0,
+      "SI": 25.0
+    },
+    "composition_basis": "at.%",
+    "temperature_C": 700.0,
+    "time": "30 d",
+    "phases": [
+      "τ1",
+      "(Cu)",
+      "Nb5Si3_L"
+    ],
+    "page": "827;829-832 (PDF 4;6-9)",
+    "table": "4",
+    "figure": "4;5",
+    "section": "3;6.1",
+    "evidence_note": "Nominal composition and measured phases from Table 4; no experimental phase fractions reported. Cr-free system supports Nb-silicide chemistry only, not Cr3Si or Cr competition.",
+    "processing_state": "Vacuum arc melted under Ar; remelted six times; sealed evacuated quartz; long anneal",
+    "cooling_condition": "Ice-water quench; capsule broken in ice water",
+    "characterization": "XRD; SEM-EDS",
+    "measured_phase_compositions": {
+      "τ1": {
+        "CU": 34.66,
+        "NB": 36.22,
+        "SI": 29.12
+      },
+      "(Cu)": {
+        "CU": 90.83,
+        "NB": 4.74,
+        "SI": 4.43
+      },
+      "Nb5Si3_L": {
+        "CU": 5.08,
+        "NB": 61.13,
+        "SI": 33.79
+      }
+    },
+    "comparison_class": "DIRECTLY_COMPARABLE",
+    "usable": true,
+    "composition_valid": true
+  },
+  {
+    "validation_id": "R2_SI_A16",
+    "verified_source_id": "R2_Zhou2023_CuNbSi",
+    "source_origin": "existing_R1",
+    "X_identity": "SI",
+    "system": "Cu-Nb-Si",
+    "nominal_composition": {
+      "CU": 20.0,
+      "NB": 65.0,
+      "SI": 15.0
+    },
+    "composition_basis": "at.%",
+    "temperature_C": 700.0,
+    "time": "30 d",
+    "phases": [
+      "(Cu)",
+      "(Nb)",
+      "Nb5Si3_L"
+    ],
+    "page": "827;829-832 (PDF 4;6-9)",
+    "table": "4",
+    "figure": "4;5",
+    "section": "3;6.1",
+    "evidence_note": "Table 4 Cu20Nb65Si15 conflicts with section 6.1 Cu40Nb35Si25.",
+    "processing_state": "Vacuum arc melted under Ar; remelted six times; sealed evacuated quartz; long anneal",
+    "cooling_condition": "Ice-water quench; capsule broken in ice water",
+    "characterization": "XRD; SEM-EDS",
+    "measured_phase_compositions": {
+      "(Cu)": {
+        "CU": 94.84,
+        "NB": 4.02,
+        "SI": 1.14
+      },
+      "(Nb)": {
+        "CU": 3.98,
+        "NB": 92.72,
+        "SI": 3.3
+      },
+      "Nb5Si3_L": {
+        "CU": 8.66,
+        "NB": 62.07,
+        "SI": 29.27
+      }
+    },
+    "comparison_class": "NOT_DIRECTLY_COMPARABLE",
+    "usable": false,
+    "composition_valid": false
+  },
+  {
+    "validation_id": "R2_MO_1100",
+    "verified_source_id": "R2_Cho2021_CuCrMo",
+    "source_origin": "existing_R1",
+    "X_identity": "MO",
+    "system": "Cu-Cr-Mo",
+    "nominal_composition": {
+      "CU": 60.0,
+      "CR": 10.0,
+      "MO": 30.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_C": 1100,
+    "time": "3 h",
+    "phases": [
+      "Cu",
+      "Mo-Cr"
+    ],
+    "page": "PDF 2;5-6",
+    "table": "1",
+    "figure": "6;7",
+    "section": "2.2;3.3",
+    "evidence_note": "Section 2.2 and Table 1 agree on 60Cu-10Cr-30Mo wt.%. Section 3.3 has a 10Mo textual typo; table and weighed preparation take precedence. XRD is post-sintering/cooled material; supports a refractory Mo-Cr phase, NOT two BCC composition sets or an equilibrium phase fraction.",
+    "processing_state": "Powder milling 200 rpm 4 h; pressed 148.5 MPa; liquid-phase sintering in Ar; ramp 10 C/min",
+    "cooling_condition": "Cooling mentioned; rate/method NA",
+    "characterization": "XRD; SEM-EDS",
+    "measured_phase_compositions": "NA",
+    "comparison_class": "QUALITATIVELY_COMPARABLE",
+    "usable": true,
+    "composition_valid": true
+  },
+  {
+    "validation_id": "R2_MO_1200",
+    "verified_source_id": "R2_Cho2021_CuCrMo",
+    "source_origin": "existing_R1",
+    "X_identity": "MO",
+    "system": "Cu-Cr-Mo",
+    "nominal_composition": {
+      "CU": 60.0,
+      "CR": 10.0,
+      "MO": 30.0
+    },
+    "composition_basis": "wt.%",
+    "temperature_C": 1200,
+    "time": "3 h",
+    "phases": [
+      "Cu",
+      "Mo-Cr"
+    ],
+    "page": "PDF 2;5-6",
+    "table": "1",
+    "figure": "6;7",
+    "section": "2.2;3.3",
+    "evidence_note": "Section 2.2 and Table 1 agree on 60Cu-10Cr-30Mo wt.%. Section 3.3 has a 10Mo textual typo; table and weighed preparation take precedence. XRD is post-sintering/cooled material; supports a refractory Mo-Cr phase, NOT two BCC composition sets or an equilibrium phase fraction.",
+    "processing_state": "Powder milling 200 rpm 4 h; pressed 148.5 MPa; liquid-phase sintering in Ar; ramp 10 C/min",
+    "cooling_condition": "Cooling mentioned; rate/method NA",
+    "characterization": "XRD; SEM-EDS",
+    "measured_phase_compositions": "NA",
+    "comparison_class": "QUALITATIVELY_COMPARABLE",
+    "usable": true,
+    "composition_valid": true
+  },
+  {
+    "validation_id": "R2_ZR_300_30",
+    "verified_source_id": "R2_Ma2022_CuCrZr",
+    "source_origin": "existing_R1",
+    "X_identity": "ZR",
+    "system": "Cu-Cr-Zr",
+    "nominal_composition": {
+      "CU": 98.9,
+      "CR": 1.0,
+      "ZR": 0.1
+    },
+    "composition_basis": "wt.%",
+    "temperature_C": 300,
+    "time": "30 min",
+    "phases": [
+      "Cu matrix",
+      "FCC Cr"
+    ],
+    "page": "PDF 2-6",
+    "table": "NA",
+    "figure": "2",
+    "section": "2;3.1;3.2",
+    "evidence_note": "Nominal balance only; specified impurity maxima Fe 0.05%, Si 0.1%, others 0.2% are NOT measured zero. Cu3Zr is the paper-reported identification, not silently relabeled Cu5Zr. Aging is kinetic; no equilibrium claim.",
+    "processing_state": "Commercial plate solution-treated 950 C for 2 h; aged",
+    "cooling_condition": "NA",
+    "characterization": "TEM; HRTEM; SAED; XRD",
+    "measured_phase_compositions": "NA",
+    "comparison_class": "QUALITATIVELY_COMPARABLE",
+    "usable": true,
+    "composition_valid": true
+  },
+  {
+    "validation_id": "R2_ZR_450_30",
+    "verified_source_id": "R2_Ma2022_CuCrZr",
+    "source_origin": "existing_R1",
+    "X_identity": "ZR",
+    "system": "Cu-Cr-Zr",
+    "nominal_composition": {
+      "CU": 98.9,
+      "CR": 1.0,
+      "ZR": 0.1
+    },
+    "composition_basis": "wt.%",
+    "temperature_C": 450,
+    "time": "30 min",
+    "phases": [
+      "Cu matrix",
+      "BCC Cr"
+    ],
+    "page": "PDF 2-6",
+    "table": "NA",
+    "figure": "2",
+    "section": "2;3.1;3.2",
+    "evidence_note": "Nominal balance only; specified impurity maxima Fe 0.05%, Si 0.1%, others 0.2% are NOT measured zero. Cu3Zr is the paper-reported identification, not silently relabeled Cu5Zr. Aging is kinetic; no equilibrium claim.",
+    "processing_state": "Commercial plate solution-treated 950 C for 2 h; aged",
+    "cooling_condition": "NA",
+    "characterization": "TEM; HRTEM; SAED; XRD",
+    "measured_phase_compositions": "NA",
+    "comparison_class": "QUALITATIVELY_COMPARABLE",
+    "usable": true,
+    "composition_valid": true
+  },
+  {
+    "validation_id": "R2_ZR_450_120",
+    "verified_source_id": "R2_Ma2022_CuCrZr",
+    "source_origin": "existing_R1",
+    "X_identity": "ZR",
+    "system": "Cu-Cr-Zr",
+    "nominal_composition": {
+      "CU": 98.9,
+      "CR": 1.0,
+      "ZR": 0.1
+    },
+    "composition_basis": "wt.%",
+    "temperature_C": 450,
+    "time": "120 min",
+    "phases": [
+      "Cu matrix",
+      "Cr",
+      "Cu3Zr"
+    ],
+    "page": "PDF 2-6",
+    "table": "NA",
+    "figure": "4",
+    "section": "2;3.1;3.2",
+    "evidence_note": "Nominal balance only; specified impurity maxima Fe 0.05%, Si 0.1%, others 0.2% are NOT measured zero. Cu3Zr is the paper-reported identification, not silently relabeled Cu5Zr. Aging is kinetic; no equilibrium claim.",
+    "processing_state": "Commercial plate solution-treated 950 C for 2 h; aged",
+    "cooling_condition": "NA",
+    "characterization": "TEM; HRTEM; SAED; XRD",
+    "measured_phase_compositions": "NA",
+    "comparison_class": "QUALITATIVELY_COMPARABLE",
+    "usable": true,
+    "composition_valid": true
+  },
+  {
+    "validation_id": "R2_AG_Sun_peak",
+    "verified_source_id": "R2_Sun2020_CuCrAg",
+    "source_origin": "existing_R1",
+    "X_identity": "AG",
+    "system": "Cu-Cr-Ag",
+    "nominal_composition": {
+      "CU": 99.68,
+      "CR": 0.2,
+      "AG": 0.12
+    },
+    "composition_basis": "at.%",
+    "temperature_C": 450,
+    "time": "4 h (Results 3.1.1; abstract says 2 h)",
+    "phases": [
+      "Cu matrix",
+      "FCC Cr",
+      "BCC Cr"
+    ],
+    "page": "PDF 2-5",
+    "table": "1",
+    "figure": "1;4",
+    "section": "2;3.1.1;3.2",
+    "evidence_note": "Results assign Ag-alloy peak to 4 h, inconsistent with abstract 2 h. Phase identification of Ag alloy is morphology-supported; Fig.4 caption e/f labels Cu-Cr while narrative assigns Ag. No independently resolved Ag-rich FCC phase; do not claim Ag/FCC separation validated.",
+    "processing_state": "Melted 1200 C under Ar; homogenized 900 C 12 h; water quenched; 99.9% cold drawn; aged",
+    "cooling_condition": "Water quench after homogenization; after aging NA",
+    "characterization": "OM; TEM; SAED",
+    "measured_phase_compositions": "NA",
+    "comparison_class": "NOT_DIRECTLY_COMPARABLE",
+    "usable": false,
+    "composition_valid": true
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "baseline_X_targets_nan_not_zero": true,
+  "baseline_rows": 55000,
+  "partition_conservation": {
+    "CR": {
+      "rows_checked": 548432,
+      "max_dev": 3.3306690738754696e-16
+    },
+    "NB": {
+      "rows_checked": 548432,
+      "max_dev": 2.220446049250313e-16
+    },
+    "X": {
+      "TI": {
+        "rows_checked": 82500,
+        "max_dev": 2.220446049250313e-16
+      },
+      "SI": {
+        "rows_checked": 82500,
+        "max_dev": 2.220446049250313e-16
+      },
+      "AG": {
+        "rows_checked": 82500,
+        "max_dev": 2.220446049250313e-16
+      },
+      "MO": {
+        "rows_checked": 80932,
+        "max_dev": 2.220446049250313e-16
+      },
+      "CO": {
+        "rows_checked": 82500,
+        "max_dev": 2.220446049250313e-16
+      },
+      "ZR": {
+        "rows_checked": 82500,
+        "max_dev": 2.220446049250313e-16
+      }
+    }
+  },
+  "spurious_presence_below_1e-8": {
+    "FCC": 0,
+    "BCC": 0,
+    "C15": 0,
+    "OTHER_SOLID": 0,
+    "LIQUID": 0
+  },
+  "x_partition_nan_while_family_volfrac_positive": {
+    "FCC": 55000,
+    "BCC": 51308,
+    "C15": 55000,
+    "OTHER_SOLID": 0,
+    "LIQUID": 0
+  },
+  "negative_or_inf_partition_values": "none",
+  "total_partition_cells": 7951480
+}

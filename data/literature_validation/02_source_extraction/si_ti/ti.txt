@@ -1,0 +1,1134 @@
+=== PDF PAGE 1 ===
+Experimental Investigation of Phase Equilibria in the Cu–Cr–Ti
+System
+J. H. Li1,2 • X. M. Huang1,2 • L. L. Zhu3 • G. M. Cai1,2
+Submitted: 3 February 2021 / in revised form: 24 April 2021 / Accepted: 27 April 2021 / Published online: 29 June 2021
+ ASM International 2021
+Abstract To provide a basic guide for the design of Cu–
+Cr-based alloys, phase equilibrium relations in the Cu–Cr–
+Ti system have been studied using diffusion triples and
+typical equilibrated alloys. Based on the results from
+electron-probe microscopy analysis and x-ray diffraction,
+isothermal sections of the Cu–Cr–Ti ternary system at 1073
+and 973 K were constructed, wherein 9 and 11 three-phase
+equilibria were determined, respectively. A ternary phase
+with an approximate composition of (Cu, Cr)4Ti3 was
+detected and named as s1. The binary Cu4Ti3 phase does
+not connect with s1 in the ternary region. Solid solution
+phases (Cu, Cr)3Ti2 and s1 were identiﬁed and conﬁrmed in
+both diffusion triple and alloy samples. The solubility of Cr
+in Cu3Ti2 extends to 12 at.% at both 1073 and 973 K. (Cu,
+Cr)3Ti2 and Cu3Ti2 form a continuous solid solution at
+1073 K while do not exist as one stable phase at 973 K. In
+addition, two two-phase regions of Cu4Ti ? (Cu, Cr)3Ti2
+and Cu4Ti3 ? (Cu, Cr)3Ti2 transform to the three-phase
+regions of Cu4Ti ? Cu4Ti3 ? (Cu, Cr)3Ti2 as the temper-
+ature decreases from 1073 to 973 K.
+Keywords Cu–Cr–Ti System  diffusion triple 
+equilibrated alloys  phase equilibria
+1 Introduction
+Owing to their exceptional combination of high electrical
+conductivity, thermal conductivity, excellent resistance to
+arc erosions and weld ability,[1, 2] Cu–Cr alloys are widely
+used in aerospace, power lead frame materials, and heat
+exchange equipment.[3–5] As one of precipitation strength-
+ened alloys, the enhanced mechanical properties of Cu–Cr
+alloys depend on ﬁnely dispersed Cr-rich phases precipi-
+tated in Cu matrix during the aging process. Due to the
+extremely low solubility of Cr in Cu, about 0.8 at.% at the
+eutectic temperature,[6] only a small fraction of precipitates
+form during aging, which limits the strength of Cu–Cr
+alloys. Furthermore, Cr particles easily coarsen at elevated
+temperature, resulting in poor softening resistance of Cu–Cr
+alloys.[7, 8] Therefore, tertiary alloying elements are being
+explored and added to Cu–Cr alloys to improve their
+mechanical properties. For instance, titanium, which has a
+relatively high solubility in Cu matrix, is commonly used to
+enhance strength. More importantly, the segregation of Ti
+atoms in the periphery of the Cr precipitates suppresses the
+coarsening of Cr particles in Cu–Cr–Ti alloys.[9, 10] In
+addition, similar to the beneﬁts of Nb and Zr in Cu–Cr
+alloys, Ti addition can form an AB2 type intermetallic phase
+with Cr, which can serve as a strengthening phase.[11] From
+the view of composition and heat-treatment selection, phase
+relationship of the Cu–Cr–Ti system is important to the
+design of novel high strength copper alloys.
+Chakrabarti and Laughlin[12] provided a critical review
+of phase equilibria in the Cu–Cr binary system. It is well
+Supplementary Information The online version contains
+supplementary material available at https://doi.org/10.1007/s11669-
+021-00892-y.
+& G. M. Cai
+caigemei@csu.edu.cn
+1
+School of Materials Science and Engineering, Central South
+University, Changsha, Hunan 410083, People’s Republic of
+China
+2
+Key Lab of Non-Ferrous Metal Materials Science and
+Engineering, Ministry of Education, Central South
+University, Changsha 410083, People’s Republic of China
+3
+Institute for Advanced Studies in Precision Materials, Yantai
+University, Yantai, Shandong 264005, People’s Republic of
+China
+123
+J. Phase Equilib. Diffus. (2021) 42:389–402
+https://doi.org/10.1007/s11669-021-00892-y
+
+=== PDF PAGE 2 ===
+accepted that there are only three stable phases, i.e. liquid,
+BCC, and FCC, existing in the Cu–Cr system. However,
+there is a controversy over the reported liquid miscibility
+gap in earlier work. The miscibility gap, which appears
+below the ﬂat portion of the S-shaped equilibrium liquids
+of Cr-rich solid solution, might be stabilized by impurities
+and thus was suggested to be metastable by Chakrabarti
+et al.[12–14]. However, according to the experimental results
+of Leonov et al.,[15] there is a monotectic reaction in the
+Cu–Cr binary system. Zhou et al.[16] re-investigated liq-
+uidus temperatures in the Cu–Cr system for compositions
+ranging from 10.0 to 72.7 at.% Cr. In their work, the alloys
+were levitated and melted to eliminate crucible-induced
+melting contamination and subsequently cooled down in
+pure
+helium
+atmosphere.
+This
+work
+conﬁrmed
+a
+stable miscibility gap for Cr-rich compositions, along with
+a monotectic reaction found in this binary system. After-
+wards, Zhou’s experimental result was accepted by Cui
+et al.[17] and Liu et al.[18] and included in their recent
+assessment work.
+According to the Cu–Ti phase diagram evaluated by
+Murray,[19] there exist six stable intermetallic compounds,
+i.e. Cu4Ti, Cu2Ti, Cu3Ti2, Cu4Ti3, CuTi, and CuTi2.
+Thermodynamic assessments of the Cu–Ti system have
+been performed by many groups,[19–21] in these assess-
+ments, stable phases Cu3Ti2 and Cu2Ti were not consid-
+ered. Kumar et al.[22] re-assessed Cu–Ti system and
+considered all the phases and the non-stoichiometry of
+CuTi and Cu4Ti. More recently, based on the description of
+Kumar et al. and the experimental data from Colinet
+et al.,[23] the description for Cu2Ti was revised by Wang
+et al.[24].
+For the Ti–Cr system, Murray[25] critically reviewed the
+phase
+equilibrium
+relationships
+based
+on
+previous
+work.[26–28] There is only one stoichiometric TiCr2 com-
+pound. Cuff et al.[28] ﬁrstly reported three allotropes (a, b,
+c) of TiCr2, i.e. the low temperature aTiCr2 phase with a
+cubic C15 polytype, the intermediate temperature bTiCr2
+phase with a hexagonal C36 polytype, and the high tem-
+perature cTiCr2 phase with a hexagonal C14 polytype. This
+discovery was subsequently conﬁrmed in various binary
+and ternary systems proposed by Stein et al.[29]. Recently,
+new thermodynamic descriptions regarding the Ti–Cr
+system were reported by Pavlu˚ et al.[30] and Cupid et al.,[31]
+in which the stability sequence of C15–C36–C14 was
+proposed through analysis of structure energy and stability
+of Laves phase using an ab initio method.
+So far, phase equilibrium data of the Cu–Cr–Ti ternary
+system is very limited in literature, and no ternary inter-
+metallic phase data for this system has been reported.
+Crystal structure data[31, 32] of the solid phases in the Cu–
+Cr–Ti system are summarized in Table 1. The generally
+accepted phase relations for the binary systems Cu–Cr,[18]
+Ti–Cr,[31] and Cu–Ti[24] are shown in Fig. 1. The present
+work intends to experimentally determine the 1073 and
+973 K isothermal sections of the Cu–Cr–Ti system using
+diffusion triples. Additional equilibrated alloy samples
+were also prepared to conﬁrm the results obtained from
+diffusion triples and further complete the phase equilibrium
+relations for this system.
+2 Experimental method
+Owing to the high efﬁciency, diffusion triples were fabri-
+cated to investigate the phase equilibria in the Cu–Cr–Ti
+system. The procedure to fabricate the diffusion triples is
+schematically shown in Fig. 2. The starting pure metal
+bricks of Cu, Cr, and Ti all have a purity of 99.99% (in
+wt%). The dimensions of Cu, Cr and Ti bricks were 6 mm
+9 5 mm 9 5 mm, 5 mm 9 5 mm 9 5 mm, and 5 mm 9
+5 mm 9 5 mm, respectively. The Cu and Ti bricks were
+ﬁrst clamped together using a custom-built ﬁxture. Then,
+the fabricated diffusion couple was annealed in a vacuum
+furnace at 1073 K for 8 h to promote diffusion between Cu
+and Ti bricks. After that, the Cu–Cr–Ti diffusion triple was
+made by bonding the prefabricated Cu–Ti diffusion couple
+and Cr brick. Subsequently, the diffusion triple was
+encapsulated in an evacuated quartz tube backﬁlled with
+pure argon and annealed at 1073 and 973 K for 30 and 60
+days, respectively. After annealing, the quartz tubes were
+quickly taken out of the furnaces and quenched in ice water
+by breaking the tubes. Finally, the diffusion triples were
+mounted, ground, polished and then analyzed by electron-
+probe microscopy analysis (EPMA).
+Based on the preliminary experimental results obtained
+from the diffusion triples, a set of Cu–Cr–Ti alloys with
+their compositions carefully selected were further prepared
+by arc-melting on a water-cooled copper plate under argon
+atmosphere. During the melting, the alloy samples were
+turned over and re-melted at least three times to ensure
+homogeneity. The alloys were evaluated to ensure that
+their weight losses did not exceed 1%. Afterwards, the
+ingots were cut into several parts and then sealed in
+evacuated quartz tubes backﬁlled with pure argon and
+annealed at 1073 and 973 K for 90 and 120 days, respec-
+tively. After annealing, the samples in quartz tubes were
+quickly removed from the furnaces and quenched in an ice-
+water mixture.
+Finally, the annealed diffusion triples and equilibrated
+alloys were characterized using optical microscopy (OM)
+and scanning electron microscopy (SEM). Quantitative
+composition analysis was carried out on a JEOL JXA-
+8800R EPMA with an accelerating voltage of 20 kV and a
+probe current of 20 nA. In addition, the phase structure in
+some typical alloys were conﬁrmed using x-ray diffraction
+390
+J. Phase Equilib. Diffus. (2021) 42:389–402
+123
+
+=== PDF PAGE 3 ===
+Table 1 Crystal structure of
+solid phases in the Cu–Cr–Ti
+system
+Phase
+Pearson’s symbol
+prototype
+Space group
+Lattice parameters, nm
+Refs.
+a
+b
+C
+(Cu)
+cF4
+Cu
+Fm-3m
+0.3524
+0.3524
+0.3524
+31
+Cr
+cI2
+W
+Im-3m
+0.2884
+0.2884
+0.2884
+32
+(aTi)
+hP2
+Mg
+P63/mmc
+0.2950
+0.2950
+0.4681
+32
+(bTi)
+cI2
+W
+Im-3m
+0.3311
+0.3311
+0.3311
+32
+Cu4Ti
+oP20
+Au4Zr
+Pnma
+0.4522
+0.4344
+1.2897
+31
+Cu2Ti
+oC12
+Au2V
+oC12
+0.438
+0.797
+0.449
+31
+Cu3Ti2
+tP10
+Cu3Ti2
+P4/nmm
+0.313
+0.313
+1.395
+31
+Cu4Ti3
+tI14
+Cu4Ti3
+I4/mmm
+0.312
+0.312
+1.994
+31
+CuTi
+tP4
+cCuTi
+P4/nmm
+0.3107
+0.3107
+0.5919
+31
+CuTi2
+tI6
+MoSi2
+I4/mmm
+0.29438
+0.29438
+1.07861
+31
+a(TiCr2)
+cF24
+Cu2Mg
+Fd-3m
+0.6932
+0.6932
+0.6932
+31
+b(TiCr2)
+hP24
+MgNi2
+P63/mmc
+0.4903
+0.4903
+1.5953
+31
+c(TiCr2)
+hp12
+MgZn2
+P63/mmc
+0.4923
+0.4923
+0.7999
+31
+Fig. 1 The phase diagrams of the (a) Cu–Cr,[18] (b) Ti–Cr,[31] (c) Cu–Ti[24] binary systems
+J. Phase Equilib. Diffus. (2021) 42:389–402
+391
+123
+
+=== PDF PAGE 4 ===
+(XRD) with Cu Ka radiation on a Rigaku D-max/2500
+XRD operated at 40 kV and 200 mA.
+3 Results and discussion
+3.1 Isothermal section at 1073 K
+Figure 3(a) shows the backscattered electron (BSE) image
+of the Cu–Cr–Ti diffusion triple annealed at 1073 K for 30
+days. The phases and their relative locations in the diffu-
+sion region are schematically illustrated in Fig. 3(b), where
+each curve stands for an interface between two adjacent
+phases, and each tri-junction point represents a three-phase
+equilibrium. EPMA line scans were performed across the
+phase interfaces within the diffusion zones of the Cu–Cr–
+Ti diffusion triples to obtain composition proﬁles, through
+which tie-lines between 2 phases were then extracted based
+on the assumption of local equilibrium.[33] There is no
+intermetallic Cu–Cr phase layer between pure Cu and Cr
+interface. A aTiCr2 layer was detected between the end
+member Ti and Cr. Because of the interdiffusion of atoms
+in the tri-junction of three-metals, aTiCr2 phase layer
+extends to the Cu–Cr interface. In addition, six phase layers
+formed in the diffusion zone between Cu and Ti bricks.
+These layers were identiﬁed to be bTi, CuTi2, CuTi,
+Cu4Ti3, Cu3Ti2, and Cu4Ti through EPMA measurements
+and referring to the Cu–Ti phase diagram.
+A ternary phase with an approximate composition of
+(Cu, Cr)4Ti3 was detected and named as s1. The three-
+phase equilibrium s1 ? CuTi ? Cu4Ti3 was detected in
+Fig. 2 Schematic procedure for
+fabrication of Cu–Cr–Ti
+diffusion triple
+Fig. 3 Diffusion region formed
+in the Cu–Cr–Ti diffusion triple
+annealed at 1073 K for 30 days:
+(a) BSE image showing the
+main diffusion region;
+(b) schematic diagram of phase
+distribution in the diffusion
+region; c the three-phase
+equilibrium of
+s1 ? CuTi ? Cu4Ti3 detected
+in the diffusion triple with
+different grinding amount
+Fig. 4 XRD patterns of alloy A9 (Cu54Cr8Ti38) annealed at 1073 K
+for 90 days. The green star symbols present the peaks belonging to
+Cu4Ti
+392
+J. Phase Equilib. Diffus. (2021) 42:389–402
+123
+
+=== PDF PAGE 5 ===
+Table 2 Phase equilibrium information of the Cu–Cr–Ti ternary system at 1073 K determined in the present work
+No.
+Nominal Composition
+Composition determined by EPMA analysis, at.%
+Phase equilibria
+Phase 1
+Phase 2
+Phase 3
+Cu
+Cr
+Ti
+Cu
+Cr
+Ti
+Cu
+Cr
+Ti
+Phase1/phase2/phase3
+A1
+Cu13Cr20Ti67
+32.2±0.6
+0.7±0.2
+67.1±0.2
+0.4±0.1
+64.1±0.6
+35.5±0.5
+6.4±0.1
+14.4±0.1
+79.2±0.1
+CuTi2/aTiCr2/bTi
+A2
+Cu33Cr13Ti54
+32.6±0.3
+0.9±0.1
+66.5±0.3
+48.4±0.2
+0.9±0.4
+50.7±0.5
+2.2±0.9
+61.4±1.5
+36.4±1.1
+CuTi2/CuTi/aTiCr2
+A3
+Cu38Cr18Ti44
+48.3±0.9
+1.5±0.3
+50.2±1.1
+42.4±0.3
+13.8±0.4
+43.8±0.1
+1.1±0.3
+64.6±0.6
+34.3±0.5
+CuTi/s1/aTiCr2
+A4
+Cu51Cr17Ti32
+51.0±0.2
+11.4±0.3
+37.6±0.1
+1.4±0.1
+65.3±0.2
+33.3±0.1
+78.3±0.1
+0.4±0.1
+21.3±0.1
+(Cu, Cr)3Ti2/aTiCr2/Cu4Ti
+A5
+Cu74Cr9Ti17
+93.3±0.3
+0.8±0.1
+5.9±0.2
+78.7±0.7
+0.5±0.1
+20.8±0.6
+1.9±0.1
+65.3±0.1
+32.8±0.1
+(Cu)/Cu4Ti/aTiCr2
+A6
+Cu12Cr70Ti18
+94.1±0.1
+2.2±0.1
+3.7±0.1
+0.2±0.1
+66.6±0.2
+33.2±0.1
+0.3±0.2
+94.2±0.2
+5.5±0.2
+(Cu)/aTiCr2/(Cr)
+A7
+Cu57.5Cr1.5Ti41
+56.5±0.3
+0.4±0.1
+43.1±0.2
+59.7±0.2
+0.4±0.1
+39.9±0.1
+Cu4Ti3/Cu3Ti2
+A8
+Cu48Cr12Ti40
+50.8±0.3
+11.4±0.2
+37.8±0.1
+(Cu, Cr)3Ti2
+A9
+Cu54Cr8Ti38
+78.3±0.3
+0.3±0.1
+21.4±0.1
+52.4±0.4
+9.9±0.3
+37.7±0.7
+Cu4Ti/(Cu, Cr)3Ti2
+A10
+Cu52Cr12Ti36
+50.9±0.1
+11.2±0.1
+37.9±0.2
+1.4±0.2
+64.8±0.2
+33.8±0.1
+78.1±0.2
+0.4±0.1
+21.5±0.2
+(Cu, Cr)3Ti2/aTiCr2/Cu4Ti
+A11
+Cu12Cr3Ti85
+5.3±0.2
+4.3±0.2
+90.4±0.3
+32.2±0.1
+0.2±0.1
+67.6±0.2
+bTi/CuTi2
+A12
+Cu20Cr6Ti74
+4.6±0.2
+13.6±0.2
+81.8±0.2
+31.5±0.3
+0.3±0.1
+68.2±0.2
+bTi/CuTi2
+A13
+Cu3Cr22Ti75
+3.5±0.3
+15.6±0.5
+80.9±0.6
+0.2±0.1
+63.8±0.3
+35.9±0.3
+bTi/aTiCr2
+A14
+Cu42Cr19Ti39
+50.0±0.2
+11.6±0.1
+38.4±0.2
+41.9±0.7
+17.2±0.5
+40.9±0.3
+4.3±0.1
+61.0±0.5
+34.7±0.4
+(Cu, Cr)3Ti2/s1/aTiCr2
+A15
+Cu60Cr4Ti36
+54.6±0.3
+7.2±0.1
+38.2±0.2
+77.9±0.1
+0.2±0.1
+21.9±0.1
+59.2±0.3
+1.5±0.6
+39.3±0.3
+(Cu, Cr)3Ti2/Cu4Ti/Cu3Ti2
+J. Phase Equilib. Diffus. (2021) 42:389–402
+393
+123
+
+=== PDF PAGE 6 ===
+the diffusion triple at a different grinding depth, as high-
+lighted in the BSE image in Fig. 3(c). According to the
+trend of two phases tie-lines, Cu3Ti2 phase was assumed to
+form a three-phase equilibrium with s1 and Cu4Ti3.
+Another ternary phase with the composition of * Cu52-
+Cr10Ti38 was observed. Figure 4 presents the experimental
+XRD patterns of alloy Cu54Cr8Ti38 (A9) annealed at
+1073 K for 90 days, with most of peaks matching with the
+Cu3Ti2 phase and three weak peaks belonging to the Cu4Ti
+phase. So, this ternary compound Cu52Cr10Ti38 should be
+the Cu3Ti2 solid solution phase, and Cr has a relatively
+high solubility in this phase, predominately replacing Cu
+while the Ti content changes only slightly. It is hereinafter
+donated as (Cu, Cr)3Ti2. Some phase equilibrium infor-
+mation is lost because a hole formed either during the
+quenching and/or during the grinding processes.
+Fig. 5 BSE images and XRD patterns of the alloys annealed at 1073 K: (a, b) A4 (Cu51Cr17Ti32); (c, d) A3 (Cu38Cr18Ti44); (e, f) A14
+(Cu42Cr19Ti39)
+394
+J. Phase Equilib. Diffus. (2021) 42:389–402
+123
+
+=== PDF PAGE 7 ===
+To conﬁrm the phase equilibrium relations derived from
+the diffusion triple and obtain additional information for
+completing the Cu–Cr–Ti isothermal section, 15 typical
+alloys were fabricated and annealed at 1073 K for 90 days.
+The microstructures and constituent phases of these equi-
+librated alloys were carefully analyzed using EPMA and
+XRD. The phase constitution in each alloy together with
+the corresponding phase compositions were determined
+and summarized in Table 2.
+Figure 5 shows the BSE images and XRD patterns of
+alloys A10 (Cu52Cr12Ti36), A3 (Cu38Cr18Ti44), and A14
+(Cu42Cr19Ti39) annealed at 1073 K for 90 days. Three
+three-phase equilibria of Cu4Ti ? aTiCr2 ? (Cu, Cr)3Ti2,
+CuTi ? aTiCr2 ? s1, and (Cu, Cr)3Ti2 ? s1 ? aTiCr2
+were
+conﬁrmed
+in
+these
+three
+alloys,
+respectively.
+According to the data from EPMA, the Cr content of the
+(Cu, Cr)3Ti2 phase in alloy A10 is about 11.2 at.%.
+Fig. 6 Isothermal section of the
+Cu–Cr–Ti system at 1073 K:
+(a) with experimental data from
+the present work; (b) without
+experimental data
+J. Phase Equilib. Diffus. (2021) 42:389–402
+395
+123
+
+=== PDF PAGE 8 ===
+Based on the results measured from diffusion triple and
+alloy samples in this work, together with the available
+information from the binary phase diagrams in literature,
+isothermal section of the Cu–Cr–Ti ternary system at
+1073 K is constructed in Fig. 6. All the raw composition
+data are presented as circles, and tie-lines are shown as
+dashed lines in Fig. 6(a). Nine three-phase equilibria were
+identiﬁed in the isothermal section, including the two
+three-phase equilibria of CuTi ? Cu4Ti3 ? s1 and Cu4-
+Ti3 ? s1 ? (Cu, Cr)3Ti2 which were assumed according to
+the trends of the obtained tie-lines of adjacent three two-
+phase regions. It is found that the solubility of Cr in Cu3Ti2
+is relatively high (about 11.6 at.%), while the other Cu–Ti
+intermetallic phases could dissolve very limited Cr (near
+1 at.%).
+3.2 Isothermal Section at 973 K
+Figure 7 shows the diffusion region formed in the Cu–Cr–
+Ti diffusion triple annealed at 973 K for 60 days. At
+973 K, the Cu3Ti2 phase layer was not observed between
+Cu and Ti blocks. However, it should be stable at this
+temperature according to phase diagrams of the Cu–Ti
+binary system[24] and other related ternary systems.[34, 35] It
+maybe that the Cu3Ti2 phase layer is too thin to be deter-
+mined in present Cu–Cr–Ti diffusion triple. Another pos-
+sibility
+is
+that
+missing
+phases
+in
+diffusion
+couples/multiples may occur when equilibrium has not
+been obtained. This more likely to occur at lower tem-
+peratures where the diffusion kinetics are slow.[33, 36] The
+presence of cracks and holes in the diffusion region makes
+it difﬁcult to accurately deﬁne the phase equilibria
+involving s1 in this work.
+To reveal more phase equilibrium relations of the Cu–
+Cr–Ti ternary system, 16 typical alloy samples were further
+fabricated and annealed at 973 K for 120 days. The con-
+stituent phases and compositions in all these equilibrated
+alloys were measured by XRD and EPMA, and the results
+are summarized in Table 3.
+The BSE images and XRD patterns of alloys B10
+(Cu52Cr12Ti36), B3 (Cu38Cr18Ti44), B9 (Cu42Cr19Ti39), and
+B7 (Cu60Cr4Ti36) annealed at 973 K for 120 days are
+shown in Figs. 8 and 9. Figure 8(a) illustrates that alloy
+B10 consists of light Cu4Ti phase, gray (Cu, Cr)3Ti2 phase
+and dark aTiCr2 phase, which corresponds well with the
+XRD results presented in Fig. 9(a). Figures 8(b) and
+9(b) indicate that alloy B3 consists of CuTi, aTiCr2 and s1
+phases. Furthermore, as presented in Figs. 8(c) and 9(c),
+three-phase equilibrium of (Cu, Cr)3Ti2 ? s1 ? aTiCr2
+exists in alloy B9. According to Fig. 8(d), alloy B7 is
+located in Cu4Ti ? Cu4Ti3 ? (Cu, Cr)3Ti2 three-phase
+region. As mentioned above, the Cu3Ti2 binary phase was
+not observed in the diffusion zone of the Cu–Cr–Ti diffu-
+sion triple annealed at 973 K. To obtain more information
+about this phase region, alloy Cu57.5Cr1.5Ti41 was annealed
+at 973 and 1073 K for 120 and 90 days, respectively.
+Figure 10(a)–(d) display BSE images and XRD patterns
+of alloy Cu57.5Cr1.5Ti41 after annealing at 973 K for
+120 days and 1073 K for 90 days, respectively. As shown
+in Fig. 10(a), (b), the Cu4Ti and Cu4Ti3 phases were
+detected in alloy Cu57.5Cr1.5Ti41 after being annealed at
+973 K for 120 days. However, phase Cu3Ti2 was not
+identiﬁed in alloy Cu57.5Cr1.5Ti41 annealed at 973 K.
+A few researchers[37–39] insist that the Cu3Ti2 phase is
+observed at temperatures near 973 K. In Liu’s work,[40] the
+Cu3Ti2 phase also was not found at 973 K in Cu–Ti–Hf
+system in either diffusion triple or prepared alloys. In
+present work, as shown in Fig. 11, the Cu3Ti2 phase was
+conﬁrmed that it is stable at 973 K in alloy B16 (Cu60Ti40),
+but this binary intermetallic phase was not found in the
+ternary alloy B15 (Cu57.5Cr1.5Ti41) which contained two-
+phase equilibrium Cu4Ti ? Cu4Ti3. According to the bin-
+ary phase diagram of Cu–Ti system, Cu3Ti2 forms through
+a peritectoid reaction Cu2Ti ? Cu4Ti3 ? Cu3Ti2, which
+needs to overcome high diffusion barrier. Maybe, in both
+Cu–Hf–Ti and Cu–Cr–Ti system, the competition of mul-
+tiphase formation decelerates the process of peritectoid
+reaction, leading to a small fraction or even the absence of
+Cu3Ti2. Additional work is needed to conﬁrm the presence
+of Cu3Ti2 in ternary system. Longer anneal times are
+suggested to overcome any potential sluggish diffusion
+kinetics or nucleation issues.
+Fig. 7 BSE image of the Cu–Cr–Ti diffusion triple annealed at 973 K
+for 60 days
+396
+J. Phase Equilib. Diffus. (2021) 42:389–402
+123
+
+=== PDF PAGE 9 ===
+Table 3 Phase equilibria information of the Cu–Cr–Ti ternary system at 973 K determined in the present work
+No.
+Nominal composition
+Composition determined by EPMA analysis, at.%
+Phase equilibria
+Phase 1
+Phase 2
+Phase 3
+Cu
+Cr
+Ti
+Cu
+Cr
+Ti
+Cu
+Cr
+Ti
+Phase1/phase2/phase3
+B1
+Cu13Cr20Ti67
+30.5±0.5
+3.9±0.2
+65.6±0.6
+0.3±0.1
+64.1±0.2
+35.6±0.1
+3.5±0.3
+15.0±0.3
+81.5±0.1
+CuTi2/aTiCr2/bTi
+B2
+Cu33Cr13Ti54
+32.6±0.6
+0.9±0.2
+66.5±0.5
+48.4±0.3
+0.9±0.3
+50.7±0.1
+0.3±0.1
+64.1±0.3
+35.6±0.3
+CuTi2/CuTi/aTiCr2
+B3
+Cu38Cr18Ti44
+48.5±0.1
+1.6±0.1
+49.9±0.1
+43.2±0.4
+12.5±0.4
+44.3±0.2
+2.6±0.9
+62.3±1.1
+35.1±0.3
+CuTi/s1/aTiCr2
+B4
+Cu51Cr17Ti32
+50.2±0.1
+12.0±0.2
+37.8±0.1
+2.6±0.1
+63.5±0.1
+33.9±0.1
+78.3±0.2
+0.7±0.3
+21.0±0.1
+(Cu, Cr)3Ti2/aTiCr2/Cu4Ti
+B5
+Cu74Cr9Ti17
+96.7±0.2
+0.9±0.2
+2.4±0.2
+77.9±0.2
+1.4±0.4
+20.7±0.2
+1.7±0.3
+65.4±0.2
+32.9±0.5
+(Cu)/Cu4Ti/aTiCr2
+B6
+Cu12Cr70Ti18
+94.5±1.1
+3.2±0.8
+2.3±0.4
+1.5±0.3
+66.1±0.2
+32.4±0.4
+1.1±0.1
+91.4±0.6
+7.5±0.4
+(Cu)/aTiCr2/(Cr)
+B7
+Cu60Cr4Ti36
+52.8±0.3
+9.5±0.2
+37.7±0.2
+78.0±0.6
+0.2±0.1
+21.8±0.5
+56.3±0.3
+0.5±0.2
+43.2±0.5
+(Cu, Cr)3Ti2/Cu4Ti/Cu4Ti3
+B8
+Cu52Cr8Ti40
+55.7±0.2
+1.6±0.2
+42.7±0.1
+50.4±0.1
+10.7±0.1
+38.9±0.1
+Cu4Ti3/(Cu, Cr)3Ti2
+B9
+Cu42Cr19Ti39
+48.9±0.5
+12.2±0.6
+38.9±0.3
+41.0±0.3
+18.0±0.1
+41.0±0.2
+4.5±0.6
+60.4±0.5
+35.1±0.2
+(Cu, Cr)3Ti2/s1/aTiCr2
+B10
+Cu52Cr12Ti36
+50.3±0.1
+11.6±0.2
+38.0±0.2
+1.9±0.3
+64.1±0.3
+34.0±0.2
+77.9±0.4
+0.5±0.1
+21.6±0.2
+(Cu, Cr)3Ti2/aTiCr2/Cu4Ti
+B11
+Cu12Cr3Ti85
+0.8±0.1
+0.3±0.1
+98.9±0.1
+3.5±0.1
+8.5±0.2
+88.0±0.2
+31.0±0.1
+0.3±0.1
+68.7±0.1
+aTi/bTi/CuTi2
+B12
+Cu20Cr6Ti74
+30.7±0.1
+0.5±0.1
+68.8±0.2
+3.6±0.1
+11.2±0.2
+85.2±0.3
+bTi/CuTi2
+B13
+Cu52Cr7Ti41
+41.0±0.3
+17.8±0.1
+41.2±0.3
+51.0±0.5
+9.9±0.6
+39.1±0.3
+55.9±0.1
+1.5±0.5
+42.6±0.4
+s1/(Cu, Cr)3Ti2/Cu4Ti3
+B14
+Cu52Cr3Ti45
+55.7±0.3
+0.7±0.2
+43.6±0.2
+50.8±1.0
+0.3±0.1
+48.9±1.1
+Cu4Ti3/CuTi
+B15
+Cu57.5Cr1.5Ti41
+78.2±0.2
+0.2±0.1
+21.6±0.3
+55.6±0.2
+1.6±0.2
+42.8±0.3
+Cu4Ti/Cu4Ti3
+B16
+Cu60Ti40
+60.0±0.1
+0
+40±0.1
+78.0±0.1
+0
+22.0±0.1
+Cu3Ti2/Cu4Ti
+J. Phase Equilib. Diffus. (2021) 42:389–402
+397
+123
+
+=== PDF PAGE 10 ===
+Based on the results from both the diffusion triple and
+alloy samples, all the raw composition data are presented
+as circles, and tie-lines are shown as dashed lines in
+Fig. 12(a). The isothermal section of the Cu–Cr–Ti ternary
+system at 973 K is constructed in Fig. 12(b). The isother-
+mal section consists of eleven three-phase equilibria, with
+the three-phase region of CuTi ? Cu4Ti3 ? s1 estimated
+based on the trends obtained from the tie-lines of adjacent
+two-phase regions. (Cu, Cr)3Ti2 and Cu3Ti2 do not form a
+continuous solid solution at 973 K.
+4 Comparison of Phase Equilibrium Relations
+at 1073 and 973 K
+A preliminary comparison of phase equilibrium relations at
+1073 and 973 K, Figs. 6 and 12, shows there are some
+evident differences, which are worthy of further discussion.
+The solubility of Cr in Cu increases with temperature, from
+1.39 at.% at 973 K to 2.2 at.% at 1073 K. Cr dissolves in
+Cu3Ti2 at both 1073 and 973 K with a relatively high
+solubility of about 12 at.%. (Cu, Cr)3Ti2 and Cu3Ti2 can
+form a continuous solid solution at 1073 K, but is phase
+separated at 973 K. When the temperature decreases from
+1073 to 973 K, two two-phase regions of Cu4Ti ? (Cu,
+Cr)3Ti2 and Cu4Ti3 ? (Cu, Cr)3Ti2 transforms to the three-
+phase region of Cu4Ti ? Cu4Ti3 ? (Cu, Cr)3Ti2.
+Fig. 8 BSE images of the alloys annealed at 973 K for 120 days: (a) B10 (Cu52Cr12Ti36); (b) B3 (Cu38Cr18Ti44); (c) B9 (Cu42Cr19Ti39); (d) B7
+(Cu60Cr4Ti36)
+398
+J. Phase Equilib. Diffus. (2021) 42:389–402
+123
+
+=== PDF PAGE 11 ===
+5 Crystallographic Information of the s1 Phase
+To study the crystallographic information of the (Cu,
+Cr)4Ti3 (s1) phase, a few alloys have been prepared.
+Though the pure alloy with single s1 phase has not been
+obtained, we obtained an alloy sample mainly consisting of
+s1. Figure S1 presents the XRD patterns of alloy Cu46-
+Cr13Ti41 prepared at 1173 K. By virtue of preliminary
+indexing of reﬂections, the s1 phase belongs to tetragonal
+structure with the space group of P4/nnc. a = b = 3.109(3),
+c = 2.854(3). Of course, the detailed crystallographic
+information of s1 remains to be further studied in future
+work.
+6 Conclusions
+Diffusion triples and typical equilibrated alloys were pre-
+pared
+to
+investigate
+the
+Cu–Cr–Ti
+phase
+diagram.
+Isothermal sections at 1073 K and 973 K were constructed
+based on the results obtained by SEM, EPMA and XRD
+analyses. An unknown ternary compound s1 was observed
+and conﬁrmed at both temperatures. 9 and 11 three-phase
+regions exist in the Cu–Cr–Ti isothermal sections at 1073
+and 973 K, respectively. Cr has a relatively high solubility
+of about 12 at.% in the Cu3Ti2 phase at 1073 K. The phase
+region for the solid solution (Cu, Cr)3Ti2 separates when
+the temperature decreases from 1073 to 973 K, along with
+the two-phase regions of Cu4Ti ? (Cu, Cr)3Ti2 and
+Fig. 9 XRD patterns of alloys annealed at 973 K for 120 days: (a) B10; (b) B3; (c) B9; (d) B7
+J. Phase Equilib. Diffus. (2021) 42:389–402
+399
+123
+
+=== PDF PAGE 12 ===
+Fig. 10 BSE images and XRD patterns of alloy Cu57.5Cr1.5Ti41 after annealing: (a, b) at 973 K for 120 days; (c, d) at 1073 K for 90 days
+Fig. 11 BSE image and XRD patterns of alloy Cu60Ti40 after annealing at 973 K for 120 days
+400
+J. Phase Equilib. Diffus. (2021) 42:389–402
+123
+
+=== PDF PAGE 13 ===
+Cu4Ti3 ? (Cu, Cr)3Ti2 transforming to the three-phase
+region of Cu4Ti ? Cu4Ti3 ? (Cu, Cr)3Ti2.
+Acknowledgments The work was supported by grants from the
+National
+MCF
+Energy
+R&D
+Program
+of
+China
+(No.
+2018YFE0306100) and the National Key Research and Development
+Plan (No. 2016YFB0701301). Lilong Zhu acknowledges the ﬁnancial
+support from the Taishan Scholars Program of Shandong Province
+(No. tsqn201909081).
+References
+1. S.V. Dobatkin, J. Gubicza, D.V. Shangina, N.R. Bochvar, and
+N.Y. Tabachkova, High Strength and Good Electrical Conduc-
+tivity in Cu–Cr Alloys Processed by Severe Plastic Deformation,
+Mater. Lett., 2015, 153, p 5–9.
+2. Y.H. Chen, S.B. Ren, Y. Zhao, and X.H. Qu, Microstructure and
+Properties of CuCr Alloy Manufactured by Selective Laser
+Melting, J. Alloys Compd., 2019, 786, p 189–197.
+3. J.H. You, Copper Matrix Composites as Heat Sink Materials for
+Water-Cooled Divertor Targe, Nucl. Mater. Energy, 2015, 5,
+p 7–18.
+4. Q. Liu, X. Zhang, Y. Ge, J. Wang, and J.Z. Cui, Effect of Pro-
+cessing and Heat Treatment on Behavior of Cu–Cr–Zr Alloys to
+Fig. 12 Isothermal section of
+the Cu–Cr–Ti system at 973 K:
+(a) with experimental data from
+the present work; (b) without
+experimental data
+J. Phase Equilib. Diffus. (2021) 42:389–402
+401
+123
+
+=== PDF PAGE 14 ===
+Railway Contact Wire, Metall. Mater. Trans. A, 2006, 37,
+p 3244–3238.
+5. S.X. Xiu, R. Yang, J. Xue, J.X. Wang, and J.Y. Wang,
+Microstructure and Properties of CuCr Contact Materials with
+Different Cr Content, Trans. Nonferrous Met. Soc. China, 2011,
+21, p s389–s393.
+6. H. Okamoto, Cr–Cu (Chromium–Copper), J. Phase Equilib.,
+2001, 22, p 691–692.
+7. U. Holzwarth, and H. Stamm, The Precipitation Behaviour of
+ITER-grade Cu–Cr–Zr Alloy After Simulating the Therma Cycle
+of Hot Isostatic Pressing, J. Nucl. Mater., 2000, 279, p 31–45.
+8. A. Vinogradov, V. Patlan, Y. Suzuki, K. Kitagawa, and V.I.
+Kopylov, Structure and Properties of Ultra-Fine Grain Cu–Cr–Zr
+Alloy Produced by Equal-Channel Angular Pressing, Acta
+Mater., 2002, 50, p 1639–1651.
+9. J.B. Zhang, Y. Liu, W. Cai, and H. Wang, Morphology of Pre-
+cipitates in Cu–Cr–Ti Alloys: Spherical or Cubic?, J. Electron.
+Mater., 2016, 45, p 4726–4729.
+10. P. Zhang, J. Jie, Y. Gao, H. Li, T.M. Wang, and T.J. Li, Inﬂuence
+of Cold Deformation and Ti Element on the Microstructure and
+Properties of Cu–Cr System Alloys, J. Mater. Res., 2015, 30(13),
+p 2073–2080.
+11. R. Markandeya, S. Nagarjuna, and D.S. Sarma, Precipitation
+Hardening of Cu–Ti–Cr Alloys, Mater. Sci. Eng. A, 2004,
+371(1–2), p 291–305.
+12. D.J. Chakrabarti, and D.E. Laughlin, The Cr–Cu (Chromium–
+Copper) System, Bull. Alloy Phase Diagr., 1984, 5(1), p 59–68.
+13. K.J. Zeng, and M. Ha¨ma¨la¨inen, Thermodynamic Analysis of
+Stable and Metastable Equilibria in the Cu–Cr System, Calphad,
+1995, 19, p 93–104.
+14. K.T. Jacob, S. Priya, and Y. Waseda, A thermodynamic Study of
+Liquid Cu–Cr Alloys and Metastable Liquid Immiscibility, Z.
+Metallkd., 2000, 91, p 594–600.
+15. M.P. Leonov, N.R. Bochvar, and V.G. Ivanchenko, Chromium–
+Copper Phase Diagram, Dokl. Akad. Nauk SSSR, 1986, 290,
+p 888–890. , in Russian
+16. Z.M. Zhou, J. Gao, F. Li, and Y.P. Wang, Experimental Deter-
+mination and Thermodynamic Modeling of Phase Equilibria in
+the Cu–Cr System, J. Mater. Sci., 2011, 46(21), p 7039–7045.
+17. S.L. Cui, and I.-H. Jung, Thermodynamic Modeling of the Cu–
+Fe–Cr and Cu–Fe–Mn Systems, Calphad, 2017, 56, p 241–259.
+18. Y.L. Liu, P. Zhou, S.H. Liu, C. Zhang, Y. Du, and J. Wang,
+Experimental Investigation and Thermodynamic Description of
+the Cu–Cr–Zr System, Calphad, 2017, 59, p 1–11.
+19. J.L. Murray, The Cu–Ti (Copper–Titanium) System, Bull. Alloys
+Phase Diag., 1983, 4(1), p 81–95.
+20. L. Kaufman, Coupled Phase Diagrams and Thermochemical Data
+for Transition Metal Binary Systems-VI, Calphad, 1979, 3(1),
+p 45–76.
+21. N. Saunders, Phase Diagram Calculations for Eight Glass
+Forming Alloy Systems, Calphad, 1985, 9(4), p 297–309.
+22. K.C.H. Kumar, I. Ansara, P. Wollants, and L. Delaey, Thermo-
+dynamic Optimisation of the Cu–Ti System, Z. Metallkd., 1996,
+87, p 666–672.
+23. C. Colinet, A. Pasturel, and K. Buschow, Enthalpies of Formation
+of Ti–Cu Intermetallic and Amorphous Phases, J. Alloys. Compd.,
+1997, 247, p 15–19.
+24. J. Wang, C. Liu, C. Leinenbach, U.E. Klotz, P.J. Uggowitzer, and
+J.F. Lo¨fﬂer, Experimental Investigation and Thermodynamic
+Assessment of the Cu–Sn–Ti Ternary System, Calphad, 2011,
+35(1), p 82–94.
+25. J.L. Murray, The Cr–Ti (Chromium–Titanium) System, Bull.
+Alloys Phase Diagr., 1981, 2(2), p 174–181.
+26. S. Gupta, and K. Gupta, Phase Equilibria at the High Mn End of
+the Mn–Ti–V and Mn–Ti–Cr Systems, Trans. Indian Inst. Met,
+1976, 29, p 36–41.
+27. R.H. Ericksen, R. Taggart, and D.H. Polonis, The Martensite
+Transformation in Ti–Cr Binary Alloys, Acta Metall., 1969,
+17(5), p 553–564.
+28. F.B. Cuff, N.J. Grant, and C.F. Floe, Titanium-Chromium Phase
+Diagram, JOM, 1952, 4(8), p 848–853.
+29. F. Stein, M. Palm, and G. Sauthoff, Structure and Stability of
+Laves Phases Part II—Structure Type Variations in Binary and
+Ternary Systems, Intermetallics, 2005, 13(10), p 1056–1074.
+30. J. Pavlu˚, J. Vrˇesˇt’a´l, and M. Sˇob, Thermodynamic Modeling of
+Laves Phases in the Cr–Hf and Cr–Ti Systems: Reassessment
+Using First-Principles Results, Calphad, 2010, 34(2), p 215–221.
+31. P. Villars, Pearson’s Handbook of Crystallograhic Data for
+Intermetallic Phases. ASM International, 1997.
+32. D.M. Cupid, M.J. Kriegel, O. Fabrichnaya, F. Ebrahimi, and H.J.
+Seifert, Thermodynamic Assessment of the Cr–Ti and First
+Assessment of the Al–Cr–Ti Systems, Intermetallics, 2011, 19(8),
+p 1222–1235.
+33. J.C. Zhao, Reliability of the Diffusion-Multiple Approach for
+Phase Diagram Mapping, J. Mater. Sci., 2004, 39, p 3913–3925.
+34. Y. Zhong, H.S. Liu, G.M. Cai, and Z.P. Jin, Experimental Study
+on Phase Equilibria in Ti–Cu–Pt System, J. Phase Equilib. Dif-
+fus., 2017, 38(4), p 466–476.
+35. G.N. Hermana, H.M. Hsiao, P.C. Kuo, P.K. Liaw, Y.C. Li, S.
+Iikubo, and Y.W. Yen, Phase Equilibria of the Cu–Zr–Ti Ternary
+System at 703 C And the Thermodynamic Assessment and
+Metallic Glass Region Prediction of the Cu–Zr–Ti Ternary Sys-
+tem, J. Non-Cryst. Solids, 2021, 551, p 120387.
+36. L.L. Zhu, C.D. Wei, L. Jiang, Z.P. Jin, and J.C. Zhao, Experi-
+mental Determination of the Phase Diagrams of the Co–Ni–X
+(X = W, Mo, Nb, Ta) Ternary Systems Using Diffusion Multi-
+ples, Intermetallics, 2018, 93, p 20–29.
+37. P.G. Qin, H. Wang, L.G. Zhang, H.S. Liu, and Z.P. Jin, The
+Isothermal Section of the Cu–Ti–Zr System at 1023 K Measured
+with Diffusion-Triple Approach, Mater. Sci. Eng. A, 2008, 476,
+p 83–88.
+38. G.N. Hermana, H.M. Hsiao, P.C. Kuo, P.K. Liaw, Y.C. Li, S.
+Likubo, and Y.W. Yen, Phase Equilibria of the Cu–Zr–Ti Ternary
+System at 703 C and the Thermodynamic Assessment and
+Metallic Glass Region Prediction of the Cu–Zr–Ti Ternary Sys-
+tem, J. Non-Cryst. Solids, 2021, 551, p 120387.
+39. Y.M. Wang, H.S. Liu, Q. Chen, F. Zheng, and Z.P. Jin, The
+Isothermal Section at 923 K of the Co–Cu–Ti Ternary System
+Measured by Using Diffusion Triple, J. Alloy Compd., 2007, 439,
+p p196-200.
+40. J.L. Liu, X.M. Huang, G.H. Li, G.M. Cai, H.S. Liu, and Z.P. Jin,
+Experimental Investigation on Phase Equilibria of Cu–Ti–Hf
+System and Performance of Cu(Ti, Hf)2 Phase, J. Mater. Sci.,
+2018, 53(10), p 7809–7821.
+Publisher’s Note
+Springer Nature remains neutral with regard to
+jurisdictional claims in published maps and institutional afﬁliations.
+402
+J. Phase Equilib. Diffus. (2021) 42:389–402
+123

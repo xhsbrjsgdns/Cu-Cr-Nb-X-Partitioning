@@ -1,0 +1,172 @@
+{
+  "generated_utc": "2026-09-06T17:11:02+00:00",
+  "summaries": [
+    {
+      "model": "PRIMARY",
+      "mean_predicted_simplex": {
+        "FCC": 0.13591384065206072,
+        "BCC": 0.14052704163399796,
+        "C15": 0.6959422432984173,
+        "OTHER_SOLID": 0.0,
+        "LIQUID": 0.027616874415523983
+      },
+      "median_component_values": {
+        "FCC": 0.09056524184152939,
+        "BCC": 0.09236936972864843,
+        "C15": 0.8004076479653247,
+        "OTHER_SOLID": 0.0,
+        "LIQUID": 0.007084233072878046
+      },
+      "modal_topology_distribution": {
+        "C15": 0.8730909090909091,
+        "FCC": 0.07859090909090909,
+        "BCC": 0.048318181818181816
+      },
+      "topology_by_temperature": {
+        "300.0": {
+          "BCC": 0.0,
+          "C15": 1.0,
+          "FCC": 0.0
+        },
+        "350.0": {
+          "BCC": 0.0,
+          "C15": 1.0,
+          "FCC": 0.0
+        },
+        "400.0": {
+          "BCC": 0.0,
+          "C15": 1.0,
+          "FCC": 0.0
+        },
+        "450.0": {
+          "BCC": 0.0,
+          "C15": 1.0,
+          "FCC": 0.0
+        },
+        "500.0": {
+          "BCC": 0.0,
+          "C15": 1.0,
+          "FCC": 0.0
+        },
+        "600.0": {
+          "BCC": 0.0,
+          "C15": 1.0,
+          "FCC": 0.0
+        },
+        "700.0": {
+          "BCC": 0.0,
+          "C15": 1.0,
+          "FCC": 0.0
+        },
+        "800.0": {
+          "BCC": 0.0,
+          "C15": 0.983,
+          "FCC": 0.017
+        },
+        "900.0": {
+          "BCC": 0.132,
+          "C15": 0.7375,
+          "FCC": 0.1305
+        },
+        "950.0": {
+          "BCC": 0.2065,
+          "C15": 0.5145,
+          "FCC": 0.279
+        },
+        "1000.0": {
+          "BCC": 0.193,
+          "C15": 0.369,
+          "FCC": 0.438
+        }
+      },
+      "simplex_fallback_count": 0,
+      "extreme_probability_fractions": {
+        "pred_max_component_gt_0.95": 0.0,
+        "pred_max_component_gt_0.99": 0.0,
+        "all_components_lt_0.05": 0.0
+      },
+      "note": "descriptive distribution only; no accuracy terminology (spec 31)"
+    },
+    {
+      "model": "SECONDARY",
+      "mean_predicted_simplex": {
+        "FCC": 0.2502370807792329,
+        "BCC": 0.011073512534362638,
+        "C15": 0.6848946316700615,
+        "OTHER_SOLID": 0.053718999939857855,
+        "LIQUID": 7.5775076485103e-05
+      },
+      "median_component_values": {
+        "FCC": 0.10522242358073602,
+        "BCC": 0.005257290858543265,
+        "C15": 0.8271764346887045,
+        "OTHER_SOLID": 0.05124853015526702,
+        "LIQUID": 0.0
+      },
+      "modal_topology_distribution": {
+        "C15": 0.7593181818181818,
+        "FCC": 0.2406818181818182
+      },
+      "topology_by_temperature": {
+        "300.0": {
+          "C15": 1.0,
+          "FCC": 0.0
+        },
+        "350.0": {
+          "C15": 1.0,
+          "FCC": 0.0
+        },
+        "400.0": {
+          "C15": 1.0,
+          "FCC": 0.0
+        },
+        "450.0": {
+          "C15": 1.0,
+          "FCC": 0.0
+        },
+        "500.0": {
+          "C15": 1.0,
+          "FCC": 0.0
+        },
+        "600.0": {
+          "C15": 1.0,
+          "FCC": 0.0
+        },
+        "700.0": {
+          "C15": 0.998,
+          "FCC": 0.002
+        },
+        "800.0": {
+          "C15": 0.8445,
+          "FCC": 0.1555
+        },
+        "900.0": {
+          "C15": 0.3465,
+          "FCC": 0.6535
+        },
+        "950.0": {
+          "C15": 0.1315,
+          "FCC": 0.8685
+        },
+        "1000.0": {
+          "C15": 0.032,
+          "FCC": 0.968
+        }
+      },
+      "simplex_fallback_count": 0,
+      "extreme_probability_fractions": {
+        "pred_max_component_gt_0.95": 0.0,
+        "pred_max_component_gt_0.99": 0.0,
+        "all_components_lt_0.05": 0.0
+      },
+      "note": "descriptive distribution only; no accuracy terminology (spec 31)"
+    }
+  ],
+  "disagreement": {
+    "mean_tvd_primary_vs_secondary": 0.19859415294353075,
+    "median_tvd": 0.1332370372487416,
+    "p95_tvd": 0.4337853391474554,
+    "topology_agreement_rate": 0.8371818181818181
+  },
+  "interpretation_note": "target-free descriptive statistics; no accuracy terminology, no correctness interpretation"
+}

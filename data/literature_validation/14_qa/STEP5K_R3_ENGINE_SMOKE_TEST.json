@@ -1,0 +1,230 @@
+{
+  "generated_utc": "2026-09-12T02:36:48Z",
+  "status": "PASS",
+  "engine_usable": true,
+  "engine_steps_1_to_4_passed": true,
+  "solver_level_used": 0,
+  "all_seven_steps_passed": true,
+  "wall_clock_seconds": 7.12,
+  "environment": {
+    "python_interpreter": "C:\\Program Files\\Thermo-Calc\\2025b\\python\\python.exe",
+    "python_version": "3.9.20",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "machine": "AMD64",
+    "cwd": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5K_R3_TARGETED_EXTERNAL_VALIDATION",
+    "tc_python_version": "2025.2.30",
+    "tc_python_path": "C:\\Program Files\\Thermo-Calc\\2025b\\python\\lib\\site-packages\\tc_python",
+    "env_TC25B_HOME": "C:\\Program Files\\Thermo-Calc\\2025b",
+    "env_LSHOST": "NO-NET",
+    "env_TEMP": "C:\\Users\\admin\\AppData\\Local\\Temp",
+    "env_TMP": "C:\\Users\\admin\\AppData\\Local\\Temp",
+    "thermo_calc_installation": "C:\\Program Files\\Thermo-Calc\\2025b",
+    "thermo_calc_installation_exists": true,
+    "has_data": true,
+    "has_python": true,
+    "has_jre": false,
+    "has_bin": false,
+    "bundled_java": "not found at jre/bin",
+    "TCCU6_data_directory": "C:\\Program Files\\Thermo-Calc\\2025b\\data\\TCCU6",
+    "temp_free_GB": 30.75,
+    "interpreter_drive_free_GB": 30.75,
+    "java_thread_stack_variant": "installer default"
+  },
+  "smoke_test_condition": {
+    "condition_id": "R3_NB_001",
+    "state_id": "R3_NB_001_EQ",
+    "source_id": "S3_NB_CO",
+    "system": "Cu-Cr-Nb",
+    "composition_wt_pct": {
+      "CU": 49.0,
+      "CR": 49.0,
+      "NB": 2.0
+    },
+    "temperature_C": 799.85,
+    "temperature_K": 1073.0,
+    "pressure_Pa": 100000.0,
+    "system_size_mol": 1.0,
+    "database": "TCCU6",
+    "page": "289 (PDF p.3); procedure pp.287–288 (PDF pp.1–2)",
+    "table": "1"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "name": "session initialisation",
+      "result": "PASS",
+      "seconds": null,
+      "detail": "TCPython() context entered; GES version set"
+    },
+    {
+      "step": 2,
+      "name": "TCCU6 selected with elements",
+      "detail": {
+        "database": "TCCU6",
+        "elements": [
+          "CR",
+          "CU",
+          "NB"
+        ]
+      },
+      "result": "PASS",
+      "seconds": 0.003
+    },
+    {
+      "step": 3,
+      "name": "system built",
+      "detail": "System object created",
+      "result": "PASS",
+      "seconds": 3.876
+    },
+    {
+      "step": 4,
+      "name": "phase names queried",
+      "detail": {
+        "n_phases": 46,
+        "phases": [
+          "AL4CR",
+          "AL5FE4",
+          "ALCU_EPS",
+          "ALCU_ETA",
+          "ALZR2_B82",
+          "B2_BCC",
+          "BCC_B2",
+          "BCT_A5",
+          "BE2CU",
+          "C14_LAVES",
+          "C15_LAVES",
+          "C36_LAVES",
+          "CBCC_A12",
+          "CD8CU5",
+          "CO3SI_HT",
+          "CR3GE",
+          "CR3SI",
+          "CR5GE3",
+          "CRSI2_C40",
+          "CU3AS",
+          "CU3SN",
+          "CU3TI2",
+          "CU41SN11",
+          "CU4TI1",
+          "CU4TI3",
+          "CU6SN5_HT",
+          "CUB_A13",
+          "CUSN_GAMMA",
+          "CUTI3",
+          "CUTI_B11",
+          "CUZR2_C11B",
+          "DHCP",
+          "FCC_L10",
+          "FCC_L12",
+          "GAS",
+          "HCP_A3",
+          "HCP_ZN",
+          "LCR5GE3",
+          "LIQUID",
+          "MN5SI3_D88",
+          "MU_PHASE",
+          "NB7NI6",
+          "NBNI3",
+          "NI3SN_D019",
+          "NI3TI",
+          "NISI2"
+        ]
+      },
+      "result": "PASS",
+      "seconds": 0.043
+    },
+    {
+      "step": 5,
+      "name": "equilibrium calculated",
+      "detail": {
+        "solver_level": 0,
+        "iterations": 500,
+        "global_grid_points": 2000,
+        "earlier_attempt_errors": [],
+        "note": "calculated at the exact literature composition and temperature"
+      },
+      "result": "PASS",
+      "seconds": 0.987
+    },
+    {
+      "step": 6,
+      "name": "phase amounts queried",
+      "detail": {
+        "n_stable_phases": 3,
+        "amounts": {
+          "BCC_B2#1": {
+            "NPM": 0.5206929874467338,
+            "VPV": 0.5154813389532096
+          },
+          "C15_LAVES#1": {
+            "NPM": 0.03443530608456012,
+            "VPV": 0.040238180183068586
+          },
+          "FCC_L12#1": {
+            "NPM": 0.4448717064687063,
+            "VPV": 0.4442804808637219
+          }
+        }
+      },
+      "result": "PASS",
+      "seconds": 0.017
+    },
+    {
+      "step": 7,
+      "name": "phase compositions queried",
+      "detail": {
+        "components": [
+          "CR",
+          "CU",
+          "NB"
+        ],
+        "n_phases": 3
+      },
+      "result": "PASS",
+      "seconds": 0.015
+    }
+  ],
+  "observed_state": {
+    "stable_phases": [
+      "BCC_B2#1",
+      "C15_LAVES#1",
+      "FCC_L12#1"
+    ],
+    "amounts": {
+      "BCC_B2#1": {
+        "NPM": 0.5206929874467338,
+        "VPV": 0.5154813389532096
+      },
+      "C15_LAVES#1": {
+        "NPM": 0.03443530608456012,
+        "VPV": 0.040238180183068586
+      },
+      "FCC_L12#1": {
+        "NPM": 0.4448717064687063,
+        "VPV": 0.4442804808637219
+      }
+    },
+    "phase_compositions_mole_fraction": {
+      "BCC_B2#1": {
+        "CR": 0.9977382262063791,
+        "CU": 5.30829162082824e-05,
+        "NB": 0.0022086908774126956
+      },
+      "C15_LAVES#1": {
+        "CR": 0.6753582625094326,
+        "CU": 0.0007392827824436159,
+        "NB": 0.3239024547081237
+      },
+      "FCC_L12#1": {
+        "CR": 0.0008686307477453252,
+        "CU": 0.9988979889268615,
+        "NB": 0.00023338032539314057
+      }
+    }
+  },
+  "is_a_scientific_result": false,
+  "written_into_07_calphad_raw": false,
+  "database_or_settings_changed_to_pass": false,
+  "ni_used": false
+}

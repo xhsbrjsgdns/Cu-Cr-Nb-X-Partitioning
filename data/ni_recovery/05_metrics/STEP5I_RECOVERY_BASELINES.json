@@ -1,0 +1,32 @@
+{
+  "generated_utc": "2026-09-07T06:01:13+00:00",
+  "subset": "RECOVERY_EVALUATION, 1400 compositions x 11 T = 15400 states",
+  "M_ZERO": {
+    "n_states": 15400,
+    "mean_tvd": 0.8632602865207863,
+    "median_tvd": 0.9102821722140795,
+    "p95_tvd": 0.9992929469083855,
+    "topology_accuracy": 0.07967532467532468,
+    "topology_macro_f1": 0.04006203575218349,
+    "trivial_tvd_same_subset": 0.5960189306749455,
+    "skill_vs_trivial": -0.26724135584584086
+  },
+  "M_ZERO_source": "frozen STEP5H_A_PRIMARY_NI_PREDICTIONS.parquet, restricted to the recovery subset; never regenerated",
+  "M_TRIVIAL": {
+    "n_states": 15400,
+    "mean_tvd": 0.5960189306749455,
+    "median_tvd": 0.6072550761444009,
+    "p95_tvd": 0.7439355044496707,
+    "topology_accuracy": 0.7158441558441558,
+    "topology_macro_f1": 0.1668785952164699,
+    "trivial_tvd_same_subset": 0.5960189306749455,
+    "skill_vs_trivial": 0.0
+  },
+  "M_TRIVIAL_definition": "frozen PRIMARY training-mean simplex [0.3924063060849874, 0.17997911835521582, 0.2687588732102482, 0.1582142342482923, 0.0006414681012562028]",
+  "full_blind_reference_do_not_substitute": {
+    "mean_tvd_22000_states": 0.8643856186628641,
+    "topology_accuracy_22000_states": 0.07859090909090909,
+    "trivial_tvd_22000_states": 0.5957669021263107,
+    "note": "spec 34: B_recovery25 uses the recovery-subset M_ZERO above, not this value"
+  }
+}

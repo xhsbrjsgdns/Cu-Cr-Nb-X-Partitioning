@@ -1,0 +1,48 @@
+[
+  {
+    "source_id": "S1_AG",
+    "title": "The phase equilibria of the Cu–Cr–Ni and Cu–Cr–Ag systems: Experimental investigation and thermodynamic modeling",
+    "authors": [
+      "Chengliang Qiu",
+      "Biao Hu",
+      "Jiaqiang Zhou",
+      "Peilu Wu",
+      "Yin Liu",
+      "Chengjun Wang",
+      "Yong Du"
+    ],
+    "journal": "Calphad",
+    "year": 2020,
+    "DOI": "10.1016/j.calphad.2019.101734",
+    "pdf_path": "E:\\Cu_CALPHAD_ML\\文献\\The phase equilibria of the Cu–Cr–Ni and Cu–Cr–Ag systems_ Experimental investigation and thermodynamic modeling(科研通-ablesci.com).pdf",
+    "sha256": "2bd9240981f8df89dab4ad94744fb5a19e5725c6c3c9d94d1055dfce94969d80",
+    "systems": [
+      "Cu-Cr-Ag"
+    ],
+    "source_role": "user_supplied_primary_experimental_phase_equilibrium",
+    "identity_verified": true,
+    "identity_evidence": "PDF first page title, author list, journal and DOI inspected; year from journal header."
+  },
+  {
+    "source_id": "S2_MO",
+    "title": "Experimental Investigation and Thermodynamic Calculation of the Phase Equilibria in the Cu-Cr-W and Cu-Cr-Mo Systems",
+    "authors": [
+      "C.P. Wang",
+      "D.X. Huang",
+      "J.J. Zhu",
+      "S.Y. Yang",
+      "X.J. Liu"
+    ],
+    "journal": "Journal of Phase Equilibria and Diffusion",
+    "year": 2014,
+    "DOI": "10.1007/s11669-014-0311-0",
+    "pdf_path": "E:\\Cu_CALPHAD_ML\\文献\\Experimental Investigation and Thermodynamic Calculation of the Phase Equilibria in the Cu-Cr-W and Cu-Cr-Mo Systems(科研通-ablesci.com).pdf",
+    "sha256": "28e4386840ae25aadeaef6f8bb804e760ebb4fe6cc62febf450d2d6c0c86d5f7",
+    "systems": [
+      "Cu-Cr-Mo"
+    ],
+    "source_role": "user_supplied_primary_experimental_phase_equilibrium",
+    "identity_verified": true,
+    "identity_evidence": "PDF first page title, author list, journal and DOI inspected; year from journal header."
+  }
+]

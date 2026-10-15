@@ -1,0 +1,210 @@
+[
+  {
+    "path": "00_config\\build_literature_compositions.py",
+    "sha256": "4b8ee9081f7cf6bd399366f986ca6a0d7eed789bf477d049d423ff85c6daf981"
+  },
+  {
+    "path": "00_config\\fetch_pdf_source.py",
+    "sha256": "4af8ffc2cf68547f2795df4017e50b90afc4f39d5c040c7c7160b0cdc240c51c"
+  },
+  {
+    "path": "00_config\\fetch_pdf_source2.py",
+    "sha256": "d18df247b4aaa29f2eabed63386046bc3754a7691c37122bbb462f0cdb4c4974"
+  },
+  {
+    "path": "00_config\\fetch_pdf_source3.py",
+    "sha256": "0904f567cce13c781d46bffc4ea88836bcc6c400676c4526b014af632911f8e0"
+  },
+  {
+    "path": "00_config\\probe_tccu6_elements.py",
+    "sha256": "4594ea4202dbd6a24abbe801c293001ae487c37c67b1b15749b77309ef8495e5"
+  },
+  {
+    "path": "00_config\\run_fullv1_match.py",
+    "sha256": "4c37b338a23b4fef2a5ba3314a0d499dee3a561b43be84a0fcd155d2f460740e"
+  },
+  {
+    "path": "00_config\\run_integrity_audit.py",
+    "sha256": "6918698c517c6b633945b20a11eb803d7ae2509ea142df8f3ad71fb1bfd3b1b7"
+  },
+  {
+    "path": "00_config\\run_phase_maps.py",
+    "sha256": "2b0659bffb7424482fa6a41af934f3afb1e07c91d6fc9e6f6a65481d66223dae"
+  },
+  {
+    "path": "00_config\\run_plan_audit_insertions.py",
+    "sha256": "e2075f7be146e9f7b9999228f881a673fb350ce35ea376ca642b38b1415a6c07"
+  },
+  {
+    "path": "00_config\\run_postfreeze_calphad.py",
+    "sha256": "0a8e3d081ac807a6576fb6bd768be432ba1db925a8af0d093dd0d8421e678600"
+  },
+  {
+    "path": "00_config\\run_postfreeze_escalate.py",
+    "sha256": "63a034b4ac0b7805d3244c113620e915b2af18739ef818202a02d9c6e129d2ac"
+  },
+  {
+    "path": "00_config\\run_threshold_nan.py",
+    "sha256": "2cdd603ebc2787551b156eda9fd0f892e7eb4f00c6c0a5a32f82531e0611524d"
+  },
+  {
+    "path": "00_config\\STEP5K_R1_LITERATURE_COMPOSITIONS_FOR_MATCH.csv",
+    "sha256": "94ae7b471e693cc06ff368898f31af258ec75d6e9bc0d5bc8517096e88a66b7b"
+  },
+  {
+    "path": "03_fullv1_matching\\STEP5K_R1_FULLV1_LITERATURE_MATCH.csv",
+    "sha256": "3399f468c39c441bd76bb14eb0fdf10f52dbfb6d98b53b9a4cb89d87b1a58cc0"
+  },
+  {
+    "path": "05_optional_nonNi_CALPHAD\\run_postfreeze.log",
+    "sha256": "c98e8b1368135aacbe41b8dca0059943fe2d994f7ef511377287866a215c8969"
+  },
+  {
+    "path": "05_optional_nonNi_CALPHAD\\run_postfreeze_escalate.log",
+    "sha256": "8769157a31d56903602d089858d1b99f6328aac069930eef17dc192dbad645ed"
+  },
+  {
+    "path": "06_threshold_sensitivity\\STEP5K_R1_NAN_TOLERANCE_AUDIT.md",
+    "sha256": "07043588ab5974eeb2d774937724004a24f66cf3636c3571869b2f5f5870e646"
+  },
+  {
+    "path": "06_threshold_sensitivity\\STEP5K_R1_PRESENCE_THRESHOLD_SENSITIVITY.csv",
+    "sha256": "e2282c0851b7bd54982df7b1a03aa6cb65e3803ef357982a64eee812dfff2603"
+  },
+  {
+    "path": "06_threshold_sensitivity\\_nan_audit_raw.json",
+    "sha256": "d12660f31d19ae64bdbd0d96efcc3e3c331a304204c8ee6cb8e8fdb2b0fae643"
+  },
+  {
+    "path": "07_phase_maps\\Fig_R1_01_Zr_phase_map.png",
+    "sha256": "54f7cb06e5dcfe8cb5a5f7918ff836d0e384a558d4d3b85bd283c9cd26147eb3"
+  },
+  {
+    "path": "07_phase_maps\\Fig_R1_01_Zr_phase_map_data.csv",
+    "sha256": "c6a61f38ac6e3840811463d80d461fc2ab06702fc89d82549d75b71dbaef97fe"
+  },
+  {
+    "path": "07_phase_maps\\Fig_R1_02_Ti_phase_map.png",
+    "sha256": "17dd60e7febdbf208abb410600e3cc4881daff876da6a5bb1111d8b1b671fccb"
+  },
+  {
+    "path": "07_phase_maps\\Fig_R1_02_Ti_phase_map_data.csv",
+    "sha256": "ee4d619edc42db3e3994bb26cbc68c62fc136b2a5894518ee23bf3c2a9ee312b"
+  },
+  {
+    "path": "07_phase_maps\\Fig_R1_03_Co_phase_map.png",
+    "sha256": "a715213afe24c6ac17e0b8276c4929081bfc88caa2b901d21ddf76dcd1bb7ad2"
+  },
+  {
+    "path": "07_phase_maps\\Fig_R1_03_Co_phase_map_data.csv",
+    "sha256": "ed560bc339560dbc6942062be66429c9e119e481346670592c4c3b7261edf7b1"
+  },
+  {
+    "path": "07_phase_maps\\Fig_R1_04_Si_phase_map.png",
+    "sha256": "1c08292d77f7ff3147c3eb8511336883cf63106821d5add22d30a6b68c48c4ba"
+  },
+  {
+    "path": "07_phase_maps\\Fig_R1_04_Si_phase_map_data.csv",
+    "sha256": "a44a4b3e842e45352be93bd1915952379cd480f43a0e12d3ea52ea4e83062c5f"
+  },
+  {
+    "path": "07_phase_maps\\Fig_R1_05_Ag_phase_map.png",
+    "sha256": "ce7a8f40420d19f93d87baeeba8e294684bf3d34adb502b77eb610cab4c7376a"
+  },
+  {
+    "path": "07_phase_maps\\Fig_R1_05_Ag_phase_map_data.csv",
+    "sha256": "b36c43c82b1c6c31827ef15b3df9d01cdca173d6bbbfd2b725596c130d347971"
+  },
+  {
+    "path": "07_phase_maps\\Fig_R1_06_Mo_phase_map.png",
+    "sha256": "ca5644bbae5ae4f17e811c9e75aafc1c9e6bcd8a4586bbefa62220d8a0f68292"
+  },
+  {
+    "path": "07_phase_maps\\Fig_R1_06_Mo_phase_map_data.csv",
+    "sha256": "4f34cbea51f37f5cbca3e1bd7b60d612aa57b0a69a26facc4ac41a31d1196ad0"
+  },
+  {
+    "path": "07_phase_maps\\Fig_R1_07_cross_family_topology_map.png",
+    "sha256": "69c36248cd0808762f856ca38c448850a01a736e1bfbfb215bccf2858bfe46ce"
+  },
+  {
+    "path": "07_phase_maps\\Fig_R1_07_cross_family_topology_map_data.csv",
+    "sha256": "ba84abce4adfcd5d194b0cf34ca67e2216b6ad720ab6992a788c931015e760eb"
+  },
+  {
+    "path": "07_phase_maps\\STEP5K_R1_PHASE_MAP_SUMMARY.csv",
+    "sha256": "9de7dc6255af1fa202a337075068d1184c5590e9eec9df3f273c391d0bee0833"
+  },
+  {
+    "path": "08_plan_audit\\STEP5K_R1_UPDATED_PLAN_AUDIT.csv",
+    "sha256": "64b9b83f1c56a0193c53b6a31d8b0bd4cbff8d729a97e712c936ed5b9d3e6784"
+  },
+  {
+    "path": "08_plan_audit\\STEP5K_R1_UPDATED_PLAN_SUMMARY.json",
+    "sha256": "eb9447795d2acadd3b4971daa92a464bc73c86195c5ecd3b4c9e270987ba3d70"
+  },
+  {
+    "path": "09_manuscript_insertions\\STEP5K_R1_JMST_DISCUSSION_INSERTIONS.md",
+    "sha256": "e4757303ffdcfb244f2338933aa3c45e6b946992d371af014e24dccc7ba7c536"
+  },
+  {
+    "path": "09_manuscript_insertions\\STEP5K_R1_JMST_METHODS_INSERTIONS.md",
+    "sha256": "0b7299aa958e92187e57bbe0f83c0875ab21e392b0240226a38f870febe7b35f"
+  },
+  {
+    "path": "09_manuscript_insertions\\STEP5K_R1_JMST_RESULTS_INSERTIONS.md",
+    "sha256": "3a9656232f4be94779c393764a1cab2b13d4486f1d32792862ce294df1c4fd2e"
+  },
+  {
+    "path": "09_manuscript_insertions\\STEP5K_R1_JMST_SUPPLEMENTARY_INSERTIONS.md",
+    "sha256": "6eebe47efd70d95e69e7e3b5e10f495246674fd8f2b3d1704cfce07b95f2fe41"
+  },
+  {
+    "path": "05_optional_nonNi_CALPHAD\\02_raw\\POSTFREEZE_COMPOSITIONS.csv",
+    "sha256": "2d4df682492a901b482ed103b0b7bec9927f5c3a9e49fb365d303bfe6bd722d8"
+  },
+  {
+    "path": "05_optional_nonNi_CALPHAD\\02_raw\\POSTFREEZE_PHASES.csv",
+    "sha256": "5e90b0792037b2aba4e4612555bb0f555681fe002d230899ca75b245f3fc6ccc"
+  },
+  {
+    "path": "05_optional_nonNi_CALPHAD\\02_raw\\POSTFREEZE_STATES.csv",
+    "sha256": "b0d5c039371b4188be1a9bceb22b82d3c3b3a44e4442a58d1ec4ee8c22b94861"
+  },
+  {
+    "path": "05_optional_nonNi_CALPHAD\\03_processed\\POSTFREEZE_FAMILY_AGGREGATED.csv",
+    "sha256": "46006c5e9513c369d26635477f7c50cbd54fb64c1df1fcb2e4643589be79fe5e"
+  },
+  {
+    "path": "02_fulltext_extraction\\pdf\\JIM1959_CuCrTi_ageing1.pdf",
+    "sha256": "fd6883b00cbc021c8cd72b1e1cb7bdcef768a211014846c8992eec761c598bb3"
+  },
+  {
+    "path": "02_fulltext_extraction\\pdf\\JIM1959_CuCrTi_precip2.pdf",
+    "sha256": "dc04a968db22cf917088b2de734ad759afa5a20e9a70ba90d04bc676aeccf82a"
+  },
+  {
+    "path": "02_fulltext_extraction\\pdf\\METALS2021_CuCrMo.pdf",
+    "sha256": "a3ff07e510750fb731360781869333b797661fc5c1829124a3c5c3c815fdecd2"
+  },
+  {
+    "path": "02_fulltext_extraction\\pdf\\VT1955_CrCoCu_sigma.pdf",
+    "sha256": "91323510ed5c5c9731692c2f74eae3b52c37871ce76521629e1e7fecddcf97d7"
+  },
+  {
+    "path": "02_fulltext_extraction\\txt\\JIM1959_CuCrTi_ageing1.txt",
+    "sha256": "7107129982592a55baa4e25db19ecf6cdfb8ae9b8b016bda98036fcfeca63ab3"
+  },
+  {
+    "path": "02_fulltext_extraction\\txt\\JIM1959_CuCrTi_precip2.txt",
+    "sha256": "053dd11f00019913e9f9a49b55f32dc89175889a38304778d954368d84988780"
+  },
+  {
+    "path": "02_fulltext_extraction\\txt\\METALS2021_CuCrMo.txt",
+    "sha256": "81743deafd1c70d424ecb57e2633b248b45c4607faa124565d71e166903f4bb6"
+  },
+  {
+    "path": "02_fulltext_extraction\\txt\\VT1955_CrCoCu_sigma.txt",
+    "sha256": "36558a909a39281f8b0a1187d6af23c5d82bf69a3f1c9b0a882b73712592c9e2"
+  }
+]

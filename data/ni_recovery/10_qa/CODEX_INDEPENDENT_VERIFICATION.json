@@ -1,0 +1,144 @@
+{
+  "status": "PASS",
+  "frozen_source_files_unchanged": 173,
+  "checkpoint_reload_and_independent_metric_checks": [
+    {
+      "tag": "RANDOM_R1_B1",
+      "cpu_reload_max_absolute_raw_difference": 5.960464477539062e-07,
+      "mean_tvd": 0.27413772264987635
+    },
+    {
+      "tag": "RANDOM_R1_B2",
+      "cpu_reload_max_absolute_raw_difference": 5.960464477539062e-07,
+      "mean_tvd": 0.15726524820671914
+    },
+    {
+      "tag": "RANDOM_R1_B4",
+      "cpu_reload_max_absolute_raw_difference": 4.76837158203125e-07,
+      "mean_tvd": 0.11531822816806442
+    },
+    {
+      "tag": "RANDOM_R1_B8",
+      "cpu_reload_max_absolute_raw_difference": 5.960464477539062e-07,
+      "mean_tvd": 0.04840637573029326
+    },
+    {
+      "tag": "RANDOM_R1_B16",
+      "cpu_reload_max_absolute_raw_difference": 4.76837158203125e-07,
+      "mean_tvd": 0.03825805524084304
+    },
+    {
+      "tag": "RANDOM_R1_B32",
+      "cpu_reload_max_absolute_raw_difference": 5.960464477539062e-07,
+      "mean_tvd": 0.02784908200060061
+    },
+    {
+      "tag": "RANDOM_R2_B1",
+      "cpu_reload_max_absolute_raw_difference": 4.76837158203125e-07,
+      "mean_tvd": 0.24743204096059546
+    },
+    {
+      "tag": "RANDOM_R2_B2",
+      "cpu_reload_max_absolute_raw_difference": 4.76837158203125e-07,
+      "mean_tvd": 0.18512004960454448
+    },
+    {
+      "tag": "RANDOM_R2_B4",
+      "cpu_reload_max_absolute_raw_difference": 4.76837158203125e-07,
+      "mean_tvd": 0.10371723705155136
+    },
+    {
+      "tag": "RANDOM_R2_B8",
+      "cpu_reload_max_absolute_raw_difference": 5.960464477539062e-07,
+      "mean_tvd": 0.05534158765275008
+    },
+    {
+      "tag": "RANDOM_R2_B16",
+      "cpu_reload_max_absolute_raw_difference": 5.960464477539062e-07,
+      "mean_tvd": 0.037134571804975904
+    },
+    {
+      "tag": "RANDOM_R2_B32",
+      "cpu_reload_max_absolute_raw_difference": 4.76837158203125e-07,
+      "mean_tvd": 0.02109331325147354
+    },
+    {
+      "tag": "RANDOM_R3_B1",
+      "cpu_reload_max_absolute_raw_difference": 4.76837158203125e-07,
+      "mean_tvd": 0.22291734657012052
+    },
+    {
+      "tag": "RANDOM_R3_B2",
+      "cpu_reload_max_absolute_raw_difference": 4.76837158203125e-07,
+      "mean_tvd": 0.15462689245709169
+    },
+    {
+      "tag": "RANDOM_R3_B4",
+      "cpu_reload_max_absolute_raw_difference": 4.76837158203125e-07,
+      "mean_tvd": 0.15146793641431794
+    },
+    {
+      "tag": "RANDOM_R3_B8",
+      "cpu_reload_max_absolute_raw_difference": 4.76837158203125e-07,
+      "mean_tvd": 0.048466239138038936
+    },
+    {
+      "tag": "RANDOM_R3_B16",
+      "cpu_reload_max_absolute_raw_difference": 5.960464477539062e-07,
+      "mean_tvd": 0.03204863852339185
+    },
+    {
+      "tag": "RANDOM_R3_B32",
+      "cpu_reload_max_absolute_raw_difference": 4.76837158203125e-07,
+      "mean_tvd": 0.03262155912636173
+    },
+    {
+      "tag": "MAXIMIN_B1",
+      "cpu_reload_max_absolute_raw_difference": 3.5762786865234375e-07,
+      "mean_tvd": 0.5712928684118109
+    },
+    {
+      "tag": "MAXIMIN_B2",
+      "cpu_reload_max_absolute_raw_difference": 4.76837158203125e-07,
+      "mean_tvd": 0.4527395636283647
+    },
+    {
+      "tag": "MAXIMIN_B4",
+      "cpu_reload_max_absolute_raw_difference": 4.172325134277344e-07,
+      "mean_tvd": 0.2891188042635012
+    },
+    {
+      "tag": "MAXIMIN_B8",
+      "cpu_reload_max_absolute_raw_difference": 5.960464477539062e-07,
+      "mean_tvd": 0.14158738600549495
+    },
+    {
+      "tag": "MAXIMIN_B16",
+      "cpu_reload_max_absolute_raw_difference": 4.76837158203125e-07,
+      "mean_tvd": 0.03364197057580011
+    },
+    {
+      "tag": "MAXIMIN_B32",
+      "cpu_reload_max_absolute_raw_difference": 4.76837158203125e-07,
+      "mean_tvd": 0.0234572169422126
+    }
+  ],
+  "n_checkpoints": 24,
+  "recovery_states": 15400,
+  "recovery_compositions": 1400,
+  "M_ZERO": 0.8632602865207863,
+  "M_TRIVIAL": 0.5960189306749455,
+  "B_skill": 1,
+  "B_recovery25": 1,
+  "bootstrap_contrasts": 72,
+  "figures": 10,
+  "original_manifest_mismatch": [
+    "12_logs\\117_i_audit_report.py.log"
+  ],
+  "original_manifest_missing": [
+    "11_manifest\\STEP5I_COMPLETION.json"
+  ],
+  "archive_resolution": "Preserve original files; create supplemental final manifest after all producers exit.",
+  "verification_note": "Initial checker used float32 projection; corrected to frozen float64 projection without modifying any production artifact.",
+  "next_stage_executed": false
+}

@@ -1,0 +1,26 @@
+{
+  "timestamp_utc": "2026-09-07T01:23:44+00:00",
+  "stage": "STEP5H-B",
+  "pipeline_freeze_sha256": "15efe35e2ad4f5372323067feccb989079d9fd5666153298a8c2d9f45d3b1788",
+  "composition_sha256": "7680b5a1ba5a2409f2b23900d770dd4939df0cf76bd2f1d9c1a2c2c5cce0030b",
+  "PRIMARY_prediction_sha256": "100b40ed67c396cb296d53db80e7fef7cb94c0c8223873f5a13c01af28f0f488",
+  "SECONDARY_prediction_sha256": "a6c0fc4a98a05a4c53704d85b5caf91a5477577789a69d8dc24f6976f98a72ad",
+  "metric_preregistration_sha256": "7d8f8736d5d29428fbf506709abb0db3b2f0055772d3b69f4796fc115f881328",
+  "calphad_runner_path": "E:\\Cu_CALPHAD_ML\\03_full_CALPHAD\\FULL_V1\\code_snapshot\\22_fullv1_run.py",
+  "calphad_runner_sha256": "4325f256d28bd2f3d9c21d087720c325f372adefeb155d645a812e758f2ab5f7",
+  "thermo_calc_version": "Thermo-Calc 2025b (calculation engine banner is captured in the shard logs)",
+  "tc_python_version": "2025.2.30",
+  "database_version": "TCCU6 Cu-Alloys v6.2 (frozen FULL_V1 database; DATABASE_NAME='TCCU6' inside the frozen runner stack)",
+  "settings": {
+    "pressure_bar": 1.0,
+    "system_amount_mol": 1.0,
+    "composition_unit": "wt.%",
+    "balance": "Cu",
+    "mode": "equilibrium only"
+  },
+  "statement": "Both PRIMARY and SECONDARY Ni zero-shot predictions were frozen before the first Ni CALPHAD target was generated.",
+  "evidence": {
+    "primary_frozen_utc": "2026-09-06T17:11:02+00:00",
+    "secondary_frozen_utc": "2026-09-06T17:11:02+00:00"
+  }
+}

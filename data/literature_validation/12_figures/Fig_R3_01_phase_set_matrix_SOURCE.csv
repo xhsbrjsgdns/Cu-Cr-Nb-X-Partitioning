@@ -1,0 +1,68 @@
+system,phase,side,n_conditions
+Cu-Cr-Ag,fcc(Ag),experimental,14
+Cu-Cr-Ag,fcc(Cu),experimental,11
+Cu-Cr-Ag,bcc(Cr),experimental,14
+Cu-Cr-Ag,BCC_B2,calculated,14
+Cu-Cr-Ag,FCC_L12,calculated,14
+Cu-Cr-Co,fcc (Cu),experimental,16
+Cu-Cr-Co,(αCo),experimental,16
+Cu-Cr-Co,FCC_L12,calculated,16
+Cu-Cr-Co,LIQUID,calculated,2
+Cu-Cr-Mo,Liquid,experimental,16
+Cu-Cr-Mo,"(Cr, Mo)",experimental,16
+Cu-Cr-Mo,BCC_B2,calculated,16
+Cu-Cr-Mo,LIQUID,calculated,16
+Cu-Cr-Nb,fcc (Cu),experimental,11
+Cu-Cr-Nb,bcc (Cr),experimental,17
+Cu-Cr-Nb,Cr2Nb,experimental,25
+Cu-Cr-Nb,Liquid,experimental,18
+Cu-Cr-Nb,bcc (Nb),experimental,9
+Cu-Cr-Nb,BCC_B2,calculated,26
+Cu-Cr-Nb,C15_LAVES,calculated,26
+Cu-Cr-Nb,FCC_L12,calculated,11
+Cu-Cr-Nb,LIQUID,calculated,18
+Cu-Cr-Si,(Si),experimental,2
+Cu-Cr-Si,Cu19Si6,experimental,4
+Cu-Cr-Si,CrSi2,experimental,6
+Cu-Cr-Si,Cu15Si4,experimental,2
+Cu-Cr-Si,Cu56Si11,experimental,2
+Cu-Cr-Si,CrSi,experimental,9
+Cu-Cr-Si,hcp(CuSi),experimental,3
+Cu-Cr-Si,αCr5Si3,experimental,4
+Cu-Cr-Si,(Cu),experimental,7
+Cu-Cr-Si,Cr3Si,experimental,4
+Cu-Cr-Si,(Cr),experimental,2
+Cu-Cr-Si,Cu33Si7,experimental,1
+Cu-Cr-Si,CRSI2_C40,calculated,9
+Cu-Cr-Si,CUSI_ETA,calculated,3
+Cu-Cr-Si,DIAMOND_A4,calculated,2
+Cu-Cr-Si,CU15SI4_EPSILON,calculated,2
+Cu-Cr-Si,CU56SI11_GAMMA,calculated,1
+Cu-Cr-Si,FESI_B20,calculated,9
+Cu-Cr-Si,HCP_A3,calculated,3
+Cu-Cr-Si,AL3ZR5_D8M,calculated,4
+Cu-Cr-Si,FCC_L12,calculated,6
+Cu-Cr-Si,CR3SI,calculated,4
+Cu-Cr-Si,BCC_B2,calculated,3
+Cu-Cr-Si,CU33SI7_DELTA,calculated,4
+Cu-Cr-Ti,CuTi2,experimental,7
+Cu-Cr-Ti,αTiCr2,experimental,17
+Cu-Cr-Ti,βTi,experimental,6
+Cu-Cr-Ti,CuTi,experimental,5
+Cu-Cr-Ti,τ1,experimental,5
+Cu-Cr-Ti,"(Cu, Cr)3Ti2",experimental,12
+Cu-Cr-Ti,Cu4Ti,experimental,9
+Cu-Cr-Ti,(Cu),experimental,4
+Cu-Cr-Ti,(Cr),experimental,2
+Cu-Cr-Ti,Cu4Ti3,experimental,5
+Cu-Cr-Ti,Cu3Ti2,experimental,2
+Cu-Cr-Ti,αTi,experimental,1
+Cu-Cr-Ti,BCC_B2,calculated,27
+Cu-Cr-Ti,CUZR2_C11B,calculated,6
+Cu-Cr-Ti,CUTI_B11,calculated,8
+Cu-Cr-Ti,CU3TI2,calculated,11
+Cu-Cr-Ti,CU4TI1,calculated,9
+Cu-Cr-Ti,FCC_L12,calculated,1
+Cu-Cr-Ti,CU4TI3,calculated,8
+Cu-Cr-Ti,CUTI3,calculated,2
+Cu-Cr-Ti,HCP_A3,calculated,1

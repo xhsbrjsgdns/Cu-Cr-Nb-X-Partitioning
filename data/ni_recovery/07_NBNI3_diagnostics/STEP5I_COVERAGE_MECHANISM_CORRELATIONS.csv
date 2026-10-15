@@ -1,0 +1,43 @@
+scope,n_cells,coverage_metric,recovery_metric,method,spearman_rho,p_value,note
+ALL_RANDOM_CELLS,18,fraction_anchor_states_NBNI3,recovery_vs_zero_shot,M_REFIT,0.7597253503312641,0.00025430921058265053,ok
+ALL_RANDOM_CELLS,18,fraction_anchor_states_NBNI3,R0_recovery_vs_zero_shot,R0,0.9248375997842759,4.0382324458802405e-08,ok
+ALL_RANDOM_CELLS,18,n_anchor_comps_with_any_NBNI3,recovery_vs_zero_shot,M_REFIT,0.9812683685846725,7.186815513334752e-13,ok
+ALL_RANDOM_CELLS,18,n_anchor_comps_with_any_NBNI3,R0_recovery_vs_zero_shot,R0,0.8746769164061459,2.050041409374901e-06,ok
+ALL_RANDOM_CELLS,18,fraction_anchor_states_true_OTHER_SOLID,recovery_vs_zero_shot,M_REFIT,0.8728061576385113,2.2939173879923337e-06,ok
+ALL_RANDOM_CELLS,18,fraction_anchor_states_true_OTHER_SOLID,R0_recovery_vs_zero_shot,R0,0.9507164781032277,1.4985837528104452e-09,ok
+BUDGET_1,3,fraction_anchor_states_NBNI3,recovery_vs_zero_shot,M_REFIT,0.5,0.6666666666666666,ok
+BUDGET_1,3,fraction_anchor_states_NBNI3,R0_recovery_vs_zero_shot,R0,1.0,0.0,ok
+BUDGET_1,3,n_anchor_comps_with_any_NBNI3,recovery_vs_zero_shot,M_REFIT,,,undefined (constant input)
+BUDGET_1,3,n_anchor_comps_with_any_NBNI3,R0_recovery_vs_zero_shot,R0,,,undefined (constant input)
+BUDGET_1,3,fraction_anchor_states_true_OTHER_SOLID,recovery_vs_zero_shot,M_REFIT,0.0,1.0,ok
+BUDGET_1,3,fraction_anchor_states_true_OTHER_SOLID,R0_recovery_vs_zero_shot,R0,0.8660254037844387,0.33333333333333326,ok
+BUDGET_2,3,fraction_anchor_states_NBNI3,recovery_vs_zero_shot,M_REFIT,,,undefined (constant input)
+BUDGET_2,3,fraction_anchor_states_NBNI3,R0_recovery_vs_zero_shot,R0,,,undefined (constant input)
+BUDGET_2,3,n_anchor_comps_with_any_NBNI3,recovery_vs_zero_shot,M_REFIT,,,undefined (constant input)
+BUDGET_2,3,n_anchor_comps_with_any_NBNI3,R0_recovery_vs_zero_shot,R0,,,undefined (constant input)
+BUDGET_2,3,fraction_anchor_states_true_OTHER_SOLID,recovery_vs_zero_shot,M_REFIT,,,undefined (constant input)
+BUDGET_2,3,fraction_anchor_states_true_OTHER_SOLID,R0_recovery_vs_zero_shot,R0,,,undefined (constant input)
+BUDGET_4,3,fraction_anchor_states_NBNI3,recovery_vs_zero_shot,M_REFIT,0.8660254037844387,0.33333333333333326,ok
+BUDGET_4,3,fraction_anchor_states_NBNI3,R0_recovery_vs_zero_shot,R0,0.8660254037844387,0.33333333333333326,ok
+BUDGET_4,3,n_anchor_comps_with_any_NBNI3,recovery_vs_zero_shot,M_REFIT,,,undefined (constant input)
+BUDGET_4,3,n_anchor_comps_with_any_NBNI3,R0_recovery_vs_zero_shot,R0,,,undefined (constant input)
+BUDGET_4,3,fraction_anchor_states_true_OTHER_SOLID,recovery_vs_zero_shot,M_REFIT,0.8660254037844387,0.33333333333333326,ok
+BUDGET_4,3,fraction_anchor_states_true_OTHER_SOLID,R0_recovery_vs_zero_shot,R0,0.8660254037844387,0.33333333333333326,ok
+BUDGET_8,3,fraction_anchor_states_NBNI3,recovery_vs_zero_shot,M_REFIT,-0.5,0.6666666666666666,ok
+BUDGET_8,3,fraction_anchor_states_NBNI3,R0_recovery_vs_zero_shot,R0,0.5,0.6666666666666666,ok
+BUDGET_8,3,n_anchor_comps_with_any_NBNI3,recovery_vs_zero_shot,M_REFIT,,,undefined (constant input)
+BUDGET_8,3,n_anchor_comps_with_any_NBNI3,R0_recovery_vs_zero_shot,R0,,,undefined (constant input)
+BUDGET_8,3,fraction_anchor_states_true_OTHER_SOLID,recovery_vs_zero_shot,M_REFIT,-0.5,0.6666666666666666,ok
+BUDGET_8,3,fraction_anchor_states_true_OTHER_SOLID,R0_recovery_vs_zero_shot,R0,0.5,0.6666666666666666,ok
+BUDGET_16,3,fraction_anchor_states_NBNI3,recovery_vs_zero_shot,M_REFIT,-0.5,0.6666666666666666,ok
+BUDGET_16,3,fraction_anchor_states_NBNI3,R0_recovery_vs_zero_shot,R0,0.5,0.6666666666666666,ok
+BUDGET_16,3,n_anchor_comps_with_any_NBNI3,recovery_vs_zero_shot,M_REFIT,,,undefined (constant input)
+BUDGET_16,3,n_anchor_comps_with_any_NBNI3,R0_recovery_vs_zero_shot,R0,,,undefined (constant input)
+BUDGET_16,3,fraction_anchor_states_true_OTHER_SOLID,recovery_vs_zero_shot,M_REFIT,-0.5,0.6666666666666666,ok
+BUDGET_16,3,fraction_anchor_states_true_OTHER_SOLID,R0_recovery_vs_zero_shot,R0,0.5,0.6666666666666666,ok
+BUDGET_32,3,fraction_anchor_states_NBNI3,recovery_vs_zero_shot,M_REFIT,0.5,0.6666666666666666,ok
+BUDGET_32,3,fraction_anchor_states_NBNI3,R0_recovery_vs_zero_shot,R0,0.5,0.6666666666666666,ok
+BUDGET_32,3,n_anchor_comps_with_any_NBNI3,recovery_vs_zero_shot,M_REFIT,,,undefined (constant input)
+BUDGET_32,3,n_anchor_comps_with_any_NBNI3,R0_recovery_vs_zero_shot,R0,,,undefined (constant input)
+BUDGET_32,3,fraction_anchor_states_true_OTHER_SOLID,recovery_vs_zero_shot,M_REFIT,0.0,1.0,ok
+BUDGET_32,3,fraction_anchor_states_true_OTHER_SOLID,R0_recovery_vs_zero_shot,R0,0.8660254037844387,0.33333333333333326,ok

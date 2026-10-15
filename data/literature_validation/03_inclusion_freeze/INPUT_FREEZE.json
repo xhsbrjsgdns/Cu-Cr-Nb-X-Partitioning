@@ -1,0 +1,19 @@
+{
+  "frozen_utc": "2026-09-11T14:32:08.721127+00:00",
+  "source_count": 6,
+  "condition_count": 149,
+  "eligible_count": 135,
+  "selected_count": 120,
+  "state_budget": 120,
+  "request_sha256": "bcfb08280ed128fe920ca6d99954841c253a8d2a0cc59d6691aadd09015cbe64",
+  "rules_sha256": "9e86e90a9eb49d67f9824919063465087c76a78ffe40428f95537a8bf12ae188",
+  "condition_sha256": "63b0e6f36feb4b59cd0d9cfea49596cea5858b5f5703ea69f2a8cdab1afdf0c6",
+  "sources": {
+    "S1_AG": "2bd9240981f8df89dab4ad94744fb5a19e5725c6c3c9d94d1055dfce94969d80",
+    "S2_MO": "28e4386840ae25aadeaef6f8bb804e760ebb4fe6cc62febf450d2d6c0c86d5f7",
+    "S3_NB_CO": "cec0a256e75f5f6ba6e0681602ee5ea63b4436791e7e423ca970b8a3e30910af",
+    "S6_GRCOP": "b01583a1b998faec556a8624ef572bc82a9d0ac56c7d3f6cb63347ee8cfcc2ce",
+    "S4_SI": "d88b2cf5b2599afe9e2a3d31ac27ca5e87d3000b7034f56a6fc3ccf8a69ab40d",
+    "S5_TI": "4d4dbd2d67bee3eb3ecc5d59c1da53d362cf07a73cb994e0148052e11a8d4143"
+  }
+}

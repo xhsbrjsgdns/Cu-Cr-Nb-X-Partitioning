@@ -1,0 +1,53 @@
+{
+  "timestamp_utc": "2026-09-06T17:07:49+00:00",
+  "stage": "STEP5H-A",
+  "pipeline_freeze_id": "STEP5G_FINAL_PIPELINE_FREEZE_V1",
+  "pipeline_freeze_sha256": "15efe35e2ad4f5372323067feccb989079d9fd5666153298a8c2d9f45d3b1788",
+  "ni_composition_table_sha256": "7680b5a1ba5a2409f2b23900d770dd4939df0cf76bd2f1d9c1a2c2c5cce0030b",
+  "primary_checkpoint_sha256": "f89e4ddc2f367a572a16a29062faa3c3d580fc8aae73a8e6bfaa28a8bcd86d0f",
+  "secondary_checkpoint_sha256": "a685b2138f114f3274f3b789753b28971484b797ca7d375a9354021242d55719",
+  "primary_scaler_sha256": "c2619e4aed54304a9ed895b98164b0205421310f613f50346c249de41d7e3475",
+  "secondary_scaler_sha256": "b247fdae442c475d58a052427a4744a62a88114d266b865e7e0f4116245d43d4",
+  "feature_schema_sha256": "faebd4de9423b6087e5ae2bb7242dade2538299eb294b3318538d62c3ca86126",
+  "feature_list_sha256": "f4ddf4a2587e33a7d441656110c589208d9d860095198dd4b276df64f8a2fb0c",
+  "approved_property_sources": [
+    {
+      "name": "matminer MagpieData (magpie.data.json elemental repository)",
+      "version": "0.10.1",
+      "usage": "9 of the 10 required Ni quantities + the frozen ElementProperty('magpie') preset"
+    },
+    {
+      "name": "mendeleev built-in elemental database",
+      "version": "1.2.0",
+      "usage": "MetallicRadius (atomic_radius), Density"
+    }
+  ],
+  "excluded_sources": [
+    "web search",
+    "manual entry",
+    "Wikipedia",
+    "Materials Project",
+    "DFT",
+    "alternate databases",
+    "ad-hoc physical-property tables"
+  ],
+  "properties_to_be_accessed": [
+    "AtomicNumber",
+    "AtomicWeight",
+    "CovalentRadius",
+    "Electronegativity",
+    "VEC",
+    "MeltingT",
+    "FirstIonizationEnergy",
+    "AtomicVolume_GS",
+    "MetallicRadius",
+    "Density"
+  ],
+  "properties_deliberately_not_accessed": [
+    "ElectronAffinity",
+    "MendeleevNumber",
+    "CohesiveEnergy"
+  ],
+  "statement": "No Ni CALPHAD target or equilibrium result has been accessed.",
+  "tc_python_imported": false
+}

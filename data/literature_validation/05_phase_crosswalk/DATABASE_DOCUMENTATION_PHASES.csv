@@ -1,0 +1,20 @@
+raw_phase,description,strukturbericht,pearson,space_group
+LIQUID,Liquid,,,
+FCC_L12,"Bogdanovite (Cu3Au,  L12)",L12,cP4,Pm-3m
+BCC_B2,CsCl (B2),B2,cP2,Pm-3m
+HCP_A3,"Hexagonal Close Packed (Mg,  A3,  hcp)",A3,hP2,P6_3/mmc
+DIAMOND_A4,Diamond (A4),A4,cF8,Fd-3m
+C14_LAVES,MgZn2 Hexagonal Laves (C14),C14,hP12,P6_3/mmc
+C15_LAVES,Cu2Mg Cubic Laves  (C15),C15,cF24,Fd-3m
+C36_LAVES,MgNi2 Hexagonal Laves (C36),C36,hP24,P6_3/mmc
+CUZR2_C11B,MoSi2 (C11b),C11b,tI6,I4/mmm
+SIGMA,sigma-CrFe (D8b),D8b,tP30,P4_2/mnm
+CU33SI7_DELTA,Unknown Structure,,,
+CU56SI11_GAMMA,Mg3Ru2,,cP20,P4_132
+CU15SI4_EPSILON,Cu15Si4 (D86),D86,cI76,I-43d
+CU3TI2,Cu3Ti2,,tP10,P4/nmm
+CU4TI1,Au4Zr,,oP20,Pnma
+CU4TI3,Cu4Ti3,,tI14,I4/mmm
+CUTI_B11,gamma-CuTi (B11),B11,tP4,P4/nmm
+CR3SI,Cr3Si (A15),A15,cP8,Pm-3n
+CRSI2_C40,CrSi2 (C40),C40,hP9,P6_222

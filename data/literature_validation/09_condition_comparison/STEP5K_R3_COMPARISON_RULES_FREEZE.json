@@ -1,0 +1,38 @@
+{
+  "generated_utc": "2026-09-12T02:37:49+00:00",
+  "authored_before_any_r3_equilibrium_existed": true,
+  "rules_source_file": "r3_30_compare.py",
+  "rules_source_sha256": "6fa5aa7d568990350f047b46e360eac64eecb468cba1146e8aabd1ac89743efc",
+  "presence_threshold_mole_fraction": 0.0001,
+  "verdict_vocabulary": [
+    "STRONGLY_CONSISTENT",
+    "CONSISTENT",
+    "PARTIALLY_CONSISTENT",
+    "DISCREPANT",
+    "NOT_COMPARABLE",
+    "CALPHAD_FAILED"
+  ],
+  "verdict_order": [
+    "not selected -> NOT_COMPARABLE",
+    "no calculation submitted -> no verdict (PENDING)",
+    "calculation failed -> CALPHAD_FAILED",
+    "no mappable experimental phase -> NOT_COMPARABLE",
+    "nothing missing, nothing extra, multiplicity ok -> STRONGLY_CONSISTENT",
+    "nothing missing, multiplicity ok, extra phases -> CONSISTENT",
+    "at least one experimental phase reproduced -> PARTIALLY_CONSISTENT",
+    "none reproduced -> DISCREPANT"
+  ],
+  "multiplicity_families": [
+    "FCC",
+    "BCC"
+  ],
+  "multiplicity_rule": "judged only where the paper reports two or more instances of one family; satisfied when the calculation returns at least as many",
+  "Cr2Nb_rule": "admitted against either Laves polymorph; the polymorph is not assumed and the calculated one is reported as a result",
+  "unmappable_rule": "excluded from the metric denominator and reported, never force-matched",
+  "absent_from_database_rule": "counted as a missing experimental phase, because the description cannot produce it",
+  "chemistry_tolerance_at_pct": 5.0,
+  "chemistry_gate": "stage 40 may downgrade a set-level verdict on measured phase chemistry; it can never upgrade one",
+  "crosswalk_resolved_against_database": true,
+  "crosswalk_conflicts": [],
+  "no_single_global_accuracy_is_reported": true
+}

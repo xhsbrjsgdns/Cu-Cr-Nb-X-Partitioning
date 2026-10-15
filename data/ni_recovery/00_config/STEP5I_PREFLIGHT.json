@@ -1,0 +1,291 @@
+{
+  "generated_utc": "2026-09-07T05:42:49+00:00",
+  "verdict": "GO",
+  "stage_type": "POST-BLIND RETROSPECTIVE RECOVERY",
+  "not": [
+    "zero-shot",
+    "blind",
+    "prospective zero-shot"
+  ],
+  "frozen_hashes_live": {
+    "HB_TARGETS": "3e1f4ba2cf6e47120edc4e5150059541ac3d7713e850ac867f411c58126858e3",
+    "HA_PRIMARY_PREDICTIONS": "100b40ed67c396cb296d53db80e7fef7cb94c0c8223873f5a13c01af28f0f488",
+    "HA_MAXIMIN_SEQUENCE": "6704c7e9d71f64dc8395c55b0beed239f29f99f6e7e9bfa510ab8f4d64221fda",
+    "G_RANDOM_SEQUENCES": "9c9389a100ee064bc8a52ab4a4d8cedb7558c9b95462cca0fa6736da92d6507e",
+    "G_PRIMARY_CHECKPOINT": "f89e4ddc2f367a572a16a29062faa3c3d580fc8aae73a8e6bfaa28a8bcd86d0f",
+    "G_PRIMARY_SCALER": "c2619e4aed54304a9ed895b98164b0205421310f613f50346c249de41d7e3475",
+    "G_SECONDARY_CHECKPOINT": "a685b2138f114f3274f3b789753b28971484b797ca7d375a9354021242d55719"
+  },
+  "frozen_hashes_expected": {
+    "HB_TARGETS": "3e1f4ba2cf6e47120edc4e5150059541ac3d7713e850ac867f411c58126858e3",
+    "HA_PRIMARY_PREDICTIONS": "100b40ed67c396cb296d53db80e7fef7cb94c0c8223873f5a13c01af28f0f488",
+    "HA_MAXIMIN_SEQUENCE": "6704c7e9d71f64dc8395c55b0beed239f29f99f6e7e9bfa510ab8f4d64221fda",
+    "G_RANDOM_SEQUENCES": "9c9389a100ee064bc8a52ab4a4d8cedb7558c9b95462cca0fa6736da92d6507e",
+    "G_PRIMARY_CHECKPOINT": "f89e4ddc2f367a572a16a29062faa3c3d580fc8aae73a8e6bfaa28a8bcd86d0f",
+    "G_PRIMARY_SCALER": "c2619e4aed54304a9ed895b98164b0205421310f613f50346c249de41d7e3475",
+    "G_SECONDARY_CHECKPOINT": "a685b2138f114f3274f3b789753b28971484b797ca7d375a9354021242d55719"
+  },
+  "split": {
+    "RECOVERY_EVALUATION": 1400,
+    "FEWSHOT_CALIBRATION": 600
+  },
+  "n_recovery_states": 15400,
+  "random_sequences": {
+    "1": [
+      "NI_BLIND_001550",
+      "NI_BLIND_000805",
+      "NI_BLIND_001401",
+      "NI_BLIND_000295",
+      "NI_BLIND_001946",
+      "NI_BLIND_001800",
+      "NI_BLIND_001199",
+      "NI_BLIND_001922",
+      "NI_BLIND_000112",
+      "NI_BLIND_000066",
+      "NI_BLIND_000734",
+      "NI_BLIND_000777",
+      "NI_BLIND_001572",
+      "NI_BLIND_001686",
+      "NI_BLIND_001503",
+      "NI_BLIND_001855",
+      "NI_BLIND_000731",
+      "NI_BLIND_000332",
+      "NI_BLIND_000838",
+      "NI_BLIND_000412",
+      "NI_BLIND_001137",
+      "NI_BLIND_001544",
+      "NI_BLIND_001184",
+      "NI_BLIND_000275",
+      "NI_BLIND_000710",
+      "NI_BLIND_001212",
+      "NI_BLIND_001597",
+      "NI_BLIND_001725",
+      "NI_BLIND_000149",
+      "NI_BLIND_001751",
+      "NI_BLIND_000686",
+      "NI_BLIND_000904"
+    ],
+    "2": [
+      "NI_BLIND_000841",
+      "NI_BLIND_001754",
+      "NI_BLIND_000301",
+      "NI_BLIND_000297",
+      "NI_BLIND_001624",
+      "NI_BLIND_001853",
+      "NI_BLIND_000252",
+      "NI_BLIND_001770",
+      "NI_BLIND_000687",
+      "NI_BLIND_000527",
+      "NI_BLIND_000784",
+      "NI_BLIND_001199",
+      "NI_BLIND_001101",
+      "NI_BLIND_001919",
+      "NI_BLIND_000437",
+      "NI_BLIND_000881",
+      "NI_BLIND_000316",
+      "NI_BLIND_000636",
+      "NI_BLIND_000076",
+      "NI_BLIND_000885",
+      "NI_BLIND_001725",
+      "NI_BLIND_001279",
+      "NI_BLIND_001106",
+      "NI_BLIND_000015",
+      "NI_BLIND_001993",
+      "NI_BLIND_000651",
+      "NI_BLIND_001201",
+      "NI_BLIND_001759",
+      "NI_BLIND_000190",
+      "NI_BLIND_000507",
+      "NI_BLIND_001889",
+      "NI_BLIND_000157"
+    ],
+    "3": [
+      "NI_BLIND_000507",
+      "NI_BLIND_000761",
+      "NI_BLIND_001007",
+      "NI_BLIND_000354",
+      "NI_BLIND_000646",
+      "NI_BLIND_000897",
+      "NI_BLIND_000877",
+      "NI_BLIND_001568",
+      "NI_BLIND_000168",
+      "NI_BLIND_001064",
+      "NI_BLIND_000848",
+      "NI_BLIND_000828",
+      "NI_BLIND_001049",
+      "NI_BLIND_000679",
+      "NI_BLIND_001975",
+      "NI_BLIND_000268",
+      "NI_BLIND_001673",
+      "NI_BLIND_001492",
+      "NI_BLIND_001191",
+      "NI_BLIND_001226",
+      "NI_BLIND_000230",
+      "NI_BLIND_000841",
+      "NI_BLIND_001034",
+      "NI_BLIND_000805",
+      "NI_BLIND_000741",
+      "NI_BLIND_001476",
+      "NI_BLIND_001074",
+      "NI_BLIND_000488",
+      "NI_BLIND_001954",
+      "NI_BLIND_001243",
+      "NI_BLIND_001991",
+      "NI_BLIND_001532"
+    ]
+  },
+  "maximin_sequence": [
+    "NI_BLIND_001906",
+    "NI_BLIND_000247",
+    "NI_BLIND_000280",
+    "NI_BLIND_000822",
+    "NI_BLIND_000369",
+    "NI_BLIND_000437",
+    "NI_BLIND_001337",
+    "NI_BLIND_000653",
+    "NI_BLIND_000623",
+    "NI_BLIND_000172",
+    "NI_BLIND_001587",
+    "NI_BLIND_000073",
+    "NI_BLIND_000776",
+    "NI_BLIND_000094",
+    "NI_BLIND_000370",
+    "NI_BLIND_001805",
+    "NI_BLIND_000319",
+    "NI_BLIND_000949",
+    "NI_BLIND_001267",
+    "NI_BLIND_000344",
+    "NI_BLIND_001770",
+    "NI_BLIND_001051",
+    "NI_BLIND_001529",
+    "NI_BLIND_000230",
+    "NI_BLIND_000261",
+    "NI_BLIND_000701",
+    "NI_BLIND_001732",
+    "NI_BLIND_001127",
+    "NI_BLIND_001548",
+    "NI_BLIND_001415",
+    "NI_BLIND_000780",
+    "NI_BLIND_000611"
+  ],
+  "budgets": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "replicates": [
+    1,
+    2,
+    3
+  ],
+  "refit": {
+    "learning_rate": 0.0003,
+    "batch": 1024,
+    "max_epochs": 200,
+    "patience": 15,
+    "seed": 2266358626,
+    "scaler": "frozen PRIMARY, never refit",
+    "validation": "frozen original-six DEV_VALIDATION, no Ni"
+  },
+  "checks": [
+    {
+      "id": "I01",
+      "check": "STEP5H-B Ni targets sha256 unchanged",
+      "result": "PASS",
+      "detail": "live 3e1f4ba2cf6e4712 | expected 3e1f4ba2cf6e4712"
+    },
+    {
+      "id": "I02",
+      "check": "STEP5H-A PRIMARY zero-shot predictions sha256 unchanged",
+      "result": "PASS",
+      "detail": "live 100b40ed67c396cb | expected 100b40ed67c396cb"
+    },
+    {
+      "id": "I03",
+      "check": "maximin anchor sequence sha256 unchanged",
+      "result": "PASS",
+      "detail": "live 6704c7e9d71f64dc | expected 6704c7e9d71f64dc"
+    },
+    {
+      "id": "I04",
+      "check": "nested random sequences sha256 unchanged",
+      "result": "PASS",
+      "detail": "live 9c9389a100ee064b | expected 9c9389a100ee064b"
+    },
+    {
+      "id": "I05",
+      "check": "STEP5G PRIMARY checkpoint sha256 unchanged",
+      "result": "PASS",
+      "detail": "live f89e4ddc2f367a57 | expected f89e4ddc2f367a57"
+    },
+    {
+      "id": "I05b",
+      "check": "STEP5G PRIMARY scaler and SECONDARY checkpoint unchanged",
+      "result": "PASS",
+      "detail": "{'G_PRIMARY_SCALER': 'c2619e4aed54304a', 'G_SECONDARY_CHECKPOINT': 'a685b2138f114f32'}"
+    },
+    {
+      "id": "I06",
+      "check": "frozen PRIMARY and SECONDARY blind scores unchanged",
+      "result": "PASS",
+      "detail": "PRIMARY 0.8643856187 | SECONDARY 0.7234409098506132 | trivial 0.5957669021"
+    },
+    {
+      "id": "I07",
+      "check": "STEP5I protocol matches the frozen STEP5G preregistration",
+      "result": "PASS",
+      "detail": "LR 0.0003, batch 1024, <=200 epochs, patience 15, seed 2266358626, budgets [1, 2, 4, 8, 16, 32] nested, 3 replicates, PRIMARY_FORMULATION_REFIT"
+    },
+    {
+      "id": "I08",
+      "check": "split is 600 / 1400 and reproduces from the frozen rule",
+      "result": "PASS",
+      "detail": "{'RECOVERY_EVALUATION': 1400, 'FEWSHOT_CALIBRATION': 600} | one role per composition: True | independent reproduction matches: True"
+    },
+    {
+      "id": "I09",
+      "check": "RECOVERY_EVALUATION is exactly 15,400 states (1400 x 11), all converged",
+      "result": "PASS",
+      "detail": "15400 states | converged 15400 | temperatures per composition 11-11"
+    },
+    {
+      "id": "I10",
+      "check": "every frozen anchor id lies inside the calibration pool",
+      "result": "PASS",
+      "detail": "96 random + 32 maximin ids, all in the 600"
+    },
+    {
+      "id": "I11",
+      "check": "nested prefixes hold for all four sequences (1 in 2 in 4 ... 32)",
+      "result": "PASS",
+      "detail": "1 c 2 c 4 c 8 c 16 c 32 verified 4x"
+    },
+    {
+      "id": "I12",
+      "check": "no anchor composition is a recovery-evaluation composition",
+      "result": "PASS",
+      "detail": "anchor pool and evaluation set are disjoint by construction"
+    },
+    {
+      "id": "I13",
+      "check": "frozen PRIMARY train/validation ID files present, disjoint, Ni-free",
+      "result": "PASS",
+      "detail": "train 241748 / validation 51802 rows | shared ids 0 | Ni rows 0"
+    },
+    {
+      "id": "I14",
+      "check": "the 43 frozen production features exist in both the Ni table and the original-six table",
+      "result": "PASS",
+      "detail": "schema 43 features | missing from Ni table: none | missing from the original-six table: none"
+    },
+    {
+      "id": "I15",
+      "check": "NBNI3 present in the frozen vocabulary, mapped to OTHER_SOLID, 300-600 degC only",
+      "result": "PASS",
+      "detail": "8579 states, ['OTHER_SOLID'], 300-600 degC (mapping is frozen and not changed here)"
+    }
+  ]
+}

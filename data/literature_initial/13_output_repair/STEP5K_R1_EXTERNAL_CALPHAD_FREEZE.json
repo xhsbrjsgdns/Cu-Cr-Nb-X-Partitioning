@@ -1,0 +1,35 @@
+{
+  "freeze_id": "STEP5K_R1_EXTERNAL_CALPHAD_FREEZE_V1",
+  "generated_utc": "2026-09-07T14:52:41+00:00",
+  "label": "POST-FREEZE NON-Ni external-validation CALPHAD (executed in STEP5K-R1; canonicalized by the FIX task)",
+  "source_files": {
+    "states": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5K_R1_OA_LITERATURE_MINOR_PATCHES\\05_optional_nonNi_CALPHAD\\02_raw\\POSTFREEZE_STATES.csv",
+    "phases": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5K_R1_OA_LITERATURE_MINOR_PATCHES\\05_optional_nonNi_CALPHAD\\02_raw\\POSTFREEZE_PHASES.csv",
+    "family_aggregated": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5K_R1_OA_LITERATURE_MINOR_PATCHES\\05_optional_nonNi_CALPHAD\\03_processed\\POSTFREEZE_FAMILY_AGGREGATED.csv",
+    "run_log": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5K_R1_OA_LITERATURE_MINOR_PATCHES\\05_optional_nonNi_CALPHAD\\run_postfreeze_escalate.log"
+  },
+  "n_states": 12,
+  "n_converged": 4,
+  "n_failed": 8,
+  "temperatures_C": [
+    450.0,
+    550.0,
+    600.0,
+    700.0,
+    1000.0,
+    1050.0,
+    1200.0,
+    1250.0
+  ],
+  "identities": [
+    "AG",
+    "CO",
+    "MO",
+    "SI",
+    "TI"
+  ],
+  "ni_states": 0,
+  "used_for_retraining_or_tuning": false,
+  "canonical_parquet": "STEP5K_R1_EXTERNAL_CALPHAD.parquet",
+  "canonical_parquet_sha256": "8d54dfcf375a2c9a2e1f1f11dcd48c53f6767ee74ff4f699a2c9f838adc495ae"
+}

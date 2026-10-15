@@ -1,0 +1,119 @@
+actual_column_name,schema_role,role,source,used_as_feature,used_as_target,used_as_metadata,excluded_reason
+state_id,key,forbidden metadata/solver/leakage column,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,explicitly forbidden as model input (task book sec.12)
+composition_id,group_key,forbidden metadata/solver/leakage column,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,explicitly forbidden as model input (task book sec.12)
+family,meta,metadata,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,"family: split stratification / error reporting / QA only, never a feature; X_element: element-property lookup + reporting only, never one-hot"
+Temperature_C,feature,feature (raw composition/temperature),FULL_V1_ML_READY_CONVERGED.parquet,YES,no,no,Temperature_K excluded as redundant (exact linear map); Temperature_C kept per PCC priority
+Temperature_K,feature,derived from Temperature_C,FULL_V1_ML_READY_CONVERGED.parquet,no,no,no,exactly linear with Temperature_C; usable inside physics formulas (T_over_Tm_mix) but not as a separate raw feature
+state_converged,flag,forbidden metadata/solver/leakage column,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,explicitly forbidden as model input (task book sec.12)
+solver_level_used,diagnostic,forbidden metadata/solver/leakage column,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,explicitly forbidden as model input (task book sec.12)
+bridge_used,diagnostic,forbidden metadata/solver/leakage column,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,explicitly forbidden as model input (task book sec.12)
+X_element,meta,metadata,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,"family: split stratification / error reporting / QA only, never a feature; X_element: element-property lookup + reporting only, never one-hot"
+sampling_domain,meta,forbidden metadata/solver/leakage column,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,explicitly forbidden as model input (task book sec.12)
+Cu_wt_pct,feature,feature (raw composition/temperature),FULL_V1_ML_READY_CONVERGED.parquet,YES,no,no,
+Cr_wt_pct,feature,feature (raw composition/temperature),FULL_V1_ML_READY_CONVERGED.parquet,YES,no,no,
+Nb_wt_pct,feature,feature (raw composition/temperature),FULL_V1_ML_READY_CONVERGED.parquet,YES,no,no,
+X_wt_pct,feature,feature (raw composition/temperature),FULL_V1_ML_READY_CONVERGED.parquet,YES,no,no,
+CrNb_atomic_ratio,feature,feature (raw composition/temperature),FULL_V1_ML_READY_CONVERGED.parquet,YES,no,no,
+S_CrNb_wt_pct,feature,feature (raw composition/temperature),FULL_V1_ML_READY_CONVERGED.parquet,YES,no,no,
+FCC_total_mole_fraction,internal,internal duplicate/derivative of a target,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,duplicate of *_volfrac targets or instance counts; excluded from features (target-derived)
+FCC_total_volume_fraction,internal,internal duplicate/derivative of a target,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,duplicate of *_volfrac targets or instance counts; excluded from features (target-derived)
+FCC_n_instances,(not in schema; extra column in parquet),internal duplicate/derivative of a target,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,duplicate of *_volfrac targets or instance counts; excluded from features (target-derived)
+BCC_total_mole_fraction,internal,internal duplicate/derivative of a target,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,duplicate of *_volfrac targets or instance counts; excluded from features (target-derived)
+BCC_total_volume_fraction,internal,internal duplicate/derivative of a target,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,duplicate of *_volfrac targets or instance counts; excluded from features (target-derived)
+BCC_n_instances,(not in schema; extra column in parquet),internal duplicate/derivative of a target,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,duplicate of *_volfrac targets or instance counts; excluded from features (target-derived)
+C15_total_mole_fraction,internal,internal duplicate/derivative of a target,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,duplicate of *_volfrac targets or instance counts; excluded from features (target-derived)
+C15_total_volume_fraction,internal,internal duplicate/derivative of a target,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,duplicate of *_volfrac targets or instance counts; excluded from features (target-derived)
+C15_n_instances,(not in schema; extra column in parquet),internal duplicate/derivative of a target,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,duplicate of *_volfrac targets or instance counts; excluded from features (target-derived)
+OTHER_SOLID_total_mole_fraction,internal,internal duplicate/derivative of a target,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,duplicate of *_volfrac targets or instance counts; excluded from features (target-derived)
+OTHER_SOLID_total_volume_fraction,internal,internal duplicate/derivative of a target,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,duplicate of *_volfrac targets or instance counts; excluded from features (target-derived)
+OTHER_SOLID_n_instances,(not in schema; extra column in parquet),internal duplicate/derivative of a target,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,duplicate of *_volfrac targets or instance counts; excluded from features (target-derived)
+LIQUID_total_mole_fraction,internal,internal duplicate/derivative of a target,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,duplicate of *_volfrac targets or instance counts; excluded from features (target-derived)
+LIQUID_total_volume_fraction,internal,internal duplicate/derivative of a target,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,duplicate of *_volfrac targets or instance counts; excluded from features (target-derived)
+LIQUID_n_instances,(not in schema; extra column in parquet),internal duplicate/derivative of a target,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,duplicate of *_volfrac targets or instance counts; excluded from features (target-derived)
+ZRM5_C15B_volfrac_AUX,auxiliary,auxiliary diagnostic,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,"AUX: diagnostics/post-hoc only; never a feature, never a core target, never summed with the 5 families"
+C15_family_wide_volfrac_AUX,auxiliary,auxiliary diagnostic,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,"AUX: diagnostics/post-hoc only; never a feature, never a core target, never summed with the 5 families"
+SIGMA_volfrac_AUX,auxiliary,auxiliary diagnostic,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,"AUX: diagnostics/post-hoc only; never a feature, never a core target, never summed with the 5 families"
+FCC_volfrac,target,TARGET Task B (phase volume fraction),FULL_V1_ML_READY_CONVERGED.parquet,no,YES,no,
+FCC_molefrac,target,internal duplicate/derivative of a target,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,duplicate of *_volfrac targets or instance counts; excluded from features (target-derived)
+FCC_presence,target,TARGET Task A (presence),FULL_V1_ML_READY_CONVERGED.parquet,no,YES,no,
+BCC_volfrac,target,TARGET Task B (phase volume fraction),FULL_V1_ML_READY_CONVERGED.parquet,no,YES,no,
+BCC_molefrac,target,internal duplicate/derivative of a target,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,duplicate of *_volfrac targets or instance counts; excluded from features (target-derived)
+BCC_presence,target,TARGET Task A (presence),FULL_V1_ML_READY_CONVERGED.parquet,no,YES,no,
+C15_volfrac,target,TARGET Task B (phase volume fraction),FULL_V1_ML_READY_CONVERGED.parquet,no,YES,no,
+C15_molefrac,target,internal duplicate/derivative of a target,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,duplicate of *_volfrac targets or instance counts; excluded from features (target-derived)
+C15_presence,target,TARGET Task A (presence),FULL_V1_ML_READY_CONVERGED.parquet,no,YES,no,
+OTHER_SOLID_volfrac,target,TARGET Task B (phase volume fraction),FULL_V1_ML_READY_CONVERGED.parquet,no,YES,no,
+OTHER_SOLID_molefrac,target,internal duplicate/derivative of a target,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,duplicate of *_volfrac targets or instance counts; excluded from features (target-derived)
+OTHER_SOLID_presence,target,TARGET Task A (presence),FULL_V1_ML_READY_CONVERGED.parquet,no,YES,no,
+LIQUID_volfrac,target,TARGET Task B (phase volume fraction),FULL_V1_ML_READY_CONVERGED.parquet,no,YES,no,
+LIQUID_molefrac,target,internal duplicate/derivative of a target,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,duplicate of *_volfrac targets or instance counts; excluded from features (target-derived)
+LIQUID_presence,target,TARGET Task A (presence),FULL_V1_ML_READY_CONVERGED.parquet,no,YES,no,
+solid_volume_fraction,target,target-derived diagnostic,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,derived from targets; forbidden as feature; dominant-family labels NOT a primary task (sec.65)
+has_liquid,target,forbidden metadata/solver/leakage column,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,explicitly forbidden as model input (task book sec.12)
+phase_count,target,forbidden metadata/solver/leakage column,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,explicitly forbidden as model input (task book sec.12)
+has_multiple_FCC_instances,target,forbidden metadata/solver/leakage column,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,explicitly forbidden as model input (task book sec.12)
+has_multiple_BCC_instances,target,forbidden metadata/solver/leakage column,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,explicitly forbidden as model input (task book sec.12)
+CR_P_FCC,target,TARGET Tasks C/D/E (elemental partition),FULL_V1_ML_READY_CONVERGED.parquet,no,YES,no,
+CR_P_BCC,target,TARGET Tasks C/D/E (elemental partition),FULL_V1_ML_READY_CONVERGED.parquet,no,YES,no,
+CR_P_C15,target,TARGET Tasks C/D/E (elemental partition),FULL_V1_ML_READY_CONVERGED.parquet,no,YES,no,
+CR_P_OTHER_SOLID,target,TARGET Tasks C/D/E (elemental partition),FULL_V1_ML_READY_CONVERGED.parquet,no,YES,no,
+CR_P_LIQUID,target,TARGET Tasks C/D/E (elemental partition),FULL_V1_ML_READY_CONVERGED.parquet,no,YES,no,
+CR_P_C15_family_wide_AUX,auxiliary,auxiliary diagnostic,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,"AUX: diagnostics/post-hoc only; never a feature, never a core target, never summed with the 5 families"
+NB_P_FCC,target,TARGET Tasks C/D/E (elemental partition),FULL_V1_ML_READY_CONVERGED.parquet,no,YES,no,
+NB_P_BCC,target,TARGET Tasks C/D/E (elemental partition),FULL_V1_ML_READY_CONVERGED.parquet,no,YES,no,
+NB_P_C15,target,TARGET Tasks C/D/E (elemental partition),FULL_V1_ML_READY_CONVERGED.parquet,no,YES,no,
+NB_P_OTHER_SOLID,target,TARGET Tasks C/D/E (elemental partition),FULL_V1_ML_READY_CONVERGED.parquet,no,YES,no,
+NB_P_LIQUID,target,TARGET Tasks C/D/E (elemental partition),FULL_V1_ML_READY_CONVERGED.parquet,no,YES,no,
+NB_P_C15_family_wide_AUX,auxiliary,auxiliary diagnostic,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,"AUX: diagnostics/post-hoc only; never a feature, never a core target, never summed with the 5 families"
+X_P_FCC,target,TARGET Tasks C/D/E (elemental partition),FULL_V1_ML_READY_CONVERGED.parquet,no,YES,no,
+X_P_BCC,target,TARGET Tasks C/D/E (elemental partition),FULL_V1_ML_READY_CONVERGED.parquet,no,YES,no,
+X_P_C15,target,TARGET Tasks C/D/E (elemental partition),FULL_V1_ML_READY_CONVERGED.parquet,no,YES,no,
+X_P_OTHER_SOLID,target,TARGET Tasks C/D/E (elemental partition),FULL_V1_ML_READY_CONVERGED.parquet,no,YES,no,
+X_P_LIQUID,target,TARGET Tasks C/D/E (elemental partition),FULL_V1_ML_READY_CONVERGED.parquet,no,YES,no,
+X_P_C15_family_wide_AUX,auxiliary,auxiliary diagnostic,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,"AUX: diagnostics/post-hoc only; never a feature, never a core target, never summed with the 5 families"
+dominant_X_partition_family,target,target-derived diagnostic,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,derived from targets; forbidden as feature; dominant-family labels NOT a primary task (sec.65)
+X_Psolid_FCC,target,solid-renormalised X partition (secondary target view),FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,not a primary Step5A target; primary targets are X_P_* over 5 families
+X_Psolid_BCC,target,solid-renormalised X partition (secondary target view),FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,not a primary Step5A target; primary targets are X_P_* over 5 families
+X_Psolid_C15,target,solid-renormalised X partition (secondary target view),FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,not a primary Step5A target; primary targets are X_P_* over 5 families
+X_Psolid_OTHER_SOLID,target,solid-renormalised X partition (secondary target view),FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,not a primary Step5A target; primary targets are X_P_* over 5 families
+dominant_X_solid_partition_family,target,target-derived diagnostic,FULL_V1_ML_READY_CONVERGED.parquet,no,no,YES,derived from targets; forbidden as feature; dominant-family labels NOT a primary task (sec.65)
+sampling_method,composition-table column,composition metadata/feature source,FULL_V1_COMPOSITIONS.parquet,no,no,YES,"sampling/provenance metadata, not a feature"
+seed,composition-table column,composition metadata/feature source,FULL_V1_COMPOSITIONS.parquet,no,no,YES,"sampling/provenance metadata, not a feature"
+sobol_skip,composition-table column,composition metadata/feature source,FULL_V1_COMPOSITIONS.parquet,no,no,YES,"sampling/provenance metadata, not a feature"
+sobol_global_index,composition-table column,composition metadata/feature source,FULL_V1_COMPOSITIONS.parquet,no,no,YES,"sampling/provenance metadata, not a feature"
+Cu_wt_pct,composition-table column,composition metadata/feature source,FULL_V1_COMPOSITIONS.parquet,YES,no,no,
+Cr_wt_pct,composition-table column,composition metadata/feature source,FULL_V1_COMPOSITIONS.parquet,YES,no,no,
+Nb_wt_pct,composition-table column,composition metadata/feature source,FULL_V1_COMPOSITIONS.parquet,YES,no,no,
+X_wt_pct,composition-table column,composition metadata/feature source,FULL_V1_COMPOSITIONS.parquet,YES,no,no,
+S_CrNb_wt_pct,composition-table column,composition metadata/feature source,FULL_V1_COMPOSITIONS.parquet,YES,no,no,
+R_CrNb_atomic_target,composition-table column,composition metadata/feature source,FULL_V1_COMPOSITIONS.parquet,no,no,YES,"sampling/provenance metadata, not a feature"
+R_CrNb_atomic_actual,composition-table column,composition metadata/feature source,FULL_V1_COMPOSITIONS.parquet,no,no,YES,
+R_CrNb_atomic_error,composition-table column,composition metadata/feature source,FULL_V1_COMPOSITIONS.parquet,no,no,YES,"sampling/provenance metadata, not a feature"
+anchor_source,composition-table column,composition metadata/feature source,FULL_V1_COMPOSITIONS.parquet,no,no,YES,"sampling/provenance metadata, not a feature"
+anchor_perturbation_pct_Cr,composition-table column,composition metadata/feature source,FULL_V1_COMPOSITIONS.parquet,no,no,YES,"sampling/provenance metadata, not a feature"
+anchor_perturbation_pct_Nb,composition-table column,composition metadata/feature source,FULL_V1_COMPOSITIONS.parquet,no,no,YES,"sampling/provenance metadata, not a feature"
+anchor_perturbation_pct_X,composition-table column,composition metadata/feature source,FULL_V1_COMPOSITIONS.parquet,no,no,YES,"sampling/provenance metadata, not a feature"
+composition_sum_wt_pct,composition-table column,composition metadata/feature source,FULL_V1_COMPOSITIONS.parquet,no,no,YES,"sampling/provenance metadata, not a feature"
+Cu_at_pct,composition-table column,composition metadata/feature source,FULL_V1_COMPOSITIONS.parquet,no,no,YES,STEP5A recomputes atomic fractions from the 4-decimal wt.% itself (WT_TO_ATOMIC_CONVERSION_QA.md)
+Cr_at_pct,composition-table column,composition metadata/feature source,FULL_V1_COMPOSITIONS.parquet,no,no,YES,STEP5A recomputes atomic fractions from the 4-decimal wt.% itself (WT_TO_ATOMIC_CONVERSION_QA.md)
+Nb_at_pct,composition-table column,composition metadata/feature source,FULL_V1_COMPOSITIONS.parquet,no,no,YES,STEP5A recomputes atomic fractions from the 4-decimal wt.% itself (WT_TO_ATOMIC_CONVERSION_QA.md)
+X_at_pct,composition-table column,composition metadata/feature source,FULL_V1_COMPOSITIONS.parquet,no,no,YES,STEP5A recomputes atomic fractions from the 4-decimal wt.% itself (WT_TO_ATOMIC_CONVERSION_QA.md)
+Cr_wt_pct_exact,composition-table column,composition metadata/feature source,FULL_V1_COMPOSITIONS.parquet,no,no,YES,full-precision pre-rounding value; sec.28 requires the 4-decimal wt.% actually fed to Thermo-Calc
+Nb_wt_pct_exact,composition-table column,composition metadata/feature source,FULL_V1_COMPOSITIONS.parquet,no,no,YES,full-precision pre-rounding value; sec.28 requires the 4-decimal wt.% actually fed to Thermo-Calc
+X_wt_pct_exact,composition-table column,composition metadata/feature source,FULL_V1_COMPOSITIONS.parquet,no,no,YES,full-precision pre-rounding value; sec.28 requires the 4-decimal wt.% actually fed to Thermo-Calc
+composition_id,derived descriptor,CALPHAD-derived descriptor,FULL_V1_DERIVED_DESCRIPTORS.parquet,no,no,YES,sec.13: CALPHAD-derived -> target leakage if used as Step5A model input; post-hoc interpretation/error stratification only
+family,derived descriptor,CALPHAD-derived descriptor,FULL_V1_DERIVED_DESCRIPTORS.parquet,no,no,YES,sec.13: CALPHAD-derived -> target leakage if used as Step5A model input; post-hoc interpretation/error stratification only
+X_element,derived descriptor,CALPHAD-derived descriptor,FULL_V1_DERIVED_DESCRIPTORS.parquet,no,no,YES,sec.13: CALPHAD-derived -> target leakage if used as Step5A model input; post-hoc interpretation/error stratification only
+sampling_domain,derived descriptor,CALPHAD-derived descriptor,FULL_V1_DERIVED_DESCRIPTORS.parquet,no,no,YES,sec.13: CALPHAD-derived -> target leakage if used as Step5A model input; post-hoc interpretation/error stratification only
+X_Cr_FCC_450,derived descriptor,CALPHAD-derived descriptor,FULL_V1_DERIVED_DESCRIPTORS.parquet,no,no,YES,sec.13: CALPHAD-derived -> target leakage if used as Step5A model input; post-hoc interpretation/error stratification only
+X_Cr_FCC_950,derived descriptor,CALPHAD-derived descriptor,FULL_V1_DERIVED_DESCRIPTORS.parquet,no,no,YES,sec.13: CALPHAD-derived -> target leakage if used as Step5A model input; post-hoc interpretation/error stratification only
+Delta_XCr_FCC_950_450,derived descriptor,CALPHAD-derived descriptor,FULL_V1_DERIVED_DESCRIPTORS.parquet,no,no,YES,sec.13: CALPHAD-derived -> target leakage if used as Step5A model input; post-hoc interpretation/error stratification only
+C15_volfrac_450,derived descriptor,CALPHAD-derived descriptor,FULL_V1_DERIVED_DESCRIPTORS.parquet,no,no,YES,sec.13: CALPHAD-derived -> target leakage if used as Step5A model input; post-hoc interpretation/error stratification only
+C15_volfrac_600,derived descriptor,CALPHAD-derived descriptor,FULL_V1_DERIVED_DESCRIPTORS.parquet,no,no,YES,sec.13: CALPHAD-derived -> target leakage if used as Step5A model input; post-hoc interpretation/error stratification only
+Delta_C15_600_450,derived descriptor,CALPHAD-derived descriptor,FULL_V1_DERIVED_DESCRIPTORS.parquet,no,no,YES,sec.13: CALPHAD-derived -> target leakage if used as Step5A model input; post-hoc interpretation/error stratification only
+C15_volfrac_max,derived descriptor,CALPHAD-derived descriptor,FULL_V1_DERIVED_DESCRIPTORS.parquet,no,no,YES,sec.13: CALPHAD-derived -> target leakage if used as Step5A model input; post-hoc interpretation/error stratification only
+LIQUID_onset_C,derived descriptor,CALPHAD-derived descriptor,FULL_V1_DERIVED_DESCRIPTORS.parquet,no,no,YES,sec.13: CALPHAD-derived -> target leakage if used as Step5A model input; post-hoc interpretation/error stratification only
+BCC_split_closure_C,derived descriptor,CALPHAD-derived descriptor,FULL_V1_DERIVED_DESCRIPTORS.parquet,no,no,YES,sec.13: CALPHAD-derived -> target leakage if used as Step5A model input; post-hoc interpretation/error stratification only
+BCC_split_closure_censored,derived descriptor,CALPHAD-derived descriptor,FULL_V1_DERIVED_DESCRIPTORS.parquet,no,no,YES,sec.13: CALPHAD-derived -> target leakage if used as Step5A model input; post-hoc interpretation/error stratification only
+BCC_split_closure_valid,derived descriptor,CALPHAD-derived descriptor,FULL_V1_DERIVED_DESCRIPTORS.parquet,no,no,YES,sec.13: CALPHAD-derived -> target leakage if used as Step5A model input; post-hoc interpretation/error stratification only
+FCC_split_closure_C,derived descriptor,CALPHAD-derived descriptor,FULL_V1_DERIVED_DESCRIPTORS.parquet,no,no,YES,sec.13: CALPHAD-derived -> target leakage if used as Step5A model input; post-hoc interpretation/error stratification only

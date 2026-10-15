@@ -1,0 +1,30 @@
+{
+  "python": "3.14.5",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu_logical": 20,
+  "cpu_physical": 14,
+  "ram_GB": 31.8,
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "pyarrow": "25.0.1",
+    "scikit-learn": "1.8.0",
+    "xgboost": "3.2.0",
+    "catboost": "1.2.10",
+    "torch": "2.12.0+cu132",
+    "optuna": "4.9.0",
+    "matminer": "0.10.1",
+    "pymatgen": "2026.5.4",
+    "mendeleev": "1.2.0",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.9",
+    "shap": "0.52.0",
+    "psutil": "7.2.2"
+  },
+  "gpu": {
+    "name": "NVIDIA GeForce RTX 5060 Ti",
+    "cuda_version": "13.2",
+    "memory_MiB": 16283
+  },
+  "note": "pandas was pinned to 2.3.3 by the mendeleev/matminer install (was 3.0.3)"
+}

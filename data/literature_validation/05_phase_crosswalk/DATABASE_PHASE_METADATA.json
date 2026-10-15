@@ -1,0 +1,5811 @@
+[
+  {
+    "system": "CU-CR-NB",
+    "phase": "C15_LAVES",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "NB"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "NB"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "CU4TI1",
+    "sublattices": [
+      {
+        "sites": 4.0,
+        "constituents": [
+          "CU",
+          "NB"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "NB"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "CD8CU5",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 6.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "BCC_B2",
+    "sublattices": [
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CR",
+          "CU",
+          "NB",
+          "VA"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CR",
+          "CU",
+          "NB",
+          "VA"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "BE2CU",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "CU4TI3",
+    "sublattices": [
+      {
+        "sites": 4.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "NB"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "CU3SN",
+    "sublattices": [
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "HCP_ZN",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "NBNI3",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "NB"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU",
+          "NB"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "CUZR2_C11B",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR",
+          "NB"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "ALCU_EPS",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "CR3GE",
+    "sublattices": [
+      {
+        "sites": 0.75,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "MU_PHASE",
+    "sublattices": [
+      {
+        "sites": 7.0,
+        "constituents": [
+          "CU",
+          "NB"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU",
+          "NB"
+        ]
+      },
+      {
+        "sites": 4.0,
+        "constituents": [
+          "NB"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "BCT_A5",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "CO3SI_HT",
+    "sublattices": [
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "AL5FE4",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "CBCC_A12",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "CR5GE3",
+    "sublattices": [
+      {
+        "sites": 0.625,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 0.375,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "CU41SN11",
+    "sublattices": [
+      {
+        "sites": 41.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 11.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "B2_BCC",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "NI3TI",
+    "sublattices": [
+      {
+        "sites": 0.75,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "CRSI2_C40",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "CUTI_B11",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "NB"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "NB"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "CU3AS",
+    "sublattices": [
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.15,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "ALCU_ETA",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "CU3TI2",
+    "sublattices": [
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "NB"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "C14_LAVES",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "NB"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "NB"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "LIQUID",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "NB"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "ALZR2_B82",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "CUSN_GAMMA",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "C36_LAVES",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "NB"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "NB"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "NISI2",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "CR3SI",
+    "sublattices": [
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "NB7NI6",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "NB"
+        ]
+      },
+      {
+        "sites": 4.0,
+        "constituents": [
+          "NB"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "NB"
+        ]
+      },
+      {
+        "sites": 6.0,
+        "constituents": [
+          "CU",
+          "NB"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "HCP_A3",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "NB"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "DHCP",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "MN5SI3_D88",
+    "sublattices": [
+      {
+        "sites": 5.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "CUB_A13",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "AL4CR",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 4.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "LCR5GE3",
+    "sublattices": [
+      {
+        "sites": 0.625,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 0.375,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "FCC_L12",
+    "sublattices": [
+      {
+        "sites": 0.75,
+        "constituents": [
+          "CR",
+          "CU",
+          "NB"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CR",
+          "CU",
+          "NB"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "CU6SN5_HT",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "VA"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "CUTI3",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "NB"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "NB"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "FCC_L10",
+    "sublattices": [
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "GAS",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CR2",
+          "CU",
+          "CU2",
+          "NB"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-NB",
+    "phase": "NI3SN_D019",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "VA"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "C15_LAVES",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "CU4TI1",
+    "sublattices": [
+      {
+        "sites": 4.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "CD8CU5",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 6.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "BCC_B2",
+    "sublattices": [
+      {
+        "sites": 0.5,
+        "constituents": [
+          "AG",
+          "CR",
+          "CU",
+          "VA"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "AG",
+          "CR",
+          "CU",
+          "VA"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "BE2CU",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "FCC_L12#2",
+    "sublattices": [
+      {
+        "sites": 0.75,
+        "constituents": [
+          "AG",
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "AG",
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "CU3SN",
+    "sublattices": [
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "HCP_ZN",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "AG",
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "RHOMBO_A7",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "AG"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "NBNI3",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "CUZR2_C11B",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "DIAMOND_A4",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "AG"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "ALCU_EPS",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "CR3GE",
+    "sublattices": [
+      {
+        "sites": 0.75,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "BCT_A5",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "AG",
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "CO3SI_HT",
+    "sublattices": [
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "AL5FE4",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "CBCC_A12",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "CR5GE3",
+    "sublattices": [
+      {
+        "sites": 0.625,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 0.375,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "CU41SN11",
+    "sublattices": [
+      {
+        "sites": 41.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 11.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "B2_BCC",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "NI3TI",
+    "sublattices": [
+      {
+        "sites": 0.75,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "CRSI2_C40",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "CUTI_B11",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "CU3AS",
+    "sublattices": [
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.15,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "ALCU_ETA",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "AG3SN_L60",
+    "sublattices": [
+      {
+        "sites": 0.75,
+        "constituents": [
+          "AG",
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "AG"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "C14_LAVES",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "LIQUID",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "AG",
+          "CR",
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "ALZR2_B82",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "CUSN_GAMMA",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "C36_LAVES",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "CRB_B33",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "AG"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "NISI2",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "CR3SI",
+    "sublattices": [
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "AGZN3",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "AG"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "HCP_A3",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "AG",
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "DHCP",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "MN5SI3_D88",
+    "sublattices": [
+      {
+        "sites": 5.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "CUB_A13",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "AG",
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "AL4CR",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 4.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "LCR5GE3",
+    "sublattices": [
+      {
+        "sites": 0.625,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 0.375,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "FCC_L12",
+    "sublattices": [
+      {
+        "sites": 0.75,
+        "constituents": [
+          "AG",
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "AG",
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "CU6SN5_HT",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "AG",
+          "CU",
+          "VA"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "AG",
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "FCC_L10",
+    "sublattices": [
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "GAS",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "AG",
+          "AG1CU1",
+          "AG2",
+          "CR",
+          "CR2",
+          "CU",
+          "CU2"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "NI3SN_D019",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "VA"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-AG",
+    "phase": "AG5ZN8",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "AG"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "AG"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "AG"
+        ]
+      },
+      {
+        "sites": 6.0,
+        "constituents": [
+          "AG"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "C15_LAVES",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "CU4TI1",
+    "sublattices": [
+      {
+        "sites": 4.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "CD8CU5",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 6.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "BCC_B2",
+    "sublattices": [
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CR",
+          "CU",
+          "MO",
+          "VA"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CR",
+          "CU",
+          "MO",
+          "VA"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "BE2CU",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "CU3SN",
+    "sublattices": [
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "HCP_ZN",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "NBNI3",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "CUZR2_C11B",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "ALCU_EPS",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "CR3GE",
+    "sublattices": [
+      {
+        "sites": 0.75,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "MU_PHASE",
+    "sublattices": [
+      {
+        "sites": 7.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU",
+          "MO"
+        ]
+      },
+      {
+        "sites": 4.0,
+        "constituents": [
+          "MO"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "BCT_A5",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "CO3SI_HT",
+    "sublattices": [
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "AL5FE4",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "CBCC_A12",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "CR5GE3",
+    "sublattices": [
+      {
+        "sites": 0.625,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 0.375,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "CU41SN11",
+    "sublattices": [
+      {
+        "sites": 41.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 11.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "B2_BCC",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "NI3TI",
+    "sublattices": [
+      {
+        "sites": 0.75,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "CRSI2_C40",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "CUTI_B11",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "CU3AS",
+    "sublattices": [
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.15,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "ALCU_ETA",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "C14_LAVES",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "MO"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "MO"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "LIQUID",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "MO"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "ALZR2_B82",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "CUSN_GAMMA",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "C36_LAVES",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "NISI2",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "CR3SI",
+    "sublattices": [
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "HCP_A3",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "MO"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "DHCP",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "MN5SI3_D88",
+    "sublattices": [
+      {
+        "sites": 5.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "CUB_A13",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "AL4CR",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 4.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "LCR5GE3",
+    "sublattices": [
+      {
+        "sites": 0.625,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 0.375,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "FCC_L12",
+    "sublattices": [
+      {
+        "sites": 0.75,
+        "constituents": [
+          "CR",
+          "CU",
+          "MO"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CR",
+          "CU",
+          "MO"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "CU6SN5_HT",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "VA"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "FCC_L10",
+    "sublattices": [
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "GAS",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CR2",
+          "CU",
+          "CU2",
+          "MO",
+          "MO2"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-MO",
+    "phase": "NI3SN_D019",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "VA"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "CU4TI1",
+    "sublattices": [
+      {
+        "sites": 4.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "CD8CU5",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 6.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "BCC_B2",
+    "sublattices": [
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CO",
+          "CR",
+          "CU",
+          "VA"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CO",
+          "CR",
+          "CU",
+          "VA"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "FCC_L12#2",
+    "sublattices": [
+      {
+        "sites": 0.75,
+        "constituents": [
+          "CO",
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CO",
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "CO2SI_HT",
+    "sublattices": [
+      {
+        "sites": 0.6667,
+        "constituents": [
+          "CO"
+        ]
+      },
+      {
+        "sites": 0.3333,
+        "constituents": [
+          "CO"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "CUZR2_C11B",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "CO2SI_C23",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CO",
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CO"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "ALCU_EPS",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "CO3SI_HT",
+    "sublattices": [
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CO",
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CO",
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CO",
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "AL5FE4",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "CBCC_A12",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CO",
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "B2_BCC",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CO",
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CO",
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "NI3TI",
+    "sublattices": [
+      {
+        "sites": 0.75,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "CRSI2_C40",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "COZN_HT",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CO"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "AL2AU_C1_CAF2",
+    "sublattices": [
+      {
+        "sites": 0.66667,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.33333,
+        "constituents": [
+          "CO"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "CU3AS",
+    "sublattices": [
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.15,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "ALCU_ETA",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "C14_LAVES",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CO",
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CO",
+          "CR",
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "CUSN_GAMMA",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "CR3SI",
+    "sublattices": [
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "COZN_LT",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CO"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "MN5SI3_D88",
+    "sublattices": [
+      {
+        "sites": 5.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "AL4CR",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 4.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "LCR5GE3",
+    "sublattices": [
+      {
+        "sites": 0.625,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 0.375,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "SIGMA",
+    "sublattices": [
+      {
+        "sites": 8.0,
+        "constituents": [
+          "CO"
+        ]
+      },
+      {
+        "sites": 4.0,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 18.0,
+        "constituents": [
+          "CO",
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "GAS",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CO",
+          "CO2",
+          "CR",
+          "CR2",
+          "CU",
+          "CU2"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "C15_LAVES",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CO",
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CO",
+          "CR",
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "COZN_GAMMA_D83",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CO"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "BE2CU",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "CU3SN",
+    "sublattices": [
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "HCP_ZN",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CO",
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "COSI_B20",
+    "sublattices": [
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CO"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CO"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "NBNI3",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "CR3GE",
+    "sublattices": [
+      {
+        "sites": 0.75,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "MU_PHASE",
+    "sublattices": [
+      {
+        "sites": 7.0,
+        "constituents": [
+          "CO",
+          "CU"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 4.0,
+        "constituents": [
+          "CO"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "COGE",
+    "sublattices": [
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CO"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CO"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "BCT_A5",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "CO5GE3_C37",
+    "sublattices": [
+      {
+        "sites": 0.125,
+        "constituents": [
+          "CO",
+          "VA"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CO"
+        ]
+      },
+      {
+        "sites": 0.375,
+        "constituents": [
+          "CO"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "CR5GE3",
+    "sublattices": [
+      {
+        "sites": 0.625,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 0.375,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "CU41SN11",
+    "sublattices": [
+      {
+        "sites": 41.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 11.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "CUTI_B11",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "LIQUID",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CO",
+          "CR",
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "ALZR2_B82",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "C36_LAVES",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CO",
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CO",
+          "CR",
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "NISI2",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "HCP_A3",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CO",
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "DHCP",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "CUB_A13",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CO",
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "FCC_L12",
+    "sublattices": [
+      {
+        "sites": 0.75,
+        "constituents": [
+          "CO",
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CO",
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "CU6SN5_HT",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CO",
+          "CU",
+          "VA"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CO",
+          "CU",
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "FCC_L10",
+    "sublattices": [
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-CO",
+    "phase": "NI3SN_D019",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "VA"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "CU4TI1",
+    "sublattices": [
+      {
+        "sites": 4.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "CD8CU5",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 6.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "BCC_B2",
+    "sublattices": [
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CR",
+          "CU",
+          "SI",
+          "VA"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CR",
+          "CU",
+          "SI",
+          "VA"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "GAMMA_D83",
+    "sublattices": [
+      {
+        "sites": 4.0,
+        "constituents": [
+          "SI"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "SI"
+        ]
+      },
+      {
+        "sites": 8.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "CO2SI_HT",
+    "sublattices": [
+      {
+        "sites": 0.6667,
+        "constituents": [
+          "SI"
+        ]
+      },
+      {
+        "sites": 0.3333,
+        "constituents": [
+          "SI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "CUZR2_C11B",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "SI"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "CO2SI_C23",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU",
+          "SI"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "SI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "ALCU_EPS",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "NI19SI6",
+    "sublattices": [
+      {
+        "sites": 0.24,
+        "constituents": [
+          "SI"
+        ]
+      },
+      {
+        "sites": 0.76,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "CO3SI_HT",
+    "sublattices": [
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CU",
+          "SI"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "AL5FE4",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "CBCC_A12",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "SI"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "B2_BCC",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "NI3TI",
+    "sublattices": [
+      {
+        "sites": 0.75,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "CRSI2_C40",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "SI"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "SI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "CU3AS",
+    "sublattices": [
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.15,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "ALCU_ETA",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "C14_LAVES",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "CU33SI7_DELTA",
+    "sublattices": [
+      {
+        "sites": 0.825,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.175,
+        "constituents": [
+          "SI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "CUSN_GAMMA",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "CR3SI",
+    "sublattices": [
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CR",
+          "SI"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "SI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "MN5SI3_D88",
+    "sublattices": [
+      {
+        "sites": 5.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CR",
+          "SI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "AL4CR",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 4.0,
+        "constituents": [
+          "SI",
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "LCR5GE3",
+    "sublattices": [
+      {
+        "sites": 0.625,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 0.375,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "GAMMA_D810",
+    "sublattices": [
+      {
+        "sites": 12.0,
+        "constituents": [
+          "SI"
+        ]
+      },
+      {
+        "sites": 5.0,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 9.0,
+        "constituents": [
+          "CR",
+          "SI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "ALCR_GAMMA1",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR",
+          "SI"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 6.0,
+        "constituents": [
+          "SI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "GAS",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CR2",
+          "CU",
+          "CU2",
+          "SI",
+          "SI2",
+          "SI3"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "NI5SI2",
+    "sublattices": [
+      {
+        "sites": 5.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "SI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "C15_LAVES",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "SI"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "SI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "BE2CU",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "NIZN_LT",
+    "sublattices": [
+      {
+        "sites": 0.5,
+        "constituents": [
+          "SI"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "SI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "CUSI_ETA",
+    "sublattices": [
+      {
+        "sites": 0.76,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.24,
+        "constituents": [
+          "SI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "CU3SN",
+    "sublattices": [
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "HCP_ZN",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "SI"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "COSI_B20",
+    "sublattices": [
+      {
+        "sites": 0.5,
+        "constituents": [
+          "SI"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "SI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "NBNI3",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "DIAMOND_A4",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "SI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "CR3GE",
+    "sublattices": [
+      {
+        "sites": 0.75,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "NI2SI_HT",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "SI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "BCT_A5",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "SI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "AL3NI2",
+    "sublattices": [
+      {
+        "sites": 3.0,
+        "constituents": [
+          "SI"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "CR5GE3",
+    "sublattices": [
+      {
+        "sites": 0.625,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 0.375,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "CU41SN11",
+    "sublattices": [
+      {
+        "sites": 41.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 11.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "CUTI_B11",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "CU56SI11_GAMMA",
+    "sublattices": [
+      {
+        "sites": 0.835821,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.164179,
+        "constituents": [
+          "SI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "FESI_B20",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "SI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "LIQUID",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "SI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "ALZR2_B82",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "AL3ZR5_D8M",
+    "sublattices": [
+      {
+        "sites": 3.0,
+        "constituents": [
+          "SI"
+        ]
+      },
+      {
+        "sites": 5.0,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "C36_LAVES",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "CRB_B33",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "SI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "NISI2",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU",
+          "SI"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "CU15SI4_EPSILON",
+    "sublattices": [
+      {
+        "sites": 0.789474,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.210526,
+        "constituents": [
+          "SI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "HCP_A3",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "SI"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "DHCP",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "AL5CR",
+    "sublattices": [
+      {
+        "sites": 5.0,
+        "constituents": [
+          "SI"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "CUB_A13",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "SI"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "FCC_L12",
+    "sublattices": [
+      {
+        "sites": 0.75,
+        "constituents": [
+          "CR",
+          "CU",
+          "SI"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CR",
+          "CU",
+          "SI"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "CU6SN5_HT",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "VA"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "SI"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "FCC_L10",
+    "sublattices": [
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-SI",
+    "phase": "NI3SN_D019",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "VA"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "CU4TI1",
+    "sublattices": [
+      {
+        "sites": 4.0,
+        "constituents": [
+          "CU",
+          "TI"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "TI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "CD8CU5",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 6.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "BCC_B2",
+    "sublattices": [
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CR",
+          "CU",
+          "TI",
+          "VA"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CR",
+          "CU",
+          "TI",
+          "VA"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "CU4TI3",
+    "sublattices": [
+      {
+        "sites": 4.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "TI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "CUZR2_C11B",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR",
+          "TI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "ALCU_EPS",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "CO3SI_HT",
+    "sublattices": [
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "AL5FE4",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "CBCC_A12",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "TI"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "B2_BCC",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "TI",
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "NI3TI",
+    "sublattices": [
+      {
+        "sites": 0.75,
+        "constituents": [
+          "CU",
+          "TI"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CU",
+          "TI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "CRSI2_C40",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "CU3AS",
+    "sublattices": [
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.15,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "ALCU_ETA",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "CU3TI2",
+    "sublattices": [
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "TI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "C14_LAVES",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "TI"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "TI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "CUSN_GAMMA",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "CR3SI",
+    "sublattices": [
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "NITI2",
+    "sublattices": [
+      {
+        "sites": 0.3333,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.6667,
+        "constituents": [
+          "TI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "MN5SI3_D88",
+    "sublattices": [
+      {
+        "sites": 5.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "TI"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "AL4CR",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 4.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "LCR5GE3",
+    "sublattices": [
+      {
+        "sites": 0.625,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 0.375,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "GAS",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CR2",
+          "CU",
+          "CU2",
+          "TI",
+          "TI2"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "C15_LAVES",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "TI"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "TI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "BE2CU",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "CU2TI1",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "TI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "CU3SN",
+    "sublattices": [
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "HCP_ZN",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "NBNI3",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "DIAMOND_A4",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "TI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "CR3GE",
+    "sublattices": [
+      {
+        "sites": 0.75,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "BCT_A5",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "TI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "CR5GE3",
+    "sublattices": [
+      {
+        "sites": 0.625,
+        "constituents": [
+          "CR"
+        ]
+      },
+      {
+        "sites": 0.375,
+        "constituents": [
+          "CR"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "CU41SN11",
+    "sublattices": [
+      {
+        "sites": 41.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 11.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "ALTI3_D019",
+    "sublattices": [
+      {
+        "sites": 3.0,
+        "constituents": [
+          "TI"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "TI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "CUTI_B11",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "TI"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "TI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "LIQUID",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "TI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "ALZR2_B82",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      },
+      {
+        "sites": 2.0,
+        "constituents": [
+          "TI",
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "C36_LAVES",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "NISI2",
+    "sublattices": [
+      {
+        "sites": 2.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "HCP_A3",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "TI"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "DHCP",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "CUB_A13",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CR",
+          "CU",
+          "TI"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "FCC_L12",
+    "sublattices": [
+      {
+        "sites": 0.75,
+        "constituents": [
+          "CR",
+          "CU",
+          "TI"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CR",
+          "CU",
+          "TI"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "CU6SN5_HT",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "VA"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "VA"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "CUTI3",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "TI"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "TI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "FCC_L10",
+    "sublattices": [
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CU",
+          "TI"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CU",
+          "TI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "CUNITI_T6",
+    "sublattices": [
+      {
+        "sites": 0.25,
+        "constituents": [
+          "CU",
+          "TI"
+        ]
+      },
+      {
+        "sites": 0.5,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "TI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "NI3SN_D019",
+    "sublattices": [
+      {
+        "sites": 1.0,
+        "constituents": [
+          "CU",
+          "VA"
+        ]
+      },
+      {
+        "sites": 3.0,
+        "constituents": [
+          "CU"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "CUNITI_T4",
+    "sublattices": [
+      {
+        "sites": 0.075,
+        "constituents": [
+          "CU",
+          "TI"
+        ]
+      },
+      {
+        "sites": 0.675,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.25,
+        "constituents": [
+          "TI"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "CU-CR-TI",
+    "phase": "CUNITI_T1",
+    "sublattices": [
+      {
+        "sites": 0.6667,
+        "constituents": [
+          "CU"
+        ]
+      },
+      {
+        "sites": 0.3333,
+        "constituents": [
+          "TI"
+        ]
+      }
+    ]
+  }
+]
