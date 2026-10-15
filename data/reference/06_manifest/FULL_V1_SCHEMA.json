@@ -1,0 +1,906 @@
+{
+  "schema_version": "FULL_V1",
+  "database_version": "FULL_V1",
+  "generated_utc": "2026-09-04T10:30:00Z",
+  "project": "Cu-Cr-Nb-X CALPHAD + Machine Learning + Out-of-Domain Generalization",
+  "conventions": {
+    "state_key": "state_id = one (composition_id, Temperature_C) pair",
+    "group_key_for_splitting": "composition_id - NEVER state_id (spec 55)",
+    "temperature_grid_C": [
+      300,
+      350,
+      400,
+      450,
+      500,
+      600,
+      700,
+      800,
+      900,
+      950,
+      1000
+    ],
+    "temperature_conversion": "T_K = T_C + 273.15",
+    "core_families": [
+      "FCC",
+      "BCC",
+      "C15",
+      "OTHER_SOLID",
+      "LIQUID"
+    ],
+    "presence_threshold": 0.0001,
+    "presence_threshold_quantity": "aggregated phase volume fraction",
+    "partition_definition": "n_i_alpha = phase_moles_alpha * X_i_alpha ; P_i_alpha = n_i_alpha / sum_beta n_i_beta. phase_volume_fraction * element_mole_fraction is FORBIDDEN.",
+    "failed_state_policy": "FAILED states are RETAINED as rows with state_converged = 0, all *_volfrac / *_molefrac / P_* = NaN and all *_presence = 0. They are never deleted, never interpolated, and never substituted from a neighbouring temperature.",
+    "auxiliary_rule": "Columns ending in _AUX are diagnostic. They must never enter the 5-family sum-to-one constraint, a softmax over families, or any normalisation of the core targets.",
+    "instance_numbering": "Raw suffixes #1/#2/#3 carry NO physical identity. Never define a phase by its instance number; judge identity from phase composition.",
+    "forbidden_derived_quantities": [
+      "UTS",
+      "yield strength",
+      "hardness",
+      "elongation",
+      "electrical conductivity",
+      "any mechanical or electrical pseudo-label derived from CALPHAD equilibria"
+    ],
+    "sealed_element": "NI - zero occurrences anywhere in FULL_V1"
+  },
+  "files": {
+    "FULL_V1_ML_TARGET_ALL": {
+      "path": "03_processed/FULL_V1_ML_TARGET_ALL.parquet",
+      "format": "parquet",
+      "rows": 550000,
+      "grain": "one row per state",
+      "note": "Complete target table INCLUDING the 1,568 FAILED states. Use this when the failure pattern itself is being studied.",
+      "columns": [
+        {
+          "name": "state_id",
+          "dtype": "string",
+          "unit": null,
+          "role": "key",
+          "nullable": false,
+          "description": "Unique key of one (composition, temperature) equilibrium state."
+        },
+        {
+          "name": "composition_id",
+          "dtype": "string",
+          "unit": null,
+          "role": "group_key",
+          "nullable": false,
+          "description": "Composition key. THIS IS THE ONLY GROUP KEY ALLOWED FOR train/test splitting (spec 55): all 11 temperatures of one composition must stay on the same side of every split."
+        },
+        {
+          "name": "family",
+          "dtype": "categorical",
+          "unit": null,
+          "role": "meta",
+          "nullable": false,
+          "description": "Alloy family: BASELINE, ZR, TI, CO, SI, AG, MO. Ni is sealed and never appears."
+        },
+        {
+          "name": "X_element",
+          "dtype": "categorical",
+          "unit": null,
+          "role": "meta",
+          "nullable": true,
+          "description": "Quaternary solute symbol; empty string for BASELINE (Cu-Cr-Nb only)."
+        },
+        {
+          "name": "sampling_domain",
+          "dtype": "categorical",
+          "unit": null,
+          "role": "meta",
+          "nullable": false,
+          "description": "A = dense interior, B = extrapolation shell, ANCHOR = literature-anchored perturbation. Used to define the OOD composition-domain split."
+        },
+        {
+          "name": "Temperature_C",
+          "dtype": "float64",
+          "unit": "degC",
+          "role": "feature",
+          "nullable": false,
+          "description": "Frozen 11-point grid: 300 350 400 450 500 600 700 800 900 950 1000."
+        },
+        {
+          "name": "Temperature_K",
+          "dtype": "float64",
+          "unit": "K",
+          "role": "feature",
+          "nullable": false,
+          "description": "T_K = T_C + 273.15."
+        },
+        {
+          "name": "Cu_wt_pct",
+          "dtype": "float64",
+          "unit": "wt.%",
+          "role": "feature",
+          "nullable": false,
+          "description": "Cu content; balance element."
+        },
+        {
+          "name": "Cr_wt_pct",
+          "dtype": "float64",
+          "unit": "wt.%",
+          "role": "feature",
+          "nullable": false,
+          "description": "Cr content. Derived from (S_CrNb, R_CrNb_atomic) - never sampled independently."
+        },
+        {
+          "name": "Nb_wt_pct",
+          "dtype": "float64",
+          "unit": "wt.%",
+          "role": "feature",
+          "nullable": false,
+          "description": "Nb content. Derived from (S_CrNb, R_CrNb_atomic) - never sampled independently."
+        },
+        {
+          "name": "X_wt_pct",
+          "dtype": "float64",
+          "unit": "wt.%",
+          "role": "feature",
+          "nullable": true,
+          "description": "Quaternary solute content; NaN/0 for BASELINE."
+        },
+        {
+          "name": "S_CrNb_wt_pct",
+          "dtype": "float64",
+          "unit": "wt.%",
+          "role": "feature",
+          "nullable": false,
+          "description": "S_CrNb = wCr + wNb. Primary sampling variable."
+        },
+        {
+          "name": "CrNb_atomic_ratio",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "feature",
+          "nullable": false,
+          "description": "R_CrNb_atomic = (wCr/51.9961)/(wNb/92.9064), as realised after 4-decimal rounding. Primary sampling variable."
+        },
+        {
+          "name": "state_converged",
+          "dtype": "int8",
+          "unit": null,
+          "role": "flag",
+          "nullable": false,
+          "description": "1 = Thermo-Calc equilibrium converged, 0 = FAILED. FAILED rows are RETAINED with NaN targets (spec 52): they are a physical result, not a data gap."
+        },
+        {
+          "name": "solver_level_used",
+          "dtype": "int8",
+          "unit": null,
+          "role": "diagnostic",
+          "nullable": false,
+          "description": "Escalation level that produced the result: 0 direct, 1 rebuilt calculation, 2 rebuilt TC-Python session, 3 adaptive temperature bridge."
+        },
+        {
+          "name": "bridge_used",
+          "dtype": "bool",
+          "unit": null,
+          "role": "diagnostic",
+          "nullable": false,
+          "description": "True if a Level-3 adaptive temperature bridge was needed."
+        },
+        {
+          "name": "FCC_total_volume_fraction",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "internal",
+          "nullable": true,
+          "description": "Raw aggregated volume fraction of family FCC straight from the 5-family aggregation (pre-alias; identical to FCC_volfrac)."
+        },
+        {
+          "name": "FCC_total_mole_fraction",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "internal",
+          "nullable": true,
+          "description": "Raw aggregated mole fraction of family FCC (pre-alias; identical to FCC_molefrac)."
+        },
+        {
+          "name": "BCC_total_volume_fraction",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "internal",
+          "nullable": true,
+          "description": "Raw aggregated volume fraction of family BCC straight from the 5-family aggregation (pre-alias; identical to BCC_volfrac)."
+        },
+        {
+          "name": "BCC_total_mole_fraction",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "internal",
+          "nullable": true,
+          "description": "Raw aggregated mole fraction of family BCC (pre-alias; identical to BCC_molefrac)."
+        },
+        {
+          "name": "C15_total_volume_fraction",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "internal",
+          "nullable": true,
+          "description": "Raw aggregated volume fraction of family C15 straight from the 5-family aggregation (pre-alias; identical to C15_volfrac)."
+        },
+        {
+          "name": "C15_total_mole_fraction",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "internal",
+          "nullable": true,
+          "description": "Raw aggregated mole fraction of family C15 (pre-alias; identical to C15_molefrac)."
+        },
+        {
+          "name": "OTHER_SOLID_total_volume_fraction",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "internal",
+          "nullable": true,
+          "description": "Raw aggregated volume fraction of family OTHER_SOLID straight from the 5-family aggregation (pre-alias; identical to OTHER_SOLID_volfrac)."
+        },
+        {
+          "name": "OTHER_SOLID_total_mole_fraction",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "internal",
+          "nullable": true,
+          "description": "Raw aggregated mole fraction of family OTHER_SOLID (pre-alias; identical to OTHER_SOLID_molefrac)."
+        },
+        {
+          "name": "LIQUID_total_volume_fraction",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "internal",
+          "nullable": true,
+          "description": "Raw aggregated volume fraction of family LIQUID straight from the 5-family aggregation (pre-alias; identical to LIQUID_volfrac)."
+        },
+        {
+          "name": "LIQUID_total_mole_fraction",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "internal",
+          "nullable": true,
+          "description": "Raw aggregated mole fraction of family LIQUID (pre-alias; identical to LIQUID_molefrac)."
+        },
+        {
+          "name": "FCC_volfrac",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "PRIMARY TARGET. Volume fraction of the FCC family, summed over all raw phase instances mapped to it. The five *_volfrac columns sum to 1 for a converged state; NaN when state_converged == 0."
+        },
+        {
+          "name": "BCC_volfrac",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "PRIMARY TARGET. Volume fraction of the BCC family, summed over all raw phase instances mapped to it. The five *_volfrac columns sum to 1 for a converged state; NaN when state_converged == 0."
+        },
+        {
+          "name": "C15_volfrac",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "PRIMARY TARGET. Volume fraction of the C15 family, summed over all raw phase instances mapped to it. The five *_volfrac columns sum to 1 for a converged state; NaN when state_converged == 0."
+        },
+        {
+          "name": "OTHER_SOLID_volfrac",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "PRIMARY TARGET. Volume fraction of the OTHER_SOLID family, summed over all raw phase instances mapped to it. The five *_volfrac columns sum to 1 for a converged state; NaN when state_converged == 0."
+        },
+        {
+          "name": "LIQUID_volfrac",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "PRIMARY TARGET. Volume fraction of the LIQUID family, summed over all raw phase instances mapped to it. The five *_volfrac columns sum to 1 for a converged state; NaN when state_converged == 0."
+        },
+        {
+          "name": "FCC_molefrac",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "PRIMARY TARGET. Mole fraction of the FCC family; sums to 1 over the five families; NaN when state_converged == 0."
+        },
+        {
+          "name": "BCC_molefrac",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "PRIMARY TARGET. Mole fraction of the BCC family; sums to 1 over the five families; NaN when state_converged == 0."
+        },
+        {
+          "name": "C15_molefrac",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "PRIMARY TARGET. Mole fraction of the C15 family; sums to 1 over the five families; NaN when state_converged == 0."
+        },
+        {
+          "name": "OTHER_SOLID_molefrac",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "PRIMARY TARGET. Mole fraction of the OTHER_SOLID family; sums to 1 over the five families; NaN when state_converged == 0."
+        },
+        {
+          "name": "LIQUID_molefrac",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "PRIMARY TARGET. Mole fraction of the LIQUID family; sums to 1 over the five families; NaN when state_converged == 0."
+        },
+        {
+          "name": "FCC_presence",
+          "dtype": "int8",
+          "unit": null,
+          "role": "target",
+          "nullable": false,
+          "description": "PRIMARY TARGET (classification). 1 iff FCC_volfrac > 1e-4 (frozen presence threshold). 0 for FAILED states."
+        },
+        {
+          "name": "BCC_presence",
+          "dtype": "int8",
+          "unit": null,
+          "role": "target",
+          "nullable": false,
+          "description": "PRIMARY TARGET (classification). 1 iff BCC_volfrac > 1e-4 (frozen presence threshold). 0 for FAILED states."
+        },
+        {
+          "name": "C15_presence",
+          "dtype": "int8",
+          "unit": null,
+          "role": "target",
+          "nullable": false,
+          "description": "PRIMARY TARGET (classification). 1 iff C15_volfrac > 1e-4 (frozen presence threshold). 0 for FAILED states."
+        },
+        {
+          "name": "OTHER_SOLID_presence",
+          "dtype": "int8",
+          "unit": null,
+          "role": "target",
+          "nullable": false,
+          "description": "PRIMARY TARGET (classification). 1 iff OTHER_SOLID_volfrac > 1e-4 (frozen presence threshold). 0 for FAILED states."
+        },
+        {
+          "name": "LIQUID_presence",
+          "dtype": "int8",
+          "unit": null,
+          "role": "target",
+          "nullable": false,
+          "description": "PRIMARY TARGET (classification). 1 iff LIQUID_volfrac > 1e-4 (frozen presence threshold). 0 for FAILED states."
+        },
+        {
+          "name": "solid_volume_fraction",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "1 - LIQUID_volfrac; NaN for FAILED states."
+        },
+        {
+          "name": "has_liquid",
+          "dtype": "int8",
+          "unit": null,
+          "role": "target",
+          "nullable": false,
+          "description": "Alias of LIQUID_presence."
+        },
+        {
+          "name": "phase_count",
+          "dtype": "int32",
+          "unit": null,
+          "role": "target",
+          "nullable": false,
+          "description": "Number of stable RAW phase instances at this state (instances, not families)."
+        },
+        {
+          "name": "has_multiple_FCC_instances",
+          "dtype": "int8",
+          "unit": null,
+          "role": "target",
+          "nullable": false,
+          "description": "1 iff two or more raw FCC_L12#n instances are stable - an FCC miscibility gap. Observed only in AG at T<=400 C. Use this together with the continuous partition values instead of any dominant-family label when the split is open."
+        },
+        {
+          "name": "has_multiple_BCC_instances",
+          "dtype": "int8",
+          "unit": null,
+          "role": "target",
+          "nullable": false,
+          "description": "1 iff two or more raw BCC_B2#n instances are stable - a BCC miscibility gap. Observed only in MO at T<=950 C. Where this is 1 the dominant-family label is degenerate; use the continuous partition values."
+        },
+        {
+          "name": "CR_P_FCC",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "PRIMARY TARGET. Fraction of total Cr MOLES residing in family FCC. Definition (FROZEN, spec 46): n_i_alpha = phase_moles_alpha * X_i_alpha ; P_i_alpha = n_i_alpha / sum_beta n_i_beta. Volume fractions are NEVER used for elemental partitioning. Sums to 1 over the five families."
+        },
+        {
+          "name": "CR_P_BCC",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "PRIMARY TARGET. Fraction of total Cr MOLES residing in family BCC. Definition (FROZEN, spec 46): n_i_alpha = phase_moles_alpha * X_i_alpha ; P_i_alpha = n_i_alpha / sum_beta n_i_beta. Volume fractions are NEVER used for elemental partitioning. Sums to 1 over the five families."
+        },
+        {
+          "name": "CR_P_C15",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "PRIMARY TARGET. Fraction of total Cr MOLES residing in family C15. Definition (FROZEN, spec 46): n_i_alpha = phase_moles_alpha * X_i_alpha ; P_i_alpha = n_i_alpha / sum_beta n_i_beta. Volume fractions are NEVER used for elemental partitioning. Sums to 1 over the five families."
+        },
+        {
+          "name": "CR_P_OTHER_SOLID",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "PRIMARY TARGET. Fraction of total Cr MOLES residing in family OTHER_SOLID. Definition (FROZEN, spec 46): n_i_alpha = phase_moles_alpha * X_i_alpha ; P_i_alpha = n_i_alpha / sum_beta n_i_beta. Volume fractions are NEVER used for elemental partitioning. Sums to 1 over the five families."
+        },
+        {
+          "name": "CR_P_LIQUID",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "PRIMARY TARGET. Fraction of total Cr MOLES residing in family LIQUID. Definition (FROZEN, spec 46): n_i_alpha = phase_moles_alpha * X_i_alpha ; P_i_alpha = n_i_alpha / sum_beta n_i_beta. Volume fractions are NEVER used for elemental partitioning. Sums to 1 over the five families."
+        },
+        {
+          "name": "NB_P_FCC",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "PRIMARY TARGET. Fraction of total Nb MOLES residing in family FCC. Definition (FROZEN, spec 46): n_i_alpha = phase_moles_alpha * X_i_alpha ; P_i_alpha = n_i_alpha / sum_beta n_i_beta. Volume fractions are NEVER used for elemental partitioning. Sums to 1 over the five families."
+        },
+        {
+          "name": "NB_P_BCC",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "PRIMARY TARGET. Fraction of total Nb MOLES residing in family BCC. Definition (FROZEN, spec 46): n_i_alpha = phase_moles_alpha * X_i_alpha ; P_i_alpha = n_i_alpha / sum_beta n_i_beta. Volume fractions are NEVER used for elemental partitioning. Sums to 1 over the five families."
+        },
+        {
+          "name": "NB_P_C15",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "PRIMARY TARGET. Fraction of total Nb MOLES residing in family C15. Definition (FROZEN, spec 46): n_i_alpha = phase_moles_alpha * X_i_alpha ; P_i_alpha = n_i_alpha / sum_beta n_i_beta. Volume fractions are NEVER used for elemental partitioning. Sums to 1 over the five families."
+        },
+        {
+          "name": "NB_P_OTHER_SOLID",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "PRIMARY TARGET. Fraction of total Nb MOLES residing in family OTHER_SOLID. Definition (FROZEN, spec 46): n_i_alpha = phase_moles_alpha * X_i_alpha ; P_i_alpha = n_i_alpha / sum_beta n_i_beta. Volume fractions are NEVER used for elemental partitioning. Sums to 1 over the five families."
+        },
+        {
+          "name": "NB_P_LIQUID",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "PRIMARY TARGET. Fraction of total Nb MOLES residing in family LIQUID. Definition (FROZEN, spec 46): n_i_alpha = phase_moles_alpha * X_i_alpha ; P_i_alpha = n_i_alpha / sum_beta n_i_beta. Volume fractions are NEVER used for elemental partitioning. Sums to 1 over the five families."
+        },
+        {
+          "name": "X_P_FCC",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "PRIMARY TARGET. Fraction of total quaternary-solute moles in family FCC, same molar definition. NaN for BASELINE rows by construction - never 0."
+        },
+        {
+          "name": "X_P_BCC",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "PRIMARY TARGET. Fraction of total quaternary-solute moles in family BCC, same molar definition. NaN for BASELINE rows by construction - never 0."
+        },
+        {
+          "name": "X_P_C15",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "PRIMARY TARGET. Fraction of total quaternary-solute moles in family C15, same molar definition. NaN for BASELINE rows by construction - never 0."
+        },
+        {
+          "name": "X_P_OTHER_SOLID",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "PRIMARY TARGET. Fraction of total quaternary-solute moles in family OTHER_SOLID, same molar definition. NaN for BASELINE rows by construction - never 0."
+        },
+        {
+          "name": "X_P_LIQUID",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "PRIMARY TARGET. Fraction of total quaternary-solute moles in family LIQUID, same molar definition. NaN for BASELINE rows by construction - never 0."
+        },
+        {
+          "name": "dominant_X_partition_family",
+          "dtype": "categorical",
+          "unit": null,
+          "role": "target",
+          "nullable": true,
+          "description": "argmax over X_P_*. DEGENERATE where has_multiple_BCC_instances == 1; prefer the continuous X_P_* values."
+        },
+        {
+          "name": "X_Psolid_FCC",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "X_P_FCC renormalised over the four SOLID families only (LIQUID excluded); NaN where the solid sum is 0."
+        },
+        {
+          "name": "X_Psolid_BCC",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "X_P_BCC renormalised over the four SOLID families only (LIQUID excluded); NaN where the solid sum is 0."
+        },
+        {
+          "name": "X_Psolid_C15",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "X_P_C15 renormalised over the four SOLID families only (LIQUID excluded); NaN where the solid sum is 0."
+        },
+        {
+          "name": "X_Psolid_OTHER_SOLID",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "target",
+          "nullable": true,
+          "description": "X_P_OTHER_SOLID renormalised over the four SOLID families only (LIQUID excluded); NaN where the solid sum is 0."
+        },
+        {
+          "name": "dominant_X_solid_partition_family",
+          "dtype": "categorical",
+          "unit": null,
+          "role": "target",
+          "nullable": true,
+          "description": "argmax over X_Psolid_*; same degeneracy caveat as dominant_X_partition_family."
+        },
+        {
+          "name": "ZRM5_C15B_volfrac_AUX",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "auxiliary",
+          "nullable": true,
+          "description": "Volume fraction of ZRM5_C15B alone. AUXILIARY / DIAGNOSTIC ONLY. ZRM5_C15B is already counted inside OTHER_SOLID, so an _AUX column must NEVER be summed together with the five core families - that would double-count it."
+        },
+        {
+          "name": "C15_family_wide_volfrac_AUX",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "auxiliary",
+          "nullable": true,
+          "description": "C15_volfrac + ZRM5_C15B_volfrac_AUX. AUXILIARY / DIAGNOSTIC ONLY. ZRM5_C15B is already counted inside OTHER_SOLID, so an _AUX column must NEVER be summed together with the five core families - that would double-count it."
+        },
+        {
+          "name": "SIGMA_volfrac_AUX",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "auxiliary",
+          "nullable": true,
+          "description": "Volume fraction of SIGMA alone. AUXILIARY / DIAGNOSTIC ONLY. ZRM5_C15B is already counted inside OTHER_SOLID, so an _AUX column must NEVER be summed together with the five core families - that would double-count it."
+        },
+        {
+          "name": "CR_P_C15_family_wide_AUX",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "auxiliary",
+          "nullable": true,
+          "description": "CR_P_C15 + Cr partitioned into ZRM5_C15B. AUXILIARY / DIAGNOSTIC ONLY. ZRM5_C15B is already counted inside OTHER_SOLID, so an _AUX column must NEVER be summed together with the five core families - that would double-count it."
+        },
+        {
+          "name": "NB_P_C15_family_wide_AUX",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "auxiliary",
+          "nullable": true,
+          "description": "NB_P_C15 + Nb partitioned into ZRM5_C15B. AUXILIARY / DIAGNOSTIC ONLY. ZRM5_C15B is already counted inside OTHER_SOLID, so an _AUX column must NEVER be summed together with the five core families - that would double-count it."
+        },
+        {
+          "name": "X_P_C15_family_wide_AUX",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "auxiliary",
+          "nullable": true,
+          "description": "X_P_C15 + X partitioned into ZRM5_C15B. AUXILIARY / DIAGNOSTIC ONLY. ZRM5_C15B is already counted inside OTHER_SOLID, so an _AUX column must NEVER be summed together with the five core families - that would double-count it."
+        }
+      ]
+    },
+    "FULL_V1_ML_READY_CONVERGED": {
+      "path": "03_processed/FULL_V1_ML_READY_CONVERGED.parquet",
+      "format": "parquet",
+      "rows": 548432,
+      "grain": "one row per converged state",
+      "note": "state_converged == 1 subset. This is the default table for supervised training.",
+      "columns": "identical to FULL_V1_ML_TARGET_ALL"
+    },
+    "FULL_V1_ML_TARGET_PREVIEW": {
+      "path": "03_processed/FULL_V1_ML_TARGET_PREVIEW.parquet",
+      "format": "parquet",
+      "rows": 550000,
+      "grain": "one row per state",
+      "note": "Produced by 23_fullv1_partitioning.py; FULL_V1_ML_TARGET_ALL is a byte-for-byte re-export of it.",
+      "columns": "identical to FULL_V1_ML_TARGET_ALL"
+    },
+    "FULL_V1_DERIVED_DESCRIPTORS": {
+      "path": "03_processed/FULL_V1_DERIVED_DESCRIPTORS.parquet",
+      "format": "parquet",
+      "rows": 50000,
+      "grain": "one row per composition",
+      "note": "Per-composition equilibrium descriptors collapsed across the temperature grid. Equilibrium quantities only.",
+      "columns": [
+        {
+          "name": "composition_id",
+          "dtype": "string",
+          "unit": null,
+          "role": "group_key",
+          "nullable": false,
+          "description": "Composition key (one row per composition)."
+        },
+        {
+          "name": "X_Cr_FCC_450",
+          "dtype": "float64",
+          "unit": "mole fraction",
+          "role": "descriptor",
+          "nullable": true,
+          "description": "Equilibrium Cr mole fraction inside the FCC matrix at 450 C."
+        },
+        {
+          "name": "X_Cr_FCC_950",
+          "dtype": "float64",
+          "unit": "mole fraction",
+          "role": "descriptor",
+          "nullable": true,
+          "description": "Equilibrium Cr mole fraction inside the FCC matrix at 950 C. NaN for every MO composition whose 950 C state FAILED - which is all 1,568 of them - so Delta_XCr_FCC_950_450 is NaN for those compositions too."
+        },
+        {
+          "name": "Delta_XCr_FCC_950_450",
+          "dtype": "float64",
+          "unit": "mole fraction",
+          "role": "descriptor",
+          "nullable": true,
+          "description": "EQUILIBRIUM Cr DEPLETION PROXY = X_Cr_FCC_950 - X_Cr_FCC_450. This is an equilibrium difference between two independent equilibrium states. It is NOT a kinetic precipitation driving force, NOT a nucleation rate, and NOT any mechanical or electrical property (spec 47)."
+        },
+        {
+          "name": "C15_volfrac_450",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "descriptor",
+          "nullable": true,
+          "description": "C15 volume fraction at 450 C."
+        },
+        {
+          "name": "C15_volfrac_600",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "descriptor",
+          "nullable": true,
+          "description": "C15 volume fraction at 600 C."
+        },
+        {
+          "name": "Delta_C15_600_450",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "descriptor",
+          "nullable": true,
+          "description": "C15_volfrac_600 - C15_volfrac_450; equilibrium difference only."
+        },
+        {
+          "name": "C15_volfrac_max",
+          "dtype": "float64",
+          "unit": "-",
+          "role": "descriptor",
+          "nullable": true,
+          "description": "Maximum C15 volume fraction over the 11-point grid."
+        },
+        {
+          "name": "LIQUID_onset_C",
+          "dtype": "float64",
+          "unit": "degC",
+          "role": "descriptor",
+          "nullable": true,
+          "description": "Lowest grid temperature at which LIQUID_presence == 1; NaN if LIQUID never appears on the grid. This is bounded by the 11-point grid resolution and is NOT a measured solidus: it can only ever take one of the 11 grid values, and 'NaN' means 'no liquid at or below 1000 C', not 'no melting'."
+        },
+        {
+          "name": "BCC_split_closure_C",
+          "dtype": "float64",
+          "unit": "degC",
+          "role": "descriptor",
+          "nullable": true,
+          "description": "Highest grid temperature at which two BCC instances are still stable; NaN if never split. CAVEAT: this is the highest OBSERVED split temperature, not the true closure temperature. For the 1,568 MO compositions whose 950 C state FAILED, the 950 C point is unknown, so this column reports 900 C even though the split is known to persist at 950 C in the compositions that did converge there. Read it together with FULL_V1_FAILURE_MAP.parquet; never treat 900 C as a measured closure for those compositions."
+        },
+        {
+          "name": "FCC_split_closure_C",
+          "dtype": "float64",
+          "unit": "degC",
+          "role": "descriptor",
+          "nullable": true,
+          "description": "Highest grid temperature at which two FCC instances are still stable; NaN if never split."
+        },
+        {
+          "name": "family",
+          "dtype": "categorical",
+          "unit": null,
+          "role": "meta",
+          "nullable": false,
+          "description": "Alloy family."
+        },
+        {
+          "name": "X_element",
+          "dtype": "categorical",
+          "unit": null,
+          "role": "meta",
+          "nullable": true,
+          "description": "Quaternary solute; empty for BASELINE."
+        },
+        {
+          "name": "sampling_domain",
+          "dtype": "categorical",
+          "unit": null,
+          "role": "meta",
+          "nullable": false,
+          "description": "A / B / ANCHOR."
+        }
+      ]
+    },
+    "FULL_V1_COMPOSITIONS": {
+      "path": "01_compositions/FULL_V1_COMPOSITIONS.csv",
+      "format": "csv",
+      "rows": 50000,
+      "grain": "one row per composition",
+      "note": "Sampling table: composition_id, family, X_element, sampling_domain, Cu/Cr/Nb/X_wt_pct (4-decimal, as fed to Thermo-Calc) plus *_exact full-precision columns, S_CrNb_wt_pct, R_CrNb_atomic_target / _actual, and the Sobol global index of each point."
+    },
+    "FULL_V1_EQUILIBRIUM_STATES": {
+      "path": "02_raw/FULL_V1_EQUILIBRIUM_STATES.csv",
+      "format": "csv",
+      "rows": 550000,
+      "grain": "one row per state",
+      "note": "Per-state solver record: converged, solver_level_used, bridge_used, bridge_temperatures_C, attempt_count, final_status, original_error_message, error_message, wall time."
+    },
+    "FULL_V1_PHASES_LONG": {
+      "path": "02_raw/FULL_V1_PHASES_LONG.parquet",
+      "format": "parquet",
+      "rows": 1771133,
+      "grain": "one row per (state, raw phase instance)",
+      "note": "RAW phase names are retained verbatim, including the #n instance suffix. Never deleted, never renamed."
+    },
+    "FULL_V1_PHASE_COMPOSITIONS_LONG": {
+      "path": "02_raw/FULL_V1_PHASE_COMPOSITIONS_LONG.parquet",
+      "format": "parquet",
+      "rows": 6923224,
+      "grain": "one row per (state, raw phase instance, element)",
+      "note": "element_mole_fraction X_i_alpha inside each raw phase instance."
+    },
+    "FULL_V1_ELEMENT_PARTITIONING_RAW": {
+      "path": "02_raw/FULL_V1_ELEMENT_PARTITIONING_RAW.parquet",
+      "format": "parquet",
+      "rows": 6923224,
+      "grain": "one row per (state, raw phase instance, element)",
+      "note": "n_i_alpha = phase_moles_alpha * X_i_alpha and P_i_alpha at RAW phase-instance level."
+    },
+    "FULL_V1_AGGREGATED_PHASES_LONG": {
+      "path": "03_processed/FULL_V1_AGGREGATED_PHASES_LONG.parquet",
+      "format": "parquet",
+      "rows": 1704086,
+      "grain": "one row per (state, phase_model_base_name)",
+      "note": "Raw instances collapsed to their model base (BCC_B2#1 + BCC_B2#2 -> BCC_B2), then mapped to a 5-family label."
+    },
+    "FULL_V1_AGGREGATED_PHASES": {
+      "path": "03_processed/FULL_V1_AGGREGATED_PHASES.parquet",
+      "format": "parquet",
+      "rows": 550000,
+      "grain": "one row per state",
+      "note": "Wide 5-family volume/mole fractions plus the _AUX diagnostic columns."
+    },
+    "FULL_V1_ELEMENT_PARTITIONING_AGGREGATED": {
+      "path": "03_processed/FULL_V1_ELEMENT_PARTITIONING_AGGREGATED.parquet",
+      "format": "parquet",
+      "rows": 548432,
+      "grain": "one row per converged state",
+      "note": "P_<EL>_<FAMILY> for every element present, aggregated to the 5 families."
+    },
+    "FULL_V1_FAILURE_MAP": {
+      "path": "04_qa/FULL_V1_FAILURE_MAP.parquet",
+      "format": "parquet",
+      "rows": 1568,
+      "grain": "one row per FAILED state",
+      "note": "Every non-converged state with its composition, solver level, bridge attempts and the verbatim Thermo-Calc error. All 1,568 are MO at 950 C."
+    },
+    "FULL_V1_PHASE_SPLIT_DIAGNOSTICS": {
+      "path": "04_qa/FULL_V1_PHASE_SPLIT_DIAGNOSTICS.parquet",
+      "format": "parquet",
+      "rows": null,
+      "grain": "one row per (family, sampling_domain, Temperature_C)",
+      "note": "Counts and rates of multi-instance FCC / BCC states."
+    },
+    "FULL_V1_RAW_PHASE_INVENTORY": {
+      "path": "04_qa/FULL_V1_RAW_PHASE_INVENTORY.csv",
+      "format": "csv",
+      "rows": 12,
+      "grain": "one row per raw phase instance name",
+      "note": "Complete raw vocabulary observed in the 550,000 states."
+    },
+    "FULL_V1_PHASE_VOCABULARY_COMPARISON": {
+      "path": "04_qa/FULL_V1_PHASE_VOCABULARY_COMPARISON.csv",
+      "format": "csv",
+      "rows": 9,
+      "grain": "one row per phase model base",
+      "note": "Cross-stage vocabulary table (Step2.5 / Mini20 / Pilot200 / Pilot2000 / FULL_V1) with first_seen_stage."
+    },
+    "FULL_V1_DOMAIN_SUMMARY": {
+      "path": "04_qa/FULL_V1_DOMAIN_SUMMARY.csv",
+      "format": "csv",
+      "rows": 3,
+      "grain": "one row per sampling_domain",
+      "note": "Domain A / B / ANCHOR contrast in mean family fractions and presence rates - the quantitative basis of the OOD split."
+    },
+    "FULL_V1_SOLVER_DIAGNOSTICS": {
+      "path": "04_qa/FULL_V1_SOLVER_DIAGNOSTICS.csv",
+      "format": "csv",
+      "rows": 550000,
+      "grain": "one row per state",
+      "note": "Solver level, attempt count and bridge record for every state."
+    },
+    "FULL_V1_FILE_HASHES": {
+      "path": "06_manifest/FULL_V1_FILE_HASHES.csv",
+      "format": "csv",
+      "rows": null,
+      "grain": "one row per deliverable file",
+      "note": "SHA256, size and mtime of every FULL_V1 file."
+    },
+    "FULL_V1_DATA_MANIFEST": {
+      "path": "06_manifest/FULL_V1_DATA_MANIFEST.json",
+      "format": "json",
+      "rows": null,
+      "grain": "single object",
+      "note": "Row counts, byte totals and pointers to the hash file, this schema and the freeze policy."
+    }
+  },
+  "ood_split_policy": {
+    "group_key": "composition_id",
+    "hard_rule": "One composition NEVER appears on both sides of any split. All 11 of its temperature rows move together.",
+    "axis_1_composition_domain": "train on sampling_domain A, test on sampling_domain B (extrapolation shell).",
+    "axis_2_unseen_element": "hold out one entire X family (e.g. all MO compositions) from training.",
+    "axis_3_temperature": "hold out a temperature band; report in-band and out-of-band scores separately.",
+    "sealed_blind_test": "NI is reserved for a future prospective unseen-element test and is absent from FULL_V1."
+  },
+  "known_caveats": [
+    "MO compositions below 950 C show a BCC miscibility gap; where has_multiple_BCC_instances == 1 the dominant-family labels are degenerate. Train on the continuous partition values and carry has_multiple_BCC_instances as a feature.",
+    "The 1,568 FAILED states are all MO at 950 C, where the BCC miscibility gap closes. They are a physical result of the TCCU6 description, not a sampling gap, and must not be deleted or interpolated.",
+    "LIQUID appears in only 1,955 states (all ZR, all 1000 C, max 3.32 vol.%). LIQUID targets are severely imbalanced; report LIQUID metrics separately rather than folded into a macro average.",
+    "FCC splits in 8,676 states, all AG, all at or below 400 C.",
+    "Baseline (Cu-Cr-Nb) rows have no X element: every X_P_* column is NaN there by construction, never 0.",
+    "Descriptors that collapse the temperature axis inherit the FAILED states as NaN, and BCC_split_closure_C in particular degrades silently: an MO composition whose 950 C state failed reports 900 C. Any model or figure using that column must join FULL_V1_FAILURE_MAP.parquet and mask the affected compositions."
+  ]
+}

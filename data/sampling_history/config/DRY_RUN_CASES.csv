@@ -1,0 +1,8 @@
+case_id,family,X_element,Cu_wt_pct,Cr_wt_pct,Nb_wt_pct,X_wt_pct,composition_source,purpose
+DRY_01_BASELINE,BASELINE,,99.37,0.47,0.16,,Manual GUI anchor: Cu-0.47Cr-0.16Nb wt% (Anchor_06 .tcu),Test basic FCC_L12 + BCC_B2 + C15_LAVES system
+DRY_02_TI,TI,TI,96.88,1.65,1.35,0.12,Manual GUI anchor: Cu-1.65Cr-1.35Nb-0.12Ti wt% (Anchor_03 .tcu),Test whether independent CU4TI phase is captured automatically
+DRY_03_SI,SI,SI,96.4855,2.1304,1.3177,0.0664,Manual GUI anchor: Cu-2.6Cr-0.9Nb-0.15Si at% converted to wt% (Anchor_05 .tcu),Test whether independent CR3SI phase is captured automatically
+DRY_04_AG,AG,AG,96.3039,2.1264,1.3152,0.2545,Manual GUI anchor: Cu-2.6Cr-0.9Nb-0.15Ag at% converted to wt% (Anchor_07 .tcu),Test multiple phase instances of one phase model (FCC_L12#1 / FCC_L12#2 split)
+DRY_05_MO,MO,MO,96.3310,2.1270,1.3156,0.2264,Manual GUI anchor: Cu-2.6Cr-0.9Nb-0.15Mo at% converted to wt% (Anchor_08 .tcu),Test multiple phase instances of one phase model (BCC_B2#1 / BCC_B2#2 split)
+DRY_06_ZR,ZR,ZR,96.5000,2.0000,1.3500,0.1500,Manual GUI anchor: Cu-2Cr-1.35Nb-0.15Zr wt% (Anchor_02 .tcu),"Test Zr partitioning tendency to C15 (Cr2(Nb,Zr)-type)"
+DRY_07_CO,CO,CO,96.4152,2.1289,1.3167,0.1392,Manual GUI anchor: Cu-2.6Cr-0.9Nb-0.15Co at% converted to wt% (Anchor_04 .tcu),"Test Co partitioning tendency to C15 ((Cr,Co)2Nb-type)"

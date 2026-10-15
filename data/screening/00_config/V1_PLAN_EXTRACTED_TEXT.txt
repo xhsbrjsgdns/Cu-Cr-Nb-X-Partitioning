@@ -1,0 +1,561 @@
+[000] Cu–Cr–Nb–X 多元铜合金
+CALPHAD–机器学习纯计算系统研究方案
+[001] 相稳定性 · 相分数 · 元素跨相分配 · OOD泛化 · 定向CALPHAD补样 · Blind Ni
+[002] 研究性质：纯计算（不做实验、不做DFT、不做ANSYS/相场/MD）
+[003] 核心软件：Thermo-Calc 2025b + TCCU6.2 + TC-Python + Python机器学习环境
+[004] 版本：V1.0
+日期：2026年9月3日
+[005] 方案摘要
+[006] 本方案面向Cu–Cr–Nb–X（X = Zr、Ti、Co、Si、Ag、Mo）多元铜合金的纯计算研究，目标不是简单建立“成分→相”的机器学习模型，而是构建一条从高通量CALPHAD到相稳定性、相体积分数、Cr/Nb/X跨相分配、机器学习代理、跨元素域外泛化、失效诊断、定向CALPHAD补样、最终未见Ni盲测以及微合金元素分配拓扑规律提炼的完整研究链。整个工作不依赖新增实验和DFT，以TCCU6.2平衡热力学输出作为统一数据源，并通过严格的数据冻结、composition-level划分、LOEO-OOD测试和前瞻性Ni盲测控制信息泄漏。
+[007] 一、研究目标与最终交付物
+[008] 1.1 总体研究目标
+[009] 建立一个面向Cu–Cr–Nb–X合金的可复现CALPHAD–ML框架，系统描述不同微合金元素对相稳定性、相量及Cr/Nb/X跨相分配的影响，并定量刻画模型在跨元素化学空间中的泛化边界。最终输出不仅包括高精度代理模型，还应形成材料学层面的微合金元素分配拓扑分类和可用于新元素预判的物理描述符规律。
+[010] 1.2 三个核心预测任务
+[011] 主论文的优先级应保持为：元素分配 > 相分数 > 相存在。相预测是基础，相分数给出定量信息，而跨相元素分配直接回答“Cr、Nb及微合金元素究竟去了哪里”，是该体系最具材料学价值的部分。
+[012] 1.3 最终交付物
+[013] Anchor验证数据库与结论表（已完成第一版）。
+[014] 2000个唯一成分、22,000个平衡状态的Pilot数据库及QA报告。
+[015] 约50,000个唯一成分、550,000个平衡状态的正式CALPHAD数据库。
+[016] Raw-phase数据库、聚合相数据库、相组成数据库、元素分配数据库和ML宽表。
+[017] 相稳定性、相分数和元素分配三个任务的机器学习模型及基线对照。
+[018] 6组Leave-One-Element-Out（Zr/Ti/Co/Si/Ag/Mo）OOD报告。
+[019] OOD失效机理分析、targeted vs random CALPHAD augmentation结果和学习曲线。
+[020] 模型冻结记录与Final Blind Ni前瞻性测试。
+[021] Microalloying partitioning topology map及虚拟热力学筛选候选。
+[022] 完整代码、配置、日志、数据字典、随机种子和复现实验说明。
+[023] 二、研究边界与冻结原则
+[024] 2.1 本研究明确不做的内容
+[025] 2.2 Ni封存原则
+[026] Ni不参与Anchor设计、Pilot、正式训练集、特征选择、相标签映射、阈值调节、模型选择或超参数调优。只有在全部数据处理规则、模型结构、特征和评价指标冻结后，才第一次生成并打开Cu–Cr–Nb–Ni的CALPHAD结果。Ni因此承担Final Blind Unseen-Element OOD测试，而不是普通第七个训练元素。
+[027] 三、软件、数据库与工程目录
+[028] 3.1 软件与数据库
+[029] 3.2 建议目录
+[030] E:\Cu_CALPHAD_ML
+├─ 00_ThermoCalc_projects
+├─ 01_manual_validation
+├─ 02_pilot_2000
+│  ├─ 00_config
+│  ├─ 01_compositions
+│  ├─ 02_raw
+│  ├─ 03_processed
+│  ├─ 04_qa
+│  ├─ 05_logs
+│  └─ code
+├─ 03_full_CALPHAD
+├─ 04_ML
+├─ 05_OOD
+├─ 06_blind_Ni
+├─ 07_virtual_screening
+└─ 08_manuscript_figures
+[031] 四、Step 1：Literature-informed Anchor Validation（已完成第一版）
+[032] Anchor阶段的目的不是建立最终统计结论，而是验证TCCU6.2对代表性体系的相词汇、相实例、相组成和典型元素分配是否能够被稳定提取，同时形成后续大规模数据库的假设。Anchor只能作为hypothesis generation，不能用单个成分的结果代表整个X元素体系。
+[033] 五、Step 2：TC-Python自动化与2000组成Pilot
+[034] 5.1 Pilot目标
+[035] Pilot只用于验证自动化接口、采样边界、相词汇、数据结构、收敛率、相实例聚合规则和元素分配计算是否正确。Pilot不承担最终论文统计结论，也不因模型表现不理想而反复修改成分空间。
+[036] 5.2 Pilot规模与family分配
+[037] 5.3 温度点
+[038] T = 300, 350, 400, 450, 500, 600, 700, 800, 900, 950, 1000 ℃
+[039] 11个温度覆盖低温第二相稳定区、中温时效相关区和高温固溶区，并在350–400 ℃和900–950 ℃附近保留较密点，以捕捉Anchor中Ti/Ag低温边界及Mo高温BCC分裂边界。正式数据库仍先使用同一温度网格，后续如需精确临界温度，再对相边界局部加密，而不是一开始对所有成分按10 ℃间隔进行高成本扫描。
+[040] 5.4 组成空间与采样策略
+[041] Pilot采用Sobol low-discrepancy sampling，避免普通均匀随机造成局部堆积，并固定种子seed = 20260903。每个X family建议70%来自工程低合金域，20%来自扩展相空间，10%围绕现有Anchor/相边界进行小幅扰动。
+[042] 建议通过S = wCr + wNb与R = (wCr/MCr)/(wNb/MNb)间接生成Cr、Nb，而不是完全独立随机采样Cr和Nb，从而主动控制Cr/Nb化学计量。
+[043] wNb = S / [1 + R·(MCr/MNb)]；    wCr = S − wNb
+[044] MCr = 51.9961；    MNb = 92.9064
+[045] 5.5 X元素Pilot范围
+[046] 5.6 自动化计算参数
+[047] 5.7 自动化脚本执行顺序
+[048] 5.8 四级Dry Run/QA门槛
+[049] 六、数据结构、相聚合与守恒规则
+[050] 6.1 五张原始/处理表
+[051] 6.2 Raw phase与Aggregated phase并存
+[052] Raw层保留Thermo-Calc原始相实例，用于识别Ag-rich第二FCC、Mo-rich第二BCC、CU4TI、CR3SI等具体热力学行为；ML主任务再将相聚合为FCC、BCC、C15、OTHER四类，避免Thermo-Calc内部phase-instance编号变化造成标签不稳定。
+[053] fFCC,total = Σ f(FCC_L12#i)
+[054] fBCC,total = Σ f(BCC_B2#i)
+[055] fOTHER = 1 − fFCC,total − fBCC,total − fC15
+[056] 6.3 相存在阈值与NaN规则
+[057] ML presence：fphase,vol > 1×10⁻⁴ → present = 1；否则 present = 0
+[058] 原始相分数不裁剪。正式论文对1×10⁻⁵、1×10⁻⁴、1×10⁻³三种presence阈值做敏感性分析。若某raw phase的实际相分数小于1×10⁻⁸，则其相组成在processed数据中设为NaN，而不是0；因为0表示“相存在但元素浓度为0”，NaN表示“相不存在，该相组成无物理意义”。
+[059] 6.4 元素跨相分配的正确计算
+[060] 元素分配必须依据相摩尔量和相内元素摩尔分数计算，禁止直接用“体积分数×元素摩尔分数”作为元素总量。
+[061] ni,α = nα · Xi,α
+[062] Pi,α = (nα · Xi,α) / Σβ(nβ · Xi,β)
+[063] 其中i ∈ {Cr, Nb, X}，α ∈ {FCC, BCC, C15, OTHER}。处理后应验证对每个存在于体系中的元素：Σα Pi,α ≈ 1。相体积分数用于组织相量描述，相摩尔量用于物质守恒和元素分配，两者不能混用。
+[064] 七、Step 3：Pilot QA与正式数据库冻结
+[065] 7.1 Pilot通过标准
+[066] 7.2 Pilot之后允许调整什么
+[067] 允许根据收敛率和phase prevalence收紧/放宽正式成分边界。
+[068] 允许根据极罕见相占比调整OTHER内部统计策略，但raw phase必须原样保留。
+[069] 允许在相转变密集区增加正式数据库采样密度。
+[070] 不允许根据Ni信息调整任何规则。
+[071] 不允许为了得到更高ML指标而删除复杂相/边界样本。
+[072] 八、Step 4：50,000组成正式CALPHAD数据库
+[073] 8.1 建议规模
+[074] 正式数据库继续使用Pilot验证后的Sobol/分层采样规则，但建议提高相边界区域的占比。正式数据量的意义不是“越多越好”，而是覆盖足够广的Cu-rich化学空间并提供稳定的IID/OOD统计能力。若Pilot显示某family的相行为极简单或极复杂，可在总量50,000左右保持不变的前提下微调family分配，但必须在运行正式数据库前冻结并记录。
+[075] 8.2 正式数据库新增的派生热力学指标
+[076] 九、Step 5：材料物理描述符与特征消融
+[077] 9.1 输入特征原则
+[078] 为了实现未见元素OOD，不能把X主要编码为Zr/Ti/Co/Si/Ag/Mo的one-hot标签。主模型应以元素物理化学描述符作为跨元素“共同语言”，同时保留组成和温度信息。
+[079] 9.2 特征消融
+[080] 特征工程、缩放、相关性筛选和缺失值处理必须只在训练数据上拟合，再应用于validation/test/OOD。尤其不能在全数据上先做PCC筛选或标准化后再切分。
+[081] 十、Step 6：机器学习模型体系
+[082] 10.1 基线模型
+[083] 至少保留Random Forest、XGBoost、CatBoost和普通MLP四类基线，避免研究结论依赖单一模型。最终主模型不要求一定是深度学习；如果树模型在某任务上更稳，应如实报告。
+[084] 10.2 主模型：守恒约束的多任务网络
+[085] 建议建立共享表示层 + 三类输出Head的physics-constrained multi-task network。其创新点不在于网络深度，而在于将相分数和元素分配的归一约束直接嵌入输出结构。
+[086] 10.3 评价指标
+[087] 十一、Step 7：严格IID数据划分
+[088] 550,000个state绝对不能按行随机切分，因为同一个composition的11个温度如果被拆到train和test，会形成严重的组成泄漏。必须以composition_id为group进行划分。
+[089] Train 70% compositions / Validation 15% / IID Test 15%
+[090] 十二、Step 8：6组Leave-One-Element-Out OOD
+[091] 在IID性能稳定后，分别将Zr、Ti、Co、Si、Ag、Mo整个family完全从训练和验证中移除，使用其全部测试组成评价“未见微合金元素”条件下的相、相分数和元素分配泛化能力。
+[092] 十三、Step 9：OOD失效诊断
+[093] OOD部分不能只给一个“准确率下降多少”的表。必须回答模型为何失败，并将错误与化学空间距离、描述符超范围、相边界和分配拓扑改变关联起来。
+[094] 理想结果不是“所有OOD都很准”，而是能够建立可解释的适用域：何时模型可以跨元素迁移，何时因为描述符距离或新topology而失效。
+[095] 十四、Step 10：Targeted vs Random CALPHAD Augmentation
+[096] 14.1 补样策略
+[097] 选择一个或多个最困难的LOEO体系，按“高不确定性 + 大描述符距离 + 相边界/高误差区域”定向选择新CALPHAD成分，并与同样数量的随机补样严格比较。
+[098] 如果targeted augmentation在相同CALPHAD预算下显著优于random augmentation，就可以回答一个非常具体的问题：面对新的微合金元素，最少需要多少有针对性的热力学计算才能恢复可靠预测？
+[099] 十五、Step 11：模型冻结与Blind Ni协议
+[100] 15.1 冻结清单
+[101] composition sampling rule与正式化学空间边界；
+[102] raw→aggregated phase mapping；
+[103] presence threshold与NaN规则；
+[104] 特征清单和描述符来源；
+[105] scaler/feature preprocessing；
+[106] 模型结构、损失函数、超参数；
+[107] OOD距离和uncertainty方法；
+[108] 全部评价指标与成功/失败判据；
+[109] 上述内容形成MODEL_FROZEN记录（建议保存YAML/JSON配置、Git commit hash和冻结日期）。冻结后不得因看到Ni结果而回头修改开发流程。
+[110] 15.2 Final Blind Ni规模与流程
+[111] 建议：5000个Cu–Cr–Nb–Ni唯一成分 × 11温度 = 55,000 states
+[112] 先用冻结模型对Ni全部成分生成预测并保存prediction timestamp。
+[113] 随后才运行/打开TCCU6.2的Ni CALPHAD结果。
+[114] 直接比较phase presence、phase fraction、Cr/Nb/Ni partitioning。
+[115] 不重新训练，不调阈值，不修改相聚合规则。
+[116] Ni若表现优秀，证明跨元素迁移能力；Ni若表现较差，则按预先定义的适用域框架解释失败边界。
+[117] 十六、Step 12：从6种元素现象上升为Partitioning Topology
+[118] 最终材料学结论不能停留在“Zr这样、Ti那样”。正式5万组成数据库需统计每种X在宽化学空间和温度范围内的主导分配路径，并建立微合金元素分配拓扑分类。Anchor给出的四类仅作为初始假设。
+[119] 16.1 机制解释工具（不依赖DFT）
+[120] 十七、Step 13：文献外部核验（无自有实验条件下的必要增强）
+[121] 建议整理至少10–20个已有Cu–Cr–Nb–X或强相关Cu–Cr–X/Cu–Nb–X实验体系，记录名义成分、热处理/制备状态、实验报道相和文献来源，然后与相同/接近条件下的CALPHAD平衡预测进行定性或半定量比较。
+[122] 十八、Step 14：Virtual Thermodynamic Screening
+[123] 最终筛选的对象应称为“thermodynamically promising candidates”，而不是“最高强度合金”。模型可以在大规模虚拟成分空间中快速预测相、相量和分配，并基于热力学指标筛选。
+[124] 若主线完成后仍有余力，可进一步用TCCU6.2/MOBCU5评估电阻率或热导率作为第二层筛选，但该模块不应影响核心phase–fraction–partition–OOD工作按计划完成。
+[125] 十九、全流程质量控制与复现要求
+[126] 二十、Go/No-Go节点
+[127] 二十一、建议代码与配置文件清单
+[128] 二十二、建议论文核心图表
+[129] 二十三、论文建议结构
+[130] 二十四、预计创新点（最终需以结果为准）
+[131] 1. 将Cu–Cr–Nb–X的机器学习目标从传统“Composition→Phase”扩展为“Composition+T→Phase→Phase fraction→Cr/Nb/X partitioning”，建立元素跨相分配的统一定量表示。
+[132] 2. 建立系统的Leave-One-Element-Out、OOD失效诊断和targeted CALPHAD augmentation框架，定量研究材料机器学习从已知微合金元素外推到未知元素时的可靠性边界和数据效率。
+[133] 3. 在全部模型和数据规则冻结后，以Ni体系进行真正的未见元素前瞻性盲测，并在大规模CALPHAD统计基础上建立“元素物理化学描述符—相亲和性—partitioning topology”的系统关联。
+[134] 二十五、时间与执行顺序建议
+[135] 二十六、主要风险及预案
+[136] 二十七、最终技术路线（从头到尾）
+[137] 二十八、最终一句话研究定义
+[138] 附录A：当前建议的文件命名
+[139] 附录B：开始Step 2之前的检查清单
+[140] □ Thermo-Calc 2025b可正常打开TCCU6.2。
+[141] □ 确认TC-Python license可用。
+[142] □ 保存现有Anchor的.tcu和.csv文件。
+[143] □ 确认E:\Cu_CALPHAD_ML目录结构已建立。
+[144] □ 固定Python环境并导出requirements/conda环境文件。
+[145] □ 把seed = 20260903、11个温度点、Pilot范围写入pilot_v1.yaml。
+[146] □ 运行00_check_tc_python.py并与一个已知Anchor手工结果逐项核对。
+[147] □ 先跑5个composition，确认phase moles、volume fraction、phase composition都能读取。
+[148] □ Ni仍保持完全封存。
+
+=== TABLE 0 ===
+核心科学问题：不同微合金元素的物理化学特征如何决定其在FCC、BCC、C15及独立金属间化合物之间的热力学分配路径；机器学习能否从已知元素学习这种“partitioning topology”，并泛化到完全未见的新元素？
+
+=== TABLE 1 ===
+任务 | 输入 | 输出 | 任务类型 | 论文定位
+Task A：相稳定性 | Cu/Cr/Nb/X成分 + T + 描述符 | FCC、BCC、C15、OTHER是否存在 | 多标签分类 | 基础任务
+Task B：相分数 | 同上 | fFCC、fBCC、fC15、fOTHER | 多输出回归 | 定量热力学任务
+Task C：元素分配 | 同上 | Cr/Nb/X在FCC、BCC、C15、OTHER中的分配比例 | 组成约束多输出回归 | 核心创新任务
+
+=== TABLE 2 ===
+模块 | 是否纳入 | 理由
+新增实验 | 否 | 保持纯计算定位，避免将CALPHAD平衡结果与真实动力学组织混为一谈
+DFT | 否 | 不作为机制验证手段；机制解释由CALPHAD统计、描述符、SHAP/ALE和文献外部核验承担
+ANSYS/COMSOL | 否 | 不涉及宏观场或电子束过程数值模拟
+相场/MD | 否 | 不研究析出动力学或原子尺度动力学
+GNN/Transformer | 非核心 | 除非基线和主模型明确表明需要，否则不为算法复杂度而增加模块
+电导率/热导率 | 后期可选 | 核心phase+fraction+partition链条跑通后再决定是否作为增强任务
+强度/延伸率 | 核心论文不直接预测 | CALPHAD不能直接提供可靠实验力学标签
+
+=== TABLE 3 ===
+禁止事项：在MODEL_FROZEN之前，不得手工跑Ni锚点，不得提前查看Ni的相类型或相分数，不得因猜测Ni可能出现某相而修改OTHER定义或模型输出结构。
+
+=== TABLE 4 ===
+项目 | 建议版本/设置 | 用途
+Thermo-Calc | 2025b | 平衡CALPHAD计算
+Thermodynamic database | TCCU6.2 | Cu合金热力学数据库
+Mobility database | MOBCU5（后期可选） | 若后续扩展输运/扩散相关任务时使用
+TC-Python | 与Thermo-Calc 2025b匹配 | 自动化高通量计算
+Python | 建议3.10/3.11，固定环境 | 采样、数据处理、ML、QA、绘图
+主要ML库 | scikit-learn、xgboost、catboost、PyTorch | 基线与主模型
+数据格式 | CSV + Parquet | CSV便于人工检查，Parquet用于大规模计算
+
+=== TABLE 5 ===
+体系/元素 | 代表结果（CALPHAD平衡预测） | 初步机制类别 | 后续大样本需验证的问题
+Cu–Cr–Nb baseline | FCC + Cr-rich BCC + Cr₂Nb型C15；降温后基体Cr/Nb溶解度显著降低 | 基础竞争分配 | Cr在FCC/BCC/C15之间的系统分配图
+Zr | Zr明显偏向C15，倾向Cr₂(Nb,Zr)-type | Laves incorporation（Nb侧倾向） | Zr→C15是否在宽成分–温度空间稳定成立
+Ti | 几乎不进C15；约380 ℃以下出现CU4TI | Independent intermetallic | Cu₄Ti稳定区和Ti跨相分配边界
+Co | Co明显进入C15，倾向(Cr,Co)₂Nb | Laves incorporation（Cr侧倾向） | Co→C15的范围与Cr/Nb比依赖
+Si | 形成CR3SI，Si几乎不进C15；Cr₃Si竞争消耗Cr | Independent intermetallic + Cr competition | Cr₃Si稳定区及其对Cr₂Nb/Cr储量的竞争
+Ag | 约361.55 ℃以下出现Ag-rich FCC第二分支 | FCC composition separation | FCC分裂边界随Ag、Cr/Nb和T的移动
+Mo | 约918.86 ℃以下出现Mo-rich BCC第二分支；Mo低温几乎不进FCC/C15 | BCC composition separation | BCC分裂区域及Mo/Cr/Nb在两BCC实例中的分配
+
+=== TABLE 6 ===
+Anchor结论的使用方式：正式论文中Anchor可作为数据链校验和代表性机制示例，但“Zr属于C15型”“Mo属于BCC分裂型”等最终分类必须由数千个组成统计和成分–温度分区结果支持。
+
+=== TABLE 7 ===
+Family | 唯一成分数 | 11温度状态数
+Cu–Cr–Nb | 200 | 2200
+Cu–Cr–Nb–Zr | 300 | 3300
+Cu–Cr–Nb–Ti | 300 | 3300
+Cu–Cr–Nb–Co | 300 | 3300
+Cu–Cr–Nb–Si | 300 | 3300
+Cu–Cr–Nb–Ag | 300 | 3300
+Cu–Cr–Nb–Mo | 300 | 3300
+合计 | 2000 | 22000
+
+=== TABLE 8 ===
+Domain | 比例 | Cr+Nb总量 S（wt.%） | Cr/Nb原子比 R | 用途
+A：工程低合金区 | 70% | 0.6–2.0 | 2.0–6.5 | 覆盖潜在高强高导Cu的实际低合金区域
+B：扩展相空间 | 20% | 2.0–4.5 | 1.0–4.0 | 提高对C15、独立化合物及相分离边界的覆盖
+C：Anchor/边界加密 | 10% | 围绕代表成分±约10%扰动 | 继承对应Anchor | 强化已知相转变附近的QA和相词汇发现
+
+=== TABLE 9 ===
+X | Domain A（wt.%） | Domain B（wt.%） | Anchor提示的主要热力学行为
+Zr | 0.02–0.20 | 0.02–0.40 | C15 incorporation
+Ti | 0.02–0.20 | 0.02–0.35 | Cu₄Ti形成
+Co | 0.03–0.30 | 0.03–0.60 | C15 incorporation
+Si | 0.005–0.08 | 0.005–0.15 | Cr₃Si形成、Cr竞争
+Ag | 0.03–0.30 | 0.03–0.60 | Ag-rich FCC分离
+Mo | 0.03–0.30 | 0.03–0.60 | Cr-rich/Mo-rich BCC分离
+
+=== TABLE 10 ===
+重要：以上为Pilot探索范围，不等同于最终工程推荐成分范围。Pilot跑完后只能依据“收敛率、相覆盖、边界覆盖是否充分”调整正式数据库边界，不能为了得到某种想要的相而事后任意扩张。
+
+=== TABLE 11 ===
+参数 | 设置
+数据库 | TCCU6.2
+压力 | 1 bar
+系统量 | 1 mol
+温度 | 11个固定温度点
+计算类型 | Equilibrium calculation
+稳定相 | 由Thermo-Calc自动确定；程序不得硬编码只有FCC/BCC/C15
+错误处理 | 记录composition_id、T、异常类型、重试次数和最终状态；失败结果不得无痕删除
+
+=== TABLE 12 ===
+脚本 | 功能 | 首次运行规模
+00_check_tc_python.py | 检查TC-Python授权、数据库可调用、单点平衡结果可读取 | 1个已知Anchor
+01_generate_pilot_compositions.py | 生成2000唯一成分与采样元数据 | 先输出CSV，不调用TC
+02_run_equilibrium_pilot.py | 逐成分/温度调用Thermo-Calc并保存raw结果 | 5→20→200→2000逐级放大
+03_build_pilot_dataset.py | 相聚合、相存在标签、元素分配、ML宽表 | 在每级计算后执行
+04_pilot_qa.py | 完整性、守恒、收敛率、phase vocabulary和异常审计 | 每级必跑
+
+=== TABLE 13 ===
+级别 | 组成数 | 状态数 | 通过条件
+Dry Run | 5 | 55 | API可用；相名、相分数、相组成、phase moles均可正确读取
+Mini | 20 | 220 | 7个family均覆盖；raw phase长表结构稳定
+QA Pilot | 200 | 2200 | 收敛率、速度、失败处理、相聚合逻辑通过
+Full Pilot | 2000 | 22000 | ≥99%收敛；全部QA规则通过后才允许扩容
+
+=== TABLE 14 ===
+文件 | 粒度 | 关键字段
+PILOT_V1_COMPOSITIONS_2000.csv | 一行/成分 | composition_id、family、X、wt.%、at.%、Cr/Nb、domain、seed
+PILOT_V1_EQUILIBRIUM_STATES.parquet | 一行/成分×温度 | state_id、T、converged、聚合相分数、phase_count
+PILOT_V1_PHASES_LONG.parquet | 一行/稳定raw phase | state_id、raw_phase_name、phase_family、phase_moles、mole_fraction、volume_fraction
+PILOT_V1_PHASE_COMPOSITIONS_LONG.parquet | 一行/状态×相×元素 | state_id、raw_phase_name、element、element_mole_fraction
+PILOT_V1_ML_TABLE.parquet | 一行/成分×温度 | 模型输入 + phase presence/fraction + Cr/Nb/X partitioning
+
+=== TABLE 15 ===
+OTHER定义：OTHER是跨元素可复用的聚合输出，不代表raw phase信息被删除。CU4TI、CR3SI以及未来新出现的独立金属间化合物仍在raw phase长表中完整保存。
+
+=== TABLE 16 ===
+检查项 | 通过标准
+CALPHAD收敛率 | ≥99%；失败样本有完整日志
+composition唯一性 | 2000个composition_id无重复
+温度完整性 | 每个通过计算的composition有11个目标温度状态
+成分守恒 | Cu+Cr+Nb+X = 100 wt.%（容差内）
+相分数守恒 | 各稳定相体积分数求和≈1
+元素分配守恒 | Cr/Nb/X的跨相分配求和≈1
+phase vocabulary | 所有raw phase有原始记录且可映射到FCC/BCC/C15/OTHER
+Ni隔离 | 任何Pilot文件不得出现Ni family或Ni结果
+异常样本 | 保留，不因“结果不好看”删除
+
+=== TABLE 17 ===
+Family | 唯一成分数 | 11温度状态
+Cu–Cr–Nb | 5000 | 55000
++Zr | 7500 | 82500
++Ti | 7500 | 82500
++Co | 7500 | 82500
++Si | 7500 | 82500
++Ag | 7500 | 82500
++Mo | 7500 | 82500
+总计 | 50000 | 550000
+
+=== TABLE 18 ===
+指标 | 定义/示例 | 用途
+相起始温度 Tonset | 在离散温度网格/局部加密下识别某聚合或raw相首次稳定温度 | 比较Ti/Ag/Mo等相边界
+高温FCC-Cr储量 | XCr in FCC at 950 ℃ | 表征高温Cu基体中Cr的平衡保留量
+低温平衡Cr耗减量 | XCr,FCC(950) − XCr,FCC(450) | 析出/脱溶“热力学潜力描述符”，不得称为动力学驱动力
+C15稳定性 | fC15 at 450/600 ℃或跨温区积分 | 衡量Cr₂Nb型Laves平衡稳定程度
+竞争Cr损失 | PCr,OTHER | 识别Cr₃Si等竞争相对Cr资源的占用
+
+=== TABLE 19 ===
+特征类别 | 示例
+基础组成 | Cu/Cr/Nb/X at.%与wt.%、Temperature
+化学计量 | Cr/Nb atomic ratio、Cr+Nb、Cr+Nb+X
+X元素属性 | atomic radius、electronegativity、VEC、melting point、atomic number、cohesive energy、density、ionization energy
+差值特征 | Δr、Δχ、ΔVEC、ΔTm（X相对于Cu/Cr/Nb）
+混合统计 | 组成加权mean/std/min/max等
+
+=== TABLE 20 ===
+Feature set | 内容 | 主要比较
+F1 | composition + T | 最基础基线
+F2 | F1 + Cr/Nb + total solute | 检验体系化学计量信息
+F3 | F2 + elemental descriptors | 检验物理描述符对IID/OOD的贡献
+F4 | F3 + difference/mixture descriptors | 检验跨元素相似性表达
+
+=== TABLE 21 ===
+Head | 输出 | 激活/约束
+A：Phase presence | FCC/BCC/C15/OTHER多标签 | sigmoid
+B：Phase fractions | fFCC、fBCC、fC15、fOTHER | softmax，保证Σf=1
+C1：Cr partition | Pcr,FCC/BCC/C15/OTHER | softmax，保证ΣPcr=1
+C2：Nb partition | Pnb,FCC/BCC/C15/OTHER | softmax，保证ΣPnb=1
+C3：X partition | Px,FCC/BCC/C15/OTHER | softmax，保证ΣPx=1
+
+=== TABLE 22 ===
+任务 | 主指标 | 辅助指标
+Phase presence | Macro-F1、Exact-match accuracy | Micro-F1、每相Precision/Recall/F1
+Phase fraction | MAE、RMSE | R²、各相MAE、总和误差
+Element partition | MAE、RMSE | R²、Total Variation Distance、守恒误差
+
+=== TABLE 23 ===
+泄漏控制：同一个composition_id的11个温度必须全部进入同一个split。scaler、feature selection、PCC、超参数优化均只使用Train内部信息。
+
+=== TABLE 24 ===
+OOD任务 | 训练中完全不存在 | 测试对象 | 关键科学问题
+LOEO-Zr | Zr | 所有Cu–Cr–Nb–Zr | 模型能否从其他X推断Laves Nb侧型分配？
+LOEO-Ti | Ti | 所有Ti family | 能否预判独立Cu₄Ti行为？
+LOEO-Co | Co | 所有Co family | 能否预判Laves Cr侧型分配？
+LOEO-Si | Si | 所有Si family | 能否识别Cr₃Si造成的Cr竞争损失？
+LOEO-Ag | Ag | 所有Ag family | 能否识别FCC组成分离？
+LOEO-Mo | Mo | 所有Mo family | 能否识别BCC组成分离和Mo-rich BCC？
+
+=== TABLE 25 ===
+诊断量 | 具体分析
+Nearest-neighbor distance | 计算OOD样本到训练集最近邻的标准化描述符距离
+Descriptor out-of-range | 统计OOD X有多少关键描述符超出训练元素范围
+Uncertainty | 模型集成/MC dropout/预测分散度与实际误差相关性
+Phase-boundary proximity | 错误是否集中在相出现/消失、FCC/BCC分裂等边界
+Topology novelty | 训练元素中是否缺少与OOD元素相同的分配机制
+Feature attribution drift | SHAP/ALE中关键物理描述符作用是否发生明显漂移
+
+=== TABLE 26 ===
+新增样本数 N | Random augmentation | Targeted augmentation | 比较输出
+50 | 随机选50个OOD成分 | 选择最有信息量50个 | OOD F1/MAE变化
+100 | 同上 | 同上 | 学习曲线
+250 | 同上 | 同上 | 学习曲线
+500 | 同上 | 同上 | 学习曲线
+1000 | 同上 | 同上 | 最终增益/成本
+
+=== TABLE 27 ===
+初始Topology假设 | 代表元素 | CALPHAD表现 | 正式验证方式
+Type I：Laves incorporation | Zr、Co | X主要进入C15，但可能占据不同化学侧 | 统计PX,C15占优区域及描述符规律
+Type II：Independent intermetallic | Ti、Si | 形成CU4TI/CR3SI等独立相 | 建立Other-phase稳定区域和Cr竞争程度
+Type III：FCC separation | Ag | 出现Ag-rich第二FCC实例 | 建立FCC split成分–温度边界
+Type IV：BCC separation | Mo | 出现Mo-rich第二BCC实例 | 建立BCC split成分–温度边界
+
+=== TABLE 28 ===
+方法 | 作用
+SHAP | 识别影响相存在、相分数和分配向量的关键特征
+ALE | 在相关特征存在时更稳健地展示非线性响应
+Feature ablation | 证明物理描述符对OOD而非仅IID的实际贡献
+Descriptor distance | 解释新元素与训练元素的相似性/外推程度
+Topology statistics | 把单个Anchor现象提升为宽成分空间的稳定分类
+文献外部核验 | 验证CALPHAD预测相与已有实验报道的定性一致/差异
+
+=== TABLE 29 ===
+比较项 | 允许的结论 | 禁止的结论
+实验报道相 vs CALPHAD稳定相 | “平衡预测与文献观察在主要相类别上定性一致/存在合理差异” | “CALPHAD就是实验ground truth”
+短时时效/快速凝固样品 | 讨论动力学冻结和非平衡原因 | 强行要求与平衡结果完全相同
+相组成/偏聚趋势 | 在数据可得时做方向性比较 | 无原始数据时制造定量一致性
+
+=== TABLE 30 ===
+筛选指标 | 希望方向 | 物理含义
+XCr,FCC(950 ℃) | 较高 | 高温Cu基体保留较多Cr
+ΔXCr,FCC = XCr,FCC(950) − XCr,FCC(450) | 适度较高 | 高温到低温的平衡Cr脱溶潜力
+fC15(450/600 ℃) | 适中 | 保留一定Cr₂Nb型Laves稳定相，避免过多锁Cr
+PCr,OTHER | 较低 | 减少Cr₃Si等竞争相对Cr资源的占用
+模型OOD/uncertainty | 低 | 候选应优先位于模型可信适用域内
+
+=== TABLE 31 ===
+层级 | 必须保存的证据
+采样 | 种子、Sobol配置、成分边界、family分配、重复检测结果
+CALPHAD | Thermo-Calc版本、TCCU版本、计算条件、失败日志、重试策略
+数据处理 | phase mapping、阈值、NaN规则、分配公式、守恒检查
+ML | split composition_id列表、特征拟合范围、超参数搜索空间、最终模型
+OOD | 每个LOEO的训练/测试family清单、距离和uncertainty计算方法
+Augmentation | 每轮新增样本ID、random/targeted选择规则和预算
+Blind Ni | MODEL_FROZEN配置、预测生成时间、Ni CALPHAD打开/生成时间
+论文图表 | 所有图均可由脚本从冻结数据一键再生
+
+=== TABLE 32 ===
+节点 | Go条件 | No-Go/修正动作
+TC-Python连接 | 能读取相名、相分数、phase moles、相组成 | 先解决授权/API，不得人工替代2万点
+200样本QA | 结构完整、收敛接近目标、无明显守恒错误 | 修正字段提取/异常处理后重跑
+2000 Pilot | ≥99%收敛，phase vocabulary稳定 | 调整成分边界或数值策略并重新冻结Pilot
+50k数据库 | 失败率可控、各family覆盖充分 | 补局部CALPHAD而非删异常
+IID ML | 各任务达到稳定代理水平 | 检查目标定义、特征和泄漏，不盲目换复杂模型
+LOEO OOD | 至少能够定量建立差异和适用域 | 即使性能差也进入失效诊断，不把OOD删除
+Targeted augmentation | 相同预算下优于或至少有明确适用条件 | 若无优势，如实报告并解释
+Blind Ni | 严格冻结后执行 | 不得回头调模型美化结果
+
+=== TABLE 33 ===
+文件 | 功能
+config/pilot_v1.yaml | Pilot采样范围、种子、温度、数据库、阈值
+config/full_v1.yaml | 正式50k数据库冻结配置
+00_check_tc_python.py | 授权和单点API验证
+01_generate_compositions.py | Sobol/分层采样
+02_run_equilibrium.py | 高通量Thermo-Calc平衡计算
+03_parse_raw_results.py | raw phase与相组成长表
+04_build_partitioning.py | 相聚合、元素分配、守恒审计
+05_qa_report.py | 数据库完整性/失败率/phase prevalence QA
+06_build_features.py | 元素物理描述符与消融特征集
+07_train_baselines.py | RF/XGB/CatBoost/MLP
+08_train_multitask.py | 守恒约束多任务网络
+09_eval_iid.py | IID测试
+10_eval_loeo.py | 6组LOEO
+11_ood_diagnostics.py | 距离、不确定性、边界与错误分析
+12_targeted_augmentation.py | 随机/定向补样与学习曲线
+13_freeze_model.py | 生成MODEL_FROZEN清单和hash
+14_blind_ni_predict.py | 仅预测Ni，禁止访问Ni CALPHAD标签
+15_blind_ni_evaluate.py | Ni标签生成/解封后评价
+16_topology_map.py | partitioning topology统计与作图
+17_virtual_screening.py | 虚拟成分筛选
+
+=== TABLE 34 ===
+图/表 | 建议内容 | 目的
+Fig. 1 | 研究流程：CALPHAD→phase/fraction/partition→ML→OOD→augmentation→blind Ni | 全文框架
+Fig. 2 | Anchor代表性相分数/分配曲线（Zr/Ti/Co/Si/Ag/Mo） | 提出topology假设
+Fig. 3 | 50k化学空间覆盖与phase prevalence | 证明数据库系统性
+Fig. 4 | 各X的composition–T phase maps | 系统热力学景观
+Fig. 5 | Cr/Nb/X partitioning maps | 核心材料学结果
+Fig. 6 | IID三任务模型性能与基线比较 | 代理精度
+Fig. 7 | 6组LOEO OOD性能矩阵 | 跨元素泛化
+Fig. 8 | OOD误差 vs descriptor distance/uncertainty/phase boundary | 失效机理
+Fig. 9 | Targeted vs random augmentation学习曲线 | 数据效率
+Fig. 10 | Final blind Ni预测 vs CALPHAD | 前瞻性验证
+Fig. 11 | Microalloying partitioning topology map + 关键描述符 | 最高层次科学结论
+Fig. 12 | Virtual screening/Pareto-like thermodynamic candidate space | 应用展示
+Table 1 | CALPHAD与采样参数 | 复现
+Table 2 | 相聚合与元素分配定义 | 方法严谨性
+Table 3 | IID/OOD主要指标 | 定量比较
+Table 4 | 文献外部核验体系 | 外部合理性
+
+=== TABLE 35 ===
+章节 | 内容
+1. Introduction | 提出“相预测之外的元素分配”和“未见元素泛化”问题
+2. Methods | CALPHAD、采样、数据库、相聚合、partition定义、描述符、ML、IID/OOD、augmentation、blind Ni协议
+3. Thermodynamic landscape | Anchor、phase maps、partition maps、不同X的系统差异
+4. ML prediction | phase presence、fraction、partition三任务的IID结果
+5. OOD generalization | 6组LOEO
+6. Why models fail outside training chemistry | 距离、不确定性、边界、topology novelty
+7. Targeted CALPHAD augmentation | 随机与定向补样
+8. Prospective blind Ni test | 完全冻结后的Ni前瞻性评价
+9. Microalloying partitioning topology | 从元素描述符到phase affinity/partition topology
+10. Virtual thermodynamic screening | 筛选热力学候选
+11. Conclusions | 强调可泛化的材料规律与模型适用域，而非只强调准确率
+
+=== TABLE 36 ===
+阶段 | 建议工作量 | 主要输出 | 进入下一阶段条件
+A. 自动化准备 | 1–3天（取决于TC-Python授权/环境） | API测试、5/20样本dry run | 字段读取稳定
+B. 2000 Pilot | 数天级（依硬件和TC速度） | 22k states + QA | ≥99%收敛
+C. 50k正式CALPHAD | 数天至数周级 | 550k states | 数据库冻结
+D. 特征+IID模型 | 约1–2周 | 基线与多任务模型 | 指标和守恒稳定
+E. 6组LOEO + 失效诊断 | 约1–2周 | OOD矩阵和适用域 | 确定困难元素/区域
+F. 定向补样 | 约1周+CALPHAD时间 | 学习曲线 | 补样策略冻结
+G. Blind Ni | 数天级 | 55k Ni states + blind report | 严格不回调模型
+H. Topology/筛选/写作 | 约2–4周 | 核心图表+全文 | 形成完整科学故事
+
+=== TABLE 37 ===
+时间说明：以上仅为工作安排量级，不是软件运行承诺。Thermo-Calc单状态耗时、TC-Python并发限制、许可证和硬件会直接决定实际运行时间；正式扩容必须以200样本和2000 Pilot测得的真实吞吐率估算。
+
+=== TABLE 38 ===
+风险 | 表现 | 预案
+TC-Python授权/并发受限 | 自动化无法调用或速度过慢 | 先确认授权；按许可证允许的并发策略运行；分批checkpoint
+某些成分不收敛 | 失败率>1%或集中在边界 | 记录失败而非删除；调整数值策略/缩小极端边界；单独分析失败区
+phase vocabulary过碎 | 大量低频raw phase | raw保留，ML聚合为FCC/BCC/C15/OTHER；报告prevalence
+OOD性能很差 | 新元素几乎不能泛化 | 这不是项目失败；重点转向失效边界和targeted augmentation
+OOD性能过好但疑似泄漏 | LOEO异常高 | 核查one-hot、全数据特征拟合、composition split、描述符来源
+Ni出现完全新topology | blind性能显著下降 | 严格报告并用预注册适用域解释，不能修改开发模型
+只得到“六个元素六个故事” | 缺乏普适性 | 用50k统计、描述符、topology map建立跨元素规律
+
+=== TABLE 39 ===
+01. 文献与TCCU6.2能力确认
+↓
+02. 代表性Anchor手工验证（已完成第一版）
+↓
+03. TC-Python授权/API验证
+↓
+04. 生成2000 Pilot组成
+↓
+05. 5→20→200→2000逐级CALPHAD运行
+↓
+06. Pilot数据解析、相聚合、元素分配与QA
+↓
+07. 冻结正式化学空间和phase mapping
+↓
+08. 扩展至50,000唯一成分/550,000平衡状态
+↓
+09. 建立phase maps、partition maps和派生热力学指标
+↓
+10. 构建物理描述符及F1–F4消融
+↓
+11. 按composition_id严格IID划分
+↓
+12. 训练RF/XGB/CatBoost/MLP基线与守恒约束多任务模型
+↓
+13. 完成Phase presence / fraction / partition三个IID任务
+↓
+14. 完成Zr/Ti/Co/Si/Ag/Mo六组LOEO-OOD
+↓
+15. 分析distance、uncertainty、phase boundary与topology novelty
+↓
+16. 开展Targeted vs Random CALPHAD augmentation及样本效率曲线
+↓
+17. 冻结所有规则、特征、模型和阈值（MODEL_FROZEN）
+↓
+18. 第一次生成并评价Cu–Cr–Nb–Ni Blind OOD
+↓
+19. 建立Microalloying Partitioning Topology及物理描述符规律
+↓
+20. 完成文献外部核验与虚拟热力学筛选
+↓
+21. 形成论文图表、数据/代码归档和投稿稿件
+
+=== TABLE 40 ===
+建议固定表述：本研究以Cu–Cr–Nb–X合金为对象，利用TCCU6.2与TC-Python构建覆盖成分–温度空间的大规模CALPHAD热力学数据库，系统获得相稳定性、相体积分数及Cr/Nb/X跨相分配信息；随后建立具有守恒约束的多任务机器学习模型，研究其在已知化学空间与未见微合金元素条件下的预测能力，通过leave-one-element-out、域外失效诊断和定向CALPHAD补样揭示跨化学域泛化边界；最终在模型完全冻结后以Ni进行前瞻性盲测，并建立微合金元素物理化学描述符—相亲和性—跨相分配拓扑之间的关联规律。
+
+=== TABLE 41 ===
+阶段 | 建议文件名
+Anchor Ag TCU | Anchor_07_Cu-2.6Cr-0.9Nb-0.15Ag_atpct.tcu
+Anchor Ag CSV | Anchor_07_Cu-2.6Cr-0.9Nb-0.15Ag_atpct_300-1000C.csv
+Anchor Mo TCU | Anchor_08_Cu-2.6Cr-0.9Nb-0.15Mo_atpct.tcu
+Anchor Mo CSV | Anchor_08_Cu-2.6Cr-0.9Nb-0.15Mo_atpct_300-1000C.csv
+Pilot compositions | PILOT_V1_COMPOSITIONS_2000.csv
+Pilot states | PILOT_V1_EQUILIBRIUM_STATES.parquet
+Pilot raw phases | PILOT_V1_PHASES_LONG.parquet
+Pilot phase compositions | PILOT_V1_PHASE_COMPOSITIONS_LONG.parquet
+Pilot ML table | PILOT_V1_ML_TABLE.parquet
+Pilot QA | PILOT_V1_QA_REPORT.md
+正式数据库配置 | FULL_V1_CONFIG.yaml
+模型冻结清单 | MODEL_FROZEN_MANIFEST.json
+Ni盲测预测 | BLIND_NI_PREDICTIONS_FROZEN.parquet
+Ni盲测评价 | BLIND_NI_EVALUATION_REPORT.md

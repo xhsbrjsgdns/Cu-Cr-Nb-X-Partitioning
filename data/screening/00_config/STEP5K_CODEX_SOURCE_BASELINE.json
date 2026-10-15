@@ -1,0 +1,2165 @@
+{
+  "files": [
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\03_full_CALPHAD\\FULL_V1\\code_snapshot\\21_fullv1_compositions.py",
+      "bytes": 22069,
+      "sha256": "0791d26efca820a29476796f0d2166254d2aed889dc530ad8953773f9f98633c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\03_full_CALPHAD\\FULL_V1\\code_snapshot\\22_fullv1_run.py",
+      "bytes": 16162,
+      "sha256": "4325f256d28bd2f3d9c21d087720c325f372adefeb155d645a812e758f2ab5f7"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\03_full_CALPHAD\\FULL_V1\\code_snapshot\\22b_fullv1_proc_benchmark.py",
+      "bytes": 8544,
+      "sha256": "707d684ee70f6e8eebc132e4e706d943790fa4a26a683861b19efec26ded55e1"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\03_full_CALPHAD\\FULL_V1\\code_snapshot\\23_fullv1_partitioning.py",
+      "bytes": 16282,
+      "sha256": "0a03da8863932ee6721be60ca3ca23a07e90f9c3a1146a7780951e366e776a09"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\03_full_CALPHAD\\FULL_V1\\code_snapshot\\24_fullv1_qa.py",
+      "bytes": 34926,
+      "sha256": "5529270863b392cea6ac1ea682940cc869786e1d65468ea0957806d0d84831b8"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\03_full_CALPHAD\\FULL_V1\\code_snapshot\\25_fullv1_midrun_qa.py",
+      "bytes": 12505,
+      "sha256": "b87e24d25369126438e4fcf7f0e96fc626dcdf65044e863d2cb0a4c5f34ae51a"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\03_full_CALPHAD\\FULL_V1\\code_snapshot\\26_fullv1_finalize.py",
+      "bytes": 10086,
+      "sha256": "4595fc3db1fd54b5160d54563bbce11c02e8ee6e7203bad436b55adadf646ada"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\03_full_CALPHAD\\FULL_V1\\code_snapshot\\27_fullv1_postprocess_recovery.py",
+      "bytes": 95348,
+      "sha256": "0728774d658e8ac5a23b80ef65542d3d2d4a1ceada506def289b225cd819711a"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\03_full_CALPHAD\\FULL_V1\\code_snapshot\\dry_run_lib.py",
+      "bytes": 30879,
+      "sha256": "7c97467c2946c1cba9a836d08d72376683d4168fb9746481e90a152411b4d380"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\03_full_CALPHAD\\FULL_V1\\code_snapshot\\fivefamily.py",
+      "bytes": 797,
+      "sha256": "a703d95d5aa2b9c3ac78aa847ad0e488678c561b0710ed0d4bc9c3848c471af8"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\03_full_CALPHAD\\FULL_V1\\code_snapshot\\io_store.py",
+      "bytes": 12060,
+      "sha256": "a5c95317e7bc77464e06a66f6102dabd43584e0e7e3a5c0f7796ff44087dbb7c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\03_full_CALPHAD\\FULL_V1\\code_snapshot\\solver_escalation.py",
+      "bytes": 6824,
+      "sha256": "98cd7bc19be4f5a647edde92a7486442e13a148e50945946b8acde5dfbe45b4e"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\04_models\\final\\cr_partition\\model_state.pkl",
+      "bytes": 66077644,
+      "sha256": "50f2782e48e0c6f1e1e7cbf489ddc864ad151f41d9d03cf6e1ddb1b1db40206f"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\04_models\\final\\fraction\\model_state.pkl",
+      "bytes": 33290700,
+      "sha256": "cc9cbb09d4ee838dc6eb82f15c86953fc5570eb4987aabe6b6ca065a573ec373"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\04_models\\final\\nb_partition\\model_state.pkl",
+      "bytes": 73060371,
+      "sha256": "4dfbb6dd816090fa39e50ad5b8d3ca57cce196d22e96d84607f81afe1c051b9a"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\04_models\\final\\presence\\model_state.pkl",
+      "bytes": 5283253,
+      "sha256": "5fd19bfabffa2118a6cfefadf2282693ae73b4834a103f26409460d6738b750e"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\04_models\\final\\x_partition\\model_state.pkl",
+      "bytes": 90480459,
+      "sha256": "013058267e3badfb6db657ba9638173c1c0f4ace37ad210a4750fbc6addbe63a"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\00_config\\STEP5F_SCIENCE_BEFORE.json",
+      "bytes": 14122,
+      "sha256": "1bcaba7212c97a16886535ba8d3715c5aab62f9e9c8d28e0601ebc0b850e4bd6"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\00_config\\STEP5G_PREFLIGHT.json",
+      "bytes": 4666,
+      "sha256": "0c416794be369488f12e18f7d7f5a7dd99a5e7c5fd4b99ddb012d26fd4395b71"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\01_pipeline_freeze\\feature_definition_sources\\31_step5a_element_descriptors.py",
+      "bytes": 8092,
+      "sha256": "2810e6bacbab23364b83dfb2e677723f428d6f019687685a63d5b43157e678dd"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\01_pipeline_freeze\\feature_definition_sources\\32_step5a_features.py",
+      "bytes": 16544,
+      "sha256": "09896c2aaf4b99022941727fa778178b984ded7acadc852d401fbc1d759a29e5"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\01_pipeline_freeze\\feature_definition_sources\\DEVELOPMENT_FREEZE_V1.json",
+      "bytes": 7730,
+      "sha256": "6057e980c4c9ed930b01e7cd2c11299aa2443cf91bc11de60b133dbb7480c6fb"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\01_pipeline_freeze\\feature_definition_sources\\FEATURE_DICTIONARY.csv",
+      "bytes": 37984,
+      "sha256": "40ec28bf26504c4fab55e05ec3f6dfc285c61c4f98f7177722fe0e6536c5900c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\01_pipeline_freeze\\feature_definition_sources\\SELECTED_FEATURES_F1_F2_F3_F4.txt",
+      "bytes": 912,
+      "sha256": "f4ddf4a2587e33a7d441656110c589208d9d860095198dd4b276df64f8a2fb0c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\01_pipeline_freeze\\FEATURE_SOURCE_HASHES.json",
+      "bytes": 861,
+      "sha256": "20a720bf13d65040c9de588d1925ff154198e07272ecc946dd77cad69c875a0c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\01_pipeline_freeze\\STEP5F_FULL_REPORT.pre_patch01.md",
+      "bytes": 9469,
+      "sha256": "ec52dad00f84b1a850b405709dfb08ce05d22c19980f41ba8607a474bff4cfda"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\01_pipeline_freeze\\STEP5F_REPORT_PATCH_01.md",
+      "bytes": 2122,
+      "sha256": "92b9dc9bc5e557e207781bcf390c1b48dac91a88255780410d7c3563313df36e"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\01_pipeline_freeze\\STEP5G_FEATURE_SCHEMA.csv",
+      "bytes": 16638,
+      "sha256": "faebd4de9423b6087e5ae2bb7242dade2538299eb294b3318538d62c3ca86126"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\01_pipeline_freeze\\STEP5G_FINAL_PIPELINE_FREEZE.json",
+      "bytes": 12020,
+      "sha256": "15efe35e2ad4f5372323067feccb989079d9fd5666153298a8c2d9f45d3b1788"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\01_pipeline_freeze\\STEP5G_FINAL_PIPELINE_FREEZE.md",
+      "bytes": 4125,
+      "sha256": "605184aafae89a2607e8a5f4a01a7e59d88d7ffa7958747c268bc9c7930eab9d"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\01_pipeline_freeze\\STEP5G_LR_SELECTION_TRAIL.csv",
+      "bytes": 624,
+      "sha256": "9a595bcc40826cf88247a83d2c3057081bd765498c2d25ccbc58fa314572a871"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\02_primary_model\\STEP5G_PRIMARY_MODEL_CARD.md",
+      "bytes": 5195,
+      "sha256": "310f225f0623e67ce7426b1af7fa7a585649ce273dd44c851b933254a11a6852"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\02_primary_model\\STEP5G_PRIMARY_MODEL_CHECKPOINT.pt",
+      "bytes": 61749,
+      "sha256": "f89e4ddc2f367a572a16a29062faa3c3d580fc8aae73a8e6bfaa28a8bcd86d0f"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\02_primary_model\\STEP5G_PRIMARY_SCALER.joblib",
+      "bytes": 2799,
+      "sha256": "c2619e4aed54304a9ed895b98164b0205421310f613f50346c249de41d7e3475"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\02_primary_model\\STEP5G_PRIMARY_SCALER_PARAMETERS.json",
+      "bytes": 5869,
+      "sha256": "6987770d150cf7431c39a0c8bb9b6b88c409e5c57d1c3d7836bafba616e72f66"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\02_primary_model\\STEP5G_PRIMARY_TRAIN_IDS.csv",
+      "bytes": 13054451,
+      "sha256": "d957591c98f82379a28fb6a8ef7784c0531b98f7e905ad14d2c6754b0ed43c4b"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\02_primary_model\\STEP5G_PRIMARY_VALIDATION_IDS.csv",
+      "bytes": 3056377,
+      "sha256": "4965262be92e68472a889e761ed12269233f38267b888e8212b543d7c25fe4e5"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\03_secondary_model\\STEP5G_SECONDARY_MODEL_CARD.md",
+      "bytes": 5361,
+      "sha256": "ec59a910b651e551613b4b9b1fba2b38f27e2c5e4d29961a7ba9adb74ae5c3da"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\03_secondary_model\\STEP5G_SECONDARY_MODEL_CHECKPOINT.pt",
+      "bytes": 61773,
+      "sha256": "a685b2138f114f3274f3b789753b28971484b797ca7d375a9354021242d55719"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\03_secondary_model\\STEP5G_SECONDARY_SCALER.joblib",
+      "bytes": 2799,
+      "sha256": "b247fdae442c475d58a052427a4744a62a88114d266b865e7e0f4116245d43d4"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\03_secondary_model\\STEP5G_SECONDARY_SCALER_PARAMETERS.json",
+      "bytes": 5850,
+      "sha256": "0a995ece448eebb09e6bfd5789cc1d021fabb46cb99673c78b62f138cf5b90fb"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\03_secondary_model\\STEP5G_SECONDARY_TRAIN_IDS.csv",
+      "bytes": 19258451,
+      "sha256": "f81210f9fde647491284d295577ee5775f18c81d7e5eccc5137beb5e54657ee7"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\03_secondary_model\\STEP5G_SECONDARY_VALIDATION_IDS.csv",
+      "bytes": 3056377,
+      "sha256": "4965262be92e68472a889e761ed12269233f38267b888e8212b543d7c25fe4e5"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\04_ni_composition_prereg\\STEP5G_NI_BLIND_COMPOSITIONS.csv",
+      "bytes": 444278,
+      "sha256": "7680b5a1ba5a2409f2b23900d770dd4939df0cf76bd2f1d9c1a2c2c5cce0030b"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\04_ni_composition_prereg\\STEP5G_NI_BLIND_PREREGISTRATION.json",
+      "bytes": 7363,
+      "sha256": "28e8929a61a2d237a6b849cfa095d852b2755302fd95defa823bd06f03699970"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\04_ni_composition_prereg\\STEP5G_NI_BLIND_PREREGISTRATION.md",
+      "bytes": 4530,
+      "sha256": "3d80a8de3230e833ce901d7fb0d1e4c9299a9638790eb33ffc946b25668a256a"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\05_metric_prereg\\STEP5G_METRIC_PREREGISTRATION.json",
+      "bytes": 2664,
+      "sha256": "7d8f8736d5d29428fbf506709abb0db3b2f0055772d3b69f4796fc115f881328"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\05_metric_prereg\\STEP5G_METRIC_PREREGISTRATION.md",
+      "bytes": 2768,
+      "sha256": "d02e07481e0dad7db40da486e30d669fb6ad4d9abc3a4ac83cf50c42db00f1ab"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\06_postblind_fewshot_prereg\\STEP5G_NESTED_RANDOM_SEQUENCES.csv",
+      "bytes": 2116,
+      "sha256": "9c9389a100ee064bc8a52ab4a4d8cedb7558c9b95462cca0fa6736da92d6507e"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\06_postblind_fewshot_prereg\\STEP5G_POSTBLIND_FEWSHOT_PREREGISTRATION.json",
+      "bytes": 9188,
+      "sha256": "dcef43476a6bbba66ea039597a6d0ba5bcf9568384e90a24b2232c3a95dc83bb"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\06_postblind_fewshot_prereg\\STEP5G_POSTBLIND_FEWSHOT_PREREGISTRATION.md",
+      "bytes": 9303,
+      "sha256": "53ae912f202bd759ecf31a3e631577dae4b6674d53e410e745e90b7d2a4e279f"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\07_qa\\STEP5F_REPORT_PATCH_01.json",
+      "bytes": 736,
+      "sha256": "422239d953d438c264b1e6a23e137ca112f6fc86a1e4d1f07e213cec010e341f"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\07_qa\\STEP5G_INTEGRITY_AUDIT.md",
+      "bytes": 3782,
+      "sha256": "c74a80b8572cb48fc09b1e3af847605e93afa390abca8f133bb6fcc94a41b9ea"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\07_qa\\STEP5G_INTEGRITY_CHECKS.csv",
+      "bytes": 3097,
+      "sha256": "5e0a8b07a55fe908f2de0e07328c618e2b11b073474bf39b2df35fa0af841161"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\07_qa\\STEP5G_NI_COMPOSITION_QA.csv",
+      "bytes": 1167,
+      "sha256": "5de9cd281e89b7fcf71a6e641c2e8b66db28d62a306a61acbcb77cdbfa0c8d82"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\07_qa\\STEP5G_PREFLIGHT_CHECKS.csv",
+      "bytes": 1494,
+      "sha256": "782931ae406addfd05c9cc4fef122177b34653b608727c70c7131842f0b7ef01"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\08_manifest\\STEP5G_COMPLETION.json",
+      "bytes": 425,
+      "sha256": "bec38557d57ace49c18e9844dd1f5ffce225a0fa0e55830ffd95277763ad46c3"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\08_manifest\\STEP5G_FILE_HASHES.csv",
+      "bytes": 6971,
+      "sha256": "a1a7a8a24b0e785a99bb4529ca22553c28003f6c5bd9b27f7ec8b5d3fb8c3195"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\08_manifest\\STEP5G_FILE_HASHES.sha256",
+      "bytes": 90,
+      "sha256": "4b0b73c7f879123d15d2201421d9cf3a846c6f282bb37e1b31e989e85e4a907e"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\09_logs\\80_g_preflight.py.log",
+      "bytes": 1073,
+      "sha256": "bfdd67fcb31f16777a285b69f4f25db248d9fd977794fab2be724c88a24c5757"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\09_logs\\81_g_patch.py.log",
+      "bytes": 549,
+      "sha256": "e56fb3cb86c5103cd230a24c15247f375e6681315618cb87de8b291f9778ca0e"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\09_logs\\82_g_train.py.log",
+      "bytes": 1191,
+      "sha256": "79e1e88ee9091c06deb5e7174806b541e00b7b8656cfb50d7df55ee8a42b7684"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\09_logs\\83_g_ni_prereg.py.log",
+      "bytes": 1639,
+      "sha256": "b71d7cdae810bc2d6416775835d54cd25d1bc1d27a7b7ba9cb95c1fcb514042a"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\09_logs\\84_g_metric_prereg.py.log",
+      "bytes": 87,
+      "sha256": "e82a5db010a6671792a0ae9bdddef4d23f36c9a264995c7f4a08c5e624bbf170"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\09_logs\\85_g_audit_report.py.log",
+      "bytes": 3021,
+      "sha256": "d412bec9f53fd0276a4379203b5e34f7d4de411cc2373ea69c64435488cda18b"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\code_snapshot\\80_g_preflight.py",
+      "bytes": 12786,
+      "sha256": "12727ce75eb44d8a88e442ed99bc758e586e119c1b20089878d851cc4b27997d"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\code_snapshot\\81_g_patch.py",
+      "bytes": 5912,
+      "sha256": "f50bd270f8964834debbe3812799e1aef3b3a119a7ce2859bfeef010854631b3"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\code_snapshot\\82_g_train.py",
+      "bytes": 29599,
+      "sha256": "dd0a11b8197f18bcec58b98a19d5134a5dae22b77711a0e01c04651d0532ad02"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\code_snapshot\\83_g_ni_prereg.py",
+      "bytes": 18839,
+      "sha256": "91cb1d51303f881642053c42cb951078bf00cc12460004df4d8902077f6e2cf3"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\code_snapshot\\84_g_metric_prereg.py",
+      "bytes": 79,
+      "sha256": "83274375e5b943fd5519a2328168384301bb69e8d6cb9f45e0fa8a830389bb61"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\code_snapshot\\85_g_audit_report.py",
+      "bytes": 78,
+      "sha256": "64df4177dcee8a441ff8ab78d273cb13789b8f32e00114f6070826e108621119"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\code_snapshot\\86_g_finalize.py",
+      "bytes": 501,
+      "sha256": "3d2f35311da88328e85219133fa656185c0751fa6d7cd79b90cedc12d4c14fa5"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\code_snapshot\\g_audit.py",
+      "bytes": 15012,
+      "sha256": "889d9b773a685cbccee94e61e978fc9e1d2cd15b19044cce950aa5da6c29b7b1"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\code_snapshot\\g_common.py",
+      "bytes": 16053,
+      "sha256": "d8187a3c8d57098f1875042f4bad7e4cf3ab6dece71b7efd65f7ff1c2f004971"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\code_snapshot\\g_contract.py",
+      "bytes": 6001,
+      "sha256": "23ef1c716cb39b4380cc81fe131a502e66c0958bcc751ebb5ef62381fb4492ee"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\code_snapshot\\g_prereg.py",
+      "bytes": 8391,
+      "sha256": "219f1ad1b3a18036719a099191ab0f92bc776c0e5af07ab312c9f7dad23b991e"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\STEP5G_FINAL_REPORT.md",
+      "bytes": 3721,
+      "sha256": "0359fde334c87e1d689198fd2dd089db9460e759e5da403d0ceeed67ca15a30c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\STEP5G_PART1_FREEZE.bat",
+      "bytes": 3170,
+      "sha256": "6394e23398a08f542603c00d0943eb26d975ec3b8a20d4830597c0e1dc281451"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5G_PIPELINE_FREEZE_V1\\STEP5G_PART2_PREREG.bat",
+      "bytes": 2989,
+      "sha256": "0d2b561ea4d02ab8747948059e9f9073dc2381020e7edb8abaa03b5cae895814"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\00_config\\STEP5H_A_ACCESS_SUMMARY.json",
+      "bytes": 4433,
+      "sha256": "2d531e53bbb196ece3ceb39b6820b7584cde6ecb1c67f52f93fee044aa66e4e9"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\00_config\\STEP5H_A_FROZEN_INPUT_VERIFICATION.json",
+      "bytes": 1202,
+      "sha256": "55466f20ca9d10250889d060006099439740a29f09cbe63d79a9f79f3c0399c5"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\00_config\\STEP5H_A_PREDICTION_DISTRIBUTIONS.json",
+      "bytes": 4373,
+      "sha256": "dcc5f8770459f474263dfb453fae10adcc173b78d224e5fbf5bcf31b86444152"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\00_config\\STEP5H_A_PREDICTION_SUMMARY.json",
+      "bytes": 3811,
+      "sha256": "afe1759cf068ade56c1942566670bf9c65f3600d2812481ea9718f363973faac"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\01_ni_descriptor_access\\STEP5H_A_NI_DESCRIPTOR_ROW.parquet",
+      "bytes": 7148,
+      "sha256": "1804136b10084116544e7b55b4e6e4ef3132969a6b4fc1124b070abbf2cfac87"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\01_ni_descriptor_access\\STEP5H_A_NI_FIRST_DESCRIPTOR_ACCESS.json",
+      "bytes": 2017,
+      "sha256": "406dbda7f8ace93301fb6c9a2e527127cacacd505c8876dbef93ae63086ac1ca"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\01_ni_descriptor_access\\STEP5H_A_NI_FIRST_DESCRIPTOR_ACCESS.json.sealed",
+      "bytes": 25,
+      "sha256": "415f6e86f25f998130588e8328b299373fed2c3e31cc31527e2c874f526b5713"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\01_ni_descriptor_access\\STEP5H_A_NI_PROPERTY_ACCESS_LEDGER.csv",
+      "bytes": 2263,
+      "sha256": "f76ad6f8ea0dbc70e495bf0b796cfefb15c682551445f121c7edd07ffd9f54e5"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\02_ni_features\\STEP5H_A_NI_FEATURES.parquet",
+      "bytes": 525072,
+      "sha256": "0fe03852cc6df0cf9ef87c6fb997cf6ac1801b2c7fad84abb68fe7736ccc88c9"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\03_ood_diagnostics\\STEP5H_A_NI_FEATURE_RANGE_DIAGNOSTICS.csv",
+      "bytes": 3537,
+      "sha256": "7ccaca20596cbf25d2acf01f24444ffacceb444e8dc5f036ea069aab77b483a3"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\03_ood_diagnostics\\STEP5H_A_NI_OOD_DIAGNOSTICS.csv",
+      "bytes": 3210791,
+      "sha256": "e919d98607fc2fba02bc46c2ad2bb189156be791e166cd35bd3e785badcf7b93"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\03_ood_diagnostics\\STEP5H_A_NI_OOD_PER_COMPOSITION.csv",
+      "bytes": 145978,
+      "sha256": "ac1c1156d2df2661a4095d2a774f0142e3aca1d06c4c9d9af0ffcea060d2890c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\03_ood_diagnostics\\STEP5H_A_NI_OOD_PER_TEMPERATURE.csv",
+      "bytes": 1056,
+      "sha256": "b1b1aa8bae66a075799434f70d936dbc1be544e168875aac7c1559998901655c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\03_ood_diagnostics\\STEP5H_A_OOD_DIAGNOSTICS_FREEZE.json",
+      "bytes": 1885,
+      "sha256": "cf261c573685e9816cadf5bcb6c69651c66a6ec9ab41739944bc83e1d79252cc"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\04_primary_predictions\\STEP5H_A_PRIMARY_NI_PREDICTIONS.parquet",
+      "bytes": 1815669,
+      "sha256": "100b40ed67c396cb296d53db80e7fef7cb94c0c8223873f5a13c01af28f0f488"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\04_primary_predictions\\STEP5H_A_PRIMARY_PREDICTION_FREEZE.json",
+      "bytes": 1183,
+      "sha256": "a7f6c6f61793d16a5bd946798cb25663db7297092a2f47e9c903f5226b95f2a8"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\05_secondary_predictions\\STEP5H_A_SECONDARY_NI_PREDICTIONS.parquet",
+      "bytes": 1822174,
+      "sha256": "a6c0fc4a98a05a4c53704d85b5caf91a5477577789a69d8dc24f6976f98a72ad"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\05_secondary_predictions\\STEP5H_A_SECONDARY_PREDICTION_FREEZE.json",
+      "bytes": 1189,
+      "sha256": "11eb0f7aca74febca78c250ae8a7937dc4634cdcbf413a80da4a15b2751032c5"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\06_disagreement\\STEP5H_A_DISAGREEMENT_BY_COMPOSITION.csv",
+      "bytes": 109274,
+      "sha256": "4f51dc7dd6b0e67bd457b9de92f56d84a105e35773ca13134c1d193847691bc5"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\06_disagreement\\STEP5H_A_DISAGREEMENT_BY_TEMPERATURE.csv",
+      "bytes": 394,
+      "sha256": "29bfcdac6c5ecdbc124d57c8b206d1ae289747df1330078c9dde8403cbbdd80f"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\06_disagreement\\STEP5H_A_PRIMARY_SECONDARY_DISAGREEMENT.csv",
+      "bytes": 1513101,
+      "sha256": "0d3c8d0aa6e70850a5aed01eb652047aa75a94ccc0504facfe5fd1eaf031a9de"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\07_maximin_freeze\\STEP5H_A_MAXIMIN_FREEZE.json",
+      "bytes": 2304,
+      "sha256": "270f706f2bc5a2a6e05c7acdfae6be958ce6f2b68ccd3446e24aa70e334be4fc"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\07_maximin_freeze\\STEP5H_A_MAXIMIN_SEQUENCE.csv",
+      "bytes": 2124,
+      "sha256": "6704c7e9d71f64dc8395c55b0beed239f29f99f6e7e9bfa510ab8f4d64221fda"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\08_qa\\STEP5H_A_COMPOSITION_QA.csv",
+      "bytes": 733,
+      "sha256": "f7b25137c795b6d21347ae44a83eec2ea7d881e6c8593b995ebb52e6b666f0a5"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\08_qa\\STEP5H_A_FEATURE_QA.json",
+      "bytes": 1941,
+      "sha256": "74cc790278309f83be6e4c99032ff33c7e9c76587d5586ddce5a43ae343e1c08"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\08_qa\\STEP5H_A_SOURCE_CONSISTENCY_TEST.csv",
+      "bytes": 4469,
+      "sha256": "7f23c22b39cb17e1a09034fbb15d237c762b27e6c8691d0083402b01cd43a101"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\09_manifest\\STEP5H_A_FILE_HASHES.csv",
+      "bytes": 4588,
+      "sha256": "9db63f711baf58b55094839d22be96eb19d7ff2d1595bd7ad9fe25ce461aec7b"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\09_manifest\\STEP5H_A_FILE_HASHES.csv.sha256",
+      "bytes": 92,
+      "sha256": "ffd06cb57aead72dbef7eb5554314e96d256704b83d817f987e5d2c1a3d12038"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\code_snapshot\\90_h_clarification.py",
+      "bytes": 6463,
+      "sha256": "fd88b89dd6dc037841c7dda6527e17c957c1090ebc481e649425aece4b07eb8b"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\code_snapshot\\91_h_access.py",
+      "bytes": 11963,
+      "sha256": "85270eb2215ae13bbeed8c9828757de085329ef64957e6196c4754daa738e061"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\code_snapshot\\92_h_features.py",
+      "bytes": 14849,
+      "sha256": "827cc91271db7cd33d0b958711c08920db531f3acedfca777307b7e1a904e858"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\code_snapshot\\93_h_ood.py",
+      "bytes": 9513,
+      "sha256": "bb71e1fb5b1c64aefe8e0e6ddb26a5ebb3a231cb4a0f5c7602b6a1d4ed70fe7c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\code_snapshot\\94_h_predict.py",
+      "bytes": 11716,
+      "sha256": "eb49f06caf223a4f646bb9dfab8e8cba3b796f066e9b984387adf849fc9061ac"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\code_snapshot\\95_h_maximin.py",
+      "bytes": 8307,
+      "sha256": "79311d04782d7d1ae548ef8abea97b0484ef5ebd3e37c7a68d1b06f772811168"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\code_snapshot\\96_h_report.py",
+      "bytes": 28336,
+      "sha256": "ec19aa9de0141ad7da2f917332f3253f39996bd3c97d43a1495950d3d68ae047"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\code_snapshot\\h5h_common.py",
+      "bytes": 12918,
+      "sha256": "8b5a8870cca550a20d4dd948652dbf5bf475a562179ac49f21c495a389488908"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\STEP5G_CLARIFICATION_01.md",
+      "bytes": 3412,
+      "sha256": "2c57ceb6cf40e874e96b22b4ad483be3aacae07851003e8b01413a29e60f1b7d"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\STEP5H_A_INTEGRITY_AUDIT.md",
+      "bytes": 2831,
+      "sha256": "e2b29f227ab0b6ab02d516bb5dcdbf3bdfee81607efd8f719347f95340a53867"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\STEP5H_A_REPORT.md",
+      "bytes": 11027,
+      "sha256": "f8d5d6d606c5f14176dc1c4ebc4ae1dc44ba8f5ae09d5cb411bc82a3e3ea985f"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_A_PREDICTION_FREEZE_V1\\STEP5H_A_SUMMARY.json",
+      "bytes": 6435,
+      "sha256": "e1369023109f4a78515d34e15587b6a32feec4e9d0ceeaad1722735655a9389e"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\00_config\\STEP5H_B_TEMPERATURES.csv",
+      "bytes": 166,
+      "sha256": "53d41c892da97655ede0ed52643450fb78f052f7af8333b8d1696ee1389240cd"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\01_first_target_access\\STEP5H_B_FIRST_TARGET_ACCESS.json",
+      "bytes": 1479,
+      "sha256": "ece24e68c2ab19c2466ffb8f81d38f69928f407b7d29576f8c11669d5746b6a8"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\02_raw_CALPHAD\\STEP5H_B_checkpoint_shard01.csv",
+      "bytes": 1079087,
+      "sha256": "9525f2bf52e3edb8b6a2d54a33745ab432041bb01949fb37eb04b97cad7f2715"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\02_raw_CALPHAD\\STEP5H_B_checkpoint_shard01.sqlite",
+      "bytes": 33607680,
+      "sha256": "f4d569ed059a615fb6fb21400784cd22773f2983b24bd5a1316c766710cbb1f3"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\02_raw_CALPHAD\\STEP5H_B_checkpoint_shard02.csv",
+      "bytes": 1079087,
+      "sha256": "ba53137048262c228fa4ae16cc515f86d9bdf0f635725ce63243e37fcbb0ea6d"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\02_raw_CALPHAD\\STEP5H_B_checkpoint_shard02.sqlite",
+      "bytes": 34590720,
+      "sha256": "72198b2bebe640b4d58072ab368bb925e757ba693d5a4eeb9a1b3e2c3dae31ff"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\02_raw_CALPHAD\\STEP5H_B_shard01_EQUILIBRIUM_STATES.csv",
+      "bytes": 1654164,
+      "sha256": "24f9ae4ef34a2b3335de28b91b8fd50c15a5037bf349839e0431e21224bc00f4"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\02_raw_CALPHAD\\STEP5H_B_shard01_PHASE_COMPOSITIONS_LONG.parquet",
+      "bytes": 1682567,
+      "sha256": "fc42f05280c93b159a12218713a4b3049268e38fc33eacc927435cf2ca2335b7"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\02_raw_CALPHAD\\STEP5H_B_shard01_PHASES_LONG.parquet",
+      "bytes": 1582168,
+      "sha256": "5eabeaa928a0c42c3b3392ae7dcf522c36a92fb526177550c1f89e273a6d31db"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\02_raw_CALPHAD\\STEP5H_B_shard02_EQUILIBRIUM_STATES.csv",
+      "bytes": 1654171,
+      "sha256": "a385db90c6a381e5763c926e301416ae61af00d50c45ce3f159dbc99ef39bc66"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\02_raw_CALPHAD\\STEP5H_B_shard02_PHASE_COMPOSITIONS_LONG.parquet",
+      "bytes": 1777684,
+      "sha256": "11c53059ffc1edd7f33239cdad94633548e0f4617d31583bd55cb67995f7ec2c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\02_raw_CALPHAD\\STEP5H_B_shard02_PHASES_LONG.parquet",
+      "bytes": 1626098,
+      "sha256": "105a0827aa7d4c53d4457a30a83355c291d232962e85b33372438074058e0b5b"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\03_processed_targets\\STEP5H_B_NI_TARGET_FREEZE.json",
+      "bytes": 1972,
+      "sha256": "5eef840e42bfc4d6051b65cdca4603017512da1e4e8b1aad0c7eea472a9b8545"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\03_processed_targets\\STEP5H_B_NI_TARGETS.parquet",
+      "bytes": 1651250,
+      "sha256": "3e1f4ba2cf6e47120edc4e5150059541ac3d7713e850ac867f411c58126858e3"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\03_processed_targets\\STEP5H_B_shard01_AGGREGATED_PHASES.csv",
+      "bytes": 2261420,
+      "sha256": "baafe40a06b43af6f386b90194ef85a74d494cd2d4bdcf029c2c564ae6df7db0"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\03_processed_targets\\STEP5H_B_shard01_AGGREGATED_PHASES_LONG.parquet",
+      "bytes": 1572244,
+      "sha256": "a31d2f77cc175e8a3cd399b141302aaff5bd6654f50b978aa9f7e942798e93be"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\03_processed_targets\\STEP5H_B_shard02_AGGREGATED_PHASES.csv",
+      "bytes": 2298841,
+      "sha256": "9f1ba7a354641749fd887e2e115e6c06b8fa27ca97c7a2d03d59b9e91110d1de"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\03_processed_targets\\STEP5H_B_shard02_AGGREGATED_PHASES_LONG.parquet",
+      "bytes": 1618724,
+      "sha256": "018c903e6ec9043f2efc8bc5988b9ce961469947c92ab3116dbef830dd285cdc"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\04_phase_vocab\\STEP5H_B_PHASE_FAMILY_MAPPING.csv",
+      "bytes": 215,
+      "sha256": "728c46d6c9b3c55551ba805fc459f1220042cb775375a0cb243785d4acda8603"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\04_phase_vocab\\STEP5H_B_PHASE_VOCABULARY.csv",
+      "bytes": 475,
+      "sha256": "803c65469281fdf29bc75fab018b6e0484b083b1afc0d8a837a65334563f11e2"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\05_calphad_qa\\STEP5H_B_CALPHAD_QA.json",
+      "bytes": 462,
+      "sha256": "a12b1e7ca5a368a827ca33682d58071a5e69e18567fb931c5bd69bb46b718cec"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\05_calphad_qa\\STEP5H_B_CALPHAD_QA.md",
+      "bytes": 1755,
+      "sha256": "97b7d2058c2bbbcc1d0e97f8c95bd80c3cc387ca1150b9151b3fe254c9ee8592"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\05_calphad_qa\\STEP5H_B_FAILURE_MAP.csv",
+      "bytes": 206,
+      "sha256": "91724504d7d5b022f46350dbf767b297ddd4e3d40ddbf68642d004fc56943a33"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\05_calphad_qa\\STEP5H_B_FAILURE_MAP_shard01.csv",
+      "bytes": 206,
+      "sha256": "91724504d7d5b022f46350dbf767b297ddd4e3d40ddbf68642d004fc56943a33"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\05_calphad_qa\\STEP5H_B_FAILURE_MAP_shard02.csv",
+      "bytes": 206,
+      "sha256": "91724504d7d5b022f46350dbf767b297ddd4e3d40ddbf68642d004fc56943a33"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\06_primary_score\\STEP5H_B_PRIMARY_BLIND_ERRORS.parquet",
+      "bytes": 390817,
+      "sha256": "9f3c3c31660ec34f1b410258db9cdbf93ccd561da539ddd5b5c384551bae605e"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\06_primary_score\\STEP5H_B_PRIMARY_BLIND_METRICS.json",
+      "bytes": 2096,
+      "sha256": "e5cdb637274a674df27b64925dc6c39da4319b10e87efa32fdac9f1a2eed281c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\06_primary_score\\STEP5H_B_PRIMARY_BOOTSTRAP.csv",
+      "bytes": 169,
+      "sha256": "6de8d89d957c6c0d95ed16959379ca600847532968e65beea68af1cd891b2739"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\06_primary_score\\STEP5H_B_PRIMARY_PER_FAMILY.csv",
+      "bytes": 335,
+      "sha256": "7ffb11213aa88d014ec0afd7cd640f196fe69e55415055672156f9c236853ca6"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\06_primary_score\\STEP5H_B_PRIMARY_PER_TEMPERATURE.csv",
+      "bytes": 681,
+      "sha256": "e5256c0200c6d2f053d89d8ae721da6dbea98564c30596bdc51f4a278a8b1dbf"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\06_primary_score\\STEP5H_B_PRIMARY_SCORE_FREEZE.json",
+      "bytes": 1886,
+      "sha256": "11c3ddfebc288555c717811aa00088d9fc6ee4c2423fa326509ceddd6d100d30"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\07_secondary_score\\STEP5H_B_SECONDARY_BLIND_ERRORS.parquet",
+      "bytes": 391374,
+      "sha256": "d6faf6da6043c7411936eddefda940d958009b7657ec33cd4634dee11717a2f7"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\07_secondary_score\\STEP5H_B_SECONDARY_BLIND_METRICS.json",
+      "bytes": 1455,
+      "sha256": "6a3aad169662dead782986232de65cd166c40d73735d43b3ef73a70b7d7ffe06"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\07_secondary_score\\STEP5H_B_SECONDARY_PER_FAMILY.csv",
+      "bytes": 354,
+      "sha256": "bfea67ed2f6f6a769b418f6feb34a70361941b692fdfd4b994b6d25ac75119d0"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\07_secondary_score\\STEP5H_B_SECONDARY_PER_TEMPERATURE.csv",
+      "bytes": 682,
+      "sha256": "e9e54466de1f08d78d568e5bfcdf7d9b2dbe2582f3df8026993cdb7268cc2a4c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\07_secondary_score\\STEP5H_B_SECONDARY_SCORE_FREEZE.json",
+      "bytes": 1318,
+      "sha256": "62f4fc31af68484f989fd0f79834272fbf7fd806ff8d83271fe747eca8251919"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\08_postreveal_diagnostics\\STEP5H_B_DIAGNOSTICS_SUMMARY.json",
+      "bytes": 2878,
+      "sha256": "f1a24add915ba25487d7582e3c005f403b6c8840557ecb239958de914fa5e176"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\08_postreveal_diagnostics\\STEP5H_B_PER_TEMPERATURE_COMPARISON.csv",
+      "bytes": 1282,
+      "sha256": "0bfd652b351544309ec263877fbd2c0068572394d80728d92ce6779917599301"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\08_postreveal_diagnostics\\STEP5H_B_POSTREVEAL_DIAGNOSTICS.csv",
+      "bytes": 558,
+      "sha256": "02979ee7d485a53fcb0aac0b35fa69d9bd6ebbc62839acdd2bf85db6b5dddc5f"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\08_postreveal_diagnostics\\STEP5H_B_PRIMARY_ERROR_BY_COMPOSITION.csv",
+      "bytes": 137406,
+      "sha256": "7c5e77a200ef001786e3e21e31b9922af3ea9c1d1c1e0e34f596e67a59e6c261"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\08_postreveal_diagnostics\\STEP5H_B_PRIMARY_VS_SECONDARY.csv",
+      "bytes": 511,
+      "sha256": "ada8c12451816ec9501400bab9d5050bf8dda1177099d44d40e5d92d2f3f3022"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\09_figures\\Fig_HB_01_true_Ni_topology_vs_temperature.png",
+      "bytes": 35473,
+      "sha256": "240daa4aa5ea5a9a979da084ede4eac91e73d75cbed47466b65624f93e4f1d7e"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\09_figures\\Fig_HB_02_primary_predicted_vs_true_topology.png",
+      "bytes": 36017,
+      "sha256": "24fd19ad99e2cc237c70e1dccd623db444312c845f3ae24ca0267409ff66ffe9"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\09_figures\\Fig_HB_03_primary_TVD_distribution.png",
+      "bytes": 34585,
+      "sha256": "0dc14ffd5b85d9fe028ba3c85bb459ec8396d5cc45224b87064a9a117f48dea7"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\09_figures\\Fig_HB_04_primary_TVD_by_temperature.png",
+      "bytes": 45241,
+      "sha256": "63a7e6592f26ec2ae439950ead2e7061f645a5e0384223713de859318728d5bd"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\09_figures\\Fig_HB_05_primary_vs_secondary_TVD.png",
+      "bytes": 31602,
+      "sha256": "2b00f3de3353c995efaedef4b8f07e1c4c63e41b97aef7a61af93769f2e9c18a"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\09_figures\\Fig_HB_06_primary_secondary_topology_accuracy.png",
+      "bytes": 38686,
+      "sha256": "9db45d3724364d182047549e59a1789473299dc234388b72d4a4447269d9076b"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\09_figures\\Fig_HB_07_error_vs_pre_reveal_distance.png",
+      "bytes": 198419,
+      "sha256": "fa911f914c36d688e128b69514607a01f9da27683f0c10dca9137345aef3bf75"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\09_figures\\Fig_HB_08_error_vs_model_disagreement.png",
+      "bytes": 177959,
+      "sha256": "4f93c6c7b91cc071d0ea66feabd81a094ceb667497737516be758e321819d230"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\09_figures\\Fig_HB_09_true_partition_by_temperature.png",
+      "bytes": 46360,
+      "sha256": "f997728b9add877b9738fab7fdc1185ff29b1bef872ef4953c3f7793af57945a"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\09_figures\\Fig_HB_10_blind_result_context_vs_historical_LOEO.png",
+      "bytes": 42664,
+      "sha256": "bfb5df9989fe58f8923bc060e7085733e2d22267b18ea9e622abde93ffef1697"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\10_qa\\STEP5H_A_MANIFEST_PATCH_01.json",
+      "bytes": 925,
+      "sha256": "aefc1405fd2367adf2039b7082d24bef71b68ae8564c6968232ebf9117020fe9"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\11_manifest\\STEP5H_A_FILE_HASHES_VERIFIED.csv",
+      "bytes": 7055,
+      "sha256": "525e6a342c65fae572c8faa23bac4164d6202826c950966e18f47f121c1dead2"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\11_manifest\\STEP5H_A_MANIFEST_PATCH_01.md",
+      "bytes": 2683,
+      "sha256": "9094ea29f2d5a9268c1c1b4f7f87940406918980eba59937556612ef5493f9c5"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\11_manifest\\STEP5H_B_FILE_HASHES.csv",
+      "bytes": 8470,
+      "sha256": "73b265d75722118a4a33697ccb67d48bc9a7cf4219805771d6256285c1114852"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\11_manifest\\STEP5H_B_FILE_HASHES.csv.sha256",
+      "bytes": 92,
+      "sha256": "b7105ab9379c7ee7af3799e46977c537653d8051c06127d6e1c85723fef023a0"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\12_logs\\STEP5H_B_RUN_shard01.log",
+      "bytes": 1781296,
+      "sha256": "8c57423a3da72e7646d93355272e2c6895bdb79311470853f84c1c35bfc0455b"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\12_logs\\STEP5H_B_RUN_shard02.log",
+      "bytes": 1806838,
+      "sha256": "1e0e793ac2eb2b164b518571bba861ce7358dc49fb593c218bf6bd83298066f5"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\12_logs\\STEP5H_B_RUNTIME_shard01.json",
+      "bytes": 2030,
+      "sha256": "a30f748e1e9f4dc53f9f34bd36af0a3695907124ac154db7e700187567f43d49"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\12_logs\\STEP5H_B_RUNTIME_shard02.json",
+      "bytes": 2032,
+      "sha256": "70c505a47e536cc3fc7228f318a8a416ddc68522d78fbee509a006f307348ba3"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\code_snapshot\\100_hb_score_primary.py",
+      "bytes": 9190,
+      "sha256": "971ad6c8ae26ee28a5186e9eb588e90202e4306e32a7e13c78f7b782a37a1b3a"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\code_snapshot\\101_hb_score_secondary.py",
+      "bytes": 6817,
+      "sha256": "4d16de2212d815405de18af44e43adce04be054ba1ecd224d5439a4f59767d3a"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\code_snapshot\\102_hb_diag_figures.py",
+      "bytes": 14602,
+      "sha256": "0c70bc4822438ce34cba50aeec74ed39851cb3bff8cebfacdb1927349f128c55"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\code_snapshot\\103_hb_report.py",
+      "bytes": 32690,
+      "sha256": "7887aadd85de670d08ae6c005d6b3f0fadaa45f1be9b9a93b5a7b4eaca79b564"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\code_snapshot\\97_hb_manifest_patch.py",
+      "bytes": 7127,
+      "sha256": "c03023a4fc1cc23cf18b7070b43f41674c25222097b64b8ce0912cd1d85c12bc"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\code_snapshot\\98_hb_calphad.py",
+      "bytes": 10413,
+      "sha256": "7e365a3b6f6ad5208e144b46fd47e4058bddffdb70f56a6cc6dcaadabecbb699"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\code_snapshot\\99_hb_targets.py",
+      "bytes": 16132,
+      "sha256": "7811912d7622b5f10cba16ebd1354d507d3a6c2c47fa3936b13306f6b667cc5a"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\code_snapshot\\hb_common.py",
+      "bytes": 11480,
+      "sha256": "8b3e1759389961da0ebdce0da5bd600fb28ea5a9cbe313479f735ebf70522ede"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\STEP5H_B_INTEGRITY_AUDIT.md",
+      "bytes": 3806,
+      "sha256": "dc5d1fc86ae12c49ba0aec572547394e8cb54c17153b02399d151494e1470812"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\STEP5H_B_REPORT.md",
+      "bytes": 12176,
+      "sha256": "43286613a0bc74ea27984f4856700952d603d718debfa1f92489fef745387161"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5H_B_NI_BLIND_REVEAL_V1\\STEP5H_B_SUMMARY.json",
+      "bytes": 9719,
+      "sha256": "3238822400ba5a10d7c633b329606eee2820f12cd3d86bf986574e6805dfc850"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\00_config\\STEP5I_PREFLIGHT.json",
+      "bytes": 9126,
+      "sha256": "048174bfaa627082551cc29db88fa26c3fa07d01c2c0ef9997f79b843a6df460"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\00_config\\STEP5I_REFIT_SUMMARY.json",
+      "bytes": 30586,
+      "sha256": "ccf1a57c6ab7062ef7779edf01ee5a81e92f15dde0798a7cebbb6198a7e4af2e"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\01_frozen_inputs\\CODEX_FROZEN_TREE_BEFORE.csv",
+      "bytes": 31778,
+      "sha256": "6c33b97f6c20f1ecc31c04cacdf8f27acfd5391426d78578b1a047feb4d985df"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\01_frozen_inputs\\STEP5I_FROZEN_INPUT_VERIFICATION.json",
+      "bytes": 1448,
+      "sha256": "4961502e1868c29571287db78ceee69c48046b38515742c2162b8cbef61d7e88"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R1_B16_MODEL.pt",
+      "bytes": 62265,
+      "sha256": "e91f1d10b8672ff9704da710ba9c169bdbff05865c4a398323ab115906a44907"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R1_B16_PREDICTIONS.parquet",
+      "bytes": 1092242,
+      "sha256": "f35060bbeeb654712698c70b7435ee89489efa7836e5aaf6bdc6c8c3445f1e59"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R1_B16_VALIDATION_HISTORY.csv",
+      "bytes": 8226,
+      "sha256": "d01b3d1022848abd3a99cb2b9ba5be38d0f9664e50bb2cc422d4acce850f80df"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R1_B1_MODEL.pt",
+      "bytes": 61933,
+      "sha256": "a592534f3cedd33bbc291adf211cb59f070216f55301e3b24273a16a90206820"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R1_B1_PREDICTIONS.parquet",
+      "bytes": 1134005,
+      "sha256": "3ff8318b8fe65175549acf675cba8498683af5fda7a1cdc84e6e525b5be9099c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R1_B1_VALIDATION_HISTORY.csv",
+      "bytes": 6389,
+      "sha256": "eec75199a62fef3cfa16c4e9865482170a02c7f9c6172dee247b84b0558c1ab3"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R1_B2_MODEL.pt",
+      "bytes": 61933,
+      "sha256": "8c22c6a8fe205f72720d66f088b87d0267d3c3ad857b19ea19ba748a2b58ee3a"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R1_B2_PREDICTIONS.parquet",
+      "bytes": 1055651,
+      "sha256": "dfab97836d00c57d19bab73a6b26cd824a33249c3b62e287ed11eb8ca8df5dd5"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R1_B2_VALIDATION_HISTORY.csv",
+      "bytes": 5936,
+      "sha256": "7346113bdac65debacd3e03d81b1fd38613fa5bc5739b6afaf9edf307d962eb1"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R1_B32_MODEL.pt",
+      "bytes": 62649,
+      "sha256": "b7fd09992e6b0582e34163dd231dd876dc1643dcaeb3f59ec1e4f503c6872e0c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R1_B32_PREDICTIONS.parquet",
+      "bytes": 1071681,
+      "sha256": "482e3805e67a4dfd9adb20f2a41f7dd7e2d89694fd0b7e92a3af0f35a94f2cc2"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R1_B32_VALIDATION_HISTORY.csv",
+      "bytes": 6471,
+      "sha256": "8ea9f64cef979eccc0906ddc680afe22a2288b62785df7793ac924f4f83d0d29"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R1_B4_MODEL.pt",
+      "bytes": 61997,
+      "sha256": "24cb8b0003bcfd2852d24c0b1fdf6273e3406d19bbdd5237be25e53dd2af1528"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R1_B4_PREDICTIONS.parquet",
+      "bytes": 1061734,
+      "sha256": "5cb576e277aad9c85b4c324e82e71f1684a50ae30c293d4c71090cfcfc402bf7"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R1_B4_VALIDATION_HISTORY.csv",
+      "bytes": 5906,
+      "sha256": "cd293b35fcd443f0336ade9c19effe6cf675d3832058c1e0a6b8c8da69670d41"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R1_B8_MODEL.pt",
+      "bytes": 62061,
+      "sha256": "a636f35bbc5e54ae18676722fba32c4f3df8fbc92b85f4a45f4f4f6ce7b2b756"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R1_B8_PREDICTIONS.parquet",
+      "bytes": 1060441,
+      "sha256": "5d4b4a24651f8a75f642261e991dcd7e03a3d1102dc0ab8e2a672c7827eabe90"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R1_B8_VALIDATION_HISTORY.csv",
+      "bytes": 7912,
+      "sha256": "45b70bfb2ebcd006d9bb7cedef234b0ff7259e55fee00409a88b7d5a8b11620a"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R2_B16_MODEL.pt",
+      "bytes": 62265,
+      "sha256": "40e61386f357690f2ba2a4b103872f5d2650c153d855eb5832fa47a7a2b5ab5d"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R2_B16_PREDICTIONS.parquet",
+      "bytes": 1021923,
+      "sha256": "e754c8d24748f68cf1e92307d36e6cc1263e2c00d7353b57ee874cd5c291ef90"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R2_B16_VALIDATION_HISTORY.csv",
+      "bytes": 6353,
+      "sha256": "4ce9681ac9ce6a881e887587acf6712fd6b0e186cc32bf8acedb447f50e0d4b4"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R2_B1_MODEL.pt",
+      "bytes": 61933,
+      "sha256": "fb8d9fe48a5558a3c344caa9ec1bc05ca47174c9ff442b615a2bbf5903aefab9"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R2_B1_PREDICTIONS.parquet",
+      "bytes": 1056941,
+      "sha256": "a24a50f408a7327beca1e4f001108843e167f5735ad9ac40f5cb5cd12dc30959"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R2_B1_VALIDATION_HISTORY.csv",
+      "bytes": 5258,
+      "sha256": "97823d91b6e620f1c1e92c561266b2a94fe478be56924ce9a2668274fa85056f"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R2_B2_MODEL.pt",
+      "bytes": 61933,
+      "sha256": "4c42674f355aa5dff8516d046a358ec3bd91c899235c35d763515e05219b7406"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R2_B2_PREDICTIONS.parquet",
+      "bytes": 1060436,
+      "sha256": "bda9daed135485e2cbfe4b006152b93321fbac50c3be5694b67688ecb8c0253b"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R2_B2_VALIDATION_HISTORY.csv",
+      "bytes": 6156,
+      "sha256": "bd2ab76206e432cf9357d939fcce5562926ceacfb28aa77512ac34c8e47bd964"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R2_B32_MODEL.pt",
+      "bytes": 62649,
+      "sha256": "34a5f762ba51c34351a2df4a778f7b4ea3948fd837cac1b84dd7287cfe06536b"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R2_B32_PREDICTIONS.parquet",
+      "bytes": 1061894,
+      "sha256": "c17cce3c7ee1d8ba28889bea01ac82c376d35fcd9df25e4ff038d9000a22380d"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R2_B32_VALIDATION_HISTORY.csv",
+      "bytes": 8222,
+      "sha256": "cc608db5874996bf97a328134329b63ea9b713abccfc4c9be34e14ae899965c9"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R2_B4_MODEL.pt",
+      "bytes": 61997,
+      "sha256": "4fae39bad7972f00a4974b99907ee6559e6b32c203ca2c9da99712a47babf81d"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R2_B4_PREDICTIONS.parquet",
+      "bytes": 1091376,
+      "sha256": "c0cc0b5e411de62b15c5308291c9f20460d6c9519c8fbbd576679d1ebfa35d9b"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R2_B4_VALIDATION_HISTORY.csv",
+      "bytes": 5346,
+      "sha256": "ade75c9af722189317c43830437ad6120653eee778744fa289f0022d9b1a0a03"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R2_B8_MODEL.pt",
+      "bytes": 62061,
+      "sha256": "17dee0109d9768d3f2790236f15ccb27d9c93d520be28ed22bae6c3e73d6c54c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R2_B8_PREDICTIONS.parquet",
+      "bytes": 1080529,
+      "sha256": "ba5b4f80ce2fbfc3be18d156b0652fd7af8652daa9346706b0e35fbf32473eff"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R2_B8_VALIDATION_HISTORY.csv",
+      "bytes": 7410,
+      "sha256": "2425c539f84b37495dfa443e64b40c1bdcce487eb5d3e0c0528cea319c399bf3"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R3_B16_MODEL.pt",
+      "bytes": 62265,
+      "sha256": "4fd7676cc8315c16871fbc8674bcfc7de3619084c76eccad0affdfaa74e35e2c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R3_B16_PREDICTIONS.parquet",
+      "bytes": 1084891,
+      "sha256": "edb36bebfdbeb05ab1a978a3048bac940f471880d56af841ae287d24ffe3f41c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R3_B16_VALIDATION_HISTORY.csv",
+      "bytes": 8224,
+      "sha256": "329a7f2b4a470300c665be370eb36b24d2bb0ba56022f2d0979908f459825ab9"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R3_B1_MODEL.pt",
+      "bytes": 61933,
+      "sha256": "7c5f0698e72f018bd377e04d082707bf12a3b3fb0e921f53511212c551186357"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R3_B1_PREDICTIONS.parquet",
+      "bytes": 1052882,
+      "sha256": "872a332bf10fb186ae7cc28e3474327db324ae34e89735e78879042e84b4ea8c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R3_B1_VALIDATION_HISTORY.csv",
+      "bytes": 3839,
+      "sha256": "53997ed47c012f4e338f96f0c1c71e347fc72920b1890ec9e2da451441220d66"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R3_B2_MODEL.pt",
+      "bytes": 61933,
+      "sha256": "c84ec6fda7c8dfdccfdf1e32eeeb2eafff21a45d27b353f50fc77187945a5467"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R3_B2_PREDICTIONS.parquet",
+      "bytes": 1071504,
+      "sha256": "29837a260f784fa10e7c3ec7124dcfc88f648f7d457db229dcaff21b1179dc6f"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R3_B2_VALIDATION_HISTORY.csv",
+      "bytes": 5946,
+      "sha256": "e0101e13921be3f82dfb7803fad8170ad64d4bb98f420eb614a7776a30e98958"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R3_B32_MODEL.pt",
+      "bytes": 62649,
+      "sha256": "feb45ddcea0b797798c7a278c2c230ccf0913d62bce7bf587428900ff593e359"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R3_B32_PREDICTIONS.parquet",
+      "bytes": 1074589,
+      "sha256": "366b0cfce4eb2c3d883431a857c90f94892a4c5d3fd126fd8c8109f23dd6064b"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R3_B32_VALIDATION_HISTORY.csv",
+      "bytes": 5772,
+      "sha256": "439750c220074980d6ce5ce389429be6c9d222e27ccce85b4dfbfab9badd4223"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R3_B4_MODEL.pt",
+      "bytes": 61997,
+      "sha256": "38ed43bfaff0dd817677367b002b75eaac130ba458691c3fdb840a8ad0d3ec71"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R3_B4_PREDICTIONS.parquet",
+      "bytes": 1046969,
+      "sha256": "2d14fb7e5aab8967374174e0bdc014a17ab2c9b93713e52456fe2979c3af04a6"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R3_B4_VALIDATION_HISTORY.csv",
+      "bytes": 5343,
+      "sha256": "c1b55303acc12b988ed97cafd867e3836ea87a47099d8d506e11c4129a8efc0c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R3_B8_MODEL.pt",
+      "bytes": 62061,
+      "sha256": "873b3fb684c86e6943493afdeea2c2ad192308c854e94edafe93735e31951a28"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R3_B8_PREDICTIONS.parquet",
+      "bytes": 1046448,
+      "sha256": "6cab720f2375e4b59e24e467603518ece689ce7cfd98b9129a9239f92730da72"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\02_random_refit\\STEP5I_RANDOM_R3_B8_VALIDATION_HISTORY.csv",
+      "bytes": 6328,
+      "sha256": "3de75b0a76453a63c2d4eaf31211fc3d7fbab76f8adfaa0fefd821636a99bf57"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\03_maximin_refit\\STEP5I_MAXIMIN_B16_MODEL.pt",
+      "bytes": 62241,
+      "sha256": "e96d633a33edf294d5645be72702e65f803bca5a9955c22bfbd1b7fcab876b73"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\03_maximin_refit\\STEP5I_MAXIMIN_B16_PREDICTIONS.parquet",
+      "bytes": 1037495,
+      "sha256": "578fc37ca241c3082a62b5a1e7ce4d3c5042af1c17a1a8ab56fd3644098d4f19"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\03_maximin_refit\\STEP5I_MAXIMIN_B16_VALIDATION_HISTORY.csv",
+      "bytes": 5646,
+      "sha256": "7544898d778dda6b74faba5973f9a5810dbf24eeb96f122b6be135375aa40066"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\03_maximin_refit\\STEP5I_MAXIMIN_B1_MODEL.pt",
+      "bytes": 61909,
+      "sha256": "2807092e4661cedd179f8f41032f85add93984d75047cad7dfd0390bd06445be"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\03_maximin_refit\\STEP5I_MAXIMIN_B1_PREDICTIONS.parquet",
+      "bytes": 1104355,
+      "sha256": "7d64e63820a80b7308dbf35a4c2875774ecf72f7fe3219cab8b9199c4b4175ce"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\03_maximin_refit\\STEP5I_MAXIMIN_B1_VALIDATION_HISTORY.csv",
+      "bytes": 5218,
+      "sha256": "eb5f0a1c553169ae67aa2dd918fa5dcd926128cf0dbb6dc8d8c2680aa26187d0"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\03_maximin_refit\\STEP5I_MAXIMIN_B2_MODEL.pt",
+      "bytes": 61909,
+      "sha256": "7a1aaf22d359643dae7400962184118934c1c165043ac5f0f7a35f7945ea9a74"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\03_maximin_refit\\STEP5I_MAXIMIN_B2_PREDICTIONS.parquet",
+      "bytes": 1153942,
+      "sha256": "71e64a8aa417e7ee14fc4ed10734cf93b0b9aa4a6c97ea03cdec560151e3d8a5"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\03_maximin_refit\\STEP5I_MAXIMIN_B2_VALIDATION_HISTORY.csv",
+      "bytes": 5065,
+      "sha256": "29e30d9ad7d510eaa501242fcbe00b8f6decabea7c3fa070a1a69cba8556299e"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\03_maximin_refit\\STEP5I_MAXIMIN_B32_MODEL.pt",
+      "bytes": 62625,
+      "sha256": "3f98e08d4e3c9354ba79a52e1e062bd7ce3a19ded854e29e5c49b4054cac0703"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\03_maximin_refit\\STEP5I_MAXIMIN_B32_PREDICTIONS.parquet",
+      "bytes": 1108421,
+      "sha256": "5ea4870de83453192c7ea8c97cf317f38d7cb1dacc17b2b3518adbbc15de2e6e"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\03_maximin_refit\\STEP5I_MAXIMIN_B32_VALIDATION_HISTORY.csv",
+      "bytes": 6247,
+      "sha256": "cc1c931f3a695cc7233c6288410452a2ee5ce28c7d217d6be22e7a7f1d9ac7d4"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\03_maximin_refit\\STEP5I_MAXIMIN_B4_MODEL.pt",
+      "bytes": 61973,
+      "sha256": "60c2c680e54de2c191d8d2bdfe8d6f6fdeb08e2c74569d67af0c53bcb893d8de"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\03_maximin_refit\\STEP5I_MAXIMIN_B4_PREDICTIONS.parquet",
+      "bytes": 1193159,
+      "sha256": "c81bbbd98b2959bd60f68cc14b23fb14e3081d0bd3da6a00f2f94c4db80be0e5"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\03_maximin_refit\\STEP5I_MAXIMIN_B4_VALIDATION_HISTORY.csv",
+      "bytes": 4888,
+      "sha256": "3c3c6ff04e775c9b1db50aac9831fb31f988bd420ca4c27b05ef7f00533db35d"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\03_maximin_refit\\STEP5I_MAXIMIN_B8_MODEL.pt",
+      "bytes": 62037,
+      "sha256": "1d9608508fd36bc02d0bcf921be0679c8a76e9fb63ac3af61a1b9c47962fafc9"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\03_maximin_refit\\STEP5I_MAXIMIN_B8_PREDICTIONS.parquet",
+      "bytes": 1135863,
+      "sha256": "2f3991b7c71311f35415a6bbc737062effdddd164672ad3002204f9f840eda9e"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\03_maximin_refit\\STEP5I_MAXIMIN_B8_VALIDATION_HISTORY.csv",
+      "bytes": 4828,
+      "sha256": "65912b8c3c1d66f600eb18c89948ed86ff39d6f4807ebc98e163a9970392e75b"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\04_R0_R1_R2_controls\\STEP5I_CONTROL_DEFINITIONS.json",
+      "bytes": 1127,
+      "sha256": "04d389b343dea65c24b2f991f8112c893d9527c9d43ba7ec2c31d880f91fd898"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\04_R0_R1_R2_controls\\STEP5I_CONTROL_METRICS.csv",
+      "bytes": 17434,
+      "sha256": "bcaae1d12ae7d79f1736cf220d4f5be8769af8be77c5c0c63989541c927696f5"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\04_R0_R1_R2_controls\\STEP5I_CONTROL_PER_STATE.parquet",
+      "bytes": 10440744,
+      "sha256": "51001afc5233031200343732f712a535e249e467411d0d662b3df694dd98d269"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_BUDGET_THRESHOLDS.json",
+      "bytes": 1028,
+      "sha256": "f11cbf029c53119df380dca2b2da3caa3cc6478dbeb867a5cd01ecd3ef5337ee"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_MAXIMIN_FEWSHOT_METRICS.csv",
+      "bytes": 6155,
+      "sha256": "5c5f036e2818f6e88dfce5c6b975bae5f8ba17f12ad0fccc9cf2184049b74cfc"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_MODEL_VS_CONTROL_COMPARISON.csv",
+      "bytes": 8761,
+      "sha256": "8ff66275d8a7618a55257a08c744ca634fddf969076de3522ae4c96dbf485d52"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_RANDOM_FEWSHOT_METRICS.csv",
+      "bytes": 15321,
+      "sha256": "205017f1be01a8efb306d86a35668ad6779b49a9f7ab2807318dbb37e6231919"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_RANDOM_FEWSHOT_PER_REPLICATE.csv",
+      "bytes": 18000,
+      "sha256": "2473c4cc24cba8ce21992ce8876fd30e482052914af3833387b7a662285c15cf"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_RECOVERY_BASELINE_PER_STATE.parquet",
+      "bytes": 423678,
+      "sha256": "d5a57debc97822c230576025aac0075b0d50dab9a481dd62d24914541543355e"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_RECOVERY_BASELINES.json",
+      "bytes": 1414,
+      "sha256": "820dee69bcd7d957801d677f999b88544ed0ceed4118ec46c673c8df92c3ef15"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\05_metrics\\STEP5I_REFIT_PER_STATE.parquet",
+      "bytes": 3986316,
+      "sha256": "e3d040c514e2f9a37611947c088e3eacf990827c1f59ec6e41c78b931c07f145"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\06_topology_diagnostics\\STEP5I_ANCHOR_TOPOLOGY_COVERAGE.csv",
+      "bytes": 6777,
+      "sha256": "7a1827efc3fccf7c90fbf66e09ddb3df8cf0327d365c6baf3a047d62c5ddb71b"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\06_topology_diagnostics\\STEP5I_TEMPERATURE_REGIME_METRICS.csv",
+      "bytes": 32587,
+      "sha256": "4708248b35949706ea5315dba74a2d359a344653b416d8d847c36437cff1ca06"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\06_topology_diagnostics\\STEP5I_TRUE_TOPOLOGY_STRATIFIED.csv",
+      "bytes": 31844,
+      "sha256": "7a82c97124160ffe922eaef4bdc0cbe7a28ffdaebc88b68da967057018f6353c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\07_NBNI3_diagnostics\\STEP5I_ANCHOR_COVERAGE_VS_RECOVERY.csv",
+      "bytes": 8625,
+      "sha256": "4ae16f1c3f9243c8843b109263e64bc72537b770085a5c00ec9b3fcf73f641c8"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\07_NBNI3_diagnostics\\STEP5I_COVERAGE_MECHANISM_CORRELATIONS.csv",
+      "bytes": 4561,
+      "sha256": "65720a44272b88142048101a26889d784e7cb731168bd446f1cb65b4e57add8f"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\07_NBNI3_diagnostics\\STEP5I_DIAGNOSTIC_SCOPE.json",
+      "bytes": 1109,
+      "sha256": "df61a8f8157311d177b188024b934a1f832cabaa4d710b4cbccc552e4c39a815"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\07_NBNI3_diagnostics\\STEP5I_NBNI3_STRATIFIED.csv",
+      "bytes": 33274,
+      "sha256": "decca27ff307234b9598fe522bec7003a160be80e0a0160546618e32b5afca5b"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\08_bootstrap\\STEP5I_BOOTSTRAP_SCOPE.json",
+      "bytes": 527,
+      "sha256": "438fdf73664c6902ecf8131cf269ba99cd677e7062178238c03cf48fc4febec2"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\08_bootstrap\\STEP5I_PAIRED_BOOTSTRAP.csv",
+      "bytes": 16954,
+      "sha256": "33254c38d71551e8fad02fb12585ae9d83ad694fe998e4a59f751f6ad691e2ce"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\09_figures\\Fig_I_01_random_learning_curve.png",
+      "bytes": 79519,
+      "sha256": "42e4bcca17a847c7f92177d570d76eb272eecfd0d8614c3e0ecd7b21cf18316e"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\09_figures\\Fig_I_02_random_vs_trivial.png",
+      "bytes": 60507,
+      "sha256": "c6d0abbd2c5968ef5f7edaae270e7dff7b4efaa48eeb4d76891e9b941d0ae722"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\09_figures\\Fig_I_03_refit_vs_R0_R1_R2.png",
+      "bytes": 65554,
+      "sha256": "0248b8c1254943ef60420ac1dd4a1a4d742aa8bb9b442a8674d9e8b288e4185d"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\09_figures\\Fig_I_04_topology_accuracy_learning_curve.png",
+      "bytes": 64273,
+      "sha256": "ca1d80184aeee54288d396f390b966e6873fae0b6535dd484bbdfd011aee099c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\09_figures\\Fig_I_05_FCC_vs_OTHER_recovery.png",
+      "bytes": 85632,
+      "sha256": "4dbbab11c4f694f8238bc6b3bf85804e9955b6ffa8ba761579c928b0cbdf32d6"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\09_figures\\Fig_I_06_NBNI3_present_absent_recovery.png",
+      "bytes": 82914,
+      "sha256": "aa3c3ff23d573477d832da24a41b3fee5872d30b2ea96a14dcff446821db7d14"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\09_figures\\Fig_I_07_low_vs_high_temperature_recovery.png",
+      "bytes": 64634,
+      "sha256": "05bb8ef35a98af89d7b64e3a8be52eead315aaac6cd0ee6a7663818dd987ae74"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\09_figures\\Fig_I_08_random_vs_maximin.png",
+      "bytes": 76189,
+      "sha256": "d7ae11b04a06fb517c3089f79cfe43cb21219a425dbef042d22cb69800791e39"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\09_figures\\Fig_I_09_anchor_topology_coverage.png",
+      "bytes": 109452,
+      "sha256": "e70c38ad63a74062964201255aa71029b67cd7b0436b549eaa547abcd28d8315"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\09_figures\\Fig_I_10_information_efficiency_summary.png",
+      "bytes": 66365,
+      "sha256": "cc572721bc2b72b454da04baf4afbf5840581ea0751d68b4e0c8f1740f2dceb1"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\10_qa\\CODEX_INDEPENDENT_VERIFICATION.json",
+      "bytes": 4557,
+      "sha256": "68eaa7365e067b8c9cc464730852c73b8e2dbcf198d0105b51b618a5cfea27bd"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\10_qa\\STEP5I_INTEGRITY_AUDIT.md",
+      "bytes": 4598,
+      "sha256": "6eea8996fca2e3c4b70e583ecde528d237fc4791c983a528a5cb790f074754cd"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\10_qa\\STEP5I_INTEGRITY_CHECKS.csv",
+      "bytes": 3927,
+      "sha256": "421d97f377674fa9ead5b4c34b92ee8783b1bbbfbd3615648ed5ea864475f74e"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\10_qa\\STEP5I_PREFLIGHT_CHECKS.csv",
+      "bytes": 2267,
+      "sha256": "da3293ee0b3fdf310d74498ecb9c2bd1b923038655d9b58e169172a3a0d91bc8"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\11_manifest\\STEP5I_COMPLETION.json",
+      "bytes": 313,
+      "sha256": "41d66bc82b6fb5a32757c4e33de24d3e3a89eb6e81c863719be003ce3460279d"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\11_manifest\\STEP5I_FILE_HASHES.csv",
+      "bytes": 15843,
+      "sha256": "140dffcf30f1857a60bbd28dee6db69409b6148ca95afc512e80e599caafb559"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\11_manifest\\STEP5I_FINAL_SEAL_HASHES.csv",
+      "bytes": 16271,
+      "sha256": "c4fe0d398bbafb0a7c19c24cf0da22ac677d3e0b34501ff084c902ea57224222"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\11_manifest\\STEP5I_RECOVERY_CHECKPOINT_MANIFEST.csv",
+      "bytes": 13763,
+      "sha256": "12aa89e8b8ba34f40c0b5ed88535cca17a116253957b209e239f165fe6a9c658"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\12_logs\\110_i_preflight.log",
+      "bytes": 1488,
+      "sha256": "3c5d2086d85077998ad5cbfa6294f2c9bf3f7de7b8adafeeaf9a6c7a6bffe778"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\12_logs\\111_i_refit.log",
+      "bytes": 3319,
+      "sha256": "bae3ed0d05146bb6199b6bd384e78292c9c697de5b12e684153470da17e48028"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\12_logs\\112_i_controls.py.log",
+      "bytes": 2725,
+      "sha256": "74b300e8f995699b373728e13784286b7011205dc67afbc6337fe62392a18ba5"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\12_logs\\113_i_metrics.py.log",
+      "bytes": 798,
+      "sha256": "c6a08a3d604500d84d8ffde97485183b2da66f934341fbebd4f6149adec28db4"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\12_logs\\114_i_diagnostics.py.log",
+      "bytes": 478,
+      "sha256": "ce862827173d9147cca28858ee6d848b0b624f705eb8e8fbcce28590f54168d8"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\12_logs\\115_i_bootstrap.py.log",
+      "bytes": 321,
+      "sha256": "cc6d32a6557e316b617b88a1c258584dbf3730f9bd482887c009cf88a8c29398"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\12_logs\\116_i_figures.py.log",
+      "bytes": 652,
+      "sha256": "856abd4cf5c730ec1bf55fa91180d04a9b70634348a0955ae8ff241aeaf3f809"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\12_logs\\117_i_audit_report.py.log",
+      "bytes": 2556,
+      "sha256": "dd26d9ce93a44080267bfd6315338c561a2f6b83a06cd7fb20b9585f00072937"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\code_snapshot\\110_i_preflight.py",
+      "bytes": 13715,
+      "sha256": "46a25b0f673180c48a3b4fcb3b019681f4f11ca24dc7425e694e98cdd42ebba7"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\code_snapshot\\111_i_refit.py",
+      "bytes": 14948,
+      "sha256": "e8b3721560bd180a112b0c7b7ec02088507019b15f9daa262d647828a61b3744"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\code_snapshot\\112_i_controls.py",
+      "bytes": 7884,
+      "sha256": "8736b5c3ca644a22c01ed96cd2d0784db96ff98892b2bb9943d33c35100aac78"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\code_snapshot\\113_i_metrics.py",
+      "bytes": 10144,
+      "sha256": "a0d2d5ce83a2a18ce698fecc1774d7d5d87fd54ea22f62b5d310200dba282085"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\code_snapshot\\114_i_diagnostics.py",
+      "bytes": 8767,
+      "sha256": "55fe23c1c0f5a598bc7dd700b6f69a35bafa92371a1f67857531f5929f92376f"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\code_snapshot\\115_i_bootstrap.py",
+      "bytes": 5466,
+      "sha256": "e9b948ff5dab196dc272cb6196c9d5ffdf9de1f973990c4ebc8598ead621e2d9"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\code_snapshot\\116_i_figures.py",
+      "bytes": 14456,
+      "sha256": "7e5d432d593edce3e59e92ec3957e3b0f7553c364be51b1333af950d5c7f9bac"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\code_snapshot\\117_i_audit_report.py",
+      "bytes": 43480,
+      "sha256": "714699b9a88f8e325582ed465c471efd82a0a0d3df93a8b60fa06a8924fe9d78"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\code_snapshot\\i_common.py",
+      "bytes": 17800,
+      "sha256": "8d91417646b332ba4b09c9eb8797f8ec2a86afd1712ed62df65c4381203dad0b"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\STEP5I_CODEX_REVIEW_ADDENDUM.md",
+      "bytes": 3872,
+      "sha256": "43a8af1c48f0f6cac7f1b9f2b01aae26a9d70aa6c660839908ee7886af498879"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\STEP5I_NEXT_STAGE_RECOMMENDATION.md",
+      "bytes": 2111,
+      "sha256": "9044b4d725bbad6dc38a557cb83ddd85dbe3e8d8ef8a7a598ec6a9ce3e460a1c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\STEP5I_PART1_REFIT.bat",
+      "bytes": 2953,
+      "sha256": "df94afe5e58e7f29e46cc46af29398a2d990699e38e7a9d226ad381046f449ab"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\STEP5I_PART2_ANALYZE.bat",
+      "bytes": 3212,
+      "sha256": "03686d585a0ec08dcc12e11e205dc7207b4ec609f33b3a8dd33149016aa354e7"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\STEP5I_REPORT.md",
+      "bytes": 10724,
+      "sha256": "a5f8f4ee3814b709636eb16b93425ee1132aa2fd2a3de94fb592fbaaba3f3495"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\07_FINAL_BLIND\\STEP5I_POSTBLIND_FEWSHOT_RECOVERY_V1\\STEP5I_SUMMARY.json",
+      "bytes": 3877,
+      "sha256": "c254af3d13c31b0200aad821a327de900f083d6afcc5b64a4cb89232a7e9ac6e"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\00_freeze\\FINAL_NUMERICAL_RESULTS.json",
+      "bytes": 42531,
+      "sha256": "3430d48575bffe9544cebfa98c49a7272d7a316ed4f05c5d6a5e911417a4106f"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\00_freeze\\STEP5J_FREEZE_VERIFICATION.json",
+      "bytes": 2076,
+      "sha256": "d149cc941ed9237effce5d58768c74b5c481b59f73f311e4bfb10983020b716b"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\00_freeze\\STEP5J_FROZEN_SOURCE_INVENTORY.csv",
+      "bytes": 14347,
+      "sha256": "3d6338bc9483d0a5df056aada804b0e3ba73200230f3f97582ccb7c0268a8ad2"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\01_final_tables\\FINAL_CONTROL_CROSSOVER_TABLE.csv",
+      "bytes": 1024,
+      "sha256": "ae1933629bb47ee24bfcf8c79373657b2ea40f4d66543f07c182e9b585bed5ac"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\01_final_tables\\FINAL_INFORMATION_EFFICIENCY_TABLE.csv",
+      "bytes": 1355,
+      "sha256": "498bf11ae043190778cfde1e1b4afa0727d29ab80302b8b9d68b3b6866764287"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\01_final_tables\\FINAL_PROSPECTIVE_RETROSPECTIVE_TABLE.csv",
+      "bytes": 2600,
+      "sha256": "22451f309120f43d109835342295c5af6514cf3cc0b58cffd08443993b165438"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\01_final_tables\\STEP5J_TABLE_INVENTORY.csv",
+      "bytes": 6364,
+      "sha256": "88c27a9a82f45828debb403cfea20847cdae91b8dc168410434a378f1289aa2c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\01_final_tables\\Table_01_Dataset_and_CALPHAD_design.csv",
+      "bytes": 1143,
+      "sha256": "f826dd76a212803913311aa82e2cf85755b0e54f2c48ab2b7536a2e0af37f969"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\01_final_tables\\Table_01_Dataset_and_CALPHAD_design.md",
+      "bytes": 1510,
+      "sha256": "5594a5d888cc3f6fa9c7d9f13fc4936f69e61e962e9571f2cbcfa667eb67bf8a"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\01_final_tables\\Table_02_Feature_and_model_protocol.csv",
+      "bytes": 1315,
+      "sha256": "0b3b41914583bf7e3102988fb46af24f8571f74b44dee33b48a961bf8a04dc19"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\01_final_tables\\Table_02_Feature_and_model_protocol.md",
+      "bytes": 1728,
+      "sha256": "95412b3088ce48cd0727a7aff1215ccda4a9cb37ec81a94e58bc580d5374779f"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\01_final_tables\\Table_03_IID_composition-OOD_and_retrospective_LOEO_summary.csv",
+      "bytes": 2068,
+      "sha256": "1e47369f65db59fcb2563df41a65f55e5cb9c56c02d473707574640499393c57"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\01_final_tables\\Table_03_IID_composition-OOD_and_retrospective_LOEO_summary.md",
+      "bytes": 2761,
+      "sha256": "0eb8566d89bbc06fbc569d936d82ea4ff7ed598ce959d1bebbf3da0064c9ccf0"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\01_final_tables\\Table_04_Prospective_Ni_zero-shot_blind_result.csv",
+      "bytes": 873,
+      "sha256": "e9fb152c16c659c13201c778bfb90774188870ca6b61fa51f9acaa71d7869205"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\01_final_tables\\Table_04_Prospective_Ni_zero-shot_blind_result.md",
+      "bytes": 1233,
+      "sha256": "b70aa3e86b58dc5907be88fafa4abdd6b89239c71481cc02704ea7c0f5ebc26d"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\01_final_tables\\Table_05_Post-blind_few-shot_learning_curve.csv",
+      "bytes": 1623,
+      "sha256": "9abe87ad41a4c40c8a75f35a92ab1c98e719bb1de1e54af1e444b0791cf6e9d6"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\01_final_tables\\Table_05_Post-blind_few-shot_learning_curve.md",
+      "bytes": 2161,
+      "sha256": "f1dbf59e5efa3a53d7646f32cef089c8e036758831c8ebc7494b5fc90d32130b"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\01_final_tables\\Table_06_Refit_versus_anchor-only_controls.csv",
+      "bytes": 1010,
+      "sha256": "9ae064d0c13fd0f42d4b7e56c5b9d40b5eca2190621feb8074be462475399748"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\01_final_tables\\Table_06_Refit_versus_anchor-only_controls.md",
+      "bytes": 1277,
+      "sha256": "941bfd3762e9f379dc19e66f59b8c648d3d65797f588b7921b7994cbdb9640ea"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\01_final_tables\\Table_07_Topology_NBNI3_and_temperature-resolved_recovery.csv",
+      "bytes": 656,
+      "sha256": "31a0796cdf751c16cf8dc0f84091cdf7c8f237095231f0bfa2db93b2d209443a"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\01_final_tables\\Table_07_Topology_NBNI3_and_temperature-resolved_recovery.md",
+      "bytes": 1030,
+      "sha256": "eaaed0dd6694505b56b19d5399f1153d98a8001e6bb3dfb6285a0aff5866b5d2"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\01_final_tables\\Table_08_Integrity_and_evidence-level_summary.csv",
+      "bytes": 935,
+      "sha256": "7c5318d66832260aa6fcf4697a98e462d492e6901d2946dc581b8162e3c67d51"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\01_final_tables\\Table_08_Integrity_and_evidence-level_summary.md",
+      "bytes": 1294,
+      "sha256": "86c44249dda69f1aa62a423fdf6210cde206113dc65d3058b001c9e294bfd168"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_01_workflow_and_evidence_hierarchy.pdf",
+      "bytes": 37283,
+      "sha256": "29a72fdccbab421c3d98f67c887ac5f7ad8c45d81eaa3b0e161f1f6a3139a6ba"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_01_workflow_and_evidence_hierarchy.png",
+      "bytes": 571829,
+      "sha256": "043528d9f2a4b87e87cda634eb0a4d6da410e24f54e4c5e0434c7263b768eb25"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_01_workflow_and_evidence_hierarchy.svg",
+      "bytes": 23028,
+      "sha256": "9fa970a3c4ed26e0c0a9fb1e5ac0884e5e9a1dbee644aaaff27f71be3623067a"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_01_workflow_and_evidence_hierarchy_SOURCE.csv",
+      "bytes": 562,
+      "sha256": "de419663f893e04cbe7dc857fb24c3234ef232134ee9d8ead795b6d205b2f210"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_02_topology_landscape_across_identities.pdf",
+      "bytes": 16034,
+      "sha256": "fcaf84aa0a0f3411d5409d311f9affe2582480db084beab85a2e9ceb4ead3433"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_02_topology_landscape_across_identities.png",
+      "bytes": 251032,
+      "sha256": "b48739d99687498d27dc10e47009ef449615fa036dfa84a8b7f9619f78ea0848"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_02_topology_landscape_across_identities.svg",
+      "bytes": 25732,
+      "sha256": "7fba3fcbb40a97e4533b6e08206f1c0c246b8c4b3fbe11445f634c11da23bff6"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_02_topology_landscape_across_identities_SOURCE.csv",
+      "bytes": 454,
+      "sha256": "ce5ccc144ece053b72816ba57ce76dfc6644cdc368434f9adf0237d3454c5fa0"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_03_IID_vs_compositionOOD_vs_LOEO_vs_prospective.pdf",
+      "bytes": 17188,
+      "sha256": "0582e6d4aae1b297261f4dbb85f21048d16ed6dd531c44d9003a20398d9f348e"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_03_IID_vs_compositionOOD_vs_LOEO_vs_prospective.png",
+      "bytes": 266432,
+      "sha256": "f97481dc88ad97cbca4aa02b7905161368c5306808589fd82b553da8ed61411d"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_03_IID_vs_compositionOOD_vs_LOEO_vs_prospective.svg",
+      "bytes": 20933,
+      "sha256": "40f634d9448599f4c10bd76a0e318921bc6973f8483f824d0f1cc72b246647b1"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_03_IID_vs_compositionOOD_vs_LOEO_vs_prospective_SOURCE.csv",
+      "bytes": 322,
+      "sha256": "eda49c1e1465e3021784f0fb8db2044112ef4e5ae7959460a4a2b12fa603aa2d"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_04_LOEO_failure_diagnosis.pdf",
+      "bytes": 15646,
+      "sha256": "818961cb299624f2f425e99698695696054808516c157fee03c952844251a596"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_04_LOEO_failure_diagnosis.png",
+      "bytes": 174920,
+      "sha256": "8239648e2a738f6f355c04930c997bc6030bab2b69b544edae4513ed5cb56c10"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_04_LOEO_failure_diagnosis.svg",
+      "bytes": 22417,
+      "sha256": "120870970550a4cf621ed3b75995dcb58dd60922d720059db1e6d7de4b7457f2"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_04_LOEO_failure_diagnosis_SOURCE.csv",
+      "bytes": 662,
+      "sha256": "92d7e0cab50b09a09450d3bfbf6c2e5bd052dbac117c04ad42ec925535d20c15"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_05_chemical_identity_augmentation.pdf",
+      "bytes": 15867,
+      "sha256": "e2500adfc1a8a298418dd692f3b554f2074267edb23f6b138e445e4ad5bb6fb0"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_05_chemical_identity_augmentation.png",
+      "bytes": 215575,
+      "sha256": "8b44b4c9651ae52917b222d0b4d872d149045a4b94a58637a5a55ffd1a4e1990"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_05_chemical_identity_augmentation.svg",
+      "bytes": 19121,
+      "sha256": "45f10faf6e60074b0ff4b57af49d1e42dd3055a6162722727a4d2d437ee61c93"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_05_chemical_identity_augmentation_SOURCE.csv",
+      "bytes": 2388,
+      "sha256": "c742942bde99a7afee61f34ef0276508e3ee9558d81a5932e249bee7c75cc979"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_06_prospective_Ni_zero_shot_reveal.pdf",
+      "bytes": 15671,
+      "sha256": "4a5c31dd3afac98f2b2d1e3eb5f6e336b3ee54b88ea3321878401d63362fc97f"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_06_prospective_Ni_zero_shot_reveal.png",
+      "bytes": 311338,
+      "sha256": "f322c88b6bf85a684b5f45717c2bdf4fd231527f98c9d313ad1fad420fafab66"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_06_prospective_Ni_zero_shot_reveal.svg",
+      "bytes": 30778,
+      "sha256": "7e5da3ae1ac33e79a403c9d4b17ee44c8600a12009217dcabb00610e25e13953"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_06_prospective_Ni_zero_shot_reveal_SOURCE.csv",
+      "bytes": 679,
+      "sha256": "fb58972cb7707a738e021fce2421a2373614b113c171056fa3b425dd4d50b6e8"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_07_true_vs_predicted_Ni_topology.pdf",
+      "bytes": 15624,
+      "sha256": "87dda6813a962a66f7853e7b049c0568c6e69abd9d005aebd98edd53ca44b60e"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_07_true_vs_predicted_Ni_topology.png",
+      "bytes": 209866,
+      "sha256": "f77b2395cd29f09e52422f2761caaf97aa0515aba16ff269b326983025585388"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_07_true_vs_predicted_Ni_topology.svg",
+      "bytes": 17294,
+      "sha256": "5c9fd1e60770007d7e457d1079078e19b5403f6ddde3313be4d0a354994afca9"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_07_true_vs_predicted_Ni_topology_SOURCE.csv",
+      "bytes": 255,
+      "sha256": "b0a21d8666d5e20df4e7108a7194eca630d20f15736a56306faf16a5b96f96a7"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_08_fewshot_TVD_learning_curve.pdf",
+      "bytes": 17049,
+      "sha256": "88aa733c76847f3bb804b6e052502d37905db7098158c80a045ef263df9dd91b"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_08_fewshot_TVD_learning_curve.png",
+      "bytes": 407279,
+      "sha256": "99f9311515053d7cde5c50419bc4fdc3a87729f4eeb3f7768e4bca465de517c5"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_08_fewshot_TVD_learning_curve.svg",
+      "bytes": 26149,
+      "sha256": "9fe7c31140a6f234b1bd124ac80650348bd5130ba3b3edae7cd56940c953e757"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_08_fewshot_TVD_learning_curve_SOURCE.csv",
+      "bytes": 818,
+      "sha256": "5f7c6a0ee4884999ed804d45ecafa367fc88070ba867058aff84a8943d25dda9"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_09_refit_vs_R0_R1_R2.pdf",
+      "bytes": 17301,
+      "sha256": "dca18e153dc43605da492dc2b7700d6a4e9b8f2090703a99bdc04e1760ef6ddf"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_09_refit_vs_R0_R1_R2.png",
+      "bytes": 290863,
+      "sha256": "86236a2d47b05be7137beb701e118c6710f354a170d9e3d9a11df62f14ab3271"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_09_refit_vs_R0_R1_R2.svg",
+      "bytes": 26426,
+      "sha256": "0f1a773195372664abf7cac70e170281ba2f71ffbbd6fe3835677db90bb77a0e"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_09_refit_vs_R0_R1_R2_SOURCE.csv",
+      "bytes": 1010,
+      "sha256": "9ae064d0c13fd0f42d4b7e56c5b9d40b5eca2190621feb8074be462475399748"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_10_topology_accuracy_recovery_curve.pdf",
+      "bytes": 17628,
+      "sha256": "5da648f5dc44d84d4f43f46bb033f58f33f912af0ff6d3f229f14ebdffb60c2f"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_10_topology_accuracy_recovery_curve.png",
+      "bytes": 340750,
+      "sha256": "46016069f5959bf5a4538ab62f8cde7910a1914ccfb41e6d38e2bde63fd2b10b"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_10_topology_accuracy_recovery_curve.svg",
+      "bytes": 26697,
+      "sha256": "ec0fdda5d754ffdc3db0523ec377ca67f5ed92448705c0ad7bcfbc3ce75d5be6"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_10_topology_accuracy_recovery_curve_SOURCE.csv",
+      "bytes": 330,
+      "sha256": "4c7af77f516edefbb75a23e931197c6b532dcb6e12887d5b9e4dc4e9919dac33"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_11_FCC_vs_OTHER_and_NBNI3_recovery.pdf",
+      "bytes": 18649,
+      "sha256": "756c3809ff4dd8677f945580872ebef0aa19da37384f44655325c7e829c3d6cf"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_11_FCC_vs_OTHER_and_NBNI3_recovery.png",
+      "bytes": 361174,
+      "sha256": "b021c0c8957f436aeaafeadc40ea0ef112220231b767ebb9dddeeeed00b6bf3f"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_11_FCC_vs_OTHER_and_NBNI3_recovery.svg",
+      "bytes": 39754,
+      "sha256": "a45e22168b48224a315dcdccff00d732458f80f7ad38b86bb93dc954a24b7df0"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_11_FCC_vs_OTHER_and_NBNI3_recovery_SOURCE.csv",
+      "bytes": 62101,
+      "sha256": "954499495f67c56c8a7c4fe226aa4e98f740fb2011697e2fe34deb332151a673"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_12_information_efficiency_summary.pdf",
+      "bytes": 17347,
+      "sha256": "e0dfd93a260f444bd50c8aeffbb341c57d0fe2d33d0c50cf43ae77ee1cf12549"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_12_information_efficiency_summary.png",
+      "bytes": 366645,
+      "sha256": "fff5aa01c40c4dad23e729a8f25a3ee53b84c27a4d26202b60e330b38425529e"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_12_information_efficiency_summary.svg",
+      "bytes": 23115,
+      "sha256": "4215bc14db93b34065336911aa1567e58acea2b4f9b562fd7ec34e9c29d7814a"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\Figure_12_information_efficiency_summary_SOURCE.csv",
+      "bytes": 1338,
+      "sha256": "acf6e0714ec958bcf55712087037b600c3e08bc3ca9f6518e8d56535007d770f"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\02_final_figures\\STEP5J_FIGURE_INVENTORY.csv",
+      "bytes": 11911,
+      "sha256": "ef58c1c1d16d7d8a5911f4ef64cd01b75f1675ee82f4dfaed33c5f01869d4eba"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\03_results_draft\\JMST_RESULTS_DRAFT.md",
+      "bytes": 13105,
+      "sha256": "e5412b5278d3c15c1ec42cb29574c4338b009a11d17218cb73af173e1eae6313"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\04_discussion_draft\\JMST_DISCUSSION_DRAFT.md",
+      "bytes": 6498,
+      "sha256": "6bcdfaaad9d0898a783e5a889d551f8e8e66c2968deebd00164bc3406e1bb271"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\05_literature_positioning\\JMST_LITERATURE_POSITIONING.md",
+      "bytes": 5616,
+      "sha256": "4a4d5c0ebab72f512a11ef3418c1ae5f73aad38ad66ceb5dc6a08e31d3230064"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\05_literature_positioning\\STEP5J_NOVELTY_TEST.json",
+      "bytes": 628,
+      "sha256": "594933e20601b2f4343102799ab5753ede8d75a688e8af1c690e6a53865aceb5"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\06_claim_audit\\FINAL_CLAIM_AUDIT.csv",
+      "bytes": 11263,
+      "sha256": "940f98ed2d8ecb4bd5f2e550093dc19c3afd752535fe376ea45307119b546a45"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\06_claim_audit\\FINAL_CLAIM_AUDIT.md",
+      "bytes": 9251,
+      "sha256": "f62cabae7ac4a4711ab1a2efdb93b9993579229082493ddcf96250f634e75338"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\06_claim_audit\\STEP5J_CLAIM_HIERARCHY.json",
+      "bytes": 2377,
+      "sha256": "cd6334434c4a1650086ebecf2ce93888e0e94ec8a57297dd23f7dde4bd50fa45"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\07_provenance\\FINAL_PROVENANCE_MAP.csv",
+      "bytes": 23279,
+      "sha256": "984f03c321375137d63f89cef049090f03f2bbaf43fbbca1df4cd914520e0ba1"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\08_reproducibility\\REPRODUCIBILITY_README.md",
+      "bytes": 5333,
+      "sha256": "9a5f6027ee34cf567bc39bd1ae3b40dcf5d0183f85f361b58728d1676cda2dc5"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\09_qa\\120_j_freeze_verify.py.log",
+      "bytes": 944,
+      "sha256": "4f23c3ebf2c59d0f4d847595cf953f8e33d3be09a4e34bf0985018fc61a99cc6"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\09_qa\\121_j_numbers.py.log",
+      "bytes": 673,
+      "sha256": "0415771f25028d45b775ec514770819a561723c5787b0ecc7bbdcfd5129af2d5"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\09_qa\\122_j_claims.py.log",
+      "bytes": 553,
+      "sha256": "8bdcb9454154a88b4521eb4a815b24b540d5eb12cc993495205e5cfd8fbc61de"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\09_qa\\123_j_tables.py.log",
+      "bytes": 693,
+      "sha256": "20fa20cfb72ba5d28060927330e5d62f0d21976ac1a793f5c3c39f955e099ac4"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\09_qa\\124_j_figures.py.log",
+      "bytes": 817,
+      "sha256": "84d7cb9306ac615722be938e0645a720acc33f67e58cba7f125e78a877c90173"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\09_qa\\125_j_drafts.py.log",
+      "bytes": 374,
+      "sha256": "0752a87ff03bc8caba636b207532f68ca5d5b446dd76b37355cd9a418f3a1524"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\09_qa\\126_j_audit_report.py.log",
+      "bytes": 2138,
+      "sha256": "98bbf15f0dbe73626df2183c5702545081c6615a8a47ef31175929ac7d0514e5"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\09_qa\\STEP5J_BRIEF_VALUE_DRIFT.csv",
+      "bytes": 2527,
+      "sha256": "6f598e2f5c2e57803f634c84a3bcd83138dbf5ec9a1c7ec1516763214061dd18"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\09_qa\\STEP5J_FREEZE_CHECKS.csv",
+      "bytes": 918,
+      "sha256": "78a154fb102721effc04490b8604421cdcef643ec7ebb33a4de4c30ee2972be5"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\09_qa\\STEP5J_INTEGRITY_AUDIT.md",
+      "bytes": 3271,
+      "sha256": "b601a5e0b4fd4c3803e428407d41c96ee7ff282c83b3155c354d15425016e98c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\09_qa\\STEP5J_INTEGRITY_CHECKS.csv",
+      "bytes": 2801,
+      "sha256": "e0dd1bc87a6aa790be27e7297420799fc99252bd3214f57494c856360b5e85df"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\10_manifest\\STEP5J_COMPLETION.json",
+      "bytes": 278,
+      "sha256": "46acf190ff6e844284035ceb01a203854404aa78be643c7daa2323b95ccd58c9"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\10_manifest\\STEP5J_FILE_HASHES.csv",
+      "bytes": 12923,
+      "sha256": "48823b562a0c13085c8f36da386402ed92d3183229453720342cb2f48fe750e1"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\code_snapshot\\120_j_freeze_verify.py",
+      "bytes": 8997,
+      "sha256": "4cdfbdc9a1527f6f12e3428a11e860d9614c10bfbf250409bb6f3802b923f58d"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\code_snapshot\\121_j_numbers.py",
+      "bytes": 31592,
+      "sha256": "bd2e9452b6aa7c9de402c93e68d906b44191139c36bb921725e9c4e0221c3d8a"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\code_snapshot\\122_j_claims.py",
+      "bytes": 20075,
+      "sha256": "d0ced510ad46ece1e9b4c48a0ebe884788c84ac20196abfe611e811920df6532"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\code_snapshot\\123_j_tables.py",
+      "bytes": 19837,
+      "sha256": "0b32285f95a2fb4a7d26340b5d2c19b85986cbf22f31650bc0c4ebb9fb8c527a"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\code_snapshot\\124_j_figures.py",
+      "bytes": 26343,
+      "sha256": "723eb7674f517755fa7172b99b6192517940ed126f4eaa188068227a6b5e019c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\code_snapshot\\125_j_drafts.py",
+      "bytes": 39954,
+      "sha256": "b2325a2571e3d383e1a38c5b987716592effb144b3e0b8c2b961049348226771"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\code_snapshot\\126_j_audit_report.py",
+      "bytes": 28139,
+      "sha256": "884162a1d4da9bc30b40ece2d1aad848b94f01bcff9b7e758ab9d419f27e4679"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\code_snapshot\\j_common.py",
+      "bytes": 21042,
+      "sha256": "2c9e1a8d41d151be1e02c674dfc55750173841fb12a40bbcbc99f6d69a8a143e"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\STEP5J_FINAL_EVIDENCE_REPORT.md",
+      "bytes": 8738,
+      "sha256": "117244ca2aed811587090019198e5e2902405da2b0d8c9099e71e01bd3f697dd"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\STEP5J_FINAL_EVIDENCE_SUMMARY.json",
+      "bytes": 1443,
+      "sha256": "7c56e11daea2058d8c41e320dcdd7cda78b16d2b5fc8b7666d7c38291274ae21"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5J_FINAL_EVIDENCE_FREEZE_V1\\STEP5J_RUN.bat",
+      "bytes": 3471,
+      "sha256": "58e17c1a1bbb2909b6a228f25babe7a268f9b82244f613eec49abab579a485da"
+    }
+  ],
+  "generated_utc": "2026-09-07T09:41:46+00:00"
+}

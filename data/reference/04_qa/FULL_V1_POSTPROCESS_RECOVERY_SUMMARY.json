@@ -1,0 +1,659 @@
+{
+  "stage": "FULL_V1 POST-PROCESSING DATA PACKAGE RECOVERY",
+  "status": "PASS",
+  "generated_utc": "2026-09-04T11:31:20Z",
+  "elapsed_seconds": 28.0,
+  "thermo_calc_invoked": false,
+  "calphad_states_recalculated": 0,
+  "raw_data_modified": false,
+  "frozen_modules_modified": false,
+  "row_counts": {
+    "ML_TARGET_ALL": 550000,
+    "ML_READY_CONVERGED": 548432,
+    "FAILURE_MAP": 1568,
+    "DERIVED_DESCRIPTORS": 50000,
+    "COMPOSITIONS_PARQUET": 50000,
+    "PHASE_SPLIT_DIAGNOSTICS": 231,
+    "DOMAIN_SUMMARY": 4,
+    "TOPOLOGY_SUMMARY": 231
+  },
+  "unique": {
+    "composition_id": 50000,
+    "state_id": 550000
+  },
+  "converged": 548432,
+  "failed": 1568,
+  "failed_families": [
+    "MO"
+  ],
+  "failed_temperatures_C": [
+    950.0
+  ],
+  "bcc_split_closure_censored": 1568,
+  "conservation": {
+    "five_family_volume": 2.220446049250313e-16,
+    "five_family_mole": 6.661338147750939e-16,
+    "partition": {
+      "AG": 2.220446049250313e-16,
+      "CO": 2.220446049250313e-16,
+      "CR": 3.3306690738754696e-16,
+      "MO": 2.220446049250313e-16,
+      "NB": 2.220446049250313e-16,
+      "SI": 2.220446049250313e-16,
+      "TI": 2.220446049250313e-16,
+      "ZR": 2.220446049250313e-16
+    },
+    "tolerance": 1e-12
+  },
+  "split_totals": {
+    "FCC_total": 8676,
+    "BCC_total": 58371,
+    "BCC_ge3_simultaneous": 0,
+    "BCC_B2_3_label_states": 4,
+    "bcc3_states": [
+      "FV1_MO_ANCHOR_00535__T0950C",
+      "FV1_MO_ANCHOR_00687__T0950C",
+      "FV1_MO_A_00696__T0950C",
+      "FV1_MO_A_03181__T0950C"
+    ],
+    "bcc3_instance_counts": {
+      "FV1_MO_ANCHOR_00535__T0950C": 2,
+      "FV1_MO_ANCHOR_00687__T0950C": 2,
+      "FV1_MO_A_00696__T0950C": 2,
+      "FV1_MO_A_03181__T0950C": 2
+    },
+    "bcc3_instance_labels": {
+      "FV1_MO_ANCHOR_00535__T0950C": "BCC_B2#1;BCC_B2#3",
+      "FV1_MO_ANCHOR_00687__T0950C": "BCC_B2#1;BCC_B2#3",
+      "FV1_MO_A_00696__T0950C": "BCC_B2#1;BCC_B2#3",
+      "FV1_MO_A_03181__T0950C": "BCC_B2#1;BCC_B2#3"
+    },
+    "n_states_label_2": 58367,
+    "n_states_label_ge3_without_2": 4
+  },
+  "core_deliverable_hash_state": {
+    "ML_TARGET_ALL": "unchanged",
+    "ML_READY_CONVERGED": "unchanged",
+    "DERIVED_DESCRIPTORS": "unchanged",
+    "FAILURE_MAP": "unchanged",
+    "COMPOSITIONS_PARQUET": "unchanged",
+    "TOPOLOGY_SUMMARY": "unchanged"
+  },
+  "mode": "refresh-diagnostics",
+  "ag_fcc_split_rate_by_T": {
+    "300": 0.7175,
+    "350": 0.3912,
+    "400": 0.0481,
+    "450": 0.0
+  },
+  "mo_bcc_split_rate_by_T": {
+    "300": 0.9336,
+    "900": 0.5,
+    "950": 0.1406,
+    "1000": 0.0
+  },
+  "domain_B_over_A_mean_volfrac": {
+    "FCC": 0.9768,
+    "BCC": 1.2941,
+    "C15": 3.2194,
+    "OTHER_SOLID": 2.2785,
+    "LIQUID": 5.5273
+  },
+  "family_mean_X_partition": {
+    "AG": {
+      "FCC": 0.9846,
+      "BCC": 0.0154,
+      "C15": 0.0,
+      "OTHER_SOLID": 0.0,
+      "LIQUID": 0.0
+    },
+    "TI": {
+      "FCC": 0.8999,
+      "BCC": 0.0176,
+      "C15": 0.0,
+      "OTHER_SOLID": 0.0825,
+      "LIQUID": 0.0
+    },
+    "CO": {
+      "FCC": 0.1279,
+      "BCC": 0.011,
+      "C15": 0.8603,
+      "OTHER_SOLID": 0.0009,
+      "LIQUID": 0.0
+    },
+    "ZR": {
+      "FCC": 0.1696,
+      "BCC": 0.0001,
+      "C15": 0.7889,
+      "OTHER_SOLID": 0.0364,
+      "LIQUID": 0.005
+    },
+    "SI": {
+      "FCC": 0.0713,
+      "BCC": 0.064,
+      "C15": 0.0,
+      "OTHER_SOLID": 0.8647,
+      "LIQUID": 0.0
+    },
+    "MO": {
+      "FCC": 0.0111,
+      "BCC": 0.9889,
+      "C15": 0.0,
+      "OTHER_SOLID": 0.0,
+      "LIQUID": 0.0
+    }
+  },
+  "temperatures_present_C": [
+    300.0,
+    350.0,
+    400.0,
+    450.0,
+    500.0,
+    600.0,
+    700.0,
+    800.0,
+    900.0,
+    950.0,
+    1000.0
+  ],
+  "n_auxiliary_columns": 6,
+  "nickel_occurrences": 0,
+  "checks": [
+    {
+      "id": "D01",
+      "check": "no Thermo-Calc / TC-Python module loaded in this process",
+      "status": "PASS",
+      "detail": "none"
+    },
+    {
+      "id": "D02",
+      "check": "every deliverable is derivable from existing frozen files",
+      "status": "PASS",
+      "detail": "all sources present"
+    },
+    {
+      "id": "E01",
+      "check": "column set and order identical to ML_TARGET_PREVIEW",
+      "status": "PASS",
+      "detail": "78 vs 78 cols"
+    },
+    {
+      "id": "E02",
+      "check": "state_id order identical to ML_TARGET_PREVIEW",
+      "status": "PASS",
+      "detail": "550000 vs 550000 rows"
+    },
+    {
+      "id": "E03",
+      "check": "numeric values identical (max |delta|)",
+      "status": "PASS",
+      "detail": "0.000e+00"
+    },
+    {
+      "id": "E04",
+      "check": "NaN pattern identical",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "E05",
+      "check": "string/categorical values identical",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "E06",
+      "check": "row count == 550,000",
+      "status": "PASS",
+      "detail": "550000"
+    },
+    {
+      "id": "E07",
+      "check": "unique state_id == 550,000",
+      "status": "PASS",
+      "detail": "550000"
+    },
+    {
+      "id": "E08",
+      "check": "unique composition_id == 50,000",
+      "status": "PASS",
+      "detail": "50000"
+    },
+    {
+      "id": "E09",
+      "check": "exactly 11 temperatures per composition",
+      "status": "PASS",
+      "detail": "min 11 max 11"
+    },
+    {
+      "id": "E10",
+      "check": "converged == 548,432 / failed == 1,568",
+      "status": "PASS",
+      "detail": "converged 548432 failed 1568"
+    },
+    {
+      "id": "F01",
+      "check": "row count == 548,432",
+      "status": "PASS",
+      "detail": "548432"
+    },
+    {
+      "id": "F02",
+      "check": "every row state_converged == 1",
+      "status": "PASS",
+      "detail": "[1]"
+    },
+    {
+      "id": "F03",
+      "check": "state_id unique",
+      "status": "PASS",
+      "detail": "548432"
+    },
+    {
+      "id": "F04",
+      "check": "column structure identical to ML_TARGET_ALL",
+      "status": "PASS",
+      "detail": "78 vs 78"
+    },
+    {
+      "id": "F05",
+      "check": "contains no FAILED state",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "F06",
+      "check": "BASELINE X partition targets are NaN, never 0",
+      "status": "PASS",
+      "detail": "55000 baseline rows, 5 X_P_* cols, zeros=0"
+    },
+    {
+      "id": "G01",
+      "check": "row count == 1,568",
+      "status": "PASS",
+      "detail": "1568"
+    },
+    {
+      "id": "G02",
+      "check": "family unique == {MO}",
+      "status": "PASS",
+      "detail": "['MO']"
+    },
+    {
+      "id": "G03",
+      "check": "Temperature_C unique == {950}",
+      "status": "PASS",
+      "detail": "[950.0]"
+    },
+    {
+      "id": "G04",
+      "check": "all 19 required columns present",
+      "status": "PASS",
+      "detail": "19"
+    },
+    {
+      "id": "G05",
+      "check": "verbatim Thermo-Calc error retained",
+      "status": "PASS",
+      "detail": "CalculationException: Thermo-Calc calcul"
+    },
+    {
+      "id": "H01",
+      "check": "X_Cr_FCC is unambiguous at 450 C and 950 C (no multi-instance FCC there)",
+      "status": "PASS",
+      "detail": "0 states with >=2 FCC instances at 450/950 C"
+    },
+    {
+      "id": "H02",
+      "check": "row count == 50,000 (one per composition)",
+      "status": "PASS",
+      "detail": "50000"
+    },
+    {
+      "id": "H03",
+      "check": "composition_id unique",
+      "status": "PASS",
+      "detail": "50000"
+    },
+    {
+      "id": "H04",
+      "check": "X_Cr_FCC_950 is NaN for every censored (MO@950 FAILED) composition",
+      "status": "PASS",
+      "detail": "1568 censored, 0 non-NaN"
+    },
+    {
+      "id": "H05",
+      "check": "Delta_XCr_FCC_950_450 is NaN for every censored composition",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "H06",
+      "check": "censored count == 1,568 and all family MO",
+      "status": "PASS",
+      "detail": "1568 rows, families ['MO']"
+    },
+    {
+      "id": "H07",
+      "check": "Delta_XCr_FCC_950_450 == X_Cr_FCC_950 - X_Cr_FCC_450 (<= 1e-12)",
+      "status": "PASS",
+      "detail": "48432 non-NaN rows, max |delta| 0.000e+00"
+    },
+    {
+      "id": "H08",
+      "check": "Delta_C15_600_450 == C15_volfrac_600 - C15_volfrac_450 (<= 1e-12)",
+      "status": "PASS",
+      "detail": "50000 non-NaN rows, max |delta| 0.000e+00"
+    },
+    {
+      "id": "H09",
+      "check": "LIQUID_onset_C takes only grid temperatures or NaN",
+      "status": "PASS",
+      "detail": "[1000.0]"
+    },
+    {
+      "id": "H10",
+      "check": "BCC_split_closure_C takes only grid temperatures or NaN",
+      "status": "PASS",
+      "detail": "[300.0, 350.0, 400.0, 450.0, 500.0, 600.0, 700.0, 800.0, 900.0, 950.0]"
+    },
+    {
+      "id": "H11",
+      "check": "FCC_split_closure_C takes only grid temperatures or NaN",
+      "status": "PASS",
+      "detail": "[300.0, 350.0, 400.0]"
+    },
+    {
+      "id": "I01",
+      "check": "row count identical CSV vs parquet",
+      "status": "PASS",
+      "detail": "csv 50000 parquet 50000"
+    },
+    {
+      "id": "I02",
+      "check": "column names identical CSV vs parquet",
+      "status": "PASS",
+      "detail": "csv 28 parquet 28"
+    },
+    {
+      "id": "I03",
+      "check": "string fields identical CSV vs parquet",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "I04",
+      "check": "float max deviation CSV vs parquet <= 1e-12",
+      "status": "PASS",
+      "detail": "0.000e+00"
+    },
+    {
+      "id": "I05",
+      "check": "original CSV left untouched",
+      "status": "PASS",
+      "detail": "not opened for writing at any point"
+    },
+    {
+      "id": "J01",
+      "check": "FCC multi-instance total == 8,676",
+      "status": "PASS",
+      "detail": "8676"
+    },
+    {
+      "id": "J02",
+      "check": "FCC splitting confined to AG",
+      "status": "PASS",
+      "detail": "['AG']"
+    },
+    {
+      "id": "J03",
+      "check": "FCC splitting confined to <= 400 C",
+      "status": "PASS",
+      "detail": "400.0"
+    },
+    {
+      "id": "J04",
+      "check": "BCC multi-instance total == 58,371",
+      "status": "PASS",
+      "detail": "58371"
+    },
+    {
+      "id": "J05",
+      "check": "BCC splitting confined to MO",
+      "status": "PASS",
+      "detail": "['MO']"
+    },
+    {
+      "id": "J06",
+      "check": "BCC splitting max temperature == 950 C",
+      "status": "PASS",
+      "detail": "950.0"
+    },
+    {
+      "id": "J07",
+      "check": "raw phase instance BCC_B2#3 == 4 states, MO only, 950 C only",
+      "status": "PASS",
+      "detail": "4 states, families ['MO'], T [950.0]"
+    },
+    {
+      "id": "J07b",
+      "check": "BCC_B2#3 label count agrees with FULL_V1_RAW_PHASE_INVENTORY.csv (4)",
+      "status": "PASS",
+      "detail": "4 states in FULL_V1_PHASES_LONG"
+    },
+    {
+      "id": "J09",
+      "check": "simultaneous-instance count reconciles with the raw instance labels: n(>=2) == n(states with #2) + n(states with a label >=3 but no #2)",
+      "status": "PASS",
+      "detail": "58367 + 4 = 58371 vs measured 58371"
+    },
+    {
+      "id": "J10",
+      "check": "states with >= 3 SIMULTANEOUS BCC instances (measured by counting rows, never by reading the '#n' suffix)",
+      "status": "PASS",
+      "detail": "0 states. BCC_B2#3-labelled states: FV1_MO_ANCHOR_00535__T0950C -> 2 instances (BCC_B2#1;BCC_B2#3); FV1_MO_ANCHOR_00687__T0950C -> 2 instances (BCC_B2#1;BCC_B2#3); FV1_MO_A_00696__T0950C -> 2 instances (BCC_B2#1;BCC_B2#3); FV1_MO_A_03181__T0950C -> 2 instances (BCC_B2#1;BCC_B2#3)"
+    },
+    {
+      "id": "J08",
+      "check": "split rates reproduce the known FULL_V1 profile (max |delta| <= 0.01)",
+      "status": "PASS",
+      "detail": "0.0000"
+    },
+    {
+      "id": "K01",
+      "check": "one row per sampling domain (A / B / ANCHOR) + B_over_A contrast",
+      "status": "PASS",
+      "detail": "['A', 'ANCHOR', 'B']"
+    },
+    {
+      "id": "K02",
+      "check": "n_compositions sums to 50,000",
+      "status": "PASS",
+      "detail": "50000"
+    },
+    {
+      "id": "K03",
+      "check": "n_states sums to 550,000",
+      "status": "PASS",
+      "detail": "550000"
+    },
+    {
+      "id": "K04",
+      "check": "Domain B/A contrast reproduces the known FULL_V1 pattern (C15 ~3.22x, OTHER_SOLID ~2.28x, BCC ~1.29x)",
+      "status": "PASS",
+      "detail": "|delta| {'C15': 0.001, 'OTHER_SOLID': 0.001, 'BCC': 0.004}"
+    },
+    {
+      "id": "K05",
+      "check": "FCC mean volume fraction decreases slightly from A to B",
+      "status": "PASS",
+      "detail": "0.9768"
+    },
+    {
+      "id": "L01",
+      "check": "stored X_Psolid_* matches the frozen solid-renormalisation definition",
+      "status": "PASS",
+      "detail": "max |delta| 0.000e+00"
+    },
+    {
+      "id": "L02",
+      "check": "grain == family x sampling_domain x Temperature_C",
+      "status": "PASS",
+      "detail": "231"
+    },
+    {
+      "id": "L03",
+      "check": "n_states sums to 550,000",
+      "status": "PASS",
+      "detail": "550000"
+    },
+    {
+      "id": "L04",
+      "check": "n_converged sums to 548,432",
+      "status": "PASS",
+      "detail": "548432"
+    },
+    {
+      "id": "L05",
+      "check": "BASELINE X partition statistics are NaN (no X solute), never 0",
+      "status": "PASS",
+      "detail": "33 baseline rows"
+    },
+    {
+      "id": "L06",
+      "check": "each X solute partitions into the expected family (AG->FCC TI->FCC CO->C15 ZR->C15 SI->OTHER_SOLID MO->BCC)",
+      "status": "PASS",
+      "detail": "all six reproduced"
+    },
+    {
+      "id": "L07",
+      "check": "partition magnitudes are close to the reference grand means (|delta| <= 0.05)",
+      "status": "PASS",
+      "detail": "all within 0.05 of the reference values"
+    },
+    {
+      "id": "M01",
+      "check": "5-family volume fraction sums to 1 (<= 1e-12)",
+      "status": "PASS",
+      "detail": "2.220e-16"
+    },
+    {
+      "id": "M02",
+      "check": "5-family mole fraction sums to 1 (<= 1e-12)",
+      "status": "PASS",
+      "detail": "6.661e-16"
+    },
+    {
+      "id": "M03",
+      "check": "no _AUX column participates in the core 5-family sum",
+      "status": "PASS",
+      "detail": "6 AUX columns, all excluded"
+    },
+    {
+      "id": "M04",
+      "check": "C15_family_wide_volfrac_AUX >= C15_volfrac (wide caliper, diagnostic only)",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "M05",
+      "check": "Cr partition conservation <= 1e-12",
+      "status": "PASS",
+      "detail": "3.331e-16"
+    },
+    {
+      "id": "M06",
+      "check": "Nb partition conservation <= 1e-12",
+      "status": "PASS",
+      "detail": "2.220e-16"
+    },
+    {
+      "id": "M07",
+      "check": "X partition conservation <= 1e-12",
+      "status": "PASS",
+      "detail": "2.220e-16"
+    },
+    {
+      "id": "M08",
+      "check": "no bridge temperature leaked into the formal temperature rows",
+      "status": "PASS",
+      "detail": "[300.0, 350.0, 400.0, 450.0, 500.0, 600.0, 700.0, 800.0, 900.0, 950.0, 1000.0]"
+    },
+    {
+      "id": "M09",
+      "check": "presence flags obey the frozen threshold (volfrac > 0.0001)",
+      "status": "PASS",
+      "detail": "threshold 0.0001"
+    },
+    {
+      "id": "M10",
+      "check": "FAILED rows keep NaN targets (never 0, never interpolated)",
+      "status": "PASS",
+      "detail": "1568 failed rows x 10 target cols"
+    },
+    {
+      "id": "M11",
+      "check": "FAILED rows are all MO @ 950 C",
+      "status": "PASS",
+      "detail": "['MO'] [950.0]"
+    },
+    {
+      "id": "M13",
+      "check": "the six core deliverables keep their original SHA256 (not regenerated)",
+      "status": "PASS",
+      "detail": "all six unchanged"
+    },
+    {
+      "id": "M12",
+      "check": "Ni occurrences across every new output == 0",
+      "status": "PASS",
+      "detail": "0 hits in 8 tables (token-bounded regex; DOMINANT / NIOBIUM cannot match)"
+    }
+  ],
+  "notes": [
+    "ML_TARGET_ALL already exists - verifying instead of rebuilding",
+    "ML_READY_CONVERGED already exists - verifying instead of rebuilding",
+    "FAILURE_MAP already exists - verifying instead of rebuilding",
+    "failure domains: {'A': 1154, 'B': 284, 'ANCHOR': 130}",
+    "DERIVED_DESCRIPTORS already exists - verifying instead of rebuilding",
+    "LIQUID_onset_C present for families ['ZR'] at [1000.0]",
+    "BCC split families ['MO'] ; FCC split families ['AG']",
+    "COMPOSITIONS.parquet already exists - verifying against the CSV, not rebuilding",
+    "BCC_B2#3 is a LABEL on 4 states, but only 0 state(s) actually have >= 3 BCC instances stable simultaneously. The suffix is a solver label, not an ordinal census - see 04_qa/FULL_V1_BCC3_INSTANCE_AUDIT.csv for the per-state evidence.",
+    "AG FCC split rate by T: {300: 0.7175, 350: 0.3912, 400: 0.0481, 450: 0.0} (expected ~0.7175 / 0.3912 / 0.0481 / 0)",
+    "MO BCC split rate by T: {300: 0.9336, 900: 0.5, 950: 0.1406, 1000: 0.0} (expected ~0.9336 / 0.5000 / 0.1406 / 0)",
+    "DOMAIN_SUMMARY already exists - verifying instead of rebuilding",
+    "Domain B / Domain A mean volume-fraction ratios: {'FCC': 0.9768, 'BCC': 1.2941, 'C15': 3.2194, 'OTHER_SOLID': 2.2785, 'LIQUID': 5.5273}",
+    "topology-transition columns are group-level constants broadcast over the 11 temperature rows of each (family, sampling_domain) group",
+    "TOPOLOGY_SUMMARY already exists - verifying instead of rebuilding",
+    "AG mean X partition: {'FCC': 0.9846, 'BCC': 0.0154, 'C15': 0.0, 'OTHER_SOLID': 0.0, 'LIQUID': 0.0}",
+    "TI mean X partition: {'FCC': 0.8999, 'BCC': 0.0176, 'C15': 0.0, 'OTHER_SOLID': 0.0825, 'LIQUID': 0.0}",
+    "CO mean X partition: {'FCC': 0.1279, 'BCC': 0.011, 'C15': 0.8603, 'OTHER_SOLID': 0.0009, 'LIQUID': 0.0}",
+    "ZR mean X partition: {'FCC': 0.1696, 'BCC': 0.0001, 'C15': 0.7889, 'OTHER_SOLID': 0.0364, 'LIQUID': 0.005}",
+    "SI mean X partition: {'FCC': 0.0713, 'BCC': 0.064, 'C15': 0.0, 'OTHER_SOLID': 0.8647, 'LIQUID': 0.0}",
+    "MO mean X partition: {'FCC': 0.0111, 'BCC': 0.9889, 'C15': 0.0, 'OTHER_SOLID': 0.0, 'LIQUID': 0.0}",
+    "ZR X->FCC migrates with temperature: 0.0003 (<=400 C) -> 0.5202 (>=900 C)",
+    "per-element partition max |sum-1|: {'AG': '2.22e-16', 'CO': '2.22e-16', 'CR': '3.33e-16', 'MO': '2.22e-16', 'NB': '2.22e-16', 'SI': '2.22e-16', 'TI': '2.22e-16', 'ZR': '2.22e-16'}"
+  ],
+  "outputs": {
+    "ML_TARGET_ALL": "03_processed/FULL_V1_ML_TARGET_ALL.parquet",
+    "ML_READY_CONVERGED": "03_processed/FULL_V1_ML_READY_CONVERGED.parquet",
+    "DERIVED_DESCRIPTORS": "03_processed/FULL_V1_DERIVED_DESCRIPTORS.parquet",
+    "FAILURE_MAP": "04_qa/FULL_V1_FAILURE_MAP.parquet",
+    "COMPOSITIONS_PARQUET": "01_compositions/FULL_V1_COMPOSITIONS.parquet",
+    "TOPOLOGY_SUMMARY": "04_qa/FULL_V1_TOPOLOGY_SUMMARY.csv",
+    "DOMAIN_SUMMARY": "04_qa/FULL_V1_DOMAIN_SUMMARY.csv",
+    "PHASE_SPLIT_DIAGNOSTICS": "04_qa/FULL_V1_PHASE_SPLIT_DIAGNOSTICS.parquet"
+  },
+  "documents": {
+    "file_audit": "04_qa/FULL_V1_POSTPROCESS_FILE_AUDIT.md",
+    "recovery_report": "04_qa/FULL_V1_POSTPROCESS_RECOVERY_REPORT.md",
+    "descriptor_caveats": "04_qa/FULL_V1_DERIVED_DESCRIPTOR_CAVEATS.md",
+    "file_hashes": "06_manifest/FULL_V1_POSTPROCESS_FILE_HASHES.csv"
+  },
+  "supersedes": [
+    "code_snapshot/26_fullv1_finalize.py",
+    "FINALIZE.bat"
+  ],
+  "ready_for_ml_feature_engineering": true
+}

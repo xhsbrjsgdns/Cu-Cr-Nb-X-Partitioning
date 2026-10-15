@@ -1,0 +1,1060 @@
+{
+  "step": "STEP 4 - FULL CALPHAD DATABASE V1",
+  "status": "PASS WITH WARNINGS",
+  "database": "TCCU6",
+  "temperatures_C": [
+    300,
+    350,
+    400,
+    450,
+    500,
+    600,
+    700,
+    800,
+    900,
+    950,
+    1000
+  ],
+  "compositions": {
+    "total": 50000,
+    "families": {
+      "ZR": 7500,
+      "TI": 7500,
+      "CO": 7500,
+      "SI": 7500,
+      "AG": 7500,
+      "MO": 7500,
+      "BASELINE": 5000
+    },
+    "domains": {
+      "A": 35000,
+      "B": 10000,
+      "ANCHOR": 5000
+    },
+    "cu_min_wt_pct": 94.9214,
+    "sobol_seed": 20260903,
+    "sobol_skip": 2048,
+    "duplicate_vs_prior": 0
+  },
+  "states": {
+    "planned": 550000,
+    "rows": 550000,
+    "converged": 548432,
+    "failed": 1568,
+    "convergence_rate": 99.7149,
+    "failures_by_family": {
+      "MO": 1568
+    },
+    "failures_by_temperature": {
+      "950.0": 1568
+    },
+    "failures_by_domain": {
+      "A": 1154,
+      "ANCHOR": 130,
+      "B": 284
+    },
+    "failed_state_ids": [
+      "FV1_MO_ANCHOR_00005__T0950C",
+      "FV1_MO_ANCHOR_00007__T0950C",
+      "FV1_MO_ANCHOR_00008__T0950C",
+      "FV1_MO_ANCHOR_00009__T0950C",
+      "FV1_MO_ANCHOR_00015__T0950C",
+      "FV1_MO_ANCHOR_00025__T0950C",
+      "FV1_MO_ANCHOR_00029__T0950C",
+      "FV1_MO_ANCHOR_00040__T0950C",
+      "FV1_MO_ANCHOR_00046__T0950C",
+      "FV1_MO_ANCHOR_00048__T0950C",
+      "FV1_MO_ANCHOR_00069__T0950C",
+      "FV1_MO_ANCHOR_00070__T0950C",
+      "FV1_MO_ANCHOR_00074__T0950C",
+      "FV1_MO_ANCHOR_00100__T0950C",
+      "FV1_MO_ANCHOR_00133__T0950C",
+      "FV1_MO_ANCHOR_00143__T0950C",
+      "FV1_MO_ANCHOR_00147__T0950C",
+      "FV1_MO_ANCHOR_00153__T0950C",
+      "FV1_MO_ANCHOR_00157__T0950C",
+      "FV1_MO_ANCHOR_00160__T0950C",
+      "FV1_MO_ANCHOR_00169__T0950C",
+      "FV1_MO_ANCHOR_00173__T0950C",
+      "FV1_MO_ANCHOR_00185__T0950C",
+      "FV1_MO_ANCHOR_00186__T0950C",
+      "FV1_MO_ANCHOR_00187__T0950C",
+      "FV1_MO_ANCHOR_00194__T0950C",
+      "FV1_MO_ANCHOR_00202__T0950C",
+      "FV1_MO_ANCHOR_00203__T0950C",
+      "FV1_MO_ANCHOR_00207__T0950C",
+      "FV1_MO_ANCHOR_00208__T0950C",
+      "FV1_MO_ANCHOR_00209__T0950C",
+      "FV1_MO_ANCHOR_00214__T0950C",
+      "FV1_MO_ANCHOR_00221__T0950C",
+      "FV1_MO_ANCHOR_00229__T0950C",
+      "FV1_MO_ANCHOR_00233__T0950C",
+      "FV1_MO_ANCHOR_00241__T0950C",
+      "FV1_MO_ANCHOR_00245__T0950C",
+      "FV1_MO_ANCHOR_00246__T0950C",
+      "FV1_MO_ANCHOR_00247__T0950C",
+      "FV1_MO_ANCHOR_00255__T0950C",
+      "FV1_MO_ANCHOR_00260__T0950C",
+      "FV1_MO_ANCHOR_00261__T0950C",
+      "FV1_MO_ANCHOR_00263__T0950C",
+      "FV1_MO_ANCHOR_00272__T0950C",
+      "FV1_MO_ANCHOR_00289__T0950C",
+      "FV1_MO_ANCHOR_00290__T0950C",
+      "FV1_MO_ANCHOR_00291__T0950C",
+      "FV1_MO_ANCHOR_00299__T0950C",
+      "FV1_MO_ANCHOR_00302__T0950C",
+      "FV1_MO_ANCHOR_00305__T0950C",
+      "FV1_MO_ANCHOR_00312__T0950C",
+      "FV1_MO_ANCHOR_00320__T0950C",
+      "FV1_MO_ANCHOR_00324__T0950C",
+      "FV1_MO_ANCHOR_00333__T0950C",
+      "FV1_MO_ANCHOR_00340__T0950C",
+      "FV1_MO_ANCHOR_00351__T0950C",
+      "FV1_MO_ANCHOR_00359__T0950C",
+      "FV1_MO_ANCHOR_00362__T0950C",
+      "FV1_MO_ANCHOR_00366__T0950C",
+      "FV1_MO_ANCHOR_00372__T0950C",
+      "FV1_MO_ANCHOR_00378__T0950C",
+      "FV1_MO_ANCHOR_00380__T0950C",
+      "FV1_MO_ANCHOR_00386__T0950C",
+      "FV1_MO_ANCHOR_00392__T0950C",
+      "FV1_MO_ANCHOR_00394__T0950C",
+      "FV1_MO_ANCHOR_00402__T0950C",
+      "FV1_MO_ANCHOR_00407__T0950C",
+      "FV1_MO_ANCHOR_00411__T0950C",
+      "FV1_MO_ANCHOR_00413__T0950C",
+      "FV1_MO_ANCHOR_00427__T0950C",
+      "FV1_MO_ANCHOR_00429__T0950C",
+      "FV1_MO_ANCHOR_00433__T0950C",
+      "FV1_MO_ANCHOR_00436__T0950C",
+      "FV1_MO_ANCHOR_00440__T0950C",
+      "FV1_MO_ANCHOR_00449__T0950C",
+      "FV1_MO_ANCHOR_00451__T0950C",
+      "FV1_MO_ANCHOR_00457__T0950C",
+      "FV1_MO_ANCHOR_00463__T0950C",
+      "FV1_MO_ANCHOR_00465__T0950C",
+      "FV1_MO_ANCHOR_00467__T0950C",
+      "FV1_MO_ANCHOR_00476__T0950C",
+      "FV1_MO_ANCHOR_00480__T0950C",
+      "FV1_MO_ANCHOR_00484__T0950C",
+      "FV1_MO_ANCHOR_00485__T0950C",
+      "FV1_MO_ANCHOR_00487__T0950C",
+      "FV1_MO_ANCHOR_00500__T0950C",
+      "FV1_MO_ANCHOR_00503__T0950C",
+      "FV1_MO_ANCHOR_00506__T0950C",
+      "FV1_MO_ANCHOR_00509__T0950C",
+      "FV1_MO_ANCHOR_00516__T0950C",
+      "FV1_MO_ANCHOR_00520__T0950C",
+      "FV1_MO_ANCHOR_00538__T0950C",
+      "FV1_MO_ANCHOR_00539__T0950C",
+      "FV1_MO_ANCHOR_00549__T0950C",
+      "FV1_MO_ANCHOR_00553__T0950C",
+      "FV1_MO_ANCHOR_00558__T0950C",
+      "FV1_MO_ANCHOR_00565__T0950C",
+      "FV1_MO_ANCHOR_00568__T0950C",
+      "FV1_MO_ANCHOR_00578__T0950C",
+      "FV1_MO_ANCHOR_00583__T0950C",
+      "FV1_MO_ANCHOR_00600__T0950C",
+      "FV1_MO_ANCHOR_00604__T0950C",
+      "FV1_MO_ANCHOR_00612__T0950C",
+      "FV1_MO_ANCHOR_00614__T0950C",
+      "FV1_MO_ANCHOR_00628__T0950C",
+      "FV1_MO_ANCHOR_00629__T0950C",
+      "FV1_MO_ANCHOR_00636__T0950C",
+      "FV1_MO_ANCHOR_00640__T0950C",
+      "FV1_MO_ANCHOR_00642__T0950C",
+      "FV1_MO_ANCHOR_00644__T0950C",
+      "FV1_MO_ANCHOR_00653__T0950C",
+      "FV1_MO_ANCHOR_00668__T0950C",
+      "FV1_MO_ANCHOR_00669__T0950C",
+      "FV1_MO_ANCHOR_00675__T0950C",
+      "FV1_MO_ANCHOR_00683__T0950C",
+      "FV1_MO_ANCHOR_00684__T0950C",
+      "FV1_MO_ANCHOR_00685__T0950C",
+      "FV1_MO_ANCHOR_00691__T0950C",
+      "FV1_MO_ANCHOR_00695__T0950C",
+      "FV1_MO_ANCHOR_00706__T0950C",
+      "FV1_MO_ANCHOR_00707__T0950C",
+      "FV1_MO_ANCHOR_00718__T0950C",
+      "FV1_MO_ANCHOR_00725__T0950C",
+      "FV1_MO_ANCHOR_00727__T0950C",
+      "FV1_MO_ANCHOR_00731__T0950C",
+      "FV1_MO_ANCHOR_00732__T0950C",
+      "FV1_MO_ANCHOR_00735__T0950C",
+      "FV1_MO_ANCHOR_00737__T0950C",
+      "FV1_MO_ANCHOR_00745__T0950C",
+      "FV1_MO_ANCHOR_00747__T0950C",
+      "FV1_MO_A_00013__T0950C",
+      "FV1_MO_A_00020__T0950C",
+      "FV1_MO_A_00022__T0950C",
+      "FV1_MO_A_00034__T0950C",
+      "FV1_MO_A_00036__T0950C",
+      "FV1_MO_A_00037__T0950C",
+      "FV1_MO_A_00041__T0950C",
+      "FV1_MO_A_00044__T0950C",
+      "FV1_MO_A_00048__T0950C",
+      "FV1_MO_A_00050__T0950C",
+      "FV1_MO_A_00053__T0950C",
+      "FV1_MO_A_00056__T0950C",
+      "FV1_MO_A_00066__T0950C",
+      "FV1_MO_A_00076__T0950C",
+      "FV1_MO_A_00078__T0950C",
+      "FV1_MO_A_00080__T0950C",
+      "FV1_MO_A_00084__T0950C",
+      "FV1_MO_A_00085__T0950C",
+      "FV1_MO_A_00090__T0950C",
+      "FV1_MO_A_00093__T0950C",
+      "FV1_MO_A_00096__T0950C",
+      "FV1_MO_A_00098__T0950C",
+      "FV1_MO_A_00108__T0950C",
+      "FV1_MO_A_00109__T0950C",
+      "FV1_MO_A_00113__T0950C",
+      "FV1_MO_A_00116__T0950C",
+      "FV1_MO_A_00118__T0950C",
+      "FV1_MO_A_00120__T0950C",
+      "FV1_MO_A_00121__T0950C",
+      "FV1_MO_A_00124__T0950C",
+      "FV1_MO_A_00126__T0950C",
+      "FV1_MO_A_00130__T0950C",
+      "FV1_MO_A_00133__T0950C",
+      "FV1_MO_A_00141__T0950C",
+      "FV1_MO_A_00142__T0950C",
+      "FV1_MO_A_00149__T0950C",
+      "FV1_MO_A_00152__T0950C",
+      "FV1_MO_A_00154__T0950C",
+      "FV1_MO_A_00161__T0950C",
+      "FV1_MO_A_00162__T0950C",
+      "FV1_MO_A_00164__T0950C",
+      "FV1_MO_A_00171__T0950C",
+      "FV1_MO_A_00173__T0950C",
+      "FV1_MO_A_00174__T0950C",
+      "FV1_MO_A_00176__T0950C",
+      "FV1_MO_A_00177__T0950C",
+      "FV1_MO_A_00184__T0950C",
+      "FV1_MO_A_00188__T0950C",
+      "FV1_MO_A_00189__T0950C",
+      "FV1_MO_A_00193__T0950C",
+      "FV1_MO_A_00196__T0950C",
+      "FV1_MO_A_00198__T0950C",
+      "FV1_MO_A_00202__T0950C",
+      "FV1_MO_A_00205__T0950C",
+      "FV1_MO_A_00208__T0950C",
+      "FV1_MO_A_00210__T0950C",
+      "FV1_MO_A_00220__T0950C",
+      "FV1_MO_A_00221__T0950C",
+      "FV1_MO_A_00224__T0950C",
+      "FV1_MO_A_00228__T0950C",
+      "FV1_MO_A_00229__T0950C",
+      "FV1_MO_A_00232__T0950C",
+      "FV1_MO_A_00238__T0950C",
+      "FV1_MO_A_00242__T0950C",
+      "FV1_MO_A_00245__T0950C",
+      "FV1_MO_A_00250__T0950C",
+      "FV1_MO_A_00258__T0950C",
+      "FV1_MO_A_00261__T0950C",
+      "FV1_MO_A_00265__T0950C",
+      "FV1_MO_A_00268__T0950C"
+    ],
+    "convergence_by_family": {
+      "AG": 100.0,
+      "BASELINE": 100.0,
+      "CO": 100.0,
+      "MO": 98.0994,
+      "SI": 100.0,
+      "TI": 100.0,
+      "ZR": 100.0
+    }
+  },
+  "solver": {
+    "level_counts": {
+      "0": 548201,
+      "1": 2,
+      "2": 3,
+      "3": 1794
+    },
+    "bridge_success": 226,
+    "bridge_temperatures": [
+      "900"
+    ],
+    "calculation_time_seconds": {
+      "count": 548432.0,
+      "mean": 0.1853464310981125,
+      "std": 0.4138217378573873,
+      "min": 0.1139,
+      "50%": 0.1746,
+      "90%": 0.2181,
+      "95%": 0.238,
+      "max": 142.4315
+    }
+  },
+  "phase_vocabulary": {
+    "base_names": [
+      "BCC_B2",
+      "C15_LAVES",
+      "CR3SI",
+      "CU4TI1",
+      "FCC_L12",
+      "LIQUID",
+      "MU_PHASE",
+      "SIGMA",
+      "ZRM5_C15B"
+    ],
+    "raw_instances": [
+      "BCC_B2#1",
+      "BCC_B2#2",
+      "BCC_B2#3",
+      "C15_LAVES#1",
+      "CR3SI#1",
+      "CU4TI1#1",
+      "FCC_L12#1",
+      "FCC_L12#2",
+      "LIQUID#1",
+      "MU_PHASE#1",
+      "SIGMA#1",
+      "ZRM5_C15B#1"
+    ],
+    "new_vs_prior": [
+      "MU_PHASE"
+    ],
+    "family_map": {
+      "BCC_B2": "BCC",
+      "C15_LAVES": "C15",
+      "CR3SI": "OTHER_SOLID",
+      "CU4TI1": "OTHER_SOLID",
+      "FCC_L12": "FCC",
+      "LIQUID": "LIQUID",
+      "MU_PHASE": "OTHER_SOLID",
+      "SIGMA": "OTHER_SOLID",
+      "ZRM5_C15B": "OTHER_SOLID"
+    },
+    "inventory": [
+      {
+        "raw_phase_name": "BCC_B2#1",
+        "phase_model_base": "BCC_B2",
+        "aggregated_family": "BCC",
+        "n_states": 502698,
+        "n_compositions": 49649,
+        "families": "AG;BASELINE;CO;MO;SI;TI;ZR",
+        "sampling_domains": "A;ANCHOR;B",
+        "Tmin": 300.0,
+        "Tmax": 1000.0,
+        "min_volfrac": 2.4913084937525732e-08,
+        "max_volfrac": 0.023784310189361065
+      },
+      {
+        "raw_phase_name": "BCC_B2#2",
+        "phase_model_base": "BCC_B2",
+        "aggregated_family": "BCC",
+        "n_states": 58367,
+        "n_compositions": 7003,
+        "families": "MO",
+        "sampling_domains": "A;ANCHOR;B",
+        "Tmin": 300.0,
+        "Tmax": 950.0,
+        "min_volfrac": 2.1930419007370218e-07,
+        "max_volfrac": 0.021573223796640256
+      },
+      {
+        "raw_phase_name": "BCC_B2#3",
+        "phase_model_base": "BCC_B2",
+        "aggregated_family": "BCC",
+        "n_states": 4,
+        "n_compositions": 4,
+        "families": "MO",
+        "sampling_domains": "A;ANCHOR",
+        "Tmin": 950.0,
+        "Tmax": 950.0,
+        "min_volfrac": 0.0029748511265357694,
+        "max_volfrac": 0.006268351318334328
+      },
+      {
+        "raw_phase_name": "C15_LAVES#1",
+        "phase_model_base": "C15_LAVES",
+        "aggregated_family": "C15",
+        "n_states": 547474,
+        "n_compositions": 49995,
+        "families": "AG;BASELINE;CO;MO;SI;TI;ZR",
+        "sampling_domains": "A;ANCHOR;B",
+        "Tmin": 300.0,
+        "Tmax": 1000.0,
+        "min_volfrac": 7.4627177820436e-08,
+        "max_volfrac": 0.05489580174906415
+      },
+      {
+        "raw_phase_name": "CR3SI#1",
+        "phase_model_base": "CR3SI",
+        "aggregated_family": "OTHER_SOLID",
+        "n_states": 80243,
+        "n_compositions": 7500,
+        "families": "SI",
+        "sampling_domains": "A;ANCHOR;B",
+        "Tmin": 300.0,
+        "Tmax": 1000.0,
+        "min_volfrac": 3.731953631685392e-07,
+        "max_volfrac": 0.014045107264751661
+      },
+      {
+        "raw_phase_name": "CU4TI1#1",
+        "phase_model_base": "CU4TI1",
+        "aggregated_family": "OTHER_SOLID",
+        "n_states": 14626,
+        "n_compositions": 6721,
+        "families": "TI",
+        "sampling_domains": "A;ANCHOR;B",
+        "Tmin": 300.0,
+        "Tmax": 450.0,
+        "min_volfrac": 1.6737325622681845e-06,
+        "max_volfrac": 0.024236831435947
+      },
+      {
+        "raw_phase_name": "FCC_L12#1",
+        "phase_model_base": "FCC_L12",
+        "aggregated_family": "FCC",
+        "n_states": 548432,
+        "n_compositions": 50000,
+        "families": "AG;BASELINE;CO;MO;SI;TI;ZR",
+        "sampling_domains": "A;ANCHOR;B",
+        "Tmin": 300.0,
+        "Tmax": 1000.0,
+        "min_volfrac": 2.428275680453271e-08,
+        "max_volfrac": 0.9993820537925187
+      },
+      {
+        "raw_phase_name": "FCC_L12#2",
+        "phase_model_base": "FCC_L12",
+        "aggregated_family": "FCC",
+        "n_states": 8676,
+        "n_compositions": 5381,
+        "families": "AG",
+        "sampling_domains": "A;ANCHOR;B",
+        "Tmin": 300.0,
+        "Tmax": 400.0,
+        "min_volfrac": 0.9435566986895403,
+        "max_volfrac": 0.9929728906309901
+      },
+      {
+        "raw_phase_name": "LIQUID#1",
+        "phase_model_base": "LIQUID",
+        "aggregated_family": "LIQUID",
+        "n_states": 1955,
+        "n_compositions": 1955,
+        "families": "ZR",
+        "sampling_domains": "A;B",
+        "Tmin": 1000.0,
+        "Tmax": 1000.0,
+        "min_volfrac": 1.2684624340734317e-06,
+        "max_volfrac": 0.03321094927420638
+      },
+      {
+        "raw_phase_name": "MU_PHASE#1",
+        "phase_model_base": "MU_PHASE",
+        "aggregated_family": "OTHER_SOLID",
+        "n_states": 16,
+        "n_compositions": 8,
+        "families": "CO",
+        "sampling_domains": "B",
+        "Tmin": 300.0,
+        "Tmax": 450.0,
+        "min_volfrac": 6.679098506015756e-05,
+        "max_volfrac": 0.0038236967896812515
+      },
+      {
+        "raw_phase_name": "SIGMA#1",
+        "phase_model_base": "SIGMA",
+        "aggregated_family": "OTHER_SOLID",
+        "n_states": 580,
+        "n_compositions": 135,
+        "families": "CO",
+        "sampling_domains": "A",
+        "Tmin": 300.0,
+        "Tmax": 600.0,
+        "min_volfrac": 2.111638051631468e-06,
+        "max_volfrac": 0.0043946023968105844
+      },
+      {
+        "raw_phase_name": "ZRM5_C15B#1",
+        "phase_model_base": "ZRM5_C15B",
+        "aggregated_family": "OTHER_SOLID",
+        "n_states": 8062,
+        "n_compositions": 1114,
+        "families": "ZR",
+        "sampling_domains": "A;ANCHOR;B",
+        "Tmin": 300.0,
+        "Tmax": 950.0,
+        "min_volfrac": 6.815769392851359e-08,
+        "max_volfrac": 0.015692992651063366
+      }
+    ]
+  },
+  "liquid": {
+    "n_states": 1955,
+    "n_compositions": 1955,
+    "families": {
+      "ZR": 1955
+    },
+    "domains": {
+      "A": 1320,
+      "B": 635
+    },
+    "temperatures": {
+      "1000.0": 1955
+    },
+    "min_temperature_C": 1000.0,
+    "max_volume_fraction": 0.0332109492742063,
+    "median_volume_fraction": 0.0047688305886012
+  },
+  "phase_splitting": {
+    "multi_FCC_states": 8676,
+    "multi_FCC_by_family": {
+      "AG": 8676
+    },
+    "multi_FCC_max_T": 400.0,
+    "multi_BCC_states": 58371,
+    "multi_BCC_by_family": {
+      "MO": 58371
+    },
+    "multi_BCC_max_T": 950.0,
+    "mo_bcc_split_by_T": {
+      "300.0": 0.9336,
+      "350.0": 0.9333,
+      "400.0": 0.9333,
+      "450.0": 0.9329,
+      "500.0": 0.9321,
+      "600.0": 0.9147,
+      "700.0": 0.8531,
+      "800.0": 0.7385,
+      "900.0": 0.5,
+      "950.0": 0.1406,
+      "1000.0": 0.0
+    },
+    "ag_fcc_split_by_T": {
+      "300.0": 0.7175,
+      "350.0": 0.3912,
+      "400.0": 0.0481,
+      "450.0": 0.0,
+      "500.0": 0.0,
+      "600.0": 0.0,
+      "700.0": 0.0,
+      "800.0": 0.0,
+      "900.0": 0.0,
+      "950.0": 0.0,
+      "1000.0": 0.0
+    }
+  },
+  "conservation": {
+    "phase_mole_sum_max_dev": 0.0,
+    "phase_volume_sum_max_dev": 0.0,
+    "phase_composition_sum_max_dev": 3.3306690738754696e-16,
+    "raw_partition_max_dev": 3.3306690738754696e-16,
+    "family_partition_max_dev": {
+      "CR": 3.3306690738754696e-16,
+      "NB": 2.220446049250313e-16,
+      "AG": 2.220446049250313e-16,
+      "CO": 2.220446049250313e-16,
+      "MO": 2.220446049250313e-16,
+      "SI": 2.220446049250313e-16,
+      "TI": 2.220446049250313e-16,
+      "ZR": 2.220446049250313e-16
+    },
+    "five_family_volfrac_max_dev": 2.220446049250313e-16,
+    "five_family_molefrac_max_dev": 6.661338147750939e-16,
+    "solid_vs_liquid_max_dev": 0.0
+  },
+  "topology": {
+    "mean_X_solid_partition": {
+      "X_Psolid_FCC": {
+        "AG": 0.984552,
+        "CO": 0.127853,
+        "MO": 0.011128,
+        "SI": 0.071292,
+        "TI": 0.899886,
+        "ZR": 0.173364
+      },
+      "X_Psolid_BCC": {
+        "AG": 0.015448,
+        "CO": 0.010989,
+        "MO": 0.988872,
+        "SI": 0.064048,
+        "TI": 0.017594,
+        "ZR": 7.7e-05
+      },
+      "X_Psolid_C15": {
+        "AG": 0.0,
+        "CO": 0.860261,
+        "MO": 0.0,
+        "SI": 0.0,
+        "TI": 9e-06,
+        "ZR": 0.790192
+      },
+      "X_Psolid_OTHER_SOLID": {
+        "AG": 0.0,
+        "CO": 0.000896,
+        "MO": 0.0,
+        "SI": 0.86466,
+        "TI": 0.082511,
+        "ZR": 0.036368
+      }
+    },
+    "dominant_share": {
+      "BCC": {
+        "AG": 0.01383,
+        "CO": 0.0,
+        "MO": 1.0,
+        "SI": 0.036582,
+        "TI": 0.0,
+        "ZR": 0.0
+      },
+      "C15": {
+        "AG": 0.0,
+        "CO": 0.921103,
+        "MO": 0.0,
+        "SI": 0.0,
+        "TI": 0.0,
+        "ZR": 0.808267
+      },
+      "FCC": {
+        "AG": 0.98617,
+        "CO": 0.078897,
+        "MO": 0.0,
+        "SI": 0.031442,
+        "TI": 0.911103,
+        "ZR": 0.156582
+      },
+      "OTHER_SOLID": {
+        "AG": 0.0,
+        "CO": 0.0,
+        "MO": 0.0,
+        "SI": 0.931976,
+        "TI": 0.088897,
+        "ZR": 0.035152
+      }
+    },
+    "degenerate_families": [
+      "MO"
+    ]
+  },
+  "auxiliary": {
+    "note": "ZRM5_C15B stays inside OTHER_SOLID; these are DIAGNOSTIC only, never summed with the 5 core families",
+    "zrm5_states": 8062,
+    "sigma_states": 580,
+    "zr_mean_X_P_C15": 0.788887136685979,
+    "zr_mean_X_P_C15_family_wide": 0.8252551123933076
+  },
+  "domain_contrast": {
+    "mean_volume_fraction": {
+      "FCC_volfrac": {
+        "A": 0.98526354,
+        "ANCHOR": 0.96473504,
+        "B": 0.96236431
+      },
+      "BCC_volfrac": {
+        "A": 0.00477438,
+        "ANCHOR": 0.00513089,
+        "B": 0.00617837
+      },
+      "C15_volfrac": {
+        "A": 0.00926233,
+        "ANCHOR": 0.02911653,
+        "B": 0.02981881
+      },
+      "OTHER_SOLID_volfrac": {
+        "A": 0.00068618,
+        "ANCHOR": 0.00101755,
+        "B": 0.00156349
+      },
+      "LIQUID_volfrac": {
+        "A": 1.357e-05,
+        "ANCHOR": 0.0,
+        "B": 7.503e-05
+      }
+    },
+    "presence_rate": {
+      "FCC_presence": {
+        "A": 1.0,
+        "ANCHOR": 1.0,
+        "B": 1.0
+      },
+      "BCC_presence": {
+        "A": 0.91735,
+        "ANCHOR": 0.919519,
+        "B": 0.876126
+      },
+      "C15_presence": {
+        "A": 0.997233,
+        "ANCHOR": 1.0,
+        "B": 0.999936
+      },
+      "OTHER_SOLID_presence": {
+        "A": 0.179637,
+        "ANCHOR": 0.177711,
+        "B": 0.220114
+      },
+      "LIQUID_presence": {
+        "A": 0.003402,
+        "ANCHOR": 0.0,
+        "B": 0.005733
+      }
+    },
+    "mean_phase_count": {
+      "A": 3.2333,
+      "ANCHOR": 3.2523,
+      "B": 3.2046
+    }
+  },
+  "checkpoint": {
+    "rows": 550000,
+    "per_shard": {
+      "1": {
+        "counts": {
+          "SUCCESS": 274318,
+          "FAILED": 682
+        },
+        "success": 274318,
+        "stored_converged": 274318,
+        "missing_result": [],
+        "n_missing_result": 0
+      },
+      "2": {
+        "counts": {
+          "SUCCESS": 274114,
+          "FAILED": 886
+        },
+        "success": 274114,
+        "stored_converged": 274114,
+        "missing_result": [],
+        "n_missing_result": 0
+      }
+    }
+  },
+  "runtime": {
+    "1": {
+      "shard": 1,
+      "shards": 2,
+      "compositions": 25000,
+      "wall_seconds": 60634.61,
+      "thermocalc_seconds": 59750.94,
+      "persist_seconds": 463.47,
+      "progress_snapshot_seconds": 161.88,
+      "export_seconds": 28.76,
+      "io_seconds_total": 654.11,
+      "states_computed": 275000,
+      "states_per_second": 4.5354,
+      "stats": {
+        "planned": 275000,
+        "skipped": 0,
+        "level0": 274243,
+        "level1": 1,
+        "level2": 2,
+        "level3": 72,
+        "failed": 682,
+        "dropped": 0
+      },
+      "export": {
+        "export_seconds": 28.76,
+        "n_states": 275000,
+        "n_phase_rows": 900629,
+        "n_phase_composition_rows": 3520099,
+        "n_agg_rows": 865437,
+        "phases_file": "FULL_V1_shard01_PHASES_LONG.parquet",
+        "phase_compositions_file": "FULL_V1_shard01_PHASE_COMPOSITIONS_LONG.parquet",
+        "agg_long_file": "FULL_V1_shard01_AGGREGATED_PHASES_LONG.parquet"
+      },
+      "checkpoint_success_count": 274318,
+      "stored_result_count": 274318,
+      "consistency_missing": [],
+      "parquet_available": true,
+      "wall_start_utc": "2026-09-03T16:25:13Z"
+    },
+    "2": {
+      "shard": 2,
+      "shards": 2,
+      "compositions": 25000,
+      "wall_seconds": 61278.77,
+      "thermocalc_seconds": 60397.22,
+      "persist_seconds": 467.15,
+      "progress_snapshot_seconds": 158.25,
+      "export_seconds": 25.89,
+      "io_seconds_total": 651.29,
+      "states_computed": 275000,
+      "states_per_second": 4.4877,
+      "stats": {
+        "planned": 275000,
+        "skipped": 0,
+        "level0": 273958,
+        "level1": 1,
+        "level2": 1,
+        "level3": 154,
+        "failed": 886,
+        "dropped": 0
+      },
+      "export": {
+        "export_seconds": 25.89,
+        "n_states": 275000,
+        "n_phase_rows": 870504,
+        "n_phase_composition_rows": 3403125,
+        "n_agg_rows": 838649,
+        "phases_file": "FULL_V1_shard02_PHASES_LONG.parquet",
+        "phase_compositions_file": "FULL_V1_shard02_PHASE_COMPOSITIONS_LONG.parquet",
+        "agg_long_file": "FULL_V1_shard02_AGGREGATED_PHASES_LONG.parquet"
+      },
+      "checkpoint_success_count": 274114,
+      "stored_result_count": 274114,
+      "consistency_missing": [],
+      "parquet_available": true,
+      "wall_start_utc": "2026-09-03T16:25:16Z"
+    }
+  },
+  "benchmark": {},
+  "growth": {
+    "1": {
+      "q1": 0.19028985507246374,
+      "q2": 0.18999999999999995,
+      "q3": 0.25088235294117656,
+      "q4": 0.25044117647058817,
+      "slope": 2.8161911081619047e-07,
+      "n_points": 275
+    },
+    "2": {
+      "q1": 0.18014492753623187,
+      "q2": 0.17999999999999994,
+      "q3": 0.33220588235294124,
+      "q4": 0.18955882352941184,
+      "slope": 1.7526123511524934e-07,
+      "n_points": 275
+    }
+  },
+  "nickel": {
+    "used": false,
+    "occurrences": 0
+  },
+  "checks": [
+    {
+      "id": "A01",
+      "check": "50,000 unique compositions",
+      "status": "PASS",
+      "detail": "n=50000 unique=50000"
+    },
+    {
+      "id": "A02",
+      "check": "7 families",
+      "status": "PASS",
+      "detail": "['AG', 'BASELINE', 'CO', 'MO', 'SI', 'TI', 'ZR']"
+    },
+    {
+      "id": "A03",
+      "check": "allocation 5,000 baseline + 6 x 7,500",
+      "status": "PASS",
+      "detail": "{'ZR': 7500, 'TI': 7500, 'CO': 7500, 'SI': 7500, 'AG': 7500, 'MO': 7500, 'BASELINE': 5000}"
+    },
+    {
+      "id": "A04",
+      "check": "domain A35000 / B10000 / ANCHOR5000",
+      "status": "PASS",
+      "detail": "{'A': 35000, 'B': 10000, 'ANCHOR': 5000}"
+    },
+    {
+      "id": "A05",
+      "check": "composition sum == 100 wt%",
+      "status": "PASS",
+      "detail": "min=100.0000 max=100.0000"
+    },
+    {
+      "id": "A06",
+      "check": "Cu > 90 wt%",
+      "status": "PASS",
+      "detail": "min=94.9214"
+    },
+    {
+      "id": "A07",
+      "check": "Domain A/B ranges",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "id": "A08",
+      "check": "anchor perturbation <= +/-10%",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "id": "A09",
+      "check": "no internal duplicate",
+      "status": "PASS",
+      "detail": "50000/50000"
+    },
+    {
+      "id": "A10",
+      "check": "no duplicate vs Step2.5 + Mini20 + Pilot200 + Pilot2000",
+      "status": "PASS",
+      "detail": "overlap=0"
+    },
+    {
+      "id": "A11",
+      "check": "R_actual ~ R_target",
+      "status": "PASS",
+      "detail": "max dev 2.565e-03"
+    },
+    {
+      "id": "B01",
+      "check": "550,000 target state rows",
+      "status": "PASS",
+      "detail": "found 550000 (missing 0)"
+    },
+    {
+      "id": "B02",
+      "check": "11 target temperatures per composition",
+      "status": "PASS",
+      "detail": "0 incomplete: []"
+    },
+    {
+      "id": "B03",
+      "check": "no bridge temperature leaked into states",
+      "status": "PASS",
+      "detail": "[300, 350, 400, 450, 500, 600, 700, 800, 900, 950, 1000]"
+    },
+    {
+      "id": "B04",
+      "check": "convergence >= 99.5%",
+      "status": "PASS",
+      "detail": "548432/550000 = 99.715%"
+    },
+    {
+      "id": "B05",
+      "check": "no Ni/NI anywhere",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "id": "B06",
+      "check": "all failures retained",
+      "status": "PASS",
+      "detail": "1568 FAILED rows kept with error messages"
+    },
+    {
+      "id": "C01",
+      "check": "sum(phase mole fraction) == 1",
+      "status": "PASS",
+      "detail": "max dev 0.00e+00"
+    },
+    {
+      "id": "C02",
+      "check": "sum(phase volume fraction) == 1",
+      "status": "PASS",
+      "detail": "max dev 0.00e+00"
+    },
+    {
+      "id": "C03",
+      "check": "phase composition sums == 1",
+      "status": "PASS",
+      "detail": "max dev 3.33e-16"
+    },
+    {
+      "id": "C04",
+      "check": "raw element partition sums == 1",
+      "status": "PASS",
+      "detail": "max dev 3.33e-16"
+    },
+    {
+      "id": "C05",
+      "check": "Cr 5-family partition sum == 1",
+      "status": "PASS",
+      "detail": "max dev 3.33e-16"
+    },
+    {
+      "id": "C06",
+      "check": "Nb 5-family partition sum == 1",
+      "status": "PASS",
+      "detail": "max dev 2.22e-16"
+    },
+    {
+      "id": "C07",
+      "check": "X 5-family partition sum == 1",
+      "status": "PASS",
+      "detail": "max dev 2.22e-16"
+    },
+    {
+      "id": "C08",
+      "check": "5-family volume fractions sum == 1",
+      "status": "PASS",
+      "detail": "max dev 2.22e-16"
+    },
+    {
+      "id": "C09",
+      "check": "5-family mole fractions sum == 1",
+      "status": "PASS",
+      "detail": "max dev 6.66e-16"
+    },
+    {
+      "id": "C10",
+      "check": "solid_volume_fraction == 1 - LIQUID_volfrac",
+      "status": "PASS",
+      "detail": "max dev 0.00e+00"
+    },
+    {
+      "id": "C11",
+      "check": "baseline X targets are NaN (not 0)",
+      "status": "PASS",
+      "detail": "55000 baseline rows checked"
+    },
+    {
+      "id": "D01",
+      "check": "phase vocabulary captured dynamically",
+      "status": "PASS",
+      "detail": "12 raw instances / 9 base names"
+    },
+    {
+      "id": "D02",
+      "check": "new phases retained (never dropped)",
+      "status": "PASS",
+      "detail": "new=['MU_PHASE']"
+    },
+    {
+      "id": "D03",
+      "check": "LIQUID has its own family",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "E01",
+      "check": "solver escalation metadata recorded",
+      "status": "PASS",
+      "detail": "levels={0: 548201, 1: 2, 2: 3, 3: 1794} bridge_success=226 failures=1568"
+    },
+    {
+      "id": "F01",
+      "check": "checkpoint rows == 550000",
+      "status": "PASS",
+      "detail": "rows=550000"
+    },
+    {
+      "id": "F02",
+      "check": "every SUCCESS checkpoint has a stored raw result (spec 2.E)",
+      "status": "PASS",
+      "detail": "missing=0 {1: [], 2: []}"
+    },
+    {
+      "id": "F03",
+      "check": "a composition is never split across processes",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "id": "G01",
+      "check": "no family has a completely degenerate topology",
+      "status": "WARN",
+      "detail": "single-outcome families: ['MO']"
+    },
+    {
+      "id": "H01",
+      "check": "LIQUID handled as an independent 5th family",
+      "status": "PASS",
+      "detail": "1955 states / 1955 compositions"
+    },
+    {
+      "id": "I01",
+      "check": "O(N^2) growth eliminated",
+      "status": "PASS",
+      "detail": "max slope 2.82e-07 s/state^2 (Step 3B: ~3.0e-3)"
+    }
+  ]
+}

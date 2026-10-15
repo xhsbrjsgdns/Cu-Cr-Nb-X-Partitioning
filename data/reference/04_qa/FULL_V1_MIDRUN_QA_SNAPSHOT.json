@@ -1,0 +1,69 @@
+{
+  "timestamp_utc": "2026-09-04T09:26:25Z",
+  "shards": [
+    1,
+    2
+  ],
+  "states_done": 550000,
+  "of_planned": 550000,
+  "progress_pct": 100.0,
+  "converged": 548432,
+  "failed": 1568,
+  "convergence_rate_so_far": 99.7149,
+  "failures_by_family": {
+    "MO": 1568
+  },
+  "failures_by_temperature": {
+    "950.0": 1568
+  },
+  "failures_outside_Mo950": {},
+  "checkpoint_status_counts": {
+    "SUCCESS": 548432,
+    "FAILED": 1568
+  },
+  "success_without_raw_result": 0,
+  "raw_result_without_success": 0,
+  "phase_bases_seen": [
+    "BCC_B2",
+    "C15_LAVES",
+    "CR3SI",
+    "CU4TI1",
+    "FCC_L12",
+    "LIQUID",
+    "MU_PHASE",
+    "SIGMA",
+    "ZRM5_C15B"
+  ],
+  "new_phase_bases_vs_pilot2000": [],
+  "temperatures_seen": [
+    300,
+    350,
+    400,
+    450,
+    500,
+    600,
+    700,
+    800,
+    900,
+    950,
+    1000
+  ],
+  "leaked_temperatures": [],
+  "compositions_in_progress_partial": 0,
+  "conservation_sample": {
+    "sampled_states": 20000,
+    "orphan_composition_rows": 0,
+    "partition_sum_max_dev": 2.220446049250313e-16,
+    "phase_composition_sum_max_dev": 2.220446049250313e-16
+  },
+  "ni_occurrences": 0,
+  "solver_levels": {
+    "0": 548201,
+    "3": 1794,
+    "2": 3,
+    "1": 2
+  },
+  "bridge_used": 226,
+  "stop_conditions": [],
+  "warnings": []
+}

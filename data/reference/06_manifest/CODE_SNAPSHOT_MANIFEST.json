@@ -1,0 +1,119 @@
+{
+  "generated_utc": "2026-09-03T16:14:19Z",
+  "purpose": "Exact code that produced FULL CALPHAD DATABASE V1 (spec section 60). Frozen at Stage C; must not be edited once production starts (spec section 61).",
+  "files": [
+    {
+      "filename": "21_fullv1_compositions.py",
+      "bytes": 22069,
+      "sha256": "0791d26efca820a29476796f0d2166254d2aed889dc530ad8953773f9f98633c",
+      "modified_utc": "2026-09-03T16:08:06Z"
+    },
+    {
+      "filename": "22_fullv1_run.py",
+      "bytes": 16162,
+      "sha256": "4325f256d28bd2f3d9c21d087720c325f372adefeb155d645a812e758f2ab5f7",
+      "modified_utc": "2026-09-03T16:12:35Z"
+    },
+    {
+      "filename": "22b_fullv1_proc_benchmark.py",
+      "bytes": 8544,
+      "sha256": "707d684ee70f6e8eebc132e4e706d943790fa4a26a683861b19efec26ded55e1",
+      "modified_utc": "2026-09-03T16:12:35Z"
+    },
+    {
+      "filename": "23_fullv1_partitioning.py",
+      "bytes": 16282,
+      "sha256": "0a03da8863932ee6721be60ca3ca23a07e90f9c3a1146a7780951e366e776a09",
+      "modified_utc": "2026-09-03T16:11:04Z"
+    },
+    {
+      "filename": "24_fullv1_qa.py",
+      "bytes": 34926,
+      "sha256": "5529270863b392cea6ac1ea682940cc869786e1d65468ea0957806d0d84831b8",
+      "modified_utc": "2026-09-04T10:45:00Z",
+      "sha256_original_at_freeze": "c908620c4c2d287a0217462622cced7993a984fc5f54198448f9d3c497c60624"
+    },
+    {
+      "filename": "25_fullv1_midrun_qa.py",
+      "bytes": 12505,
+      "sha256": "b87e24d25369126438e4fcf7f0e96fc626dcdf65044e863d2cb0a4c5f34ae51a",
+      "modified_utc": "2026-09-04T07:38:45Z",
+      "sha256_original_at_freeze": "2b352adff6d21620235df507692c50bef4600fe85d5f30daea585a4cca189040"
+    },
+    {
+      "filename": "dry_run_lib.py",
+      "bytes": 30879,
+      "sha256": "7c97467c2946c1cba9a836d08d72376683d4168fb9746481e90a152411b4d380",
+      "modified_utc": "2026-09-03T16:05:38Z"
+    },
+    {
+      "filename": "fivefamily.py",
+      "bytes": 797,
+      "sha256": "a703d95d5aa2b9c3ac78aa847ad0e488678c561b0710ed0d4bc9c3848c471af8",
+      "modified_utc": "2026-09-03T16:05:25Z"
+    },
+    {
+      "filename": "io_store.py",
+      "bytes": 12060,
+      "sha256": "a5c95317e7bc77464e06a66f6102dabd43584e0e7e3a5c0f7796ff44087dbb7c",
+      "modified_utc": "2026-09-03T16:05:25Z"
+    },
+    {
+      "filename": "solver_escalation.py",
+      "bytes": 6824,
+      "sha256": "98cd7bc19be4f5a647edde92a7486442e13a148e50945946b8acde5dfbe45b4e",
+      "modified_utc": "2026-09-03T16:05:25Z"
+    }
+  ],
+  "provenance": {
+    "dry_run_lib.py": "verbatim copy of 02_pilot_2000/code/dry_run_lib.py (Step 2 validated). Its PROJECT_ROOT constant is defined but never referenced, so the copy is path-neutral.",
+    "fivefamily.py": "verbatim copy - frozen 5-family mapping",
+    "solver_escalation.py": "verbatim copy - frozen Level 0-3 failure policy",
+    "io_store.py": "verbatim copy - SQLite transactional result store (Step 3C I/O patch)",
+    "21_fullv1_compositions.py": "new: 50k sampling, Sobol continuation from index 2048",
+    "22_fullv1_run.py": "from 18_pilot2000_run.py; paths/prefixes/--outroot only, physics untouched",
+    "22b_fullv1_proc_benchmark.py": "new: optional 2- vs 4-process gate (spec section 34)",
+    "23_fullv1_partitioning.py": "from 19_pilot2000_partitioning.py; paths + shard auto-detect only",
+    "24_fullv1_qa.py": "from 20_pilot2000_qa.py; paths + 50k/550k constants + 4-stage vocabulary",
+    "25_fullv1_midrun_qa.py": "new: read-only midrun snapshot (spec sections 40-41)"
+  },
+  "post_start_patches": [
+    {
+      "file": "25_fullv1_midrun_qa.py",
+      "patch_id": "FULL_V1_PATCH_01",
+      "applied_utc": "2026-09-04T07:38:45Z",
+      "scope": "READ-ONLY DIAGNOSTIC SCRIPT ONLY - not CALPHAD code, not the runner, not the partitioning or QA pipeline. No computed state is affected and nothing needs recalculating (spec section 61 freeze applies to the production calculation path).",
+      "reason": "Two false MIDRUN_STOP conditions, both defects in the checker itself: (1) the conservation sample applied LIMIT to the phase_result and phase_composition_result queries independently, so the two fetches covered different state sets and unmatched rows produced a spurious partition-sum deviation of exactly 1.0; (2) the checkpoint/result consistency check used separate read_sql_query calls against a live WAL store, so each read saw a different snapshot and states committed in between appeared as 'result-without-SUCCESS'.",
+      "fix": [
+        "one shared ORDERED CTE of state_ids drives both conservation fetches",
+        "all consistency reads run inside a single BEGIN DEFERRED snapshot",
+        "SUCCESS-without-result stays a hard STOP (structurally impossible direction); result-without-SUCCESS is downgraded to a warning",
+        "orphan join rows are now counted and reported so a future mismatch cannot hide"
+      ],
+      "verified": "both failure modes reproduced on synthetic stores that are conserved by construction (old code: partition dev 1.000e+00 and result-without-SUCCESS=2; fixed code: 2.220e-16 and 0)",
+      "sha256_before": "2b352adff6d21620235df507692c50bef4600fe85d5f30daea585a4cca189040",
+      "sha256_after": "b87e24d25369126438e4fcf7f0e96fc626dcdf65044e863d2cb0a4c5f34ae51a"
+    },
+    {
+      "file": "24_fullv1_qa.py",
+      "patch_id": "FULL_V1_PATCH_02",
+      "applied_utc": "2026-09-04T10:45:00Z",
+      "scope": "PRIOR-STAGE REFERENCE PATHS AND ONE REPORTING COLUMN ONLY - not CALPHAD code, not the runner, not the partitioning. No physics, no threshold, no phase mapping, no partition formula and no computed value is touched. Nothing needs recalculating (spec section 61 freeze applies to the production calculation path).",
+      "reason": "This file was produced from 20_pilot2000_qa.py by a global PILOT2000_ -> FULL_V1_ prefix rename. The rename also rewrote two paths that must keep their Pilot2000 filenames, and both silently resolved to non-existent files: (1) INV_P2000 pointed at 02_pilot_2000/04_qa/pilot2000/FULL_V1_RAW_PHASE_INVENTORY.csv, so the Pilot2000 prior-stage phase set was empty and MU_PHASE - the only base that first appeared in Pilot2000 - was falsely reported as NEW in FULL_V1; (2) check A10 pointed at 02_pilot_2000/01_compositions/pilot2000/FULL_V1_COMPOSITIONS.csv, so the duplicate-composition check silently skipped Pilot2000 and reported PASS on a comparison it had not actually performed.",
+      "fix": [
+        "INV_P2000 -> PILOT2000_RAW_PHASE_INVENTORY.csv",
+        "A10 prior-stage composition path -> PILOT2000_COMPOSITIONS.csv",
+        "A10 now records any prior-stage file it cannot find and reports WARN instead of PASS, so a missing reference can never again be silently read as 'no overlap'",
+        "the vocabulary comparison now also emits first_seen_stage, making the provenance of each phase base explicit rather than inferred from the seen_* flags"
+      ],
+      "verified": "Both corrected comparisons were re-run independently against the real Pilot2000 files before the patch was written. Phase vocabulary: 9 bases, is_new = 0 for all of them, MU_PHASE first_seen_stage = pilot2000 (present in PILOT2000_RAW_PHASE_INVENTORY.csv as 1 state / 1 CO composition / Domain B / 300 C). Composition overlap: 2000 Pilot2000 signatures vs 50000 FULL_V1 signatures, intersection = 0, so A10's PASS verdict was correct in substance even though the check itself had been incomplete.",
+      "artifacts_corrected": [
+        "04_qa/FULL_V1_PHASE_VOCABULARY_COMPARISON.csv",
+        "04_qa/FULL_V1_NEW_PHASE_REPORT.md"
+      ],
+      "sha256_before": "c908620c4c2d287a0217462622cced7993a984fc5f54198448f9d3c497c60624",
+      "sha256_after": "5529270863b392cea6ac1ea682940cc869786e1d65468ea0957806d0d84831b8"
+    }
+  ],
+  "freeze_note": "Two post-start patches exist. Both are recorded above with before/after SHA256. Neither touches the CALPHAD calculation path, the runner, the partitioning or the 5-family/partition physics, and no result was recalculated as a consequence of either. The four core modules - dry_run_lib.py, fivefamily.py, io_store.py, solver_escalation.py - remain byte-identical to their Pilot2000 versions."
+}

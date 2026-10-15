@@ -1,0 +1,115 @@
+{
+  "generated_utc": "2026-09-07T14:15:33+00:00",
+  "stage": "STEP5K Part A Stage 2 - post-freeze non-Ni literature-composition CALPHAD",
+  "engine": "frozen FULL_V1 dry_run_lib + solver_escalation from E:\\Cu_CALPHAD_ML\\03_full_CALPHAD\\FULL_V1\\code_snapshot",
+  "database": "TCCU6",
+  "P_Pa": 100000.0,
+  "N_mol": 1.0,
+  "temperatures_C": [
+    300,
+    350,
+    400,
+    450,
+    500,
+    600,
+    700,
+    800,
+    900,
+    950,
+    1000
+  ],
+  "n_compositions": 8,
+  "n_states": 88,
+  "n_converged": 88,
+  "n_failed_kept_not_deleted": 0,
+  "ni_states_run": 0,
+  "is_a_calphad_layer_check_not_an_ML_validation": true,
+  "ml_predictions_made_for_these_compositions": 0,
+  "used_to_retrain_or_retune_anything": false,
+  "compositions": [
+    {
+      "ext_id": "EXT_01_Cu3Cr05Nb",
+      "wt_pct": {
+        "CU": 96.5,
+        "CR": 3.0,
+        "NB": 0.5
+      },
+      "provenance": "LIT_17 (wt.% stated in the abstract)",
+      "purpose": "Nb-lean sintered Cu-Cr-Nb; paper reports Cr-based and Cr2Nb precipitates"
+    },
+    {
+      "ext_id": "EXT_02_GRCop42_at",
+      "wt_pct": {
+        "CU": 93.815145,
+        "CR": 3.266537,
+        "NB": 2.918317
+      },
+      "provenance": "LIT_18 (at.% designation -> wt.%)",
+      "purpose": "GRCop-42 read as Cu-4at.%Cr-2at.%Nb (NASA designation), converted to wt.%"
+    },
+    {
+      "ext_id": "EXT_03_GRCop84_at",
+      "wt_pct": {
+        "CU": 87.654568,
+        "CR": 6.520253,
+        "NB": 5.825179
+      },
+      "provenance": "LIT_18 (at.% designation -> wt.%)",
+      "purpose": "GRCop-84 read as Cu-8at.%Cr-4at.%Nb (NASA designation), converted to wt.%"
+    },
+    {
+      "ext_id": "EXT_02b_GRCop42_wt",
+      "wt_pct": {
+        "CU": 94.0,
+        "CR": 4.0,
+        "NB": 2.0
+      },
+      "provenance": "LIT_18 (digits read as wt.% (alternative))",
+      "purpose": "GRCop-42 digits read as wt.% instead - alternative reading, not asserted"
+    },
+    {
+      "ext_id": "EXT_03b_GRCop84_wt",
+      "wt_pct": {
+        "CU": 88.0,
+        "CR": 8.0,
+        "NB": 4.0
+      },
+      "provenance": "LIT_18 (digits read as wt.% (alternative))",
+      "purpose": "GRCop-84 digits read as wt.% instead - alternative reading, not asserted"
+    },
+    {
+      "ext_id": "EXT_04_Cu021Cr020Zr",
+      "wt_pct": {
+        "CU": 99.59,
+        "CR": 0.21,
+        "ZR": 0.2
+      },
+      "provenance": "LIT_04 (wt.% stated in the abstract)",
+      "purpose": "Cu-Cr-Zr, no Nb; paper reports equilibrium Cu5Zr after 450 C / 1 h"
+    },
+    {
+      "ext_id": "EXT_05_Cu013Zr",
+      "wt_pct": {
+        "CU": 99.87,
+        "ZR": 0.13
+      },
+      "provenance": "LIT_05 (wt.% stated in the abstract)",
+      "purpose": "binary Cu-Zr; paper reports Cu5Zr as the equilibrium phase, 450-950 C"
+    },
+    {
+      "ext_id": "EXT_06_Cu006Zr",
+      "wt_pct": {
+        "CU": 99.94,
+        "ZR": 0.06
+      },
+      "provenance": "LIT_04 (wt.% stated in the abstract)",
+      "purpose": "binary Cu-Zr, dilute; two-stage decomposition to equilibrium Cu5Zr"
+    }
+  ],
+  "excluded_on_purpose": {
+    "LIT_19 Cu-0.3%Cr": "available metadata does not distinguish wt.% from at.%; spec 5 forbids inferring the basis",
+    "LIT_10 Cu-Cr-Zr-Zn-0.45Fe-0.2Ti": "Cr, Zr and Zn contents are not stated, so the composition cannot be built without inventing numbers"
+  },
+  "wall_clock_seconds": 41.5,
+  "protected_artifacts_unchanged": true
+}

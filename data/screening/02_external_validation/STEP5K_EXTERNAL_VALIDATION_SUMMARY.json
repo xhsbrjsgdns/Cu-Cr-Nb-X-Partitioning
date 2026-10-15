@@ -1,0 +1,17 @@
+{
+  "retrieved_papers": 20,
+  "usable_papers": 4,
+  "directly_comparable": 1,
+  "qualitatively_comparable": 3,
+  "not_directly_comparable": 16,
+  "agreement_counts": {
+    "NOT_COMPARABLE": 16,
+    "PARTIALLY_CONSISTENT": 4
+  },
+  "calculated_states": 88,
+  "source_supported_states": 66,
+  "excluded_sensitivity_states": 22,
+  "target_10_to_20_usable_met": false,
+  "target_12_usable_met": false,
+  "no_ML_validation_claim": true
+}

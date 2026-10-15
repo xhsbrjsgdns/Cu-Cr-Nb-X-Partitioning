@@ -1,0 +1,35 @@
+{
+  "generated_utc": "2026-09-07T09:20:06+00:00",
+  "n_compositions": 120000,
+  "n_states": 480000,
+  "temperatures": [
+    450,
+    600,
+    950,
+    1000
+  ],
+  "models": {
+    "fraction": {
+      "family": "CatBoost",
+      "refit": false,
+      "artifact": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\04_models\\final\\fraction\\model_state.pkl"
+    },
+    "cr_partition": {
+      "family": "CatBoost",
+      "refit": false,
+      "artifact": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\04_models\\final\\cr_partition\\model_state.pkl"
+    },
+    "x_partition": {
+      "family": "XGBoost",
+      "refit": false,
+      "artifact": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\04_models\\final\\x_partition\\model_state.pkl"
+    }
+  },
+  "feature_path_source_consistency": "STEP5H-A proven bit-exact (max |delta| 0)",
+  "ood_reference_rows": 24500,
+  "ood_inside_trusted": 108402,
+  "ood_median_distance": 0.33731278420696753,
+  "ni_rows_featurized": 0,
+  "ni_rows_predicted": 0,
+  "space_sha256": "ac85ed0ae40e6612dd3acab6fce29bfad2eb7c77c8f09bd08f2fcc60333a8c30"
+}

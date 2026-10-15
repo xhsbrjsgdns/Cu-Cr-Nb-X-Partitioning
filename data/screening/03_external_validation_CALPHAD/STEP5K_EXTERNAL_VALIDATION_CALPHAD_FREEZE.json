@@ -1,0 +1,8 @@
+{
+  "sha256": "a801a1b85a14bb426d818b035165c5465b29f1247b565e8f9bf1fd17eb02c0c2",
+  "states": 88,
+  "converged": 88,
+  "ni_states": 0,
+  "phase_mapping": "unchanged FULL_V1 fivefamily.py",
+  "role": "POST-FREEZE EXTERNAL VALIDATION; 66 source-supported states + 22 excluded wrong-basis sensitivity states"
+}

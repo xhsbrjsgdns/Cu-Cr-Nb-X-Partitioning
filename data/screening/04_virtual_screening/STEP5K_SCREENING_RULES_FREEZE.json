@@ -1,0 +1,154 @@
+{
+  "freeze_id": "STEP5K_SCREENING_RULES_FREEZE_V1",
+  "generated_utc": "2026-09-07T08:46:36+00:00",
+  "frozen_before_any_screening_prediction": true,
+  "candidate_space": {
+    "identities": [
+      "ZR",
+      "TI",
+      "CO",
+      "SI",
+      "AG",
+      "MO"
+    ],
+    "n_per_family": 20000,
+    "total": 120000,
+    "master_seed": 20260913,
+    "sampler": "Sobol(d=3, scramble=True), one child stream per family",
+    "bounds": {
+      "S_CrNb_wt_pct": [
+        0.6,
+        2.0
+      ],
+      "R_CrNb_atomic": [
+        2.0,
+        6.5
+      ],
+      "X_wt_pct": [
+        0.02,
+        0.2
+      ]
+    },
+    "inversion": "w_Nb = S/(1+R*M_Cr/M_Nb); w_Cr = S - w_Nb (frozen FULL_V1)",
+    "per_family_log": {
+      "ZR": {
+        "family_seed": 4065106414,
+        "sobol_points_drawn": 20000,
+        "duplicates_or_invalid_skipped": 0,
+        "n_unique": 20000
+      },
+      "TI": {
+        "family_seed": 4086111460,
+        "sobol_points_drawn": 20000,
+        "duplicates_or_invalid_skipped": 0,
+        "n_unique": 20000
+      },
+      "CO": {
+        "family_seed": 704763695,
+        "sobol_points_drawn": 20000,
+        "duplicates_or_invalid_skipped": 0,
+        "n_unique": 20000
+      },
+      "SI": {
+        "family_seed": 1102917674,
+        "sobol_points_drawn": 20000,
+        "duplicates_or_invalid_skipped": 0,
+        "n_unique": 20000
+      },
+      "AG": {
+        "family_seed": 3340796427,
+        "sobol_points_drawn": 20000,
+        "duplicates_or_invalid_skipped": 0,
+        "n_unique": 20000
+      },
+      "MO": {
+        "family_seed": 4141883734,
+        "sobol_points_drawn": 20000,
+        "duplicates_or_invalid_skipped": 0,
+        "n_unique": 20000
+      }
+    },
+    "compositions_file": "E:\\Cu_CALPHAD_ML\\08_FINAL_MANUSCRIPT\\STEP5K_ORIGINAL_PLAN_GAP_CLOSURE_V1\\04_virtual_screening\\STEP5K_VIRTUAL_CANDIDATE_COMPOSITIONS.csv",
+    "compositions_sha256": "f7eee7bfdb4ec7821ff8090ac7f5da517acd2c27697a13d76aca1f646da118fe",
+    "no_ni_no_unseen_x": true
+  },
+  "objectives": {
+    "A_maximize": "pred Cr partition to FCC at 950 C (Cr_FCC_950)",
+    "B_maximize": "pred useful Cr release: Delta_Cr_FCC = Cr_FCC(950) - Cr_FCC(450)",
+    "C_constraint": "pred C15 family volume fraction within the moderate band at BOTH 450 C and 600 C (band below); NOT maximized",
+    "D_minimize": "pred Cr partition to OTHER_SOLID at 450 C (Cr_OTHER_450)",
+    "E_constraint": "pred LIQUID family fraction <= 0.01 at every screening temperature (hard QA; in-domain liquid fraction is 0)",
+    "F_filter": "OOD applicability (below) - hard filter, not an objective"
+  },
+  "moderate_c15_band": {
+    "rule": "middle quantile band (q0.25, q0.75) of NON-ZERO C15 family volume fraction, FULL_V1 Domain A, 450+600 C pooled",
+    "source": "FULL_V1_ML_READY_CONVERGED.parquet (frozen)",
+    "n_nonzero_states": 69951,
+    "band_low": 0.006963180159749138,
+    "band_high": 0.012557884123927762
+  },
+  "ood_filter": {
+    "rule": "mean 5-NN Euclidean distance (600 C embedding) to STEP5A DEV_TRAIN composition rows <= 1.50",
+    "reference": "STEP5A DEV_TRAIN rows at 600 C from FULL_V1_CANDIDATE_FEATURES (frozen)",
+    "scaler": "StandardScaler fitted on the reference rows only (geometry convention from frozen STEP5E maximin; not a model scaler)",
+    "threshold": 1.5,
+    "k": 5,
+    "note": "threshold fixed pre-ranking and documented, not tuned"
+  },
+  "pareto_protocol": {
+    "method": "non-dominated sorting (maximize A, B; minimize D) over the APPLICABLE set (C, E, F satisfied)",
+    "no_weighted_score": true,
+    "global_front": true,
+    "family_specific_fronts": true,
+    "family_fairness": "both global and per-family fronts are reported; no family may silently fill the finalist list (spec 27)"
+  },
+  "diversity_selection": {
+    "method": "deterministic maximin diversity within the global Pareto set, in (S_CrNb, R_CrNb_atomic, X_wt_pct) scaled space",
+    "per_family_target": [
+      3,
+      5
+    ],
+    "max_total": 30,
+    "no_target_performance_used": true,
+    "rule": "iterate families round-robin; within a family pick the Pareto member maximizing the minimum scaled distance to already-picked finalists; ties -> lexicographically smallest candidate_id; stop at 5 per family or 30 total; if a family's applicable Pareto set has fewer than 3 members, take all of them and report the shortfall"
+  },
+  "confirmation": {
+    "engine": "Thermo-Calc 2025b / TC-Python 2025.2.30 / TCCU6 v6.2, 1 bar, 1 mol, wt.%, Cu balance, equilibrium only (frozen FULL_V1 runner)",
+    "temperatures": [
+      450,
+      600,
+      950,
+      1000
+    ],
+    "max_states": 120,
+    "label": "POST-FREEZE NON-Ni screening confirmation; NOT a blind test; never used to retrain or retune anything (spec 13, 34)"
+  },
+  "claim_language": {
+    "allowed": [
+      "thermodynamically promising",
+      "CALPHAD-informed candidate",
+      "equilibrium screening candidate"
+    ],
+    "forbidden": [
+      "optimal alloy",
+      "best alloy",
+      "highest-strength",
+      "highest strength",
+      "industrial alloy"
+    ]
+  },
+  "amendments": [
+    {
+      "amendment_utc": "2026-09-07T14:06:02+00:00",
+      "what": "diversity-selection finalist pool clarified: each family's OWN Pareto front is the pool (the global front alone was ZR-only by domination); families with <3 front members extend with their next family_pareto_rank values to reach the preregistered 3-per-family minimum",
+      "why": "STEP5K brief spec 27-28 requires 3-5 finalists per family; made BEFORE any Thermo-Calc confirmation state exists; changes no objective, constraint, threshold or model",
+      "rules_unchanged": [
+        "objectives A-D",
+        "constraint C band",
+        "constraint E",
+        "filter F threshold",
+        "no-weighted-score rule"
+      ]
+    }
+  ]
+}

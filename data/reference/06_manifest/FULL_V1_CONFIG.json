@@ -1,0 +1,357 @@
+{
+  "project": "Cu-Cr-Nb-X CALPHAD + Machine Learning + Out-of-Domain Generalization",
+  "stage": "STEP 4 - FULL CALPHAD DATABASE V1",
+  "database_version": "FULL_V1",
+  "frozen_utc": "2026-09-03T16:15:01Z",
+  "software": {
+    "thermo_calc_release": "2025b",
+    "tc_python": "2025.2.30",
+    "thermodynamic_database": "TCCU6",
+    "database_title": "Cu-Alloys v6.2",
+    "python": "C:\\Program Files\\Thermo-Calc\\2025b\\python\\python.exe (3.9.20)",
+    "mobility_database": null,
+    "notes": "no MOBCU5 / DFT / ANSYS / MD / phase-field"
+  },
+  "thermodynamic_conditions": {
+    "pressure_bar": 1.0,
+    "pressure_Pa": 100000.0,
+    "system_size_mol": 1.0,
+    "composition_basis": "wt.%",
+    "balance_element": "CU"
+  },
+  "temperature_grid_C": [
+    300,
+    350,
+    400,
+    450,
+    500,
+    600,
+    700,
+    800,
+    900,
+    950,
+    1000
+  ],
+  "temperature_conversion": "T_K = T_C + 273.15",
+  "elements": {
+    "base": [
+      "CU",
+      "CR",
+      "NB"
+    ],
+    "X": [
+      "ZR",
+      "TI",
+      "CO",
+      "SI",
+      "AG",
+      "MO"
+    ],
+    "frozen_out": [
+      "NI"
+    ],
+    "ni_policy": "Ni is sealed for the final prospective unseen-element blind OOD test. Zero Ni anywhere in FULL_V1: no composition, no calculation, no QA use, no parameter selection."
+  },
+  "scale": {
+    "compositions": 50000,
+    "temperatures": 11,
+    "target_states": 550000
+  },
+  "family_allocation": {
+    "BASELINE": 5000,
+    "ZR": 7500,
+    "TI": 7500,
+    "CO": 7500,
+    "SI": 7500,
+    "AG": 7500,
+    "MO": 7500
+  },
+  "domain_allocation": {
+    "A": 35000,
+    "B": 10000,
+    "ANCHOR": 5000,
+    "per_family_ratio": "70% A / 20% B / 10% ANCHOR"
+  },
+  "sampling": {
+    "variables": [
+      "S_CrNb = wCr + wNb (wt.%)",
+      "R_CrNb_atomic = nCr/nNb"
+    ],
+    "independent_Cr_Nb_sampling": false,
+    "molar_masses": {
+      "CR": 51.9961,
+      "NB": 92.9064
+    },
+    "inversion": "wNb = S / (1 + R*(M_Cr/M_Nb)) ; wCr = S - wNb",
+    "domain_A": {
+      "S_CrNb": [
+        0.6,
+        2.0
+      ],
+      "R_CrNb_atomic": [
+        2.0,
+        6.5
+      ],
+      "X_wt_pct": {
+        "ZR": [
+          0.02,
+          0.2
+        ],
+        "TI": [
+          0.02,
+          0.2
+        ],
+        "CO": [
+          0.03,
+          0.3
+        ],
+        "SI": [
+          0.005,
+          0.08
+        ],
+        "AG": [
+          0.03,
+          0.3
+        ],
+        "MO": [
+          0.03,
+          0.3
+        ]
+      }
+    },
+    "domain_B": {
+      "S_CrNb": [
+        2.0,
+        4.5
+      ],
+      "R_CrNb_atomic": [
+        1.0,
+        4.0
+      ],
+      "X_wt_pct": {
+        "ZR": [
+          0.02,
+          0.4
+        ],
+        "TI": [
+          0.02,
+          0.35
+        ],
+        "CO": [
+          0.03,
+          0.6
+        ],
+        "SI": [
+          0.005,
+          0.15
+        ],
+        "AG": [
+          0.03,
+          0.6
+        ],
+        "MO": [
+          0.03,
+          0.6
+        ]
+      }
+    },
+    "anchor_centers_wt_pct": {
+      "BASELINE": {
+        "Cr": 0.47,
+        "Nb": 0.16
+      },
+      "ZR": {
+        "Cr": 2.0,
+        "Nb": 1.35,
+        "X": 0.15
+      },
+      "TI": {
+        "Cr": 1.65,
+        "Nb": 1.35,
+        "X": 0.12
+      },
+      "CO": {
+        "Cr": 2.1289,
+        "Nb": 1.3167,
+        "X": 0.1392
+      },
+      "SI": {
+        "Cr": 2.1304,
+        "Nb": 1.3177,
+        "X": 0.0664
+      },
+      "AG": {
+        "Cr": 2.1264,
+        "Nb": 1.3152,
+        "X": 0.2545
+      },
+      "MO": {
+        "Cr": 2.127,
+        "Nb": 1.3156,
+        "X": 0.2264
+      }
+    },
+    "anchor_perturbation": "independent uniform +/-10% per solute",
+    "sobol": {
+      "engine": "scipy.stats.qmc.Sobol",
+      "d": 3,
+      "scramble": true,
+      "master_seed": 20260903,
+      "skip": 2048,
+      "block": 65536,
+      "domain_A_global_index": [
+        2048,
+        37048
+      ],
+      "domain_B_global_index": [
+        37048,
+        47048
+      ],
+      "prior_consumption": {
+        "Mini20": {
+          "A": [
+            0,
+            8
+          ],
+          "B": [
+            0,
+            8
+          ]
+        },
+        "Pilot200": {
+          "A": [
+            8,
+            264
+          ],
+          "B": [
+            8,
+            136
+          ]
+        },
+        "Pilot2000": {
+          "A": [
+            512,
+            2048
+          ],
+          "B": [
+            512,
+            1024
+          ]
+        }
+      },
+      "anchor_rng": "numpy.random.default_rng(20260906)  # master_seed + 3"
+    },
+    "wt_pct_output_precision": "4 decimals (frozen since Mini20 - this is the Thermo-Calc input); full-precision values kept in *_exact columns"
+  },
+  "phase_policy": {
+    "core_families": [
+      "FCC",
+      "BCC",
+      "C15",
+      "OTHER_SOLID",
+      "LIQUID"
+    ],
+    "mapping": {
+      "FCC_L12*": "FCC",
+      "BCC_B2*": "BCC",
+      "C15_LAVES*": "C15",
+      "LIQUID*": "LIQUID",
+      "<any other stable solid>": "OTHER_SOLID"
+    },
+    "known_OTHER_SOLID": [
+      "CR3SI",
+      "CU4TI1",
+      "SIGMA",
+      "ZRM5_C15B",
+      "MU_PHASE"
+    ],
+    "whitelist": false,
+    "extraction": "fully dynamic get_stable_phases(); every raw phase name, model base, moles, mole/volume/mass fraction and phase composition is stored",
+    "new_phase_policy": "never dropped; raw retained; default OTHER_SOLID; reported as NEW_PHASE_DISCOVERED; core 5-family schema is NOT changed",
+    "instance_numbering": "#1/#2 carry no physical identity; identity must be judged from phase composition",
+    "presence_threshold": {
+      "quantity": "aggregated phase volume fraction",
+      "value": 0.0001
+    },
+    "auxiliary_diagnostic_columns": [
+      "ZRM5_C15B_volfrac_AUX",
+      "C15_family_wide_volfrac_AUX",
+      "X_P_C15_family_wide_AUX",
+      "SIGMA_volfrac_AUX"
+    ],
+    "auxiliary_rule": "AUXILIARY / DIAGNOSTIC only - never included in the core 5-family sum-to-one constraint (ZRM5_C15B is already inside OTHER_SOLID)"
+  },
+  "partition_definition": {
+    "formula": [
+      "n_i_alpha = phase_moles_alpha * X_i_alpha",
+      "P_i_alpha = n_i_alpha / sum_beta(n_i_beta)"
+    ],
+    "elements": [
+      "CR",
+      "NB",
+      "X"
+    ],
+    "baseline_X_target": "NaN (never 0)",
+    "forbidden": "phase_volume_fraction * element_mole_fraction",
+    "pilot2000_conservation_max_dev": 3.33e-16
+  },
+  "failure_policy": {
+    "escalation": [
+      "L0 direct",
+      "L1 rebuild calculation",
+      "L2 rebuild TC-Python session",
+      "L3 adaptive temperature bridge"
+    ],
+    "max_attempts": 3,
+    "on_final_failure": "keep the state row, original error, solver level, attempt count and bridge metadata; FAILED is a result, not a gap",
+    "forbidden": [
+      "delete FAILED",
+      "interpolate",
+      "substitute 900 C or 1000 C",
+      "fabricate",
+      "unbounded retry"
+    ],
+    "known_hard_region": "Mo @ 950 C - composition-dependent BCC miscibility-gap closing boundary (split fraction 0.937 -> 0.135 -> 0 across 300/950/1000 C)",
+    "bridge_temperatures": "solver aid only; never enter EQUILIBRIUM_STATES, ML targets or any temperature histogram"
+  },
+  "io_architecture": {
+    "canonical_store": "per-shard SQLite; result rows and the checkpoint SUCCESS flip commit in ONE transaction, so 'SUCCESS without raw result' is structurally impossible",
+    "export": "single batched export after the shard finishes; wide 5-family table via one pivot_table, never inside the calculation loop",
+    "forbidden": "the Pilot200 per-state full-CSV rewrite path (O(N^2))",
+    "long_tables": "Parquet preferred, gzipped CSV fallback"
+  },
+  "execution": {
+    "processes_default": 2,
+    "processes_4_allowed_only_after": "22b_fullv1_proc_benchmark.py verdict USE_4_PROCESS (>=1.5x, identical numbers)",
+    "shard_split": "stride by composition_id (ids[(n-1)::nshards]) - keeps every family and domain balanced across shards",
+    "invariant": "a composition's 11 temperatures always run in one process"
+  },
+  "ood_policy": {
+    "group_key": "composition_id",
+    "rule": "all 11 temperatures of a composition go to the same train/val/test split",
+    "loeo_elements": [
+      "ZR",
+      "TI",
+      "CO",
+      "SI",
+      "AG",
+      "MO"
+    ],
+    "ni": "prospective blind unseen-element test, after the model is fully frozen"
+  },
+  "outputs": {
+    "ml_target_all": "all 550,000 rows incl. FAILED (NaN targets + failure metadata)",
+    "ml_ready_converged": "converged rows only",
+    "rule": "raw and aggregated are both retained; raw is never deleted"
+  },
+  "estimates_from_pilot2000": {
+    "seconds_per_state_wall": [
+      0.4314,
+      0.4551
+    ],
+    "projected_wall_hours_per_shard_2proc": 34.0,
+    "projected_disk_GB": 3.05,
+    "recommended_free_disk_GB": 5.0,
+    "expected_Mo950_failures": "~1775 of 550,000 (0.32%), scaled from 71/22,000"
+  }
+}

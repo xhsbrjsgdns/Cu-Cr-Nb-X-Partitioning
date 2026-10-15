@@ -1,0 +1,37 @@
+{
+  "states": 550000,
+  "converged": 548432,
+  "phase_rows": 1771133,
+  "phase_composition_rows": 6923224,
+  "partition_raw_rows": 6923224,
+  "agg_rows": 1704086,
+  "partition_agg_rows": 548432,
+  "ml_rows": 550000,
+  "liquid_states": 1955,
+  "files": [
+    "FULL_V1_PHASES_LONG.parquet",
+    "FULL_V1_PHASE_COMPOSITIONS_LONG.parquet",
+    "FULL_V1_ELEMENT_PARTITIONING_RAW.parquet",
+    "FULL_V1_AGGREGATED_PHASES_LONG.parquet",
+    "FULL_V1_AGGREGATED_PHASES.parquet",
+    "FULL_V1_ELEMENT_PARTITIONING_AGGREGATED.parquet",
+    "FULL_V1_ML_TARGET_PREVIEW.parquet"
+  ],
+  "auxiliary_columns": [
+    "C15_family_wide_volfrac_AUX",
+    "CR_P_C15_family_wide_AUX",
+    "NB_P_C15_family_wide_AUX",
+    "P_AG_C15_family_wide_AUX",
+    "P_CO_C15_family_wide_AUX",
+    "P_CR_C15_family_wide_AUX",
+    "P_MO_C15_family_wide_AUX",
+    "P_NB_C15_family_wide_AUX",
+    "P_SI_C15_family_wide_AUX",
+    "P_TI_C15_family_wide_AUX",
+    "P_ZR_C15_family_wide_AUX",
+    "SIGMA_volfrac_AUX",
+    "X_P_C15_family_wide_AUX",
+    "ZRM5_C15B_volfrac_AUX"
+  ],
+  "parquet_available": true
+}

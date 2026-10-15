@@ -1,0 +1,150 @@
+{
+  "status": "PASS",
+  "n": 50000,
+  "checks": [
+    {
+      "desc": "total compositions == 50,000",
+      "ok": true,
+      "detail": "50000"
+    },
+    {
+      "desc": "composition_id unique",
+      "ok": true,
+      "detail": "50000"
+    },
+    {
+      "desc": "7 families complete",
+      "ok": true,
+      "detail": "['AG', 'BASELINE', 'CO', 'MO', 'SI', 'TI', 'ZR']"
+    },
+    {
+      "desc": "baseline == 5,000",
+      "ok": true,
+      "detail": "5000"
+    },
+    {
+      "desc": "each X family == 7,500",
+      "ok": true,
+      "detail": "{'ZR': 7500, 'TI': 7500, 'CO': 7500, 'SI': 7500, 'AG': 7500, 'MO': 7500}"
+    },
+    {
+      "desc": "domain A35000 / B10000 / ANCHOR5000",
+      "ok": true,
+      "detail": "{'A': 35000, 'B': 10000, 'ANCHOR': 5000}"
+    },
+    {
+      "desc": "per-family 70/20/10 split exact",
+      "ok": true,
+      "detail": "{'A': {'AG': 5250, 'BASELINE': 3500, 'CO': 5250, 'MO': 5250, 'SI': 5250, 'TI': 5250, 'ZR': 5250}, 'ANCHOR': {'AG': 750, 'BASELINE': 500, 'CO': 750, 'MO': 750, 'SI': 750, 'TI': 750, 'ZR': 750}, 'B': {'AG': 1500, 'BASELINE': 1000, 'CO': 1500, 'MO': 1500, 'SI': 1500, 'TI': 1500, 'ZR': 1500}}"
+    },
+    {
+      "desc": "Domain A/B ranges satisfied",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "desc": "anchor perturbation <= +/-10%",
+      "ok": true,
+      "detail": "max |Cr|=9.9981 |Nb|=9.9983 |X|=9.9992"
+    },
+    {
+      "desc": "composition sum == 100 wt%",
+      "ok": true,
+      "detail": "min=100.0000 max=100.0000"
+    },
+    {
+      "desc": "Cu > 90 wt%",
+      "ok": true,
+      "detail": "min=94.9214 max=99.4311"
+    },
+    {
+      "desc": "all solutes > 0",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "desc": "R_actual ~ R_target (<=0.01)",
+      "ok": true,
+      "detail": "max |R_error| = 2.565e-03"
+    },
+    {
+      "desc": "no internal duplicate",
+      "ok": true,
+      "detail": "50000/50000"
+    },
+    {
+      "desc": "no duplicate vs Step2.5 + Mini20 + Pilot200 + Pilot2000",
+      "ok": true,
+      "detail": "prior={'Step2.5': 7, 'Mini20': 20, 'Pilot200': 200, 'Pilot2000': 2000} overlap=0 []"
+    },
+    {
+      "desc": "no Ni / NI anywhere",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "desc": "no NaN / Inf / negative",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "desc": "Sobol indices strictly above every prior stage (>= 2048)",
+      "ok": true,
+      "detail": "min=2048 max=47047 (prior max consumed = 2048)"
+    }
+  ],
+  "sobol": {
+    "seed": 20260903,
+    "skip": 2048,
+    "block": 65536,
+    "domain_A_global_index": [
+      2048,
+      37048
+    ],
+    "domain_B_global_index": [
+      37048,
+      47048
+    ],
+    "anchor_rng": 20260906
+  },
+  "collisions": {
+    "sobol_collisions": 0,
+    "anchor_collisions": 0,
+    "spare_used": 0
+  },
+  "prior_counts": {
+    "Step2.5": 7,
+    "Mini20": 20,
+    "Pilot200": 200,
+    "Pilot2000": 2000
+  },
+  "allocation": {
+    "A": {
+      "AG": 5250,
+      "BASELINE": 3500,
+      "CO": 5250,
+      "MO": 5250,
+      "SI": 5250,
+      "TI": 5250,
+      "ZR": 5250
+    },
+    "ANCHOR": {
+      "AG": 750,
+      "BASELINE": 500,
+      "CO": 750,
+      "MO": 750,
+      "SI": 750,
+      "TI": 750,
+      "ZR": 750
+    },
+    "B": {
+      "AG": 1500,
+      "BASELINE": 1000,
+      "CO": 1500,
+      "MO": 1500,
+      "SI": 1500,
+      "TI": 1500,
+      "ZR": 1500
+    }
+  }
+}

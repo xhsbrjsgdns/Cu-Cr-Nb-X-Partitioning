@@ -1,0 +1,57 @@
+{
+  "generated_utc": "2026-09-07T14:07:57+00:00",
+  "rules_sha256": "da411ebce48f7c575002338e3e9ac5b15b32bd2df157fe3f138caa60fe75718e",
+  "rules_frozen_before_prediction": true,
+  "n_candidates": 120000,
+  "n_applicable": 52944,
+  "applicable_per_family": {
+    "ZR": 9348,
+    "TI": 9966,
+    "CO": 9948,
+    "SI": 3928,
+    "AG": 9969,
+    "MO": 9785
+  },
+  "constraint_counts": {
+    "C_band": 57266,
+    "E_liquid": 119917,
+    "F_ood": 108402
+  },
+  "objectives": {
+    "A": "maximize Cr_FCC_950",
+    "B": "maximize Delta_Cr_FCC",
+    "D": "minimize Cr_OTHER_450"
+  },
+  "sorting_algorithm": "exact O(n log n) lexicographic sweep with a Fenwick prefix-maximum tree; verified against brute force on 1500 sampled candidates every run",
+  "bruteforce_check": {
+    "n_sampled": 1500,
+    "identical": true,
+    "front_size_sweep": 2,
+    "front_size_bruteforce": 2
+  },
+  "max_fronts_computed": 50,
+  "rank_beyond_max_fronts_is_labelled": 51,
+  "global_front": 5,
+  "family_front": {
+    "ZR": 5,
+    "TI": 3,
+    "CO": 1,
+    "SI": 36,
+    "AG": 1,
+    "MO": 1
+  },
+  "finalists": 22,
+  "per_family_finalists": {
+    "ZR": 5,
+    "TI": 3,
+    "CO": 3,
+    "SI": 5,
+    "AG": 3,
+    "MO": 3
+  },
+  "per_family_shortfall_vs_minimum_3": {},
+  "diversity_method": "deterministic maximin diversity within the global Pareto set, in (S_CrNb, R_CrNb_atomic, X_wt_pct) scaled space",
+  "no_weighted_score_used": true,
+  "pareto_file_sha256": "fba59d155bea3b05d04615c26de24e829c7d7b1a5d6315f70142a9ae3a269eda",
+  "candidates_file_sha256": "db6ae1cf510d1fef36ad621a70e2cf743397a370813803aa9cd595e0de92ea9e"
+}

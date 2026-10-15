@@ -1,0 +1,13 @@
+{
+  "verdict": "KEEP_2_PROCESS",
+  "n_compositions": 77,
+  "n_states": 847,
+  "wall_2proc": 123.39317345619202,
+  "wall_4proc": 84.98893761634827,
+  "speedup": 1.4518733486610427,
+  "min_speedup_gate": 1.5,
+  "diffs": [],
+  "errors": [],
+  "converged_2": 847,
+  "converged_4": 847
+}
