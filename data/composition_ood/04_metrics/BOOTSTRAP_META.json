@@ -1,0 +1,11 @@
+{
+  "seed": 20260905,
+  "n_replicates_requested": 1000,
+  "scheme": "independent composition bootstrap; all rows carried; paired skill uses same OOD draws",
+  "composition_counts": "n_compositions counts original task-eligible compositions; n_sampled_compositions counts full sampling universe. X draws from full universe then excludes BASELINE rows.",
+  "rng": "numpy default_rng; SeedSequence.spawn(2), child 0 IID, child 1 OOD",
+  "ci": "95% percentile; finite replicates only; linear quantile",
+  "liquid_single_class": "F1 defined with zero_division=0; AP undefined",
+  "x_policy": "exclude BASELINE only; reject nonfinite nonBASELINE targets; no zero fill",
+  "macro_rmse": "sqrt(mean(component squared errors))"
+}

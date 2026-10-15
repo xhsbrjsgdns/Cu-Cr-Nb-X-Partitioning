@@ -1,0 +1,16 @@
+{
+  "status": "PASS_UNDER_AMENDMENT",
+  "timestamp_utc": "2026-09-05T01:25:41.135681+00:00",
+  "preregistration_sha256": "8d7a4ffe8ceb24d64d4f5daae9feb4f84f993a505e67518804b47599aae9b973",
+  "amended_audit_sha256": "1f05c0c3530d0d7edcc35ae341d2eb7376a7d56b9b817a75b566fa371fbb066c",
+  "code_manifest_sha256": "1a5aff65de867b429809200eb19078312e6a1a4a5a803563742dc2d721ab1c69",
+  "strict_never_read": "FAIL_RETAINED (disclosed; see PROTOCOL_AMENDMENT_V1.md)",
+  "domain_b_artifacts_before_open": {
+    "predictions": 0,
+    "metrics": 0
+  },
+  "first_open_record_exists": true,
+  "gate_mode": "post_abort_refresh",
+  "anchor": "sealed under strict and amended definitions",
+  "ni": "sealed"
+}

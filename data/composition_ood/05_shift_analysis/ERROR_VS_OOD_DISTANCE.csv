@@ -1,0 +1,16 @@
+task,distance,n_compositions,spearman_rho,p_value,interpretation
+presence,nn1_distance,10000,0.23850798910009807,2.3442673946825646e-129,descriptive association; unadjusted p; not causal
+presence,nn5_mean_distance,10000,0.24755957872762596,1.5928012657926132e-139,descriptive association; unadjusted p; not causal
+presence,outside_train_range_feature_count,10000,0.2283790719379636,1.769410169284979e-118,descriptive association; unadjusted p; not causal
+fraction,nn1_distance,10000,0.9347498367114984,0.0,descriptive association; unadjusted p; not causal
+fraction,nn5_mean_distance,10000,0.9343984589959845,0.0,descriptive association; unadjusted p; not causal
+fraction,outside_train_range_feature_count,10000,0.8254351516702745,0.0,descriptive association; unadjusted p; not causal
+cr_partition,nn1_distance,10000,0.5466713476147135,0.0,descriptive association; unadjusted p; not causal
+cr_partition,nn5_mean_distance,10000,0.5534673409826734,0.0,descriptive association; unadjusted p; not causal
+cr_partition,outside_train_range_feature_count,10000,0.5065952757543684,0.0,descriptive association; unadjusted p; not causal
+nb_partition,nn1_distance,10000,0.5077611921736119,0.0,descriptive association; unadjusted p; not causal
+nb_partition,nn5_mean_distance,10000,0.510882099248821,0.0,descriptive association; unadjusted p; not causal
+nb_partition,outside_train_range_feature_count,10000,0.45594643299655885,0.0,descriptive association; unadjusted p; not causal
+x_partition,nn1_distance,9000,0.34480725935153,1.1828788380538243e-249,descriptive association; unadjusted p; not causal
+x_partition,nn5_mean_distance,9000,0.35329749710243824,7.489806915631466e-263,descriptive association; unadjusted p; not causal
+x_partition,outside_train_range_feature_count,9000,0.27680729411042215,5.296434148208468e-158,descriptive association; unadjusted p; not causal

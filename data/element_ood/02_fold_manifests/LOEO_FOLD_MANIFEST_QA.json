@@ -1,0 +1,519 @@
+{
+  "stage": "STEP5C Stage A/B/C",
+  "generated_utc": "2026-09-05T07:25:11+00:00",
+  "terminology": "retrospective leave-one-element-out / unseen-element OOD; NOT prospective blind validation (spec 0)",
+  "step5b_archive": {
+    "ready_for_step5c": true,
+    "anchor_sealed": true,
+    "ni_sealed": true,
+    "status": "PASS WITH WARNINGS"
+  },
+  "phase_split_prior": "STEP5B measured split 0.012606 vs non-split 0.013036 fraction TVD; STEP5C assumes NO directional prior (spec 3)",
+  "fold_summary": {
+    "ZR": {
+      "fold": "FOLD_ZR",
+      "n_train": 20825,
+      "n_validation": 4462,
+      "n_heldout_test": 5250,
+      "n_excluded": 4463,
+      "all_checks_pass": true
+    },
+    "TI": {
+      "fold": "FOLD_TI",
+      "n_train": 20825,
+      "n_validation": 4463,
+      "n_heldout_test": 5250,
+      "n_excluded": 4462,
+      "all_checks_pass": true
+    },
+    "CO": {
+      "fold": "FOLD_CO",
+      "n_train": 20825,
+      "n_validation": 4462,
+      "n_heldout_test": 5250,
+      "n_excluded": 4463,
+      "all_checks_pass": true
+    },
+    "SI": {
+      "fold": "FOLD_SI",
+      "n_train": 20825,
+      "n_validation": 4463,
+      "n_heldout_test": 5250,
+      "n_excluded": 4462,
+      "all_checks_pass": true
+    },
+    "AG": {
+      "fold": "FOLD_AG",
+      "n_train": 20825,
+      "n_validation": 4462,
+      "n_heldout_test": 5250,
+      "n_excluded": 4463,
+      "all_checks_pass": true
+    },
+    "MO": {
+      "fold": "FOLD_MO",
+      "n_train": 20825,
+      "n_validation": 4463,
+      "n_heldout_test": 5250,
+      "n_excluded": 4462,
+      "all_checks_pass": true
+    }
+  },
+  "cross_fold_elements": {
+    "ZR": {
+      "held_out_in": "FOLD_ZR",
+      "training_element_in": [
+        "FOLD_TI",
+        "FOLD_CO",
+        "FOLD_SI",
+        "FOLD_AG",
+        "FOLD_MO"
+      ]
+    },
+    "TI": {
+      "held_out_in": "FOLD_TI",
+      "training_element_in": [
+        "FOLD_ZR",
+        "FOLD_CO",
+        "FOLD_SI",
+        "FOLD_AG",
+        "FOLD_MO"
+      ]
+    },
+    "CO": {
+      "held_out_in": "FOLD_CO",
+      "training_element_in": [
+        "FOLD_ZR",
+        "FOLD_TI",
+        "FOLD_SI",
+        "FOLD_AG",
+        "FOLD_MO"
+      ]
+    },
+    "SI": {
+      "held_out_in": "FOLD_SI",
+      "training_element_in": [
+        "FOLD_ZR",
+        "FOLD_TI",
+        "FOLD_CO",
+        "FOLD_AG",
+        "FOLD_MO"
+      ]
+    },
+    "AG": {
+      "held_out_in": "FOLD_AG",
+      "training_element_in": [
+        "FOLD_ZR",
+        "FOLD_TI",
+        "FOLD_CO",
+        "FOLD_SI",
+        "FOLD_MO"
+      ]
+    },
+    "MO": {
+      "held_out_in": "FOLD_MO",
+      "training_element_in": [
+        "FOLD_ZR",
+        "FOLD_TI",
+        "FOLD_CO",
+        "FOLD_SI",
+        "FOLD_AG"
+      ]
+    }
+  },
+  "manifest": "02_fold_manifests/LOEO_MASTER_FOLD_MANIFEST.csv",
+  "manifest_sha256": "8f969c5c263a378266c2b9becd65c48095daf9fcbc5cfcc6eefe3dc801f2df3d",
+  "checks": [
+    {
+      "id": "A01",
+      "check": "all four STEP5B archival documents + amendment present",
+      "status": "PASS",
+      "detail": "5/5"
+    },
+    {
+      "id": "A02",
+      "check": "READY FOR STEP5C == YES",
+      "status": "PASS",
+      "detail": "True"
+    },
+    {
+      "id": "A03",
+      "check": "ANCHOR still sealed",
+      "status": "PASS",
+      "detail": "True"
+    },
+    {
+      "id": "A04",
+      "check": "Ni still sealed",
+      "status": "PASS",
+      "detail": "True"
+    },
+    {
+      "id": "A05",
+      "check": "STEP5B status carried forward verbatim",
+      "status": "PASS",
+      "detail": "PASS WITH WARNINGS"
+    },
+    {
+      "id": "A06",
+      "check": "STEP5B phase-split correction inherited: split is NOT harder in Domain B",
+      "status": "PASS",
+      "detail": "split 0.012606 vs non-split 0.013036 -> no directional prior is assumed in STEP5C (spec 3)"
+    },
+    {
+      "id": "A07",
+      "check": "PROTOCOL_AMENDMENT_V1 inherited verbatim (spec 1)",
+      "status": "PASS",
+      "detail": "sha256 c8e001a80c581703"
+    },
+    {
+      "id": "B01",
+      "check": "13 STEP5C directories created",
+      "status": "PASS",
+      "detail": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5C_6X_LOEO_V1"
+    },
+    {
+      "id": "C01",
+      "check": "primary universe is Domain A only (spec 6)",
+      "status": "PASS",
+      "detail": "35000 Domain-A compositions; Domain B/ANCHOR excluded"
+    },
+    {
+      "id": "C02",
+      "check": "Domain A holds 35,000 compositions",
+      "status": "PASS",
+      "detail": "35000"
+    },
+    {
+      "id": "C10_ZR",
+      "check": "FOLD_ZR: TRAIN n VALIDATION == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C11_ZR",
+      "check": "FOLD_ZR: TRAIN n HELDOUT == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C12_ZR",
+      "check": "FOLD_ZR: VALIDATION n HELDOUT == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C13_ZR",
+      "check": "FOLD_ZR: held-out family in TRAIN == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C14_ZR",
+      "check": "FOLD_ZR: held-out family in VALIDATION == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C15_ZR",
+      "check": "FOLD_ZR: held-out test compositions == 5,250",
+      "status": "PASS",
+      "detail": "5250"
+    },
+    {
+      "id": "C16_ZR",
+      "check": "FOLD_ZR: every held-out test composition is family ZR",
+      "status": "PASS",
+      "detail": "['ZR']"
+    },
+    {
+      "id": "C17_ZR",
+      "check": "FOLD_ZR: roles partition all 35,000 compositions",
+      "status": "PASS",
+      "detail": "20825 + 4462 + 5250 + 4463"
+    },
+    {
+      "id": "C18_ZR",
+      "check": "FOLD_ZR: no other-element IID_TEST composition entered TRAIN or VALIDATION (spec 9)",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C10_TI",
+      "check": "FOLD_TI: TRAIN n VALIDATION == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C11_TI",
+      "check": "FOLD_TI: TRAIN n HELDOUT == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C12_TI",
+      "check": "FOLD_TI: VALIDATION n HELDOUT == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C13_TI",
+      "check": "FOLD_TI: held-out family in TRAIN == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C14_TI",
+      "check": "FOLD_TI: held-out family in VALIDATION == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C15_TI",
+      "check": "FOLD_TI: held-out test compositions == 5,250",
+      "status": "PASS",
+      "detail": "5250"
+    },
+    {
+      "id": "C16_TI",
+      "check": "FOLD_TI: every held-out test composition is family TI",
+      "status": "PASS",
+      "detail": "['TI']"
+    },
+    {
+      "id": "C17_TI",
+      "check": "FOLD_TI: roles partition all 35,000 compositions",
+      "status": "PASS",
+      "detail": "20825 + 4463 + 5250 + 4462"
+    },
+    {
+      "id": "C18_TI",
+      "check": "FOLD_TI: no other-element IID_TEST composition entered TRAIN or VALIDATION (spec 9)",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C10_CO",
+      "check": "FOLD_CO: TRAIN n VALIDATION == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C11_CO",
+      "check": "FOLD_CO: TRAIN n HELDOUT == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C12_CO",
+      "check": "FOLD_CO: VALIDATION n HELDOUT == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C13_CO",
+      "check": "FOLD_CO: held-out family in TRAIN == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C14_CO",
+      "check": "FOLD_CO: held-out family in VALIDATION == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C15_CO",
+      "check": "FOLD_CO: held-out test compositions == 5,250",
+      "status": "PASS",
+      "detail": "5250"
+    },
+    {
+      "id": "C16_CO",
+      "check": "FOLD_CO: every held-out test composition is family CO",
+      "status": "PASS",
+      "detail": "['CO']"
+    },
+    {
+      "id": "C17_CO",
+      "check": "FOLD_CO: roles partition all 35,000 compositions",
+      "status": "PASS",
+      "detail": "20825 + 4462 + 5250 + 4463"
+    },
+    {
+      "id": "C18_CO",
+      "check": "FOLD_CO: no other-element IID_TEST composition entered TRAIN or VALIDATION (spec 9)",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C10_SI",
+      "check": "FOLD_SI: TRAIN n VALIDATION == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C11_SI",
+      "check": "FOLD_SI: TRAIN n HELDOUT == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C12_SI",
+      "check": "FOLD_SI: VALIDATION n HELDOUT == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C13_SI",
+      "check": "FOLD_SI: held-out family in TRAIN == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C14_SI",
+      "check": "FOLD_SI: held-out family in VALIDATION == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C15_SI",
+      "check": "FOLD_SI: held-out test compositions == 5,250",
+      "status": "PASS",
+      "detail": "5250"
+    },
+    {
+      "id": "C16_SI",
+      "check": "FOLD_SI: every held-out test composition is family SI",
+      "status": "PASS",
+      "detail": "['SI']"
+    },
+    {
+      "id": "C17_SI",
+      "check": "FOLD_SI: roles partition all 35,000 compositions",
+      "status": "PASS",
+      "detail": "20825 + 4463 + 5250 + 4462"
+    },
+    {
+      "id": "C18_SI",
+      "check": "FOLD_SI: no other-element IID_TEST composition entered TRAIN or VALIDATION (spec 9)",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C10_AG",
+      "check": "FOLD_AG: TRAIN n VALIDATION == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C11_AG",
+      "check": "FOLD_AG: TRAIN n HELDOUT == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C12_AG",
+      "check": "FOLD_AG: VALIDATION n HELDOUT == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C13_AG",
+      "check": "FOLD_AG: held-out family in TRAIN == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C14_AG",
+      "check": "FOLD_AG: held-out family in VALIDATION == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C15_AG",
+      "check": "FOLD_AG: held-out test compositions == 5,250",
+      "status": "PASS",
+      "detail": "5250"
+    },
+    {
+      "id": "C16_AG",
+      "check": "FOLD_AG: every held-out test composition is family AG",
+      "status": "PASS",
+      "detail": "['AG']"
+    },
+    {
+      "id": "C17_AG",
+      "check": "FOLD_AG: roles partition all 35,000 compositions",
+      "status": "PASS",
+      "detail": "20825 + 4462 + 5250 + 4463"
+    },
+    {
+      "id": "C18_AG",
+      "check": "FOLD_AG: no other-element IID_TEST composition entered TRAIN or VALIDATION (spec 9)",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C10_MO",
+      "check": "FOLD_MO: TRAIN n VALIDATION == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C11_MO",
+      "check": "FOLD_MO: TRAIN n HELDOUT == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C12_MO",
+      "check": "FOLD_MO: VALIDATION n HELDOUT == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C13_MO",
+      "check": "FOLD_MO: held-out family in TRAIN == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C14_MO",
+      "check": "FOLD_MO: held-out family in VALIDATION == 0",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C15_MO",
+      "check": "FOLD_MO: held-out test compositions == 5,250",
+      "status": "PASS",
+      "detail": "5250"
+    },
+    {
+      "id": "C16_MO",
+      "check": "FOLD_MO: every held-out test composition is family MO",
+      "status": "PASS",
+      "detail": "['MO']"
+    },
+    {
+      "id": "C17_MO",
+      "check": "FOLD_MO: roles partition all 35,000 compositions",
+      "status": "PASS",
+      "detail": "20825 + 4463 + 5250 + 4462"
+    },
+    {
+      "id": "C18_MO",
+      "check": "FOLD_MO: no other-element IID_TEST composition entered TRAIN or VALIDATION (spec 9)",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "id": "C19",
+      "check": "cross-fold element reuse is by design, not leakage (spec 13)",
+      "status": "PASS",
+      "detail": "each element is held out in exactly one fold and is a training element in the other five"
+    }
+  ],
+  "status": "PASS"
+}

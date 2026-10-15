@@ -1,0 +1,81 @@
+{
+  "stage": "STEP5C Stage F",
+  "generated_utc": "2026-09-05T07:25:23+00:00",
+  "candidate_features": 193,
+  "per_fold": {
+    "ZR": {
+      "n_selected": 39,
+      "n_F1": 6,
+      "n_F2": 6,
+      "n_F3": 12,
+      "n_F4": 15,
+      "nzv_removed": 45,
+      "exact_removed": 36,
+      "pcc_removed": 73,
+      "fold_train_rows": 228273,
+      "features_sha256": "86bc3c98fd2f68020f3e5e5a50d358305b28b7143dc1bfe0f8c6361aa67d17cf"
+    },
+    "TI": {
+      "n_selected": 38,
+      "n_F1": 6,
+      "n_F2": 5,
+      "n_F3": 12,
+      "n_F4": 15,
+      "nzv_removed": 44,
+      "exact_removed": 38,
+      "pcc_removed": 73,
+      "fold_train_rows": 228273,
+      "features_sha256": "9e9712520a49f42a7ca49eae6a136fe402e275295bf171682a3d795f4d9cb10b"
+    },
+    "CO": {
+      "n_selected": 39,
+      "n_F1": 6,
+      "n_F2": 6,
+      "n_F3": 13,
+      "n_F4": 14,
+      "nzv_removed": 45,
+      "exact_removed": 36,
+      "pcc_removed": 73,
+      "fold_train_rows": 228273,
+      "features_sha256": "731277a23c5cf41946319373f0ed7d69bedde77c12ac7608aecf1739ecac0d82"
+    },
+    "SI": {
+      "n_selected": 38,
+      "n_F1": 6,
+      "n_F2": 5,
+      "n_F3": 13,
+      "n_F4": 14,
+      "nzv_removed": 59,
+      "exact_removed": 34,
+      "pcc_removed": 62,
+      "fold_train_rows": 228273,
+      "features_sha256": "d3e6b998cb898f930e60e587918edfab44ad5f0fce4537c2ac15612ffb0d924d"
+    },
+    "AG": {
+      "n_selected": 38,
+      "n_F1": 6,
+      "n_F2": 5,
+      "n_F3": 14,
+      "n_F4": 13,
+      "nzv_removed": 45,
+      "exact_removed": 37,
+      "pcc_removed": 73,
+      "fold_train_rows": 228273,
+      "features_sha256": "54ca0bbd944406556a9d1222cc9d73346faf51ab7442208bdeb534cbdf620725"
+    },
+    "MO": {
+      "n_selected": 37,
+      "n_F1": 6,
+      "n_F2": 6,
+      "n_F3": 11,
+      "n_F4": 14,
+      "nzv_removed": 45,
+      "exact_removed": 36,
+      "pcc_removed": 75,
+      "fold_train_rows": 229075,
+      "features_sha256": "4b1f305eb104613d73a169b0c1a8c81b0cb4b18111de3840746fe173f830a1c9"
+    }
+  },
+  "identical_selection_across_folds": false,
+  "step5a_43_feature_list_used_as_primary": false
+}

@@ -1,0 +1,83 @@
+{
+  "fold": "FOLD_MO",
+  "heldout_element": "MO",
+  "generated_utc": "2026-09-05T07:25:23+00:00",
+  "scope": "FOLD_TRAIN rows only (spec 21)",
+  "fold_train_rows": 229075,
+  "fold_train_compositions": 20825,
+  "fold_train_families": [
+    "AG",
+    "BASELINE",
+    "CO",
+    "SI",
+    "TI",
+    "ZR"
+  ],
+  "heldout_element_rows_used": 0,
+  "validation_rows_used": 0,
+  "heldout_test_rows_used": 0,
+  "candidate_features": 193,
+  "candidate_schema_sha256": "b3ed89bec1984197aa686f1b1a7b1fe21a9ad9ec534edb41909a3ece71943709",
+  "nan_columns": {},
+  "inf_columns": {},
+  "nzv_removed": 45,
+  "exact_redundancy_removed": 36,
+  "pcc_removed": 75,
+  "pcc_threshold": 0.9,
+  "selected_total": 37,
+  "selected_by_block": {
+    "F1": [
+      "Temperature_C",
+      "Cr_wt_pct",
+      "Nb_wt_pct",
+      "X_wt_pct",
+      "R_CrNb_atomic_actual",
+      "has_X"
+    ],
+    "F2": [
+      "delta_r",
+      "delta_chi",
+      "r_bar",
+      "Zbar",
+      "density_bar",
+      "AtomicVol_bar"
+    ],
+    "F3": [
+      "X_AtomicNumber",
+      "X_VEC",
+      "X_MeltingT",
+      "Delta_AtomicNumber_X_Cu",
+      "Delta_Electronegativity_X_Cu",
+      "Delta_VEC_X_Cu",
+      "Delta_VEC_X_Cr",
+      "Delta_MeltingT_X_Cu",
+      "Delta_MeltingT_X_Cr",
+      "Delta_Density_X_Cu",
+      "Delta_FirstIonizationEnergy_X_Cr"
+    ],
+    "F4_n": 14,
+    "F4": [
+      "magpie_mean_GSbandgap",
+      "magpie_mean_GSmagmom",
+      "magpie_mean_NsUnfilled",
+      "magpie_mean_Row",
+      "magpie_mean_SpaceGroupNumber",
+      "magpie_minimum_AtomicWeight",
+      "magpie_minimum_GSvolume_pa",
+      "magpie_minimum_MeltingT",
+      "magpie_minimum_NsUnfilled",
+      "magpie_minimum_SpaceGroupNumber",
+      "magpie_maximum_GSvolume_pa",
+      "magpie_range_AtomicWeight",
+      "magpie_range_CovalentRadius",
+      "magpie_avg_dev_SpaceGroupNumber"
+    ]
+  },
+  "keep_priority_sha256": "8cf710dfd64b27e4ea6abc3ce53c2866428fa28d169536d32b16ba1d248e2888",
+  "keep_priority_changed_for_this_fold": false,
+  "selected_features_sha256": "4b1f305eb104613d73a169b0c1a8c81b0cb4b18111de3840746fe173f830a1c9",
+  "selected_features_file_sha256": "7ff590f2cf0066d4e2fa0c5bb071afb2c6919c93f4fadb77802a162d9291c976",
+  "pcc_log_sha256": "b4cb530a08a86a4ee3b9fc8eafc4ee7f85c3dba5a8642719fdd9034a6272469d",
+  "nzv_log_sha256": "d364c66c6e64c1205ff8de5b9c3e566235d527d5f1a996ccf5e8f849688fb60c",
+  "step5a_43_list_used": false
+}

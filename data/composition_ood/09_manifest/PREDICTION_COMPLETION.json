@@ -1,0 +1,22 @@
+{
+  "timestamp_utc": "2026-09-05T01:25:56.762268+00:00",
+  "sha256": "e4d1d5fd3dae6351749e12314a793c6679f34ec884769e4b578de9fdc84ae369",
+  "counts": {
+    "compositions": 10000,
+    "formal": 110000,
+    "converged": 109716,
+    "failed": 284,
+    "failure_rate": 0.0025818181818181817,
+    "baseline_compositions": 1000,
+    "baseline_formal": 11000,
+    "x_usable_rows": 98716,
+    "failures_all_MO_950": true
+  },
+  "model_hashes": {
+    "presence": "5fd19bfabffa2118a6cfefadf2282693ae73b4834a103f26409460d6738b750e",
+    "fraction": "cc9cbb09d4ee838dc6eb82f15c86953fc5570eb4987aabe6b6ca065a573ec373",
+    "cr_partition": "50f2782e48e0c6f1e1e7cbf489ddc864ad151f41d9d03cf6e1ddb1b1db40206f",
+    "nb_partition": "4dfbb6dd816090fa39e50ad5b8d3ca57cce196d22e96d84607f81afe1c051b9a",
+    "x_partition": "013058267e3badfb6db657ba9638173c1c0f4ace37ad210a4750fbc6addbe63a"
+  }
+}

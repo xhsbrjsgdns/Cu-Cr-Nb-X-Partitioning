@@ -1,0 +1,346 @@
+{
+  "status": "PASS_UNDER_AMENDMENT",
+  "timestamp_utc": "2026-09-05T01:13:31.911140+00:00",
+  "strict_never_read_status": "FAIL_RETAINED",
+  "artifact_hashes": [
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\09_manifest\\DEVELOPMENT_FREEZE_V1.json",
+      "sha256": "6057e980c4c9ed930b01e7cd2c11299aa2443cf91bc11de60b133dbb7480c6fb",
+      "status": "PASS",
+      "expected_sha256": null
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\02_features\\PRIMARY_FEATURE_LIST.txt",
+      "sha256": "f4ddf4a2587e33a7d441656110c589208d9d860095198dd4b276df64f8a2fb0c",
+      "status": "PASS",
+      "expected_sha256": "f4ddf4a2587e33a7d441656110c589208d9d860095198dd4b276df64f8a2fb0c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\02_features\\PCC_REMOVAL_LOG.csv",
+      "sha256": "9443f02b8b01d96e696eaceace5f1d247fe8e2302a3e0013033fdbe7e338b951",
+      "status": "PASS",
+      "expected_sha256": "9443f02b8b01d96e696eaceace5f1d247fe8e2302a3e0013033fdbe7e338b951"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\02_features\\NEAR_ZERO_VARIANCE_REMOVAL.csv",
+      "sha256": "5fb85a180eb978036a8cd96701188aacc15bffafd89c80a3b53829163c74f15c",
+      "status": "PASS",
+      "expected_sha256": "5fb85a180eb978036a8cd96701188aacc15bffafd89c80a3b53829163c74f15c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\02_features\\EXACT_REDUNDANCY_LOG.csv",
+      "sha256": "2074f2312015aeb936df3a3bfe5143617c300dfe3f3033b4811f797212ce6ae2",
+      "status": "PASS",
+      "expected_sha256": "2074f2312015aeb936df3a3bfe5143617c300dfe3f3033b4811f797212ce6ae2"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\code_snapshot\\30_step5a_audit.py",
+      "sha256": "5b30cee2a3c946fd0d2b619649a78cf091e096bf82d39ba6cebb6e6f16f9436f",
+      "status": "PASS",
+      "expected_sha256": "5b30cee2a3c946fd0d2b619649a78cf091e096bf82d39ba6cebb6e6f16f9436f"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\code_snapshot\\31_step5a_element_descriptors.py",
+      "sha256": "2810e6bacbab23364b83dfb2e677723f428d6f019687685a63d5b43157e678dd",
+      "status": "PASS",
+      "expected_sha256": "2810e6bacbab23364b83dfb2e677723f428d6f019687685a63d5b43157e678dd"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\code_snapshot\\32_step5a_features.py",
+      "sha256": "09896c2aaf4b99022941727fa778178b984ded7acadc852d401fbc1d759a29e5",
+      "status": "PASS",
+      "expected_sha256": "09896c2aaf4b99022941727fa778178b984ded7acadc852d401fbc1d759a29e5"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\code_snapshot\\33_step5a_master_split.py",
+      "sha256": "6c971bb5ae80fdc44bb0006e99abac317097a412635572ee95ea62a8a13af6e7",
+      "status": "PASS",
+      "expected_sha256": "6c971bb5ae80fdc44bb0006e99abac317097a412635572ee95ea62a8a13af6e7"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\code_snapshot\\34_step5a_leakage_audit.py",
+      "sha256": "676e375506c3c3f3ceedfa29aa56ec0a052d0542a8cb4fb7169d18cbd1332b50",
+      "status": "PASS",
+      "expected_sha256": "676e375506c3c3f3ceedfa29aa56ec0a052d0542a8cb4fb7169d18cbd1332b50"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\code_snapshot\\35_step5a_feature_selection.py",
+      "sha256": "ff2892f51547ec7b4fc83140db1adb76c37f82f0381c7b1f42c0ae5b1f0ef2ed",
+      "status": "PASS",
+      "expected_sha256": "ff2892f51547ec7b4fc83140db1adb76c37f82f0381c7b1f42c0ae5b1f0ef2ed"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\code_snapshot\\36_step5a_feature_ablation.py",
+      "sha256": "c3c21b662dd4ff20b7668880212f0ee3b66310faa4ee641c7c753c362b93dd0f",
+      "status": "PASS",
+      "expected_sha256": "c3c21b662dd4ff20b7668880212f0ee3b66310faa4ee641c7c753c362b93dd0f"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\code_snapshot\\37_step5a_model_screen.py",
+      "sha256": "4d22a0d5c6fe0281786669673e69349932e7f68f9af97d720351b1a34bca3698",
+      "status": "PASS",
+      "expected_sha256": "4d22a0d5c6fe0281786669673e69349932e7f68f9af97d720351b1a34bca3698"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\code_snapshot\\38_step5a_tune.py",
+      "sha256": "f77e4cf43e170a2e62ecb85840289f4eef80657ffcbe4a9d358ee7e46068f28b",
+      "status": "PASS",
+      "expected_sha256": "f77e4cf43e170a2e62ecb85840289f4eef80657ffcbe4a9d358ee7e46068f28b"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\code_snapshot\\39_step5a_development_freeze.py",
+      "sha256": "d5d60b00143b319a0444d546467075fd722dc1422642f1925d0b70c20f09e5d0",
+      "status": "PASS",
+      "expected_sha256": "d5d60b00143b319a0444d546467075fd722dc1422642f1925d0b70c20f09e5d0"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\code_snapshot\\39b_step5a_code_snapshot.py",
+      "sha256": "e59e5d01a738fd34750961e57d0835d90a40baae999cd76a16d04fc6133552e3",
+      "status": "PASS",
+      "expected_sha256": "e59e5d01a738fd34750961e57d0835d90a40baae999cd76a16d04fc6133552e3"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\code_snapshot\\40_step5a_iid_test.py",
+      "sha256": "030ad9aaff0112ba99b8475a47e6700cad7bb1387424b1d65dd71eca47f80ccc",
+      "status": "PASS",
+      "expected_sha256": "030ad9aaff0112ba99b8475a47e6700cad7bb1387424b1d65dd71eca47f80ccc"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\code_snapshot\\41_step5a_bootstrap.py",
+      "sha256": "0c6788dfd97ad9db79d70065f5d1eba3c416523306f99675a4d36ae3d2bd2a72",
+      "status": "PASS",
+      "expected_sha256": "0c6788dfd97ad9db79d70065f5d1eba3c416523306f99675a4d36ae3d2bd2a72"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\code_snapshot\\42_step5a_error_analysis.py",
+      "sha256": "0ca63492c72f2567f01095feb699f8628acec20afb5d887469e8aaed255ad226",
+      "status": "PASS",
+      "expected_sha256": "0ca63492c72f2567f01095feb699f8628acec20afb5d887469e8aaed255ad226"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\code_snapshot\\43_step5a_figures.py",
+      "sha256": "aac6ffc61f236c52a213967c929aa699a730dd747a0d28e2f51eb2be67766993",
+      "status": "PASS",
+      "expected_sha256": "aac6ffc61f236c52a213967c929aa699a730dd747a0d28e2f51eb2be67766993"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\code_snapshot\\44_step5a_final_qa.py",
+      "sha256": "8e08bd6e506f18abab289faab79028d3cb6937c25a37a838bb59faf3f928fd40",
+      "status": "PASS",
+      "expected_sha256": "8e08bd6e506f18abab289faab79028d3cb6937c25a37a838bb59faf3f928fd40"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\code_snapshot\\step5a_common.py",
+      "sha256": "fb4011812379362629145da924edda3d0abc59f8fe9bf81d25fba9947394309a",
+      "status": "PASS",
+      "expected_sha256": "fb4011812379362629145da924edda3d0abc59f8fe9bf81d25fba9947394309a"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\02_features\\COMPOSITION_FEATURES_ALL50K.parquet",
+      "sha256": "f28e671a576464b646e1e260d7a83fac915cd908ab015ea77d6e8baf16e8990d",
+      "status": "PASS",
+      "expected_sha256": null
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\01_feature_sources\\ELEMENT_DESCRIPTOR_TABLE_DEV6_V1.parquet",
+      "sha256": "a7ec30e2fbb5618a8b69c8ac3b797dfb1e848839a5deebdfc49fbe4b258682ad",
+      "status": "PASS",
+      "expected_sha256": null
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\04_models\\final\\presence\\model_state.pkl",
+      "sha256": "5fd19bfabffa2118a6cfefadf2282693ae73b4834a103f26409460d6738b750e",
+      "status": "PASS",
+      "expected_sha256": "5fd19bfabffa2118a6cfefadf2282693ae73b4834a103f26409460d6738b750e"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\04_models\\final\\fraction\\model_state.pkl",
+      "sha256": "cc9cbb09d4ee838dc6eb82f15c86953fc5570eb4987aabe6b6ca065a573ec373",
+      "status": "PASS",
+      "expected_sha256": "cc9cbb09d4ee838dc6eb82f15c86953fc5570eb4987aabe6b6ca065a573ec373"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\04_models\\final\\cr_partition\\model_state.pkl",
+      "sha256": "50f2782e48e0c6f1e1e7cbf489ddc864ad151f41d9d03cf6e1ddb1b1db40206f",
+      "status": "PASS",
+      "expected_sha256": "50f2782e48e0c6f1e1e7cbf489ddc864ad151f41d9d03cf6e1ddb1b1db40206f"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\04_models\\final\\nb_partition\\model_state.pkl",
+      "sha256": "4dfbb6dd816090fa39e50ad5b8d3ca57cce196d22e96d84607f81afe1c051b9a",
+      "status": "PASS",
+      "expected_sha256": "4dfbb6dd816090fa39e50ad5b8d3ca57cce196d22e96d84607f81afe1c051b9a"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\04_models\\final\\x_partition\\model_state.pkl",
+      "sha256": "013058267e3badfb6db657ba9638173c1c0f4ace37ad210a4750fbc6addbe63a",
+      "status": "PASS",
+      "expected_sha256": "013058267e3badfb6db657ba9638173c1c0f4ace37ad210a4750fbc6addbe63a"
+    }
+  ],
+  "feature_order": [
+    "Temperature_C",
+    "Cr_wt_pct",
+    "Nb_wt_pct",
+    "X_wt_pct",
+    "R_CrNb_atomic_actual",
+    "has_X",
+    "delta_r",
+    "delta_chi",
+    "r_bar",
+    "Zbar",
+    "density_bar",
+    "AtomicVol_bar",
+    "X_AtomicNumber",
+    "X_VEC",
+    "X_MeltingT",
+    "Delta_AtomicNumber_X_Cu",
+    "Delta_Electronegativity_X_Cu",
+    "Delta_VEC_X_Cu",
+    "Delta_VEC_X_Cr",
+    "Delta_MeltingT_X_Cu",
+    "Delta_MeltingT_X_Cr",
+    "Delta_Density_X_Cu",
+    "Delta_FirstIonizationEnergy_X_Cu",
+    "Delta_FirstIonizationEnergy_X_Cr",
+    "magpie_mean_GSbandgap",
+    "magpie_mean_GSmagmom",
+    "magpie_mean_NsUnfilled",
+    "magpie_mean_Row",
+    "magpie_mean_SpaceGroupNumber",
+    "magpie_minimum_AtomicWeight",
+    "magpie_minimum_Electronegativity",
+    "magpie_minimum_GSvolume_pa",
+    "magpie_minimum_MeltingT",
+    "magpie_minimum_NValence",
+    "magpie_minimum_NsUnfilled",
+    "magpie_minimum_SpaceGroupNumber",
+    "magpie_maximum_Electronegativity",
+    "magpie_maximum_GSvolume_pa",
+    "magpie_range_AtomicWeight",
+    "magpie_range_CovalentRadius",
+    "magpie_range_Electronegativity",
+    "magpie_range_MeltingT",
+    "magpie_avg_dev_SpaceGroupNumber"
+  ],
+  "feature_count": 43,
+  "cache_matches_all_A_compositions": true,
+  "metadata_only_B_preparation": true,
+  "model_audit": {
+    "presence": {
+      "sha256": "5fd19bfabffa2118a6cfefadf2282693ae73b4834a103f26409460d6738b750e",
+      "dimensions": [
+        43,
+        43,
+        43,
+        43
+      ],
+      "scaler": "None: frozen tree models consume raw frozen43 matrix",
+      "trivial_vector": [
+        1.0,
+        0.9177478060871312,
+        0.99724597875682,
+        0.17952496855205471,
+        0.0034611348056182035
+      ],
+      "iid_smoke_max_abs_delta": 0.0
+    },
+    "fraction": {
+      "sha256": "cc9cbb09d4ee838dc6eb82f15c86953fc5570eb4987aabe6b6ca065a573ec373",
+      "dimensions": [
+        43,
+        43,
+        43,
+        43,
+        43
+      ],
+      "scaler": "None: frozen tree models consume raw frozen43 matrix",
+      "trivial_vector": [
+        0.9852722893433209,
+        0.004787072236317012,
+        0.009241239446712528,
+        0.0006854294474662205,
+        1.3969526183382228e-05
+      ],
+      "iid_smoke_max_abs_delta": 0.0
+    },
+    "cr_partition": {
+      "sha256": "50f2782e48e0c6f1e1e7cbf489ddc864ad151f41d9d03cf6e1ddb1b1db40206f",
+      "dimensions": [
+        43,
+        43,
+        43,
+        43,
+        43
+      ],
+      "scaler": "None: frozen tree models consume raw frozen43 matrix",
+      "trivial_vector": [
+        0.09940845477470955,
+        0.3901964800586509,
+        0.4687576556474249,
+        0.041623702058374935,
+        1.3707460839813316e-05
+      ],
+      "iid_smoke_max_abs_delta": 0.0
+    },
+    "nb_partition": {
+      "sha256": "4dfbb6dd816090fa39e50ad5b8d3ca57cce196d22e96d84607f81afe1c051b9a",
+      "dimensions": [
+        43,
+        43,
+        43,
+        43,
+        43
+      ],
+      "scaler": "None: frozen tree models consume raw frozen43 matrix",
+      "trivial_vector": [
+        0.09538850892142897,
+        0.013356221682894501,
+        0.8912455407853325,
+        8.879815228494739e-06,
+        8.487951156855916e-07
+      ],
+      "iid_smoke_max_abs_delta": 0.0
+    },
+    "x_partition": {
+      "sha256": "013058267e3badfb6db657ba9638173c1c0f4ace37ad210a4750fbc6addbe63a",
+      "dimensions": [
+        43,
+        43,
+        43,
+        43,
+        43
+      ],
+      "scaler": "None: frozen tree models consume raw frozen43 matrix",
+      "trivial_vector": [
+        0.3924063060849874,
+        0.17997911835521582,
+        0.2687588732102482,
+        0.1582142342482923,
+        0.0006414681012562028
+      ],
+      "iid_smoke_max_abs_delta": 0.0
+    }
+  },
+  "role_counts": {
+    "DEV_TRAIN": 268698,
+    "DEV_VALIDATION": 57577,
+    "IID_TEST": 57571
+  },
+  "B_compositions": 10000,
+  "formal_feature_rows": 110000,
+  "temperatures": [
+    300.0,
+    350.0,
+    400.0,
+    450.0,
+    500.0,
+    600.0,
+    700.0,
+    800.0,
+    900.0,
+    950.0,
+    1000.0
+  ],
+  "source_scope": "Inspected frozen code, metadata and recorded run logs; no claim about unrecorded external executions"
+}

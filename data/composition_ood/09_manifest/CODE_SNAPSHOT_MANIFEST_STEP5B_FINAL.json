@@ -1,0 +1,86 @@
+{
+  "manifest": "CODE_SNAPSHOT_MANIFEST_STEP5B_FINAL (post-open, supplementary)",
+  "generated_utc": "2026-09-05T01:29:44+00:00",
+  "note": "pre-open frozen manifest remains CODE_SNAPSHOT_MANIFEST_STEP5B.json; post-open additions are reporting-only (step5b_report.py + its Ni-scan classifier fixes for English/Chinese audit-text false positives); no prediction/metric/model change; documented in STEP5B_PATCH_02.md",
+  "n_files": 13,
+  "files": [
+    {
+      "filename": "audit_step5a_preopen.py",
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5B_DOMAIN_B_OOD_V1\\code_snapshot\\audit_step5a_preopen.py",
+      "bytes": 7072,
+      "sha256": "977a2667c47d92932adea0ac83becefcb9af4f124fa02ec6ba4bb007c1d24799"
+    },
+    {
+      "filename": "step5b_analyze.py",
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5B_DOMAIN_B_OOD_V1\\code_snapshot\\step5b_analyze.py",
+      "bytes": 6695,
+      "sha256": "fb0c01366efd3d6798563c2348bbba0f6b34531ad302cf9a63d992c56b0f56d0"
+    },
+    {
+      "filename": "step5b_bootstrap.py",
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5B_DOMAIN_B_OOD_V1\\code_snapshot\\step5b_bootstrap.py",
+      "bytes": 10965,
+      "sha256": "ddd711a2d91d1e1910dc9ef0d173cb8d380494476918a9469e52ca54dc193003"
+    },
+    {
+      "filename": "step5b_core.py",
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5B_DOMAIN_B_OOD_V1\\code_snapshot\\step5b_core.py",
+      "bytes": 5906,
+      "sha256": "85b3b0e24fa66de371c15257b30b4bcd8fcb3af1910d01d42c141e80e6ef96ff"
+    },
+    {
+      "filename": "step5b_evaluate.py",
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5B_DOMAIN_B_OOD_V1\\code_snapshot\\step5b_evaluate.py",
+      "bytes": 7432,
+      "sha256": "fd9eff13d7c60fd3abad93aa425c31a72b1f844763f26555c6e90470b0b47b8d"
+    },
+    {
+      "filename": "step5b_figures.py",
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5B_DOMAIN_B_OOD_V1\\code_snapshot\\step5b_figures.py",
+      "bytes": 18483,
+      "sha256": "2fefd41a38e70e65817df46139c0f3d889b686695bdf6cf8fa5e04e954123d5a"
+    },
+    {
+      "filename": "step5b_gate.py",
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5B_DOMAIN_B_OOD_V1\\code_snapshot\\step5b_gate.py",
+      "bytes": 2463,
+      "sha256": "5f5cdad8f2842a5c9d951536d6d961d67ed515f1a068e8ccc5b6e14832cf07be"
+    },
+    {
+      "filename": "step5b_manifest.py",
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5B_DOMAIN_B_OOD_V1\\code_snapshot\\step5b_manifest.py",
+      "bytes": 1097,
+      "sha256": "aa37cbec3f3f59ce2f6801364686fe2f875a31d39bcf9a60088122361573824a"
+    },
+    {
+      "filename": "step5b_prepare.py",
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5B_DOMAIN_B_OOD_V1\\code_snapshot\\step5b_prepare.py",
+      "bytes": 9239,
+      "sha256": "38b5dff78a910197a63e8583034bbd68a0307e89858fec42dad19b2b3f00ca6b"
+    },
+    {
+      "filename": "step5b_preregister.py",
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5B_DOMAIN_B_OOD_V1\\code_snapshot\\step5b_preregister.py",
+      "bytes": 8209,
+      "sha256": "99d51acaca0affc0c1da6cecc003e4bbe6a21a5414289d953f8a3a3db2dda1ef"
+    },
+    {
+      "filename": "step5b_report.py",
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5B_DOMAIN_B_OOD_V1\\code_snapshot\\step5b_report.py",
+      "bytes": 18140,
+      "sha256": "1e655f446c81b39e03e98c1b1c6dcc7e8356c37d4d5204ddd6dae593bd32ca8d"
+    },
+    {
+      "filename": "test_step5b_bootstrap.py",
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5B_DOMAIN_B_OOD_V1\\code_snapshot\\test_step5b_bootstrap.py",
+      "bytes": 5921,
+      "sha256": "ef89f18b614604bc99674621bf0cd119220ea4183eae8bc04fea6d7113337d37"
+    },
+    {
+      "filename": "test_step5b_core.py",
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5B_DOMAIN_B_OOD_V1\\code_snapshot\\test_step5b_core.py",
+      "bytes": 1119,
+      "sha256": "8be5992fd700e4bf34424f96efe447dd4366dee02488cf2556fe57b3490f56d2"
+    }
+  ]
+}

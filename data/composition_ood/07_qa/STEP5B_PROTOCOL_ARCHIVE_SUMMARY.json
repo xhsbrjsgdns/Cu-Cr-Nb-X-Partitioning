@@ -1,0 +1,51 @@
+{
+  "status": "PASS WITH WARNINGS",
+  "retained_warning": "historical STEP5A full-table target materialization; literal never-read permanently FALSE; evaluation-seal definition per PROTOCOL_AMENDMENT_V1",
+  "original_preregistration_hash": "fed9a1235de6c49d079a56a2b3b83b32e4a9fc1be1a58016619465919fbbc0b2",
+  "original_preregistration_bytes_available": false,
+  "amended_preregistration_hash": "8d7a4ffe8ceb24d64d4f5daae9feb4f84f993a505e67518804b47599aae9b973",
+  "first_open_timestamp": "2026-09-05T01:23:46.256723+00:00",
+  "patch_timestamp": "2026-09-05T01:25:37+00:00",
+  "resume_timestamp": "2026-09-05T01:25:52.025981+00:00",
+  "final_evaluation_timestamp": "2026-09-05T01:25:56.762268+00:00",
+  "model_hash_match": true,
+  "feature_hash_match": true,
+  "bin_values_unchanged": true,
+  "primary_prediction_hash_unchanged": true,
+  "primary_metric_hash_unchanged": true,
+  "primary_result_hashes": {
+    "03_predictions/DOMAIN_B_OOD_PREDICTIONS.parquet": "e4d1d5fd3dae6351749e12314a793c6679f34ec884769e4b578de9fdc84ae369",
+    "04_metrics/DOMAIN_B_OOD_METRICS.csv": "e6e4bccc4c576786e968430acd18af6c8a960c8c6d517ca96311a207c9afec3a",
+    "04_metrics/DOMAIN_B_PER_TARGET_METRICS.csv": "5fabbeac189187d2c071b9a2e33ec18153135d01737179ec73b5fd6b79408dfc",
+    "04_metrics/IID_VS_DOMAIN_B_OOD_COMPARISON.csv": "47f477e26e67fc531fe46cc81322064256812fcb6e3db15b7147a651fcb787c3",
+    "04_metrics/DOMAIN_B_BOOTSTRAP_CI.csv": "d56597fd58049c5d6294630864b068511fed037fa2a73c515ba87b9332a87f49",
+    "07_qa/STEP5B_DOMAIN_B_OOD_REPORT.md": "e2dae3400523da04078cab1a9d5b41e415ba9d37be9f539f43bea9d80f3fb16c",
+    "07_qa/STEP5B_DOMAIN_B_OOD_SUMMARY.json": "0cac220d7188436ed8ef6418172fcb1fdf97ded8351e3412ea7f1559d65646b9"
+  },
+  "phase_split_report_patch": {
+    "issue": "boolean/string key lookup mismatch",
+    "corrected_values": {
+      "split_fraction_tvd": 0.0126061291588038,
+      "nonsplit_fraction_tvd": 0.0130360406245085,
+      "split_rows": 10428,
+      "nonsplit_rows": 99288
+    },
+    "predictions_changed": false,
+    "metrics_changed": false,
+    "model_changed": false,
+    "conclusion_changed": false
+  },
+  "strict_stop_preserved": true,
+  "anchor_sealed": true,
+  "ni_sealed": true,
+  "frozen_numbers_verified": {
+    "presence_macro_f1": 0.9297262522412464,
+    "fraction_mean_tvd": 0.0129951795216213,
+    "cr_mean_tvd": 0.0573521536595539,
+    "nb_mean_tvd": 0.0772337478804284,
+    "x_mean_tvd": 0.0697231664611315,
+    "liquid_f1": 0.816547,
+    "liquid_pr_auc": 0.922873
+  },
+  "ready_for_step5c": true
+}

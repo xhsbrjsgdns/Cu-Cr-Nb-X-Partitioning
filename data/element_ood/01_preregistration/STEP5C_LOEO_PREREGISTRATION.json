@@ -1,0 +1,443 @@
+{
+  "stage": "STEP5C_6X_LOEO_V1",
+  "title": "STRICT 6x LEAVE-ONE-ELEMENT-OUT RETROSPECTIVE UNSEEN-ELEMENT OUT-OF-DOMAIN GENERALIZATION",
+  "preregistered_utc": "2026-09-05T07:25:11+00:00",
+  "scientific_question": "Can physicochemical elemental descriptors transfer phase-stability and elemental-partitioning knowledge to a completely held-out microalloying element?",
+  "one_sentence_task": "Perform six rigorously controlled retrospective leave-one-element-out experiments in which each held-out microalloying element is completely excluded from that fold's supervised model development, while its external physicochemical descriptors remain available at inference, and determine whether the learned phase and partitioning relationships transfer across element chemistry.",
+  "terminology": {
+    "designation": "retrospective leave-one-element-out / unseen-element OOD",
+    "is_prospective_blind_validation": false,
+    "rationale": "ZR/TI/CO/SI/AG/MO all exist historically in FULL_V1 and took part in the STEP5A six-element models. The strictness of this stage comes from the exclusion of the held-out element's targets from THIS fold's model development, preprocessing, feature selection, hyperparameter optimization, threshold selection and model selection - not from any claim that the data were never accessed.",
+    "forbidden_phrases": [
+      "never read",
+      "never accessed",
+      "never been read",
+      "fully untouched",
+      "prospective blind",
+      "first open",
+      "first_open",
+      "never historically"
+    ],
+    "record_name": "FOLD_<X>_HELDOUT_EVALUATION_RECORD.json (never FOLD_FIRST_OPEN)",
+    "inherits": "PROTOCOL_AMENDMENT_V1 (STEP5B), verbatim and un-loosened",
+    "only_prospective_blind_test": "the final Ni stage"
+  },
+  "primary_domain": "A",
+  "domain_b_in_primary_loeo": false,
+  "domain_b_rationale": "Domain A only, so that element-domain shift is isolated from composition-domain shift (spec 6).",
+  "heldout_elements": [
+    "ZR",
+    "TI",
+    "CO",
+    "SI",
+    "AG",
+    "MO"
+  ],
+  "fold_order": [
+    "FOLD_ZR",
+    "FOLD_TI",
+    "FOLD_CO",
+    "FOLD_SI",
+    "FOLD_AG",
+    "FOLD_MO"
+  ],
+  "fold_definition": {
+    "HELDOUT_ELEMENT_TEST": "every Domain-A composition with family == X, regardless of its STEP5A split_role (spec 8)",
+    "FOLD_TRAIN": "STEP5A DEV_TRAIN minus family X",
+    "FOLD_VALIDATION": "STEP5A DEV_VALIDATION minus family X",
+    "EXCLUDED_FROM_FOLD": "other elements' STEP5A IID_TEST compositions - never used to enlarge training (spec 9)"
+  },
+  "fold_counts_verified": {
+    "ZR": {
+      "FOLD_TRAIN": 20825,
+      "FOLD_VALIDATION": 4462,
+      "HELDOUT_ELEMENT_TEST": 5250,
+      "EXCLUDED_FROM_FOLD": 4463
+    },
+    "TI": {
+      "FOLD_TRAIN": 20825,
+      "FOLD_VALIDATION": 4463,
+      "HELDOUT_ELEMENT_TEST": 5250,
+      "EXCLUDED_FROM_FOLD": 4462
+    },
+    "CO": {
+      "FOLD_TRAIN": 20825,
+      "FOLD_VALIDATION": 4462,
+      "HELDOUT_ELEMENT_TEST": 5250,
+      "EXCLUDED_FROM_FOLD": 4463
+    },
+    "SI": {
+      "FOLD_TRAIN": 20825,
+      "FOLD_VALIDATION": 4463,
+      "HELDOUT_ELEMENT_TEST": 5250,
+      "EXCLUDED_FROM_FOLD": 4462
+    },
+    "AG": {
+      "FOLD_TRAIN": 20825,
+      "FOLD_VALIDATION": 4462,
+      "HELDOUT_ELEMENT_TEST": 5250,
+      "EXCLUDED_FROM_FOLD": 4463
+    },
+    "MO": {
+      "FOLD_TRAIN": 20825,
+      "FOLD_VALIDATION": 4463,
+      "HELDOUT_ELEMENT_TEST": 5250,
+      "EXCLUDED_FROM_FOLD": 4462
+    }
+  },
+  "cross_fold_rule": "an element held out in its own fold is a legitimate training element in the other five folds; each fold is an independent experiment (spec 13)",
+  "candidate_feature_schema": {
+    "source": "STEP5A 02_features/FULL_V1_CANDIDATE_FEATURES.parquet",
+    "blocks": "F1 + F2 + F3 + F4 (spec 16)",
+    "n_candidate_features": 193,
+    "schema_sha256": "b3ed89bec1984197aa686f1b1a7b1fe21a9ad9ec534edb41909a3ece71943709",
+    "frozen_once_for_all_folds": true
+  },
+  "step5a_43_feature_list_is_primary": false,
+  "step5a_43_feature_list_rationale": "the STEP5A 43-feature selection was performed with all six development X elements present, so every held-out element participated in it indirectly; using it as the LOEO primary list would leak (spec 20)",
+  "feature_selection": {
+    "scope": "FOLD_TRAIN rows only, re-run independently in every fold (spec 21)",
+    "steps": [
+      "NaN/inf census",
+      "near-zero-variance",
+      "exact algebraic redundancy",
+      "Pearson |r| > 0.90"
+    ],
+    "nzv_rule": "constant, or 2 unique values with minority fraction < 0.0001",
+    "exact_redundancy_tol": 1e-10,
+    "pcc_threshold": 0.9,
+    "pcc_scope": "FOLD_TRAIN only - never validation, never held-out test (spec 22)",
+    "keep_priority": "STEP5A priority order, inherited verbatim (spec 23)",
+    "keep_priority_sha256": "8cf710dfd64b27e4ea6abc3ce53c2866428fa28d169536d32b16ba1d248e2888",
+    "may_change_between_folds": false
+  },
+  "heldout_element_descriptors_at_inference": {
+    "allowed": true,
+    "rationale": "the external physicochemical descriptors of the held-out element ARE the cross-element generalization input (spec 17)",
+    "source": "STEP5A versioned ELEMENT_DESCRIPTOR_TABLE_DEV6_V1 (spec 18)",
+    "source_sha256": "367cee4fc52d326984811b1ec2f7205980f009b3e4ac7f2cff02a160d804e545",
+    "per_fold_property_lookup_forbidden": true,
+    "manual_per_element_descriptor_tuning_forbidden": true
+  },
+  "model_families": [
+    "XGBoost",
+    "CatBoost"
+  ],
+  "model_family_rationale": "compute-bounded primary search space fixed before fold 1 (spec 25). RandomForest and MLP are NOT retuned across the six folds (spec 26); they were screened in STEP5A and belong in the Supplement.",
+  "model_family_deviation_note": "DISCLOSURE: in the STEP5A Stage-K screen RandomForest ranked first for x_partition and second for fraction and nb_partition. Restricting the LOEO primary search space to XGBoost + CatBoost is therefore a deliberate, preregistered compute decision, not a claim that RF was inferior on every task. It is applied identically to all six folds and is recorded here before any fold is fitted.",
+  "step5a_screen_ranking_for_the_record": {
+    "presence": [
+      "XGBoost",
+      "RandomForest",
+      "CatBoost",
+      "MLP"
+    ],
+    "fraction": [
+      "CatBoost",
+      "RandomForest",
+      "XGBoost",
+      "MLP"
+    ],
+    "cr_partition": [
+      "CatBoost",
+      "XGBoost",
+      "RandomForest",
+      "MLP"
+    ],
+    "nb_partition": [
+      "XGBoost",
+      "RandomForest",
+      "CatBoost",
+      "MLP"
+    ],
+    "x_partition": [
+      "RandomForest",
+      "XGBoost",
+      "CatBoost",
+      "MLP"
+    ]
+  },
+  "hyperparameter_search_space": {
+    "XGBoost": {
+      "n_estimators": {
+        "type": "int",
+        "low": 200,
+        "high": 900,
+        "step": 100
+      },
+      "max_depth": {
+        "type": "int",
+        "low": 4,
+        "high": 12
+      },
+      "learning_rate": {
+        "type": "float",
+        "low": 0.02,
+        "high": 0.3,
+        "log": true
+      },
+      "subsample": {
+        "type": "float",
+        "low": 0.6,
+        "high": 1.0
+      },
+      "colsample_bytree": {
+        "type": "float",
+        "low": 0.5,
+        "high": 1.0
+      },
+      "min_child_weight": {
+        "type": "int",
+        "low": 1,
+        "high": 10
+      },
+      "reg_lambda": {
+        "type": "float",
+        "low": 0.001,
+        "high": 10.0,
+        "log": true
+      }
+    },
+    "CatBoost": {
+      "iterations": {
+        "type": "int",
+        "low": 200,
+        "high": 900,
+        "step": 100
+      },
+      "depth": {
+        "type": "int",
+        "low": 4,
+        "high": 10
+      },
+      "learning_rate": {
+        "type": "float",
+        "low": 0.02,
+        "high": 0.3,
+        "log": true
+      },
+      "l2_leaf_reg": {
+        "type": "float",
+        "low": 0.001,
+        "high": 10.0,
+        "log": true
+      },
+      "random_strength": {
+        "type": "float",
+        "low": 0.001,
+        "high": 10.0,
+        "log": true
+      }
+    }
+  },
+  "search_space_identical_across_folds": true,
+  "step5a_best_params_as_search_centre": true,
+  "final_configuration_selected_on": "FOLD_VALIDATION only (spec 29)",
+  "tuning": {
+    "sampler": "Optuna TPESampler",
+    "n_trials_per_fold_task_family": 15,
+    "max_allowed_without_new_preregistration": 20,
+    "tuning_subset": "20% family-stratified COMPOSITION-level subsample of FOLD_TRAIN (spec 31); state-row random sampling is forbidden",
+    "final_refit": "FULL FOLD_TRAIN"
+  },
+  "tasks": {
+    "classification": [
+      "presence"
+    ],
+    "regression": [
+      "fraction",
+      "cr_partition",
+      "nb_partition",
+      "x_partition"
+    ],
+    "targets": {
+      "presence": [
+        "FCC_presence",
+        "BCC_presence",
+        "C15_presence",
+        "OTHER_SOLID_presence",
+        "LIQUID_presence"
+      ],
+      "fraction": [
+        "FCC_volfrac",
+        "BCC_volfrac",
+        "C15_volfrac",
+        "OTHER_SOLID_volfrac",
+        "LIQUID_volfrac"
+      ],
+      "cr_partition": [
+        "CR_P_FCC",
+        "CR_P_BCC",
+        "CR_P_C15",
+        "CR_P_OTHER_SOLID",
+        "CR_P_LIQUID"
+      ],
+      "nb_partition": [
+        "NB_P_FCC",
+        "NB_P_BCC",
+        "NB_P_C15",
+        "NB_P_OTHER_SOLID",
+        "NB_P_LIQUID"
+      ],
+      "x_partition": [
+        "X_P_FCC",
+        "X_P_BCC",
+        "X_P_C15",
+        "X_P_OTHER_SOLID",
+        "X_P_LIQUID"
+      ]
+    },
+    "key_task": "x_partition (spec 28)"
+  },
+  "model_selection": {
+    "presence": "FOLD_VALIDATION Macro F1 (maximize)",
+    "regression": "FOLD_VALIDATION mean TVD (minimize)",
+    "tie_band": {
+      "presence": 0.001,
+      "regression": 0.0001
+    },
+    "tie_rule": "smaller estimated fit cost (trees x depth); if still tied, XGBoost"
+  },
+  "presence_thresholds": {
+    "rule": "per-label F1-max on FOLD_VALIDATION; tie -> closest to 0.5 (spec 33)",
+    "grid": "0.05 to 0.95 step 0.01",
+    "optimized_on_heldout": false
+  },
+  "simplex_projection": {
+    "rule": "clip negatives to 0, renormalize to sum 1",
+    "zero_sum_fallback": "that fold's FOLD_TRAIN mean simplex (spec 38)",
+    "heldout_mean_as_fallback": false
+  },
+  "trivial_baseline": {
+    "presence": "FOLD_TRAIN prevalence",
+    "regression": "FOLD_TRAIN mean simplex",
+    "built_from_heldout_distribution": false
+  },
+  "metrics": {
+    "presence": [
+      "exact_match",
+      "hamming_loss",
+      "micro_f1",
+      "macro_f1",
+      "macro_f1_non_degenerate",
+      "per_label_f1",
+      "pr_auc",
+      "roc_auc"
+    ],
+    "macro_f1_non_degenerate": "Macro F1 computed only over presence labels that have BOTH a positive and a negative case in the held-out test set (spec 35). The original 5-label Macro F1 is retained for cross-stage comparability; the non-degenerate variant is a SECONDARY robustness metric.",
+    "degenerate_label_policy": "a label that is all-0 or all-1 in the held-out test is marked DEGENERATE_TEST_LABEL and its F1 must not be read as generalization (spec 36)",
+    "regression": [
+      "mean_tvd",
+      "median_tvd",
+      "p95_tvd",
+      "macro_mae",
+      "macro_rmse",
+      "per_component_mae",
+      "per_component_rmse",
+      "per_component_r2",
+      "raw_sum_violation",
+      "projected_sum_violation",
+      "simplex_fallback_count"
+    ],
+    "topology": [
+      "dominant_accuracy",
+      "macro_f1",
+      "confusion_matrix"
+    ],
+    "topology_families": [
+      "FCC",
+      "BCC",
+      "C15",
+      "OTHER_SOLID",
+      "LIQUID"
+    ]
+  },
+  "bootstrap": {
+    "type": "composition-level cluster bootstrap",
+    "replicates": 1000,
+    "master_seed": 20260906,
+    "fold_child_seeds": {
+      "ZR": 74843841,
+      "TI": 2717556234,
+      "CO": 1462601100,
+      "SI": 342621049,
+      "AG": 590289172,
+      "MO": 3696356624
+    },
+    "derivation": "numpy SeedSequence(master).spawn(6), deterministic"
+  },
+  "element_distance": {
+    "vector": [
+      "AtomicNumber",
+      "AtomicWeight",
+      "CovalentRadius",
+      "Electronegativity",
+      "VEC",
+      "MeltingT",
+      "FirstIonizationEnergy",
+      "ElectronAffinity",
+      "AtomicVolume_GS",
+      "MetallicRadius",
+      "Density",
+      "MendeleevNumber",
+      "CohesiveEnergy"
+    ],
+    "source": "pure-element external properties only - no CALPHAD, phase, partition or target quantity (spec 53)",
+    "scaler": "fit on the REMAINING 5 X elements of that fold only (spec 54)",
+    "metrics": [
+      "nearest_element_euclidean",
+      "mean_distance_to_5",
+      "centroid_distance"
+    ],
+    "inference_limit": "n = 6 held-out elements; Spearman rho is reported as descriptive/exploratory only, never as a statistical inference (spec 55)"
+  },
+  "composition_distance": {
+    "vector": "fold-specific selected features minus Temperature_C (spec 56)",
+    "scaler": "FOLD_TRAIN only",
+    "metrics": [
+      "nn1_distance",
+      "nn5_mean_distance",
+      "outside_train_range_feature_count"
+    ],
+    "error_correlation": "Spearman + distance quartile stratification (spec 57)"
+  },
+  "stratification": {
+    "phase_split": "post-hoc split vs non-split reporting permitted with NO directional prior; STEP5B found split marginally EASIER in Domain B (spec 3, 59)",
+    "temperature": "error by Temperature_C, all 11 grid points (spec 50)",
+    "target_distribution_shift": "post-hoc only, after held-out scoring; never used to retrain (spec 58)"
+  },
+  "execution_discipline": {
+    "all_six_folds_frozen_before_any_scoring": true,
+    "enforcement": "the scoring module refuses to run until all six 11_manifest/FOLD_<X>_FREEZE.json exist and the Stage-I gate file confirms that no held-out metric artifact exists (spec 43)",
+    "no_adaptation_between_folds": "once any held-out result is seen, no feature policy, model family, search bound, trial count, metric, threshold rule, projection, distance metric or plot definition may change for any remaining fold (spec 15)",
+    "poor_fold_policy": "a badly performing fold is retained as-is. No fold is deleted, no descriptor is added for it, no threshold is re-optimized; failure is itself an OOD result (spec 72)"
+  },
+  "seals": {
+    "NI": "sealed - 0 descriptors, 0 compositions, 0 predictions (spec 19)",
+    "ANCHOR": "sealed - no evaluation (spec 77)",
+    "DOMAIN_B": "not used in primary LOEO training or test (spec 6)"
+  },
+  "absolute_prohibitions": [
+    "STEP5A global 43-feature list as the strict LOEO primary selection",
+    "held-out target in feature selection / PCC / NZV / tuning / thresholds / scaler / trivial baseline / model selection",
+    "family, X_element one-hot or sampling_domain as a model input",
+    "any CALPHAD-derived quantity as a model input",
+    "manually adding a descriptor for one fold",
+    "changing later folds' rules because an earlier fold performed badly",
+    "deleting the worst element",
+    "Domain B in primary LOEO training or test",
+    "ANCHOR evaluation",
+    "Ni descriptor / CALPHAD / prediction",
+    "targeted augmentation"
+  ],
+  "go_step5d_criteria": {
+    "A": "all six fold protocols valid",
+    "B": "held-out leakage == 0",
+    "C": "at least some elements show clear cross-element skill",
+    "D": "performance differences between elements are interpretable",
+    "E": "distance / topology analyses help explain them",
+    "F": "Ni still sealed",
+    "G": "ANCHOR still sealed",
+    "note": "STEP5C does NOT require all six folds to succeed (spec 73)"
+  }
+}

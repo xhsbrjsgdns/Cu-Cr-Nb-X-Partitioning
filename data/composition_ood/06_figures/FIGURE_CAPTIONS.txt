@@ -1,0 +1,39 @@
+Fig_S5B_01_IID_vs_OOD
+Five fixed primary tasks, evaluated over all supplied task-eligible converged rows. X partition excludes BASELINE, where it is undefined. Presence: macro F1 across five labels, zero denominator set to zero. Regressions: mean five-component TVD. Bar baselines are zero; no uncertainty intervals implied.
+B formal = 110,000; converged = 109,716; failed = 284
+
+Fig_S5B_02_OOD_phase_fraction_parity
+All converged rows; rasterized scatter, no point trimming. Dashed lines mark identity; each axis includes zero, one, and any out-of-range predictions.
+B formal = 110,000; converged = 109,716; failed = 284
+
+Fig_S5B_03_OOD_partition_parity
+Rows show Cr, Nb, and X partition tasks; columns show the five phase families. X panels exclude BASELINE because X partition is undefined; n denotes eligible rows. All other supplied converged rows and zero-valued components remain visible; identity lines are references.
+B formal = 110,000; converged = 109,716; failed = 284
+
+Fig_S5B_04_OOD_error_by_family
+All task-eligible converged rows grouped by family; lower is better. X partition excludes BASELINE and its family bar is N/A; displayed family n is total converged rows. Presence is one minus group macro F1; other tasks use mean TVD. Temperature lines only connect evaluated levels; no interpolation or independent-row confidence intervals are asserted.
+B formal = 110,000; converged = 109,716; failed = 284
+
+Fig_S5B_05_OOD_error_by_temperature
+All task-eligible converged rows grouped by Temperature_C; lower is better. X partition excludes BASELINE and its family bar is N/A; displayed family n is total converged rows. Presence is one minus group macro F1; other tasks use mean TVD. Temperature lines only connect evaluated levels; no interpolation or independent-row confidence intervals are asserted.
+B formal = 110,000; converged = 109,716; failed = 284
+
+Fig_S5B_06_feature_shift
+Up to 15 features ranked by absolute standardized mean shift, using the supplied frozen-feature audit. Signed mean shifts and training-range exceedance are descriptive, not causal. Nonfinite standardized shifts (for example zero training variance) have no finite bar; range exceedance remains reported. Feature ranking limits display only, never scored samples.
+B formal = 110,000; converged = 109,716; failed = 284
+
+Fig_S5B_07_OOD_distance_distribution
+Empirical cumulative distributions count each composition once. Distances are supplied by the upstream frozen training-standardized feature audit. No log transform or tail truncation; panels explicitly mark unavailable fields.
+B formal = 110,000; converged = 109,716; failed = 284
+
+Fig_S5B_08_error_vs_OOD_distance
+Each dot is one task-eligible B composition, averaging all available converged temperature rows. X partition excludes BASELINE compositions because X is undefined. Presence uses mean binary-label disagreement (not one minus macro F1); regressions use mean TVD. Association is descriptive. No fitted trend, point filtering beyond task eligibility, or causal inference.
+B formal = 110,000; converged = 109,716; failed = 284
+
+Fig_S5B_09_composition_domain_map
+Train, IID, and B shown on common axes in total Cr+Nb weight percent and actual atomic Cr/Nb ratio. Each dot is a supplied composition; all finite coordinates and full ranges retained. This two-dimensional projection does not replace the full-feature distance audit.
+B formal = 110,000; converged = 109,716; failed = 284
+
+Fig_S5B_10_LIQUID_OOD
+Liquid presence confusion matrix uses frozen binary predictions; cells show raw counts. Fraction parity includes absent-liquid zeros and all converged rows. Temperature prevalence uses observed converged rows per level, with no implied paired-composition balance.
+B formal = 110,000; converged = 109,716; failed = 284
