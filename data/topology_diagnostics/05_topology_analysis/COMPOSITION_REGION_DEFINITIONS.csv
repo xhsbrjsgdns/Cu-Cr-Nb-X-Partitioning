@@ -1,0 +1,7 @@
+heldout,X_low_upper,X_mid_upper,scope
+ZR,0.0727,0.1666,FOLD_TRAIN composition-level terciles
+TI,0.0729,0.1669333333333332,FOLD_TRAIN composition-level terciles
+CO,0.0683,0.14993333333333322,FOLD_TRAIN composition-level terciles
+SI,0.1001,0.1752,FOLD_TRAIN composition-level terciles
+AG,0.0683,0.1496,FOLD_TRAIN composition-level terciles
+MO,0.0683,0.1499,FOLD_TRAIN composition-level terciles

@@ -1,0 +1,7 @@
+heldout,n_overlap_strata,overlap_weight,standardized_split_minus_non_split,interpretation
+AG,2,3044,0.0001707917199690179,"association conditional on element, temperature, correctness; not causal; overlap-only"
+CO,0,0,,"association conditional on element, temperature, correctness; not causal; overlap-only"
+MO,9,5076,0.009286530305408186,"association conditional on element, temperature, correctness; not causal; overlap-only"
+SI,0,0,,"association conditional on element, temperature, correctness; not causal; overlap-only"
+TI,0,0,,"association conditional on element, temperature, correctness; not causal; overlap-only"
+ZR,0,0,,"association conditional on element, temperature, correctness; not causal; overlap-only"

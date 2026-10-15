@@ -1,0 +1,8 @@
+{
+  "status": "PASS_WITH_WARNINGS",
+  "completed_utc": "2026-09-05T14:56:34.985415+00:00",
+  "n_files_hashed": 203,
+  "file_manifest_sha256": "cf42514d2342db2533025daf46846ede29cf50305609781cc9a0ae655d6ef49b",
+  "step5c_comparison_sha256": "674dea7360d75e1eb9d7995811fe71010eaa58fc8d30ceb7475dbb693357c772",
+  "next_stage_executed": false
+}

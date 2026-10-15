@@ -1,0 +1,23 @@
+{
+  "pdf": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5D_FAILURE_DIAGNOSIS_V1\\09_figures\\Fig_S5D_10_root_cause_summary.pdf",
+  "auditable": true,
+  "verdict": "PASS",
+  "page_count": 1,
+  "visible_text_box_count": 23,
+  "text_trace_count": 23,
+  "stroke_path_count": 14,
+  "filled_region_count": 14,
+  "image_region_count": 1,
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "contained_fill_overlays": 0,
+    "contained_image_overlays": 0
+  },
+  "thresholds": {
+    "text_inset_pt": 0.6,
+    "min_overlap_ratio": 0.05,
+    "clipping_tolerance_pt": 0.5
+  },
+  "findings": []
+}

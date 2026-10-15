@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-09-05T14:31:20.461095+00:00",
+  "n_rows": 345346,
+  "n_compositions": 31500,
+  "elements": [
+    "AG",
+    "CO",
+    "MO",
+    "SI",
+    "TI",
+    "ZR"
+  ],
+  "domain": "A",
+  "filter": "sampling_domain == A AND family in [ZR,TI,CO,SI,AG,MO] applied by pyarrow before pandas materialization",
+  "baseline_rows": 0,
+  "anchor_rows": 0,
+  "ni_rows": 0,
+  "domain_b_rows": 0,
+  "sha256": "b48dd3c43972d15db709f4a6492528a963597fbfed5ef803fe898bff49ae20d3"
+}

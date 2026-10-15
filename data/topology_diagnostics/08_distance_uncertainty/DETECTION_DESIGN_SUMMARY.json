@@ -1,0 +1,11 @@
+{
+  "status": "EXPLORATORY_ERROR_DETECTABILITY_NOT_CALIBRATED_UNCERTAINTY",
+  "threshold": 0.9994985574010048,
+  "pooled_rows": 345346,
+  "pooled_high_error_prevalence": 0.10000115825867391,
+  "chemical_independence_n": 6,
+  "state_error_wrong_share": 0.9669648302160682,
+  "composition_scores_constant_over_temperature": true,
+  "element_scores_constant_within_fold": true,
+  "confidence_intervals": "not estimated; no inferential claims"
+}

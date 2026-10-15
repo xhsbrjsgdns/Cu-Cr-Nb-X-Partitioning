@@ -1,0 +1,4 @@
+task,distance_metric,n,spearman_rho,note,interpretation_limit
+presence,nearest_element_distance,6,-0.942857142857143,,Archive only; many DEGENERATE_TEST_LABEL outcomes. Negative distance correlation is not evidence that distant chemistry generalizes better.
+presence,mean_distance_to_5,6,-0.942857142857143,,Archive only; many DEGENERATE_TEST_LABEL outcomes. Negative distance correlation is not evidence that distant chemistry generalizes better.
+presence,centroid_distance,6,-0.7714285714285715,,Archive only; many DEGENERATE_TEST_LABEL outcomes. Negative distance correlation is not evidence that distant chemistry generalizes better.

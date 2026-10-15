@@ -1,0 +1,11 @@
+Nature Figure Rendered Collision Audit
+pdf: E:\Cu_CALPHAD_ML\05_OOD\STEP5D_FAILURE_DIAGNOSIS_V1\09_figures\Fig_S5D_06_X_error_by_topology_correctness.pdf
+pages: 1
+visible text boxes: 17
+stroke paths: 15
+
+
+summary: 0 fail, 0 warn, 2 contained fill overlays, 0 contained image overlays
+verdict: PASS
+note: contained overlays can be intentional; WARN findings need final-size visual review
+

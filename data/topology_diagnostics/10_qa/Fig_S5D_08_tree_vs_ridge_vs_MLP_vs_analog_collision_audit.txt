@@ -1,0 +1,11 @@
+Nature Figure Rendered Collision Audit
+pdf: E:\Cu_CALPHAD_ML\05_OOD\STEP5D_FAILURE_DIAGNOSIS_V1\09_figures\Fig_S5D_08_tree_vs_ridge_vs_MLP_vs_analog.pdf
+pages: 1
+visible text boxes: 20
+stroke paths: 16
+
+
+summary: 0 fail, 0 warn, 4 contained fill overlays, 0 contained image overlays
+verdict: PASS
+note: contained overlays can be intentional; WARN findings need final-size visual review
+

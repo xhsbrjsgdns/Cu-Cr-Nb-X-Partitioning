@@ -1,0 +1,11 @@
+{
+  "pdf": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5D_FAILURE_DIAGNOSIS_V1\\09_figures\\Fig_S5D_06_X_error_by_topology_correctness.pdf",
+  "auditable": true,
+  "minimum_required_pt": 5.0,
+  "minimum_found_pt": 7.0,
+  "text_run_count": 17,
+  "below_minimum_count": 0,
+  "below_minimum": [],
+  "warnings": []
+}
+

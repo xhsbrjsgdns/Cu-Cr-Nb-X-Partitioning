@@ -1,0 +1,20 @@
+{
+  "frozen_utc": "2026-09-05T14:44:52.507424+00:00",
+  "folds": [
+    "ZR",
+    "TI",
+    "CO",
+    "SI",
+    "AG",
+    "MO"
+  ],
+  "status": "PASS",
+  "freeze_hashes": {
+    "ZR": "25118b0cd787bf3b8e1012145283d14474c3eb69458b52d210a7347df14e356c",
+    "TI": "0d6183d44c8b45f325b8a00c32efcdcac7502279c9b1fce7fec72caa961922cc",
+    "CO": "16afeb1d93c3667042968cbea43262e0e5cfa41ddc8f53f4cacc591903c22c97",
+    "SI": "1ffefe9a92103fe60bc32270d4d3aaabc46bace792dd2d5d68cb53acdd141331",
+    "AG": "29810dda134ba49ea86215f105fba32362efec5a3d8d858c881f882bd39babf2",
+    "MO": "e3421f50c80d5133b207b2e0d80a52add19641084f255f326fb11c183c106f72"
+  }
+}

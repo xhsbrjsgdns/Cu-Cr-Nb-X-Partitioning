@@ -1,0 +1,77 @@
+check,status,detail
+all STEP5C files unchanged during STEP5D,PASS,"145 files checked, including primary artifacts, metrics, freezes, thresholds, feature lists and logs"
+STEP5C file inventory unchanged,PASS,No new or removed upstream files
+preregistration unchanged,PASS,3fbff5945a9e87b3921dbce936c3c92446f7ee7c9fcc4020f8e7f5269b0fb5b3
+filtered input snapshot unchanged,PASS,345346 allowed states
+Domain A only,PASS,['A']
+six X identities only; no Ni or Anchor,PASS,"['AG', 'CO', 'MO', 'SI', 'TI', 'ZR']"
+Ni descriptor rows zero,PASS,Allowed source DEV6 table only; no periodic-table property lookup
+state IDs unique,PASS,345346
+ZR role isolation,PASS,Train/validation/heldout composition identities disjoint
+ZR original selected features,PASS,39
+ZR scaler train only,PASS,201323
+ZR selected artifacts unchanged,PASS,"{'scaler.joblib': '71615e728847158724adeb63350b6a33806e1e091d81190663d634162c668786', 'ridge.joblib': '6b6525fb114606a5ad4004c3c7d3290db94e4724a7e351aceaa04700fcdaa46b', 'mlp.pt': '1f5a18fe4acc03ece93f544543a94b2a734e5e9388097c6795b5faff51fc73db', 'analog_temperature_means.csv': '989c451df06334c0c9b4838e3bdd1e42c5685cce8cbc3a08d53db06933e3b90d'}"
+ZR freeze precedes all-six gate,PASS,2026-09-05T14:35:44.512153+00:00
+ZR predictions after gate,PASS,Diagnostic prediction file timestamp >= gate
+ZR fixed candidate suite,PASS,7 fixed alpha + 3 fixed LR; no model hunting
+ZR validation-only selected minima,PASS,Both selected on known-identity FOLD_VALIDATION only
+ZR secondary predictions exactly align,PASS,No omitted eligible heldout rows
+ZR copied primary tree unchanged,PASS,Bitwise numeric equality
+TI role isolation,PASS,Train/validation/heldout composition identities disjoint
+TI original selected features,PASS,38
+TI scaler train only,PASS,201323
+TI selected artifacts unchanged,PASS,"{'scaler.joblib': '5ec7f4c57c564e36cc8a2d3490c920083f67456e60410dc4e78678484c54fe79', 'ridge.joblib': '4f9d2812d8f6610c3e596f92d3d61141cda619474675fe9ebd044595d66b8434', 'mlp.pt': 'ddf23f6e2b596dbcecce8b42fe204bb5a13a97f23572ceed4cdf01751198bd4b', 'analog_temperature_means.csv': 'fd2a399a8ff6d9dfb9c4968817f2a21bc97e9b7c87005a38e72b6e4abb3342e7'}"
+TI freeze precedes all-six gate,PASS,2026-09-05T14:37:30.881971+00:00
+TI predictions after gate,PASS,Diagnostic prediction file timestamp >= gate
+TI fixed candidate suite,PASS,7 fixed alpha + 3 fixed LR; no model hunting
+TI validation-only selected minima,PASS,Both selected on known-identity FOLD_VALIDATION only
+TI secondary predictions exactly align,PASS,No omitted eligible heldout rows
+TI copied primary tree unchanged,PASS,Bitwise numeric equality
+CO role isolation,PASS,Train/validation/heldout composition identities disjoint
+CO original selected features,PASS,39
+CO scaler train only,PASS,201323
+CO selected artifacts unchanged,PASS,"{'scaler.joblib': 'a1414ce7dfdfdd43064bd656a74cdf5f1a0dd488c65929c7e1e2e3d6933e9f22', 'ridge.joblib': 'd5a3a7e207ba5d0a285a5ce8bf08661142fe6c93a273e6c3cfe21b6e08458f27', 'mlp.pt': '30375f88ba957db0e238a9d5769772e3be5ac6595b0440da95be8fa6242bf5ea', 'analog_temperature_means.csv': 'bdd7df0eb4b3d176603a3c679d3a44ce243eae03e182ecfb589f636dcad209bb'}"
+CO freeze precedes all-six gate,PASS,2026-09-05T14:39:25.919161+00:00
+CO predictions after gate,PASS,Diagnostic prediction file timestamp >= gate
+CO fixed candidate suite,PASS,7 fixed alpha + 3 fixed LR; no model hunting
+CO validation-only selected minima,PASS,Both selected on known-identity FOLD_VALIDATION only
+CO secondary predictions exactly align,PASS,No omitted eligible heldout rows
+CO copied primary tree unchanged,PASS,Bitwise numeric equality
+SI role isolation,PASS,Train/validation/heldout composition identities disjoint
+SI original selected features,PASS,38
+SI scaler train only,PASS,201323
+SI selected artifacts unchanged,PASS,"{'scaler.joblib': '11702dd44cd9c5a604814a9f5f897f64860bda186f8679773c5280d98b0aba96', 'ridge.joblib': 'd8faad1d9a37bf19da6b59ba1802e6dabcedad4a8a55a891e2cae0565496bc15', 'mlp.pt': '31ff998e92d71264d9091a548cef6d021189462beb363a68eb65302db83fc602', 'analog_temperature_means.csv': 'd242e42d4728dde03c4d924a5e878fcf238f2d4e808ac33813ea29fa096766c0'}"
+SI freeze precedes all-six gate,PASS,2026-09-05T14:41:12.651812+00:00
+SI predictions after gate,PASS,Diagnostic prediction file timestamp >= gate
+SI fixed candidate suite,PASS,7 fixed alpha + 3 fixed LR; no model hunting
+SI validation-only selected minima,PASS,Both selected on known-identity FOLD_VALIDATION only
+SI secondary predictions exactly align,PASS,No omitted eligible heldout rows
+SI copied primary tree unchanged,PASS,Bitwise numeric equality
+AG role isolation,PASS,Train/validation/heldout composition identities disjoint
+AG original selected features,PASS,38
+AG scaler train only,PASS,201323
+AG selected artifacts unchanged,PASS,"{'scaler.joblib': 'c9c8e05d603f6c8f3ccc8d8ba15d719bb5883ad35066132b2d8797f3da9d2bbe', 'ridge.joblib': '09406aa69ae1280d882d824c2d2e225418d862f8ae603a67af77fd36e82baf61', 'mlp.pt': '5f5460bdae99286abb5559d43901d8e9423c8e3b78dd7d28a46ef8ee4611b52c', 'analog_temperature_means.csv': 'd242e42d4728dde03c4d924a5e878fcf238f2d4e808ac33813ea29fa096766c0'}"
+AG freeze precedes all-six gate,PASS,2026-09-05T14:43:14.325562+00:00
+AG predictions after gate,PASS,Diagnostic prediction file timestamp >= gate
+AG fixed candidate suite,PASS,7 fixed alpha + 3 fixed LR; no model hunting
+AG validation-only selected minima,PASS,Both selected on known-identity FOLD_VALIDATION only
+AG secondary predictions exactly align,PASS,No omitted eligible heldout rows
+AG copied primary tree unchanged,PASS,Bitwise numeric equality
+MO role isolation,PASS,Train/validation/heldout composition identities disjoint
+MO original selected features,PASS,37
+MO scaler train only,PASS,202125
+MO selected artifacts unchanged,PASS,"{'scaler.joblib': 'd2ee93c0d9b97d9824d2a2d331d074f013ae7b6edc4c55457addb60951579971', 'ridge.joblib': '9d859bc6eee81eae45bd2797f922766a4c267a8fd8f5a5ea0a12914f34cf533c', 'mlp.pt': 'b3932c4abcc95220c8a594272e51769ece1a032161a6c9346d4ff9e60dcba672', 'analog_temperature_means.csv': 'fd2a399a8ff6d9dfb9c4968817f2a21bc97e9b7c87005a38e72b6e4abb3342e7'}"
+MO freeze precedes all-six gate,PASS,2026-09-05T14:44:52.447251+00:00
+MO predictions after gate,PASS,Diagnostic prediction file timestamp >= gate
+MO fixed candidate suite,PASS,7 fixed alpha + 3 fixed LR; no model hunting
+MO validation-only selected minima,PASS,Both selected on known-identity FOLD_VALIDATION only
+MO secondary predictions exactly align,PASS,No omitted eligible heldout rows
+MO copied primary tree unchanged,PASS,Bitwise numeric equality
+all four-method predictions finite simplexes,PASS,6 folds x 4 methods
+diagnostics clearly separated,PASS,No replacement of primary result
+ten figures PDF typography and collision QA,PASS,"20 automated audits; single-panel alignment not applicable, colorbar excluded"
+visual review documented,PASS,"Ten figures inspected; finite-dataset summaries, no implied iid-state CIs"
+figure source preflight has no failures,PASS,Uncertainty warning addressed by descriptive finite-dataset contract
+all requested analytical outputs exist,PASS,17
+no CALPHAD engine imports or workflow calls,PASS,Static source audit + executed workflow: zero new equilibrium calculations; no claim about unrelated system processes
+no STEP5E execution,PASS,Recommendation text only; executed stages stop at STEP5D

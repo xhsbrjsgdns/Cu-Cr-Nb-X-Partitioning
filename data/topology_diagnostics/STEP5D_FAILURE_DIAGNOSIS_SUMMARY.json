@@ -1,0 +1,392 @@
+{
+  "stage": "STEP5D_FAILURE_DIAGNOSIS_V1",
+  "status": "PASS_WITH_WARNINGS",
+  "generated_utc": "2026-09-05T14:50:00.799500+00:00",
+  "primary_results_recomputed": true,
+  "preregistration_sha256": "3fbff5945a9e87b3921dbce936c3c92446f7ee7c9fcc4020f8e7f5269b0fb5b3",
+  "eta2_element": {
+    "fraction": 0.0774608057359036,
+    "cr_partition": 0.2046470581679638,
+    "nb_partition": 0.0417232727455628,
+    "x_partition": 0.885454877763191
+  },
+  "model_suite_results": {
+    "Ridge": {
+      "practical_improvement_folds": 1,
+      "practical_improvement_elements": [
+        "AG"
+      ],
+      "rescue_folds": 1,
+      "rescue_elements": [
+        "AG"
+      ],
+      "positive_skill_folds": 1,
+      "mean_tvd": 0.8424776061894376,
+      "mean_topology_accuracy": 0.16437806637806637
+    },
+    "MLP": {
+      "practical_improvement_folds": 3,
+      "practical_improvement_elements": [
+        "TI",
+        "SI",
+        "AG"
+      ],
+      "rescue_folds": 0,
+      "rescue_elements": [],
+      "positive_skill_folds": 2,
+      "mean_tvd": 0.752644092873945,
+      "mean_topology_accuracy": 0.19352669552669552
+    },
+    "Nearest-element analog": {
+      "practical_improvement_folds": 0,
+      "practical_improvement_elements": [],
+      "rescue_folds": 0,
+      "rescue_elements": [],
+      "positive_skill_folds": 0,
+      "mean_tvd": 0.8658680397850677,
+      "mean_topology_accuracy": 0.10082828282828282
+    }
+  },
+  "tree_bias_rule_met": false,
+  "smooth_majority_rescue": false,
+  "topology_wrong_error_share": 0.9669648302160682,
+  "root_cause_evidence": [
+    {
+      "hypothesis": "A chemical-anchor sparsity",
+      "analysis": "training identity census",
+      "metric": "X identities per fold",
+      "result": "5",
+      "supports": "SUPPORTED",
+      "strength": "STRONG structural fact",
+      "caveat": "Large state count does not add identities; causal improvement from adding anchors was not tested.",
+      "diagnosed_role": "PRIMARY STRUCTURAL CONSTRAINT"
+    },
+    {
+      "hypothesis": "B element-identity-dominated target",
+      "analysis": "SS decomposition",
+      "metric": "whole-vector eta2 X",
+      "result": "0.885454877763191",
+      "supports": "SUPPORTED",
+      "strength": "STRONG descriptive association",
+      "caveat": "Identity also indexes chemistry-specific responses and sampling distributions; not causal ANOVA attribution.",
+      "diagnosed_role": "PRIMARY EMPIRICAL ASSOCIATION"
+    },
+    {
+      "hypothesis": "C general/dominant tree limitation under >=4-fold rule",
+      "analysis": "fixed Ridge/MLP comparison",
+      "metric": "practical improvement counts",
+      "result": "{'Ridge': {'practical_improvement_folds': 1, 'practical_improvement_elements': ['AG'], 'rescue_folds': 1, 'rescue_elements': ['AG'], 'positive_skill_folds': 1, 'mean_tvd': 0.8424776061894376, 'mean_topology_accuracy': 0.16437806637806637}, 'MLP': {'practical_improvement_folds': 3, 'practical_improvement_elements': ['TI', 'SI', 'AG'], 'rescue_folds': 0, 'rescue_elements': [], 'positive_skill_folds': 2, 'mean_tvd': 0.752644092873945, 'mean_topology_accuracy': 0.19352669552669552}, 'Nearest-element analog': {'practical_improvement_folds': 0, 'practical_improvement_elements': [], 'rescue_folds': 0, 'rescue_elements': [], 'positive_skill_folds': 0, 'mean_tvd': 0.8658680397850677, 'mean_topology_accuracy': 0.10082828282828282}}",
+      "supports": "NOT SUPPORTED",
+      "strength": "MODERATE within fixed suite",
+      "caveat": "Majority rule not met does not mean absence of inductive-bias effects: MLP improves three folds jointly and Ridge rescues AG. Known-identity validation and tree-selected features restrict inference.",
+      "diagnosed_role": "NOT ESTABLISHED AS GENERAL PRIMARY"
+    },
+    {
+      "hypothesis": "D descriptor insufficiency",
+      "analysis": "analog plus manifold",
+      "metric": "analog rescue and extrapolation",
+      "result": "{'analog': {'practical_improvement_folds': 0, 'practical_improvement_elements': [], 'rescue_folds': 0, 'rescue_elements': [], 'positive_skill_folds': 0, 'mean_tvd': 0.8658680397850677, 'mean_topology_accuracy': 0.10082828282828282}, 'F3_counts': {'ZR': 3, 'TI': 0, 'CO': 0, 'SI': 5, 'AG': 11, 'MO': 4}}",
+      "supports": "INCONCLUSIVE",
+      "strength": "COMPATIBLE, NOT IDENTIFIED",
+      "caveat": "No enriched-descriptor intervention. Preregistration did not quantify high range extrapolation; no retrospective threshold invented. TI/CO fail despite zero selected F3 marginal violations.",
+      "diagnosed_role": "POSSIBLE SECONDARY"
+    },
+    {
+      "hypothesis": "E topology selection failure",
+      "analysis": "error share by argmax correctness",
+      "metric": "fraction summed TVD from wrong topology",
+      "result": "0.9669648302160682",
+      "supports": "SUPPORTED",
+      "strength": "STRONG descriptive signature",
+      "caveat": "Argmax correctness and TVD are mathematically related; share alone does not prove a causal topology discontinuity.",
+      "diagnosed_role": "DOMINANT FAILURE SIGNATURE"
+    },
+    {
+      "hypothesis": "E topology discontinuity/boundary",
+      "analysis": "within-element transition proximity",
+      "metric": "adjacent minus stable TVD",
+      "result": "{'CO': -0.35508897985686294, 'SI': -0.20616530025425905, 'TI': -0.2136522115630467, 'ZR': -0.30119072037768413}",
+      "supports": "NOT SUPPORTED",
+      "strength": "DESCRIPTIVE within four eligible elements",
+      "caveat": "AG/MO have no observed transitions; discrete grid can miss intervening transitions; no new equilibrium calls.",
+      "diagnosed_role": "NOT GENERAL BOUNDARY CAUSE"
+    },
+    {
+      "hypothesis": "F composition-space distance",
+      "analysis": "within-element composition aggregates",
+      "metric": "distance correlations and high-error AUROC",
+      "result": "See composition correlations and detection metrics",
+      "supports": "INCONCLUSIVE",
+      "strength": "HETEROGENEOUS exploratory association",
+      "caveat": "Pooled scores confound identity; archived nominal 1-NN implementation not guaranteed exact minimum; prefer archived 5-NN mean.",
+      "diagnosed_role": "POSSIBLE SECONDARY"
+    },
+    {
+      "hypothesis": "phase splitting",
+      "analysis": "matched element x T x correctness",
+      "metric": "overlap-conditioned split difference",
+      "result": "[{'heldout': 'AG', 'n_overlap_strata': 2, 'overlap_weight': 3044, 'standardized_split_minus_non_split': 0.000170791719969, 'interpretation': 'association conditional on element, temperature, correctness; not causal; overlap-only'}, {'heldout': 'MO', 'n_overlap_strata': 9, 'overlap_weight': 5076, 'standardized_split_minus_non_split': 0.0092865303054081, 'interpretation': 'association conditional on element, temperature, correctness; not causal; overlap-only'}]",
+      "supports": "INCONCLUSIVE",
+      "strength": "LIMITED overlap",
+      "caveat": "Only AG and MO have overlap; conditioning on correctness is outcome-conditioned; association is not causal.",
+      "diagnosed_role": "NOT ESTABLISHED AS PRIMARY"
+    },
+    {
+      "hypothesis": "C fold-specific model sensitivity",
+      "analysis": "fixed model contrasts",
+      "metric": "MLP mean TVD reduction and AG Ridge rescue",
+      "result": "{'MLP_mean_tvd_reduction': 0.09785383306500883, 'MLP_practical_folds': ['TI', 'SI', 'AG'], 'Ridge_rescue_folds': ['AG']}",
+      "supports": "SUPPORTED",
+      "strength": "DESCRIPTIVE fixed-suite comparison",
+      "caveat": "This is an element-specific effect; it does not satisfy or alter the frozen general majority criterion.",
+      "diagnosed_role": "SECONDARY EMPIRICAL EFFECT"
+    }
+  ],
+  "answers_35": {
+    "1 STEP5C primary results unchanged?": "Primary archival hashes matched; PART2.log has a verified identical archived prefix plus completion text. End-of-run hashes are reported in the separate integrity audit.",
+    "2 New CALPHAD calls?": "NO. Existing frozen outputs only; no Thermo-Calc or TC-Python imports/calls.",
+    "3 Ni touched?": "NO. No Ni properties, compositions, targets or predictions loaded.",
+    "4 Fraction eta2_element": 0.0774608057359036,
+    "5 Cr eta2_element": 0.2046470581679638,
+    "6 Nb eta2_element": 0.0417232727455628,
+    "7 X eta2_element": 0.885454877763191,
+    "8 Is X much more element-identity dominated?": true,
+    "9 Effective X chemical anchors per fold?": "5 identities; 18,375 train compositions. Identity count is not a formal estimated statistical effective sample size.",
+    "10 Farthest heldout from training manifold?": "SI by affine residual; SI by convex reconstruction error.",
+    "11 Most selected F3 outside-range features?": "AG; 11 selected features.",
+    "12 Affine residual versus X error rho": 0.6,
+    "13 Convex reconstruction error versus X error rho": 0.6,
+    "14 Does predicted topology collapse?": {
+      "strict_95_percent_elements": [
+        "ZR",
+        "AG"
+      ],
+      "all_collapse_ratios": {
+        "ZR": 1.0,
+        "TI": 0.8726233766233766,
+        "CO": 0.8717748917748918,
+        "SI": 0.8818354978354979,
+        "AG": 0.999982683982684,
+        "MO": 0.5477772280726553
+      },
+      "caveat": "MO fails with two wrong archetypes, not low-entropy single-family collapse."
+    },
+    "15 Borrowed archetypes": {
+      "ZR": "TI",
+      "TI": "ZR",
+      "CO": "TI",
+      "SI": "CO",
+      "AG": "MO",
+      "MO": "ZR"
+    },
+    "16 Descriptor nearest equals borrowed?": {
+      "ZR": true,
+      "TI": true,
+      "CO": false,
+      "SI": true,
+      "AG": false,
+      "MO": true
+    },
+    "17 Fraction of X error from topology-wrong states": 0.9669648302160682,
+    "18 Are topology-transition-adjacent states harder?": {
+      "adjacent_minus_stable": {
+        "CO": -0.35508897985686294,
+        "SI": -0.20616530025425905,
+        "TI": -0.2136522115630467,
+        "ZR": -0.30119072037768413
+      },
+      "general_boundary_support": false,
+      "no_observed_transitions": [
+        "AG",
+        "MO"
+      ]
+    },
+    "19 Are split states harder after conditioning?": {
+      "AG": 0.000170791719969,
+      "MO": 0.0092865303054081,
+      "others": "INCONCLUSIVE: no overlapping split/non-split strata; not zero effects"
+    },
+    "20 Tree X TVD by folds": {
+      "ZR": 0.639813,
+      "TI": 0.826225,
+      "CO": 0.832231,
+      "SI": 0.903256,
+      "AG": 0.914377,
+      "MO": 0.987084
+    },
+    "21 Ridge X TVD by folds": {
+      "ZR": 0.963307,
+      "TI": 0.999996,
+      "CO": 0.733355,
+      "SI": 0.94232,
+      "AG": 0.428753,
+      "MO": 0.987134
+    },
+    "22 MLP X TVD by folds": {
+      "ZR": 0.79498,
+      "TI": 0.74615,
+      "CO": 0.702173,
+      "SI": 0.64504,
+      "AG": 0.641194,
+      "MO": 0.986327
+    },
+    "23 Nearest-element analog X TVD by folds": {
+      "ZR": 0.801252,
+      "TI": 0.801083,
+      "CO": 0.839545,
+      "SI": 0.926992,
+      "AG": 0.839243,
+      "MO": 0.987092
+    },
+    "24 Does smooth modeling rescue X partition?": {
+      "majority_rescue_rule_met": false,
+      "model_results": {
+        "Ridge": {
+          "practical_improvement_folds": 1,
+          "practical_improvement_elements": [
+            "AG"
+          ],
+          "rescue_folds": 1,
+          "rescue_elements": [
+            "AG"
+          ],
+          "positive_skill_folds": 1,
+          "mean_tvd": 0.8424776061894376,
+          "mean_topology_accuracy": 0.16437806637806637
+        },
+        "MLP": {
+          "practical_improvement_folds": 3,
+          "practical_improvement_elements": [
+            "TI",
+            "SI",
+            "AG"
+          ],
+          "rescue_folds": 0,
+          "rescue_elements": [],
+          "positive_skill_folds": 2,
+          "mean_tvd": 0.752644092873945,
+          "mean_topology_accuracy": 0.19352669552669552
+        },
+        "Nearest-element analog": {
+          "practical_improvement_folds": 0,
+          "practical_improvement_elements": [],
+          "rescue_folds": 0,
+          "rescue_elements": [],
+          "positive_skill_folds": 0,
+          "mean_tvd": 0.8658680397850677,
+          "mean_topology_accuracy": 0.10082828282828282
+        }
+      }
+    },
+    "25 Do all model types still fail?": "No. Ridge rescues AG (TVD 0.428753, topology accuracy 0.980017), while MLP improves mean TVD and has positive baseline skill for SI/AG but no fold reaches the joint rescue rule. None of the diagnostic methods rescues a majority of folds.",
+    "26 Descriptor insufficiency supported?": "INCONCLUSIVE; compatible with analog failure/manifold separation, but not identified without alternative descriptors or chemical anchors.",
+    "27 Chemical-anchor sparsity supported?": "SUPPORTED as a structural limitation (five identities); causal role remains unisolated.",
+    "28 Tree extrapolation limitation supported?": {
+      "frozen_practical_rule_met": false,
+      "model_results": {
+        "Ridge": {
+          "practical_improvement_folds": 1,
+          "practical_improvement_elements": [
+            "AG"
+          ],
+          "rescue_folds": 1,
+          "rescue_elements": [
+            "AG"
+          ],
+          "positive_skill_folds": 1,
+          "mean_tvd": 0.8424776061894376,
+          "mean_topology_accuracy": 0.16437806637806637
+        },
+        "MLP": {
+          "practical_improvement_folds": 3,
+          "practical_improvement_elements": [
+            "TI",
+            "SI",
+            "AG"
+          ],
+          "rescue_folds": 0,
+          "rescue_elements": [],
+          "positive_skill_folds": 2,
+          "mean_tvd": 0.752644092873945,
+          "mean_topology_accuracy": 0.19352669552669552
+        },
+        "Nearest-element analog": {
+          "practical_improvement_folds": 0,
+          "practical_improvement_elements": [],
+          "rescue_folds": 0,
+          "rescue_elements": [],
+          "positive_skill_folds": 0,
+          "mean_tvd": 0.8658680397850677,
+          "mean_topology_accuracy": 0.10082828282828282
+        }
+      }
+    },
+    "29 Topology discontinuity supported?": "Topology-selection failure is supported descriptively; a general temperature-transition boundary explanation is not supported.",
+    "30 Can distance detect high-error states?": [
+      {
+        "score": "nn1_distance",
+        "AUROC": 0.672263064064221,
+        "AUPRC": 0.1341970300592103,
+        "high_error_prevalence": 0.1000011582586739
+      },
+      {
+        "score": "nn5_mean_distance",
+        "AUROC": 0.6722116904569023,
+        "AUPRC": 0.1341758479751617,
+        "high_error_prevalence": 0.1000011582586739
+      },
+      {
+        "score": "outside_train_range_feature_count",
+        "AUROC": 0.527438083739824,
+        "AUPRC": 0.1386175452087216,
+        "high_error_prevalence": 0.1000011582586739
+      },
+      {
+        "score": "nearest_distance",
+        "AUROC": 0.709862622845784,
+        "AUPRC": 0.2069679085618368,
+        "high_error_prevalence": 0.1000011582586739
+      },
+      {
+        "score": "affine_residual",
+        "AUROC": 0.6371980218834433,
+        "AUPRC": 0.197150423364736,
+        "high_error_prevalence": 0.1000011582586739
+      },
+      {
+        "score": "convex_reconstruction_error",
+        "AUROC": 0.5374872970474399,
+        "AUPRC": 0.1426336301235365,
+        "high_error_prevalence": 0.1000011582586739
+      },
+      {
+        "score": "F3_outside_fraction",
+        "AUROC": 0.5079501536087274,
+        "AUPRC": 0.1376284885099914,
+        "high_error_prevalence": 0.1000011582586739
+      }
+    ],
+    "31 Primary diagnosed root cause?": "Element-identity-dominated X target combined with only five training chemical anchors; strongest empirical association plus structural limitation, not experimentally isolated causality.",
+    "32 Secondary root cause?": "Model inductive bias has clear element-specific effects (MLP gains; AG Ridge rescue), although the general >=4-fold criterion is not met. Descriptor-affinity mismatch remains a possible, unisolated secondary limitation.",
+    "33 Recommended STEP5E direction?": "Consider a mixed strategy: additional chemical anchors and binary chemical-affinity descriptors, while preserving model-specific gains and testing topology-first prediction. Do not assume model-only changes are useless. Design and preregister separately; no STEP5E execution.",
+    "34 Anchor sealed?": "YES: zero training, evaluation or prediction rows.",
+    "35 Ni sealed?": "YES: prospective blind test preserved; zero descriptors, compositions, targets, predictions or CALPHAD calls."
+  },
+  "ni_sealed": true,
+  "anchor_sealed": true,
+  "new_calphad_calls": 0,
+  "step5e_executed": false,
+  "completed_utc": "2026-09-05T14:56:34.515852+00:00",
+  "integrity_checks_passed": 76,
+  "step5c_files_unchanged": 145,
+  "figures": 10,
+  "warnings": [
+    "Historical PART2.log append-only completion suffix; archived prefix verified, no primary artifact exception",
+    "Mechanism analyses are retrospective and do not causally separate anchor sparsity from descriptor insufficiency",
+    "General tree-bias majority criterion unmet despite real fold-specific MLP/Ridge gains",
+    "Four split contrasts unidentifiable because of no overlap",
+    "13-property descriptor-insufficiency rule did not quantify high extrapolation, so no post-hoc threshold substituted",
+    "Archived nominal 1-NN may not be the exact minimum; retained unchanged and caveated",
+    "n=6 element associations and pooled error detection are exploratory, not calibrated uncertainty"
+  ]
+}
