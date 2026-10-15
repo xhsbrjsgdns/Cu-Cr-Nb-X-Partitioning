@@ -1,0 +1,12 @@
+-r requirements-models.txt
+matplotlib==3.10.9
+matminer==0.10.1
+mendeleev==1.2.0
+optuna==4.9.0
+pymatgen==2026.5.4
+fastparquet
+psutil
+threadpoolctl
+tqdm
+PyMuPDF
+# TC-Python is installed with licensed Thermo-Calc, not from this requirements file.

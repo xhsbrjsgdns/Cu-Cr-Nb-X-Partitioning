@@ -1,0 +1,4 @@
+# Minimal environment for verify/summary. Versions recorded in the original study.
+numpy==2.4.6
+pandas==2.3.3
+pyarrow==25.0.1

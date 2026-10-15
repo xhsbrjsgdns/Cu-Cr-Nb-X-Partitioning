@@ -1,0 +1,47 @@
+from pathlib import Path
+import json,hashlib,datetime
+import pandas as pd
+O=Path(__file__).resolve().parents[1]
+def sha(p):
+ with open(p,'rb') as f:return hashlib.file_digest(f,'sha256').hexdigest()
+def load(p):return json.loads((O/p).read_text(encoding='utf8'))
+def save(p,x):(O/p).write_text(json.dumps(x,ensure_ascii=False,indent=2),encoding='utf8')
+s=load('STEP5K_R3_SUMMARY.json'); assert s['converged']==120 and s['integrity_checks_fail']==0
+d=pd.read_csv(O/'09_condition_comparison/STEP5K_R3_CONDITION_COMPARISON.csv')
+states=pd.read_csv(O/'07_calphad_raw/STATES.csv');requests=pd.read_csv(O/'06_calphad_requests/STEP5K_R3_CALPHAD_REQUESTS.csv')
+assert len(states)==120 and states.state_id.is_unique and set(states.state_id)==set(requests.state_id)
+seal=load('03_inclusion_freeze/INPUT_FREEZE.json')
+assert sha(O/'02_source_extraction/ALL_CONDITIONS.json')==seal['condition_sha256']
+assert sha(O/'06_calphad_requests/STEP5K_R3_CALPHAD_REQUESTS.csv')==seal['request_sha256']
+assert all(sha(r['path'])==r['sha256'] for r in load('00_config/protected_before.json'))
+prov=load('07_calphad_raw/ENGINE_PROVENANCE.json');assert prov['real_engine'] and prov['synthetic'] is False
+prov.update(database_version='Cu-Alloys v6.2',database_path='C:/Program Files/Thermo-Calc/2025b/data/TCCU6',bundled_java_path='C:/Program Files/Thermo-Calc/2025b/bundled_jre/bin/java.exe',database_version_evidence='Frozen FULL_V1_CONFIG software database_title; unchanged installed TCCU6 used by the live runner',delivery_verified_utc=datetime.datetime.now(datetime.timezone.utc).isoformat())
+prov['database_file_sha256']={p.name:sha(p) for p in Path(prov['database_path']).iterdir() if p.is_file()}
+save('07_calphad_raw/ENGINE_PROVENANCE.json',prov)
+s['engine_provenance']=prov;s['scientific_interpretation_caveat']='Frozen evidence-strength score is not the fraction of phase regions reproduced; Ti has 20 partial and 3 discrepant results among 28 states.'
+s['assembly_requires_user_review']=True;save('STEP5K_R3_SUMMARY.json',s)
+diag=O/'14_qa/STEP5K_R3_ENGINE_DIAGNOSTIC.md'
+with diag.open('a',encoding='utf8') as f:f.write('\n## Verified installed Java path\n\nThe bundled Java executable actually used is `C:/Program Files/Thermo-Calc/2025b/bundled_jre/bin/java.exe`; the earlier environment helper tested the obsolete `jre/bin` location. This is a path-report correction only. The live startup succeeded without the optional stack override. Database path/version and file hashes are recorded in ENGINE_PROVENANCE.json.\n')
+questions=[
+('Did the real engine initialize?','Yes, Thermo-Calc 2025b / TC-Python 2025.2.30 initialized successfully.'),('Did TCCU6 load?','Yes, the frozen TCCU6 Cu-Alloys v6.2 installation was used.'),('Did the smoke alloy converge?','Yes. R3_NB_001 at 1073 K passed equilibrium, phase amount and phase composition extraction.'),('How many frozen requests ran?','120 production states; the separate smoke calculation is not counted as an additional independent validation condition.'),('How many converged?','120.'),('How many failed?','0; pending 0.'),
+('Cu-Cr-Nb baseline?','29 converged: 28 STRONGLY_CONSISTENT, 1 CONSISTENT. Raw results contain FCC_L12, BCC_B2, C15_LAVES and LIQUID as condition-dependent phases.'),('Cr2Nb mapping?','The calculated Cr2Nb-related phase is C15_LAVES, aggregated to C15. The experimental source does not independently establish the polymorph; this is a calculated identity consistent with compound chemistry, not proof of experimental C15 structure.'),('Ag FCC separation?','Two FCC raw instances occur in 11 of 14 conditions, matching the 11 experimental two-FCC conditions; the remaining three are one-FCC conditions. Phase-composition deviations remain: 2 strong and 12 consistent verdicts under the frozen chemistry gate.'),('Mo refractory chemistry?','All 16 selected states are strongly consistent with Liquid plus one Cr/Mo-rich BCC instance. The experimental set does not test two-BCC separation.'),('Co support?','16 states: 13 strong, 1 consistent, 2 partial. Supports adjacent Cu-Cr-Co chemistry; no support for Co-Nb Laves topology.'),('Si phases?','Cr3Si and CrSi2 and several Cu-Si phase observations are reproduced in individual conditions; use the condition-level table for presence. CrSi, alphaCr5Si3 and Cu19Si6 are not resolved as reproduced under the frozen crosswalk. Do not interpret a crosswalk gap as proof that a generic database model cannot represent that chemistry. Verdicts: 1 strong, 2 consistent, 12 partial, 2 discrepant.'),('Ti at 973 K?','13 selected states: 2 consistent, 10 partial, 1 discrepant. B8 (Cu4Ti3 + (Cu,Cr)3Ti2) and B14 (Cu4Ti3 + CuTi) are consistent, with extra BCC remaining explicit.'),('Ti at 1073 K?','15 selected states: 1 strong, 2 consistent, 10 partial, 2 discrepant. A12 betaTi + CuTi2 is strong; A7 and A15 are consistent with explicit differences. The source ternary phase is tau1 (not sigma1); no forced database SIGMA assignment is made.'),('STRONGLY_CONSISTENT?','61.'),('CONSISTENT?','20.'),('PARTIALLY_CONSISTENT?','34.'),('DISCREPANT?','5, all retained (2 Si and 3 Ti).'),('CALPHAD_FAILED?','0.'),('Evidence strengths?','Frozen score: STRONG for Nb baseline, Ag, Mo, Co and Ti; MODERATE for Si; LIMITED qualitative GRCop. Ti STRONG reflects source coverage in that frozen score, not broad reproduction: 23 of 28 Ti conditions are partial or discrepant.'),('Safe multi-system support claim?','Yes, with system-specific limitations, adjacent-ternary/domain qualifications and unproven database independence. No global accuracy or ML experimental-validation claim.'),('Exact safe JMST wording?','Source-grounded experimental consistency checks support selected phase-chemistry trends in the Cu-Cr-Nb baseline and adjacent Cu-Cr-X ternaries, while substantial discrepancies remain for several Si- and Ti-containing phase regions. These checks do not establish statistical independence from TCCU6 assessments or experimental validation of the ML surrogate.'),('R3 scientifically complete?','Yes, the frozen 120 real-engine states and downstream package are complete. Scientific disagreements and mapping limitations remain visible.'),('Ready for final JMST assembly?','The R3 package is ready for user review as an assembly input. No final assembly or new scientific stage was started; manuscript claims must retain the stated limits.')]
+p=O/'STEP5K_R3_REPORT.md';txt=p.read_text(encoding='utf8')
+txt=txt.replace('Phases reported by the source that the installed description does not contain at all: CrSi, Cu19Si6, αCr5Si3, τ1.','Unresolved/non-reproduced Si labels under the frozen crosswalk include CrSi, Cu19Si6 and αCr5Si3. This is not proof of absence of an equivalent generic database model. τ1 belongs to the Ti source, not Si.')
+txt=txt.replace('**13. Which Cu-Cr-Ti phase regions are reproduced at 973 K?**\n\n28 converged: 20 partially consistent, 4 consistent, 3 discrepant, 1 strongly consistent.','**13. Which Cu-Cr-Ti phase regions are reproduced at 973 K?**\n\n13 selected states converged: 2 consistent, 10 partially consistent and 1 discrepant. B8 and B14 are the consistent conditions; see the latest-request answers below.')
+txt+='\n\n## Final live-run answers to the latest 24 questions\n\n| No. | Question | Answer |\n|---|---|---|\n'+'\n'.join(f'| {i} | {q} | {a} |' for i,(q,a) in enumerate(questions,1))+'\n'
+p.write_text(txt,encoding='utf8')
+(O/'14_qa/LIVE_RUN_DELIVERY_NOTES.md').write_text('''# Live-run delivery checks
+
+The existing BAT executed Part A, live smoke and all 120 production states. All states converged. Stage 40 initially failed only while rounding a grouped object-dtype descriptive statistic. An explicit numeric conversion repaired that statistic without changing matching, thresholds, inputs or calculations; stages 40–80 then reran sequentially and passed.
+
+The BAT subroutine did not propagate a failed stage to the caller; downstream execution had already finished by the time it was inspected. Its first output set was superseded by the successful sequential rerun. The BAT was not redesigned. No scientific calculation was rerun for these downstream repairs.
+
+The Ni text audit initially flagged generic database model names (for example NI3TI) and database bibliography. Selected systems and all phase-model constituents were structurally checked to contain no Ni; only these exact two metadata artifacts were separated from prose scanning. The Ni input checks and all 471 protected hashes still pass. No raw phase or database model was removed or renamed.
+
+Figure 1 panel spacing and Figure 2 colorbar spacing were corrected after visual inspection; numerical figure sources were unchanged. Final output hashes exclude the manifest itself to avoid recursive self-hashing. The latest report distinguishes unresolved crosswalk labels from proven database absence and provides the two Ti temperatures separately. Frozen mappings and verdicts were not changed.
+''',encoding='utf8')
+# Correct no stale self-reference; verify every final manifest row immediately.
+rows=[dict(relative_path=p.relative_to(O).as_posix(),bytes=p.stat().st_size,sha256=sha(p)) for p in sorted(O.rglob('*')) if p.is_file() and '__pycache__' not in p.parts and p.name!='STEP5K_R3_FILE_HASHES.csv']
+pd.DataFrame(rows).to_csv(O/'15_manifest/STEP5K_R3_FILE_HASHES.csv',index=False)
+assert all(sha(O/r['relative_path'])==r['sha256'] for r in rows)
+print('Final delivery PASS: 120 real states, 471 protected hashes, input seal, unique requests, manifest',len(rows))

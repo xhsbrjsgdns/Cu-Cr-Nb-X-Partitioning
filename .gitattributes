@@ -1,0 +1,14 @@
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.csv -text
+*.json -text
+*.parquet binary
+*.gz binary
+*.part* binary
+*.pt binary
+*.pkl binary
+*.joblib binary
+# Preserve archived bytes on clone; checksum verification includes line endings.
+data/** -text
+src/stages/** -text

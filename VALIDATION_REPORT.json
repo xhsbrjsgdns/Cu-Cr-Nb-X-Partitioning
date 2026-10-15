@@ -1,0 +1,228 @@
+{
+  "checked_date": "2026-10-15",
+  "file_integrity": {
+    "result": "PASS",
+    "data_paths": 1172,
+    "unique_payloads": 1048,
+    "archived_source_files": 180
+  },
+  "summary": {
+    "result": "PASS",
+    "recomputed_values": {
+      "reference_counts": [
+        550000,
+        548432,
+        1568,
+        50000
+      ],
+      "iid_x_tvd": 0.0016401332247829004,
+      "iid_presence_macro_f1": 0.9950527991765343,
+      "loeo_x_tvd_by_element": {
+        "ZR": 0.6398134767813602,
+        "TI": 0.8262253660154008,
+        "CO": 0.8322313548143286,
+        "SI": 0.9032562944855548,
+        "AG": 0.9143766061027018,
+        "MO": 0.9870844574343757
+      },
+      "loeo_unweighted_six_fold_mean": 0.8504979259389538,
+      "loeo_topology_mismatch_error_share": 0.9669648302160682,
+      "ni_blind_tvd": 0.8643856186628641,
+      "ni_blind_topology_accuracy": 0.07859090909090909,
+      "ni_refit_tvd": {
+        "1": 0.24816237006019745,
+        "8": 0.050738067507027425,
+        "32": 0.027187984792811964
+      },
+      "literature_grades": {
+        "STRONGLY_CONSISTENT": 61,
+        "PARTIALLY_CONSISTENT": 34,
+        "CONSISTENT": 20,
+        "DISCREPANT": 5
+      },
+      "screening_compositions": 120000
+    },
+    "checks": [
+      {
+        "check": "Reference population, including numerical failures",
+        "passed": true,
+        "actual": [
+          550000,
+          548432,
+          1568,
+          50000
+        ]
+      },
+      {
+        "check": "Failures are Mo at 950 C",
+        "passed": true,
+        "actual": 1568
+      },
+      {
+        "check": "IID X-partition TVD agrees at submitted precision",
+        "passed": true,
+        "actual": 0.0016401332247829004
+      },
+      {
+        "check": "IID macro-F1 agrees at submitted precision",
+        "passed": true,
+        "actual": 0.9950527991765343
+      },
+      {
+        "check": "LOEO unweighted six-fold TVD",
+        "passed": true,
+        "actual": 0.8504979259389538
+      },
+      {
+        "check": "Pooled wrong-topology error share",
+        "passed": true,
+        "actual": 0.9669648302160682
+      },
+      {
+        "check": "Ni blind population",
+        "passed": true,
+        "actual": 22000
+      },
+      {
+        "check": "Ni blind TVD",
+        "passed": true,
+        "actual": 0.8643856186628641
+      },
+      {
+        "check": "All 43 Ni features within training marginal ranges",
+        "passed": true,
+        "actual": 43
+      },
+      {
+        "check": "Recovery B1 R1 same evaluation IDs",
+        "passed": true,
+        "actual": 15400
+      },
+      {
+        "check": "Recovery B1 R2 same evaluation IDs",
+        "passed": true,
+        "actual": 15400
+      },
+      {
+        "check": "Recovery B1 R3 same evaluation IDs",
+        "passed": true,
+        "actual": 15400
+      },
+      {
+        "check": "Ni refit TVD B1",
+        "passed": true,
+        "actual": 0.24816237006019745
+      },
+      {
+        "check": "Recovery B8 R1 same evaluation IDs",
+        "passed": true,
+        "actual": 15400
+      },
+      {
+        "check": "Recovery B8 R2 same evaluation IDs",
+        "passed": true,
+        "actual": 15400
+      },
+      {
+        "check": "Recovery B8 R3 same evaluation IDs",
+        "passed": true,
+        "actual": 15400
+      },
+      {
+        "check": "Ni refit TVD B8",
+        "passed": true,
+        "actual": 0.050738067507027425
+      },
+      {
+        "check": "Recovery B32 R1 same evaluation IDs",
+        "passed": true,
+        "actual": 15400
+      },
+      {
+        "check": "Recovery B32 R2 same evaluation IDs",
+        "passed": true,
+        "actual": 15400
+      },
+      {
+        "check": "Recovery B32 R3 same evaluation IDs",
+        "passed": true,
+        "actual": 15400
+      },
+      {
+        "check": "Ni refit TVD B32",
+        "passed": true,
+        "actual": 0.027187984792811964
+      },
+      {
+        "check": "Literature comparison population",
+        "passed": true,
+        "actual": 120
+      },
+      {
+        "check": "Literature grades",
+        "passed": true,
+        "actual": {
+          "STRONGLY_CONSISTENT": 61,
+          "PARTIALLY_CONSISTENT": 34,
+          "CONSISTENT": 20,
+          "DISCREPANT": 5
+        }
+      },
+      {
+        "check": "Screening candidate population",
+        "passed": true,
+        "actual": 120000
+      },
+      {
+        "check": "Finalist count",
+        "passed": true,
+        "actual": 5
+      }
+    ],
+    "scope": "Recomputed from released reference and prediction files; not a retraining or a fresh CALPHAD calculation."
+  },
+  "frozen_model_inference": {
+    "result": "PASS",
+    "models": [
+      {
+        "role": "PRIMARY",
+        "states": 22000,
+        "maximum_raw_difference": 0.0,
+        "maximum_projected_difference": 0.0,
+        "passed": true
+      },
+      {
+        "role": "SECONDARY",
+        "states": 22000,
+        "maximum_raw_difference": 0.0,
+        "maximum_projected_difference": 0.0,
+        "passed": true
+      }
+    ],
+    "scope": "Fresh frozen-checkpoint CPU inference; no model training or CALPHAD rerun."
+  },
+  "original_stage_smoke_checks": [
+    {
+      "script": "21_fullv1_compositions.py --verify",
+      "result": "PASS",
+      "detail": "50,000 archived compositions; all four prior sampling lists found; zero overlap."
+    },
+    {
+      "script": "113_i_metrics.py",
+      "result": "PASS",
+      "detail": "All six budgets and three random sequences scored in a relocated Windows workspace."
+    }
+  ],
+  "size": {
+    "total_bytes": 1940016962,
+    "largest_file_bytes": 67108864,
+    "files_at_or_above_100_MiB": 0
+  },
+  "scope_limits": [
+    "No full model retraining or new CALPHAD calculation in this packaging task.",
+    "Original audit scripts may depend on author-only attachments or immutable historical path/source hashes."
+  ],
+  "reader_facing_SI_tables": 31,
+  "entry_point_sha256": "9635c6d193b420c36498f8cb23bfa0eeae4c61bfe612b7d1e98ed2a0f20bac51",
+  "repository_url": "https://github.com/xhsbrjsgdns/Cu-Cr-Nb-X-Partitioning"
+}
