@@ -1,0 +1,138 @@
+{
+  "generated_utc": "2026-09-06T10:31:49+00:00",
+  "states_total": 110000,
+  "states_new": 107250,
+  "states_pilot_reused": 2750,
+  "converged": 110000,
+  "failed": 0,
+  "partition_definition": "n_i_alpha = phase_moles_alpha * X_i^alpha ; P_i^alpha = n_i_alpha / sum_beta n_i_beta (volume-fraction-based partitioning FORBIDDEN)",
+  "presence_threshold": 0.0001,
+  "five_family_sum_max_dev": 2.220446049250313e-16,
+  "partition_sum_max_dev": {
+    "CR": 2.220446049250313e-16,
+    "NB": 2.220446049250313e-16,
+    "X": 3.3306690738754696e-16
+  },
+  "phase_family_mapping": [
+    {
+      "phase_model_base_name": "BCC_B2",
+      "aggregated_family": "BCC",
+      "n_states": 96150,
+      "elements": "BE;LA;MN;P;SN",
+      "is_known_solid_model": 1,
+      "mapped_by_default_to_OTHER_SOLID": 0
+    },
+    {
+      "phase_model_base_name": "C15_LAVES",
+      "aggregated_family": "C15",
+      "n_states": 102106,
+      "elements": "BE;LA;MN;P;SN",
+      "is_known_solid_model": 1,
+      "mapped_by_default_to_OTHER_SOLID": 0
+    },
+    {
+      "phase_model_base_name": "CU6LA_HT",
+      "aggregated_family": "OTHER_SOLID",
+      "n_states": 15600,
+      "elements": "LA",
+      "is_known_solid_model": 0,
+      "mapped_by_default_to_OTHER_SOLID": 1
+    },
+    {
+      "phase_model_base_name": "FCC_L12",
+      "aggregated_family": "FCC",
+      "n_states": 107250,
+      "elements": "BE;LA;MN;P;SN",
+      "is_known_solid_model": 1,
+      "mapped_by_default_to_OTHER_SOLID": 0
+    },
+    {
+      "phase_model_base_name": "LIQUID",
+      "aggregated_family": "LIQUID",
+      "n_states": 5850,
+      "elements": "LA",
+      "is_known_solid_model": 1,
+      "mapped_by_default_to_OTHER_SOLID": 0
+    },
+    {
+      "phase_model_base_name": "M2P",
+      "aggregated_family": "OTHER_SOLID",
+      "n_states": 4237,
+      "elements": "P",
+      "is_known_solid_model": 0,
+      "mapped_by_default_to_OTHER_SOLID": 1
+    },
+    {
+      "phase_model_base_name": "M3P",
+      "aggregated_family": "OTHER_SOLID",
+      "n_states": 20131,
+      "elements": "P",
+      "is_known_solid_model": 0,
+      "mapped_by_default_to_OTHER_SOLID": 1
+    },
+    {
+      "phase_model_base_name": "MP",
+      "aggregated_family": "OTHER_SOLID",
+      "n_states": 680,
+      "elements": "P",
+      "is_known_solid_model": 0,
+      "mapped_by_default_to_OTHER_SOLID": 1
+    }
+  ],
+  "n_raw_phase_names": 8,
+  "n_model_bases": 8,
+  "unexpected_new_bases_beyond_pilot": [],
+  "unmapped_bases": [],
+  "convergence_gate": [
+    {
+      "element": "BE",
+      "compositions": 2000,
+      "formal_states": 22000,
+      "converged_states": 22000,
+      "failed_states": 0,
+      "convergence_rate": 1.0,
+      "gate_status": "PASS"
+    },
+    {
+      "element": "LA",
+      "compositions": 2000,
+      "formal_states": 22000,
+      "converged_states": 22000,
+      "failed_states": 0,
+      "convergence_rate": 1.0,
+      "gate_status": "PASS"
+    },
+    {
+      "element": "MN",
+      "compositions": 2000,
+      "formal_states": 22000,
+      "converged_states": 22000,
+      "failed_states": 0,
+      "convergence_rate": 1.0,
+      "gate_status": "PASS"
+    },
+    {
+      "element": "P",
+      "compositions": 2000,
+      "formal_states": 22000,
+      "converged_states": 22000,
+      "failed_states": 0,
+      "convergence_rate": 1.0,
+      "gate_status": "PASS"
+    },
+    {
+      "element": "SN",
+      "compositions": 2000,
+      "formal_states": 22000,
+      "converged_states": 22000,
+      "failed_states": 0,
+      "convergence_rate": 1.0,
+      "gate_status": "PASS"
+    }
+  ],
+  "gate_failures": [],
+  "gate_warnings": [],
+  "failure_rows": 0,
+  "ni_scan_hits": [],
+  "new_element_data_sha256": "804270f41db3f181052b36857015a8d95348584025f09a6aed81be62c165b5a6"
+}

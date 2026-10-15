@@ -1,0 +1,19 @@
+{
+  "generated_utc": "2026-09-06T11:01:23+00:00",
+  "mean_Z1_tvd": 0.752644092873945,
+  "mean_FULL5_tvd": 0.7103322147540917,
+  "relative_reduction_vs_Z1": 0.05621764459518552,
+  "mean_topology_accuracy": 0.33230591630591627,
+  "folds_beating_trivial": 3,
+  "primary_success": false,
+  "topology_criterion": false,
+  "skill_criterion": false,
+  "strong_improvement": false,
+  "thresholds": {
+    "primary_success_tvd": 0.602115,
+    "topology_accuracy": 0.35,
+    "folds_beat_trivial": 4,
+    "strong_tvd": 0.5,
+    "strong_folds": 5
+  }
+}

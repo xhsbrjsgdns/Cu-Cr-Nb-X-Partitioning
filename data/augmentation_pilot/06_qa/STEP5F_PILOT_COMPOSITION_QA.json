@@ -1,0 +1,138 @@
+{
+  "stage": "STEP5F-PILOT Stage 1",
+  "generated_utc": "2026-09-06T05:13:43+00:00",
+  "n_compositions": 450,
+  "n_per_element": 50,
+  "elements": [
+    "BE",
+    "SN",
+    "MN",
+    "AL",
+    "MG",
+    "ZN",
+    "LA",
+    "GE",
+    "P"
+  ],
+  "available_in_tccu6": [
+    "BE",
+    "SN",
+    "MN",
+    "AL",
+    "MG",
+    "ZN",
+    "LA",
+    "GE",
+    "P"
+  ],
+  "excluded_not_in_tccu6": [],
+  "formal_states_if_all_run": 4950,
+  "formal_states_planned": 4950,
+  "sampling": {
+    "method": "Sobol(d=3, scramble=True)",
+    "pilot_seed": 20260909,
+    "per_element_child_sequence": true,
+    "S_CrNb_range": [
+      0.6,
+      2.0
+    ],
+    "R_CrNb_atomic_range": [
+      2.0,
+      6.5
+    ],
+    "X_wt_pct_range": [
+      0.02,
+      0.2
+    ],
+    "x_range_identical_across_elements": true,
+    "cr_nb_sampled_independently": false
+  },
+  "compositions_sha256": "b60d597cdc1f81ffeb2d8420d1210ff1fa714c56a71b93305ffabe781400bc41",
+  "checks": [
+    {
+      "id": "Q01",
+      "check": "50 unique compositions per element",
+      "status": "PASS",
+      "detail": "{'AL': 50, 'BE': 50, 'GE': 50, 'LA': 50, 'MG': 50, 'MN': 50, 'P': 50, 'SN': 50, 'ZN': 50}"
+    },
+    {
+      "id": "Q02",
+      "check": "450 compositions in total",
+      "status": "PASS",
+      "detail": "450"
+    },
+    {
+      "id": "Q03",
+      "check": "composition_id unique and correctly formatted",
+      "status": "PASS",
+      "detail": "F5P_BE_0001"
+    },
+    {
+      "id": "Q04",
+      "check": "no duplicate composition within an element",
+      "status": "PASS",
+      "detail": "450 unique / 450"
+    },
+    {
+      "id": "Q05",
+      "check": "Cu > 0 for every composition",
+      "status": "PASS",
+      "detail": "min Cu 97.8241 wt%"
+    },
+    {
+      "id": "Q06",
+      "check": "wt.% sums to 100 within 1e-6",
+      "status": "PASS",
+      "detail": "max dev 0.00e+00"
+    },
+    {
+      "id": "Q07",
+      "check": "S_CrNb inside the Domain-A range 0.6 - 2.0 wt.%",
+      "status": "PASS",
+      "detail": "[0.6001, 1.9958]"
+    },
+    {
+      "id": "Q08",
+      "check": "ACTUAL Cr/Nb atomic ratio inside 2.0 - 6.5 (recomputed, not assumed)",
+      "status": "PASS",
+      "detail": "[2.0018, 6.4813]"
+    },
+    {
+      "id": "Q09",
+      "check": "X in 0.02 - 0.20 wt.% and IDENTICAL for all nine elements",
+      "status": "PASS",
+      "detail": "[0.0206, 0.1993] across 9 elements"
+    },
+    {
+      "id": "Q10",
+      "check": "no element has a narrower or wider X range than the others",
+      "status": "PASS",
+      "detail": "identical bounds enforced by construction"
+    },
+    {
+      "id": "Q11",
+      "check": "no BASELINE composition generated (spec 12)",
+      "status": "PASS",
+      "detail": "['AL', 'BE', 'GE', 'LA', 'MG', 'MN', 'P', 'SN', 'ZN']"
+    },
+    {
+      "id": "Q12",
+      "check": "no Ni / Au / Ce composition (spec 1, 3)",
+      "status": "PASS",
+      "detail": "none"
+    },
+    {
+      "id": "Q13",
+      "check": "Ni token count == 0",
+      "status": "PASS",
+      "detail": "0 hits (element-token regex)"
+    },
+    {
+      "id": "Q14",
+      "check": "each element used its own independent child sequence",
+      "status": "PASS",
+      "detail": "{'AL': 1632544863, 'BE': 316810176, 'GE': 1431719501, 'LA': 1410814305, 'MG': 905862240, 'MN': 2218558309, 'P': 2548528846, 'SN': 2080185630, 'ZN': 4290758253}"
+    }
+  ],
+  "status": "PASS"
+}

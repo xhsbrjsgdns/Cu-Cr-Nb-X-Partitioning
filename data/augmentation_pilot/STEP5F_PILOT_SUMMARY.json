@@ -1,0 +1,1551 @@
+{
+  "stage": "STEP5F_PILOT_V1",
+  "status": "PASS",
+  "decision": "A. GO TO FULL STEP5F AUGMENTATION",
+  "generated_utc": "2026-09-06T05:34:26+00:00",
+  "purpose": "non-Ni chemical-identity CALPHAD feasibility pilot; the nine elements are a pilot shortlist, not a final augmentation set",
+  "pilot_elements": [
+    "BE",
+    "SN",
+    "MN",
+    "AL",
+    "MG",
+    "ZN",
+    "LA",
+    "GE",
+    "P"
+  ],
+  "tccu6_available": [
+    "AL",
+    "BE",
+    "GE",
+    "LA",
+    "MG",
+    "MN",
+    "P",
+    "SN",
+    "ZN"
+  ],
+  "tccu6_not_available": [],
+  "tccu6_not_available_detail": {},
+  "compositions": 450,
+  "per_element": 50,
+  "formal_states": 4950,
+  "computed_states": 4950,
+  "converged_states": 4950,
+  "failed_states": 0,
+  "feasibility": [
+    {
+      "element": "BE",
+      "tccu6_available": 1,
+      "probe_status": "AVAILABLE",
+      "compositions": 50,
+      "formal_states": 550,
+      "computed_states": 550,
+      "converged_states": 550,
+      "failed_states": 0,
+      "not_attempted_states": 0,
+      "convergence_rate": 1.0
+    },
+    {
+      "element": "SN",
+      "tccu6_available": 1,
+      "probe_status": "AVAILABLE",
+      "compositions": 50,
+      "formal_states": 550,
+      "computed_states": 550,
+      "converged_states": 550,
+      "failed_states": 0,
+      "not_attempted_states": 0,
+      "convergence_rate": 1.0
+    },
+    {
+      "element": "MN",
+      "tccu6_available": 1,
+      "probe_status": "AVAILABLE",
+      "compositions": 50,
+      "formal_states": 550,
+      "computed_states": 550,
+      "converged_states": 550,
+      "failed_states": 0,
+      "not_attempted_states": 0,
+      "convergence_rate": 1.0
+    },
+    {
+      "element": "AL",
+      "tccu6_available": 1,
+      "probe_status": "AVAILABLE",
+      "compositions": 50,
+      "formal_states": 550,
+      "computed_states": 550,
+      "converged_states": 550,
+      "failed_states": 0,
+      "not_attempted_states": 0,
+      "convergence_rate": 1.0
+    },
+    {
+      "element": "MG",
+      "tccu6_available": 1,
+      "probe_status": "AVAILABLE",
+      "compositions": 50,
+      "formal_states": 550,
+      "computed_states": 550,
+      "converged_states": 550,
+      "failed_states": 0,
+      "not_attempted_states": 0,
+      "convergence_rate": 1.0
+    },
+    {
+      "element": "ZN",
+      "tccu6_available": 1,
+      "probe_status": "AVAILABLE",
+      "compositions": 50,
+      "formal_states": 550,
+      "computed_states": 550,
+      "converged_states": 550,
+      "failed_states": 0,
+      "not_attempted_states": 0,
+      "convergence_rate": 1.0
+    },
+    {
+      "element": "LA",
+      "tccu6_available": 1,
+      "probe_status": "AVAILABLE",
+      "compositions": 50,
+      "formal_states": 550,
+      "computed_states": 550,
+      "converged_states": 550,
+      "failed_states": 0,
+      "not_attempted_states": 0,
+      "convergence_rate": 1.0
+    },
+    {
+      "element": "GE",
+      "tccu6_available": 1,
+      "probe_status": "AVAILABLE",
+      "compositions": 50,
+      "formal_states": 550,
+      "computed_states": 550,
+      "converged_states": 550,
+      "failed_states": 0,
+      "not_attempted_states": 0,
+      "convergence_rate": 1.0
+    },
+    {
+      "element": "P",
+      "tccu6_available": 1,
+      "probe_status": "AVAILABLE",
+      "compositions": 50,
+      "formal_states": 550,
+      "computed_states": 550,
+      "converged_states": 550,
+      "failed_states": 0,
+      "not_attempted_states": 0,
+      "convergence_rate": 1.0
+    }
+  ],
+  "failure_by_temperature": [
+    {
+      "element": "AL",
+      "Temperature_C": 300.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "AL",
+      "Temperature_C": 350.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "AL",
+      "Temperature_C": 400.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "AL",
+      "Temperature_C": 450.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "AL",
+      "Temperature_C": 500.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "AL",
+      "Temperature_C": 600.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "AL",
+      "Temperature_C": 700.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "AL",
+      "Temperature_C": 800.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "AL",
+      "Temperature_C": 900.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "AL",
+      "Temperature_C": 950.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "AL",
+      "Temperature_C": 1000.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "BE",
+      "Temperature_C": 300.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "BE",
+      "Temperature_C": 350.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "BE",
+      "Temperature_C": 400.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "BE",
+      "Temperature_C": 450.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "BE",
+      "Temperature_C": 500.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "BE",
+      "Temperature_C": 600.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "BE",
+      "Temperature_C": 700.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "BE",
+      "Temperature_C": 800.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "BE",
+      "Temperature_C": 900.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "BE",
+      "Temperature_C": 950.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "BE",
+      "Temperature_C": 1000.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "GE",
+      "Temperature_C": 300.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "GE",
+      "Temperature_C": 350.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "GE",
+      "Temperature_C": 400.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "GE",
+      "Temperature_C": 450.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "GE",
+      "Temperature_C": 500.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "GE",
+      "Temperature_C": 600.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "GE",
+      "Temperature_C": 700.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "GE",
+      "Temperature_C": 800.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "GE",
+      "Temperature_C": 900.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "GE",
+      "Temperature_C": 950.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "GE",
+      "Temperature_C": 1000.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "LA",
+      "Temperature_C": 300.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "LA",
+      "Temperature_C": 350.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "LA",
+      "Temperature_C": 400.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "LA",
+      "Temperature_C": 450.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "LA",
+      "Temperature_C": 500.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "LA",
+      "Temperature_C": 600.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "LA",
+      "Temperature_C": 700.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "LA",
+      "Temperature_C": 800.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "LA",
+      "Temperature_C": 900.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "LA",
+      "Temperature_C": 950.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "LA",
+      "Temperature_C": 1000.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "MG",
+      "Temperature_C": 300.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "MG",
+      "Temperature_C": 350.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "MG",
+      "Temperature_C": 400.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "MG",
+      "Temperature_C": 450.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "MG",
+      "Temperature_C": 500.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "MG",
+      "Temperature_C": 600.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "MG",
+      "Temperature_C": 700.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "MG",
+      "Temperature_C": 800.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "MG",
+      "Temperature_C": 900.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "MG",
+      "Temperature_C": 950.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "MG",
+      "Temperature_C": 1000.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "MN",
+      "Temperature_C": 300.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "MN",
+      "Temperature_C": 350.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "MN",
+      "Temperature_C": 400.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "MN",
+      "Temperature_C": 450.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "MN",
+      "Temperature_C": 500.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "MN",
+      "Temperature_C": 600.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "MN",
+      "Temperature_C": 700.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "MN",
+      "Temperature_C": 800.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "MN",
+      "Temperature_C": 900.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "MN",
+      "Temperature_C": 950.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "MN",
+      "Temperature_C": 1000.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "P",
+      "Temperature_C": 300.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "P",
+      "Temperature_C": 350.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "P",
+      "Temperature_C": 400.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "P",
+      "Temperature_C": 450.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "P",
+      "Temperature_C": 500.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "P",
+      "Temperature_C": 600.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "P",
+      "Temperature_C": 700.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "P",
+      "Temperature_C": 800.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "P",
+      "Temperature_C": 900.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "P",
+      "Temperature_C": 950.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "P",
+      "Temperature_C": 1000.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "SN",
+      "Temperature_C": 300.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "SN",
+      "Temperature_C": 350.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "SN",
+      "Temperature_C": 400.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "SN",
+      "Temperature_C": 450.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "SN",
+      "Temperature_C": 500.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "SN",
+      "Temperature_C": 600.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "SN",
+      "Temperature_C": 700.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "SN",
+      "Temperature_C": 800.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "SN",
+      "Temperature_C": 900.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "SN",
+      "Temperature_C": 950.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "SN",
+      "Temperature_C": 1000.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "ZN",
+      "Temperature_C": 300.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "ZN",
+      "Temperature_C": 350.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "ZN",
+      "Temperature_C": 400.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "ZN",
+      "Temperature_C": 450.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "ZN",
+      "Temperature_C": 500.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "ZN",
+      "Temperature_C": 600.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "ZN",
+      "Temperature_C": 700.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "ZN",
+      "Temperature_C": 800.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "ZN",
+      "Temperature_C": 900.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "ZN",
+      "Temperature_C": 950.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    },
+    {
+      "element": "ZN",
+      "Temperature_C": 1000.0,
+      "states": 50,
+      "failed": 0,
+      "failure_rate": 0.0
+    }
+  ],
+  "phase_family_mapping": [
+    {
+      "phase_model_base_name": "BCC_B2",
+      "aggregated_family": "BCC",
+      "n_states": 4522,
+      "elements": "AL;BE;GE;LA;MG;MN;P;SN;ZN",
+      "is_known_solid_model": 1,
+      "mapped_by_default_to_OTHER_SOLID": 0
+    },
+    {
+      "phase_model_base_name": "C15_LAVES",
+      "aggregated_family": "C15",
+      "n_states": 4827,
+      "elements": "AL;BE;GE;LA;MG;MN;P;SN;ZN",
+      "is_known_solid_model": 1,
+      "mapped_by_default_to_OTHER_SOLID": 0
+    },
+    {
+      "phase_model_base_name": "CU6LA_HT",
+      "aggregated_family": "OTHER_SOLID",
+      "n_states": 400,
+      "elements": "LA",
+      "is_known_solid_model": 0,
+      "mapped_by_default_to_OTHER_SOLID": 1
+    },
+    {
+      "phase_model_base_name": "FCC_L12",
+      "aggregated_family": "FCC",
+      "n_states": 4950,
+      "elements": "AL;BE;GE;LA;MG;MN;P;SN;ZN",
+      "is_known_solid_model": 1,
+      "mapped_by_default_to_OTHER_SOLID": 0
+    },
+    {
+      "phase_model_base_name": "LIQUID",
+      "aggregated_family": "LIQUID",
+      "n_states": 150,
+      "elements": "LA",
+      "is_known_solid_model": 1,
+      "mapped_by_default_to_OTHER_SOLID": 0
+    },
+    {
+      "phase_model_base_name": "M2P",
+      "aggregated_family": "OTHER_SOLID",
+      "n_states": 99,
+      "elements": "P",
+      "is_known_solid_model": 0,
+      "mapped_by_default_to_OTHER_SOLID": 1
+    },
+    {
+      "phase_model_base_name": "M3P",
+      "aggregated_family": "OTHER_SOLID",
+      "n_states": 506,
+      "elements": "P",
+      "is_known_solid_model": 0,
+      "mapped_by_default_to_OTHER_SOLID": 1
+    },
+    {
+      "phase_model_base_name": "MP",
+      "aggregated_family": "OTHER_SOLID",
+      "n_states": 22,
+      "elements": "P",
+      "is_known_solid_model": 0,
+      "mapped_by_default_to_OTHER_SOLID": 1
+    }
+  ],
+  "n_raw_phase_names": 9,
+  "topology_by_element": [
+    {
+      "element": "AL",
+      "n_states": 550,
+      "entropy_nats": 0.0,
+      "entropy_normalized": 0.0,
+      "modal_topology": "FCC",
+      "modal_fraction": 1.0,
+      "frac_FCC": 1.0,
+      "frac_BCC": 0.0,
+      "frac_C15": 0.0,
+      "frac_OTHER_SOLID": 0.0,
+      "frac_LIQUID": 0.0,
+      "mean_X_P_FCC": 0.9998965479,
+      "mean_X_P_BCC": 0.0001034521,
+      "mean_X_P_C15": 0.0,
+      "mean_X_P_OTHER_SOLID": 0.0,
+      "mean_X_P_LIQUID": 0.0,
+      "TOPOLOGY_NEAR_DEGENERATE": 1,
+      "OTHER_DOMINATED": 0
+    },
+    {
+      "element": "BE",
+      "n_states": 550,
+      "entropy_nats": 0.0,
+      "entropy_normalized": 0.0,
+      "modal_topology": "FCC",
+      "modal_fraction": 1.0,
+      "frac_FCC": 1.0,
+      "frac_BCC": 0.0,
+      "frac_C15": 0.0,
+      "frac_OTHER_SOLID": 0.0,
+      "frac_LIQUID": 0.0,
+      "mean_X_P_FCC": 0.9994931548,
+      "mean_X_P_BCC": 0.0005068452,
+      "mean_X_P_C15": 0.0,
+      "mean_X_P_OTHER_SOLID": 0.0,
+      "mean_X_P_LIQUID": 0.0,
+      "TOPOLOGY_NEAR_DEGENERATE": 1,
+      "OTHER_DOMINATED": 0
+    },
+    {
+      "element": "GE",
+      "n_states": 550,
+      "entropy_nats": 0.0,
+      "entropy_normalized": 0.0,
+      "modal_topology": "FCC",
+      "modal_fraction": 1.0,
+      "frac_FCC": 1.0,
+      "frac_BCC": 0.0,
+      "frac_C15": 0.0,
+      "frac_OTHER_SOLID": 0.0,
+      "frac_LIQUID": 0.0,
+      "mean_X_P_FCC": 0.9796741371,
+      "mean_X_P_BCC": 0.0203258629,
+      "mean_X_P_C15": 0.0,
+      "mean_X_P_OTHER_SOLID": 0.0,
+      "mean_X_P_LIQUID": 0.0,
+      "TOPOLOGY_NEAR_DEGENERATE": 1,
+      "OTHER_DOMINATED": 0
+    },
+    {
+      "element": "LA",
+      "n_states": 550,
+      "entropy_nats": 0.5859526183,
+      "entropy_normalized": 0.3640728317,
+      "modal_topology": "OTHER_SOLID",
+      "modal_fraction": 0.7272727273,
+      "frac_FCC": 0.0,
+      "frac_BCC": 0.0,
+      "frac_C15": 0.0,
+      "frac_OTHER_SOLID": 0.7272727273,
+      "frac_LIQUID": 0.2727272727,
+      "mean_X_P_FCC": 1.47828e-05,
+      "mean_X_P_BCC": 1.8872e-06,
+      "mean_X_P_C15": 1.6835e-06,
+      "mean_X_P_OTHER_SOLID": 0.7272704062,
+      "mean_X_P_LIQUID": 0.2727112404,
+      "TOPOLOGY_NEAR_DEGENERATE": 0,
+      "OTHER_DOMINATED": 0
+    },
+    {
+      "element": "MG",
+      "n_states": 550,
+      "entropy_nats": 0.0,
+      "entropy_normalized": 0.0,
+      "modal_topology": "FCC",
+      "modal_fraction": 1.0,
+      "frac_FCC": 1.0,
+      "frac_BCC": 0.0,
+      "frac_C15": 0.0,
+      "frac_OTHER_SOLID": 0.0,
+      "frac_LIQUID": 0.0,
+      "mean_X_P_FCC": 0.9997139377,
+      "mean_X_P_BCC": 0.0002860335,
+      "mean_X_P_C15": 2.88e-08,
+      "mean_X_P_OTHER_SOLID": 0.0,
+      "mean_X_P_LIQUID": 0.0,
+      "TOPOLOGY_NEAR_DEGENERATE": 1,
+      "OTHER_DOMINATED": 0
+    },
+    {
+      "element": "MN",
+      "n_states": 550,
+      "entropy_nats": 0.0,
+      "entropy_normalized": 0.0,
+      "modal_topology": "FCC",
+      "modal_fraction": 1.0,
+      "frac_FCC": 1.0,
+      "frac_BCC": 0.0,
+      "frac_C15": 0.0,
+      "frac_OTHER_SOLID": 0.0,
+      "frac_LIQUID": 0.0,
+      "mean_X_P_FCC": 0.9945242775,
+      "mean_X_P_BCC": 0.0054747284,
+      "mean_X_P_C15": 9.941e-07,
+      "mean_X_P_OTHER_SOLID": 0.0,
+      "mean_X_P_LIQUID": 0.0,
+      "TOPOLOGY_NEAR_DEGENERATE": 1,
+      "OTHER_DOMINATED": 0
+    },
+    {
+      "element": "P",
+      "n_states": 550,
+      "entropy_nats": 0.0,
+      "entropy_normalized": 0.0,
+      "modal_topology": "OTHER_SOLID",
+      "modal_fraction": 1.0,
+      "frac_FCC": 0.0,
+      "frac_BCC": 0.0,
+      "frac_C15": 0.0,
+      "frac_OTHER_SOLID": 1.0,
+      "frac_LIQUID": 0.0,
+      "mean_X_P_FCC": 0.0175202123,
+      "mean_X_P_BCC": 3.82e-07,
+      "mean_X_P_C15": 0.0,
+      "mean_X_P_OTHER_SOLID": 0.9824794056,
+      "mean_X_P_LIQUID": 0.0,
+      "TOPOLOGY_NEAR_DEGENERATE": 1,
+      "OTHER_DOMINATED": 1
+    },
+    {
+      "element": "SN",
+      "n_states": 550,
+      "entropy_nats": 0.0,
+      "entropy_normalized": 0.0,
+      "modal_topology": "FCC",
+      "modal_fraction": 1.0,
+      "frac_FCC": 1.0,
+      "frac_BCC": 0.0,
+      "frac_C15": 0.0,
+      "frac_OTHER_SOLID": 0.0,
+      "frac_LIQUID": 0.0,
+      "mean_X_P_FCC": 0.9999916939,
+      "mean_X_P_BCC": 8.3061e-06,
+      "mean_X_P_C15": 0.0,
+      "mean_X_P_OTHER_SOLID": 0.0,
+      "mean_X_P_LIQUID": 0.0,
+      "TOPOLOGY_NEAR_DEGENERATE": 1,
+      "OTHER_DOMINATED": 0
+    },
+    {
+      "element": "ZN",
+      "n_states": 550,
+      "entropy_nats": 0.0,
+      "entropy_normalized": 0.0,
+      "modal_topology": "FCC",
+      "modal_fraction": 1.0,
+      "frac_FCC": 1.0,
+      "frac_BCC": 0.0,
+      "frac_C15": 0.0,
+      "frac_OTHER_SOLID": 0.0,
+      "frac_LIQUID": 0.0,
+      "mean_X_P_FCC": 0.9998808222,
+      "mean_X_P_BCC": 0.0001191748,
+      "mean_X_P_C15": 3e-09,
+      "mean_X_P_OTHER_SOLID": 0.0,
+      "mean_X_P_LIQUID": 0.0,
+      "TOPOLOGY_NEAR_DEGENERATE": 1,
+      "OTHER_DOMINATED": 0
+    }
+  ],
+  "existing_six_topology": [
+    {
+      "element": "AG",
+      "source": "FULL_V1",
+      "n_states": 82500,
+      "modal_topology": "FCC",
+      "modal_fraction": 0.986169697,
+      "entropy_nats": 0.0729402709,
+      "frac_FCC": 0.986169697,
+      "frac_BCC": 0.013830303,
+      "frac_C15": 0.0,
+      "frac_OTHER_SOLID": 0.0,
+      "frac_LIQUID": 0.0
+    },
+    {
+      "element": "CO",
+      "source": "FULL_V1",
+      "n_states": 82500,
+      "modal_topology": "C15",
+      "modal_fraction": 0.9211030303,
+      "entropy_nats": 0.2760670886,
+      "frac_FCC": 0.0788969697,
+      "frac_BCC": 0.0,
+      "frac_C15": 0.9211030303,
+      "frac_OTHER_SOLID": 0.0,
+      "frac_LIQUID": 0.0
+    },
+    {
+      "element": "MO",
+      "source": "FULL_V1",
+      "n_states": 80932,
+      "modal_topology": "BCC",
+      "modal_fraction": 1.0,
+      "entropy_nats": 0.0,
+      "frac_FCC": 0.0,
+      "frac_BCC": 1.0,
+      "frac_C15": 0.0,
+      "frac_OTHER_SOLID": 0.0,
+      "frac_LIQUID": 0.0
+    },
+    {
+      "element": "SI",
+      "source": "FULL_V1",
+      "n_states": 82500,
+      "modal_topology": "OTHER_SOLID",
+      "modal_fraction": 0.9319757576,
+      "entropy_nats": 0.2954545095,
+      "frac_FCC": 0.0314424242,
+      "frac_BCC": 0.0365818182,
+      "frac_C15": 0.0,
+      "frac_OTHER_SOLID": 0.9319757576,
+      "frac_LIQUID": 0.0
+    },
+    {
+      "element": "TI",
+      "source": "FULL_V1",
+      "n_states": 82500,
+      "modal_topology": "FCC",
+      "modal_fraction": 0.9111030303,
+      "entropy_nats": 0.2999783583,
+      "frac_FCC": 0.9111030303,
+      "frac_BCC": 0.0,
+      "frac_C15": 0.0,
+      "frac_OTHER_SOLID": 0.0888969697,
+      "frac_LIQUID": 0.0
+    },
+    {
+      "element": "ZR",
+      "source": "FULL_V1",
+      "n_states": 82500,
+      "modal_topology": "C15",
+      "modal_fraction": 0.8080242424,
+      "entropy_nats": 0.5942224754,
+      "frac_FCC": 0.1540969697,
+      "frac_BCC": 0.0,
+      "frac_C15": 0.8080242424,
+      "frac_OTHER_SOLID": 0.0351515152,
+      "frac_LIQUID": 0.0027272727
+    }
+  ],
+  "candidate_comparison": [
+    {
+      "element": "AL",
+      "modal_topology": "FCC",
+      "modal_fraction": 1.0,
+      "entropy_nats": 0.0,
+      "nearest_existing_element": "AG",
+      "min_JS_to_existing_six": 0.0833659783,
+      "mean_JS_to_existing_six": 0.6597056414,
+      "per_existing_JS": "{\"AG\": 0.083366, \"CO\": 0.892393, \"MO\": 1.0, \"SI\": 0.947892, \"TI\": 0.214337, \"ZR\": 0.820246}",
+      "TOPOLOGY_NEAR_DEGENERATE": 1,
+      "OTHER_DOMINATED": 0,
+      "convergence_rate": 1.0,
+      "tccu6_available": 1
+    },
+    {
+      "element": "BE",
+      "modal_topology": "FCC",
+      "modal_fraction": 1.0,
+      "entropy_nats": 0.0,
+      "nearest_existing_element": "AG",
+      "min_JS_to_existing_six": 0.0833659783,
+      "mean_JS_to_existing_six": 0.6597056414,
+      "per_existing_JS": "{\"AG\": 0.083366, \"CO\": 0.892393, \"MO\": 1.0, \"SI\": 0.947892, \"TI\": 0.214337, \"ZR\": 0.820246}",
+      "TOPOLOGY_NEAR_DEGENERATE": 1,
+      "OTHER_DOMINATED": 0,
+      "convergence_rate": 1.0,
+      "tccu6_available": 1
+    },
+    {
+      "element": "GE",
+      "modal_topology": "FCC",
+      "modal_fraction": 1.0,
+      "entropy_nats": 0.0,
+      "nearest_existing_element": "AG",
+      "min_JS_to_existing_six": 0.0833659783,
+      "mean_JS_to_existing_six": 0.6597056414,
+      "per_existing_JS": "{\"AG\": 0.083366, \"CO\": 0.892393, \"MO\": 1.0, \"SI\": 0.947892, \"TI\": 0.214337, \"ZR\": 0.820246}",
+      "TOPOLOGY_NEAR_DEGENERATE": 1,
+      "OTHER_DOMINATED": 0,
+      "convergence_rate": 1.0,
+      "tccu6_available": 1
+    },
+    {
+      "element": "LA",
+      "modal_topology": "OTHER_SOLID",
+      "modal_fraction": 0.7272727273,
+      "entropy_nats": 0.5859526183,
+      "nearest_existing_element": "SI",
+      "min_JS_to_existing_six": 0.4236833796,
+      "mean_JS_to_existing_six": 0.8763311317,
+      "per_existing_JS": "{\"AG\": 1.0, \"CO\": 1.0, \"MO\": 1.0, \"SI\": 0.423683, \"TI\": 0.892931, \"ZR\": 0.941373}",
+      "TOPOLOGY_NEAR_DEGENERATE": 0,
+      "OTHER_DOMINATED": 0,
+      "convergence_rate": 1.0,
+      "tccu6_available": 1
+    },
+    {
+      "element": "MG",
+      "modal_topology": "FCC",
+      "modal_fraction": 1.0,
+      "entropy_nats": 0.0,
+      "nearest_existing_element": "AG",
+      "min_JS_to_existing_six": 0.0833659783,
+      "mean_JS_to_existing_six": 0.6597056414,
+      "per_existing_JS": "{\"AG\": 0.083366, \"CO\": 0.892393, \"MO\": 1.0, \"SI\": 0.947892, \"TI\": 0.214337, \"ZR\": 0.820246}",
+      "TOPOLOGY_NEAR_DEGENERATE": 1,
+      "OTHER_DOMINATED": 0,
+      "convergence_rate": 1.0,
+      "tccu6_available": 1
+    },
+    {
+      "element": "MN",
+      "modal_topology": "FCC",
+      "modal_fraction": 1.0,
+      "entropy_nats": 0.0,
+      "nearest_existing_element": "AG",
+      "min_JS_to_existing_six": 0.0833659783,
+      "mean_JS_to_existing_six": 0.6597056414,
+      "per_existing_JS": "{\"AG\": 0.083366, \"CO\": 0.892393, \"MO\": 1.0, \"SI\": 0.947892, \"TI\": 0.214337, \"ZR\": 0.820246}",
+      "TOPOLOGY_NEAR_DEGENERATE": 1,
+      "OTHER_DOMINATED": 0,
+      "convergence_rate": 1.0,
+      "tccu6_available": 1
+    },
+    {
+      "element": "P",
+      "modal_topology": "OTHER_SOLID",
+      "modal_fraction": 1.0,
+      "entropy_nats": 0.0,
+      "nearest_existing_element": "SI",
+      "min_JS_to_existing_six": 0.1867515829,
+      "mean_JS_to_existing_six": 0.8352951283,
+      "per_existing_JS": "{\"AG\": 1.0, \"CO\": 1.0, \"MO\": 1.0, \"SI\": 0.186752, \"TI\": 0.881988, \"ZR\": 0.943031}",
+      "TOPOLOGY_NEAR_DEGENERATE": 1,
+      "OTHER_DOMINATED": 1,
+      "convergence_rate": 1.0,
+      "tccu6_available": 1
+    },
+    {
+      "element": "SN",
+      "modal_topology": "FCC",
+      "modal_fraction": 1.0,
+      "entropy_nats": 0.0,
+      "nearest_existing_element": "AG",
+      "min_JS_to_existing_six": 0.0833659783,
+      "mean_JS_to_existing_six": 0.6597056414,
+      "per_existing_JS": "{\"AG\": 0.083366, \"CO\": 0.892393, \"MO\": 1.0, \"SI\": 0.947892, \"TI\": 0.214337, \"ZR\": 0.820246}",
+      "TOPOLOGY_NEAR_DEGENERATE": 1,
+      "OTHER_DOMINATED": 0,
+      "convergence_rate": 1.0,
+      "tccu6_available": 1
+    },
+    {
+      "element": "ZN",
+      "modal_topology": "FCC",
+      "modal_fraction": 1.0,
+      "entropy_nats": 0.0,
+      "nearest_existing_element": "AG",
+      "min_JS_to_existing_six": 0.0833659783,
+      "mean_JS_to_existing_six": 0.6597056414,
+      "per_existing_JS": "{\"AG\": 0.083366, \"CO\": 0.892393, \"MO\": 1.0, \"SI\": 0.947892, \"TI\": 0.214337, \"ZR\": 0.820246}",
+      "TOPOLOGY_NEAR_DEGENERATE": 1,
+      "OTHER_DOMINATED": 0,
+      "convergence_rate": 1.0,
+      "tccu6_available": 1
+    }
+  ],
+  "selection_protocol_sha256": "e0e1d3552625ec544d715dd862bb6ff562d81b7dfa4cafaeb9204e3a5d60c977",
+  "selection_trace": [
+    {
+      "step": 1,
+      "element": "BE",
+      "rule": "core retention",
+      "detail": "Be/Sn/Mn robust core, convergence 1.0000 >= 0.98",
+      "min_JS": null
+    },
+    {
+      "step": 2,
+      "element": "SN",
+      "rule": "core retention",
+      "detail": "Be/Sn/Mn robust core, convergence 1.0000 >= 0.98",
+      "min_JS": null
+    },
+    {
+      "step": 3,
+      "element": "MN",
+      "rule": "core retention",
+      "detail": "Be/Sn/Mn robust core, convergence 1.0000 >= 0.98",
+      "min_JS": null
+    },
+    {
+      "step": 4,
+      "element": "LA",
+      "rule": "greedy complementarity: new modal topology",
+      "detail": "modal OTHER_SOLID (NEW to the set); min JS to existing six + already-selected = 0.4237",
+      "min_JS": 0.423683
+    },
+    {
+      "step": 5,
+      "element": "P",
+      "rule": "greedy complementarity: max-min JS",
+      "detail": "modal OTHER_SOLID (already represented); min JS to existing six + already-selected = 0.1868",
+      "min_JS": 0.186752
+    }
+  ],
+  "selected_elements": [
+    "BE",
+    "SN",
+    "MN",
+    "LA",
+    "P"
+  ],
+  "n_selected": 5,
+  "near_degenerate": [
+    "BE",
+    "SN",
+    "MN",
+    "AL",
+    "MG",
+    "ZN",
+    "GE",
+    "P"
+  ],
+  "other_dominated": [
+    "P"
+  ],
+  "technically_unstable": [],
+  "integrity_audit": [
+    {
+      "n": 1,
+      "item": "nine pilot elements, exactly as specified",
+      "status": "PASS",
+      "detail": "['AL', 'BE', 'GE', 'LA', 'MG', 'MN', 'P', 'SN', 'ZN']"
+    },
+    {
+      "n": 2,
+      "item": "no Ni / Au / Ce anywhere in the pilot",
+      "status": "PASS",
+      "detail": "none"
+    },
+    {
+      "n": 3,
+      "item": "Ni token count == 0 across every pilot artifact",
+      "status": "PASS",
+      "detail": "0 hits (element-token regex)"
+    },
+    {
+      "n": 4,
+      "item": "Ni never probed, never sampled, never predicted",
+      "status": "PASS",
+      "detail": "probe covered 9 candidates, none of them Ni"
+    },
+    {
+      "n": 5,
+      "item": "50 compositions per element, 450 total",
+      "status": "PASS",
+      "detail": "450"
+    },
+    {
+      "n": 6,
+      "item": "formal states == 4,950 (450 x 11)",
+      "status": "PASS",
+      "detail": "4950"
+    },
+    {
+      "n": 7,
+      "item": "X range identical for all nine elements (spec 10)",
+      "status": "PASS",
+      "detail": "[0.0206, 0.1993] wt.%"
+    },
+    {
+      "n": 8,
+      "item": "Cr/Nb never sampled independently; S and R inverted as in FULL_V1",
+      "status": "PASS",
+      "detail": "S in [0.600, 1.996], R_actual in [2.002, 6.481]"
+    },
+    {
+      "n": 9,
+      "item": "no BASELINE composition generated (spec 12)",
+      "status": "PASS",
+      "detail": "0 baseline rows"
+    },
+    {
+      "n": 10,
+      "item": "molar partition definition used; volume-fraction partitioning absent",
+      "status": "PASS",
+      "detail": "n_i_alpha = phase_moles_alpha * X_i^alpha ; P_i^alpha = n_i_alpha / sum_beta n_i_beta (vol"
+    },
+    {
+      "n": 11,
+      "item": "partition vectors sum to 1 (<= 1e-9)",
+      "status": "PASS",
+      "detail": "{'CR': '2.22e-16', 'NB': '2.22e-16', 'X': '2.22e-16'}"
+    },
+    {
+      "n": 12,
+      "item": "CALPHAD failures retained, never interpolated or dropped",
+      "status": "PASS",
+      "detail": "0 failed states kept as rows with NaN targets; failure map has 0 rows"
+    },
+    {
+      "n": 13,
+      "item": "every raw phase maps into the frozen five families",
+      "status": "PASS",
+      "detail": "8 model bases, all mapped"
+    },
+    {
+      "n": 14,
+      "item": "no model training, tuning, feature selection or LOEO in this stage",
+      "status": "PASS",
+      "detail": "this pilot imports no learner; it is pure CALPHAD feasibility (spec 4)"
+    },
+    {
+      "n": 15,
+      "item": "selection protocol frozen before the element scores were read",
+      "status": "PASS",
+      "detail": "sha256 e0e1d3552625ec54"
+    },
+    {
+      "n": 16,
+      "item": "all required output files present",
+      "status": "PASS",
+      "detail": "12 files"
+    }
+  ],
+  "audit_failures": 0,
+  "ni_sealed": true,
+  "ni_probed": false,
+  "ni_predictions": 0,
+  "model_training_performed": false,
+  "loeo_performed": false,
+  "full_augmentation_set_generated": false,
+  "runtime": {
+    "generated_utc": "2026-09-06T05:32:45+00:00",
+    "frozen_runner": "code_snapshot/22_fullv1_run.py (FULL_V1, unedited)",
+    "frozen_runner_sha256": "4325f256d28bd2f3d9c21d087720c325f372adefeb155d645a812e758f2ab5f7",
+    "database": "TCCU6",
+    "planned_states": 4950,
+    "stats": {
+      "planned": 4950,
+      "skipped": 0,
+      "level0": 4950,
+      "level1": 0,
+      "level2": 0,
+      "level3": 0,
+      "failed": 0,
+      "dropped": 0
+    },
+    "timing": {
+      "t_calc": 1100.07,
+      "t_persist": 8.53,
+      "t_progress": 0.28,
+      "wall": 1123.81,
+      "done": 4950
+    },
+    "wall_seconds": 1127.0,
+    "checkpoint_success": 4950,
+    "stored_results": 4950,
+    "success_without_result": [],
+    "per_element": {
+      "AL": {
+        "states": 550,
+        "converged": 550,
+        "failed": 0,
+        "convergence_rate": 1.0
+      },
+      "BE": {
+        "states": 550,
+        "converged": 550,
+        "failed": 0,
+        "convergence_rate": 1.0
+      },
+      "GE": {
+        "states": 550,
+        "converged": 550,
+        "failed": 0,
+        "convergence_rate": 1.0
+      },
+      "LA": {
+        "states": 550,
+        "converged": 550,
+        "failed": 0,
+        "convergence_rate": 1.0
+      },
+      "MG": {
+        "states": 550,
+        "converged": 550,
+        "failed": 0,
+        "convergence_rate": 1.0
+      },
+      "MN": {
+        "states": 550,
+        "converged": 550,
+        "failed": 0,
+        "convergence_rate": 1.0
+      },
+      "P": {
+        "states": 550,
+        "converged": 550,
+        "failed": 0,
+        "convergence_rate": 1.0
+      },
+      "SN": {
+        "states": 550,
+        "converged": 550,
+        "failed": 0,
+        "convergence_rate": 1.0
+      },
+      "ZN": {
+        "states": 550,
+        "converged": 550,
+        "failed": 0,
+        "convergence_rate": 1.0
+      }
+    },
+    "failure_rows": 0,
+    "failure_policy": "failures retained with their verbatim Thermo-Calc error; never interpolated, fabricated or silently dropped (spec 19)"
+  },
+  "step5f0_primary_is_not_a_calphad_verdict": true
+}

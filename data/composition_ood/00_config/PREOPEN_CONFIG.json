@@ -1,0 +1,195 @@
+{
+  "features": [
+    "Temperature_C",
+    "Cr_wt_pct",
+    "Nb_wt_pct",
+    "X_wt_pct",
+    "R_CrNb_atomic_actual",
+    "has_X",
+    "delta_r",
+    "delta_chi",
+    "r_bar",
+    "Zbar",
+    "density_bar",
+    "AtomicVol_bar",
+    "X_AtomicNumber",
+    "X_VEC",
+    "X_MeltingT",
+    "Delta_AtomicNumber_X_Cu",
+    "Delta_Electronegativity_X_Cu",
+    "Delta_VEC_X_Cu",
+    "Delta_VEC_X_Cr",
+    "Delta_MeltingT_X_Cu",
+    "Delta_MeltingT_X_Cr",
+    "Delta_Density_X_Cu",
+    "Delta_FirstIonizationEnergy_X_Cu",
+    "Delta_FirstIonizationEnergy_X_Cr",
+    "magpie_mean_GSbandgap",
+    "magpie_mean_GSmagmom",
+    "magpie_mean_NsUnfilled",
+    "magpie_mean_Row",
+    "magpie_mean_SpaceGroupNumber",
+    "magpie_minimum_AtomicWeight",
+    "magpie_minimum_Electronegativity",
+    "magpie_minimum_GSvolume_pa",
+    "magpie_minimum_MeltingT",
+    "magpie_minimum_NValence",
+    "magpie_minimum_NsUnfilled",
+    "magpie_minimum_SpaceGroupNumber",
+    "magpie_maximum_Electronegativity",
+    "magpie_maximum_GSvolume_pa",
+    "magpie_range_AtomicWeight",
+    "magpie_range_CovalentRadius",
+    "magpie_range_Electronegativity",
+    "magpie_range_MeltingT",
+    "magpie_avg_dev_SpaceGroupNumber"
+  ],
+  "bins": {
+    "S_CrNb_wt_pct": [
+      2.0,
+      2.62505,
+      3.2500999999999998,
+      3.8747,
+      4.5
+    ],
+    "R_CrNb_atomic_actual": [
+      0.999987,
+      1.75012275,
+      2.5001825,
+      3.24987675,
+      3.999847
+    ],
+    "X_wt_pct": [
+      0.0,
+      0.0733,
+      0.1772,
+      0.3299,
+      0.5999
+    ],
+    "nn1_distance": [
+      0.053370353926274795,
+      5.248927954950345,
+      8.81783915316003,
+      12.446278085152217,
+      23.36734409193024
+    ]
+  },
+  "thresholds": [
+    0.5,
+    0.37,
+    0.5,
+    0.32,
+    0.42
+  ],
+  "seed": 20260905,
+  "n_bootstrap": 1000,
+  "temperatures": [
+    300.0,
+    350.0,
+    400.0,
+    450.0,
+    500.0,
+    600.0,
+    700.0,
+    800.0,
+    900.0,
+    950.0,
+    1000.0
+  ],
+  "model_audit": {
+    "presence": {
+      "sha256": "5fd19bfabffa2118a6cfefadf2282693ae73b4834a103f26409460d6738b750e",
+      "dimensions": [
+        43,
+        43,
+        43,
+        43
+      ],
+      "scaler": "None: frozen tree models consume raw frozen43 matrix",
+      "trivial_vector": [
+        1.0,
+        0.9177478060871312,
+        0.99724597875682,
+        0.17952496855205471,
+        0.0034611348056182035
+      ],
+      "iid_smoke_max_abs_delta": 0.0
+    },
+    "fraction": {
+      "sha256": "cc9cbb09d4ee838dc6eb82f15c86953fc5570eb4987aabe6b6ca065a573ec373",
+      "dimensions": [
+        43,
+        43,
+        43,
+        43,
+        43
+      ],
+      "scaler": "None: frozen tree models consume raw frozen43 matrix",
+      "trivial_vector": [
+        0.9852722893433209,
+        0.004787072236317012,
+        0.009241239446712528,
+        0.0006854294474662205,
+        1.3969526183382228e-05
+      ],
+      "iid_smoke_max_abs_delta": 0.0
+    },
+    "cr_partition": {
+      "sha256": "50f2782e48e0c6f1e1e7cbf489ddc864ad151f41d9d03cf6e1ddb1b1db40206f",
+      "dimensions": [
+        43,
+        43,
+        43,
+        43,
+        43
+      ],
+      "scaler": "None: frozen tree models consume raw frozen43 matrix",
+      "trivial_vector": [
+        0.09940845477470955,
+        0.3901964800586509,
+        0.4687576556474249,
+        0.041623702058374935,
+        1.3707460839813316e-05
+      ],
+      "iid_smoke_max_abs_delta": 0.0
+    },
+    "nb_partition": {
+      "sha256": "4dfbb6dd816090fa39e50ad5b8d3ca57cce196d22e96d84607f81afe1c051b9a",
+      "dimensions": [
+        43,
+        43,
+        43,
+        43,
+        43
+      ],
+      "scaler": "None: frozen tree models consume raw frozen43 matrix",
+      "trivial_vector": [
+        0.09538850892142897,
+        0.013356221682894501,
+        0.8912455407853325,
+        8.879815228494739e-06,
+        8.487951156855916e-07
+      ],
+      "iid_smoke_max_abs_delta": 0.0
+    },
+    "x_partition": {
+      "sha256": "013058267e3badfb6db657ba9638173c1c0f4ace37ad210a4750fbc6addbe63a",
+      "dimensions": [
+        43,
+        43,
+        43,
+        43,
+        43
+      ],
+      "scaler": "None: frozen tree models consume raw frozen43 matrix",
+      "trivial_vector": [
+        0.3924063060849874,
+        0.17997911835521582,
+        0.2687588732102482,
+        0.1582142342482923,
+        0.0006414681012562028
+      ],
+      "iid_smoke_max_abs_delta": 0.0
+    }
+  }
+}

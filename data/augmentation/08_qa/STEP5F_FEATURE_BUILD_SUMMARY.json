@@ -1,0 +1,22 @@
+{
+  "generated_utc": "2026-09-06T10:32:53+00:00",
+  "descriptor_reproduction_exact": true,
+  "n_elements_descriptor_table": 14,
+  "new_elements": [
+    "BE",
+    "SN",
+    "MN",
+    "LA",
+    "P"
+  ],
+  "n_compositions_featurized": 10000,
+  "atomic_closure_max_dev": 3.3306690738754696e-16,
+  "equivalence_probe_compositions": 140,
+  "equivalence_probe_max_abs_delta": 0.0,
+  "union_features": 51,
+  "output_rows": 110000,
+  "matminer": "0.10.1",
+  "mendeleev": "1.2.0",
+  "ni_scan_hits": [],
+  "output_sha256": "c9a7cd74886a0395c82945971f2002ecdefca42c54686f317e9fa72284c08c42"
+}

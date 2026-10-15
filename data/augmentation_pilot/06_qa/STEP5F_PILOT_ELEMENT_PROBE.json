@@ -1,0 +1,44 @@
+{
+  "stage": "STEP5F-PILOT Stage 0 element probe",
+  "generated_utc": "2026-09-06T05:13:23+00:00",
+  "database": "TCCU6",
+  "probe_conditions": {
+    "T_C": 800.0,
+    "S_CrNb_wt_pct": 1.3,
+    "R_CrNb_atomic": 4.0,
+    "X_wt_pct": 0.1,
+    "pressure_bar": 1.0,
+    "system_size_mol": 1.0,
+    "basis": "wt.%, Cu balance"
+  },
+  "candidates": [
+    "BE",
+    "SN",
+    "MN",
+    "AL",
+    "MG",
+    "ZN",
+    "LA",
+    "GE",
+    "P"
+  ],
+  "available": [
+    "AL",
+    "BE",
+    "GE",
+    "LA",
+    "MG",
+    "MN",
+    "P",
+    "SN",
+    "ZN"
+  ],
+  "not_available": [],
+  "not_available_detail": {},
+  "n_available": 9,
+  "n_candidates": 9,
+  "ni_probed": false,
+  "ni_hits": [],
+  "elapsed_seconds": 26.7,
+  "note": "an element that is not available in TCCU6 cannot be part of a Cu-Cr-Nb-X CALPHAD augmentation at all; that is a feasibility RESULT, not a bug, and it is reported rather than worked around"
+}

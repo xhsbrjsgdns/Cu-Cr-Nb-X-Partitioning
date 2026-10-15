@@ -1,0 +1,21 @@
+{
+  "original": {
+    "timestamp_utc": "2026-09-05T01:23:46.256723+00:00",
+    "script": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5B_DOMAIN_B_OOD_V1\\code_snapshot\\step5b_evaluate.py",
+    "preregistration_sha256": "fed9a1235de6c49d079a56a2b3b83b32e4a9fc1be1a58016619465919fbbc0b2",
+    "development_freeze_sha256": "6057e980c4c9ed930b01e7cd2c11299aa2443cf91bc11de60b133dbb7480c6fb",
+    "feature_hash": "f4ddf4a2587e33a7d441656110c589208d9d860095198dd4b276df64f8a2fb0c",
+    "model_hashes": {
+      "presence": "5fd19bfabffa2118a6cfefadf2282693ae73b4834a103f26409460d6738b750e",
+      "fraction": "cc9cbb09d4ee838dc6eb82f15c86953fc5570eb4987aabe6b6ca065a573ec373",
+      "cr_partition": "50f2782e48e0c6f1e1e7cbf489ddc864ad151f41d9d03cf6e1ddb1b1db40206f",
+      "nb_partition": "4dfbb6dd816090fa39e50ad5b8d3ca57cce196d22e96d84607f81afe1c051b9a",
+      "x_partition": "013058267e3badfb6db657ba9638173c1c0f4ace37ad210a4750fbc6addbe63a"
+    },
+    "reason": "first and only prospective Domain-B OOD model evaluation under approved amended protocol",
+    "historical_physical_first_read": false,
+    "historical_deviation_record": "PROTOCOL_AMENDMENT_V1.md"
+  },
+  "resume_utc": "2026-09-05T01:25:52.025981+00:00",
+  "reason": "PATCH_01 resume: aborted before any prediction/metric output; same single evaluation"
+}

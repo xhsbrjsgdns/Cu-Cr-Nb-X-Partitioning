@@ -1,0 +1,510 @@
+{
+  "stage": "STEP5F_FULL_V1",
+  "status": "PASS WITH WARNINGS",
+  "recommendation": "PARTIAL AUGMENTATION BENEFIT",
+  "generated_utc": "2026-09-06T14:33:56+00:00",
+  "calphad": {
+    "compositions_total": 10000,
+    "compositions_new": 9750,
+    "pilot_reused": 250,
+    "formal_states": 110000,
+    "new_solver_states": 107250,
+    "converged": 110000,
+    "failed": 0,
+    "convergence_gate": [
+      {
+        "element": "BE",
+        "compositions": 2000,
+        "formal_states": 22000,
+        "converged_states": 22000,
+        "failed_states": 0,
+        "convergence_rate": 1.0,
+        "gate_status": "PASS"
+      },
+      {
+        "element": "LA",
+        "compositions": 2000,
+        "formal_states": 22000,
+        "converged_states": 22000,
+        "failed_states": 0,
+        "convergence_rate": 1.0,
+        "gate_status": "PASS"
+      },
+      {
+        "element": "MN",
+        "compositions": 2000,
+        "formal_states": 22000,
+        "converged_states": 22000,
+        "failed_states": 0,
+        "convergence_rate": 1.0,
+        "gate_status": "PASS"
+      },
+      {
+        "element": "P",
+        "compositions": 2000,
+        "formal_states": 22000,
+        "converged_states": 22000,
+        "failed_states": 0,
+        "convergence_rate": 1.0,
+        "gate_status": "PASS"
+      },
+      {
+        "element": "SN",
+        "compositions": 2000,
+        "formal_states": 22000,
+        "converged_states": 22000,
+        "failed_states": 0,
+        "convergence_rate": 1.0,
+        "gate_status": "PASS"
+      }
+    ],
+    "n_raw_phase_names": 8,
+    "n_model_bases": 8,
+    "unexpected_new_bases": []
+  },
+  "training_identity_counts": {
+    "original": 5,
+    "augmented": 10
+  },
+  "per_fold_metrics": [
+    {
+      "fold": "FOLD_ZR",
+      "heldout_element": "ZR",
+      "n_train_rows_original": 201323,
+      "n_train_rows_augmented": 311323,
+      "n_new_rows_added": 110000,
+      "n_val_rows": 43134,
+      "n_heldout_rows": 57750,
+      "chosen_lr": 0.0003,
+      "val_tvd": 0.003370945,
+      "Z1_mean_tvd": 0.7949804267,
+      "FULL5_mean_tvd": 0.7939559213,
+      "Z1_median_tvd": 0.9481561846,
+      "FULL5_median_tvd": 0.9655796097,
+      "Z1_p95_tvd": 0.9999759478,
+      "FULL5_p95_tvd": 0.9920499644,
+      "Z1_topology_accuracy": 0.1995151515,
+      "FULL5_topology_accuracy": 0.1995151515,
+      "Z1_topology_macro_f1": 0.0665319321,
+      "FULL5_topology_macro_f1": 0.0665319321,
+      "trivial_tvd": 0.6789419831,
+      "Z1_skill_vs_trivial": -0.1160384436,
+      "FULL5_skill_vs_trivial": -0.1150139382,
+      "relative_tvd_reduction_vs_Z1": 0.0012887178,
+      "FULL5_beats_trivial": 0,
+      "train_seconds": 213.1
+    },
+    {
+      "fold": "FOLD_TI",
+      "heldout_element": "TI",
+      "n_train_rows_original": 201323,
+      "n_train_rows_augmented": 311323,
+      "n_new_rows_added": 110000,
+      "n_val_rows": 43145,
+      "n_heldout_rows": 57750,
+      "chosen_lr": 0.0003,
+      "val_tvd": 0.0042815182,
+      "Z1_mean_tvd": 0.7461502633,
+      "FULL5_mean_tvd": 0.5426462064,
+      "Z1_median_tvd": 0.8921883166,
+      "FULL5_median_tvd": 0.6591074858,
+      "Z1_p95_tvd": 0.9845465964,
+      "FULL5_p95_tvd": 0.8067469234,
+      "Z1_topology_accuracy": 0.3115497835,
+      "FULL5_topology_accuracy": 0.4532294372,
+      "Z1_topology_macro_f1": 0.1010476198,
+      "FULL5_topology_macro_f1": 0.1314335212,
+      "trivial_tvd": 0.6683901706,
+      "Z1_skill_vs_trivial": -0.0777600928,
+      "FULL5_skill_vs_trivial": 0.1257439642,
+      "relative_tvd_reduction_vs_Z1": 0.2727387055,
+      "FULL5_beats_trivial": 1,
+      "train_seconds": 205.3
+    },
+    {
+      "fold": "FOLD_CO",
+      "heldout_element": "CO",
+      "n_train_rows_original": 201323,
+      "n_train_rows_augmented": 311323,
+      "n_new_rows_added": 110000,
+      "n_val_rows": 43134,
+      "n_heldout_rows": 57750,
+      "chosen_lr": 0.0003,
+      "val_tvd": 0.0044913634,
+      "Z1_mean_tvd": 0.7021727706,
+      "FULL5_mean_tvd": 0.8400108557,
+      "Z1_median_tvd": 0.8203291926,
+      "FULL5_median_tvd": 0.9550848937,
+      "Z1_p95_tvd": 0.8960031647,
+      "FULL5_p95_tvd": 0.9997591503,
+      "Z1_topology_accuracy": 0.1127099567,
+      "FULL5_topology_accuracy": 0.1127099567,
+      "Z1_topology_macro_f1": 0.0405172816,
+      "FULL5_topology_macro_f1": 0.0405172816,
+      "trivial_tvd": 0.6872586483,
+      "Z1_skill_vs_trivial": -0.0149141223,
+      "FULL5_skill_vs_trivial": -0.1527522074,
+      "relative_tvd_reduction_vs_Z1": -0.1963022362,
+      "FULL5_beats_trivial": 0,
+      "train_seconds": 228.6
+    },
+    {
+      "fold": "FOLD_SI",
+      "heldout_element": "SI",
+      "n_train_rows_original": 201323,
+      "n_train_rows_augmented": 311323,
+      "n_new_rows_added": 110000,
+      "n_val_rows": 43145,
+      "n_heldout_rows": 57750,
+      "chosen_lr": 0.0001,
+      "val_tvd": 0.0032412237,
+      "Z1_mean_tvd": 0.6450398781,
+      "FULL5_mean_tvd": 0.7447167448,
+      "Z1_median_tvd": 0.6772716378,
+      "FULL5_median_tvd": 0.8009241017,
+      "Z1_p95_tvd": 0.7420819856,
+      "FULL5_p95_tvd": 0.9907399931,
+      "Z1_topology_accuracy": 0.1461125541,
+      "FULL5_topology_accuracy": 0.2283809524,
+      "Z1_topology_macro_f1": 0.0569826725,
+      "FULL5_topology_macro_f1": 0.0835850579,
+      "trivial_tvd": 0.8718056318,
+      "Z1_skill_vs_trivial": 0.2267657538,
+      "FULL5_skill_vs_trivial": 0.127088887,
+      "relative_tvd_reduction_vs_Z1": -0.154528224,
+      "FULL5_beats_trivial": 1,
+      "train_seconds": 204.0
+    },
+    {
+      "fold": "FOLD_AG",
+      "heldout_element": "AG",
+      "n_train_rows_original": 201323,
+      "n_train_rows_augmented": 311323,
+      "n_new_rows_added": 110000,
+      "n_val_rows": 43134,
+      "n_heldout_rows": 57750,
+      "chosen_lr": 0.0003,
+      "val_tvd": 0.0050839146,
+      "Z1_mean_tvd": 0.6411943341,
+      "FULL5_mean_tvd": 0.3604636746,
+      "Z1_median_tvd": 0.683812824,
+      "FULL5_median_tvd": 0.3618565209,
+      "Z1_p95_tvd": 0.8513984054,
+      "FULL5_p95_tvd": 0.4541914496,
+      "Z1_topology_accuracy": 0.3912727273,
+      "FULL5_topology_accuracy": 1.0,
+      "Z1_topology_macro_f1": 0.1124934658,
+      "FULL5_topology_macro_f1": 0.2,
+      "trivial_tvd": 0.7295965206,
+      "Z1_skill_vs_trivial": 0.0884021865,
+      "FULL5_skill_vs_trivial": 0.369132846,
+      "relative_tvd_reduction_vs_Z1": 0.4378246104,
+      "FULL5_beats_trivial": 1,
+      "train_seconds": 229.4
+    },
+    {
+      "fold": "FOLD_MO",
+      "heldout_element": "MO",
+      "n_train_rows_original": 202125,
+      "n_train_rows_augmented": 312125,
+      "n_new_rows_added": 110000,
+      "n_val_rows": 43318,
+      "n_heldout_rows": 56596,
+      "chosen_lr": 0.001,
+      "val_tvd": 0.004105265,
+      "Z1_mean_tvd": 0.9863268844,
+      "FULL5_mean_tvd": 0.9801998858,
+      "Z1_median_tvd": 0.9990103413,
+      "FULL5_median_tvd": 0.9854555005,
+      "Z1_p95_tvd": 0.9999989526,
+      "FULL5_p95_tvd": 1.0,
+      "Z1_topology_accuracy": 0.0,
+      "FULL5_topology_accuracy": 0.0,
+      "Z1_topology_macro_f1": 0.0,
+      "FULL5_topology_macro_f1": 0.0,
+      "trivial_tvd": 0.9653918386,
+      "Z1_skill_vs_trivial": -0.0209350458,
+      "FULL5_skill_vs_trivial": -0.0148080472,
+      "relative_tvd_reduction_vs_Z1": 0.0062119351,
+      "FULL5_beats_trivial": 0,
+      "train_seconds": 287.3
+    }
+  ],
+  "mean_metrics": {
+    "Z1_mean_tvd": 0.752644092873945,
+    "FULL5_mean_tvd": 0.7103322147540917,
+    "relative_reduction": 0.05621764459518552,
+    "FULL5_mean_topology_accuracy": 0.33230591630591627,
+    "folds_beating_trivial": 3
+  },
+  "success_criteria": {
+    "primary_tvd": false,
+    "topology": false,
+    "skill_4of6": false,
+    "strong": false
+  },
+  "ablation": [
+    {
+      "config": "BASE_PLUS_BE",
+      "mean_tvd": 0.835622
+    },
+    {
+      "config": "BASE_PLUS_LA",
+      "mean_tvd": 0.799609
+    },
+    {
+      "config": "BASE_PLUS_MN",
+      "mean_tvd": 0.691698
+    },
+    {
+      "config": "BASE_PLUS_P",
+      "mean_tvd": 0.813104
+    },
+    {
+      "config": "BASE_PLUS_SN",
+      "mean_tvd": 0.794481
+    },
+    {
+      "config": "FULL5",
+      "mean_tvd": 0.710332
+    },
+    {
+      "config": "FULL5_MINUS_BE",
+      "mean_tvd": 0.660195
+    },
+    {
+      "config": "FULL5_MINUS_LA",
+      "mean_tvd": 0.687003
+    },
+    {
+      "config": "FULL5_MINUS_MN",
+      "mean_tvd": 0.81853
+    },
+    {
+      "config": "FULL5_MINUS_P",
+      "mean_tvd": 0.729035
+    },
+    {
+      "config": "FULL5_MINUS_SN",
+      "mean_tvd": 0.744511
+    }
+  ],
+  "tree_secondary_same_direction_folds": 4,
+  "new_element_topology_summary": [
+    {
+      "element": "BE",
+      "n_states": 22000,
+      "frac_FCC": 1.0,
+      "frac_BCC": 0.0,
+      "frac_C15": 0.0,
+      "frac_OTHER_SOLID": 0.0,
+      "frac_LIQUID": 0.0,
+      "modal_topology": "FCC",
+      "modal_fraction": 1.0
+    },
+    {
+      "element": "LA",
+      "n_states": 22000,
+      "frac_FCC": 0.0,
+      "frac_BCC": 0.0,
+      "frac_C15": 0.0,
+      "frac_OTHER_SOLID": 0.7272727273,
+      "frac_LIQUID": 0.2727272727,
+      "modal_topology": "OTHER_SOLID",
+      "modal_fraction": 0.7272727273
+    },
+    {
+      "element": "MN",
+      "n_states": 22000,
+      "frac_FCC": 1.0,
+      "frac_BCC": 0.0,
+      "frac_C15": 0.0,
+      "frac_OTHER_SOLID": 0.0,
+      "frac_LIQUID": 0.0,
+      "modal_topology": "FCC",
+      "modal_fraction": 1.0
+    },
+    {
+      "element": "P",
+      "n_states": 22000,
+      "frac_FCC": 0.0001818182,
+      "frac_BCC": 0.0,
+      "frac_C15": 0.0,
+      "frac_OTHER_SOLID": 0.9998181818,
+      "frac_LIQUID": 0.0,
+      "modal_topology": "OTHER_SOLID",
+      "modal_fraction": 0.9998181818
+    },
+    {
+      "element": "SN",
+      "n_states": 22000,
+      "frac_FCC": 1.0,
+      "frac_BCC": 0.0,
+      "frac_C15": 0.0,
+      "frac_OTHER_SOLID": 0.0,
+      "frac_LIQUID": 0.0,
+      "modal_topology": "FCC",
+      "modal_fraction": 1.0
+    }
+  ],
+  "ni_sealed": true,
+  "ni_descriptor_reads": 0,
+  "ni_compositions": 0,
+  "ni_predictions": 0,
+  "ni_calphad_states": 0,
+  "anchor_rows_used": 0,
+  "domain_b_tuning_events": 0,
+  "audit_failures": 0,
+  "audit": [
+    {
+      "n": 1,
+      "item": "STEP5C heldout tests unchanged (identical state sets and true targets)",
+      "status": "PASS",
+      "detail": "ZR:OK TI:OK CO:OK SI:OK AG:OK MO:OK"
+    },
+    {
+      "n": 2,
+      "item": "STEP5E Z1 baseline reproduced from frozen predictions, unchanged",
+      "status": "PASS",
+      "detail": "max per-fold dev 1.11e-16 | mean 0.752644 (ref 0.752644)"
+    },
+    {
+      "n": 3,
+      "item": "STEP5F-PILOT files unchanged (sha256 vs pilot manifest)",
+      "status": "PASS",
+      "detail": "STEP5F_PILOT_COMPOSITIONS.csv:unchanged STEP5F_PILOT_STATE_RESULTS.parquet:unchanged"
+    },
+    {
+      "n": 4,
+      "item": "selected new identities exactly BE SN MN LA P (spec 4)",
+      "status": "PASS",
+      "detail": "['BE', 'LA', 'MN', 'P', 'SN']"
+    },
+    {
+      "n": 5,
+      "item": "2000 compositions per new identity",
+      "status": "PASS",
+      "detail": "{'BE': 2000, 'LA': 2000, 'MN': 2000, 'P': 2000, 'SN': 2000}"
+    },
+    {
+      "n": 6,
+      "item": "pilot 50 per element reused, never recomputed",
+      "status": "PASS",
+      "detail": "250 pilot compositions / 2750 states"
+    },
+    {
+      "n": 7,
+      "item": "1950 additional unique compositions per element",
+      "status": "PASS",
+      "detail": "9750 new compositions"
+    },
+    {
+      "n": 8,
+      "item": "new solver states = 107,250 (9750 x 11)",
+      "status": "PASS",
+      "detail": "107250"
+    },
+    {
+      "n": 9,
+      "item": "same thermodynamic settings via the unedited frozen FULL_V1 runner (TCCU6)",
+      "status": "PASS",
+      "detail": "runner sha256 4325f256d28bd2f3"
+    },
+    {
+      "n": 10,
+      "item": "same composition domain (S 0.6-2.0, R 2.0-6.5, X 0.02-0.20 all elements)",
+      "status": "PASS",
+      "detail": "S [0.6003, 1.9998] | R [2.000, 6.500] | X [0.0200, 0.2000]"
+    },
+    {
+      "n": 11,
+      "item": "no Ni descriptor (descriptor table covers only the 14 allowed elements)",
+      "status": "PASS",
+      "detail": "elements: CU,CR,NB,ZR,TI,CO,SI,AG,MO,BE,SN,MN,LA,P"
+    },
+    {
+      "n": 12,
+      "item": "no Ni composition anywhere in the augmentation",
+      "status": "PASS",
+      "detail": "0 hits"
+    },
+    {
+      "n": 13,
+      "item": "no Ni prediction / no Ni among predicted identities",
+      "status": "PASS",
+      "detail": "0 hits"
+    },
+    {
+      "n": 14,
+      "item": "no Ni CALPHAD (computed systems are Cu-Cr-Nb + BE/SN/MN/LA/P only)",
+      "status": "PASS",
+      "detail": "['BE', 'LA', 'MN', 'P', 'SN']"
+    },
+    {
+      "n": 15,
+      "item": "ANCHOR rows in every augmented train = 0 (spec 2)",
+      "status": "PASS",
+      "detail": "{'FOLD_ZR': 0, 'FOLD_TI': 0, 'FOLD_CO': 0, 'FOLD_SI': 0, 'FOLD_AG': 0, 'FOLD_MO': 0}"
+    },
+    {
+      "n": 16,
+      "item": "Domain B rows in every augmented train = 0 (spec 3)",
+      "status": "PASS",
+      "detail": "{'FOLD_ZR': 0, 'FOLD_TI': 0, 'FOLD_CO': 0, 'FOLD_SI': 0, 'FOLD_AG': 0, 'FOLD_MO': 0}"
+    },
+    {
+      "n": 17,
+      "item": "heldout target in train = 0 for all six folds (spec 34)",
+      "status": "PASS",
+      "detail": "{'FOLD_ZR': 0, 'FOLD_TI': 0, 'FOLD_CO': 0, 'FOLD_SI': 0, 'FOLD_AG': 0, 'FOLD_MO': 0}"
+    },
+    {
+      "n": 18,
+      "item": "heldout target in validation = 0 for all six folds (spec 33)",
+      "status": "PASS",
+      "detail": "{'FOLD_ZR': 0, 'FOLD_TI': 0, 'FOLD_CO': 0, 'FOLD_SI': 0, 'FOLD_AG': 0, 'FOLD_MO': 0}"
+    },
+    {
+      "n": 19,
+      "item": "per-fold feature list unchanged (hash == frozen STEP5C file)",
+      "status": "PASS",
+      "detail": "6 folds verified"
+    },
+    {
+      "n": 20,
+      "item": "MLP hyperparameters unchanged (STEP5D preregistration protocol)",
+      "status": "PASS",
+      "detail": "batch 1024, <=200 epochs, patience 15, LRs 1e-4/3e-4/1e-3"
+    },
+    {
+      "n": 21,
+      "item": "all 11 preregistered ablation configurations reported (x 6 folds)",
+      "status": "PASS",
+      "detail": "11 configs, 66 rows"
+    },
+    {
+      "n": 22,
+      "item": "production candidate is FULL5; no post-hoc subset selection (spec 50)",
+      "status": "PASS",
+      "detail": "ablation used for diagnosis only"
+    },
+    {
+      "n": 23,
+      "item": "new phase mapping documented (raw names kept, frozen five-family default)",
+      "status": "PASS",
+      "detail": "8 bases; beyond-pilot new bases: none"
+    },
+    {
+      "n": 24,
+      "item": "partition definition unchanged (molar; volume-fraction forbidden, spec 19)",
+      "status": "PASS",
+      "detail": "n_i_alpha = phase_moles_alpha * X_i^alpha ; P_i^alpha = n_i_alpha / sum_beta n_i"
+    },
+    {
+      "n": 25,
+      "item": "all output hashes recorded in 09_manifest",
+      "status": "PASS",
+      "detail": "E:\\Cu_CALPHAD_ML\\06_AUGMENTATION\\STEP5F_FULL_V1\\09_manifest\\STEP5F_FULL_FILE_HASHES.csv"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "generated_utc": "2026-09-06T05:34:06+00:00",
+  "selection_protocol_sha256": "e0e1d3552625ec544d715dd862bb6ff562d81b7dfa4cafaeb9204e3a5d60c977",
+  "selected": [
+    "BE",
+    "SN",
+    "MN",
+    "LA",
+    "P"
+  ],
+  "n_selected": 5,
+  "eligibility": {
+    "BE": {
+      "convergence_rate": 1.0,
+      "anomalous_fraction": 0.0,
+      "tccu6_available": true,
+      "TECHNICALLY_UNSTABLE": false,
+      "eligible": true,
+      "blocking_reasons": [],
+      "modal_topology": "FCC",
+      "OTHER_DOMINATED": 0,
+      "TOPOLOGY_NEAR_DEGENERATE": 1
+    },
+    "SN": {
+      "convergence_rate": 1.0,
+      "anomalous_fraction": 0.0,
+      "tccu6_available": true,
+      "TECHNICALLY_UNSTABLE": false,
+      "eligible": true,
+      "blocking_reasons": [],
+      "modal_topology": "FCC",
+      "OTHER_DOMINATED": 0,
+      "TOPOLOGY_NEAR_DEGENERATE": 1
+    },
+    "MN": {
+      "convergence_rate": 1.0,
+      "anomalous_fraction": 0.0,
+      "tccu6_available": true,
+      "TECHNICALLY_UNSTABLE": false,
+      "eligible": true,
+      "blocking_reasons": [],
+      "modal_topology": "FCC",
+      "OTHER_DOMINATED": 0,
+      "TOPOLOGY_NEAR_DEGENERATE": 1
+    },
+    "AL": {
+      "convergence_rate": 1.0,
+      "anomalous_fraction": 0.0,
+      "tccu6_available": true,
+      "TECHNICALLY_UNSTABLE": false,
+      "eligible": true,
+      "blocking_reasons": [],
+      "modal_topology": "FCC",
+      "OTHER_DOMINATED": 0,
+      "TOPOLOGY_NEAR_DEGENERATE": 1
+    },
+    "MG": {
+      "convergence_rate": 1.0,
+      "anomalous_fraction": 0.0,
+      "tccu6_available": true,
+      "TECHNICALLY_UNSTABLE": false,
+      "eligible": true,
+      "blocking_reasons": [],
+      "modal_topology": "FCC",
+      "OTHER_DOMINATED": 0,
+      "TOPOLOGY_NEAR_DEGENERATE": 1
+    },
+    "ZN": {
+      "convergence_rate": 1.0,
+      "anomalous_fraction": 0.0,
+      "tccu6_available": true,
+      "TECHNICALLY_UNSTABLE": false,
+      "eligible": true,
+      "blocking_reasons": [],
+      "modal_topology": "FCC",
+      "OTHER_DOMINATED": 0,
+      "TOPOLOGY_NEAR_DEGENERATE": 1
+    },
+    "LA": {
+      "convergence_rate": 1.0,
+      "anomalous_fraction": 0.0,
+      "tccu6_available": true,
+      "TECHNICALLY_UNSTABLE": false,
+      "eligible": true,
+      "blocking_reasons": [],
+      "modal_topology": "OTHER_SOLID",
+      "OTHER_DOMINATED": 0,
+      "TOPOLOGY_NEAR_DEGENERATE": 0
+    },
+    "GE": {
+      "convergence_rate": 1.0,
+      "anomalous_fraction": 0.0,
+      "tccu6_available": true,
+      "TECHNICALLY_UNSTABLE": false,
+      "eligible": true,
+      "blocking_reasons": [],
+      "modal_topology": "FCC",
+      "OTHER_DOMINATED": 0,
+      "TOPOLOGY_NEAR_DEGENERATE": 1
+    },
+    "P": {
+      "convergence_rate": 1.0,
+      "anomalous_fraction": 0.0,
+      "tccu6_available": true,
+      "TECHNICALLY_UNSTABLE": false,
+      "eligible": true,
+      "blocking_reasons": [],
+      "modal_topology": "OTHER_SOLID",
+      "OTHER_DOMINATED": 1,
+      "TOPOLOGY_NEAR_DEGENERATE": 1
+    }
+  },
+  "trace": [
+    {
+      "step": 1,
+      "element": "BE",
+      "rule": "core retention",
+      "detail": "Be/Sn/Mn robust core, convergence 1.0000 >= 0.98",
+      "min_JS": ""
+    },
+    {
+      "step": 2,
+      "element": "SN",
+      "rule": "core retention",
+      "detail": "Be/Sn/Mn robust core, convergence 1.0000 >= 0.98",
+      "min_JS": ""
+    },
+    {
+      "step": 3,
+      "element": "MN",
+      "rule": "core retention",
+      "detail": "Be/Sn/Mn robust core, convergence 1.0000 >= 0.98",
+      "min_JS": ""
+    },
+    {
+      "step": 4,
+      "element": "LA",
+      "rule": "greedy complementarity: new modal topology",
+      "detail": "modal OTHER_SOLID (NEW to the set); min JS to existing six + already-selected = 0.4237",
+      "min_JS": 0.423683
+    },
+    {
+      "step": 5,
+      "element": "P",
+      "rule": "greedy complementarity: max-min JS",
+      "detail": "modal OTHER_SOLID (already represented); min JS to existing six + already-selected = 0.1868",
+      "min_JS": 0.186752
+    }
+  ],
+  "entropy_note": "entropy is reported for chemical-complementarity discussion only; a higher value is NOT automatically better (spec 23)",
+  "flag_note": "TOPOLOGY_NEAR_DEGENERATE and OTHER_DOMINATED are diagnostic flags, not automatic exclusions (spec 25, 26)"
+}

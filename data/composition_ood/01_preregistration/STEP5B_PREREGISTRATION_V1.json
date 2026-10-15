@@ -1,0 +1,374 @@
+{
+  "protocol": "STEP5B prospective Domain-B composition-domain OOD evaluation",
+  "protocol_amendment_approved": true,
+  "protocol_amendment_document": "01_preregistration/PROTOCOL_AMENDMENT_V1.md",
+  "retained_warning": "historical STEP5A full-table target materialization means the literal never-read condition is permanently FALSE; seal is defined by PROTOCOL_AMENDMENT_V1 (never used for development/tuning/evaluation, no pre-open B artifact); STEP5B status capped at PASS WITH WARNINGS",
+  "timestamp_utc": "2026-09-05T01:23:35.923181+00:00",
+  "features": [
+    "Temperature_C",
+    "Cr_wt_pct",
+    "Nb_wt_pct",
+    "X_wt_pct",
+    "R_CrNb_atomic_actual",
+    "has_X",
+    "delta_r",
+    "delta_chi",
+    "r_bar",
+    "Zbar",
+    "density_bar",
+    "AtomicVol_bar",
+    "X_AtomicNumber",
+    "X_VEC",
+    "X_MeltingT",
+    "Delta_AtomicNumber_X_Cu",
+    "Delta_Electronegativity_X_Cu",
+    "Delta_VEC_X_Cu",
+    "Delta_VEC_X_Cr",
+    "Delta_MeltingT_X_Cu",
+    "Delta_MeltingT_X_Cr",
+    "Delta_Density_X_Cu",
+    "Delta_FirstIonizationEnergy_X_Cu",
+    "Delta_FirstIonizationEnergy_X_Cr",
+    "magpie_mean_GSbandgap",
+    "magpie_mean_GSmagmom",
+    "magpie_mean_NsUnfilled",
+    "magpie_mean_Row",
+    "magpie_mean_SpaceGroupNumber",
+    "magpie_minimum_AtomicWeight",
+    "magpie_minimum_Electronegativity",
+    "magpie_minimum_GSvolume_pa",
+    "magpie_minimum_MeltingT",
+    "magpie_minimum_NValence",
+    "magpie_minimum_NsUnfilled",
+    "magpie_minimum_SpaceGroupNumber",
+    "magpie_maximum_Electronegativity",
+    "magpie_maximum_GSvolume_pa",
+    "magpie_range_AtomicWeight",
+    "magpie_range_CovalentRadius",
+    "magpie_range_Electronegativity",
+    "magpie_range_MeltingT",
+    "magpie_avg_dev_SpaceGroupNumber"
+  ],
+  "bins": {
+    "S_CrNb_wt_pct": [
+      2.0,
+      2.62505,
+      3.2500999999999998,
+      3.8747,
+      4.5
+    ],
+    "R_CrNb_atomic_actual": [
+      0.999987,
+      1.75012275,
+      2.5001825,
+      3.24987675,
+      3.999847
+    ],
+    "X_wt_pct": [
+      0.0,
+      0.0733,
+      0.1772,
+      0.3299,
+      0.5999
+    ],
+    "nn1_distance": [
+      0.053370353926274795,
+      5.248927954950345,
+      8.81783915316003,
+      12.446278085152217,
+      23.36734409193024
+    ]
+  },
+  "feature_list_sha256": "f4ddf4a2587e33a7d441656110c589208d9d860095198dd4b276df64f8a2fb0c",
+  "development_freeze_sha256": "6057e980c4c9ed930b01e7cd2c11299aa2443cf91bc11de60b133dbb7480c6fb",
+  "frozen_artifacts": [
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\09_manifest\\DEVELOPMENT_FREEZE_V1.json",
+      "sha256": "6057e980c4c9ed930b01e7cd2c11299aa2443cf91bc11de60b133dbb7480c6fb"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\02_features\\PRIMARY_FEATURE_LIST.txt",
+      "sha256": "f4ddf4a2587e33a7d441656110c589208d9d860095198dd4b276df64f8a2fb0c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\02_features\\PCC_REMOVAL_LOG.csv",
+      "sha256": "9443f02b8b01d96e696eaceace5f1d247fe8e2302a3e0013033fdbe7e338b951"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\02_features\\NEAR_ZERO_VARIANCE_REMOVAL.csv",
+      "sha256": "5fb85a180eb978036a8cd96701188aacc15bffafd89c80a3b53829163c74f15c"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\02_features\\EXACT_REDUNDANCY_LOG.csv",
+      "sha256": "2074f2312015aeb936df3a3bfe5143617c300dfe3f3033b4811f797212ce6ae2"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\04_models\\final\\presence\\model_state.pkl",
+      "sha256": "5fd19bfabffa2118a6cfefadf2282693ae73b4834a103f26409460d6738b750e"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\04_models\\final\\fraction\\model_state.pkl",
+      "sha256": "cc9cbb09d4ee838dc6eb82f15c86953fc5570eb4987aabe6b6ca065a573ec373"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\04_models\\final\\cr_partition\\model_state.pkl",
+      "sha256": "50f2782e48e0c6f1e1e7cbf489ddc864ad151f41d9d03cf6e1ddb1b1db40206f"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\04_models\\final\\nb_partition\\model_state.pkl",
+      "sha256": "4dfbb6dd816090fa39e50ad5b8d3ca57cce196d22e96d84607f81afe1c051b9a"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\04_ML\\STEP5A_JMST_ML_FOUNDATION_V2\\04_models\\final\\x_partition\\model_state.pkl",
+      "sha256": "013058267e3badfb6db657ba9638173c1c0f4ace37ad210a4750fbc6addbe63a"
+    }
+  ],
+  "prepared_inputs": [
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5B_DOMAIN_B_OOD_V1\\02_inputs\\DOMAIN_B_FEATURES_FROZEN43.parquet",
+      "sha256": "e8db7953a37cff9af2b206814c4b6d30c185d9f7e5c2b696698341c38ce3d39d"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5B_DOMAIN_B_OOD_V1\\02_inputs\\DEV_TRAIN_COMPOSITION_CONTEXT.parquet",
+      "sha256": "79aac59118f848661b849de2a320acc01a846666e9c349a0e1a42674dcfa630a"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5B_DOMAIN_B_OOD_V1\\02_inputs\\IID_COMPOSITION_CONTEXT.parquet",
+      "sha256": "299192848650f98793e18776ebd74d8fb152d9188719a0f7f047fc3a7937003f"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5B_DOMAIN_B_OOD_V1\\02_inputs\\DOMAIN_B_COMPOSITION_CONTEXT.parquet",
+      "sha256": "55db1f448047d57c1c0ccde663c4e8b0b456c0915e7009b2f19e226246a771eb"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5B_DOMAIN_B_OOD_V1\\05_shift_analysis\\DOMAIN_B_OOD_DISTANCE.parquet",
+      "sha256": "b9ddebd197e532efe7dfeedfbd71b1cbeefde6b7502700d23a1fc921a5ebd123"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5B_DOMAIN_B_OOD_V1\\05_shift_analysis\\FEATURE_SHIFT_A_TO_B.csv",
+      "sha256": "d9626da1d989b737dac51913bbcb76e1b9adfcbdec4821fd43a3b5c5735b6224"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5B_DOMAIN_B_OOD_V1\\00_config\\DISTANCE_SCALER_DEV_TRAIN_ONLY.json",
+      "sha256": "d3bd8fb548b2ac4a0e37112f04e2143c2b883a929a5062a79c345909cd8934c1"
+    },
+    {
+      "path": "E:\\Cu_CALPHAD_ML\\05_OOD\\STEP5B_DOMAIN_B_OOD_V1\\00_config\\PREOPEN_CONFIG.json",
+      "sha256": "c05cf49d761b86e8be018180ba843ae7f1b4e5f2d7224c2f6b156961ac1db24b"
+    }
+  ],
+  "code_manifest_sha256": "1a5aff65de867b429809200eb19078312e6a1a4a5a803563742dc2d721ab1c69",
+  "package_versions": {
+    "python": "3.14.5",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "pyarrow": "25.0.1",
+    "scikit-learn": "1.8.0",
+    "xgboost": "3.2.0",
+    "catboost": "1.2.10",
+    "torch": "2.12.0+cu132",
+    "optuna": "4.9.0",
+    "matminer": "0.10.1",
+    "pymatgen": "2026.5.4",
+    "mendeleev": "1.2.0",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.9",
+    "shap": "0.52.0"
+  },
+  "models": {
+    "presence": {
+      "family": "XGBoost",
+      "hyperparameters": {
+        "n_estimators": 300,
+        "max_depth": 10,
+        "learning_rate": 0.10166082378696865,
+        "subsample": 0.6591307598635731,
+        "colsample_bytree": 0.7891971881086737,
+        "min_child_weight": 2,
+        "reg_lambda": 0.2478860589846176
+      },
+      "artifact_sha256": "5fd19bfabffa2118a6cfefadf2282693ae73b4834a103f26409460d6738b750e"
+    },
+    "fraction": {
+      "family": "CatBoost",
+      "hyperparameters": {
+        "iterations": 800,
+        "depth": 9,
+        "learning_rate": 0.09530381657481919,
+        "l2_leaf_reg": 0.93663009866977,
+        "random_strength": 0.5112597801502385
+      },
+      "artifact_sha256": "cc9cbb09d4ee838dc6eb82f15c86953fc5570eb4987aabe6b6ca065a573ec373"
+    },
+    "cr_partition": {
+      "family": "CatBoost",
+      "hyperparameters": {
+        "iterations": 800,
+        "depth": 10,
+        "learning_rate": 0.10773808488269368,
+        "l2_leaf_reg": 0.821464568303897,
+        "random_strength": 0.18037117601347105
+      },
+      "artifact_sha256": "50f2782e48e0c6f1e1e7cbf489ddc864ad151f41d9d03cf6e1ddb1b1db40206f"
+    },
+    "nb_partition": {
+      "family": "XGBoost",
+      "hyperparameters": {
+        "n_estimators": 900,
+        "max_depth": 10,
+        "learning_rate": 0.055887815979868444,
+        "subsample": 0.7136358572399193,
+        "colsample_bytree": 0.99283010286948,
+        "min_child_weight": 4,
+        "reg_lambda": 0.13086078059398523
+      },
+      "artifact_sha256": "4dfbb6dd816090fa39e50ad5b8d3ca57cce196d22e96d84607f81afe1c051b9a"
+    },
+    "x_partition": {
+      "family": "XGBoost",
+      "hyperparameters": {
+        "n_estimators": 700,
+        "max_depth": 11,
+        "learning_rate": 0.021009005980018196,
+        "subsample": 0.720468251086434,
+        "colsample_bytree": 0.9231681084702589,
+        "min_child_weight": 5,
+        "reg_lambda": 2.3072228470000042
+      },
+      "artifact_sha256": "013058267e3badfb6db657ba9638173c1c0f4ace37ad210a4750fbc6addbe63a"
+    }
+  },
+  "classification_thresholds": {
+    "FCC": 0.5,
+    "BCC": 0.37,
+    "C15": 0.5,
+    "OTHER_SOLID": 0.32,
+    "LIQUID": 0.42
+  },
+  "secondary_threshold_report": "default 0.5 reported as secondary only; primary results use the frozen thresholds above",
+  "projection_rules": "clip negatives to 0; renormalize to sum 1; if sum==0 use the frozen DEV_TRAIN mean simplex (counted); never use Domain-B labels",
+  "random_seeds": {
+    "master": 20260904,
+    "step5b_bootstrap": 20260905
+  },
+  "bootstrap": {
+    "scheme": "composition-level cluster bootstrap, all temperature rows of a sampled composition travel together; IID and OOD draws use independent SeedSequence children (not paired)",
+    "n_reps": 1000,
+    "seed": 20260905
+  },
+  "metrics": {
+    "presence": [
+      "Exact Match",
+      "Hamming Loss",
+      "Micro F1",
+      "Macro F1",
+      "per-family support/Precision/Recall/F1/ROC-AUC/PR-AUC",
+      "LIQUID reported separately"
+    ],
+    "regression": [
+      "mean/median/p95 TVD",
+      "Macro MAE",
+      "Macro RMSE",
+      "per-family MAE/RMSE/R2",
+      "raw sum violation mean/max",
+      "projected sum violation mean/max",
+      "simplex fallback count"
+    ]
+  },
+  "stratification_policy": {
+    "fixed_before_open": true,
+    "groups": [
+      "family",
+      "Temperature_C",
+      "S_CrNb_wt_pct quartile bins",
+      "R_CrNb_atomic_actual quartile bins",
+      "X_wt_pct quartile bins",
+      "phase split vs non-split (post-hoc metadata only)",
+      "OOD nn1-distance quartiles"
+    ],
+    "bin_edges": {
+      "S_CrNb_wt_pct": [
+        2.0,
+        2.62505,
+        3.2500999999999998,
+        3.8747,
+        4.5
+      ],
+      "R_CrNb_atomic_actual": [
+        0.999987,
+        1.75012275,
+        2.5001825,
+        3.24987675,
+        3.999847
+      ],
+      "X_wt_pct": [
+        0.0,
+        0.0733,
+        0.1772,
+        0.3299,
+        0.5999
+      ],
+      "nn1_distance": [
+        0.053370353926274795,
+        5.248927954950345,
+        8.81783915316003,
+        12.446278085152217,
+        23.36734409193024
+      ]
+    },
+    "no_post_hoc_groups": "adding a group after seeing results is forbidden"
+  },
+  "ood_distance_definition": {
+    "level": "composition (never state rows; 11 temperatures per composition are not independent samples)",
+    "features": "the 42 frozen composition-dependent features (43 minus Temperature_C)",
+    "scaler": "StandardScaler fit on DEV_TRAIN compositions only; diagnostic use only, never a model transform",
+    "distances": [
+      "1-NN Euclidean in scaled space to DEV_TRAIN compositions",
+      "5-NN mean Euclidean",
+      "outside-train-range feature count"
+    ]
+  },
+  "traffic_lights": {
+    "note": "internal project criteria, not JMST official standards; decided before open; results never trigger retuning",
+    "presence_macro_f1": {
+      "GREEN": ">=0.90",
+      "YELLOW": "0.75-0.90",
+      "RED": "<0.75"
+    },
+    "fraction_mean_tvd": {
+      "GREEN": "<=0.005",
+      "YELLOW": "0.005-0.02",
+      "RED": ">0.02"
+    },
+    "partition_mean_tvd": {
+      "GREEN": "<=0.03",
+      "YELLOW": "0.03-0.10",
+      "RED": ">0.10"
+    }
+  },
+  "trivial_baselines": "STEP5A DEV_TRAIN-derived only (prevalence / mean simplex vectors stored in the frozen artifacts); Domain-B means are never used",
+  "go_no_go": {
+    "A": "no data leakage",
+    "B": "STEP5A frozen artifacts unchanged",
+    "C": "first-open protocol valid",
+    "D": "all primary tasks clearly beat frozen trivial baselines",
+    "E": "no FAILED interpolation",
+    "F": "Anchor sealed",
+    "G": "Ni sealed",
+    "H": "OOD degradation quantified and explainable by shift/distance",
+    "yellow_rule": "YELLOW on a task does not auto NO-GO if skill remains and shift explains it"
+  },
+  "prohibitions": [
+    "retraining",
+    "Domain B tuning/threshold/PCC/feature-selection/scaler",
+    "removing hard B samples",
+    "interpolating MO@950 FAILED",
+    "family/X_element/sampling_domain as features",
+    "one-hot element IDs",
+    "CALPHAD/target-derived descriptors",
+    "ANCHOR predictions or metrics",
+    "any Ni operation",
+    "6xLOEO",
+    "targeted/random augmentation"
+  ]
+}

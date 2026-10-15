@@ -1,0 +1,10 @@
+element,tccu6_available,probe_status,compositions,formal_states,computed_states,converged_states,failed_states,not_attempted_states,convergence_rate
+BE,1,AVAILABLE,50,550,550,550,0,0,1.0
+SN,1,AVAILABLE,50,550,550,550,0,0,1.0
+MN,1,AVAILABLE,50,550,550,550,0,0,1.0
+AL,1,AVAILABLE,50,550,550,550,0,0,1.0
+MG,1,AVAILABLE,50,550,550,550,0,0,1.0
+ZN,1,AVAILABLE,50,550,550,550,0,0,1.0
+LA,1,AVAILABLE,50,550,550,550,0,0,1.0
+GE,1,AVAILABLE,50,550,550,550,0,0,1.0
+P,1,AVAILABLE,50,550,550,550,0,0,1.0

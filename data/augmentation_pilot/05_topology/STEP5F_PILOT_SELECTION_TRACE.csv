@@ -1,0 +1,6 @@
+step,element,rule,detail,min_JS
+1,BE,core retention,"Be/Sn/Mn robust core, convergence 1.0000 >= 0.98",
+2,SN,core retention,"Be/Sn/Mn robust core, convergence 1.0000 >= 0.98",
+3,MN,core retention,"Be/Sn/Mn robust core, convergence 1.0000 >= 0.98",
+4,LA,greedy complementarity: new modal topology,modal OTHER_SOLID (NEW to the set); min JS to existing six + already-selected = 0.4237,0.423683
+5,P,greedy complementarity: max-min JS,modal OTHER_SOLID (already represented); min JS to existing six + already-selected = 0.1868,0.186752

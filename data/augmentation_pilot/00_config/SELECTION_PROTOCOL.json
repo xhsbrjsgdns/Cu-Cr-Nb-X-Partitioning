@@ -1,0 +1,35 @@
+{
+  "preregistered_utc": "2026-09-06T05:34:05+00:00",
+  "target_set_size": 5,
+  "min": 4,
+  "max": 6,
+  "criteria": {
+    "A_technical_convergence": "convergence rate >= 0.95, else TECHNICALLY_UNSTABLE",
+    "B_database_phase_mapping_stability": "every raw phase maps into the frozen five families; unmappable or pathological target fraction < 0.20",
+    "C_chemical_topology_complementarity": "greedy max-min Jensen-Shannon distance of the dominant X-partition topology distribution, against the existing six elements AND the already-selected pilot elements",
+    "D_not_all_same_topology": "the selected set must contain at least two distinct modal topologies",
+    "E_not_dominated_by_OTHER_SOLID": "at most floor(n/2) selected elements may be OTHER_DOMINATED",
+    "F_materials_plausibility": "STEP5F-0 plausibility_level is carried through; LOW plausibility cannot be selected",
+    "G_maximize_chemical_identity_diversity": "a candidate that contributes a modal topology NOT already present in the selected set is preferred over one that duplicates an existing modal topology, before the JS ordering is consulted. Without this, a greedy max-min rule can add an element whose topology distribution is identical to one already selected (JS = 0), which adds no chemical identity at all."
+  },
+  "core_retention": {
+    "elements": [
+      "BE",
+      "SN",
+      "MN"
+    ],
+    "rule": "Be / Sn / Mn are seeded FIRST if they are eligible AND convergence >= 0.98. This is a preference, not an absolute requirement (spec 31); a core element that is TECHNICALLY_UNSTABLE is not selected."
+  },
+  "forbidden": [
+    "selection based on Ni similarity, Ni expected phase behaviour or Ni proximity (spec 30)",
+    "treating high topology entropy as automatically better (spec 23)",
+    "auto-excluding a near-degenerate or OTHER-dominated element (spec 25, 26)"
+  ],
+  "tie_break_order": [
+    "contributes a modal topology not yet in the selected set",
+    "larger minimum JS distance to the existing six and the already-selected set",
+    "higher convergence rate",
+    "STEP5F-0 rank",
+    "alphabetical"
+  ]
+}

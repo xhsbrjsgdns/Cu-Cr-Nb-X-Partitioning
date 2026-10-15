@@ -1,0 +1,21 @@
+{
+  "generated_utc": "2026-09-06T05:34:00+00:00",
+  "states": 4950,
+  "converged": 4950,
+  "failed": 0,
+  "partition_definition": "n_i_alpha = phase_moles_alpha * X_i^alpha ; P_i^alpha = n_i_alpha / sum_beta n_i_beta (volume-fraction-based partitioning FORBIDDEN)",
+  "presence_threshold": 0.0001,
+  "five_family_sum_max_dev": 2.220446049250313e-16,
+  "partition_sum_max_dev": {
+    "CR": 2.220446049250313e-16,
+    "NB": 2.220446049250313e-16,
+    "X": 2.220446049250313e-16
+  },
+  "families": [
+    "FCC",
+    "BCC",
+    "C15",
+    "OTHER_SOLID",
+    "LIQUID"
+  ]
+}

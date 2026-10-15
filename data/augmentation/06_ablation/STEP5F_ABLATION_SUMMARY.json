@@ -1,0 +1,154 @@
+{
+  "generated_utc": "2026-09-06T14:26:54+00:00",
+  "configs": [
+    {
+      "config": "BASE_PLUS_BE",
+      "mean_tvd": 0.8356224796,
+      "mean_topo": 0.1192294372,
+      "folds_beat": 1
+    },
+    {
+      "config": "BASE_PLUS_LA",
+      "mean_tvd": 0.799608548,
+      "mean_topo": 0.1538210678,
+      "folds_beat": 2
+    },
+    {
+      "config": "BASE_PLUS_MN",
+      "mean_tvd": 0.6916977106,
+      "mean_topo": 0.3315613276,
+      "folds_beat": 3
+    },
+    {
+      "config": "BASE_PLUS_P",
+      "mean_tvd": 0.8131036585,
+      "mean_topo": 0.1081010101,
+      "folds_beat": 1
+    },
+    {
+      "config": "BASE_PLUS_SN",
+      "mean_tvd": 0.7944813073,
+      "mean_topo": 0.187033189,
+      "folds_beat": 2
+    },
+    {
+      "config": "FULL5",
+      "mean_tvd": 0.7103322148,
+      "mean_topo": 0.3323059163,
+      "folds_beat": 3
+    },
+    {
+      "config": "FULL5_MINUS_BE",
+      "mean_tvd": 0.6601951648,
+      "mean_topo": 0.3686031746,
+      "folds_beat": 3
+    },
+    {
+      "config": "FULL5_MINUS_LA",
+      "mean_tvd": 0.687002944,
+      "mean_topo": 0.2892987013,
+      "folds_beat": 4
+    },
+    {
+      "config": "FULL5_MINUS_MN",
+      "mean_tvd": 0.8185300654,
+      "mean_topo": 0.1185483405,
+      "folds_beat": 1
+    },
+    {
+      "config": "FULL5_MINUS_P",
+      "mean_tvd": 0.7290354463,
+      "mean_topo": 0.2844848485,
+      "folds_beat": 3
+    },
+    {
+      "config": "FULL5_MINUS_SN",
+      "mean_tvd": 0.7445106407,
+      "mean_topo": 0.2526753247,
+      "folds_beat": 4
+    }
+  ],
+  "tree_secondary": [
+    {
+      "fold": "FOLD_ZR",
+      "heldout_element": "ZR",
+      "Z0_mean_tvd": 0.6398134768,
+      "TREE_FULL5_mean_tvd": 0.6979380506,
+      "Z0_topology_accuracy": 0.1995151515,
+      "TREE_FULL5_topology_accuracy": 0.2012467532,
+      "trivial_tvd": 0.6789419831,
+      "Z0_skill_vs_trivial": 0.0391285063,
+      "TREE_FULL5_skill_vs_trivial": -0.0189960675,
+      "same_direction_as_MLP": 0,
+      "train_seconds": 30.6
+    },
+    {
+      "fold": "FOLD_TI",
+      "heldout_element": "TI",
+      "Z0_mean_tvd": 0.826225366,
+      "TREE_FULL5_mean_tvd": 0.8156043617,
+      "Z0_topology_accuracy": 0.1215930736,
+      "TREE_FULL5_topology_accuracy": 0.1506839827,
+      "trivial_tvd": 0.6683901706,
+      "Z0_skill_vs_trivial": -0.1578351954,
+      "TREE_FULL5_skill_vs_trivial": -0.1472141912,
+      "same_direction_as_MLP": 1,
+      "train_seconds": 33.8
+    },
+    {
+      "fold": "FOLD_CO",
+      "heldout_element": "CO",
+      "Z0_mean_tvd": 0.8322313548,
+      "TREE_FULL5_mean_tvd": 0.8265745567,
+      "Z0_topology_accuracy": 0.1127099567,
+      "TREE_FULL5_topology_accuracy": 0.1043290043,
+      "trivial_tvd": 0.6872586483,
+      "Z0_skill_vs_trivial": -0.1449727065,
+      "TREE_FULL5_skill_vs_trivial": -0.1393159084,
+      "same_direction_as_MLP": 0,
+      "train_seconds": 20.3
+    },
+    {
+      "fold": "FOLD_SI",
+      "heldout_element": "SI",
+      "Z0_mean_tvd": 0.9032562945,
+      "TREE_FULL5_mean_tvd": 0.937389888,
+      "Z0_topology_accuracy": 0.0168138528,
+      "TREE_FULL5_topology_accuracy": 0.013974026,
+      "trivial_tvd": 0.8718056318,
+      "Z0_skill_vs_trivial": -0.0314506627,
+      "TREE_FULL5_skill_vs_trivial": -0.0655842562,
+      "same_direction_as_MLP": 1,
+      "train_seconds": 40.7
+    },
+    {
+      "fold": "FOLD_AG",
+      "heldout_element": "AG",
+      "Z0_mean_tvd": 0.9143766061,
+      "TREE_FULL5_mean_tvd": 0.1979795951,
+      "Z0_topology_accuracy": 1.7316e-05,
+      "TREE_FULL5_topology_accuracy": 1.0,
+      "trivial_tvd": 0.7295965206,
+      "Z0_skill_vs_trivial": -0.1847800855,
+      "TREE_FULL5_skill_vs_trivial": 0.5316169255,
+      "same_direction_as_MLP": 1,
+      "train_seconds": 29.4
+    },
+    {
+      "fold": "FOLD_MO",
+      "heldout_element": "MO",
+      "Z0_mean_tvd": 0.9870844574,
+      "TREE_FULL5_mean_tvd": 0.9842354934,
+      "Z0_topology_accuracy": 0.0,
+      "TREE_FULL5_topology_accuracy": 0.0,
+      "trivial_tvd": 0.9653918386,
+      "Z0_skill_vs_trivial": -0.0216926188,
+      "TREE_FULL5_skill_vs_trivial": -0.0188436547,
+      "same_direction_as_MLP": 1,
+      "train_seconds": 23.0
+    }
+  ],
+  "purpose": "A identity-count effect; B LA/P differential-topology contribution; C FCC-like independent value. Diagnosis only - FULL5 stays the production candidate (spec 49, 50)",
+  "mlp_setup_frozen": true,
+  "post_hoc_subset_selection": false
+}

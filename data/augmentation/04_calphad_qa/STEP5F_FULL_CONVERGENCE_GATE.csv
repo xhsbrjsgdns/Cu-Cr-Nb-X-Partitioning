@@ -1,0 +1,6 @@
+element,compositions,formal_states,converged_states,failed_states,convergence_rate,gate_status
+BE,2000,22000,22000,0,1.0,PASS
+LA,2000,22000,22000,0,1.0,PASS
+MN,2000,22000,22000,0,1.0,PASS
+P,2000,22000,22000,0,1.0,PASS
+SN,2000,22000,22000,0,1.0,PASS

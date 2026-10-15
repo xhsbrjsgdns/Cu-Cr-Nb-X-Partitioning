@@ -1,0 +1,281 @@
+{
+  "generated_utc": "2026-09-06T11:01:23+00:00",
+  "protocol": {
+    "batch_size": 1024,
+    "max_epochs": 200,
+    "patience": 15,
+    "learning_rates": [
+      0.0001,
+      0.0003,
+      0.001
+    ],
+    "source": "STEP5D preregistration (models.mlp), unchanged",
+    "protocol_sha256": "3fbff5945a9e87b3921dbce936c3c92446f7ee7c9fcc4020f8e7f5269b0fb5b3"
+  },
+  "folds": [
+    {
+      "fold": "FOLD_ZR",
+      "heldout_identity": "ZR",
+      "train_identities": [
+        "AG",
+        "BE",
+        "CO",
+        "LA",
+        "MN",
+        "MO",
+        "P",
+        "SI",
+        "SN",
+        "TI"
+      ],
+      "new_identities_added": [
+        "BE",
+        "LA",
+        "MN",
+        "P",
+        "SN"
+      ],
+      "val_identities": [
+        "AG",
+        "CO",
+        "MO",
+        "SI",
+        "TI"
+      ],
+      "heldout_target_in_train": 0,
+      "heldout_target_in_validation": 0,
+      "anchor_rows_in_train": 0,
+      "domain_B_rows_in_train": 0,
+      "n_train_rows_original": 201323,
+      "n_train_rows_augmented": 311323,
+      "n_new_rows": 110000,
+      "n_val_rows": 43134,
+      "n_heldout_rows": 57750,
+      "feature_list_source": "STEP5C 03_features/FOLD_ZR_SELECTED_FEATURES.txt",
+      "feature_list_sha256": "356640768b2caaf18fd1d15efa1f2334a7c75a752725cd5919592bf9dc13e932",
+      "freeze_json_sha256": "7436a06e53aa7786b1a49fce31895f3926d6aad8761d9a53454fdf46f97937b1",
+      "chosen_lr": 0.0003,
+      "val_tvd": 0.003370944956980987
+    },
+    {
+      "fold": "FOLD_TI",
+      "heldout_identity": "TI",
+      "train_identities": [
+        "AG",
+        "BE",
+        "CO",
+        "LA",
+        "MN",
+        "MO",
+        "P",
+        "SI",
+        "SN",
+        "ZR"
+      ],
+      "new_identities_added": [
+        "BE",
+        "LA",
+        "MN",
+        "P",
+        "SN"
+      ],
+      "val_identities": [
+        "AG",
+        "CO",
+        "MO",
+        "SI",
+        "ZR"
+      ],
+      "heldout_target_in_train": 0,
+      "heldout_target_in_validation": 0,
+      "anchor_rows_in_train": 0,
+      "domain_B_rows_in_train": 0,
+      "n_train_rows_original": 201323,
+      "n_train_rows_augmented": 311323,
+      "n_new_rows": 110000,
+      "n_val_rows": 43145,
+      "n_heldout_rows": 57750,
+      "feature_list_source": "STEP5C 03_features/FOLD_TI_SELECTED_FEATURES.txt",
+      "feature_list_sha256": "6b3b024f658f2cb9e2870da04880232f1a6846cfd1cf1f42855c22e7ee278e60",
+      "freeze_json_sha256": "690eb7fb932d06258c7476bfe58d6b6478aeacbe0a81c8a65c7f4ed66ff106dc",
+      "chosen_lr": 0.0003,
+      "val_tvd": 0.004281518154518891
+    },
+    {
+      "fold": "FOLD_CO",
+      "heldout_identity": "CO",
+      "train_identities": [
+        "AG",
+        "BE",
+        "LA",
+        "MN",
+        "MO",
+        "P",
+        "SI",
+        "SN",
+        "TI",
+        "ZR"
+      ],
+      "new_identities_added": [
+        "BE",
+        "LA",
+        "MN",
+        "P",
+        "SN"
+      ],
+      "val_identities": [
+        "AG",
+        "MO",
+        "SI",
+        "TI",
+        "ZR"
+      ],
+      "heldout_target_in_train": 0,
+      "heldout_target_in_validation": 0,
+      "anchor_rows_in_train": 0,
+      "domain_B_rows_in_train": 0,
+      "n_train_rows_original": 201323,
+      "n_train_rows_augmented": 311323,
+      "n_new_rows": 110000,
+      "n_val_rows": 43134,
+      "n_heldout_rows": 57750,
+      "feature_list_source": "STEP5C 03_features/FOLD_CO_SELECTED_FEATURES.txt",
+      "feature_list_sha256": "d4c6a90efc3471edeacda656ba13689e8e662bfd455fadf4cb9cb2d766d7b471",
+      "freeze_json_sha256": "a79756d7895c13508d41dfce1856ac3b3e256ebecd087170b5c64165a266d09e",
+      "chosen_lr": 0.0003,
+      "val_tvd": 0.004491363375261451
+    },
+    {
+      "fold": "FOLD_SI",
+      "heldout_identity": "SI",
+      "train_identities": [
+        "AG",
+        "BE",
+        "CO",
+        "LA",
+        "MN",
+        "MO",
+        "P",
+        "SN",
+        "TI",
+        "ZR"
+      ],
+      "new_identities_added": [
+        "BE",
+        "LA",
+        "MN",
+        "P",
+        "SN"
+      ],
+      "val_identities": [
+        "AG",
+        "CO",
+        "MO",
+        "TI",
+        "ZR"
+      ],
+      "heldout_target_in_train": 0,
+      "heldout_target_in_validation": 0,
+      "anchor_rows_in_train": 0,
+      "domain_B_rows_in_train": 0,
+      "n_train_rows_original": 201323,
+      "n_train_rows_augmented": 311323,
+      "n_new_rows": 110000,
+      "n_val_rows": 43145,
+      "n_heldout_rows": 57750,
+      "feature_list_source": "STEP5C 03_features/FOLD_SI_SELECTED_FEATURES.txt",
+      "feature_list_sha256": "265e4f3efed05c89559f3f0937bb6ef902a4818265cccfb71d1a3d69a718d5f3",
+      "freeze_json_sha256": "ef5797650bff04fee6d45ba4ef1445e710baeaf01f344f987c5d23d967283493",
+      "chosen_lr": 0.0001,
+      "val_tvd": 0.0032412237124372603
+    },
+    {
+      "fold": "FOLD_AG",
+      "heldout_identity": "AG",
+      "train_identities": [
+        "BE",
+        "CO",
+        "LA",
+        "MN",
+        "MO",
+        "P",
+        "SI",
+        "SN",
+        "TI",
+        "ZR"
+      ],
+      "new_identities_added": [
+        "BE",
+        "LA",
+        "MN",
+        "P",
+        "SN"
+      ],
+      "val_identities": [
+        "CO",
+        "MO",
+        "SI",
+        "TI",
+        "ZR"
+      ],
+      "heldout_target_in_train": 0,
+      "heldout_target_in_validation": 0,
+      "anchor_rows_in_train": 0,
+      "domain_B_rows_in_train": 0,
+      "n_train_rows_original": 201323,
+      "n_train_rows_augmented": 311323,
+      "n_new_rows": 110000,
+      "n_val_rows": 43134,
+      "n_heldout_rows": 57750,
+      "feature_list_source": "STEP5C 03_features/FOLD_AG_SELECTED_FEATURES.txt",
+      "feature_list_sha256": "36934d3159ba4fa4ebce89f9757696d0d180cbb8832cde41e9d43ac04fefc4ef",
+      "freeze_json_sha256": "a0f4e519a1b51df63168709229860f8ae64e692a3d2147b9b93b755791505a68",
+      "chosen_lr": 0.0003,
+      "val_tvd": 0.005083914579840755
+    },
+    {
+      "fold": "FOLD_MO",
+      "heldout_identity": "MO",
+      "train_identities": [
+        "AG",
+        "BE",
+        "CO",
+        "LA",
+        "MN",
+        "P",
+        "SI",
+        "SN",
+        "TI",
+        "ZR"
+      ],
+      "new_identities_added": [
+        "BE",
+        "LA",
+        "MN",
+        "P",
+        "SN"
+      ],
+      "val_identities": [
+        "AG",
+        "CO",
+        "SI",
+        "TI",
+        "ZR"
+      ],
+      "heldout_target_in_train": 0,
+      "heldout_target_in_validation": 0,
+      "anchor_rows_in_train": 0,
+      "domain_B_rows_in_train": 0,
+      "n_train_rows_original": 202125,
+      "n_train_rows_augmented": 312125,
+      "n_new_rows": 110000,
+      "n_val_rows": 43318,
+      "n_heldout_rows": 56596,
+      "feature_list_source": "STEP5C 03_features/FOLD_MO_SELECTED_FEATURES.txt",
+      "feature_list_sha256": "7ff590f2cf0066d4e2fa0c5bb071afb2c6919c93f4fadb77802a162d9291c976",
+      "freeze_json_sha256": "81f8c0e0c0be428df54d1614f85ad5b9711306105991fcee15cc9bbf31bb25d6",
+      "chosen_lr": 0.001,
+      "val_tvd": 0.0041052649973644375
+    }
+  ]
+}
