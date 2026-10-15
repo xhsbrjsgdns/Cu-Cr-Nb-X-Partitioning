@@ -1,0 +1,31 @@
+{
+  "generated_utc": "2026-09-07T11:12:36+00:00",
+  "n_papers": 20,
+  "n_validation_rows": 21,
+  "n_papers_with_a_usable_comparison": 4,
+  "verdict_counts": {
+    "NOT_DIRECTLY_COMPARABLE": 16,
+    "QUALITATIVELY_CONSISTENT": 3,
+    "REASONABLE_EQUILIBRIUM_VS_NON_EQUILIBRIUM_DISCREPANCY": 2
+  },
+  "n_dois_independently_reverified": 20,
+  "n_titles_matching_crossref": 20,
+  "n_literature_compositions_inside_FULL_V1_domain_A": 0,
+  "observed_calphad_phase_bases": [
+    "BCC_B2",
+    "C15_LAVES",
+    "FCC_L12",
+    "LIQUID",
+    "ZRM5_C15B"
+  ],
+  "calphad_is_not_treated_as_ground_truth": true,
+  "ml_predictions_made_for_literature_compositions": 0,
+  "any_literature_state_used_to_retrain_reselect_or_reinterpret": false,
+  "verdict_vocabulary": [
+    "QUALITATIVELY_CONSISTENT",
+    "PARTIALLY_CONSISTENT",
+    "REASONABLE_EQUILIBRIUM_VS_NON_EQUILIBRIUM_DISCREPANCY",
+    "NOT_REPRODUCED_BY_EQUILIBRIUM_CALCULATION",
+    "NOT_DIRECTLY_COMPARABLE"
+  ]
+}

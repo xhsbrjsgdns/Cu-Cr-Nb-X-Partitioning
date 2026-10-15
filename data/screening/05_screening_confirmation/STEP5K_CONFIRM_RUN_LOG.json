@@ -1,0 +1,35 @@
+{
+  "generated_utc": "2026-09-07T14:14:36+00:00",
+  "stage": "STEP5K Part B Stage 4 - post-freeze non-Ni screening confirmation",
+  "engine": "Thermo-Calc TCCU6, frozen FULL_V1 dry_run_lib + solver_escalation imported by path from E:\\Cu_CALPHAD_ML\\03_full_CALPHAD\\FULL_V1\\code_snapshot",
+  "conditions": {
+    "P_Pa": 100000.0,
+    "N_mol": 1.0,
+    "basis": "wt.%, Cu balance",
+    "database": "TCCU6"
+  },
+  "temperatures_C": [
+    450,
+    600,
+    950,
+    1000
+  ],
+  "n_finalists": 22,
+  "n_states": 88,
+  "n_converged": 88,
+  "n_failed": 0,
+  "identities": [
+    "AG",
+    "CO",
+    "MO",
+    "SI",
+    "TI",
+    "ZR"
+  ],
+  "ni_states_run": 0,
+  "failed_states_are_kept_not_deleted_or_interpolated": true,
+  "partition_formula": "n_i_alpha = phase_moles * X_i_alpha ; P_i_family = sum_family n / sum_all n (mole based; volume-fraction partitioning is forbidden)",
+  "used_to_retrain_or_retune_anything": false,
+  "wall_clock_seconds": 62.9,
+  "protected_artifacts_unchanged": true
+}

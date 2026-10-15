@@ -1,0 +1,90 @@
+{
+  "generated_utc": "2026-09-07T14:35:50.413651+00:00",
+  "checks": [
+    {
+      "check": "Historical source hashes unchanged",
+      "status": "PASS",
+      "detail": {
+        "files": 432,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "Screening confirmation convergence",
+      "status": "PASS",
+      "detail": "88 unique states (22 finalists x 4 temperatures)"
+    },
+    {
+      "check": "External calculation convergence",
+      "status": "PASS",
+      "detail": "88 unique states; 22 excluded sensitivity states remain preserved"
+    },
+    {
+      "check": "No Ni in new calculations",
+      "status": "PASS",
+      "detail": "Screening and external raw state identifiers checked"
+    },
+    {
+      "check": "Screening inventory",
+      "status": "PASS",
+      "detail": "120000 unique compositions; Pareto table contains the 52944 applicable compositions only"
+    },
+    {
+      "check": "Frozen finalists",
+      "status": "PASS",
+      "detail": "All 22 preregistered family-fair finalists match the confirmed states"
+    },
+    {
+      "check": "Four confirmation temperatures",
+      "status": "PASS",
+      "detail": "Every selected composition confirmed at all four temperatures"
+    },
+    {
+      "check": "Full applicable-set dominance check",
+      "status": "PASS",
+      "detail": "Each reported global-front candidate independently checked against all 52944 applicable candidates"
+    },
+    {
+      "check": "Pareto rules hash",
+      "status": "PASS",
+      "detail": "Frozen rules match actual Pareto record"
+    },
+    {
+      "check": "fraction independent metric recomputation",
+      "status": "PASS",
+      "detail": "Finite normalized five-family outputs; MAE and TVD match delivery"
+    },
+    {
+      "check": "Cr independent metric recomputation",
+      "status": "PASS",
+      "detail": "Finite normalized five-family outputs; MAE and TVD match delivery"
+    },
+    {
+      "check": "Nb independent metric recomputation",
+      "status": "PASS",
+      "detail": "Finite normalized five-family outputs; MAE and TVD match delivery"
+    },
+    {
+      "check": "X independent metric recomputation",
+      "status": "PASS",
+      "detail": "Finite normalized five-family outputs; MAE and TVD match delivery"
+    },
+    {
+      "check": "Literature breadth",
+      "status": "LIMITATION",
+      "detail": "20 primary papers retrieved, all 20 DOIs re-verified via CrossRef; 21 validation rows built but only 4 papers state a composition/condition comparable to an equilibrium calculation, so P26 remains PARTIAL by honest counting."
+    },
+    {
+      "check": "Original plan source",
+      "status": "PASS",
+      "detail": "Original DOCX located at D:/EDGDownload/ (sha256 d5de679d1b6f5ad9...); full text and 42 tables extracted to 00_config/V1_PLAN_EXTRACTED_TEXT.txt for the audit."
+    },
+    {
+      "check": "Family diversity",
+      "status": "PASS",
+      "detail": "Per-family finalist counts {'ZR': 5, 'SI': 5, 'CO': 3, 'AG': 3, 'MO': 3, 'TI': 3}; every family has at least 3 as preregistered. Families whose own Pareto front had fewer than 3 members were extended with their next family_pareto_rank values per the dated amendment in the rules freeze; the Zr-only global front is reported as-is."
+    }
+  ],
+  "execution_checks_pass": true,
+  "research_gaps_fully_closed": false
+}

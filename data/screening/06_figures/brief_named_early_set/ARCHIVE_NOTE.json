@@ -1,0 +1,70 @@
+{
+  "archived_utc": "2026-09-07T14:17:43+00:00",
+  "reason": "early-draft figure set found beside the final 138 output set; archived (NOT deleted) so the final set is unambiguous",
+  "moved": [
+    {
+      "file": "Fig_K_05_C15_tradeoff.png",
+      "sha256_before_move": "ca9c09db14767c18163af1ead76340c52b5f86a38412424dd99ee8d210b79b0e"
+    },
+    {
+      "file": "Fig_K_05_C15_tradeoff.pdf",
+      "sha256_before_move": "28525b2bc35e5785c9d3471354499f6fe6e2e072ac057e4879a587746de83559"
+    },
+    {
+      "file": "Fig_K_08_candidate_topology_heatmap.png",
+      "sha256_before_move": "c3e8bec4c7a65bf835efd1884aa38cabac528eb37502bb78a0f4c86c25571e47"
+    },
+    {
+      "file": "Fig_K_08_candidate_topology_heatmap.pdf",
+      "sha256_before_move": "853b190905c735c6c01ee5e002d9d59dd9222d132b4f1fc987730c5224bb4a46"
+    },
+    {
+      "file": "Fig_K_06_finalist_composition_map.png",
+      "sha256_before_move": "6c541b82a7f34ce19151be43069c950dc4ae368b88b76c981d75e56baf482d96"
+    },
+    {
+      "file": "Fig_K_06_finalist_composition_map.pdf",
+      "sha256_before_move": "722558b42f02e76ca213e6f980d0a7ff3c81d6cfd32b5118445240e62c538d19"
+    },
+    {
+      "file": "Fig_K_03_family_specific_pareto.png",
+      "sha256_before_move": "a0ed47e2a5735cae1ba1b56fc77c74b0ca039f29df33f2617f3b58afc8132c68"
+    },
+    {
+      "file": "Fig_K_03_family_specific_pareto.pdf",
+      "sha256_before_move": "841396da9543d1503d07c73fbab14767c6653f273f835048aafd6d570e60193b"
+    },
+    {
+      "file": "Fig_K_02_global_pareto_front.png",
+      "sha256_before_move": "bf054101c8b78954b27ebbeb0dbbea7fd71fdb79119b5fee84e3d61a437ff9a0"
+    },
+    {
+      "file": "Fig_K_02_global_pareto_front.pdf",
+      "sha256_before_move": "1534d70283859766e5466dd200b3c8855154fccc414a96ef73c63a5127e94350"
+    },
+    {
+      "file": "Fig_K_07_ML_vs_CALPHAD_confirmation.png",
+      "sha256_before_move": "a92a89a550abc9e6f24b32f92ab8974ceed0d1520665cc98ea53a887212b6f18"
+    },
+    {
+      "file": "Fig_K_07_ML_vs_CALPHAD_confirmation.pdf",
+      "sha256_before_move": "b31cf72f7a98ae8ef3df55c632991ef3adaf3bf357818362fb923bd9f55a32ae"
+    },
+    {
+      "file": "Fig_K_01_virtual_screening_space.png",
+      "sha256_before_move": "0eaaa33f77b22ec23564b4e9fef8f9868b229f120779c3c8e889fb9f88853a5a"
+    },
+    {
+      "file": "Fig_K_01_virtual_screening_space.pdf",
+      "sha256_before_move": "e7930d9b2e97867a18bc78fbc58c27e3714974e28b62ed130fc331cb3718fdd1"
+    },
+    {
+      "file": "Fig_K_04_Cr_retention_vs_release.png",
+      "sha256_before_move": "13cc24242ef9f4a226ff2903505b5c446b3711c7bb8b1f53a24f97f43f7bb68b"
+    },
+    {
+      "file": "Fig_K_04_Cr_retention_vs_release.pdf",
+      "sha256_before_move": "d0102b2359616b6d857a86c91c5730e86b42efb148e3f1dcd24aaa3cb01b2a96"
+    }
+  ]
+}

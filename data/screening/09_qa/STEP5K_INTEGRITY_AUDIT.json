@@ -1,0 +1,166 @@
+{
+  "generated_utc": "2026-09-07T14:17:58+00:00",
+  "n_items": 26,
+  "n_pass": 26,
+  "n_fail": 0,
+  "verdict": "PASS",
+  "failures": [],
+  "items": [
+    {
+      "item": 1,
+      "title": "all 13 STEP5K directories exist",
+      "result": "PASS",
+      "detail": "13/13"
+    },
+    {
+      "item": 2,
+      "title": "every required STEP5K artifact exists",
+      "result": "PASS",
+      "detail": "23 required artifacts present"
+    },
+    {
+      "item": 3,
+      "title": "frozen Ni blind artifacts byte-identical",
+      "result": "PASS",
+      "detail": "frozen Ni blind artifacts unchanged"
+    },
+    {
+      "item": 4,
+      "title": "no unexplained Ni token in any STEP5K output",
+      "result": "PASS",
+      "detail": "clean"
+    },
+    {
+      "item": 5,
+      "title": "screening space contains only the six developed identities",
+      "result": "PASS",
+      "detail": "identities ['AG', 'CO', 'MO', 'SI', 'TI', 'ZR']"
+    },
+    {
+      "item": 6,
+      "title": "confirmation ran zero Ni states",
+      "result": "PASS",
+      "detail": "ni_states_run = 0"
+    },
+    {
+      "item": 7,
+      "title": "external CALPHAD ran zero Ni states",
+      "result": "PASS",
+      "detail": "ni_states_run = 0"
+    },
+    {
+      "item": 8,
+      "title": "screening rules frozen before any prediction",
+      "result": "PASS",
+      "detail": "flag true"
+    },
+    {
+      "item": 9,
+      "title": "the ranking used the rules file that is on disk now",
+      "result": "PASS",
+      "detail": "ranked against rules da411ebce48f7c57"
+    },
+    {
+      "item": 10,
+      "title": "moderate C15 band derived from training data, pre-ranking",
+      "result": "PASS",
+      "detail": "[0.00696318016, 0.0125578841] from 69951 training states"
+    },
+    {
+      "item": 11,
+      "title": "no weighted score anywhere in the ranking",
+      "result": "PASS",
+      "detail": "no score/weight column; flag true"
+    },
+    {
+      "item": 12,
+      "title": "non-dominated sort verified against brute force",
+      "result": "PASS",
+      "detail": "front 2 == brute force 2 on 1500 sampled"
+    },
+    {
+      "item": 13,
+      "title": "family fairness: no identity fills the finalist list",
+      "result": "PASS",
+      "detail": "per family {'ZR': 5, 'TI': 3, 'CO': 3, 'SI': 5, 'AG': 3, 'MO': 3}, total 22"
+    },
+    {
+      "item": 14,
+      "title": "confirmation stayed inside the frozen state budget",
+      "result": "PASS",
+      "detail": "88 states for 22 finalists (caps 120 / 30)"
+    },
+    {
+      "item": 15,
+      "title": "every DOI independently re-verified against Crossref",
+      "result": "PASS",
+      "detail": "20/20 resolved"
+    },
+    {
+      "item": 16,
+      "title": "every title matches the registered Crossref record",
+      "result": "PASS",
+      "detail": "20/20 titles, 20/20 journals, 20/20 years"
+    },
+    {
+      "item": 17,
+      "title": "no invented composition: each traces to a literature record",
+      "result": "PASS",
+      "detail": "8 compositions, all traced to a LIT_ record"
+    },
+    {
+      "item": 18,
+      "title": "compositions that could not be pinned down are excluded, with reason",
+      "result": "PASS",
+      "detail": "exclusions documented"
+    },
+    {
+      "item": 19,
+      "title": "verdicts drawn only from the closed vocabulary",
+      "result": "PASS",
+      "detail": "verdicts ['NOT_DIRECTLY_COMPARABLE', 'QUALITATIVELY_CONSISTENT', 'REASONABLE_EQUILIBRIUM_VS_NON_EQUILIBRIUM_DISCREPANCY']"
+    },
+    {
+      "item": 20,
+      "title": "no forbidden claim phrase outside a marked disclaimer",
+      "result": "PASS",
+      "detail": "clean outside disclaimer and declaration contexts"
+    },
+    {
+      "item": 21,
+      "title": "the confirmation result is labelled selected and non-blind",
+      "result": "PASS",
+      "detail": "all three caveats present"
+    },
+    {
+      "item": 22,
+      "title": "nothing computed in STEP5K fed back into any model",
+      "result": "PASS",
+      "detail": "all four no-feedback flags are false"
+    },
+    {
+      "item": 23,
+      "title": "failed CALPHAD states kept, not deleted or interpolated",
+      "result": "PASS",
+      "detail": "confirm 88/88 rows, extval 88/88 rows - failures kept"
+    },
+    {
+      "item": 24,
+      "title": "partitioning recorded as mole based, not volume based",
+      "result": "PASS",
+      "detail": "n_i = phase_moles * X_i"
+    },
+    {
+      "item": 25,
+      "title": "plan audit did not rewrite history; both formulas stated",
+      "result": "PASS",
+      "detail": "37 rows | P24 COMPLETED_WITH_REVISED_PROTOCOL | P14 PARTIAL | literal 35.1% | scientific 90.5%"
+    },
+    {
+      "item": 26,
+      "title": "eight figures, each regenerable from its SOURCE csv",
+      "result": "PASS",
+      "detail": "8 figures, 8 with SOURCE csv"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+Supplementary Material. Six sections document reference-space construction, descriptors and model protocols, chemical-identity diagnostics, Ni evaluation and recovery, literature consistency, and screening and confirmation.
+
+Supplementary Data Dictionary. Population, precision, missing-value and field definitions for the thirty-one machine-readable data files.
+
+Supplementary_Data_S1.csv. Reference-space counts by identity, sampling domain and temperature. 231 rows. New descriptive count; all failed rows retained.
+
+Supplementary_Data_S2.csv. Observed raw phase instances and family mapping. 12 rows. Frozen phase inventory, including all observed Other solid types.
+
+Supplementary_Data_S3.csv. Traceable phase-instance partition calculation. 12 rows. New worked example from one actual Zr state. Family amounts repeat per instance; do not sum the repeated family field.
+
+Supplementary_Data_S4.csv. Complete candidate-feature dictionary, selection decisions and fold membership. 193 rows. Frozen decisions joined by exact feature name; no rerun of selection. Priority ranks reproduced from constant-list and pure name-key expressions only; no feature filtering rerun.
+
+Supplementary_Data_S5.csv. Reference compositions and fixed data partitions. 50,000 rows. Frozen composition values and split assignments; X-free missing fields remain NA.
+
+Supplementary_Data_S6.csv. IID task, family and temperature metrics. 137 rows. Union of frozen metric tables; NA denotes fields not applicable to a source row.
+
+Supplementary_Data_S7.csv. Task-specific LOEO metrics. 516 rows. Distinct protocol from historical direct MLP and oracle.
+
+Supplementary_Data_S8.csv. Complete-vector sums of squares and element-identity association. 8 rows. Source-backed existing full-precision recomputation, checked again for decomposition identity; no componentwise eta-squared averaging.
+
+Supplementary_Data_S9.csv. Topology-conditioned counts and TVD error mass. 11 rows. Pooled share is sum of wrong-state TVD divided by sum of all-state TVD; macro is mean of six element shares.
+
+Supplementary_Data_S10.csv. Reference-topology oracle results. 6 rows. Frozen affinity-augmented conditional regressor; not a routing-only ablation of the historical MLP.
+
+Supplementary_Data_S11.csv. Ni compositions and frozen partition membership. 2,000 rows. All 2000 Ni composition rows retained.
+
+Supplementary_Data_S12.csv. Three ordered Ni anchor sequences. 96 rows. Nested prefixes of 1, 2, 4, 8, 16 and 32 compositions; each composition supplies 11 states.
+
+Supplementary_Data_S13.csv. All frozen random-sequence post-blind recovery results. 72 rows. Original per-sequence metrics; model roles retained.
+
+Supplementary_Data_S14.csv. Post-blind recovery descriptive means and standard deviations. 24 rows. New descriptive summary; sample standard deviation ddof=1 over three anchor sequences, not a bootstrap interval.
+
+Supplementary_Data_S15.csv. Recovery metrics stratified by reference topology. 288 rows. Frozen descriptive strata; no new experiment.
+
+Supplementary_Data_S16.csv. Recovery metrics stratified by temperature regime. 288 rows. Frozen descriptive strata; no new experiment.
+
+Supplementary_Data_S17.csv. All archived literature conditions. 149 rows. Frozen records retained; missing values remain NA; populations must not be conflated.
+
+Supplementary_Data_S18.csv. Frozen literature-condition inclusion decisions. 149 rows. Frozen records retained; missing values remain NA; populations must not be conflated.
+
+Supplementary_Data_S19.csv. Archived composition conversions. 149 rows. Frozen records retained; missing values remain NA; populations must not be conflated.
+
+Supplementary_Data_S20.csv. Condition-level phase comparison and grades. 149 rows. Frozen records retained; missing values remain NA; populations must not be conflated.
+
+Supplementary_Data_S21.csv. Matched phase-instance compositions and errors. 346 rows. Frozen records retained; missing values remain NA; populations must not be conflated.
+
+Supplementary_Data_S22.csv. All candidate compositions, source objectives and applicability checks. 120,000 rows. New read-only composition-level evaluation of frozen rules; all nonpassing candidates retained; no Pareto recomputation. Saved global, within-family and diversity ranks are joined by candidate_id; nonapplicable rows have NA ranks.
+
+Supplementary_Data_S23.csv. Stable Table 3 finalist identifiers. 5 rows. Existing verified mapping; labels are not assigned by CSV row order.
+
+Supplementary_Data_S24.csv. Twenty global-finalist confirmation states. 20 rows. Main-figure frozen population selected by stable candidate IDs; distinct from the later 88-state expanded confirmation file.
+
+Supplementary_Data_S25.csv. Finalist confirmation component pairs used in main Fig.9. 400 rows. Surrogate and thermodynamic reference columns remain distinct; no rank-robustness claim.
+
+Supplementary_Data_S26.csv. Frozen model configurations by protocol and fold. 2,331 rows. Saved configurations plus explicitly labeled defaults inspected in matching PyTorch 2.12.0+cu132 source; no absent defaults are guessed.
+
+Supplementary_Data_S27.csv. Literature source bibliography and source identifiers. 6 rows. Original experimental publications; no licensed full texts included.
+
+Supplementary_Data_S28.csv. All matched experimental and calculated elemental composition pairs. 744 rows. New expansion of frozen serialized dictionaries at their stored precision; historical full-precision instance MAE is retained in Data S21.
+
+Supplementary_Data_S29.csv. Finalist screening and direct-confirmation objectives. 5 rows. New stable-ID join; raw screening and confirmed objective fields kept separately; ranking is not recomputed.
+
+Supplementary_Data_S30.csv. Elemental descriptor provenance. 13 rows. Frozen source table; user authorized disclosure of verified software and database identifiers.
+
+Supplementary_Data_S31.csv. Development-element descriptor values: Cu, Cr, Nb and six X identities. 9 rows. Frozen source table; user authorized disclosure of verified software and database identifiers.

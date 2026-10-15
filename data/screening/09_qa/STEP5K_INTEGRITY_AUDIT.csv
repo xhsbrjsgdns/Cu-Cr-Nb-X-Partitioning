@@ -1,0 +1,27 @@
+item,title,result,detail
+1,all 13 STEP5K directories exist,PASS,13/13
+2,every required STEP5K artifact exists,PASS,23 required artifacts present
+3,frozen Ni blind artifacts byte-identical,PASS,frozen Ni blind artifacts unchanged
+4,no unexplained Ni token in any STEP5K output,PASS,clean
+5,screening space contains only the six developed identities,PASS,"identities ['AG', 'CO', 'MO', 'SI', 'TI', 'ZR']"
+6,confirmation ran zero Ni states,PASS,ni_states_run = 0
+7,external CALPHAD ran zero Ni states,PASS,ni_states_run = 0
+8,screening rules frozen before any prediction,PASS,flag true
+9,the ranking used the rules file that is on disk now,PASS,ranked against rules da411ebce48f7c57
+10,"moderate C15 band derived from training data, pre-ranking",PASS,"[0.00696318016, 0.0125578841] from 69951 training states"
+11,no weighted score anywhere in the ranking,PASS,no score/weight column; flag true
+12,non-dominated sort verified against brute force,PASS,front 2 == brute force 2 on 1500 sampled
+13,family fairness: no identity fills the finalist list,PASS,"per family {'ZR': 5, 'TI': 3, 'CO': 3, 'SI': 5, 'AG': 3, 'MO': 3}, total 22"
+14,confirmation stayed inside the frozen state budget,PASS,88 states for 22 finalists (caps 120 / 30)
+15,every DOI independently re-verified against Crossref,PASS,20/20 resolved
+16,every title matches the registered Crossref record,PASS,"20/20 titles, 20/20 journals, 20/20 years"
+17,no invented composition: each traces to a literature record,PASS,"8 compositions, all traced to a LIT_ record"
+18,"compositions that could not be pinned down are excluded, with reason",PASS,exclusions documented
+19,verdicts drawn only from the closed vocabulary,PASS,"verdicts ['NOT_DIRECTLY_COMPARABLE', 'QUALITATIVELY_CONSISTENT', 'REASONABLE_EQUILIBRIUM_VS_NON_EQUILIBRIUM_DISCREPANCY']"
+20,no forbidden claim phrase outside a marked disclaimer,PASS,clean outside disclaimer and declaration contexts
+21,the confirmation result is labelled selected and non-blind,PASS,all three caveats present
+22,nothing computed in STEP5K fed back into any model,PASS,all four no-feedback flags are false
+23,"failed CALPHAD states kept, not deleted or interpolated",PASS,"confirm 88/88 rows, extval 88/88 rows - failures kept"
+24,"partitioning recorded as mole based, not volume based",PASS,n_i = phase_moles * X_i
+25,plan audit did not rewrite history; both formulas stated,PASS,37 rows | P24 COMPLETED_WITH_REVISED_PROTOCOL | P14 PARTIAL | literal 35.1% | scientific 90.5%
+26,"eight figures, each regenerable from its SOURCE csv",PASS,"8 figures, 8 with SOURCE csv"

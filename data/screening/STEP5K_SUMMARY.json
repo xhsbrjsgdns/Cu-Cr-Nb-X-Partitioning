@@ -1,0 +1,103 @@
+{
+  "execution": "COMPLETE",
+  "review_status": "READY WITH EVIDENCE LIMITATIONS",
+  "part_A": {
+    "retrieved_papers": 20,
+    "usable_papers": 4,
+    "directly_comparable": 1,
+    "qualitatively_comparable": 3,
+    "not_directly_comparable": 16,
+    "agreement_counts": {
+      "NOT_COMPARABLE": 16,
+      "PARTIALLY_CONSISTENT": 4
+    },
+    "calculated_states": 88,
+    "source_supported_states": 66,
+    "excluded_sensitivity_states": 22,
+    "target_10_to_20_usable_met": false,
+    "target_12_usable_met": false,
+    "no_ML_validation_claim": true
+  },
+  "part_B": {
+    "compositions": 120000,
+    "states": 480000,
+    "applicable": 52944,
+    "global_front": 5,
+    "finalists": 22,
+    "finalist_families": {
+      "ZR": 5,
+      "TI": 3,
+      "CO": 3,
+      "SI": 5,
+      "AG": 3,
+      "MO": 3
+    },
+    "confirmed_states": 88,
+    "metrics": [
+      {
+        "task": "fraction",
+        "n_states": 88,
+        "MAE": 4.003210850653563e-05,
+        "mean_TVD": 0.00010008027126633908,
+        "topology_agreement": 1.0
+      },
+      {
+        "task": "Cr",
+        "n_states": 88,
+        "MAE": 0.0022008876285041184,
+        "mean_TVD": 0.005502219071260296,
+        "topology_agreement": 1.0
+      },
+      {
+        "task": "Nb",
+        "n_states": 88,
+        "MAE": 0.001637915196383601,
+        "mean_TVD": 0.004094787990959001,
+        "topology_agreement": 1.0
+      },
+      {
+        "task": "X",
+        "n_states": 88,
+        "MAE": 0.001922796390446076,
+        "mean_TVD": 0.004806990976115189,
+        "topology_agreement": 1.0
+      }
+    ],
+    "presence_classifier": {
+      "exact_pattern_agreement": 0.9659090909090909,
+      "label_agreement": 0.9931818181818182,
+      "thresholds": {
+        "FCC": 0.5,
+        "BCC": 0.37,
+        "C15": 0.5,
+        "OTHER_SOLID": 0.32,
+        "LIQUID": 0.42
+      }
+    }
+  },
+  "part_C": {
+    "n_items": 37,
+    "completed": 13,
+    "revised_protocol": 17,
+    "superseded": 1,
+    "partial": 5,
+    "not_done": 1,
+    "omitted": 0,
+    "scientific_core_completion_percent": 90.54054054054055,
+    "literal_plan_completion_percent": 35.13513513513514,
+    "formulas": {
+      "scientific": "sum(status weights)/37*100; completed/revised/superseded=1, partial=.5, others=0; administrative proxy, not a quality score",
+      "literal": "COMPLETED and literal_match YES /37*100; strict exact-match rate",
+      "weights": {
+        "COMPLETED": 1,
+        "COMPLETED_WITH_REVISED_PROTOCOL": 1,
+        "SUPERSEDED_BY_STRONGER_DESIGN": 1,
+        "PARTIAL": 0.5,
+        "NOT_DONE": 0,
+        "OMITTED_BY_DESIGN": 0
+      }
+    },
+    "source_limitation": "Uses supplied V1_PLAN_EXTRACTED_TEXT.txt; original .docx not located on this machine in workspace, Desktop/Documents/Downloads or task attachments; extraction fidelity not independently certified."
+  },
+  "next_stage_executed": false
+}

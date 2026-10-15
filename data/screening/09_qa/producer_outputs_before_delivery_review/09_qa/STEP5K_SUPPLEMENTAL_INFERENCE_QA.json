@@ -1,0 +1,20 @@
+{
+  "models": {
+    "nb_partition": "4dfbb6dd816090fa39e50ad5b8d3ca57cce196d22e96d84607f81afe1c051b9a",
+    "presence": "5fd19bfabffa2118a6cfefadf2282693ae73b4834a103f26409460d6738b750e"
+  },
+  "inference_states": 20,
+  "new_fit_calls": 0,
+  "ni_inference_states": 0,
+  "presence": {
+    "exact_pattern_agreement": 0.95,
+    "label_agreement": 0.99,
+    "thresholds": {
+      "FCC": 0.5,
+      "BCC": 0.37,
+      "C15": 0.5,
+      "OTHER_SOLID": 0.32,
+      "LIQUID": 0.42
+    }
+  }
+}

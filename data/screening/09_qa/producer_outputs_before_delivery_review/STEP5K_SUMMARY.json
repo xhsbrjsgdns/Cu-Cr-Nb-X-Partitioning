@@ -1,0 +1,63 @@
+{
+  "generated_utc": "2026-09-07T11:12:43+00:00",
+  "decision": "STEP5K COMPLETE - EVIDENCE PACKAGE READY FOR REVIEW",
+  "integrity_audit": {
+    "verdict": "PASS",
+    "n_pass": 26,
+    "n_fail": 0,
+    "n_items": 26
+  },
+  "part_A_external_validation": {
+    "n_papers": 20,
+    "n_validation_rows": 21,
+    "verdict_counts": {
+      "NOT_DIRECTLY_COMPARABLE": 16,
+      "QUALITATIVELY_CONSISTENT": 3,
+      "REASONABLE_EQUILIBRIUM_VS_NON_EQUILIBRIUM_DISCREPANCY": 2
+    },
+    "n_dois_reverified": 20,
+    "n_literature_compositions_inside_domain_A": 0,
+    "n_postfreeze_calphad_states": 88,
+    "validates_the_ml_surrogate": false,
+    "validates_the_thermodynamic_description_qualitatively": true
+  },
+  "part_B_virtual_screening": {
+    "n_candidates": 120000,
+    "n_applicable": 52944,
+    "global_front": 5,
+    "finalists": 5,
+    "per_family_finalists": {
+      "ZR": 5,
+      "TI": 0,
+      "CO": 0,
+      "SI": 0,
+      "AG": 0,
+      "MO": 0
+    },
+    "no_weighted_score_used": true,
+    "bruteforce_verified": true,
+    "confirmation_states": 20,
+    "confirmation_converged": 20,
+    "confirmation_TVD_family_mean": 0.00011039719857643417,
+    "confirmation_is_a_selected_non_blind_subset": true,
+    "confirmation_is_a_generalization_estimate": false
+  },
+  "part_C_plan_audit": {
+    "literal_completion_percent": 35.14,
+    "scientific_completion_percent": 91.89,
+    "P24_status": "COMPLETED_WITH_REVISED_PROTOCOL",
+    "P14_status_is_not_completed": true,
+    "percentages_measure_quality": false
+  },
+  "invariants_held": {
+    "no_ni_composition_generated": true,
+    "no_ni_calphad_run": true,
+    "no_ni_prediction_made": true,
+    "no_model_retrained_or_retuned": true,
+    "no_frozen_blind_artifact_modified": true,
+    "no_unseen_chemical_identity_screened": true,
+    "failed_calphad_states_kept": true,
+    "partitioning_is_mole_based": true
+  },
+  "stop_rule": "STEP5K ends here. No retraining, no Ni expansion, no unseen element, no DFT, no experimental-property prediction, no new optimisation loop. Awaiting user review."
+}

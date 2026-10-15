@@ -1,0 +1,95 @@
+{
+  "generated_utc": "2026-09-07T11:12:37+00:00",
+  "n_plan_items": 37,
+  "status_counts": {
+    "COMPLETED_WITH_REVISED_PROTOCOL": 18,
+    "COMPLETED": 13,
+    "PARTIAL": 4,
+    "NOT_DONE": 1,
+    "SUPERSEDED_BY_STRONGER_DESIGN": 1
+  },
+  "literal_completion": {
+    "formula": "(# rows with status == COMPLETED AND literal_match == YES) / 37",
+    "numerator": 13,
+    "denominator": 37,
+    "percent": 35.14
+  },
+  "scientific_completion": {
+    "formula": "sum(weight(status)) / 37",
+    "weights": {
+      "COMPLETED": 1.0,
+      "COMPLETED_WITH_REVISED_PROTOCOL": 1.0,
+      "SUPERSEDED_BY_STRONGER_DESIGN": 1.0,
+      "PARTIAL": 0.5,
+      "IN_PROGRESS_IN_STEP5K": 0.5,
+      "NOT_DONE": 0.0
+    },
+    "numerator": 34.0,
+    "denominator": 37,
+    "percent": 91.89
+  },
+  "items_not_done": [
+    {
+      "plan_item_id": "P09",
+      "original_requirement": "\u5404X\u7684composition-T phase maps\uff1a\u7cfb\u7edf\u70ed\u529b\u5b66\u666f\u89c2\u56fe\uff0c\u8bc1\u660e\u6570\u636e\u5e93\u8986\u76d6\u4e0e\u76f8\u8fb9\u754c"
+    }
+  ],
+  "items_partial": [
+    {
+      "plan_item_id": "P05",
+      "original_requirement": "\u6570\u636e\u7ed3\u6784\u4e0e\u5b88\u6052\u89c4\u5219\uff1a\u4e94\u5f20\u539f\u59cb/\u5904\u7406\u8868\uff1braw\u4e0eaggregated\u76f8\u5e76\u5b58\uff1bpresence\u9608\u503c1e-4\u5e76\u5bf91e-5/1e-3\u505a\u654f\u611f\u6027\u5206\u6790\uff1b\u76f8\u5206\u6570<1e-8\u76f8\u7ec4\u6210\u8bbeNaN\uff1b\u5143\u7d20\u5206\u914d\u7528\u76f8\u6469\u5c14\u91cf n_i,a=n_a*X_i,a \u4e14 Sum P\u22481"
+    },
+    {
+      "plan_item_id": "P14",
+      "original_requirement": "\u4e3b\u6a21\u578b\uff1a\u5171\u4eab\u8868\u793a\u5c42+\u591a\u8f93\u51faHead\u7684\u5b88\u6052\u7ea6\u675f\u591a\u4efb\u52a1\u7f51\u7edc\uff08Head A presence sigmoid\uff1bHead B fraction softmax\uff1bC1-C3 partition softmax\uff0c\u03a3=1\u7ea6\u675f\u5d4c\u5165\u8f93\u51fa\u7ed3\u6784\uff09"
+    },
+    {
+      "plan_item_id": "P21",
+      "original_requirement": "OOD\u5931\u6548\u8bca\u65ad\uff1aNN\u8ddd\u79bb\u3001\u63cf\u8ff0\u7b26\u8d85\u8303\u56f4\u3001uncertainty\u3001\u76f8\u8fb9\u754c\u90bb\u8fd1\u3001topology novelty\u3001SHAP/ALE\u7279\u5f81\u5f52\u56e0\u6f02\u79fb\u2014\u2014\u56de\u7b54\u6a21\u578b\u4e3a\u4f55\u5931\u8d25"
+    },
+    {
+      "plan_item_id": "P32",
+      "original_requirement": "\u8bba\u6587\u7ed3\u6784\uff1a11\u7ae0\uff08Introduction/Methods/Thermodynamic landscape/ML prediction/OOD/Why models fail/Augmentation/Blind Ni/Topology/Screening/Conclusions\uff09"
+    }
+  ],
+  "items_superseded": [
+    {
+      "plan_item_id": "P22",
+      "original_requirement": "Targeted vs Random CALPHAD augmentation\uff1a\u5728\u6700\u96beLOEO\u4f53\u7cfb\u4e0a\u6309'\u9ad8\u4e0d\u786e\u5b9a\u6027+\u5927\u63cf\u8ff0\u7b26\u8ddd\u79bb+\u76f8\u8fb9\u754c'\u5b9a\u5411\u8865\u6837\uff0c\u4e0e\u7b49\u91cf\u968f\u673a\u8865\u6837\u572850/100/250/500/1000\u9636\u68af\u4e0a\u4e25\u683c\u6bd4\u8f83\u5b66\u4e60\u66f2\u7ebf"
+    }
+  ],
+  "step5k_resolved_items": [
+    {
+      "plan_item_id": "P26",
+      "what": "external literature validation",
+      "from": "IN_PROGRESS_IN_STEP5K",
+      "to": "COMPLETED_WITH_REVISED_PROTOCOL",
+      "evidence": [
+        "STEP5K_EXTERNAL_LITERATURE_VALIDATION.csv",
+        "STEP5K_EXTERNAL_VALIDATION_REPORT.md",
+        "STEP5K_EXTERNAL_VALIDATION_REFERENCES.csv",
+        "STEP5K_EXTVAL_CALPHAD_STATES.csv"
+      ]
+    },
+    {
+      "plan_item_id": "P27",
+      "what": "virtual thermodynamic screening",
+      "from": "IN_PROGRESS_IN_STEP5K",
+      "to": "COMPLETED_WITH_REVISED_PROTOCOL",
+      "evidence": [
+        "STEP5K_VIRTUAL_SCREENING_PARETO.csv",
+        "STEP5K_VIRTUAL_SCREENING_CANDIDATES.csv",
+        "STEP5K_PARETO_FREEZE.json",
+        "STEP5K_SCREENING_CALPHAD_CONFIRMATION.csv"
+      ]
+    }
+  ],
+  "history_guards": {
+    "P24_ni_blind_stays_revised_protocol": true,
+    "P24_note": "2000 compositions / 22,000 states, not the plan's suggested 5000 / 55,000; recorded as revised, never as literal",
+    "P14_shared_multitask_network_not_claimed_complete": true,
+    "P14_note": "the shared-representation multitask network was never built; the conservation goal was met by projection on a single-task model, which is not the same architecture"
+  },
+  "WHAT_THESE_NUMBERS_ARE_NOT": "A completion percentage against the original plan is a bookkeeping figure. It does not measure the quality, novelty or correctness of the work, and it must not be quoted as if it did. Several items scored below 1.0 because the plan was deliberately departed from in favour of a stronger design, and at least one item scored 1.0 for a protocol that was reduced in scale.",
+  "pre_step5k_table": "STEP5K_ORIGINAL_PLAN_COMPLETION_AUDIT_PRE_STEP5K.csv"
+}

@@ -1,0 +1,52 @@
+{
+  "generated_utc": "2026-09-07T14:14:47+00:00",
+  "WHAT_THIS_IS": "descriptive post-freeze equilibrium check on the finalists",
+  "WHAT_THIS_IS_NOT": "not a blind test, not a generalization estimate, not comparable to the prospective Ni blind metric: these compositions were selected BY the frozen surrogate from the extreme of its own predicted objective space, so the subset is selected and non-blind",
+  "used_to_retrain_reselect_or_rerank": false,
+  "n_finalists": 22,
+  "n_states": 88,
+  "n_converged": 88,
+  "n_failed_kept_not_deleted": 0,
+  "TVD_family_mean": 0.00010008027126634477,
+  "TVD_family_median": 9.406096927537263e-05,
+  "TVD_family_max": 0.0003986466405587481,
+  "TVD_Cr_partition_mean": 0.005502219071260302,
+  "TVD_X_partition_mean": 0.004806990976115203,
+  "MAE_frac_per_family": {
+    "FCC": 7.553768877045407e-05,
+    "BCC": 5.272248704117838e-05,
+    "C15": 5.9357964698846334e-05,
+    "OTHER_SOLID": 1.1335859439247745e-05,
+    "LIQUID": 1.2065425829630202e-06
+  },
+  "MAE_Cr_partition_per_family": {
+    "FCC": 0.0029659236956804673,
+    "BCC": 0.0031858275693719333,
+    "C15": 0.004510006096008129,
+    "OTHER_SOLID": 0.0003422893452340864,
+    "LIQUID": 3.914362259892765e-07
+  },
+  "dominant_family_agreement": 1.0,
+  "presence_pattern_agreement": 0.9318181818181818,
+  "moderate_C15_band": {
+    "low": 0.006963180159749138,
+    "high": 0.012557884123927762,
+    "n_finalists_with_both_450_600_in_band": 20,
+    "n_finalists_evaluated": 22
+  },
+  "spearman_pred_vs_calphad_Cr_P_FCC_950": 0.9186900056465275,
+  "per_temperature_TVD_family_mean": {
+    "450": 8.021984241723792e-05,
+    "600": 8.512788283886142e-05,
+    "950": 0.00011568498375837179,
+    "1000": 0.00011928837605090798
+  },
+  "per_identity_TVD_family_mean": {
+    "AG": 8.47395535735605e-05,
+    "CO": 7.842024852613786e-05,
+    "MO": 9.859578808439616e-05,
+    "SI": 0.00012643286899592768,
+    "TI": 7.744961981516402e-05,
+    "ZR": 0.00011039719857643417
+  }
+}
